@@ -1,6 +1,6 @@
 ---
 project: Gemini-Search
-stars: 1958
+stars: 1957
 description: |-
     Perplexity style AI Search engine clone built with Gemini 2.0 Flash and Grounding
 url: https://github.com/ammaarreshi/Gemini-Search

@@ -1,6 +1,6 @@
 ---
 project: SPlayer
-stars: 53
+stars: 55
 description: |-
     🎉 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer

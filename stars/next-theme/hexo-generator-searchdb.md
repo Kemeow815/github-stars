@@ -15,7 +15,7 @@ url: https://github.com/next-theme/hexo-generator-searchdb
 
 Seach data generator plugin for Hexo.
 
-This plugin is used for generating a search index file, which contains all the necessary data of your articles that you can use to write a local search engine for your blog. Supports both XML and JSON format output.
+This plugin is used for generating a search index file, which contains all the necessary data of your articles that you can use to write a local search engine for your blog. Supports both JSON and XML format output. The JSON format is recommended, as it has a smaller size and avoids encoding issues.
 
 ## Install
 
@@ -33,28 +33,28 @@ You can configure this plugin in your root `_config.yml`. All the arguments are 
 
 ``` yaml
 search:
-  path: search.xml
+  path: search.json
   field: post
   content: true
-  format: html
+  format: striptags
 ```
 
-- **path** - file path. By default is `search.xml`. If the file extension is `.json`, the output format will be JSON. Otherwise XML format file will be exported.
+- **path** - the path to the generated database file. Supports `.json` and `.xml` formats. If no file extension is provided, JSON format will be used by default.
 - **field** - the search scope you want to search, you can chose:
   * **post** (Default) - will only cover all the posts of your blog.
   * **page** - will only cover all the pages of your blog.
   * **all** - will cover all the posts and pages of your blog.
 - **content** - whether contains the whole content of each article. If `false`, the generated results only cover title and other meta info without mainbody. By default is `true`.
 - **format** - the form of the page contents, options are:
-  * **html** (Default) - original html string being minified.
-  * **striptags** - original html string being minified, and remove all the tags.
+  * **striptags** (Default) - original html string being minified, and remove all the tags.
+  * **html** - original html string being minified.
   * **raw** - markdown text of each posts or pages.
 
 ## FAQ
 
 ### What's this plugin supposed to do?
 
-This plugin is used for generating a xml / json file from your Hexo blog that provides data for searching.
+This plugin is used for generating a JSON / XML file from your Hexo blog that provides data for searching.
 
 ### Where's this file saved to?
 

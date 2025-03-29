@@ -1,6 +1,6 @@
 ---
 project: awesome-deepseek-integration
-stars: 30322
+stars: 30588
 description: |-
     Integrate the DeepSeek API into popular softwares
 url: https://github.com/deepseek-ai/awesome-deepseek-integration
@@ -41,6 +41,7 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
 * [Native AI Code Editor](#codeeditor)
 * [Emacs](#emacs)
 * [Security](#security)
+* [Providers](#providers)
 * [Others](#others)
 
 ## Project List
@@ -417,6 +418,11 @@ With these functionalities, the AI assistant can summarize key points within an 
         <td><a href="https://github.com/jiqi136/DS-AI">Multi-platform connected DeepSeek</a></td>
         <td>Leveraging the three-channel AI engine powered by DeepSeek Official, Alibaba Cloud, and Douyin Volcano, it continuously evolves its         intelligence. Additionally, it employs a hybrid mode combining "online search + deep thinking".</td>
     </tr>
+    <tr>
+    <td><img src="docs/remio/assets/remio_icon.png" alt="Icon" width="64" height="auto" /></td>
+    <td><a href="https://www.remio.ai/">remio</a></td>
+    <td>remio is an AI-powered personal knowledge hub that builds personalized knowledge bases by automatically capturing browsed web content, parsing local files, and integrating personal notes. It enables search and natural language Q&A within your personal knowledge base for instant insights while offering smart writing assistance—adapting to your style to streamline drafting, refining, and completing content with ease. Designed with local-first storage, remio prioritizes data privacy while centralizing fragmented information for maximum productivity.</td>
+    </tr> 
 </table>
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
@@ -478,6 +484,12 @@ With these functionalities, the AI assistant can summarize key points within an 
         <td width=80> <img src="docs/agentUniverse/assets/agentUniverse_logo_s.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/antgroup/agentUniverse"> agentUniverse </a> </td>
         <td> agentUniverse is a multi-agent collaboration framework designed for complex business scenarios. It offers rapid and user-friendly development capabilities for LLM agent applications, with a focus on mechanisms such as agent collaborative scheduling, autonomous decision-making, and dynamic feedback. The framework originates from Ant Group's real-world business practices in the financial industry. In June 2024, agentUniverse achieved full integration support for the DeepSeek series of models.  </td>
+    </tr>
+        <tr>
+            <td width=80> <img src="docs/BotSharp/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
+            <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
+            <td> BotSharp is an open-source multi-agent application development framework. From simple chatbots to multi-agent collaboration and complex tasks like the Text To SQL framework, it provides out-of-the-box solutions to quickly integrate large model capabilities into existing business systems. It also includes built-in knowledge base and session management features. The framework has been thoroughly tested with DeepSeek V3 models, and thanks to the performance of DeepSeek V3, the framework's performance is on par with other proprietary models. </td>
+        </tr>
     </tr>
 </table>
 
@@ -873,6 +885,18 @@ The purpose is to build infrastructure in the field of large models, through the
         <td> <img src="./docs/tencent/hunyuan.png"  alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
         <td> Tencent's Hunyuan Security Team - AI infrastructure security assessment tool designed to discover and detect potential security risks in AI systems.</td>
+    </tr>
+</table>
+
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+
+###  <span id="providers">Providers</span>
+
+<table>
+    <tr>
+        <td> <img src="./docs/aimlapi/aimlapi_logo.png"  alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://docs.aimlapi.com/api-references/text-models-llm?utm_source=awesome-deepseek-integrations&utm_medium=github&utm_campaign=integration"> AI/ML API </a> </td>
+        <td> AI/ML API gives users enterprise-grade access to 200+ models with just one API. This includes Deepseek R1 and V3, alongside closed and open-source models. All at 99% uptime and with 24/7 human support.</td>
     </tr>
 </table>
 

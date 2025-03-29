@@ -3,7 +3,7 @@ project: astroverse
 stars: 175
 description: |-
     An Astro theme tailored for impactful image-text blogging, ideal for content creators.
-url: https://github.com/inotelab/astroverse
+url: https://github.com/idimilab/astroverse
 ---
 
 ## 🌍Language Versions / 语言版本

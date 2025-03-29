@@ -1,6 +1,6 @@
 ---
 project: Ghosten-Player
-stars: 547
+stars: 555
 description: |-
     Ghosten Player 是一款同时适配📱 Android Phone 和 📺 Android TV 的视频播放器。整合影视资源，自动刮削媒体信息，支持IPTV播放，优雅打造私人影视库。 界面简洁，功能丰富，开箱即用。
 url: https://github.com/GhostenEditor/Ghosten-Player

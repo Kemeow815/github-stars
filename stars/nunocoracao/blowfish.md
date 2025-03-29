@@ -1,6 +1,6 @@
 ---
 project: blowfish
-stars: 1829
+stars: 1835
 description: |-
     Personal Website & Blog Theme for Hugo
 url: https://github.com/nunocoracao/blowfish

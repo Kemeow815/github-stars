@@ -1,6 +1,6 @@
 ---
 project: CloudFlare-ImgBed
-stars: 1715
+stars: 1723
 description: |-
     基于 CloudFlare Pages 的开源文件托管解决方案（图床/文件床/网盘）
 url: https://github.com/MarSeventh/CloudFlare-ImgBed
