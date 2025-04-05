@@ -1,6 +1,6 @@
 ---
 project: SuzuBlog
-stars: 14
+stars: 17
 description: |-
     A minimalist and fast Next.js blog template, using Markdown for content management. 基于 Next.js 的博客模板。
 url: https://github.com/ZL-Asica/SuzuBlog

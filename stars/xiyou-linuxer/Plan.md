@@ -1,6 +1,6 @@
 ---
 project: Plan
-stars: 37
+stars: 38
 description: |-
     西邮Linux兴趣小组培养计划，涵盖Linux入门、系统编程、网络编程以及后端能力培养。
 url: https://github.com/xiyou-linuxer/Plan

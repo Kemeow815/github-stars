@@ -1,6 +1,6 @@
 ---
 project: littlelink
-stars: 2092
+stars: 2105
 description: |-
     A lightweight DIY Linktree alternative.
 url: https://github.com/sethcottle/littlelink
@@ -86,16 +86,9 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
 
 #### 🐙 Active GitHub Sponsors
-• **[@nghialele](https://github.com/nghialele)**
-
 • **[Your Name Here](https://github.com/sponsors/sethcottle)**
 
 [![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
-
-#### ❤️ Patreon Members
-• **[Your Name Here](https://www.patreon.com/sethcottle)**
-
-[![Patreon](https://cdn.cottle.cloud/littlelink/button-patreon.svg)](https://www.patreon.com/sethcottle)
 
 
 #### 🥰 More Ways to Support LittleLink

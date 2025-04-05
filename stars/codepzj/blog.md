@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 1
+stars: 3
 description: |-
     null
 url: https://github.com/codepzj/blog

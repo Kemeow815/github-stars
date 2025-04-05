@@ -1,8 +1,8 @@
 ---
 project: UNM-Server
-stars: 10
+stars: 11
 description: |-
-    网易云解灰-API服务
+    网易云解灰API服务，支持解锁vip和灰色歌曲，可使用vercel部署
 url: https://github.com/IamFurina/UNM-Server
 ---
 

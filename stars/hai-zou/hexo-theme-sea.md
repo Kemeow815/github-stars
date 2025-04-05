@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-sea
-stars: 147
+stars: 146
 description: |-
     🐳 Hexo Theme | 博客主题
 url: https://github.com/hai-zou/hexo-theme-sea
@@ -9,7 +9,7 @@ url: https://github.com/hai-zou/hexo-theme-sea
 # Hexo Theme Sea
 一款简约的 Hexo 博客主题！
 
-![Hexo-Theme-Sea](https://github.com/user-attachments/assets/7a972162-0f91-4bbb-9fa7-2e1b12f9d68b)
+![Hexo-Theme-Sea](https://github.com/user-attachments/assets/d337cf2c-4dcd-474e-a290-16746520de08)
 
 ## 在线预览
 - Example: <https://hai-zou.github.io/hexo-theme-sea/>
@@ -128,6 +128,20 @@ friends:
     desc: # 描述
 ```
 
+### 作品
+
+```yml
+works:
+  - name: # 名称
+    desc: # 描述
+    tags: # 标签
+      - tag1
+      - tag2
+      - tag3
+    link: # 链接
+    cover: # 预览图
+```
+
 ### 社交链接
 
 ```yml
@@ -147,6 +161,13 @@ footer:
 
 ```yml
 primaryColor: '#10b981'
+```
+
+### 目录
+
+```yml
+tableOfContents:
+  enable: true # 默认启用
 ```
 
 ## 基本配置

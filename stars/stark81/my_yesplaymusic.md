@@ -1,6 +1,6 @@
 ---
 project: my_yesplaymusic
-stars: 238
+stars: 243
 description: |-
     高颜值的第三方网易云播放器，支持本地音乐播放、离线歌单、桌面歌词、Touch Bar歌词、Mac状态栏歌词、Linux-gnome环境状态栏歌词显示。支持 Windows / macOS / Linux :electron: 
 url: https://github.com/stark81/my_yesplaymusic

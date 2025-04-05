@@ -1,6 +1,6 @@
 ---
 project: nuxt3-blog
-stars: 195
+stars: 199
 description: |-
     A pure front-end blog written using Vue3, Nuxt3, and the GitHub API,free deployment, online writing.一个使用Vue3,Nuxt3,GitHub API写的纯前端博客，免费部署，在线写作
 url: https://github.com/yunyuyuan/nuxt3-blog

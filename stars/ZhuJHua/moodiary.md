@@ -1,6 +1,6 @@
 ---
 project: moodiary
-stars: 892
+stars: 942
 description: |-
     A fully open source cross-platform diary app written by flutter and rust.
 url: https://github.com/ZhuJHua/moodiary

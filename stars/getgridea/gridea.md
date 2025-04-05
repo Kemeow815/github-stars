@@ -1,6 +1,6 @@
 ---
 project: gridea
-stars: 10124
+stars: 10127
 description: |-
     ✍️ A static blog writing client (一个静态博客写作客户端)
 url: https://github.com/getgridea/gridea

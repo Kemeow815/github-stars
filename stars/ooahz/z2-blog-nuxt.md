@@ -1,6 +1,6 @@
 ---
 project: z2-blog-nuxt
-stars: 16
+stars: 17
 description: |-
     Nuxt3+Vue3+TS——采用前沿技术栈的现代化响应式博客项目
 url: https://github.com/ooahz/z2-blog-nuxt

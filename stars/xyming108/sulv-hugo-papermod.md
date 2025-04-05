@@ -1,6 +1,6 @@
 ---
 project: sulv-hugo-papermod
-stars: 186
+stars: 187
 description: |-
     👏🏻👏🏻 It is modified according to the papermod theme. The blogger's personal website：https://www.sulvblog.cn
 url: https://github.com/xyming108/sulv-hugo-papermod

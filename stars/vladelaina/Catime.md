@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 951
+stars: 1231
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -13,14 +13,21 @@ url: https://github.com/vladelaina/Catime
   
 </p>
 <p align="center">
-   <a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ&theme=small" alt="Featured｜HelloGitHub" /></a>
  <a href="https://github.com/vladelaina/Catime/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/vladelaina/Catime?label=License" /></a>
  <a href="https://github.com/vladelaina/Catime/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/vladelaina/Catime.svg?label=Release" /></a>
  <a href="https://github.com/vladelaina/Catime/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vladelaina/Catime/total?label=Downloads" /></a>
-
+ <a href="https://github.com/users/vladelaina/projects/2" target="_blank"><img src="https://img.shields.io/badge/To%20Do-5%25%20Complete-00C853?style=flat-circle" alt="To-Do" /></a>
+</a>
 </p>
 
 <h1 align="center">Catime</h1>
+
+<div align="center">
+
+
+  
+<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</div>
 
 <p align="center">一款简洁的 Windows 倒计时工具，支持番茄时钟功能，具有透明界面和丰富的自定义选项。</p>
 <p align="center">A simple Windows countdown tool with Pomodoro clock functionality, featuring a transparent interface and a variety of customization options.</p>
@@ -81,7 +88,6 @@ url: https://github.com/vladelaina/Catime
     <img src="https://api.star-history.com/svg?repos=vladelaina/Catime&type=Date" height="420" alt="Star History Chart">
 </a>
 
-> [项目进展](https://k021q39fc0u.feishu.cn/mindnotes/ZUDYbJAaOmhBAmn1H4Lc3rI3nGc#mindmap)
 
 ## ✨鸣谢 
 

@@ -1,6 +1,6 @@
 ---
 project: SPlayer
-stars: 55
+stars: 59
 description: |-
     🎉 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer
@@ -405,9 +405,12 @@ url: https://github.com/IamFurina/SPlayer
 
 </details>
 
-## todo列表
-- [ ] 支持Apple-Music Like Lyrics
+## 📄 todo列表
+- [x] 支持清除pwa缓存
+- [ ] 支持Apple Music-Like Lyrics
 - [ ] 解灰支持酷我源
+- [ ] 修复imsyy的陈年老bug
+- [ ] 同步dev分支
 
 ## ⭐ Star History
 

@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-gallery
-stars: 474
+stars: 480
 description: |-
     Gallery Theme for Hugo
 url: https://github.com/nicokaiser/hugo-theme-gallery
@@ -96,7 +96,7 @@ content/
 - `date` -- album date, used for sorting (newest first).
 - `description` -- description shown on the album page. Rendered as markdown to enable adding links and some formatting.
 - `weight` -- can be used to adjust sort order.
-- `params.featured_image` -- name of the image file used for the album thumbnail. If not set, the first image which contains `feature` in its filename is used, otherwise the first image in the album.
+- `params.featured_image` -- name of the image file used for the album thumbnail. If not set, the first image which contains `feature` in its filename is used, otherwise the first image in the album. (Deprecated, use `resources.params.cover`)
 - `params.private` -- if set to `true`, this album is not shown in the album overview and is excluded from RSS feeds.
 - `params.featured` -- if set to `true`, this album is featured on the homepage (even if private).
 - `params.sort_by` -- property used for sorting images in an album. Default is `Name` (filename), but can also be `Date`.
@@ -114,6 +114,19 @@ resources:
   - src: tree.jpg
     params:
       cover: true
+---
+```
+
+You can hide images from the gallery and use them only as cover image:
+
+```plain
+---
+title: Nature
+resources:
+  - src: nature-cover.jpg
+    params:
+      cover: true
+      hidden: true
 ---
 ```
 
@@ -266,6 +279,16 @@ Use the `socialIcons` configuration key to add social icons on the bottom of eac
     youtube = "https://www.youtube.com/"
     email = "mailto:user@example.com"
     linkedin = "https://linkedin.com/"
+```
+
+### Exclude original photos
+
+To exclude the original photos from the published site, and to disable the "Download" button, you can use the `build.publishResources` configuration option. Either add it to a specific album, or use `cascade` to omit the originals from all sub-albums. With `publishResources: false` only the resized images (without any metadata) are included in the published site, which can save quite some disk space.
+
+```toml
+cascade:
+  build:
+    publishResources: false
 ```
 
 ### Custom CSS

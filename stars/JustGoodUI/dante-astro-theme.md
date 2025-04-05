@@ -1,6 +1,6 @@
 ---
 project: dante-astro-theme
-stars: 355
+stars: 362
 description: |-
     Dante, a single-author blog and portfolio theme for Astro.js. 
 url: https://github.com/JustGoodUI/dante-astro-theme
@@ -57,7 +57,6 @@ Inside of Dante Astro theme, you'll see the following folders and files:
 ├── astro.config.mjs
 ├── package.json
 ├── README.md
-├── tailwind.config.cjs
 └── tsconfig.json
 ```
 

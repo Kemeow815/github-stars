@@ -1,6 +1,6 @@
 ---
 project: Memory-Blog
-stars: 443
+stars: 442
 description: |-
     This is a personal blogging platform built with React, TypeScript, and Spring Boot. 
 url: https://github.com/LinMoQC/Memory-Blog
