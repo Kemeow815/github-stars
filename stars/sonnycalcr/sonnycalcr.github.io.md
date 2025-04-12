@@ -1,6 +1,6 @@
 ---
 project: sonnycalcr.github.io
-stars: 9
+stars: 10
 description: |-
     null
 url: https://github.com/sonnycalcr/sonnycalcr.github.io

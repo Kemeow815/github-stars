@@ -1,6 +1,6 @@
 ---
 project: podcast2
-stars: 152
+stars: 153
 description: |-
     将视频网站转换成播客订阅   Convert a video website into a podcast subscription 支持 哔哩哔哩、YouTube、干净世界和girigirilove 图形化界面
 url: https://github.com/yajuhua/podcast2

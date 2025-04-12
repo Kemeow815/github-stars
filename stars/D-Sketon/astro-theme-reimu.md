@@ -1,6 +1,6 @@
 ---
 project: astro-theme-reimu
-stars: 25
+stars: 26
 description: |-
     一款博丽灵梦风格的Astro主题 | A Hakurei Reimu style Astro theme. 💘Touhou💘
 url: https://github.com/D-Sketon/astro-theme-reimu

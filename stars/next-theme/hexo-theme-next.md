@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-next
-stars: 2573
+stars: 2576
 description: |-
     🎉 Elegant and powerful theme for Hexo.
 url: https://github.com/next-theme/hexo-theme-next

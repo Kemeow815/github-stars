@@ -1,6 +1,6 @@
 ---
 project: Mail2Telegram
-stars: 84
+stars: 92
 description: |-
     Forward emails to Telegram/把邮件转发到Telegram
 url: https://github.com/Heavrnl/Mail2Telegram

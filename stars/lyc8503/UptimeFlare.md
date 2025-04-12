@@ -1,6 +1,6 @@
 ---
 project: UptimeFlare
-stars: 2213
+stars: 2223
 description: |-
     ✔ Free and serverless uptime monitoring / status page on Cloudflare Workers, with Geo-specific checks
 url: https://github.com/lyc8503/UptimeFlare
@@ -59,9 +59,11 @@ Please refer to [Wiki](https://github.com/lyc8503/UptimeFlare/wiki)
 - [ ] SSL certificate checks
 - [x] ~~Self-host Dockerfile~~
 - [x] Incident history
-- [ ] Improve `checkLocationWorkerRoute` and fix possible `proxy failed`
+- [x] Improve `checkLocationWorkerRoute` and fix possible `proxy failed`
 - [x] Groups 
 - [x] Remove old incidents
-- [ ] Known issue: `fetch` doesn't support non-standard port
+- [x] ~~Known issue~~: `fetch` doesn't support non-standard port (resolved after CF update)
+- [ ] Compatibility date update
 - [ ] Update wiki and add docs for dev
+- [ ] Cloudflare D1 database
 

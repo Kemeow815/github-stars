@@ -1,11 +1,12 @@
 ---
 project: SPlayer
-stars: 59
+stars: 61
 description: |-
-    🎉 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
+    🎉 一个简约的在线音乐播放器，具有音乐搜索、播放、每日推荐、私人FM、歌词显示、歌曲评论、网易云登录与云盘等功能; 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer
 ---
 
+# 该项目已经完成了目前所有的使命, 现已转入维护模式直到我中考结束!
 >[!IMPORTANT]
 >
 > # Q&A
@@ -130,14 +131,16 @@ url: https://github.com/IamFurina/SPlayer
 ## ⚙️ Vercel 部署
 
 
-1. 本程序依赖 [NeteaseCloudMusicApi](https://github.com/IamFurina/NeteaseCloudMusicApi) 运行以及[UNM-Server](https://act.focalors.ltd/unm-server)，请确保您已成功部署该项目，并成功取得在线访问地址
+1. 本程序依赖 [NeteaseCloudMusicApi](https://github.com/IamFurina/NeteaseCloudMusicApi) 运行以及[UNM-Server](https://act.focalors.ltd/unm-server)，并按照步骤部署, 请确保您已成功部署该项目，并成功取得在线访问地址
 2. 点击本仓库右上角的 `Fork`，复制本仓库到你的 `GitHub` 账号
 3. 复制 `/.env.example` 文件并重命名为 `/.env`
 4. 将 `.env` 文件中的 `RENDERER_VITE_SERVER_URL` 和 `VITE_UNM_API` 改为第一步得到的 API 地址
+5. 将 `.env` 文件中的 `RENDERER_VITE_SITE_URL` 改为您的站点地址, 用于解决跨域问题
 
    ```js
    RENDERER_VITE_SERVER_URL = "https://api.example.com";
-   VITE_UNM_API = "https://unm.example.com";
+   VITE_UNM_API = "https://unm.example.com/"; # 注意要加 /
+   RENDERER_VITE_SITE_URL = "https://player.example.com";
    ```
 
 5. 将 `Build and Output Settings` 中的 `Output Directory` 改为 `out/renderer`
@@ -407,10 +410,13 @@ url: https://github.com/IamFurina/SPlayer
 
 ## 📄 todo列表
 - [x] 支持清除pwa缓存
-- [ ] 支持Apple Music-Like Lyrics
-- [ ] 解灰支持酷我源
+- [x] 支持Apple Music-Like Lyrics
+> - [x] 解决歌词处理问题
+- [x] 解灰支持酷我源
 - [ ] 修复imsyy的陈年老bug
 - [ ] 同步dev分支
+- [x] 支持修改全局字体
+> - [x] 同时支持单独修改歌词字体
 
 ## ⭐ Star History
 

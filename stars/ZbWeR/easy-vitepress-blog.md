@@ -1,6 +1,6 @@
 ---
 project: easy-vitepress-blog
-stars: 37
+stars: 39
 description: |-
     基于 VitePress 快速搭建个人博客，自动化路由处理并预置了更加丰富的页面。
 url: https://github.com/ZbWeR/easy-vitepress-blog

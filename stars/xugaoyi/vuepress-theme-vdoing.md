@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-vdoing
-stars: 4717
+stars: 4723
 description: |-
     🚀一款简洁高效的VuePress知识管理&博客(blog)主题
 url: https://github.com/xugaoyi/vuepress-theme-vdoing

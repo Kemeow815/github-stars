@@ -1,6 +1,6 @@
 ---
 project: MusicPlayer
-stars: 44
+stars: 56
 description: |-
     MusicPlayer on Web like Apple Music
 url: https://github.com/CodeCrafter-TL/MusicPlayer

@@ -1,6 +1,6 @@
 ---
 project: ZYCS-IMG
-stars: 183
+stars: 196
 description: |-
     骤雨重山图床
 url: https://github.com/uxiaohan/ZYCS-IMG
@@ -29,6 +29,18 @@ English | [简体中文](https://github.com/uxiaohan/ZYCS-IMG/blob/main/README_C
 [Click to experience Demo](https://wp-cdn.4ce.cn/)
 
 ## How to deploy
+
+**One-click deployment**
+
+Vercel Automated Deployment
+
+[![骤雨重山图床](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/uxiaohan/ZYCS-IMG)
+
+Cloudflare Pages automatic deployment
+
+[![骤雨重山图床](https://deploy.workers.cloudflare.com/button)](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https://github.com/uxiaohan/ZYCS-IMG)
+
+**Manual Deployment**
 
 - 1. Prepare a Cloudflare account
 - 2. Fork this repository and freely modify the text in the `App.vue` and `index.html` files

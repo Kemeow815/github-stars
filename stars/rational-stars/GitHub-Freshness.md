@@ -1,6 +1,6 @@
 ---
 project: GitHub-Freshness
-stars: 271
+stars: 275
 description: |-
     GitHub Freshness 在线文档
 url: https://github.com/rational-stars/GitHub-Freshness

@@ -1,6 +1,6 @@
 ---
 project: astro-charm
-stars: 27
+stars: 28
 description: |-
     Beautiful and easy-to-use blog theme
 url: https://github.com/Yuhanawa/astro-charm
@@ -263,6 +263,20 @@ Please install Sharp (`sharp`) manually into your project
 ```bash
 pnpm add sharp
 ```
+
+### ResponseSentError: The response has already been sent to the browser and cannot be altered.
+
+Please create `posts` folder in `src\content` folder, and create a post ( `.md` file ) in it
+The minimal md file:
+
+```
+---
+title: title
+published: 2025-04-10
+---
+
+```
+
 
 ## Questions & Suggestions
 

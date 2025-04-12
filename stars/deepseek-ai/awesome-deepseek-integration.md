@@ -1,6 +1,6 @@
 ---
 project: awesome-deepseek-integration
-stars: 31062
+stars: 31454
 description: |-
     Integrate the DeepSeek API into popular softwares
 url: https://github.com/deepseek-ai/awesome-deepseek-integration
@@ -23,32 +23,41 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
 
 ## Table of Contents
 
-* [Applications](#applications)
-* [AI Agent frameworks](#agent)
-* [Data AI Applications frameworks](#data)
-* [RAG frameworks](#rag)
-* [FHE (Fully Homomorphic Encryption) frameworks](#fhe)
-* [Solana frameworks](#solana)
-* [Synthetic data curation](#sythetic)
-* [IM Application Plugins](#im)
-* [Office Addin](#office)
-* [Browser Extensions](#browser)
-* [VS Code Extensions](#vscode)
-* [Visual Studio Extensions](#vs)
-* [neovim Extensions](#neovim)
-* [JetBrains Extensions](#jetbrains)
-* [Discord Bots](#discord)
-* [Native AI Code Editor](#codeeditor)
-* [Emacs](#emacs)
-* [Security](#security)
-* [Providers](#providers)
-* [Others](#others)
+- [Awesome DeepSeek Integrations ](#awesome-deepseek-integrations-)
+  - [Table of Contents](#table-of-contents)
+  - [Project List](#project-list)
+    - [Applications](#applications)
+    - [AI Agent frameworks](#ai-agent-frameworks)
+    - [Data AI Applications frameworks](#data-ai-applications-frameworks)
+    - [RAG frameworks](#rag-frameworks)
+    - [FHE (Fully Homomorphic Encryption) frameworks](#fhe-fully-homomorphic-encryption-frameworks)
+    - [Solana frameworks](#solana-frameworks)
+    - [Synthetic data curation](#synthetic-data-curation)
+    - [IM Application Plugins](#im-application-plugins)
+    - [Office Addin](#office-addin)
+    - [Browser Extensions](#browser-extensions)
+    - [VS Code Extensions](#vs-code-extensions)
+    - [Visual Studio Extensions](#visual-studio-extensions)
+    - [neovim Extensions](#neovim-extensions)
+    - [JetBrains Extensions](#jetbrains-extensions)
+    - [Discord Bots](#discord-bots)
+    - [Native AI Code Editor](#native-ai-code-editor)
+    - [Emacs](#emacs)
+    - [Security](#security)
+    - [Providers](#providers)
+    - [Others](#others)
+    - [Star History](#star-history)
 
 ## Project List
 
 ###  <span id="applications">Applications</span>
 
 <table>
+    <tr>
+        <td><img src="docs/OpenXLab/migo/logo.svg" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://migo.intern-ai.org.cn/education">Migo</a></td>
+        <td>A free AI innovation accelerator offering intelligent Q&A, in-depth paper comprehension, cutting-edge AI tools, and a personal academic knowledge base. As your exploration partner, Migo helps you discover and realize outstanding ideas!</td>
+    </tr>
     <tr>
         <td><img src="docs/eechat/assets/logo.svg" alt="Icon" width="64" height="auto" /></td>
         <td><a href="https://github.com/Lucassssss/eechat">eechat</a></td>
@@ -74,7 +83,7 @@ With these functionalities, the AI assistant can summarize key points within an 
     <tr>
         <td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
-        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> is a lightning-fast, cross-platform AI chat application built with React Native. It delivers native performance on Android, iOS, iPad, Android tablets and macOS. Features include real-time streaming chat, rich Markdown support (tables, code blocks, LaTeX), AI image generation, customizable system prompts, and multimodal capabilities. Supports multiple AI providers including DeepSeek, Amazon Bedrock, Ollama and OpenAI with clean UI and high performance.</td>
+        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> is a lightning-fast, cross-platform AI chat application built with React Native. It delivers native performance on Android, iOS, and macOS. Features include real-time streaming chat, rich Markdown support, AI image generation, customizable system prompts, quick model selection and multimodal capabilities. Supports multiple AI providers including DeepSeek, Amazon Bedrock, Ollama and OpenAI Compatible Modles with clean UI and high performance.</td>
     </tr>
     </tr>
         <td><img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icon" width="64" height="auto" /></td>
@@ -423,6 +432,11 @@ With these functionalities, the AI assistant can summarize key points within an 
     <td><a href="https://www.remio.ai/">remio</a></td>
     <td>remio is an AI-powered personal knowledge hub that builds personalized knowledge bases by automatically capturing browsed web content, parsing local files, and integrating personal notes. It enables search and natural language Q&A within your personal knowledge base for instant insights while offering smart writing assistance—adapting to your style to streamline drafting, refining, and completing content with ease. Designed with local-first storage, remio prioritizes data privacy while centralizing fragmented information for maximum productivity.</td>
     </tr> 
+    <tr>
+    <td><img src="docs/DocKit/assets/dockit.png" alt="Icon" width="64" height="auto" /></td>
+    <td><a href="https://dockit.geekfun.club/">DocKit</a></td>
+    <td>DocKit is an AI powered desktop GUI client designed for NoSQL database, support Elasticsearch and OpenSearch across Mac, windows and Linux. By integrating with large models like DeepSeek, DocKit can help developers to write complex DSL queries, and provide a better experience for data management and analysis. </td>
+    </tr> 
 </table>
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
@@ -489,6 +503,11 @@ With these functionalities, the AI assistant can summarize key points within an 
             <td width=80> <img src="docs/BotSharp/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
             <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
             <td> BotSharp is an open-source multi-agent application development framework. From simple chatbots to multi-agent collaboration and complex tasks like the Text To SQL framework, it provides out-of-the-box solutions to quickly integrate large model capabilities into existing business systems. It also includes built-in knowledge base and session management features. The framework has been thoroughly tested with DeepSeek V3 models, and thanks to the performance of DeepSeek V3, the framework's performance is on par with other proprietary models. </td>
+        </tr>
+           <tr>
+            <td width=80> <img src="docs/eino/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
+            <td> <a href="https://github.com/cloudwego/eino"> Eino </a> </td>
+            <td> Eino (pronounced like "I know") aims to be the best LLM application development framework in the Go language. It draws on the design concept of excellent LLM frameworks in open source communities such as LangChain and LlamaIndex, while absorbing cutting-edge research results and practical application experience, providing a LLM application development framework that is more in line with Go programming conventions, emphasizing simplicity, scalability, reliability and efficiency. </td>
         </tr>
     </tr>
 </table>
@@ -636,6 +655,11 @@ The purpose is to build infrastructure in the field of large models, through the
 
 <table>
     <tr>
+        <td><img src="docs/OpenXLab/migo/logo.svg" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://chromewebstore.google.com/detail/cjapgnecnkblehipjghhegiccobeloka?utm_source=item-share-cb">Migo</a></td>
+        <td> Migo offers comprehensive text processing, information search, and knowledge Q&A functions, adapting to various online work and research scenarios (such as Feishu, arXiv, Overleaf, etc.).</td>
+    </tr>
+    <tr>
         <td> <img src="https://github.com/deepseek-ai/awesome-deepseek-integration/assets/59196087/9d3f42b8-fcd0-47ab-8b06-1dd0554dd80e" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/immersive_translate/README.md"> Immersive Translate </a> </td>
         <td> Immersive Translate is a bilingual webpage translation plugin. </td>
@@ -676,6 +700,12 @@ The purpose is to build infrastructure in the field of large models, through the
         <td>An intelligent RSS reader browser extension with AI-powered RSS summarization and multi-dimensional feed views. Supports DeepSeek model configuration for enhanced content understanding. </td>
     </tr>
     <tr>
+
+        <td> <img src="./docs/refinereader/assets/refinereader-128.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://refinereader.cuihuaer.com"> Refine Reader </a> </td>
+        <td> A Chrome extension that uses AI (DeepSeek, OpenAI, etc.) to help you quickly understand and summarize articles. </td>
+    </tr>
+    <tr>
         <td> <img src="https://raw.githubusercontent.com/Hedwi/deepchat/refs/heads/main/images/logo.svg" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://chromewebstore.google.com/detail/deepchat-power-of-deepsee/femhcibnncinlabdboehojdhfcihpkpl?hl=en"> DeepChat </a> </td>
         <td>A Chrome extension that enables users to chat with DeepSeek by opening a sidebar on any website. In addition, it provides a floating menu underneath any selected text on any website that allows users to generate text summaries, check grammar issues, and translate content.</td>
@@ -706,6 +736,7 @@ The purpose is to build infrastructure in the field of large models, through the
         <td>Docky AI is a powerful browser extension that allows you to have real-time conversations with multiple AI models through a sidebar. It supports simultaneous communication with multiple models and can assist you in reading web pages, writing, translating, and creating images</td>
     </tr>
 </table>
+
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 

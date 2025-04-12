@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-reimu
-stars: 80
+stars: 82
 description: |-
     一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hugo-theme-reimu
@@ -960,6 +960,7 @@ preloader:
   enable: true
   text: 少女祈祷中...
   icon: # 不填默认使用内链的svg（保证首屏加载速度），你可以填入一个链接来自定义加载图标，如 '/images/taichi.png'
+  rotate: true
 ```
 
 ##### 锚点图标

@@ -1,6 +1,6 @@
 ---
 project: HeoMusic
-stars: 343
+stars: 345
 description: |-
     一个基于Aplayer和MetingJS的静态音乐播放器
 url: https://github.com/zhheo/HeoMusic

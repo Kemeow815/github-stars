@@ -1,6 +1,6 @@
 ---
 project: vhAstro-Theme
-stars: 135
+stars: 142
 description: |-
     🚀 vhAstro-Theme：一款基于 Astro 构建的优雅的响应式博客主题
 url: https://github.com/uxiaohan/vhAstro-Theme
@@ -67,27 +67,29 @@ url: https://github.com/uxiaohan/vhAstro-Theme
 - 通过配置文件 `src/config.ts` 自定义博客
 - 执行 pnpm newpost '文章标题' 创建新文章，并在 src/content/posts/ 目录中编辑
 - 参考官方指南将博客部署至 Vercel, Netlify,Cloudflare Pages, GitHub Pages 等
-- 部署前需编辑 `astro.config.mjs` 中的站点设置。
 
-### 自动部署
-
-**Vercel 部署：**
+### Vercel 自动部署
 
 [![vhAstro-Theme](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/uxiaohan/vhAstro-Theme)
 
+### Cloudflare Pages 自动部署
 
-### 使用命令
+[![vhAstro-Theme](https://deploy.workers.cloudflare.com/button)](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https://github.com/uxiaohan/vhAstro-Theme)
+
+### 使用命令拉取模板
 
 ```bash
-# pnpm
-pnpm create astro@latest --template uxiaohan/vhAstro-Theme
-
-# yarn
-yarn create astro --template uxiaohan/vhAstro-Theme
-
-# npm
-npm create astro@latest -- --template uxiaohan/vhAstro-Theme
+# 使用 pnpm
+pnpm create astro@latest --template uxiaohan/vhAstro-Theme astro-blog
+# 或者 yarn
+yarn create astro --template uxiaohan/vhAstro-Theme astro-blog
+# 或者 npm
+npm create astro@latest -- --template uxiaohan/vhAstro-Theme astro-blog
+# 进入项目目录
+cd astro-blog
 ```
+
+### 本地开发
 
 ```bash
 # 安装依赖
@@ -99,6 +101,10 @@ pnpm build
 # 创建新文章
 pnpm newpost '文章标题'
 ```
+
+### ⚠️ Hexo 迁移 Astro 方法
+
+> 将 `Hexo` 博客的 `src/_posts/` 目录下的文章文件，复制到 `Astro` 的 `src/content/blog/` 目录下即可，然后自定义 `src/config.ts` 配置文件去自定义博客。<br>⚠️ `Hexo` 的部署、使用、自动化部署等方法 完全适用于 `Astro` 博客！<br>🎉 此时，你已成功迁移 Hexo 博客至 Astro 博客！
 
 ## 🍬 特色页面
 
@@ -314,10 +320,6 @@ export default {
   AsideShow: {
     // 是否展示个人网站
     WebSitesShow: true,
-    // 是否展示公告
-    TipsShow: true,
-    // 是否展示数量统计
-    CountShow: true,
     // 是否展示分类
     CategoriesShow: true,
     // 是否展示个人标签
