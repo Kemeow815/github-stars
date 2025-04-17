@@ -1,6 +1,6 @@
 ---
 project: astro-theme-retypeset
-stars: 184
+stars: 221
 description: |-
     Revive the beauty of typography.
 url: https://github.com/radishzzz/astro-theme-retypeset
@@ -38,7 +38,7 @@ Retypeset is a static blog theme based on the [Astro](https://astro.build/) fram
 ## Features
 
 - Built with Astro and UnoCSS
-- Support for SEO, Sitemap, OpenGraph, TOC, RSS, MDX and KaTeX
+- Support for SEO, Sitemap, OpenGraph, TOC, RSS, MDX and LaTeX
 - i18n support
 - Light / Dark mode
 - Elegant view transitions
@@ -49,35 +49,66 @@ Retypeset is a static blog theme based on the [Astro](https://astro.build/) fram
 
 ## Performance
 
+<br>
+
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fretypeset.radishzz.cc%2F">
     <img width="710" alt="Retypeset Lighthouse Score" src="assets/retypeset-lighthouse-score.svg">
   <a>
 </p>
 
-## Deploy
+## Getting Started
 
-1. Click [`Fork`](https://github.com/radishzzz/astro-theme-retypeset/fork) to clone this repository.
+1. [Fork](https://github.com/radishzzz/astro-theme-retypeset/fork) this repository, or use this template to create a new repository.
 
-2. Click `Deploy to Netlify` or `Deploy to Vercel` below
+2. Click the `Code` button, copy the `HTTPS` URL, and run the following commands in your terminal:
+
+   ```bash
+   # Clone the repository
+   git clone repository-url
+
+   # Navigate to the project directory
+   cd repository-name
+
+   # Install pnpm globally (if not already installed)
+   npm install -g pnpm
+
+   # Install dependencies
+   pnpm install
+
+   # Start the development server
+   pnpm dev
+   ```
+
+3. Open [localhost:4321](http://localhost:4321/) in your browser to see a live preview of your website.
+
+4. Refer to the [Theme Guide](https://retypeset.radishzz.cc/en/posts/theme-guide/) to customize your blog and create new articles.
+
+5. Refer to the [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) to deploy your blog to Netlify, Vercel, or other platforms.
 
 &emsp;[![Deploy to Netlify](assets/deploy-netlify.svg)](https://app.netlify.com/start)
-[![Deploy to Vercel](assets/deploy-vercel.svg)](https://vercel.com/new)
-
-3. Select the repository and click `Deploy`.
-
-For other platforms, please refer to the [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/).
+ [![Deploy to Vercel](assets/deploy-vercel.svg)](https://vercel.com/new)
 
 ## Updates
 
-1. Follow the [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to run `Sync fork`.
+- Retypeset releases [new features](https://github.com/radishzzz/astro-theme-retypeset/issues/18) from time to time, which can be updated as follows.
 
-2. Do not click `Discard Changes`.
+- Refer to the [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to run `Sync fork` in your repository to sync with the latest branch.
 
-## Documentation
+- Do not click `Discard Changes`, or you will lose your modifications.
 
-- [Theme Guide](https://retypeset.radishzz.cc/en/posts/theme-guide/)
-- [Theme Configuration File](https://github.com/radishzzz/astro-theme-retypeset/blob/master/src/config.ts)
+## Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Install dependencies                             |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
 ## Credits
 
@@ -89,6 +120,8 @@ For other platforms, please refer to the [Astro Deployment Guides](https://docs.
 - [EarlySummerSerif](https://github.com/GuiWonder/EarlySummerSerif)
 
 ## Star History
+
+Thank you to everyone who has starred this project. Your support motivates me to keep maintaining it!
 
 <p align="center">
 <a href="https://star-history.com/#radishzzz/astro-theme-retypeset&Date">

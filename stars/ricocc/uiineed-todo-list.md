@@ -1,6 +1,6 @@
 ---
 project: uiineed-todo-list
-stars: 117
+stars: 131
 description: |-
     Todo List Online - Minimalist, No-Login Required Web Todo App
 url: https://github.com/ricocc/uiineed-todo-list
@@ -74,9 +74,10 @@ url: https://github.com/ricocc/uiineed-todo-list
 
 ## 推荐项目
 - <a href="https://github.com/ricocc/public-portfolio-site/" target="_blank">⭐Star Github- Ricocc 开源博客 </a>
-- <a href="https://webinspo.uiineed.com/" target="_blank">💻 网页灵感站</a>
+- <a href="https://inspoweb.com/" target="_blank">💻 网页灵感站</a>
 - <a href="https://og.uiineed.com/" target="_blank">🖼 免费 OG Image 生成器</a>
-
+- <a href="https://www.aiwnt.com.cn/toolset" target="_blank">🛠️ 实用AI工具</a>
+- <a href="https://gradientshub.com/" target="_blank">🎨渐变背景和生成工具</a>
 
 ---
 <br/>
@@ -144,7 +145,8 @@ The personal information section is as follows:
 - <a href="https://github.com/ricocc/public-portfolio-site/" target="_blank">⭐Star Github- Ricocc's Blog </a>
 - <a href="https://webinspo.uiineed.com/" target="_blank">💻 Web Design Inspiration</a>
 - <a href="https://og.uiineed.com/" target="_blank">🖼 Free OG Image Generator</a>
-
+- <a href="https://www.aiwnt.com/" target="_blank">🛠️ AI Web Novel Translator</a>
+- <a href="https://gradientshub.com/" target="_blank">🎨Free Gradients Toolkits</a>
 
 
 

@@ -1,6 +1,6 @@
 ---
 project: nextjs-nextra-starter
-stars: 112
+stars: 118
 description: |-
     ⚡️  一个 Next.js 快速启动模板, 集成 Tailwind CSS (v4) + React (v19) + Nextra (v4) + TypeScript + Shadcn UI + Radix UI + Aceternity UI + ESLint(v9) + Sass, 支持 Iconify 图标集, i18n 多语言国际化 - 响应式、暗黑模式落地页、适合开发个人博客 Blog Starter Template, Deployed on Netlify and Vercel.
 url: https://github.com/pdsuwwz/nextjs-nextra-starter
@@ -17,7 +17,8 @@ url: https://github.com/pdsuwwz/nextjs-nextra-starter
 
 ⚡️ 快速模板 Starter Template - React v19 + Next.js + Nextra (v4) + TypeScript + TailwindCSS (v4) + Shadcn UI
 
-[🚀 Live Demo 在线体验](https://nextjs-nextra.netlify.app/zh)
+- [🚀 Live Demo 在线体验](https://nextjs-nextra.netlify.app/zh)
+- [✨ 备用地址](https://nextjs-nextra-starter-green.vercel.app/zh)
 
 ## 🚀 更新说明
 
@@ -141,6 +142,14 @@ export default function Home() {
 
 - 通过提交 [Issue](https://github.com/pdsuwwz/nextjs-nextra-starter/issues) 分享您的项目链接
 - 提交 Pull Request (PR) 将您的项目添加到列表中
+
+## 🚨 免责声明
+
+本模板作为技术方案参考提供，使用者需知悉以下风险及义务：
+
+- **技术风险**：依赖框架（Next.js/Nextra/Tailwind CSS等）存在版本迭代风险，第三方组件（如 Shadcn UI）的行为规范以原始仓库为准，环境配置变更可能导致不可预见的构建异常
+- **使用限制**：禁止用于违反开源协议或法律法规的场景，使用者需自行完成代码安全审查及生产环境验证
+- **责任免除**：不承诺技术方案的业务适用性、安全性担保及定制支持，因使用/修改引发的直接或间接后果均由使用者自行承担
 
 ## License
 

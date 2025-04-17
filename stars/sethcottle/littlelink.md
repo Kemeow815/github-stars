@@ -1,6 +1,6 @@
 ---
 project: littlelink
-stars: 2130
+stars: 2139
 description: |-
     A lightweight DIY Linktree alternative.
 url: https://github.com/sethcottle/littlelink

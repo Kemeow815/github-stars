@@ -1,6 +1,6 @@
 ---
 project: PiliPlus
-stars: 1543
+stars: 1601
 description: |-
     PiliPlus
 url: https://github.com/bggRGjQaUbCoE/PiliPlus
@@ -55,12 +55,15 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 
 ## feat
 
+- [x] 直播弹幕发送表情
+- [x] 收藏夹排序
+- [x] 稍后再看`未看`/`未看完`/`已看完`分类
 - [x] WebDAV 备份/恢复设置
 - [x] 保存评论/动态
-- [x] 高级弹幕 by @My-Responsitories
+- [x] 高级弹幕 by [@My-Responsitories](https://github.com/My-Responsitories)
 - [x] 取消/置顶评论
 - [x] 记笔记
-- [x] 多账号支持 by @My-Responsitories
+- [x] 多账号支持 by [@My-Responsitories](https://github.com/My-Responsitories)
 - [x] 屏蔽带货动态/评论
 - [x] 互动视频
 - [x] 发评/动态反诈

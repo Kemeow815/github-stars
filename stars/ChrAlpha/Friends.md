@@ -1,6 +1,6 @@
 ---
 project: Friends
-stars: 3
+stars: 2
 description: |-
     你这是要和 ChrAlpha 交换友链吗？
 url: https://github.com/ChrAlpha/Friends

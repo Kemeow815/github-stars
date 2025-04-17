@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 1377
+stars: 1446
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -57,7 +57,7 @@ url: https://github.com/vladelaina/Catime
 - 🕰️ 作为桌面时钟使用
 - ⏱️正计时/倒计时
 
- 演示视频(基于V1.0.5)：<img src="https://www.bilibili.com/favicon.ico" width="20" height="20"> [BiliBili](https://www.bilibili.com/video/BV1fzQRYxErt)
+ 演示视频(基于V1.0.5)：<img src="https://www.bilibili.com/favicon.ico" width="20" height="20"> [BiliBili](https://www.bilibili.com/video/BV1AsoKYgE3r/)
 
 ## 📑使用说明
 

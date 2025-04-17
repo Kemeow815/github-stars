@@ -1,6 +1,6 @@
 ---
 project: BewlyCat
-stars: 67
+stars: 90
 description: |-
     BewlyCat——基于BewlyBewly开发
 url: https://github.com/keleus/BewlyCat
@@ -9,6 +9,10 @@ url: https://github.com/keleus/BewlyCat
 # BewlyCat
 
 ![GitHub Release](https://img.shields.io/github/v/release/keleus/BewlyCat)
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/oopkfefbgecikmfbbapnlpjidoomhjpl?label=Chrome%20Version)
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/oopkfefbgecikmfbbapnlpjidoomhjpl?label=Chrome%20Users)
+![Edge Addons Version](https://img.shields.io/badge/dynamic/json?label=Edge%20Version&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Faaammfjdfifgnfnbflolojihjfhdploj)
+![Edge Addons Users](https://img.shields.io/badge/dynamic/json?label=Edge%20Users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Faaammfjdfifgnfnbflolojihjfhdploj)
 
 此项目基于[BewlyBewly](https://github.com/BewlyBewly/BewlyBewly)开发，并在其基础上进行功能扩充和调整，并合并了一些其他拓展的功能。
 
@@ -30,13 +34,34 @@ url: https://github.com/keleus/BewlyCat
 > [!CAUTION]
 > 本插件移除了原插件的`tabs`权限以及`activeTab`权限，目前我个人使用功能并未受到影响，不确定是否会造成BUG。
 
+## 主要功能异同
+
+### 新增功能
+1. 新增视频卡片、顶栏链接后台打开的能力。
+2. 新增默认播放器样式设置，当播放器样式是默认和宽屏的时候会自动滚动到弹幕框与底部平齐。
+3. 新增同步配置功能（实验）
+4. 新增用户面板大会员权益领取入口。
+5. 新增首页推荐前进后退的能力。
+6. 新增合集播放自动关闭功能（需要在设置里开启），方便挂合集听歌。
+7. 新增web模式推荐按照点赞/播放比例过滤视频的能力（需要设置里开启）
+
+### 删除功能
+1. 删除了原插件广东话翻译
+2. 删除了内置字体，减少打包体积（14.4M -> 600K）
+3. 删除了旧版顶栏（减少开发成本），并重构了原项目的顶栏组件（功能无差异）
+
+如果用不到本项目新增功能的，推荐使用另外一个Fork项目，会更加稳定：[BewlyBewly-AveMujica](https://github.com/VentusUta/BewlyBewly-AveMujica)
+
 ## ⬇️ 安装
 
-### 在线安装(审核可能存在延迟)
+### 在线安装
 
 [Chrome应用商店](https://chromewebstore.google.com/detail/oopkfefbgecikmfbbapnlpjidoomhjpl)
 
-[Edge应用商店](https://microsoftedge.microsoft.com/addons/detail/bewlycat/aaammfjdfifgnfnbflolojihjfhdploj)(不知道为啥审核的比Chrome快?)
+[Edge应用商店](https://microsoftedge.microsoft.com/addons/detail/bewlycat/aaammfjdfifgnfnbflolojihjfhdploj):审核的比Chrome快
+
+> [!CAUTION]
+> 审核可能存在延迟，Chrome一般会晚7-15天，Edge一般会晚3-7天
 
 ### 本地安装
 

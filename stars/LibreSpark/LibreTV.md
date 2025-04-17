@@ -1,9 +1,9 @@
 ---
 project: LibreTV
-stars: 1274
+stars: 1836
 description: |-
     一键部署的影视站
-url: https://github.com/bestZwei/LibreTV
+url: https://github.com/LibreSpark/LibreTV
 ---
 
 # LibreTV - 免费在线视频搜索与观看平台
@@ -14,7 +14,7 @@ LibreTV是一个轻量级、免费的在线视频搜索与观看平台，提供�
 
 本项目基于 https://github.com/bestK/tv
 
-演示站：https://libretv.is-an.org/
+演示站：(请自行部署，不再提供演示站)
 
 <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/image-20250406231222216.png" alt="image-20250406231222216" style="zoom:67%;" />
 
@@ -43,14 +43,6 @@ LibreTV播放器支持以下键盘快捷键：
 - **上/下箭头**：调整音量
 - **F**：全屏/退出全屏
 
-## 📹 视频源支持说明
-
-LibreTV 默认支持以下几种视频源接口：
-- 黑木耳影视 (heimuer)
-- 非凡影视 (ffzy)
-- 天涯资源 (tyyszy)
-- …
-
 ### CMS采集站源兼容性
 
 本项目支持标准的苹果CMS V10 API格式。自定义API需遵循以下格式：
@@ -75,9 +67,7 @@ LibreTV 默认支持以下几种视频源接口：
 
 ## 🚀 一键部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FbestZwei%2FLibreTV)
-
-[![Deploy to Cloudflare Pages](https://img.shields.io/badge/Deploy%20to-Cloudflare%20Pages-blue?style=for-the-badge&logo=cloudflare)](https://dash.cloudflare.com/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLibreSpark%2FLibreTV)
 
 ## 🚀 部署指南
 
@@ -140,29 +130,13 @@ services:
 - `API_SITES`: 添加或修改视频源API接口
 - `SITE_CONFIG`: 更改站点名称、描述等基本信息
 - `PLAYER_CONFIG`: 调整播放器参数，如自动播放、广告过滤等
+- `HIDE_BUILTIN_ADULT_APIS`: 用于控制是否隐藏内置的黄色采集站API，默认值为`true`。设置为`true`时，内置的某些敏感API将不会在设置面板中显示，可根据实际需要修改配置。
 
 注意：若使用docker部署，可进入容器，在`/usr/share/nginx/html/js`内修改相关配置
 
-## 🌟 项目结构
-
-```
-LibreTV/
-├── css/
-│   └── styles.css       // 自定义样式
-├── js/
-│   ├── app.js           // 主应用逻辑
-│   ├── api.js           // API请求处理
-│   ├── config.js        // 全局配置
-│   └── ui.js            // UI交互处理
-├── player.html          // 自定义视频播放器
-├── index.html           // 主页面
-├── robots.txt           // 搜索引擎爬虫配置
-└── sitemap.xml          // 站点地图
-```
-
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bestZwei/LibreTV&type=Date)](https://www.star-history.com/#bestZwei/LibreTV&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=LibreSpark/LibreTV&type=Date)](https://www.star-history.com/#LibreSpark/LibreTV&Date)
 
 ## ⚠️ 免责声明
 

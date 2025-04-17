@@ -1,6 +1,6 @@
 ---
 project: github-chinese
-stars: 8834
+stars: 8920
 description: |-
     GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 url: https://github.com/maboloshi/github-chinese
@@ -29,6 +29,10 @@ url: https://github.com/maboloshi/github-chinese
 </a>
 
 </div>
+
+> [!warning]
+>
+> 本项目从未发布至 GitCode，如您发现请截图并保留证据
 
 ## 💖 星标历史
 

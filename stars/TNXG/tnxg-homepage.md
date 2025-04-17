@@ -2,7 +2,7 @@
 project: tnxg-homepage
 stars: 9
 description: |-
-    null
+    TiaNXianG's Homepage
 url: https://github.com/TNXG/tnxg-homepage
 ---
 

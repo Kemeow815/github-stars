@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-plume
-stars: 224
+stars: 226
 description: |-
     A vuepress theme.  Simple, feature-rich,  document & blog
 url: https://github.com/pengzhanbo/vuepress-theme-plume

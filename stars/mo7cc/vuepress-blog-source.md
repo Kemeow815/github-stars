@@ -1,6 +1,6 @@
 ---
 project: vuepress-blog-source
-stars: 29
+stars: 28
 description: |-
     https://mo7.cc 博客源码的开源部分。由vuepress2 搭建
 url: https://github.com/mo7cc/vuepress-blog-source

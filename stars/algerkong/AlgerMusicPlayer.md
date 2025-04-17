@@ -1,8 +1,8 @@
 ---
 project: AlgerMusicPlayer
-stars: 2141
+stars: 2451
 description: |-
-    一个第三方音乐播放器、本地服务、桌面歌词、主题切换
+    一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、最高音质
 url: https://github.com/algerkong/AlgerMusicPlayer
 ---
 

@@ -1,6 +1,6 @@
 ---
 project: astro-theme-typography
-stars: 405
+stars: 409
 description: |-
     Rediscover the beauty of typography.
 url: https://github.com/moeyua/astro-theme-typography
@@ -43,6 +43,7 @@ url: https://github.com/moeyua/astro-theme-typography
 - [My Blog](https://blog.moeyua.com/)
 - [Julyfun's Blog (how to fully build this blog using `bun` in minutes)](https://julyfun.fun/posts/%E5%85%89%E9%80%9F%E6%90%AD%E5%BB%BA%E8%BF%99%E6%A0%B7%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/)
 - [Jinx's Blog](https://blog.mytest.cc/)
+- [Unconventional Reading Notes](https://books.beyondxin.top/)
 
 ## Getting Started
 

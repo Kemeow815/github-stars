@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 267
+stars: 275
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit

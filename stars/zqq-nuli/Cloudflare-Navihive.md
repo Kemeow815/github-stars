@@ -1,6 +1,6 @@
 ---
 project: Cloudflare-Navihive
-stars: 222
+stars: 242
 description: |-
     NaviHive 是一个精美的个人网站导航管理系统，帮助你整理和管理你收藏的网站链接。支持分组管理、拖拽排序、暗色模式等功能，让你的网站收藏更有条理、更易访问。
 url: https://github.com/zqq-nuli/Cloudflare-Navihive
@@ -399,6 +399,9 @@ A: NaviHive 使用两个主要表格：
 -   [Curosr](https://www.cursor.com)
 
 ## 📅 更新日志
+### v1.0.3(2025-04-14)
+- 增加背景图设置与蒙版透明度设置
+
 ### v1.0.2(2025-04-09)
 - 修复导入数据自定义样式为空报错问题
 - 修复导入数据会产生重复数据问题

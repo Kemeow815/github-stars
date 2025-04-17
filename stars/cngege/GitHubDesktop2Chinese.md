@@ -1,6 +1,6 @@
 ---
 project: GitHubDesktop2Chinese
-stars: 151
+stars: 155
 description: |-
     GithubDesktop语言本地化(汉化)工具 【GitHub桌面客户端中文汉化】
 url: https://github.com/cngege/GitHubDesktop2Chinese

@@ -1,6 +1,6 @@
 ---
 project: bilibilias
-stars: 1147
+stars: 1153
 description: |-
     哔哩哔哩解析工具，一个辅助缓存下载B站视频番剧的APP，帮助你快速便捷的缓存B站视频和番剧。
 url: https://github.com/1250422131/bilibilias
