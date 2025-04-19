@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-async
-stars: 38
+stars: 39
 description: |-
     一个简单而轻量级的 Vitepress 主题。 |   A simple, lightweight Vitepress  theme.
 url: https://github.com/MaLuns/vitepress-theme-async

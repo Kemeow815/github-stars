@@ -1,6 +1,6 @@
 ---
 project: OpenNote-Compose
-stars: 504
+stars: 509
 description: |-
     Markdown Editor & Notebook for Android built with Jetpack Compose.
 url: https://github.com/YangDai2003/OpenNote-Compose

@@ -1,6 +1,6 @@
 ---
 project: Meting-API
-stars: 25
+stars: 26
 description: |-
     🐳 Meting API 的容器化与部署
 url: https://github.com/imsyy/Meting-API

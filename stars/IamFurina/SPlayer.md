@@ -1,6 +1,6 @@
 ---
 project: SPlayer
-stars: 63
+stars: 65
 description: |-
     🎉 一个简约的在线音乐播放器，具有音乐搜索、播放、每日推荐、私人FM、歌词显示、歌曲评论、网易云登录与云盘等功能; 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer
@@ -137,11 +137,38 @@ url: https://github.com/IamFurina/SPlayer
 4. 将 `.env` 文件中的 `RENDERER_VITE_SERVER_URL` 和 `VITE_UNM_API` 改为第一步得到的 API 地址
 5. 将 `.env` 文件中的 `RENDERER_VITE_SITE_URL` 改为您的站点地址, 用于解决跨域问题
 
-   ```js
+   ```dotenv
    RENDERER_VITE_SERVER_URL = "https://api.example.com";
    VITE_UNM_API = "https://unm.example.com/"; # 注意要加 /
    RENDERER_VITE_SITE_URL = "https://player.example.com";
    ```
+> [!IMPORTANT]
+>
+> 同时API也有另一只填入方式, 请在`vercel.json`里面
+>
+>```json
+>
+> "rewrites": [
+>   {
+>     "source": "/:path",
+>     "destination": "/index.html"
+>   },
+>   {
+>     "source": "/api/netease/:apiurl*",
+>     "destination": "https://你的网易云api域名/:apiurl*"
+>   },
+>   {
+>     "source": "/api/unblock/:match*",
+>     "destination": "https://你的unmapi域名/:match*"
+>   }
+> ]
+>```  
+> 随后在`.env`里面填写
+>
+>```dotenv
+>## 使用同级域名API
+>RENDERER_VITE_SITE_ROOT = true
+>```
 
 5. 将 `Build and Output Settings` 中的 `Output Directory` 改为 `out/renderer`
 
@@ -415,6 +442,8 @@ url: https://github.com/IamFurina/SPlayer
 - [x] 解灰支持酷我源
 - [ ] 修复imsyy的陈年老bug
 - [ ] 同步dev分支
+- [x] 解决跨资源共享问题
+- [ ] 支持多语言
 - [x] 支持修改全局字体
 > - [x] 同时支持单独修改歌词字体
 

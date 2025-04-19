@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-reimu
-stars: 86
+stars: 88
 description: |-
     一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hugo-theme-reimu

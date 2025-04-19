@@ -1,6 +1,6 @@
 ---
 project: GitHubDesktop2Chinese
-stars: 155
+stars: 156
 description: |-
     GithubDesktop语言本地化(汉化)工具 【GitHub桌面客户端中文汉化】
 url: https://github.com/cngege/GitHubDesktop2Chinese
@@ -79,9 +79,11 @@ url: https://github.com/cngege/GitHubDesktop2Chinese
  - [x] 加载器检查json文件所需最低版本是否满足需求,如果不满足且定义了`--nopause`则提示后退出,
        否则提示后询问是否强制替换
  - [x] 加载器在没有定义`--nopause`的情况下,在替换之前进行一次暂停,以便用户自行确认信息后是否往下执行
- - [ ] 加载器自动更新，以及可以在参数中禁用自动更新
+ - [x] ~加载器自动更新，以及可以在参数中禁用自动更新~
+ - [x] 提示确认后自动更新
  - [ ] JSON文件附加描述文本，在加载器中显示
  - [x] 加载器显示所有项目参与者并在汉化后显示
+ - [x] 汉化异常后恢复汉化前文件
 
 ## 🍬星标(收藏)历史
 ![Star History Chart](https://api.star-history.com/svg?repos=cngege/GitHubDesktop2Chinese&type=Date)

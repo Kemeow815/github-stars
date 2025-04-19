@@ -1,6 +1,6 @@
 ---
 project: bloggrify
-stars: 125
+stars: 126
 description: |-
     A personal blog template made with Nuxt and Nuxt-content
 url: https://github.com/bloggrify/bloggrify

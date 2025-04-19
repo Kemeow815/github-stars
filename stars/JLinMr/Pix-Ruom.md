@@ -1,6 +1,6 @@
 ---
 project: Pix-Ruom
-stars: 9
+stars: 10
 description: |-
     Pix-Ruom 是一个现代化的图片上传管理工具，支持多种云存储服务，提供图片压缩、格式转换等功能，帮助你更好地管理和分享图片。
 url: https://github.com/JLinMr/Pix-Ruom

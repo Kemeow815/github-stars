@@ -1,6 +1,6 @@
 ---
 project: astroplate
-stars: 739
+stars: 741
 description: |-
     Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript providing everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work!
 url: https://github.com/zeon-studio/astroplate

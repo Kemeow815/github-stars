@@ -1,6 +1,6 @@
 ---
 project: blossom
-stars: 3405
+stars: 3411
 description: |-
     A markdown editor that you can deploy on your own servers to achieve cloud storage and device synchronization（支持私有部署的云端存储双链笔记软件）
 url: https://github.com/blossom-editor/blossom

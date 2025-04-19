@@ -1,6 +1,6 @@
 ---
 project: build-your-own-x
-stars: 372036
+stars: 373103
 description: |-
     Master programming by recreating your favorite technologies from scratch.
 url: https://github.com/codecrafters-io/build-your-own-x

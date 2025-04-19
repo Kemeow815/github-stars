@@ -1,6 +1,6 @@
 ---
 project: BewlyCat
-stars: 90
+stars: 96
 description: |-
     BewlyCat——基于BewlyBewly开发
 url: https://github.com/keleus/BewlyCat

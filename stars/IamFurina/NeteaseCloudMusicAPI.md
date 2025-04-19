@@ -1,6 +1,6 @@
 ---
 project: NeteaseCloudMusicAPI
-stars: 11
+stars: 12
 description: |-
     🔍NeteaseCloudMusicAPI二改, 添加了解灰接口
 url: https://github.com/IamFurina/NeteaseCloudMusicAPI
@@ -148,7 +148,7 @@ banner({ type: 0 }).then((res) => {
 
 ## 使用文档
 
-[文档地址](https://music-api.focalors.ltd/docs/#/)
+[文档地址](https://docs-neteasecloudmusicapi.vercel.app)
 
 ## 功能特性
 
@@ -461,6 +461,11 @@ banner({ type: 0 }).then((res) => {
 307. 歌词摘录 - 我的歌词本
 308. 歌词摘录 - 添加/修改摘录歌词
 309. 歌词摘录 - 删除摘录歌词
+310. 广播电台 - 分类/地区信息
+311. 广播电台 - 我的收藏
+312. 广播电台 - 电台信息
+313. 广播电台 - 全部电台
+314. 广播电台 - 收藏/取消收藏电台
 
 ## 单元测试
 

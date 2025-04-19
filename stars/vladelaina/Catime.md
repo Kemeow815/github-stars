@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 1446
+stars: 1481
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -11,19 +11,42 @@ url: https://github.com/vladelaina/Catime
 <img align="center" alt="catime" width="230" src="Images/catime.png" />
 </a>
   
-</p>
 <p align="center">
- <a href="https://github.com/vladelaina/Catime/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/vladelaina/Catime?label=License" /></a>
- <a href="https://github.com/vladelaina/Catime/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/vladelaina/Catime.svg?label=Release" /></a>
- <a href="https://github.com/vladelaina/Catime/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vladelaina/Catime/total?label=Downloads" /></a>
- <a href="https://github.com/users/vladelaina/projects/2" target="_blank"><img src="https://img.shields.io/badge/To%20Do-5%25%20Complete-00C853?style=flat-circle" alt="To-Do" /></a>
+<a href="https://qm.qq.com/q/LgscIMw9i0" target="_blank">
+    <img src="https://img.shields.io/badge/QQ%20Group%20-%20%201027327912-blue?logo=tencentqq&logoColor=white&style=for-the-badge" alt="Join QQ Group" />
 </a>
+
+  <a href="https://discord.com/invite/W3tW2gtp6g" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white&style=for-the-badge" alt="Join Discord" />
+  </a>
+  <a href="https://catime.vladelaina.com/support" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-Support%20-critical?logo=buymeacoffee&logoColor=white&style=for-the-badge" alt="Buy me a coffee" />
+  </a>
+
+  <br/>
+
+  <a href="https://github.com/vladelaina/Catime/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/vladelaina/Catime?label=License&style=for-the-badge&color=blue" />
+  </a>
+  <a href="https://github.com/vladelaina/Catime/releases/latest">
+    <img alt="Release" src="https://img.shields.io/github/release/vladelaina/Catime.svg?label=Release&style=for-the-badge&color=brightgreen" />
+  </a>
+  <a href="https://github.com/vladelaina/Catime/releases">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/vladelaina/Catime/total?label=Downloads&style=for-the-badge&color=orange" />
+  </a>
+  <a href="https://github.com/users/vladelaina/projects/2" target="_blank">
+    <img src="https://img.shields.io/badge/To%20Do-12%25%20Complete-00C853?style=for-the-badge&logo=todoist&logoColor=white" alt="To-Do" />
+  </a>
 </p>
+
+
+
+
 
 <h1 align="center">Catime</h1>
 
 <div align="center">
-<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </div>
 
 <p align="center">一款简洁的 Windows 倒计时工具，支持番茄时钟功能，具有透明界面和丰富的自定义选项。</p>
@@ -35,14 +58,14 @@ url: https://github.com/vladelaina/Catime
 
 **简体中文** | [**English**](./README_EN.md)
 
-## 🌟特点
+## [🌟特点](https://catime.vladelaina.com/#core-features)
 
 - **极简设计**: 透明界面、点击穿透、随意拖拽和缩放、没有繁琐的图形化设置界面，不会让人有直观上多开一个软件的感觉
 - **灵活计时**: 快速预设、自定义时间输入、显示当前时间(12/24小时制)、倒计时、正计时、番茄时钟
 - **超时动作**: 显示消息、显示当前时间、正计时、锁定屏幕、打开文件/软件、打开网站、关机、重启
 - **自定义丰富**: 47种字体、15种预设颜色、支持输入颜色值、使用调色板选择颜色、支持实时预览
 
-## 💡使用场景
+## [💡使用场景](https://catime.vladelaina.com/#use-cases)
 
 - 👔 下班倒计时
 - 🍅 番茄时钟
@@ -59,7 +82,7 @@ url: https://github.com/vladelaina/Catime
 
  演示视频(基于V1.0.5)：<img src="https://www.bilibili.com/favicon.ico" width="20" height="20"> [BiliBili](https://www.bilibili.com/video/BV1AsoKYgE3r/)
 
-## 📑使用说明
+## [📑使用指南](https://catime.vladelaina.com/guide)
 
 - **左键点击托盘图标**: 设置**时间**
 - **右键点击托盘图标**: 设置**菜单**
@@ -70,15 +93,6 @@ url: https://github.com/vladelaina/Catime
 设置保存在 `C:\Users\用户名\AppData\Local\Catime\config.txt`
 
 
-## 💭社区
-
- <a href="https://discord.gg/W3tW2gtp6g"><img alt="Discord" src="https://img.shields.io/badge/Discord-Catime-7289da?logo=discord&logoColor=white&color=7289da"/></a>
- <a href="https://qm.qq.com/q/LgscIMw9i0"><img alt="QQ群" src="https://img.shields.io/badge/QQ-1027327912-7289da?logo=qq&logoColor=white"/></a>
- 
-## 💖[支持](support.md)
-
-如果您喜欢本项目，欢迎打赏，金额随意。您的支持是我持续更新的动力 ദ്ദി˶>𖥦<)✧Thanks!
-
 ## ⭐Star History
 
 <a href="https://star-history.com/#vladelaina/Catime&Date">
@@ -86,7 +100,7 @@ url: https://github.com/vladelaina/Catime
 </a>
 
 
-## ✨鸣谢 
+## [✨鸣谢](https://catime.vladelaina.com/#thanks) 
 
 特别感谢以下贡献者：
 <table>

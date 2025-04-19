@@ -1,6 +1,6 @@
 ---
 project: chatgpt-vercel
-stars: 3214
+stars: 3215
 description: |-
     Elegant and Powerfull. Powered by OpenAI and Vercel.
 url: https://github.com/ourongxing/chatgpt-vercel
