@@ -1,6 +1,6 @@
 ---
 project: Frosti
-stars: 322
+stars: 325
 description: |-
     A clean, elegant, and fast static blog template! 🚀 Developed with Astro
 url: https://github.com/EveSunMaple/Frosti

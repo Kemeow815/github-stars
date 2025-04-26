@@ -1,6 +1,6 @@
 ---
 project: fuwari
-stars: 1
+stars: 2
 description: |-
     ✨A static blog template built with Astro. 
 url: https://github.com/Lapis0x0/fuwari

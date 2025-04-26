@@ -1,6 +1,6 @@
 ---
 project: EasyNotes
-stars: 653
+stars: 659
 description: |-
     EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization.
 url: https://github.com/Kin69/EasyNotes

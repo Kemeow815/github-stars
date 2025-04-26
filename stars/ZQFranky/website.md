@@ -1,6 +1,6 @@
 ---
 project: website
-stars: 2
+stars: 3
 description: |-
     Blog
 url: https://github.com/ZQFranky/website

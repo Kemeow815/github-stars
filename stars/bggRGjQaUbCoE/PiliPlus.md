@@ -1,6 +1,6 @@
 ---
 project: PiliPlus
-stars: 1632
+stars: 1707
 description: |-
     PiliPlus
 url: https://github.com/bggRGjQaUbCoE/PiliPlus
@@ -55,6 +55,9 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 
 ## feat
 
+- [x] 分享视频至消息
+- [x] 创建/修改/删除关注分组
+- [x] 移除粉丝
 - [x] 直播弹幕发送表情
 - [x] 收藏夹排序
 - [x] 稍后再看`未看`/`未看完`/`已看完`分类
@@ -103,7 +106,7 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 - [x] 合集图片
 - [x] 删除/置顶/撤回私信
 - [x] 举报用户/评论/视频/动态
-- [x] 删除/发布文本/图片动态
+- [x] 删除/发布/置顶文本/图片动态
 - [x] 其他
 
 ## opt

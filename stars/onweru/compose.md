@@ -1,6 +1,6 @@
 ---
 project: compose
-stars: 325
+stars: 326
 description: |-
     A Hugo theme for documentation sites.
 url: https://github.com/onweru/compose

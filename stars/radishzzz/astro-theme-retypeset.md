@@ -1,6 +1,6 @@
 ---
 project: astro-theme-retypeset
-stars: 234
+stars: 256
 description: |-
     Revive the beauty of typography.
 url: https://github.com/radishzzz/astro-theme-retypeset
@@ -120,8 +120,6 @@ All commands are run from the root of the project, from a terminal:
 - [EarlySummerSerif](https://github.com/GuiWonder/EarlySummerSerif)
 
 ## Star History
-
-Thank you to everyone who has starred this project. Your support motivates me to keep maintaining it!
 
 <p align="center">
 <a href="https://star-history.com/#radishzzz/astro-theme-retypeset&Date">

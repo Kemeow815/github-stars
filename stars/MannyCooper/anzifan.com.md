@@ -1,6 +1,6 @@
 ---
 project: anzifan.com
-stars: 111
+stars: 112
 description: |-
     Personal blog powered by Notion official API + Next.JS + WindiCSS!
 url: https://github.com/MannyCooper/anzifan.com

@@ -1,6 +1,6 @@
 ---
 project: nolebase
-stars: 508
+stars: 509
 description: |-
     A place to record memories, knowledge and ideas | 记录回忆，知识和畅想的地方
 url: https://github.com/nolebase/nolebase

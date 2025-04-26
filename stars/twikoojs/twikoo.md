@@ -1,6 +1,6 @@
 ---
 project: twikoo
-stars: 1782
+stars: 1791
 description: |-
     💬 一个简洁、安全、免费的静态网站评论系统 | A simple, safe, free comment system.
 url: https://github.com/twikoojs/twikoo

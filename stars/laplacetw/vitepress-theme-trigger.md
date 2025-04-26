@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-trigger
-stars: 35
+stars: 36
 description: |-
     Blog theme for VitePress with Tailwind CSS. 為建立部落格而生的 VitePress 主題
 url: https://github.com/laplacetw/vitepress-theme-trigger

@@ -1,14 +1,14 @@
 ---
-project: cali.so-kemiao
-stars: 1
+project: nextblog
+stars: 2
 description: |-
-    克喵 的个人官网开源项目
-url: https://github.com/Kemeow815/cali.so-kemiao
+    null
+url: https://github.com/YanDao0313/nextblog
 ---
 
 ## Cali 个人博客网站
 
-Cali 的个人博客网站 [https://cali.so/](https://cali.so/) 的源代码。
+基于cali.so进行二次开发
 
 需要其他服务商的环境变量才能正常运行，所以如果你想要在本地运行，需要自己配置。
 
@@ -32,7 +32,6 @@ Cali 的个人博客网站 [https://cali.so/](https://cali.so/) 的源代码。
 ### 教程
 
 想部署成自己的网站？可以查看 Cali 的[官方教程](https://cali.so/blog/guide-for-cloning-my-site)
-数据后台加/admin，写文章后方加/studio
 
 ### 本地开发
 

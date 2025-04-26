@@ -1,6 +1,6 @@
 ---
 project: astro-notion-blog
-stars: 851
+stars: 856
 description: |-
     🚀 Begin building your very own Notion Blog with Astro.
 url: https://github.com/otoyo/astro-notion-blog

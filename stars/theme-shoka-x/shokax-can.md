@@ -1,6 +1,6 @@
 ---
 project: shokax-can
-stars: 4
+stars: 5
 description: |-
     Hexo theme ShokaX 的开箱即用预配置环境
 url: https://github.com/theme-shoka-x/shokax-can

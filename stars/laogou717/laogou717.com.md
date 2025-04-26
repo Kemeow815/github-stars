@@ -1,6 +1,6 @@
 ---
 project: laogou717.com
-stars: 16
+stars: 17
 description: |-
     My personal website
 url: https://github.com/laogou717/laogou717.com

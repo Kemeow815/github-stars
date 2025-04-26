@@ -1,6 +1,6 @@
 ---
 project: vitepress-blog-pure
-stars: 229
+stars: 232
 description: |-
     a vitepress theme for blog, demo ↓
 url: https://github.com/airene/vitepress-blog-pure
@@ -20,8 +20,10 @@ vitepress 足够轻量，系统干净，博客主题这块又是空白，所以�
 
 **计划中的功能**
 -   [ ] 等 vitepress 本身稳定了，就做成 npm package 方式的 theme **keep going**
+-   [x] 修改原有的评论模块为Giscus，因为原有的有不少问题，新的安装地址：https://giscus.app/ 请按照giscus官网的指导操作更换`.vitepress/theme/components/CommentGiscus.vue`中的信息
+-   [x] 发布时排除 `trash` `private-notes` `draft` 这三个目录的md文档
 -   [x] 搜索 - vitepress后来的版本天生本地搜索，对普通人来说比algolia好用，很省心
--   [x] 留言 基于 [utteranc](https://utteranc.es/)
+-   [x] ~~留言 基于~~ [utteranc](https://utteranc.es/) ,⚠️2025-04-24 已经换成giscus
 -   [x] 分页?!
 
 **不打算维护的功能**
@@ -66,12 +68,13 @@ vitepress 足够轻量，系统干净，博客主题这块又是空白，所以�
         "vitepress": "^1.6.3",
         "globby": "^14.1.0",
         "gray-matter": "^4.0.3",
-        "fs-extra": "^11.3.0"
+        "fs-extra": "^11.3.0",
+        "vitepress-plugin-comment-with-giscus": "^1.1.15"
     }
 }
 ```
 
-3.执行 `npm run dev` 即可查看效果, 其他工具随意 pnpm,yarn 等
+3.执行 `npm run dev` 即可查看效果, 其他工具随意 pnpm,yarn,bun 等
 
 **ps. 写文章的格式和位置**  
 推荐放到 posts 目录中，格式：
@@ -89,25 +92,7 @@ tags:
 正文
 ```
 
-
-
 **其中 title 为必须有的内容，其他随意，推荐含有 date,不然会默认一个当前时间，推荐含有 tags，这样也可以在标签页面显示**
-
-## 评论
-
-目前评论的使用方式并不是很优雅，尝试了几种方式，基于现状也找不到更合适的方式了，这个也可能和 vitepress 的宗旨（并不是 vuepress 的下一代）或者还没到正式版有关系
-
-使用方式是在想开评论的文章最后加一个 `<Comment />`
-
-`.vitepress/config.ts` 这个文件中的 comment 部分换成自己的仓库信息,才能正确的保存评论
-
-```js
-comment: {
-    repo: 'airene/vitepress-blog-pure', //你自己的用户名和仓库名
-    themes: 'github-light',
-    issueTerm: 'pathname'
-}
-```
 
 ## 感谢
 
@@ -119,7 +104,9 @@ comment: {
 比如：  
 sidebar 使用 hackcss 的方式实现想要的效果
 
-[Albert26193](https://github.com/Albert26193) 第一个给本project 提pull request的人，虽然没直接合进来，还是感谢。
+[Albert26193](https://github.com/Albert26193) 第一个给本project 提pull request的人，虽然没直接合进来，还是感谢。  
+[InsHomePgup](https://github.com/InsHomePgup)  
+[FisherMS](https://github.com/FisherMS)  
 
 ## License
 

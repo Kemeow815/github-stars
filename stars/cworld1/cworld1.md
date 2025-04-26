@@ -1,6 +1,6 @@
 ---
 project: cworld1
-stars: 15
+stars: 16
 description: |-
     CWorld's personal website
 url: https://github.com/cworld1/cworld1

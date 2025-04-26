@@ -1,6 +1,6 @@
 ---
 project: SaveAny-Bot
-stars: 663
+stars: 707
 description: |-
     保存 Telegram 文件到各类存储空间 📂 (Alist、本地磁盘、Webdav, Minio...)  , 支持破解禁止保存的频道
 url: https://github.com/krau/SaveAny-Bot
@@ -35,6 +35,40 @@ url: https://github.com/krau/SaveAny-Bot
 ## Contributors
 
 <!-- readme: contributors,AHCorn -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/krau">
+                    <img src="https://avatars.githubusercontent.com/u/71133316?v=4" width="100;" alt="krau"/>
+                    <br />
+                    <sub><b>Krau</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/TG-Twilight">
+                    <img src="https://avatars.githubusercontent.com/u/121682528?v=4" width="100;" alt="TG-Twilight"/>
+                    <br />
+                    <sub><b>Simon Twilight</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/ysicing">
+                    <img src="https://avatars.githubusercontent.com/u/8605565?v=4" width="100;" alt="ysicing"/>
+                    <br />
+                    <sub><b>缘生</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/ahcorn">
+                    <img src="https://avatars.githubusercontent.com/u/42889600?v=4" width="100;" alt="ahcorn"/>
+                    <br />
+                    <sub><b>安和</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors,AHCorn -end -->
 
 ## Thanks

@@ -1,6 +1,6 @@
 ---
 project: github-chinese
-stars: 8972
+stars: 9125
 description: |-
     GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 url: https://github.com/maboloshi/github-chinese
@@ -372,6 +372,9 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 </a>
 <a href="https://github.com/pecasha" title="Pecasha">
   <img src="https://avatars.githubusercontent.com/u/9607128?v=4" width="42;" alt="Pecasha"/>
+</a>
+<a href="https://github.com/yrljroli" title="𠭞">
+  <img src="https://avatars.githubusercontent.com/u/169890386?v=4" width="42;" alt="𠭞"/>
 </a>
 <a href="https://github.com/YiShengJunn" title="益生君">
   <img src="https://avatars.githubusercontent.com/u/134821571?v=4" width="42;" alt="益生君"/>

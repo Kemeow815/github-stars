@@ -1,6 +1,6 @@
 ---
 project: hexo-generator-sitemap
-stars: 314
+stars: 316
 description: |-
     Sitemap generator for Hexo.
 url: https://github.com/hexojs/hexo-generator-sitemap

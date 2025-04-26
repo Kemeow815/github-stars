@@ -46,6 +46,8 @@ i18n:zh-CN,zh-TW,zh-HK,en
 ```yml
 ## 主题配置文件，图片路径都是在主题文件夹下的source文件夹下
 ### 额外的<head>标签内插入内容，你可能会需要插入一些第三方的js库，例如统计代码等
+favicon:
+  src: /wang.icon
 head:
   '<script>
   console.log("Hello hexo-theme-wang");

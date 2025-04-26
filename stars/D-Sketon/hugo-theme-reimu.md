@@ -41,6 +41,7 @@ A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://githu
 - 🔄 兼容 Hugo 0.116.0 及以上版本
 - 📱 响应式布局
 - 🌙 暗黑模式支持
+- 🅰️ i18n 支持
 
 ### 代码与数学
 - 🖥️ 代码高亮与复制
@@ -271,16 +272,24 @@ noClasses = false
 ```
 
 代码块同时提供了代码粘贴功能，点击代码块右上角的复制按钮即可复制代码。在 `params.yml` 中可以对复制功能进行配置。  
-`success` 为复制成功时的提示，`fail` 为复制失败时的提示。此外，可以配置版权声明，当复制的字符数大于 `count` 时会在复制的内容后面添加 `content` 版权声明。
+`success` 为复制成功时的提示，`fail` 为复制失败时的提示。此外，可以配置版权声明，当复制的字符数大于 `count` 时会在复制的内容后面添加版权声明。
 
 ```yaml
 clipboard:
-  success: 复制成功(*^▽^*)
-  fail: 复制失败 (ﾟ⊿ﾟ)ﾂ
+  success: 
+    en: Copy successfully (*^▽^*)
+    zh-CN: 复制成功 (*^▽^*)
+    zh-tW: 複製成功 (*^▽^*)
+    ja: コピー成功 (*^▽^*)
+  fail: 
+    en: Copy failed (ﾟ⊿ﾟ)ﾂ
+    zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
+    zh-tW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
+    ja: コピー失敗 (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
     count: 50 # 大于多少字符添加版权声明
-    content: 本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！
+    license_type: by-nc-sa # https://creativecommons.org/licenses
 ```
 
 v0.2.0 添加了配置用于控制代码块的默认展开状态，`expand` 可以设置为 `true`、`false` 或数字，数字表示当代码块的行数大于该数字时默认收缩。
@@ -305,7 +314,11 @@ code_block:
 
 ```yaml
 comment:
-  title: 说些什么吧！ # 评论框标题
+  title: # 评论框标题
+    en: Leave a comment
+    zh-CN: 说些什么吧！
+    zh-tW: 說些什麼吧！
+    ja: コメントを残す
   default: waline # 多评论下，默认使用的评论系统
 ```
 
@@ -326,7 +339,6 @@ valine:
 waline:
   enable: true
   serverURL: "your server url"
-  lang: zh-CN
   locale: {} # https://waline.js.org/guide/features/i18n.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E8%A8%80
   emoji:
     - https://unpkg.com/@waline/emojis@1.2.0/weibo
@@ -372,8 +384,6 @@ giscus:
   reactionsEnabled: 1
   emitMetadata: 0
   inputPosition: bottom
-  # commentTheme: preferred_color_scheme invalid
-  lang: zh-CN
 ```
 
 若基于 [gitalk](https://gitalk.github.io/)  
@@ -634,14 +644,15 @@ quicklink:
 
 ```yml
 article_copyright:
-enable: false # 是否展示版权卡片？
-content:
-  author: # true | false 版权卡片展示作者？
-  link: # true | false 版权卡片展示链接？
-  title: # true | false 版权卡片展示标题？
-  date: # true | false 版权卡片展示创建日期？
-  updated: # true | false 版权卡片展示更新日期？
-  license: # true | false 版权卡片展示协议？
+  enable: false # 是否展示版权卡片？
+  content:
+    author: # true | false 版权卡片展示作者？
+    link: # true | false 版权卡片展示链接？
+    title: # true | false 版权卡片展示标题？
+    date: # true | false 版权卡片展示创建日期？
+    updated: # true | false 版权卡片展示更新日期？
+    license: # true | false 版权卡片展示协议？
+    license_type: by-nc-sa # https://creativecommons.org/licenses
 ```
 
 此外，也可以通过文章的 front-matter 控制，其优先级高于全局配置
@@ -660,7 +671,11 @@ copyright: true # 是否展示版权卡片？
 outdate:
   enable: false
   daysAgo: 180 # 多少天前的文章算过期
-  message: 本文最后更新于 {time}，请注意文中内容可能已经发生变化。
+  message:
+    en: This article was last updated on {time}. Please note that the content may no longer be applicable.
+    zh-CN: 本文最后更新于 {time}，请注意文中内容可能已不适用。
+    zh-tW: 本文最後更新於 {time}，請注意文中內容可能已不適用。
+    ja: この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。
 ```
 
 #### 赞助
@@ -670,7 +685,11 @@ outdate:
 ```yml
 sponsor:
   enable: false # 是否展示赞助二维码？
-  tip: 请作者喝杯咖啡吧！ # 赞助提示
+  tip: # 赞助提示
+    zh-CN: 请作者喝杯咖啡吧
+    zh-tW: 請作者喝杯咖啡吧
+    en: Buy me a coffee
+    ja: コーヒーを買ってください
   icon:
     url: "../images/taichi.png" # 赞助图标，相对于 css/main.css 的路径，所以需要向上一级才能找到 images 文件夹
     rotate: true # 是否旋转图标
@@ -998,7 +1017,11 @@ v0.1.0 的 `preloader` 配置增加了 `icon` 配置用于自定义图标。icon
 ```yaml
 preloader:
   enable: true
-  text: 少女祈祷中...
+  text:
+    zh-CN: 少女祈祷中...
+    zh-tW: 少女祈禱中...
+    en: Loading...
+    ja: 少女祈祷中...
   icon: # 不填默认使用内链的svg（保证首屏加载速度），你可以填入一个链接来自定义加载图标，如 '/images/taichi.png'
   rotate: true
 ```

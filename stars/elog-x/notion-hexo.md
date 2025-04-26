@@ -1,6 +1,6 @@
 ---
 project: notion-hexo
-stars: 38
+stars: 39
 description: |-
     Notion + Elog + Hexo + GitHub Actions + Vercel 博客解决方案
 url: https://github.com/elog-x/notion-hexo

@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 317
+stars: 319
 description: |-
     A Blog on Customizing Docusaurus
 url: https://github.com/kuizuo/blog
@@ -37,7 +37,7 @@ url: https://github.com/kuizuo/blog
 - 🌈 **资源导航** - 收集并分享有用、有意思的资源
 - 📦 **项目展示** - 展示你的项目，可用作于作品集
 
-我的主题魔改实现：[Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
+我的主题魔改实现：[Docusaurus 主题魔改](https://kuizuo.me/docs/docusaurus-guides)
 
 ## :wrench: 技术栈
 

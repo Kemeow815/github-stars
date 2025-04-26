@@ -1,6 +1,6 @@
 ---
 project: leleo-home-page
-stars: 28
+stars: 31
 description: |-
     一个用Vue.js和Vuetify构建的个人主页，可轻松部署在Vercel上。
 url: https://github.com/leleo886/leleo-home-page

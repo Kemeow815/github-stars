@@ -1,6 +1,6 @@
 ---
 project: valaxy-theme-sakura
-stars: 27
+stars: 28
 description: |-
     A simple, personalized, and cute anime-style blog theme.
 url: https://github.com/WRXinYue/valaxy-theme-sakura

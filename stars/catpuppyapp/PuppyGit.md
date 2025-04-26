@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 277
+stars: 285
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit
@@ -17,8 +17,9 @@ PuppyGit is A Git Client for Android, Open Source and No Ads and Free to use
 ## Author
 PuppyGit made by Bandeapart1964 of catpuppyapp
 
-### I feel tired with this app, giving it a Star + <a href=https://github.com/catpuppyapp/PuppyGit/blob/main/donate.md>Donate</a>, it will help provide motivation
-### I appreciate every sponsor and user. You give me faith and make me feel that I've done something meaningful!
+### Star + <a href=https://github.com/catpuppyapp/PuppyGit/blob/main/donate.md>Donate</a>, it will help me continuously maintenance this app!
+### I appreciate every donator and user, especially donators! You give me faith! 
+### I hope have a day I can got 1M users and many donators! XD
 
 
 

@@ -1,6 +1,6 @@
 ---
 project: NeteaseCloudMusicAPI
-stars: 12
+stars: 13
 description: |-
     🔍NeteaseCloudMusicAPI二改, 添加了解灰接口
 url: https://github.com/IamFurina/NeteaseCloudMusicAPI

@@ -1,6 +1,6 @@
 ---
 project: devolio
-stars: 153
+stars: 156
 description: |-
     A Simple Astro Portfolio & Blog Template for Developers
 url: https://github.com/devaradise/devolio
@@ -10,7 +10,7 @@ url: https://github.com/devaradise/devolio
 
 Devolio is a free portfolio and blog template to help you setup your personal website quickly.
 
-[Demo](https://devolio.devaradise.com) [Article](https://devaradise.com/devolio-astro-portfolio-blog-theme)
+[Demo](https://devolio.devaradise.com) [Article](https://devaradise.com/devolio-astro-portfolio-blog-theme/)
 
 ---
 

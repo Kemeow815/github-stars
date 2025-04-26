@@ -1,6 +1,6 @@
 ---
 project: home-page
-stars: 50
+stars: 49
 description: |-
     🏠️ Homepage | 个人主页
 url: https://github.com/hai-zou/home-page

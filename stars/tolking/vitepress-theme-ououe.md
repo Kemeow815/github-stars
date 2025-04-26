@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-ououe
-stars: 14
+stars: 15
 description: |-
     A vitepress blog theme
 url: https://github.com/tolking/vitepress-theme-ououe
