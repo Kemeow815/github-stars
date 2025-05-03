@@ -1,6 +1,6 @@
 ---
 project: public-portfolio-site
-stars: 155
+stars: 160
 description: |-
     Designer Portfolio&Blog Template
 url: https://github.com/ricocc/public-portfolio-site
@@ -23,7 +23,7 @@ Rico's Blog:  <a href="https://blog.ricocc.com/" target="_blank">blog.ricocc.com
 
 ### 技术栈
 
-- Astro.js 4.15.9
+- Astro.js 5.7.5
 - Sass 1.79.4
 - typescript: 5.6.2
 
@@ -48,7 +48,24 @@ Rico's Blog:  <a href="https://blog.ricocc.com/" target="_blank">blog.ricocc.com
  - `project.ts` 项目信息，主要展示在项目列表中，但是具体的项目详细页面，需要手动创建
  - `home.json` 首页展示的作品列表，可选择展示的内容信息比较多
  About 页面需要手动添加自己的个人介绍，博客内容，只需要在 `content/blog/*`文件夹下面添加 markdown 文件即可, 按照固定格式，博客列表会自动添加标题和路径
+ 
+#### 环境变量配置
+`.env` 文件用于设置应用程序的环境变量。你可以从 `.env.example` 文件复制内容到 `.env` 文件，并填写所需的值。请注意，`.env` 文件不应该提交到版本控制系统，Git 会自动忽略它。
 
+在 `.env` 文件中，你可以设置以下变量：
+
+- `PUBLIC_SITE_URL`: 网站的公共 URL。
+- `PUBLIC_SITE_NAME`: 网站名称。
+- `PUBLIC_GA4_ID`: （非必需）Google Analytics 4 分析 ID。
+- `PUBLIC_UMAMI_ID`: （非必需）Umami 分析 ID。
+
+确保在本地开发和生产环境中正确设置这些变量，以便应用程序能够正常运行。
+
+如果你希望在你的网站上启用 Google Analytics 或 Umami 分析，你需要在 `.env` 文件中设置相应的环境变量。
+
+**Google Analytics 和 Umami 分析**
+- https://analytics.google.com/
+- https://umami.is/
 
 
  网站主要信息存放在  `src/data/content.ts`
@@ -168,6 +185,11 @@ Yarn Command:
 | `yarn astro --help`    | Get help using the Astro CLI                     |
 
 ---
+
+### 更新路线图 (Roadmap)
+
+- **2025/04/28:** 增加 effects 开源的 need3d Abstraction 系列图标，网站地址为：[need3d.ru](https://need3d.ru/)。作者是 [@ilyarygin](https://www.instagram.com/ilyarygin)。
+- **2025/04/28:** 更新版本至 `Astro.js 5.7.5`， 增加 `.env.example` 文件，用于配置网站信息，默认可选 Google Analytics 4 和 Umami 分析 ID。
 
 
 ### 关于作者

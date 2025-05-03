@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 1542
+stars: 1717
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -47,7 +47,7 @@ url: https://github.com/vladelaina/Catime
 <h1 align="center">Catime</h1>
 
 <div align="center">
-<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </div>
 
 <p align="center">一款简洁的 Windows 倒计时工具，支持番茄时钟功能，具有透明界面和丰富的自定义选项。</p>
@@ -191,9 +191,21 @@ url: https://github.com/vladelaina/Catime
       <td align="center" valign="top" width="14.28%">
         <a href="https://github.com/pyqmlp"><img src="https://github.com/user-attachments/assets/fb0473e9-db9d-4f63-ac8d-4aa1d9ee7579" width="100px;" alt="柒"/><br /><sub><b>柒</b></sub></a><br />
       </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Mapaler"><img src="https://avatars.githubusercontent.com/u/6565860?v=4" width="100px;" alt="枫谷剑仙"/><br /><sub><b>枫谷剑仙</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Crazy-A2"><img src="https://avatars.githubusercontent.com/u/68056912?v=4" width="100px;" alt="Marial"/><br /><sub><b>Marial</b></sub></a><br />
+      </td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://space.bilibili.com/507572706"><img src="https://github.com/user-attachments/assets/8bf7a9e8-749a-47b6-976c-6798bacea6d2" width="100px;" alt="卓越方达"/><br /><sub><b>卓越方达</b></sub></a><br />
+      </td>
+    </tr>  
   </tbody>
 </table>
+
 
 
 ## 🗝️版权声明

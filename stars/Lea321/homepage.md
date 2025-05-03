@@ -1,6 +1,6 @@
 ---
 project: homepage
-stars: 14
+stars: 15
 description: |-
     基于HeoWeb模板修改的主页
 url: https://github.com/Lea321/homepage

@@ -1,6 +1,6 @@
 ---
 project: Daydreamer
-stars: 24
+stars: 25
 description: |-
     null
 url: https://github.com/Skywt2003/Daydreamer

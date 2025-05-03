@@ -1,6 +1,6 @@
 ---
 project: oragekk.github.io
-stars: 44
+stars: 45
 description: |-
     vuepress2.x + vuepress-theme-hope blog source
 url: https://github.com/OrageKK/oragekk.github.io

@@ -1,20 +1,14 @@
 ---
 project: HomePage
-stars: 549
+stars: 551
 description: |-
-    🎃一个坏掉的番茄个人主页~
+    personal homepage template using Cursor IDE
 url: https://github.com/SimonAKing/HomePage
 ---
 
-# SimonAKing
-
-
-[![支付宝赞助按钮](https://camo.githubusercontent.com/f4874996db5ac421925db08778d800d76d36abbc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545362539342541462545342542422539382545352541452539442d25453525393025393154412545362538442539302545352538412541392d677265656e2e737667)](https://cdn.jsdelivr.net/gh/SimonAKing/images/blog/alipay.png)
-
-[![微信赞助按钮](https://camo.githubusercontent.com/26101aa838286ad0d45a6f71b25fdc6e14e7668c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545352542452541452545342542462541312d25453525393025393154412545362538442539302545352538412541392d677265656e2e737667)](https://cdn.jsdelivr.net/gh/SimonAKing/images/blog/wechat.png)
+# SimonAKing-HomePage
 
 [中文版说明](<README.zh_CN.md>)
-
 
 
 ## Introduction
@@ -27,15 +21,6 @@ Do you want to install such a cool homepage for your website?
 
 Let's start now!
 
-
-
-## Prerequisites
-
-- Nodejs 6.0 above
-- Git available
-
-
-
 ## Install
 
 ```sh
@@ -45,13 +30,11 @@ npm install
 npm run dev
 ```
 
-
-
 ## Features
 
 1. Highly encapsulates all the information in the page
 2. Use [WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/) as background
-3. Use `scss` as `css` preprocessor
+3. Use `less` as `css` preprocessor
 4. Use `pug` as `html` preprocessor
 5. Use `gulp` as a build tool and configure the build script
 6. Comfortable animation and beautiful UI
@@ -127,7 +110,7 @@ The replacement steps are as follows:
 1. Please select your icon, add it to the project, and change the color to white.
 2. Click Font Class method
 3. Copy the contents of the generated link
-4. Replace the contents of the file `/src/css/common/icon.scss`, where the contents of the `icon` selector must be preserved.
+4. Replace the contents of the file `/src/css/common/icon.less`, where the contents of the `icon` selector must be preserved.
 5. Config.json the corresponding item in the `config.json`file`main.ul. * .icon`
 
 ```css
@@ -188,9 +171,3 @@ I spent a lot of time and energy to develop this project.
 If this project has brought you help, welcome to sponsor, `star`.
 
 Thank you!
-
-
-
-## License
-The Project is released under the ` LGPL-3.0` license.
-

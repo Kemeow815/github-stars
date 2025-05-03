@@ -34,6 +34,17 @@ const themeConfig: ThemeContext = {
   include: ['campus', 'contributor-guide', 'fashion'],
   nav,
   sidebarOptions,
+  /** 是否启用免责声明 banner，默认为不启用 */
+  enableDisclaimer: true,
+  disclaimerPaths: [{
+      path: '/campus/', //免责声明适用的目录前缀，不同目录前缀可以有不同的免责声明 banner
+      summaryHtml: 'RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。', //免责声明展开前显示的内容，html 格式
+      detailHtml: '<p>RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。</p>' + //免责声明展开后显示的内容，html 格式
+      '<p>「大学指南」板块中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，主要体现其投稿者主观观点。不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
+      '<p>若存在任何有误或不当内容，请联系 <a href="mailto:rlewiki@project-trans.org">rlewiki@project-trans.org</a>。</p>',
+    },],
+  disclaimerStatusKey: 'disclaimerStatus', //若要存储免责声明 banner 隐藏状态，需要指定此字段，存储在localStorage中
+  disclaimerStatusExpiration: 1000 //指定 disclaimerStatus 有效的毫秒数，1000这个值显然太短了，你需要选个更大的数，默认持续生效7天
 }
 
 // https://vitepress.dev/reference/site-config

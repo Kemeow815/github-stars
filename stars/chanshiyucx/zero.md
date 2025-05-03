@@ -1,6 +1,6 @@
 ---
 project: zero
-stars: 84
+stars: 85
 description: |-
     🏡 My corner of internet, Personal Homepage.
 url: https://github.com/chanshiyucx/zero

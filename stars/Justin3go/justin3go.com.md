@@ -1,6 +1,6 @@
 ---
 project: justin3go.com
-stars: 119
+stars: 120
 description: |-
     A fully-featured, modern, and elegantly simple static blog based on VitePress; it mainly records ✍️ my blog and notes. 一款功能齐全的、现代化的、简洁优雅的静态博客，基于vitepress；主要记录✍️我的博客、笔记。
 url: https://github.com/Justin3go/justin3go.com

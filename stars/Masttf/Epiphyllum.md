@@ -1,8 +1,8 @@
 ---
 project: Epiphyllum
-stars: 9
+stars: 10
 description: |-
-    A static blog powered by react  to be continue
+    使用NextJs SSG的静态博客，目前已加入搜索、评论功能。a static blog with next.js
 url: https://github.com/Masttf/Epiphyllum
 ---
 

@@ -1,6 +1,6 @@
 ---
 project: aki-ssg
-stars: 3
+stars: 4
 description: |-
     Yet another static site generator based on Next.js
 url: https://github.com/Allenyou1126/aki-ssg

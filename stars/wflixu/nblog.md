@@ -1,6 +1,6 @@
 ---
 project: nblog
-stars: 7
+stars: 8
 description: |-
     Notion database as CMS for  blog 
 url: https://github.com/wflixu/nblog

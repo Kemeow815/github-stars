@@ -1,6 +1,6 @@
 ---
 project: moepush
-stars: 944
+stars: 963
 description: |-
     一个基于 NextJS + Cloudflare 技术栈构建的可爱消息推送服务, 支持多种消息推送渠道✨
 url: https://github.com/beilunyang/moepush
@@ -43,6 +43,7 @@ url: https://github.com/beilunyang/moepush
 - 飞书群机器人
 - Discord Webhook
 - Bark App
+- 通用 Webhook
 
 ## 技术栈
 - **框架**: [Next.js](https://nextjs.org/) (App Router)

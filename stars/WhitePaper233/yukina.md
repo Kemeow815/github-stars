@@ -1,6 +1,6 @@
 ---
 project: yukina
-stars: 96
+stars: 102
 description: |-
     An astro blog template inspired by fuwari and hexo-theme-shokaX.
 url: https://github.com/WhitePaper233/yukina

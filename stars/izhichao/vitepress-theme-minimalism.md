@@ -1,12 +1,10 @@
 ---
 project: vitepress-theme-minimalism
-stars: 44
+stars: 46
 description: |-
     A Minimalist VitePress Blog Theme | 一个极简的 VitePress 博客主题
 url: https://github.com/izhichao/vitepress-theme-minimalism
 ---
-
-**简体中文 | [English](/README_en-US.md)**
 
 # 一个极简的 VitePress 博客主题
 
@@ -18,19 +16,19 @@ url: https://github.com/izhichao/vitepress-theme-minimalism
 
 ## 功能
 
-> 打勾代表已完成，未打勾代表正在完成
+- 归档页
+- 标签页
+- 分类页
+- 永久链接
+- 文章摘要 `<!--more-->`
+- 文章置顶
+- 上一页 / 下一页
+- 图片缩放
 
-- [x] 归档页
-- [x] 标签页
-- [x] 分类页
-- [x] 永久链接
-- [x] 文章摘要 `<!--more-->`
-- [x] 文章置顶
-- [x] 上一页 / 下一页
-- [x] 图片缩放
-- [x] 评论（基于 Waline）
-- [x] 自定义广告 / Adsense
-- [ ] 多语言
+以下功能不再集成，无法通过 `themeConfig` 配置，有需要的可以通过[**布局插槽**](https://vitepress.dev/zh/guide/extending-default-theme#layout-slots)自行使用
+
+- ~~评论（基于 Waline）~~
+- ~~自定义广告 / Adsense~~
 
 ## 主页
 

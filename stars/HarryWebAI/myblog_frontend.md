@@ -1,6 +1,6 @@
 ---
 project: myblog_frontend
-stars: 6
+stars: 5
 description: |-
     myblog_前端
 url: https://github.com/HarryWebAI/myblog_frontend

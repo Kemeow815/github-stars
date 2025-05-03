@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 1763
+stars: 2110
 description: |-
     A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 url: https://github.com/codexu/note-gen
@@ -113,3 +113,6 @@ Scan the QR code to join the [discussion group](https://github.com/codexu/note-g
 - [Submit bugs or improvement suggestions](https://github.com/codexu/note-gen/issues)
 - [Discussions](https://github.com/codexu/note-gen/discussions)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=codexu/note-gen&type=Date)](https://www.star-history.com/#codexu/note-gen&Date)

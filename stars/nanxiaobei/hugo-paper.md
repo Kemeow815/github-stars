@@ -1,6 +1,6 @@
 ---
 project: hugo-paper
-stars: 2239
+stars: 2246
 description: |-
     🪺 A simple, clean, customizable Hugo theme
 url: https://github.com/nanxiaobei/hugo-paper
