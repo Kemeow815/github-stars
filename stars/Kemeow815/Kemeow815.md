@@ -13,7 +13,7 @@ url: https://github.com/Kemeow815/Kemeow815
 <a href="https://kemiao.online/">
   <img align="center" alt="个人主页" width="22px" src="./static/icon/home.svg" />
 </a>
-  <a href="mailto:kemiaofx@163.com">
+  <a href="mailto:me@kemiaosw.top">
   <img align="center" alt="克喵的邮箱" width="22px" src="./static/icon/email.svg" />
 </a>
 <a href="https://blog-v3.kemeow.top">
@@ -77,7 +77,7 @@ url: https://github.com/Kemeow815/Kemeow815
     - 🏛️ **年级:** 大二
     - 👷 **职业:** 学生
 - 🖥 **兴趣:** 计算机，单机游戏，电子产品，数码产品，资源分享
-- 🖥 **梦想:** 咸鱼算并不算？
+- 🖥 **梦想:** 咸鱼算不算？
 
 ### 📲 网站运营
 
@@ -92,6 +92,7 @@ url: https://github.com/Kemeow815/Kemeow815
 | 🖥️ Detection | 站点检测         | [https://montor.kemeow.cn/](https://montor.kemeow.cn/) |
 | 🎦 Video | 影视网站 | [https://tv.kemeow.top](https://tv.kemeow.top) |
 | 🎵 Music | 音乐 | [https://music.kemiao.online ](https://music.kemiao.online)|
+| 微信公众号 | 公众号 | [https://wechat.kemeow.top](https://wechat.kemeow.top) |
 ### 🌟 性格方向 
 
 <img src="./static/character.svg" align='right' height="200">

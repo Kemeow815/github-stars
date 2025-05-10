@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 1717
+stars: 1869
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -35,7 +35,7 @@ url: https://github.com/vladelaina/Catime
     <img alt="Downloads" src="https://img.shields.io/github/downloads/vladelaina/Catime/total?label=Downloads&style=for-the-badge&color=orange" />
   </a>
   <a href="https://github.com/vladelaina/Catime/releases" target="_blank">
-    <img src="https://img.shields.io/badge/Software%20Size-227%20KB-blue?logo=appveyor&logoColor=white&style=for-the-badge" alt="Software Size" />
+    <img src="https://img.shields.io/badge/Software%20Size-232%20KB-blue?logo=appveyor&logoColor=white&style=for-the-badge" alt="Software Size" />
   </a>
 </p>
 
@@ -47,7 +47,7 @@ url: https://github.com/vladelaina/Catime
 <h1 align="center">Catime</h1>
 
 <div align="center">
-<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </div>
 
 <p align="center">一款简洁的 Windows 倒计时工具，支持番茄时钟功能，具有透明界面和丰富的自定义选项。</p>

@@ -1,6 +1,6 @@
 ---
 project: HsuBlog
-stars: 47
+stars: 48
 description: |-
     A beautiful, customized, personal blog theme for Astro
 url: https://github.com/KraHsu/HsuBlog

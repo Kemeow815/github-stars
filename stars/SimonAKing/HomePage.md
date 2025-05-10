@@ -1,6 +1,6 @@
 ---
 project: HomePage
-stars: 551
+stars: 632
 description: |-
     personal homepage template using Cursor IDE
 url: https://github.com/SimonAKing/HomePage
@@ -10,12 +10,13 @@ url: https://github.com/SimonAKing/HomePage
 
 [中文版说明](<README.zh_CN.md>)
 
-
 ## Introduction
 
 > `SimonAKing`  home page.
 
-[Online browsing](http://tomotoes.com)
+![preview](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMncyb3oyc21zc3czejU3cGk4M2tiNTdkaTM0N3FodGVpZmU5azNxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fhXFCZEogq39rOpKUi/giphy.gif)
+
+[Online browsing](http://simonaking.com)
 
 Do you want to install such a cool homepage for your website?
 

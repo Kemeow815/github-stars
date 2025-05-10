@@ -1,6 +1,6 @@
 ---
 project: ginb
-stars: 6
+stars: 7
 description: |-
     GitHub Issues Next.js Blog
 url: https://github.com/ChrAlpha/ginb

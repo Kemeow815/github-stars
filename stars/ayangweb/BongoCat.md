@@ -1,6 +1,6 @@
 ---
 project: BongoCat
-stars: 2254
+stars: 3137
 description: |-
     BongoCat 是一个可爱的互动桌面宠物应用，让你的桌面充满乐趣！
 url: https://github.com/ayangweb/BongoCat
@@ -76,6 +76,7 @@ url: https://github.com/ayangweb/BongoCat
 
 ### Linux (X11)
 
+- Manjaro / ArchLinux: `yay -S bongo-cat`
 - Debian / Ubuntu：下载 `BongoCat_amd64.deb`
 - Fedora / RHEL：下载 `BongoCat_x86_64.rpm`
 - 通用版本：下载 `BongoCat_amd64.AppImage`
@@ -91,10 +92,9 @@ url: https://github.com/ayangweb/BongoCat
 ## 历史星标
 
 <a href="https://www.star-history.com/#ayangweb/BongoCat&Date">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date&theme=dark" />
-<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
-<img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
-</picture>
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
+ </picture>
 </a>
-

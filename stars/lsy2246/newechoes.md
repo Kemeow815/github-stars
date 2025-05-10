@@ -1,6 +1,6 @@
 ---
 project: newechoes
-stars: 7
+stars: 9
 description: |-
     null
 url: https://github.com/lsy2246/newechoes

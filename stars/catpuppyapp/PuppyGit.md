@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 294
+stars: 298
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit
@@ -66,12 +66,8 @@ see:<br>
 
 
 ## Screenshots
-<div>
-<img src="screenshots/cl.png" width=150 />
-<img src="screenshots/drawer.png"  width=150 />
-<img src="screenshots/editor.png" width=150 />
-<img src="screenshots/repos.png"  width=150  />
-</div>
+![release_screenshot](https://github.com/user-attachments/assets/ba9183e3-2207-455e-ad5b-acffb6534c03)
+
 
 
 ## Features

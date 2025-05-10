@@ -1,8 +1,8 @@
 ---
 project: accessible-astro-starter
-stars: 895
+stars: 900
 description: |-
-    An Accessible Starter Theme for Astro 5+ including accessibility features such as landmarks, better focus-outline and skip-links navigation. Ships with Tailwind, Prettier and ESLint support.
+    An Accessible Starter Theme for Astro 5+ including accessibility features such as landmarks, better focus-outline and skip-links navigation. Ships with Tailwind 4, Prettier and ESLint support.
 url: https://github.com/incluud/accessible-astro-starter
 ---
 
@@ -10,9 +10,9 @@ url: https://github.com/incluud/accessible-astro-starter
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-![accessible-astro-starter](https://github.com/user-attachments/assets/f3538452-5d57-4118-b713-4631dd51bd84)
+![accessible-astro-starter](https://github.com/user-attachments/assets/01630a5b-10bb-4765-a291-74725fedc04f)
 
-A ready-to-use, SEO and accessibility-focused Astro starter template. Built with modern web standards and WCAG guidelines in mind, it provides a solid foundation for creating inclusive websites. Features Tailwind CSS integration, comprehensive component library, and example pages including a dynamic blog, 404, and MDX support.
+A ready-to-use, SEO and accessibility-focused Astro starter template. Built with modern web standards and WCAG guidelines in mind, it provides a solid foundation for creating inclusive websites. Features Tailwind CSS 4 integration, comprehensive component library, color contrast checker, and typography with Atkinson Hyperlegible font for improved readability. Includes dynamic blog/portfolio pages with social sharing, and full MDX support.
 
 [![LIVE DEMO](https://img.shields.io/badge/LIVE_DEMO-4ECCA3?style=for-the-badge&logo=astro&logoColor=black)](https://accessible-astro-starter.incluud.dev/) &nbsp;
 [![DOCUMENTATION](https://img.shields.io/badge/DOCUMENTATION-A682FF?style=for-the-badge&logo=astro&logoColor=black)](https://accessible-astro.incluud.dev/) &nbsp;
@@ -24,30 +24,39 @@ A ready-to-use, SEO and accessibility-focused Astro starter template. Built with
 
 ## (Accessibility) Features
 
-- Astro 5+
-- Tailwind CSS support
+- Astro 5.7.5+
+- Tailwind CSS 4 support
+- TypeScript integration with path aliases for easier imports
 - Prettier integration with `prettier-plugin-astro` and `prettier-plugin-tailwind`
 - ESLint integration with strict accessibility settings for `eslint-plugin-jsx-a11y`
-- Markdown and MDX support with examples included in the theme
-- Uses the awesome `astro-icon` package for the icons
+- Markdown and MDX support with comprehensive examples and components
+- Modern OKLCH color system with automatic palette generation from primary/secondary colors
+- Atkinson Hyperlegible font for improved readability and accessibility
+- Lucide icon set via `astro-icon` for consistent, friendly icons
 - Excellent Lighthouse/PageSpeed scores
 - Accessible landmarks such as `header`, `main`, `footer`, `section` and `nav`
 - Outline focus indicator which works on dark and light backgrounds
 - Several `aria` attributes which provide a better experience for screen reader users
 - `[...page].astro` and `[post].astro` demonstrate the use of dynamic routes and provide a basic blog with breadcrumbs and pagination
 - `404.astro` provides a custom 404 error page which you can adjust to your needs
-- `Header.astro` component included in the `DefaultLayout.astro` layout
-- `Footer.astro` component included in the `DefaultLayout.astro` layout
+- `Header.astro` component with optimized accessibility and design
+- `Footer.astro` component with informative content and links
 - `SkipLinks.astro` component to skip to either the main menu or the main content
-- `Navigation.astro` component with keyboard accessible (dropdown) navigation (arrow keys, escape key)
-- `ResponsiveToggle.astro` component with an accessible responsive toggle button for the mobile navigation
+- `Navigation.astro` component with keyboard accessible (dropdown) navigation and highlighted menu item option
+- `ResponsiveToggle.astro` component with accessible responsive toggle functionality
 - `DarkMode.astro` component toggle with accessible button and a user system preferred color scheme setting
 - `SiteMeta.astro` SEO component for setting custom meta data on different pages
 - `.sr-only` utility class for screen reader only text content (hides text visually)
 - `prefers-reduced-motion` disables animations for users that have this preference turned on
-- Ships with many components such as Accordions, Breadcrumbs, Modals, Pagination [and many more](https://accessible-astro-starter.incluud.dev/accessible-components/)
-- A collection of utility classes such as breakpoints, button classes, font settings, resets and outlines in `src/assets/scss/base`
-- Astro's View Transitions
+- Components including `ColorContrast.astro`, `BlockQuote.astro`, `BreakoutImage.astro`, `ExternalLink.astro`, `Logo.astro`, `SocialShares.astro`, and `PageHeader.astro`
+- Blog and portfolio pages with featured images, author details, social sharing, and breakout images
+- Accessibility Statement template page
+- Color Contrast Checker interactive page
+- Smooth micro-interactions and animations on hover, open and close states (respecting reduced motion preferences)
+- Comprehensive SCSS utility classes
+- CSS with logical properties and custom properties
+- Accessible button and hyperlink styling with clear focus states
+- Styled `<kbd>` element for keyboard shortcut documentation
 
 ## Getting started
 
@@ -67,7 +76,7 @@ Clone this theme locally and run any of the following commands in your terminal:
 - [Accessible Astro Dashboard](https://github.com/incluud/accessible-astro-dashboard/): User-friendly dashboard interface with a login screen and widgets.
 - [Accessible Astro Docs](https://github.com/incluud/accessible-astro-docs): Comprehensive documentation for all Accessible Astro projects.
 
-Check out our [roadmap](https://github.com/orgs/incluud/projects/4/views/1) to see what's coming next! 
+Check out our [roadmap](https://github.com/orgs/incluud/projects/4/views/1) to see what's coming next!
 
 ## Contributing
 

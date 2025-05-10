@@ -1,6 +1,6 @@
 ---
 project: cv.zhilu.cyou
-stars: 3
+stars: 4
 description: |-
     My resume.
 url: https://github.com/L33Z22L11/cv.zhilu.cyou

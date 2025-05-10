@@ -1,6 +1,6 @@
 ---
 project: SaveAny-Bot
-stars: 729
+stars: 766
 description: |-
     保存 Telegram 文件到各类存储空间 📂 (Alist、本地磁盘、Webdav, Minio...)  , 支持破解禁止保存的频道
 url: https://github.com/krau/SaveAny-Bot
@@ -34,7 +34,7 @@ url: https://github.com/krau/SaveAny-Bot
 
 ## Contributors
 
-<!-- readme: contributors,AHCorn -start -->
+<!-- readme: contributors -start -->
 <table>
 	<tbody>
 		<tr>
@@ -69,7 +69,7 @@ url: https://github.com/krau/SaveAny-Bot
 		</tr>
 	<tbody>
 </table>
-<!-- readme: contributors,AHCorn -end -->
+<!-- readme: contributors -end -->
 
 ## Thanks
 

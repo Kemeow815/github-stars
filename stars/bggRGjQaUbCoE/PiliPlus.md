@@ -1,6 +1,6 @@
 ---
 project: PiliPlus
-stars: 1781
+stars: 1854
 description: |-
     PiliPlus
 url: https://github.com/bggRGjQaUbCoE/PiliPlus
@@ -55,7 +55,8 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 
 ## feat
 
-- [x] 分享视频至消息
+- [x] 直播分区
+- [x] 分享`视频`/`番剧`/`动态`/`专栏`/`直播`至消息
 - [x] 创建/修改/删除关注分组
 - [x] 移除粉丝
 - [x] 直播弹幕发送表情

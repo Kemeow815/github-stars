@@ -1,6 +1,6 @@
 ---
 project: nuxt-blog
-stars: 74
+stars: 75
 description: |-
     a personal blog site
 url: https://github.com/chansee97/nuxt-blog

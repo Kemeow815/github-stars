@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 2110
+stars: 2334
 description: |-
     A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 url: https://github.com/codexu/note-gen
@@ -16,7 +16,7 @@ url: https://github.com/codexu/note-gen
 ![](https://img.shields.io/github/downloads/codexu/note-gen/total)
 ![](https://img.shields.io/github/commit-activity/m/codexu/note-gen)
 
-English | [简体中文](docs/README.CN.md) | [日本語](docs/README.JP.md)
+English | [简体中文](docs/zh/guide.md) | [日本語](docs/ja/guide.md)
 
 NoteGen is a cross-platform `Markdown` note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 

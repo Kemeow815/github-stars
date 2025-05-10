@@ -1,6 +1,6 @@
 ---
 project: Typecho-Butterfly
-stars: 740
+stars: 747
 description: |-
     Hexo主题Butterfly的Typecho移植版———开源不易，帮忙点个star，谢谢了🌹
 url: https://github.com/wehaox/Typecho-Butterfly

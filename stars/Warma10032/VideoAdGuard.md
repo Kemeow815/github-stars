@@ -1,16 +1,27 @@
 ---
 project: VideoAdGuard
-stars: 315
+stars: 328
 description: |-
-    浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过植入广告。
+    哔哩哔哩浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过视频中的植入/口播广告。
 url: https://github.com/Warma10032/VideoAdGuard
 ---
 
 # VideoAdGuard - B站视频植入广告检测器
 
 VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具，能够自动识别B站视频中的植入广告内容，并提供跳过广告的功能。
+如果你觉得这个插件有用，请给项目点个Star⭐支持一下！
 
-![VideoAdGuard Logo](./icons/icon128.png)
+<div align="center">
+  <img src="./icons/icon128.png" alt="VideoAdGuard Logo">
+</div>
+
+## News
+
+- v1.2.0
+  - 支持自动跳过
+
+- v1.1.3
+  - 支持本地Ollama模型
 
 ## 功能特点
 
@@ -74,6 +85,7 @@ VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具
 | OpenAI (GPT系列) | ✅ | https://api.openai.com/v1/chat/completions | [OpenAI](https://openai.com/api/) / [国内直连镜像站](https://app.requesty.ai/join?ref=d9bb6cf2) |
 | 阿里云 (通义千问系列) | ✅ | https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | [通义千问](https://bailian.console.aliyun.com/) |
 | Google Gemini | ✅ | https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [Gemini](https://ai.google.dev/) / [国内直连镜像站](https://app.requesty.ai/join?ref=d9bb6cf2) |
+| Grok | ✅ | https://api.x.ai/v1/chat/completions | [Grok](https://console.x.ai/) |
 | 本地Ollama | ✅ | http://localhost:11434/api/chat | 因为跨域请求，需要设置环境变量 OLLAMA_ORIGINS = * |
 | 字节跳动 (豆包系列) | ❓ |  | [豆包](https://www.volcengine.com/) |
 | Anthropic Claude | ❓ |  | [Claude](https://console.anthropic.com/) |
@@ -140,6 +152,10 @@ VideoAdGuard
 - 如遇任何插件不起作用问题，在提出Issues同时，附上浏览器(F12)控制台的错误日志/截图，以便我们更好地帮助你。
 - ![与后端api通信的请求在这里查看](https://gcore.jsdelivr.net/gh/Warma10032/image@main/blog/插件管理界面.png)
 
+贡献者
+<a href="https://github.com/Warma10032/VideoAdGuard/contributors">
+  <img src="https://contrib.rocks/image?repo=Warma10032/VideoAdGuard" /></a>
+
 ## 免责声明
 
 本插件仅用于学习和研究目的，不得用于任何商业或非法用途。使用本插件所产生的一切后果，与作者和插件开发者无关。
@@ -148,5 +164,14 @@ VideoAdGuard
 
 本项目采用GPLv2许可证开源。
 
+## Star History
 
-如果你觉得这个插件有用，请给项目点个Star⭐支持一下！
+<a href="https://www.star-history.com/#Warma10032/videoadguard&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Warma10032/videoadguard&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Warma10032/videoadguard&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Warma10032/videoadguard&type=Date" />
+ </picture>
+</a>
+
+

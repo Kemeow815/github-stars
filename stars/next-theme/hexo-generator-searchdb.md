@@ -1,6 +1,6 @@
 ---
 project: hexo-generator-searchdb
-stars: 79
+stars: 80
 description: |-
     🔍 Seach data generator plugin for Hexo.
 url: https://github.com/next-theme/hexo-generator-searchdb
