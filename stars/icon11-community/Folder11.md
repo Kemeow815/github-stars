@@ -1,6 +1,6 @@
 ---
 project: Folder11
-stars: 1274
+stars: 1290
 description: |-
     Windows 11-like custom directory icon.
 url: https://github.com/icon11-community/Folder11

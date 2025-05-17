@@ -1,6 +1,6 @@
 ---
 project: tnxg-homepage
-stars: 9
+stars: 10
 description: |-
     TiaNXianG's Homepage
 url: https://github.com/TNXG/tnxg-homepage

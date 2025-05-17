@@ -1,6 +1,6 @@
 ---
 project: nextra
-stars: 12721
+stars: 12749
 description: |-
     Simple, powerful and flexible site generation framework with everything you love from Next.js.
 url: https://github.com/shuding/nextra
@@ -62,7 +62,7 @@ the watch mode for both Nextra and the theme in separated terminals.
 
 <div>
  <a href="https://xyflow.com?utm_source=github&utm_campaign=nextra&utm_content=logolink">
-   <img src="/docs/app/showcase/_logos/xyflow.jpg" alt="xyflow preview" width="256">
+   <img src="/docs/app/showcase/_logos/xyflow.png" alt="xyflow preview" width="256">
  </a>
  <a href="https://speakeasyapi.dev/docs?utm_source=github&utm_campaign=nextra&utm_content=logolink">
    <img src="/docs/app/showcase/_logos/speakeasy.png" alt="Speakeasy preview" width="256">

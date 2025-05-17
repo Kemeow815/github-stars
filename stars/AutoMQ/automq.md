@@ -1,6 +1,6 @@
 ---
 project: automq
-stars: 6285
+stars: 6380
 description: |-
     AutoMQ is a stateless Kafka on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.
 url: https://github.com/AutoMQ/automq
@@ -108,6 +108,10 @@ Regarding the architecture of AutoMQ, it is fundamentally different from Kafka. 
 - Rack-aware Router: Kafka has long faced cross-AZ traffic fees on AWS and GCP. Our shared storage architecture addresses this by using a rack-aware router to provide clients in different AZs with specific partition metadata, avoiding cross-AZ fees while exchanging data through object storage.
 
 For more on AutoMQ's architecture, visit [AutoMQ Architecture](https://docs.automq.com/automq/architecture/overview) or explore the source code directly.
+
+## 🌟 Stay Ahead
+Star AutoMQ on GitHub for instant updates on new releases.
+![star-automq](https://github.com/user-attachments/assets/80a12561-2507-4283-8322-3512fec66f12)
 
 ## 💬 Community
 You can join the following groups or channels to discuss or ask questions about AutoMQ:

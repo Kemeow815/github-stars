@@ -1,6 +1,6 @@
 ---
 project: awesome-deepseek-integration
-stars: 32226
+stars: 32352
 description: |-
     Integrate the DeepSeek API into popular softwares
 url: https://github.com/deepseek-ai/awesome-deepseek-integration
@@ -659,6 +659,14 @@ The purpose is to build infrastructure in the field of large models, through the
 ###  <span id="browser">Browser Extensions</span>
 
 <table>
+    <tr>
+        <td><img src="./docs/deepshare/assets/logo_200.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="./docs/deepshare/README.md">Tiny AI Bee</a></td>
+        <td> Tiny AI Bee is a free login-free one-click grease monkey plugin for sharing AI chats,
+            Specialized in solving the problem of sending thousands of words of AI Q&A to friends, causing their phones to be brushed, or long screenshots to be compressed and opened blurred, not easy to read.
+            Satisfy users' need to share their crystallized wisdom with AI to others
+        </td>
+    </tr>
     <tr>
         <td><img src="docs/OpenXLab/migo/logo.svg" alt="Icon" width="64" height="auto" /></td>
         <td><a href="https://chromewebstore.google.com/detail/cjapgnecnkblehipjghhegiccobeloka?utm_source=item-share-cb">Migo</a></td>

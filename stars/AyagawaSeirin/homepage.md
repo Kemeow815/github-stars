@@ -1,6 +1,6 @@
 ---
 project: homepage
-stars: 214
+stars: 215
 description: |-
     开坑我的个人主页
 url: https://github.com/AyagawaSeirin/homepage

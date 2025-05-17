@@ -1,13 +1,13 @@
 ---
 project: BiliTools
-stars: 835
+stars: 879
 description: |-
     A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持视频、音乐、番剧、课程下载……持续更新
 url: https://github.com/btjawa/BiliTools
 ---
 
 <p align="center">
-    <img src="./assets/bilitools.png" width="500" />
+    <img src="./assets/logo.svg" width="500" />
 </p>
 
 <div align="center">
@@ -73,6 +73,8 @@ macOS 下载 [Release](https://github.com/btjawa/BiliTools/releases/latest) 中�
 | 字幕    | ✅ 已完成 | 支持 SRT 格式 |
 | AI总结  | ✅ 已完成 | MD Markdown格式，来自于哔哩哔哩 |
 | 收藏夹  | ✅ 已完成 | FID 号解析 |
+| 元数据  | ✅ 已完成 | 封面、标题、简介、UP主、上传时间、TAGS |
+| NFO    | ⚠️ 进行中 | 优先适配 `Emby` |
 
 ### 登录相关
 

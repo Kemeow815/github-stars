@@ -1,6 +1,6 @@
 ---
 project: docs_site
-stars: 11
+stars: 12
 description: |-
     Fuukei 周边文档网站。提供主题文档服务。
 url: https://github.com/Fuukei/docs_site

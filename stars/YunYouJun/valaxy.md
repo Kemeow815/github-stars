@@ -1,6 +1,6 @@
 ---
 project: valaxy
-stars: 883
+stars: 886
 description: |-
     🌌 Next Generation Static Blog Framework (Beta) 下一代静态博客框架（支持页面/配置热重载）
 url: https://github.com/YunYouJun/valaxy
@@ -100,3 +100,10 @@ Want to create your theme? Check [valaxy-theme-starter](https://github.com/YunYo
   </a>
 </p>
 
+## Contributing
+
+Thanks to everyone who has contributed to Valaxy
+
+<a href="https://openomy.app/github/YunYouJun/valaxy" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.app/svg?repo=YunYouJun/valaxy&chart=bubble&latestMonth=3" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+ </a>

@@ -136,11 +136,26 @@ url: https://github.com/Kemeow815/Kemeow815
 ---
 <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=Kemeow815&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn"/><img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kemeow815&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn"/> 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kemeow815&theme=transparent&hide_border=true&locale=zh_Hans&short_numbers=true&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)                           ![修仙系列统计卡片](https://github-immortality.vercel.app/api?username=Kemeow815)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kemeow815" alt="GitHub Stats" />
+</div>
 
+<div align="center">
+  <img 
+    src="https://github-immortality.vercel.app/api?username=Kemeow815" 
+    alt="修仙系列统计卡片" 
+    style="max-width: 100%; height: auto;" 
+  />
+</div>
 
 ### 我的成就 🏅
-![](https://stats.justsong.cn/api/github?username=Kemeow815&theme=dark)
+<div align="center">
+  <img 
+    src="https://stats.justsong.cn/api/github?username=Kemeow815&theme=dark" 
+    alt="GitHub 统计数据" 
+    style="max-width: 100%; height: auto; loading: lazy;" 
+  />
+</div>
 
 ## 🚀 我的github活动 
 ---

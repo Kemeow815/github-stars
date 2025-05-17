@@ -1,6 +1,6 @@
 ---
 project: dmy-link
-stars: 15
+stars: 17
 description: |-
     null
 url: https://github.com/dmmyblog/dmy-link

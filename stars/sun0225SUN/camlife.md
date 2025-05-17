@@ -1,6 +1,6 @@
 ---
 project: camlife
-stars: 54
+stars: 57
 description: |-
     Capture life through the Camera.
 url: https://github.com/sun0225SUN/camlife

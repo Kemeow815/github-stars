@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-next
-stars: 2595
+stars: 2600
 description: |-
     🎉 Elegant and powerful theme for Hexo.
 url: https://github.com/next-theme/hexo-theme-next
@@ -125,6 +125,7 @@ Connect with us and be part of our growing community!
 * **Telegram Group (Chinese Language)**: [Click here to join!](https://t.me/theme_next_cn)
 * **Discord Server**: [Join our Discord!](https://discord.gg/qmkgkY3jaG)
 * **Gitter**: [Join our Gitter chats!][gitter-url]
+* **ChatGPT**: [NexT Mentor][gpt-url]
 
 ## Feedback
 
@@ -196,6 +197,7 @@ NexT send special thanks to these great services that sponsor our core infrastru
 [awesome-next-url]: https://github.com/next-theme/awesome-next
 [discussions-url]: https://github.com/next-theme/hexo-theme-next/discussions
 [gitter-url]: https://app.gitter.im/#/room/#next:gitter.im
+[gpt-url]: https://chatgpt.com/g/g-68286c2fc1f48191aee3e87c94a89431-next-mentor
 [i18n-url]: https://crowdin.com/project/hexo-theme-next
 
 [issues-bug-url]: https://github.com/next-theme/hexo-theme-next/issues/new?assignees=&labels=Bug&template=bug-report.md

@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 1
+stars: 2
 description: |-
     使用Astro和fuwari搭建的个人小博客
 url: https://github.com/TianMengLucky/blog

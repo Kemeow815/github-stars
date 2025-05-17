@@ -2,7 +2,7 @@
 project: hugo-theme-hermeneutics
 stars: 17
 description: |-
-    But I call them all delusion —— beautiful delusion.
+    [MOVED] Please check https://codeberg.org/chlorine/hugo-theme-hermeneutics for updates
 url: https://github.com/chlorine3545/hugo-theme-hermeneutics
 ---
 

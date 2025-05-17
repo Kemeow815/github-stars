@@ -1,6 +1,6 @@
 ---
 project: Mkdocs-Wcowin
-stars: 45
+stars: 46
 description: |-
     Wcowin for MkDocs Blog Theme | based on Material for mkDocs
 url: https://github.com/Wcowin/Mkdocs-Wcowin

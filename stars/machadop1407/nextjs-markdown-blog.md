@@ -1,6 +1,6 @@
 ---
 project: nextjs-markdown-blog
-stars: 9
+stars: 11
 description: |-
     null
 url: https://github.com/machadop1407/nextjs-markdown-blog

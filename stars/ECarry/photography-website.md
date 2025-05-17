@@ -1,6 +1,6 @@
 ---
 project: photography-website
-stars: 207
+stars: 209
 description: |-
     An open-source Photograph travel Blog📸 built using Next.js, Drizzle, Neon, Better auth, Shadcn/ui and tRPC.
 url: https://github.com/ECarry/photography-website
@@ -26,11 +26,11 @@ A modern, open-source photography blog platform built with the latest web techno
 
 ## 📸 Screenshots
 
-<img src="https://github.com/ECarry/photography-website/blob/main/screen/home.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/screen/travel.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/screen/discover.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/screen/about.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/screen/photograph.png?raw=true" alt="page">
+<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/home.png?raw=true" alt="page">
+<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/travel.png?raw=true" alt="page">
+<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/discover.png?raw=true" alt="page">
+<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/about.png?raw=true" alt="page">
+<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/photograph.png?raw=true" alt="page">
 
 ## 🌈 Support Theme
 
@@ -56,8 +56,9 @@ A modern, open-source photography blog platform built with the latest web techno
 
 - Node.js 20+
 - bun (recommended) or npm
-- Neon Database
-- Cloudflare R2 Account
+- [Neon Database](https://neon.tech/)
+- [Cloudflare R2 Account](https://www.cloudflare.com/products/r2/)
+- [Mapbox Account](https://console.mapbox.com/)
 
 ### Environment Variables
 
@@ -65,9 +66,10 @@ Create a `.env.local` file in the root directory:
 
 ```bash
 # Database
-DATABASE_URL=your_neon_database_url
+DATABASE_URL=your_database_url
 
 # Auth
+# You can generate a random secret using `openssl rand -base64 32`
 BETTER_AUTH_SECRET=
 BETTER_AUTH_URL=http://localhost:3000 #Base URL of your app
 
@@ -162,6 +164,6 @@ If you find this project helpful, please give it a ⭐️ on GitHub!
 - [x] Home page with tRPC
 - [x] Discover page with tRPC
 - [x] Dashboard photos & photo id page with tRPC
-- [ ] Blog page with tRPC
+- [x] Blog page with tRPC
 - [x] Travel page with tRPC
 

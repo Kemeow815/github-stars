@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-open17
-stars: 31
+stars: 32
 description: |-
     A beautiful & simple vitepress blog theme 一款简单美观的vitepress博客主题
 url: https://github.com/Velonor/vitepress-theme-open17

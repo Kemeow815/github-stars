@@ -1,6 +1,6 @@
 ---
 project: Astro-blog-Lithium
-stars: 27
+stars: 28
 description: |-
     A astro blog with pagination, UnoCSS, tags, default layout
 url: https://github.com/BeiyanYunyi/Astro-blog-Lithium

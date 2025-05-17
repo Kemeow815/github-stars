@@ -1,8 +1,8 @@
 ---
 project: HomePage
-stars: 632
+stars: 678
 description: |-
-    personal homepage template using Cursor IDE
+    personal homepage template
 url: https://github.com/SimonAKing/HomePage
 ---
 

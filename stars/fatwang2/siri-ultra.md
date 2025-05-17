@@ -1,6 +1,6 @@
 ---
 project: siri-ultra
-stars: 1136
+stars: 1135
 description: |-
     The most intelligent Siri powered by LLMs
 url: https://github.com/fatwang2/siri-ultra

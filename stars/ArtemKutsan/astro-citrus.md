@@ -1,6 +1,6 @@
 ---
 project: astro-citrus
-stars: 76
+stars: 82
 description: |-
     Astro Citrus
 url: https://github.com/ArtemKutsan/astro-citrus

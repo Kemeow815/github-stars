@@ -3,7 +3,7 @@ project: skunk-html
 stars: 152
 description: |-
     Markdown Blog with GitHub Pages. Easy setup!
-url: https://github.com/MaxGripe/skunk-html
+url: https://github.com/mg0x7BE/skunk-html
 ---
 
 

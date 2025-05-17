@@ -1,6 +1,6 @@
 ---
 project: astroship
-stars: 1692
+stars: 1704
 description: |-
     Astroship is a starter template for startups, marketing websites, landing pages & blog. Built with Astro & TailwindCSS
 url: https://github.com/surjithctly/astroship

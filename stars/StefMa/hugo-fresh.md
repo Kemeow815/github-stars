@@ -1,6 +1,6 @@
 ---
 project: hugo-fresh
-stars: 669
+stars: 671
 description: |-
     Hugo Fresh Theme
 url: https://github.com/StefMa/hugo-fresh

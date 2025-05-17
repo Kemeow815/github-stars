@@ -1,6 +1,6 @@
 ---
 project: devolio
-stars: 157
+stars: 158
 description: |-
     A Simple Astro Portfolio & Blog Template for Developers
 url: https://github.com/devaradise/devolio

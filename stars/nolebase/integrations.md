@@ -1,6 +1,6 @@
 ---
 project: integrations
-stars: 227
+stars: 230
 description: |-
     ✍️ A collection of diverse documentation engineering tools. Better reading experience, inline link preview, highlight targeted title, enhanced <mark> element, state-of-the-art SEO and <meta> generation, og image, thumbhash & blurhash images and more!
 url: https://github.com/nolebase/integrations

@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-dream
-stars: 466
+stars: 471
 description: |-
     🌱 A Hugo theme named Dream.
 url: https://github.com/g1eny0ung/hugo-theme-dream
