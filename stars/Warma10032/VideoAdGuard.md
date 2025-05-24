@@ -1,6 +1,6 @@
 ---
 project: VideoAdGuard
-stars: 329
+stars: 348
 description: |-
     哔哩哔哩浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过视频中的植入/口播广告。
 url: https://github.com/Warma10032/VideoAdGuard
@@ -17,18 +17,21 @@ VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具
 
 ## News
 
+- v1.2.1
+  - 支持自定义UP白名单
 - v1.2.0
   - 支持自动跳过
-
 - v1.1.3
   - 支持本地Ollama模型
 
 ## 功能特点
 
-- 🔍 **智能检测**：利用大语言模型分析视频字幕，精准识别植入广告
-- ⏭️ **一键跳过**：检测到广告后，提供跳过按钮，一键跳过广告内容
-- 🌐 **多平台支持**：支持Edge、Chrome等主流浏览器
-- 🛠️ **灵活配置**：支持自定义API接口、模型选择，包括主流厂商和本地ollama
+- 🎯 **精准识别**：采用大语言模型分析视频字幕，准确定位植入广告内容
+- 🚀 **便捷操作**：检测到广告后自动显示跳过按钮，一键跳过广告片段
+- 🔄 **自动跳过**：支持自动跳过已识别的广告内容（v1.2.0新增）
+- 🌈 **广泛兼容**：支持多种主流浏览器，包括Edge、Chrome等
+- ⚙️ **灵活定制**：支持多种AI模型接入，包括智谱AI、OpenAI、DeepSeek等
+- 🏠 **本地部署**：支持本地Ollama模型，保护隐私数据（v1.1.3新增）
 
 ## 安装方法
 
@@ -115,6 +118,7 @@ VideoAdGuard通过以下步骤检测视频中的植入广告：
 VideoAdGuard
 ├── VideoAdGuard/      # 构建输出目录
 ├── _locales/          # i18n资源
+├── docs/              # 文档目录
 ├── icons/             # 插件图标资源
 ├── src/               # 源代码目录
 ├── VideoAdGuard.Tampermonkey.js   # 油猴脚本版本
@@ -152,7 +156,7 @@ VideoAdGuard
 - 如遇任何插件不起作用问题，在提出Issues同时，附上浏览器(F12)控制台的错误日志/截图，以便我们更好地帮助你。
 - ![与后端api通信的请求在这里查看](https://gcore.jsdelivr.net/gh/Warma10032/image@main/blog/插件管理界面.png)
 
-贡献者
+### 贡献者
 <a href="https://github.com/Warma10032/VideoAdGuard/contributors">
   <img src="https://contrib.rocks/image?repo=Warma10032/VideoAdGuard" /></a>
 

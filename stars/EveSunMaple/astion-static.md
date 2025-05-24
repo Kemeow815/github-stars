@@ -1,6 +1,6 @@
 ---
 project: astion-static
-stars: 7
+stars: 8
 description: |-
     Static version of Astion
 url: https://github.com/EveSunMaple/astion-static

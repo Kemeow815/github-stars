@@ -1,6 +1,6 @@
 ---
 project: astro-theme-typography
-stars: 429
+stars: 432
 description: |-
     Rediscover the beauty of typography.
 url: https://github.com/moeyua/astro-theme-typography

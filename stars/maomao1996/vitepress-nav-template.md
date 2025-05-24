@@ -1,6 +1,6 @@
 ---
 project: vitepress-nav-template
-stars: 326
+stars: 329
 description: |-
     基于 VitePress 的个人前端导航页面模板
 url: https://github.com/maomao1996/vitepress-nav-template

@@ -1,64 +1,105 @@
 ---
 project: Catime
-stars: 2010
+stars: 2128
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
 ---
 
-<p align="center">
-<a href="https://github.com/vladelaina/Catime" target="_blank">
-<img align="center" alt="catime" width="230" src="Images/catime.png" />
-</a>
-  
-<p align="center">
-<a href="https://qm.qq.com/q/LgscIMw9i0" target="_blank">
-    <img src="https://img.shields.io/badge/QQ%20Group%20-%20%201027327912-blue?logo=tencentqq&logoColor=white&style=for-the-badge" alt="Join QQ Group" />
-</a>
-
-  <a href="https://discord.com/invite/W3tW2gtp6g" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white&style=for-the-badge" alt="Join Discord" />
+<!-- 项目标题 + Logo -->
+<div align="center">
+  <a href="https://vladelaina.github.io/Catime" target="_blank">
+    <img src="Images/catime_resize.png" alt="Catime" width="240">
   </a>
-  <a href="https://vladelaina.github.io/Catime/support" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-Support%20-critical?logo=buymeacoffee&logoColor=white&style=for-the-badge" alt="Buy me a coffee" />
+  <h1 style="margin-top: 10px; font-size: 42px; font-weight: 700;">Catime</h1>
+</div>
+
+<!-- 顶部统计徽章行 -->
+<div align="center">
+  <a href="https://github.com/vladelaina/Catime/stargazers">
+    <img src="https://img.shields.io/github/stars/vladelaina/Catime?style=flat-square&logo=github&color=yellow&label=Stars" alt="Stars" />
   </a>
+  <a href="https://github.com/vladelaina/Catime/network/members">
+    <img src="https://img.shields.io/github/forks/vladelaina/Catime?style=flat-square&logo=github&color=blue&label=Forks" alt="Forks" />
+  </a>
+  <a href="https://github.com/vladelaina/Catime/issues">
+    <img src="https://img.shields.io/github/issues/vladelaina/Catime?style=flat-square&label=open%20issues&color=orange" alt="Open Issues" />
+  </a>
+<a href="https://github.com/users/vladelaina/projects/2">
+  <img src="https://img.shields.io/badge/Project%20Board-Planning-blueviolet?style=flat-square" alt="Project Board" />
+</a>
+</div>
 
-  <br/>
-
-  <a href="https://github.com/vladelaina/Catime/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/vladelaina/Catime?label=License&style=for-the-badge&color=blue" />
+<!-- 第二行 - 下载 -->
+<div align="center">
+  <a href="https://github.com/vladelaina/Catime/releases">
+    <img src="https://img.shields.io/github/downloads/vladelaina/Catime/total?style=flat-square&color=blue&label=downloads" alt="Downloads" />
   </a>
   <a href="https://github.com/vladelaina/Catime/releases/latest">
-    <img alt="Release" src="https://img.shields.io/github/release/vladelaina/Catime.svg?label=Release&style=for-the-badge&color=brightgreen" />
-  </a>
-  <a href="https://github.com/vladelaina/Catime/releases">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/vladelaina/Catime/total?label=Downloads&style=for-the-badge&color=orange" />
+    <img src="https://img.shields.io/github/v/release/vladelaina/Catime?style=flat-square&color=brightgreen&label=latest%20release" alt="Latest Release" />
   </a>
   <a href="https://github.com/vladelaina/Catime/releases" target="_blank">
-    <img src="https://img.shields.io/badge/Software%20Size-834%20KB-blue?logo=appveyor&logoColor=white&style=for-the-badge" alt="Software Size" />
+    <img src="https://img.shields.io/badge/software%20size-834%20KB-blue?style=flat-square&logo=appveyor&logoColor=white" alt="Software Size" />
   </a>
+</div>
+
+<!-- 第三行 - Demo 链接 -->
+<div align="center">
+  <a href="https://vladelaina.github.io/Catime" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Official_Website-Visit-4285F4?style=for-the-badge" alt="Official Website" />
+  </a>
+  <a href="https://www.bilibili.com/video/BV1AsoKYgE3r/" target="_blank">
+    <img src="https://img.shields.io/badge/📺_Demo_Video-BiliBili-ff69b4?style=for-the-badge" alt="Demo on BiliBili" />
+  </a>
+  <a href="https://vladelaina.github.io/Catime/guide" target="_blank">
+    <img src="https://img.shields.io/badge/📖_User_Guide-Read-1DB954?style=for-the-badge" alt="User Guide" />
+  </a>
+</div>
+
+<!-- GitHub Trending 区域 -->
+<div align="center">
+  <a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank">
+    <div style="background-color: #f5f5f5; border-radius: 12px; padding: 15px; display: inline-block; margin-top: 20px; border: 1px solid #e1e4e8;">
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" />
+      </div>
+    </div>
+  </a>
+</div>
+
+<!-- 语言切换 -->
+<div align="center" style="margin-top: 25px; margin-bottom: 25px;">
+  <a href="#" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 18px;">English</a> | 
+  <a href="./README-zh.md" style="text-decoration: none; color: #58a6ff; font-weight: bold; font-size: 18px;">简体中文</a>
+</div>
+<!-- 项目描述 + 火箭图标 -->
+<p align="center" style="font-size: 18px; margin-bottom: 30px;">
+  🎉 No installation or setup required — just double-click to get started.<br/>
+  🌸 Clean, elegant interface with smooth operation.<br/>
+  🚀 Powerful keyboard shortcuts for lightning-fast productivity.
+</p>
+
+<p align="center" style="font-size: 16px; color: #666; margin-bottom: 20px;">
+  A simple yet powerful Windows countdown tool with Pomodoro functionality,<br/>
+  featuring a transparent interface and rich customization options.
 </p>
 
 
 
-
-
-
-<h1 align="center">Catime</h1>
-
-<div align="center">
-<a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=00a7a32b7bc647e1a62747530bc16115&claim_uid=JBczix10rXqNblQ" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<!-- 演示视频 -->
+<div align="center" style="margin-bottom: 30px;">
+  <video src="https://github.com/user-attachments/assets/2f733378-8ddd-468f-b971-7e98ea4824c2" autoplay loop style="border-radius: 8px; max-width: 800px;"></video>
 </div>
 
-<p align="center">一款简洁的 Windows 倒计时工具，支持番茄时钟功能，具有透明界面和丰富的自定义选项。</p>
-<p align="center">A simple Windows countdown tool with Pomodoro clock functionality, featuring a transparent interface and a variety of customization options.</p>
-
-
-<div align="center">
-<video src="https://github.com/user-attachments/assets/2f733378-8ddd-468f-b971-7e98ea4824c2" autoplay loop></video>
+<!-- 社区链接 -->
+<div align="center" style="margin-bottom: 30px;">
+  👋 Join us on 
+  <a href="https://discord.com/invite/W3tW2gtp6g" target="_blank" style="text-decoration: none; font-weight: bold; color: #5865F2;">Discord</a> 
+  and 
+  <a href="https://qm.qq.com/q/LgscIMw9i0" target="_blank" style="text-decoration: none; font-weight: bold; color: #12B7F5;">QQ Group</a>
 </div>
 
-**English** | [**简体中文**](./README-zh.md)
+
 
 ## [🌟Features](https://vladelaina.github.io/Catime/#core-features)
 
@@ -66,6 +107,20 @@ url: https://github.com/vladelaina/Catime
 - **Flexible Timing**: Quick presets, custom time input, current time display (12/24-hour format), countdown, count-up, Pomodoro clock
 - **Timeout Actions**: Display messages, show current time, count up, lock screen, open files/applications, open websites, shutdown, restart
 - **Rich Customization**: 47 fonts, 15 preset colors, support for custom color values, color palette selection, real-time preview
+
+## 📥 Download
+
+[<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="104">](https://apps.microsoft.com/detail/9n3mzdf1z34v?referrer=appbadge&launch=true&mode=full)
+#### 🪟 Winget
+
+```
+winget install catime
+```
+
+#### 💾 Manual Download
+
+Download the latest release from [GitHub Releases](https://github.com/vladelaina/Catime/releases/latest).
+
 
 ## [💡Use Cases](https://vladelaina.github.io/Catime/#use-cases)
 
@@ -82,7 +137,6 @@ url: https://github.com/vladelaina/Catime
 - 🕰️ Desktop clock
 - ⏱️ Count-up/countdown timer
 
- Demo video (based on V1.0.5): <img src="https://www.bilibili.com/favicon.ico" width="20" height="20"> [BiliBili](https://www.bilibili.com/video/BV1AsoKYgE3r/)
 
 ## [📑User Guide](https://vladelaina.github.io/Catime/guide)
 
@@ -318,7 +372,6 @@ Special thanks to the following contributors:
       <td align="center" valign="top" width="14.28%">
         <a href="https://github.com/choyy"><img src="https://avatars.githubusercontent.com/u/68107073?v=4" width="100px;" alt="choyy"/><br /><sub><b>choyy</b></sub></a><br />
       </td>
-       </td>
       <td align="center" valign="top" width="14.28%">
         <a href="https://space.bilibili.com/378034263?spm_id_from=333.1007.0.0"><img src="https://github.com/user-attachments/assets/ec961664-258b-404f-8f9b-f4b396208473" width="100px;" alt="益渊Yyuan"/><br /><sub><b>益渊Yyuan</b></sub></a><br />
       </td>
@@ -331,7 +384,10 @@ Special thanks to the following contributors:
       <td align="center" valign="top" width="14.28%">
         <a href="https://github.com/xlr134"><img src="https://avatars.githubusercontent.com/u/138568644?v=4" width="100px;" alt="xlr134"/><br /><sub><b>xlr134</b></sub></a><br />
       </td>
-    </tr>  
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/leisure365"><img src="https://github.com/user-attachments/assets/dc2dcb8e-0698-41c1-8316-8e17341ff633" width="100px;" alt="莫颜"/><br /><sub><b>莫颜</b></sub></a><br />
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -346,7 +402,7 @@ Icon copyright notice:
 
 Font licenses:
 - MIT: 
-  - ProFont IIx Nerd Font.ttf
+  - ProFont IIx Nerd Font Essence.ttf
 - SIL Open Font License (OFL): 
   - DaddyTimeMono Nerd Font Propo Essence.ttf, DepartureMono Nerd Font Propo Essence.ttf,
     LiterationSerif Nerd Font Essence.ttf, RecMonoCasual Nerd Font Mono Essence.ttf,

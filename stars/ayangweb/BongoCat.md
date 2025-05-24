@@ -1,12 +1,12 @@
 ---
 project: BongoCat
-stars: 4548
+stars: 5206
 description: |-
     跨平台桌宠 BongoCat，为桌面增添乐趣！
 url: https://github.com/ayangweb/BongoCat
 ---
 
-![BongoCat](https://socialify.git.ci/ayangweb/BongoCat/image?description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fayangweb%2FBongoCat%2Fblob%2Fcf4060302cab48e7567e19d1df62ad83b89edb7c%2Fsrc-tauri%2Fassets%2Flogo.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Light)
+![BongoCat](https://socialify.git.ci/ayangweb/BongoCat/image?custom_description=&description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fayangweb%2FBongoCat%2Fblob%2Fmaster%2Fsrc-tauri%2Fassets%2Flogo-mac.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)
 
 <div align="center">
   <div>
@@ -30,13 +30,13 @@ url: https://github.com/ayangweb/BongoCat
     </a>
   </div>
 
-  <div>
+  <p>
     <a href="./LICENSE">
       <img
         src="https://img.shields.io/github/license/ayangweb/BongoCat?style=flat-square"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/ayangweb/BongoCat/releases/latest">
       <img
         src="https://img.shields.io/github/package-json/v/ayangweb/BongoCat?style=flat-square"
       />
@@ -46,9 +46,17 @@ url: https://github.com/ayangweb/BongoCat
         src="https://img.shields.io/github/downloads/ayangweb/BongoCat/total?style=flat-square"
       />
     </a>
-  </div>
+  </p>
 
-  <br />
+  <p>
+    <a href="https://hellogithub.com/repository/7d23863fd4be47b39e816193ded385c9" target="_blank">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=7d23863fd4be47b39e816193ded385c9&claim_uid=5ihRVIuTYBmSGtQ&theme=dark" />
+        <source media="(prefers-color-scheme: light)" srcset="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=7d23863fd4be47b39e816193ded385c9&claim_uid=5ihRVIuTYBmSGtQ&theme=neutral" />
+        <img alt="Star History Chart" src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=7d23863fd4be47b39e816193ded385c9&claim_uid=5ihRVIuTYBmSGtQ&theme=neutral" />
+      </picture>
+    </a>
+  </p>
 </div>
 
 | macOS                                                                                     | Window                                                                                      | Linux(x11)                                                                                |

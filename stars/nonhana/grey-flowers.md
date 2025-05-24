@@ -1,9 +1,9 @@
 ---
-project: GreyFlowers
+project: grey-flowers
 stars: 7
 description: |-
     Personal blog by Nuxt3.
-url: https://github.com/nonhana/GreyFlowers
+url: https://github.com/nonhana/grey-flowers
 ---
 
 ![grey-flowers](https://moe.nonhana.pics/grey-flowers.webp)

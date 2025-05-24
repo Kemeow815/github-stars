@@ -1,6 +1,6 @@
 ---
 project: awesome-deepseek-integration
-stars: 32352
+stars: 32458
 description: |-
     Integrate the DeepSeek API into popular softwares
 url: https://github.com/deepseek-ai/awesome-deepseek-integration

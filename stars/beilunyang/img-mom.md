@@ -1,6 +1,6 @@
 ---
 project: img-mom
-stars: 110
+stars: 111
 description: |-
     Telegram bot（img-mon | 图片老妈）
 url: https://github.com/beilunyang/img-mom

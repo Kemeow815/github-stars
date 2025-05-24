@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-teek
-stars: 27
+stars: 38
 description: |-
     vitepress 主题
 url: https://github.com/Kele-Bingtang/vitepress-theme-teek
@@ -10,12 +10,9 @@ url: https://github.com/Kele-Bingtang/vitepress-theme-teek
 
 <div align="center">
 
-[Github](https://github.com/Kele-Bingtang/vitepress-theme-teek) ｜
-[Gitee](https://gitee.com/kele-bingtang/vitepress-theme-teek) ｜
-[Preview](https://notes.teek.top/) ｜
-[Docs](http://vp.teek.top/)
+[Github](https://github.com/Kele-Bingtang/vitepress-theme-teek) ｜ [Gitee](https://gitee.com/kele-bingtang/vitepress-theme-teek) ｜ [Preview](https://notes.teek.top/) ｜[Docs](http://vp.teek.top/)
 
-✨一个轻量、简洁高效、灵活配置的 VitePress 主题。
+✨一个轻量、简洁高效、灵活配置、易于扩展的 VitePress 主题。
 
 </div>
 

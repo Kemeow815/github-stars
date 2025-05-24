@@ -1,6 +1,6 @@
 ---
 project: AlgerMusicPlayer
-stars: 4757
+stars: 5400
 description: |-
     一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制
 url: https://github.com/algerkong/AlgerMusicPlayer
@@ -17,10 +17,13 @@ url: https://github.com/algerkong/AlgerMusicPlayer
     <img src="https://img.shields.io/github/v/release/algerkong/AlgerMusicPlayer?style=for-the-badge&logo=github&label=Release&logoColor=white&color=1a67af" alt="GitHub release">
   </a>
   <a href="https://pd.qq.com/s/cs056n33q?b=5">
-    <img src="https://img.shields.io/badge/QQ%E9%A2%91%E9%81%93-algermusic-blue?style=for-the-badge" alt="QQ频道">
+    <img src="https://img.shields.io/badge/QQ频道-algermusic-blue?style=for-the-badge&color=yellow" alt="加入频道">
   </a>
   <a href="https://t.me/+9efsKRuvKBk2NWVl">
     <img src="https://img.shields.io/badge/AlgerMusic-blue?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram" alt="Telegram">
+  </a>
+   <a href="https://donate.alger.fun/">
+    <img src="https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E6%8D%90%E8%B5%A0-blue?style=for-the-badge&logo=telegram&logoColor=pink&color=pink&label=%E8%B5%9E%E5%8A%A9" alt="赞助">
   </a>
 </div>
 </div>
@@ -34,46 +37,60 @@ url: https://github.com/algerkong/AlgerMusicPlayer
 - 📝 功能
   - 播放历史记录
   - 歌曲收藏管理
+  - 歌单 MV 排行榜 每日推荐
   - 自定义快捷键配置（全局或应用内）
 - 🎨 界面与交互
   - 沉浸式歌词显示（点击左下角封面进入）
   - 独立桌面歌词窗口
   - 明暗主题切换
-  - 可远程控制播放
+  - 迷你模式
+  - 状态栏控制
+  - 多语言支持
+  
 - 🎼 音乐功能
   - 支持歌单、MV、专辑等完整音乐服务
   - 灰色音乐资源解析（基于 @unblockneteasemusic/server）
   - 音乐单独解析
   - EQ均衡器
-  - 定时播放
-  - 高品质音乐试听（需网易云VIP）
+  - 定时播放 远程控制播放 倍速播放
+  - 高品质音乐
   - 音乐文件下载（支持右键下载和批量下载, 附带歌词封面等信息）
+  - 搜索 MV 音乐 专辑 歌单 bilibili
+  - 音乐单独选择音源解析
 - 🚀 技术特性
   - 本地化服务，无需依赖在线API (基于 netease-cloud-music-api)
-  - 自动更新检测
   - 全平台适配（Desktop & Web & Mobile Web & Android<测试> & ios<后续>）
 
 ## 项目简介
  一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、最高音质
 
 ## 预览地址
-[http://mc.alger.fun/](http://mc.alger.fun/)
+[http://music.alger.fun/](http://music.alger.fun/)
 
 ## 软件截图
 ![首页白](./docs/image.png)
 ![首页黑](./docs/image3.png)
-![歌词](./docs/image1.png)
+![歌词](./docs/image6.png)
 ![桌面歌词](./docs/image2.png)
 ![设置页面](./docs/image4.png)
+![音乐远程控制](./docs/image5.png)
 
-## 技术栈
-
-### 主要框架
-- Vue 3 - 渐进式 JavaScript 框架
-- TypeScript - JavaScript 的超集，添加了类型系统
-- Electron - 跨平台桌面应用开发框架
-- Vite - 下一代前端构建工具
-- Naive UI - 基于 Vue 3 的组件库
+## 项目启动
+```bash
+npm install
+npm run dev
+```
+## 项目打包
+```bash
+# web
+npm run build 
+# win
+npm run build:win
+# mac
+npm run build:mac
+# linux
+npm run build:linux
+```
 
 
 ## 赞赏☕️

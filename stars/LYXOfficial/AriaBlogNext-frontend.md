@@ -1,6 +1,6 @@
 ---
 project: AriaBlogNext-frontend
-stars: 7
+stars: 8
 description: |-
     Aria的新博客前端QwQ,基于Next.js和React
 url: https://github.com/LYXOfficial/AriaBlogNext-frontend

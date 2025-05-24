@@ -63,7 +63,7 @@ url: https://github.com/Kemeow815/Kemeow815
 
 大家好！这里是克喵爱吃卤面的github主页。致力于分享资源、生活日记和踩坑教程，代码水准一般，自动化专业大二学生，现于南京就读，普通的大学牛马。
 
-<img align='right' src="./static/avatar.png" width="150" alt="person">
+<img align='right' src="./static/kemiao.jpg" width="150" alt="person">
 
 ### :book: 关于我
 

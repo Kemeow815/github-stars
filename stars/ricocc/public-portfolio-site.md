@@ -1,6 +1,6 @@
 ---
 project: public-portfolio-site
-stars: 164
+stars: 170
 description: |-
     Designer Portfolio&Blog Template
 url: https://github.com/ricocc/public-portfolio-site

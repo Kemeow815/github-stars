@@ -1,6 +1,6 @@
 ---
 project: prologue.dev
-stars: 39
+stars: 40
 description: |-
     Next.js 14 + Tailwindcss + Contentlayer + Markdown Blog
 url: https://github.com/hxlog/prologue.dev

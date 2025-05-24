@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-bamboo
-stars: 425
+stars: 426
 description: |-
     Hexo博客主题，功能强大，美观
 url: https://github.com/yuang01/hexo-theme-bamboo

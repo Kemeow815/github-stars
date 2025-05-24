@@ -1,6 +1,6 @@
 ---
 project: MultiLangSwitcher
-stars: 55
+stars: 58
 description: |-
     MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速切换浏览器发送的 Accept-Language HTTP 请求头。
 url: https://github.com/ChuwuYo/MultiLangSwitcher

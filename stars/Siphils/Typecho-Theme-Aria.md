@@ -1,6 +1,6 @@
 ---
 project: Typecho-Theme-Aria
-stars: 489
+stars: 488
 description: |-
     Typecho Theme Aria - 书写自己的篇章
 url: https://github.com/Siphils/Typecho-Theme-Aria

@@ -2,7 +2,7 @@
 project: fuwari
 stars: 2
 description: |-
-    ✨A static blog template built with Astro. 
+    我的个人博客，使用Fuwari主题
 url: https://github.com/Lapis0x0/fuwari
 ---
 

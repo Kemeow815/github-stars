@@ -1,6 +1,6 @@
 ---
 project: LibreTV
-stars: 4047
+stars: 4727
 description: |-
     一分钟搭建影视站，支持Vercel/Docker等部署方式
 url: https://github.com/LibreSpark/LibreTV
@@ -9,7 +9,7 @@ url: https://github.com/LibreSpark/LibreTV
 # LibreTV - 免费在线视频搜索与观看平台
 
 <div align="center">
-  <img src="./image/retrotv_5520.png" alt="LibreTV Logo" width="120">
+  <img src="image/logo.png" alt="LibreTV Logo" width="120">
   <br>
   <p><strong>自由观影，畅享精彩</strong></p>
 </div>
@@ -146,7 +146,7 @@ LibreTV 支持标准的苹果 CMS V10 API 格式。添加自定义 API 时需遵
 
 **添加 CMS 源**:
 1. 在设置面板中选择"自定义接口"
-2. 接口地址只需填写到域名部分: `https://example.com`（不要包含`/api.php/provide/vod`部分）
+2. 接口地址: `https://example.com/api.php/provide/vod`
 
 ## ⌨️ 键盘快捷键
 

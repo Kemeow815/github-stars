@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-stellaris
-stars: 102
+stars: 103
 description: |-
     📑 Powerful, elegant and modern Hexo theme, forked from hexo-theme-stellar.
 url: https://github.com/chiyuki0325/hexo-theme-stellaris

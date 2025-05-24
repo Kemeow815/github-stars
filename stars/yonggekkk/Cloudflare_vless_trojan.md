@@ -1,6 +1,6 @@
 ---
 project: Cloudflare_vless_trojan
-stars: 8759
+stars: 8830
 description: |-
     CF-workers/pages代理脚本【Vless与Trojan】，支持一键自建proxyip与CF反代IP，CF优选官方IP三地区应用脚本，自动输出美、亚、欧最佳优选IP
 url: https://github.com/yonggekkk/Cloudflare_vless_trojan
@@ -183,7 +183,7 @@ CF官方优选443系端口：443、2053、2083、2087、2096、8443
 
 162.159.0.0
 
-2606:4700:: 需IPV6环境
+2606:4700::0 需IPV6环境
 
 通过配置变量修改，可使用他人分享的IP或者域名，也可以自行本地优选，相关优选应用与脚本可参考视频教程
 

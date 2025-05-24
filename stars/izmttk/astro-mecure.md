@@ -1,6 +1,6 @@
 ---
 project: astro-mecure
-stars: 62
+stars: 63
 description: |-
     My personal blog built with Astro, React and Tailwindcss.
 url: https://github.com/izmttk/astro-mecure

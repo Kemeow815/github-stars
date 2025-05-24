@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-hope
-stars: 2325
+stars: 2332
 description: |-
     A vuepress theme with tons of features✨
 url: https://github.com/vuepress-theme-hope/vuepress-theme-hope
