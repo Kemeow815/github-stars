@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 2128
+stars: 2225
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -80,8 +80,10 @@ url: https://github.com/vladelaina/Catime
 </p>
 
 <p align="center" style="font-size: 16px; color: #666; margin-bottom: 20px;">
-  A simple yet powerful Windows countdown tool with Pomodoro functionality,<br/>
-  featuring a transparent interface and rich customization options.
+  An ultra-lightweight Windows countdown tool with Pomodoro functionality,<br/>
+  featuring a transparent interface and rich customization options,<br/>
+  using only a few MB of memory and almost no CPU resources,<br/>
+  elegantly helping you manage time on Windows.
 </p>
 
 
@@ -144,7 +146,7 @@ Download the latest release from [GitHub Releases](https://github.com/vladelaina
 - **Right-click tray icon**: Set **menu**
 - **Edit mode**: Drag to adjust position, scroll wheel to resize, 🖱️ right-click to exit edit mode
 
-> Configuration file saved at `C:\Users\<username>\AppData\Local\Catime\config.txt`
+> Configuration file saved at `C:\Users\<username>\AppData\Local\Catime\config.ini`
 
 
 
@@ -416,7 +418,7 @@ Font licenses:
     Kumar One Essence.ttf, Kumar One Outline Essence.ttf, Lakki Reddy Essence.ttf,
     Licorice Essence.ttf, Ma Shan Zheng Essence.ttf, Moirai One Essence.ttf,
     Mystery Quest Essence.ttf, Noto Nastaliq Urdu Medium Essence.ttf, Piedra Essence.ttf,
-    Pixelify Sans Medium Essence.ttf, Press Start 2P Essence.ttf,
+    Pinyon Script Essence.ttf, Pixelify Sans Medium Essence.ttf, Press Start 2P Essence.ttf,
     Rubik Bubbles Essence.ttf, Rubik Burned Essence.ttf, Rubik Glitch Essence.ttf,
     Rubik Marker Hatch Essence.ttf,
     Rubik Puddles Essence.ttf, Rubik Vinyl Essence.ttf, Rubik Wet Paint Essence.ttf,

@@ -1,6 +1,6 @@
 ---
 project: cali.so
-stars: 1800
+stars: 1814
 description: |-
     Cali 的个人官网开源项目
 url: https://github.com/CaliCastle/cali.so

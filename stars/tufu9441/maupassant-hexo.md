@@ -1,6 +1,6 @@
 ---
 project: maupassant-hexo
-stars: 2654
+stars: 2659
 description: |-
     A simple Hexo theme forked from icylogic.
 url: https://github.com/tufu9441/maupassant-hexo

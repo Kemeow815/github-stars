@@ -1,6 +1,6 @@
 ---
 project: hugo-bearblog-neo
-stars: 26
+stars: 27
 description: |-
     A Hugo theme. ✨ Transplanted from Hugo Bear Blog. Based on ʕ•ᴥ•ʔ Bear Blog.
 url: https://github.com/rokcso/hugo-bearblog-neo

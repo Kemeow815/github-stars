@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-reimu
-stars: 299
+stars: 305
 description: |-
     一款博丽灵梦风格的Hexo主题 | A Hakurei Reimu style Hexo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hexo-theme-reimu
@@ -1164,6 +1164,8 @@ v1.0.0 增加了 `anchor_icon` 配置用于自定义锚点图标，默认使用 
 ```yaml
 anchor_icon: # 不填默认使用 # 图标
 ```
+
+v1.8.5 `anchor_icon` 支持传递 `false` 以隐藏锚点图标。
 
 ##### 鼠标图标（v1.3.0+）
 

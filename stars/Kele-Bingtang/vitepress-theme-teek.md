@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-teek
-stars: 38
+stars: 49
 description: |-
     vitepress 主题
 url: https://github.com/Kele-Bingtang/vitepress-theme-teek

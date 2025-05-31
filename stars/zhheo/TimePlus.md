@@ -1,6 +1,6 @@
 ---
 project: TimePlus
-stars: 222
+stars: 224
 description: |-
     洪墨时光。由Heo维护的Time主题版本，基于Typecho
 url: https://github.com/zhheo/TimePlus

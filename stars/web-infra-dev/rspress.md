@@ -1,13 +1,13 @@
 ---
 project: rspress
-stars: 1745
+stars: 1752
 description: |-
     🦀 A fast Rsbuild-based static site generator.
 url: https://github.com/web-infra-dev/rspress
 ---
 
 <picture>
-  <img alt="Rspress Banner" src="https://assets.rspack.dev/rspress/rspress-banner.png">
+  <img alt="Rspress Banner" src="https://assets.rspack.rs/rspress/rspress-banner.png">
 </picture>
 
 # Rspress
@@ -32,7 +32,7 @@ A fast Rsbuild-based static site generator.
 
 ## 📚 Getting started
 
-Go to the [Quick start](https://rspress.dev/guide/start/getting-started.html) to get started.
+Go to the [Quick start](https://rspress.rs/guide/start/getting-started.html) to get started.
 
 ## 🦀 Rstack
 

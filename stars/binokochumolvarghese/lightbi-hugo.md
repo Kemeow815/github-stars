@@ -1,6 +1,6 @@
 ---
 project: lightbi-hugo
-stars: 117
+stars: 119
 description: |-
     Lightbi is a minimal and clean blog theme for Hugo.
 url: https://github.com/binokochumolvarghese/lightbi-hugo

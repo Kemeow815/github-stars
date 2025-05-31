@@ -1,6 +1,6 @@
 ---
 project: starlight
-stars: 6472
+stars: 6584
 description: |-
     🌟 Build beautiful, accessible, high-performance documentation websites with Astro
 url: https://github.com/withastro/starlight

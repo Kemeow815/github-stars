@@ -1,6 +1,6 @@
 ---
 project: astrowind
-stars: 4615
+stars: 4629
 description: |-
     ⭕️ AstroWind: A free template using Astro 5 and Tailwind CSS. Astro starter theme.
 url: https://github.com/onwidget/astrowind

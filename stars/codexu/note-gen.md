@@ -1,12 +1,12 @@
 ---
 project: note-gen
-stars: 2549
+stars: 2709
 description: |-
     A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 url: https://github.com/codexu/note-gen
 ---
 
-<img src="https://cdn.jsdelivr.net/gh/codexu/note-gen@dev/app-icon.png" width="128" height="128" />
+<img src="https://s2.loli.net/2025/05/26/YMNgxKVDrB84ZtW.png" width="128" height="128" />
 
 # NoteGen
 
@@ -20,6 +20,12 @@ English | [简体中文](.github/README.zh.md) | [日本語](.github/README.ja.m
 
 NoteGen is a cross-platform `Markdown` note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 
+## Guide
+
+🖥️ Official Document: [https://notegen.top](https://notegen.top)
+
+💬 Join [WeChat/QQ Group](https://github.com/codexu/note-gen/discussions/110) | [Discord](https://discord.gg/9vs3qFkb)
+
 ## Why Choose NoteGen?
 
 - Lightweight: [Installation package](https://github.com/codexu/note-gen/releases) is **only 20MB**, free with no ads or bundled software.
@@ -30,6 +36,10 @@ NoteGen is a cross-platform `Markdown` note-taking application dedicated to usin
 - AI-enhanced: Configurable with ChatGPT, Gemini, Ollama, LM Studio, Grok, and other models, with support for custom third-party model configuration.
 
 ## Screenshots
+
+
+https://github.com/user-attachments/assets/4f8a3bc5-17f5-4b36-9b17-d87128685257
+
 
 Recording:
 
@@ -101,12 +111,6 @@ Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform ca
 
 The note-taking application can be used directly without configuration. If you want a better experience, please open the settings page to configure AI and synchronization.
 
-## Community
-
-Welcome to join the NoteGen community group where you can ask questions, share usage experiences, or suggest improvements. You can also join to learn about Tauri and discuss it with me.
-
-Scan the QR code to join the [discussion group](https://github.com/codexu/note-gen/discussions/110). If the QR code expires, you can add WeChat xu461229187 to join the group.
-
 ## Contribute
 
 - [Read contribution guide](.github/CONTRIBUTING.md)
@@ -117,3 +121,4 @@ Scan the QR code to join the [discussion group](https://github.com/codexu/note-g
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=codexu/note-gen&type=Date)](https://www.star-history.com/#codexu/note-gen&Date)
+

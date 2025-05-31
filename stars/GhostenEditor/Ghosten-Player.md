@@ -1,8 +1,8 @@
 ---
 project: Ghosten-Player
-stars: 1351
+stars: 1374
 description: |-
-    一个同时适配📱Android Phone和📺Android TV的视频播放器。整合影视资源，自动刮削媒体信息，支持IPTV播放，优雅打造私人影视库。界面简洁，功能丰富，开箱即用。
+    📺一个视频播放器，支持网盘直连、元数据刮削、IPTV、文件管理等 /   A video player that supports direct connection to network disk, metadata scraping, IPTV, file management, etc.
 url: https://github.com/GhostenEditor/Ghosten-Player
 ---
 
@@ -43,7 +43,7 @@ QQ群 1033449405
     - Macos (开发中)
 - 网盘支持
     - 支持[阿里云盘](https://www.alipan.com)、[夸克网盘](https://pan.quark.cn)、Webdav和本地媒体文件
-    - 支持[Emby](https://emby.media)和[Jellyfin](https://jellyfin.org)(Beta)
+  - 支持[Emby](https://emby.media)和[Jellyfin](https://jellyfin.org)
     - 清晰度切换(阿里云盘)
     - 多账号登录
     - 网盘文件查看和管理
@@ -66,6 +66,7 @@ QQ群 1033449405
     - 浅色和深色模式
     - 支持手机端辅助TV端输入
     - 自定义界面大小
+  - TV端自定义按键
 - 其他
     - 纯本地运行，无需后端服务支持 [^1]
     - 软件体积小 (≈ 15 MB)

@@ -1,6 +1,6 @@
 ---
 project: Cofe
-stars: 1
+stars: 2
 description: |-
     A blog writing and memo talking app powered by GitHub
 url: https://github.com/metrue/Cofe

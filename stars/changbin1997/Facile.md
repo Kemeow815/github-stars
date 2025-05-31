@@ -1,6 +1,6 @@
 ---
 project: Facile
-stars: 198
+stars: 197
 description: |-
     一个简洁的 Typecho 博客主题
 url: https://github.com/changbin1997/Facile

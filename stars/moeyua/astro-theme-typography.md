@@ -1,6 +1,6 @@
 ---
 project: astro-theme-typography
-stars: 432
+stars: 442
 description: |-
     Rediscover the beauty of typography.
 url: https://github.com/moeyua/astro-theme-typography
@@ -74,7 +74,7 @@ description: "description"
 Or, you can use the following command in your terminal to create a new post:
 
 ```bash
-pnpm new-post
+pnpm theme:create
 ```
 
 ## Updating the theme

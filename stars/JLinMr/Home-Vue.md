@@ -1,6 +1,6 @@
 ---
 project: Home-Vue
-stars: 23
+stars: 24
 description: |-
     刚接触Vue的新手主页
 url: https://github.com/JLinMr/Home-Vue

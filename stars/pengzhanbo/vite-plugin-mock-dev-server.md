@@ -1,6 +1,6 @@
 ---
 project: vite-plugin-mock-dev-server
-stars: 209
+stars: 210
 description: |-
     🚀mock-dev-server is injected into the vite development environment to simulate requests and data responses.在vite 开发环境中注入 mock-dev-server, 模拟请求和数据响应
 url: https://github.com/pengzhanbo/vite-plugin-mock-dev-server

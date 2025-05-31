@@ -1,6 +1,6 @@
 ---
 project: DeepSeek-R1
-stars: 89439
+stars: 89751
 description: |-
     null
 url: https://github.com/deepseek-ai/DeepSeek-R1

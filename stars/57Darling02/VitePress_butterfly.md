@@ -10,7 +10,6 @@ url: https://github.com/57Darling02/VitePress_butterfly
 
 基于VitePress和Element Plus的卡片式仿butterfly主题。
 
-**演示站点：**[Vitepress-Butterfly | VitePress-Butterfly (57d02.cn)](https://vitepress.57d02.cn/)
 ##  特性
 
 - 基于 VitePress 1.6.3 + Vue 3 构建
@@ -40,57 +39,57 @@ npm run dev
 npm run build:docs
 ```
 ## 配置指南
-修改 .vitepress/config.mjs 进行主题配置：
+修改 site_config.ts进行主题配置：
 
 
 ```javascript
-export default defineConfig({
-  title: "站点标题",
-  themeConfig: {
-    // 导航菜单配置
-    menuItems: [
-      {
-        label: '文档',
-        icon: 'fa-regular fa-file',
-        link: '/guide'
-      }
-    ],
+export default {
+    // VitePress 站点基本配置,必填，允许留空
+    site_name: "My Awesome Site",
+    site_description: "这是一个使用 VitePress 构建的文档站点。",
+    site_url: "/",
+    author: '57Darling02',
     
-    // 作者信息
-    defaultauthor: '作者名称',
+    // 首页配置
+    home:{
+        mainTitle:"My Awesome Site",
+        subTitles:['世界上只有一种英雄主义','那就是在认清生活的真相后','依然热爱生活'],//打字机效果的副标题，使用字符串列表
+    },
     
-    // 社交链接
+    // 侧边简介卡
+    avatar: "https://resource-un4.pages.dev/article/yjtp.webp",
+    name: '57Darling02',
+    position: '全栈开发、优化算法爱好者',
+    bio: '红红火火恍恍惚惚',
     socialLinks: [
-      { 
+      {
         name: 'GitHub',
         icon: 'fa-brands fa-github',
-        url: 'https://github.com/yourprofile'
+        url: 'https://github.com/57Darling02/'
       }
     ],
-    
-    // 页脚配置
     footer: {
-      message: "备案信息",
-      copyright: "Copyright ? 2024-present Your Name"
+        message: 'Released under the MIT License.',
+        copyright: 'Copyright © 2025-present My Awesome Site'
     }
-  }
-})
+}
+
 ```
 ### 目录结构
 
 ```plainText
-Blog/
-├── .vitepress/
-│   ├── theme/          # 主题组件
-│   ├── config.mjs      # 站点配置
-├── posts/             # Markdown文章
+Blog/                   # 项目根目录
+├── .vitepress/         # 主题组件 不会为这部分提供文档 (一般不用动)
+│   ├── theme/          
+│   ├── config.mjs   
+│   ├── index.js
+│   └── ...   
+├── site_config.ts     # 站点配置 **自定义的配置，主要修改这个文件来配置站点信息**
+├── posts/             # Markdown文章 **文章放这里**
 ├── public/            # 静态资源
-└── package.json       # 依赖配置
+└── package.json       # 依赖配置 (一般不用动)
 ```
 ### 文章规范
-
-在 posts 目录中创建 .md 文件：
-
 
 ```markdown
 ---
@@ -114,18 +113,12 @@ layout: doc # 可选布局
 	![image-20250310101611742](https://resource-un4.pages.dev/article/image-20250310101611742.png)
 1. 在github page 创建工作流粘贴使用即可。
 
-
-
-
 优点：只需要修改posts文件夹内容，上传即可。
+
 
 ##### 本地构建
 
 1. 构建生产版本
-
-> 这将生成构建到docs目录，可以直接部署到GitHub Pages
->
-
 
 ```bash
 npm run build:docs
@@ -135,5 +128,8 @@ npm run build:docs
 3. 配置GitHub Page
 
 ![1741082221235](https://resource-un4.pages.dev/article/1741082221235.png)
+
+##### 
+
 
 

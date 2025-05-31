@@ -1,6 +1,6 @@
 ---
 project: astro-blur
-stars: 21
+stars: 22
 description: |-
     A static blog theme built with Astro. 一个静态Astro博客主题
 url: https://github.com/Jazee6/astro-blur

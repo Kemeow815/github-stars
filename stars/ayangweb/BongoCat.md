@@ -1,8 +1,8 @@
 ---
 project: BongoCat
-stars: 5206
+stars: 5638
 description: |-
-    跨平台桌宠 BongoCat，为桌面增添乐趣！
+    🐱 跨平台桌宠 BongoCat，为桌面增添乐趣！
 url: https://github.com/ayangweb/BongoCat
 ---
 
@@ -80,8 +80,15 @@ url: https://github.com/ayangweb/BongoCat
 
 - 适配 macOS、Windows 和 Linux(x11)。
 - 根据据键盘或鼠标操作，同步移动鼠标或敲击键盘。
+- 支持导入自定义模型，自由打造专属猫咪形象。
 - 完全开源，代码公开透明，绝不收集任何用户数据。
 - 支持离线运行，无需联网，保护用户隐私。
+
+## 更多模型
+
+你可以在这个仓库中探索、下载更多猫咪模型，或提交你的创作，与大家一起分享：
+
+📦 [Awesome-BongoCat](https://github.com/ayangweb/Awesome-BongoCat)
 
 ## 贡献指南
 

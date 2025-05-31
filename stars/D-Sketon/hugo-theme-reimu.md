@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-reimu
-stars: 95
+stars: 102
 description: |-
     一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hugo-theme-reimu
@@ -39,7 +39,7 @@ A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://githu
 ### 基础功能
 
 - ✨ 完整的博客功能
-- 🔄 兼容 Hugo 0.116.0 及以上版本
+- 🔄 兼容 Hugo 0.124.0 及以上版本
 - 📱 响应式布局
 - 🌙 暗黑模式支持
 - 🅰️ i18n 支持
@@ -1056,6 +1056,8 @@ v0.1.0 增加了 `anchor_icon` 配置用于自定义锚点图标，默认使用 
 ```yaml
 anchor_icon: # 不填默认使用 # 图标
 ```
+
+v0.11.0 `anchor_icon` 支持传递 `false` 以隐藏锚点图标
 
 ##### 鼠标图标（v0.5.0+）
 

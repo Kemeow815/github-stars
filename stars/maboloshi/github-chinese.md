@@ -1,6 +1,6 @@
 ---
 project: github-chinese
-stars: 11312
+stars: 11883
 description: |-
     GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 url: https://github.com/maboloshi/github-chinese
@@ -46,7 +46,7 @@ url: https://github.com/maboloshi/github-chinese
 
 ## 🚩 功能
 
-- 中文化 GitHub 菜单栏，标题，按钮等公共组件
+- 中文化 GitHub **菜单栏，标题，按钮等公共组件**
 - 保留、完善正则功能
 - 支持对 “项目描述” 进行人机翻译 (参考: [k1995/github-i18n-plugin](https://github.com/k1995/github-i18n-plugin))
 
@@ -62,10 +62,11 @@ Via 浏览器（Android）                | 浏览器内自带
 ## 💽 安装
 
 1. 安装用户脚本管理器。
-1. 打开浏览器的开发者模式。
 1. 然后再点击链接之一，安装脚本即可。
     - [GitHub 中文化插件 - GitHub 托管【开发版】][main.user.js]
+    - [GitHub 中文化插件 - GitCode 托管【开发版】][main(gitcode).user.js]
     - [GitHub 中文化插件 - GreasyFork 托管【发布版】][main(greasyfork).user.js]
+1. 在浏览器的 “扩展程序” 管理中开启 “开发者模式”。
 1. 刷新下页面，即可发现网站已中文化。
 
 > [!NOTE]
@@ -334,7 +335,7 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 
 [maboloshi](https://github.com/maboloshi) - 项目作者
 
-[wuyuncheng-26](https://github.com/wuyuncheng-26) - 项目协作者
+[wyc-26](https://github.com/wyc-26)，[陈生杂物房](https://github.com/TC999) - 项目协作者
 
 [52cik](https://github.com/52cik) - 项目原作者
 
@@ -438,6 +439,7 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 [Macaque]: https://macaque.app/ "猕猴"
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay"
 [main.user.js]: https://github.com/maboloshi/github-chinese/raw/gh-pages/main.user.js "GitHub 中文化插件 - GitHub 托管"
+[main(gitcode).user.js]: https://raw.gitcode.com/gh_mirrors/gi/github-chinese/raw/gh-pages/main(gitcode).user.js "GitHub 中文化插件 - GitCode 托管"
 [main(greasyfork).user.js]: https://greasyfork.org/scripts/435208-github-%E4%B8%AD%E6%96%87%E5%8C%96%E6%8F%92%E4%BB%B6/code/GitHub%20%E4%B8%AD%E6%96%87%E5%8C%96%E6%8F%92%E4%BB%B6.user.js "GitHub 中文化插件 - GreasyFork 托管"
 [GitHub Action]: https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml
 

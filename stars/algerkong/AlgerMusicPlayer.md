@@ -1,6 +1,6 @@
 ---
 project: AlgerMusicPlayer
-stars: 5400
+stars: 5869
 description: |-
     一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制
 url: https://github.com/algerkong/AlgerMusicPlayer
@@ -30,6 +30,9 @@ url: https://github.com/algerkong/AlgerMusicPlayer
 <div align="center">
   <a href="https://hellogithub.com/repository/607b849c598d48e08fe38789d156ebdc" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=607b849c598d48e08fe38789d156ebdc&claim_uid=ObuMXUfeHBmk9TI&theme=neutral" alt="Featured｜HelloGitHub" width="160" height="32" /></a>
 </div>
+
+
+[项目下安装以及常用问题文档](https://www.yuque.com/alger-pfg5q/ip4f1a/bmgmfmghnhgwghkm?singleDoc#)
 
 主要功能如下
 - 🎵 音乐推荐

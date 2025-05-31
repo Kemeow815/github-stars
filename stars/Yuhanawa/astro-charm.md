@@ -1,6 +1,6 @@
 ---
 project: astro-charm
-stars: 33
+stars: 34
 description: |-
     Beautiful and easy-to-use blog theme
 url: https://github.com/Yuhanawa/astro-charm
