@@ -1,6 +1,6 @@
 ---
 project: coreychiu-portfolio-template
-stars: 414
+stars: 416
 description: |-
     portfolio template by corey chiu
 url: https://github.com/iAmCorey/coreychiu-portfolio-template

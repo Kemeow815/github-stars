@@ -1,6 +1,6 @@
 ---
 project: lx-music-mobile
-stars: 13191
+stars: 13245
 description: |-
     一个基于 React native 开发的音乐软件
 url: https://github.com/lyswhut/lx-music-mobile

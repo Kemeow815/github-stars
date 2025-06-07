@@ -2,7 +2,7 @@
 project: AirBlog
 stars: 23
 description: |-
-    最简单的网站！基于Nextjs、Tailwindcss的个人博客网站，通过语雀同步、管理文档，方便耐用。
+    最简单的播客网站！基于Nextjs、Tailwindcss的个人博客网站，通过语雀同步、管理文档，方便耐用。
 url: https://github.com/white0dew/AirBlog
 ---
 

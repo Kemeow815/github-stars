@@ -1,6 +1,6 @@
 ---
 project: DailyHot
-stars: 712
+stars: 717
 description: |-
     DailyHot 今日热榜前端页面 | API：https://github.com/imsyy/DailyHotApi
 url: https://github.com/imsyy/DailyHot

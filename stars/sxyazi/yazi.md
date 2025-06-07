@@ -1,6 +1,6 @@
 ---
 project: yazi
-stars: 25422
+stars: 25609
 description: |-
     💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 url: https://github.com/sxyazi/yazi
@@ -70,7 +70,7 @@ Yazi is currently in heavy development, expect breaking changes.
 | [Ghostty](https://github.com/ghostty-org/ghostty)                            | [Kitty unicode placeholders][kgp]      | ✅ Built-in                                           |
 | [Windows Terminal](https://github.com/microsoft/terminal) (>= v1.22.10352.0) | [Sixel graphics format][sixel]         | ✅ Built-in                                           |
 | [st with Sixel patch](https://github.com/bakkeby/st-flexipatch)              | [Sixel graphics format][sixel]         | ✅ Built-in                                           |
-| [Warp](https://www.warp.dev)                                                 | [Inline images protocol][iip]          | ✅ Built-in                                           |
+| [Warp](https://www.warp.dev) (macOS/Linux only)                              | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [Tabby](https://github.com/Eugeny/tabby)                                     | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [VSCode](https://github.com/microsoft/vscode)                                | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [Rio](https://github.com/raphamorim/rio)                                     | [Inline images protocol][iip]          | ❌ Rio doesn't correctly clear images [#709][rio-bug] |

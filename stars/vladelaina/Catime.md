@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 2225
+stars: 2278
 description: |-
     A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
 url: https://github.com/vladelaina/Catime
@@ -25,9 +25,9 @@ url: https://github.com/vladelaina/Catime
   <a href="https://github.com/vladelaina/Catime/issues">
     <img src="https://img.shields.io/github/issues/vladelaina/Catime?style=flat-square&label=open%20issues&color=orange" alt="Open Issues" />
   </a>
-<a href="https://github.com/users/vladelaina/projects/2">
-  <img src="https://img.shields.io/badge/Project%20Board-Planning-blueviolet?style=flat-square" alt="Project Board" />
-</a>
+  <a href="https://github.com/users/vladelaina/projects/2">
+    <img src="https://img.shields.io/badge/Project%20Board-Planning-blueviolet?style=flat-square" alt="Project Board" />
+  </a>
 </div>
 
 <!-- 第二行 - 下载 -->
@@ -43,6 +43,13 @@ url: https://github.com/vladelaina/Catime
   </a>
 </div>
 
+<!-- 中间行 - 请我喝咖啡 -->
+<div align="center" style="margin: 10px 0;">
+  <a href="https://vladelaina.github.io/Catime/support.html" target="_blank">
+    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Me-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+  </a>
+</div>
+
 <!-- 第三行 - Demo 链接 -->
 <div align="center">
   <a href="https://vladelaina.github.io/Catime" target="_blank">
@@ -55,6 +62,7 @@ url: https://github.com/vladelaina/Catime
     <img src="https://img.shields.io/badge/📖_User_Guide-Read-1DB954?style=for-the-badge" alt="User Guide" />
   </a>
 </div>
+
 
 <!-- GitHub Trending 区域 -->
 <div align="center">
@@ -116,7 +124,7 @@ url: https://github.com/vladelaina/Catime
 #### 🪟 Winget
 
 ```
-winget install catime
+winget install --id VladElaina.Catime
 ```
 
 #### 💾 Manual Download
@@ -151,7 +159,7 @@ Download the latest release from [GitHub Releases](https://github.com/vladelaina
 
 
 
-## 🛠️ [Building from Source](https://vladelaina.com/blog-post?slug=Build_catime_from_source)
+## 🛠️ [Building from Source](https://www.bilibili.com/video/BV1H97LzVEee)
 
 ### 1. Clone:
 

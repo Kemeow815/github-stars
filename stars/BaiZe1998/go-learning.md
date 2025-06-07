@@ -1,6 +1,6 @@
 ---
 project: go-learning
-stars: 518
+stars: 525
 description: |-
     一个存放Go语言/计算机相关学习资料的仓库
 url: https://github.com/BaiZe1998/go-learning

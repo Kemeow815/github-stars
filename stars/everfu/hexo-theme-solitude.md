@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-solitude
-stars: 883
+stars: 890
 description: |-
     An elegant Hexo theme that supports lazy loading, PWA, Latex, and multiple commenting systems.
 url: https://github.com/everfu/hexo-theme-solitude

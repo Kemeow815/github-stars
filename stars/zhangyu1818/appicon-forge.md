@@ -1,6 +1,6 @@
 ---
 project: appicon-forge
-stars: 945
+stars: 947
 description: |-
     An intuitive app icon generator that lets you customize colors, borders, shadows, and more to create unique app icons effortlessly.
 url: https://github.com/zhangyu1818/appicon-forge

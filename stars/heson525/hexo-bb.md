@@ -1,6 +1,6 @@
 ---
 project: hexo-bb
-stars: 17
+stars: 18
 description: |-
     hexo插件，微信发送说说同步到hexo博客。❤
 url: https://github.com/heson525/hexo-bb

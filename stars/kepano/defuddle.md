@@ -1,6 +1,6 @@
 ---
 project: defuddle
-stars: 2032
+stars: 2221
 description: |-
     Extract the main content from web pages.
 url: https://github.com/kepano/defuddle

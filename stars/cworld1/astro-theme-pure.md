@@ -1,6 +1,6 @@
 ---
 project: astro-theme-pure
-stars: 242
+stars: 253
 description: |-
     ⭐ A simple, fast and powerful blog theme built by Astro
 url: https://github.com/cworld1/astro-theme-pure
@@ -21,11 +21,9 @@ A simple, fast and powerful blog theme built by Astro.
 ![image](./.github/assets/body.webp)
 
 > [!WARNING]
-> Theme template v4.0.2^ is changing CSS engine to UnoCSS. Stabler experience is currently on [v4.0.1-beta](https://github.com/cworld1/astro-theme-pure/tree/v4.0.1-beta). Known issues:
+> Theme template v4.0.2^ CSS engine changed to UnoCSS. Stabler version is [v4.0.1-beta](https://github.com/cworld1/astro-theme-pure/tree/v4.0.1-beta). Known issues:
 >
-> 1. UnoCSS adaption (serious)
-> 2. Cannot pack sitemap and pagefind resources on Vercel ([need upstream fix](https://github.com/withastro/astro/issues/12663) & temp fixed)
-> 3. Header & customize options is still under development (template exposed still)
+> 1. Header & customize options is still under development (template exposed still)
 
 ## Introduction
 
@@ -47,7 +45,7 @@ Checkout [Demo Site →](https://astro-pure.js.org/)
 
 Theme includes a lot of components, which can not only be used in the theme, but also in other astro projects.
 
-> For other astro projects, Tailwind CSS is required.
+> For other astro projects, UnoCSS is required.
 
 - Basic components: `Aside`, `Tabs`, `Timeline`, `Steps`, `Spoiler`...
 - Advanced components: `GithubCard`, `LinkPreview`, `Quote`, `QRCode`...

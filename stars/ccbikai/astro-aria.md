@@ -1,6 +1,6 @@
 ---
 project: astro-aria
-stars: 273
+stars: 278
 description: |-
     A personal blog, portfolio, or blog template
 url: https://github.com/ccbikai/astro-aria

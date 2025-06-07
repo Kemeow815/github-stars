@@ -1,6 +1,6 @@
 ---
 project: moemail
-stars: 1255
+stars: 1283
 description: |-
     一个基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务🎉
 url: https://github.com/beilunyang/moemail
@@ -355,6 +355,25 @@ X-API-Key: YOUR_API_KEY
 
 ### API 接口
 
+#### 获取系统配置
+```http
+GET /api/config
+```
+返回响应：
+```json
+{
+  "defaultRole": "CIVILIAN",
+  "emailDomains": "moemail.app,example.com",
+  "adminContact": "admin@example.com",
+  "maxEmails": "10"
+}
+```
+响应字段说明：
+- `defaultRole`: 新用户默认角色，可选值：`CIVILIAN`（平民）、`KNIGHT`（骑士）、`DUKE`（公爵）
+- `emailDomains`: 支持的邮箱域名，多个域名用逗号分隔
+- `adminContact`: 管理员联系方式
+- `maxEmails`: 每个用户可创建的最大邮箱数量
+
 #### 创建临时邮箱
 ```http
 POST /api/emails/generate
@@ -369,7 +388,18 @@ Content-Type: application/json
 参数说明：
 - `name`: 邮箱前缀，可选
 - `expiryTime`: 有效期（毫秒），可选值：3600000（1小时）、86400000（1天）、604800000（7天）、0（永久）
-- `domain`: 邮箱域名，可通过 `/api/emails/domains` 获取可用域名列表
+- `domain`: 邮箱域名，可通过 `/api/config` 接口获取
+
+返回响应：
+```json
+{
+  "id": "email-uuid-123",
+  "email": "test@moemail.app"
+}
+```
+响应字段说明：
+- `id`: 邮箱的唯一标识符
+- `email`: 创建的邮箱地址
 
 #### 获取邮箱列表
 ```http
@@ -378,22 +408,100 @@ GET /api/emails?cursor=xxx
 参数说明：
 - `cursor`: 分页游标，可选
 
+返回响应：
+```json
+{
+  "emails": [
+    {
+      "id": "email-uuid-123",
+      "address": "test@moemail.app",
+      "createdAt": "2024-01-01T12:00:00.000Z",
+      "expiresAt": "2024-01-02T12:00:00.000Z",
+      "userId": "user-uuid-456"
+    }
+  ],
+  "nextCursor": "encoded-cursor-string",
+  "total": 5
+}
+```
+响应字段说明：
+- `emails`: 邮箱列表数组
+- `nextCursor`: 下一页游标，用于分页请求
+- `total`: 邮箱总数量
+
 #### 获取指定邮箱邮件列表
 ```http
 GET /api/emails/{emailId}?cursor=xxx
 ```
 参数说明：
+- `emailId`: 邮箱的唯一标识符，必填
 - `cursor`: 分页游标，可选
+
+返回响应：
+```json
+{
+  "messages": [
+    {
+      "id": "message-uuid-789",
+      "from_address": "sender@example.com",
+      "subject": "邮件主题",
+      "received_at": 1704110400000
+    }
+  ],
+  "nextCursor": "encoded-cursor-string",
+  "total": 3
+}
+```
+响应字段说明：
+- `messages`: 邮件列表数组
+- `nextCursor`: 下一页游标，用于分页请求
+- `total`: 邮件总数量
 
 #### 删除邮箱
 ```http
 DELETE /api/emails/{emailId}
 ```
+参数说明：
+- `emailId`: 邮箱的唯一标识符，必填
+
+返回响应：
+```json
+{
+  "success": true
+}
+```
+响应字段说明：
+- `success`: 删除操作是否成功
 
 #### 获取单封邮件内容
 ```http
 GET /api/emails/{emailId}/{messageId}
 ```
+参数说明：
+- `emailId`: 邮箱的唯一标识符，必填
+- `messageId`: 邮件的唯一标识符，必填
+
+返回响应：
+```json
+{
+  "message": {
+    "id": "message-uuid-789",
+    "from_address": "sender@example.com",
+    "subject": "邮件主题",
+    "content": "邮件文本内容",
+    "html": "<p>邮件HTML内容</p>",
+    "received_at": 1704110400000
+  }
+}
+```
+响应字段说明：
+- `message`: 邮件详细信息对象
+- `id`: 邮件的唯一标识符
+- `from_address`: 发件人邮箱地址
+- `subject`: 邮件主题
+- `content`: 邮件纯文本内容
+- `html`: 邮件HTML内容
+- `received_at`: 接收时间（时间戳）
 
 ### 使用示例
 

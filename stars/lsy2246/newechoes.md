@@ -1,6 +1,6 @@
 ---
 project: newechoes
-stars: 13
+stars: 17
 description: |-
     null
 url: https://github.com/lsy2246/newechoes
@@ -11,7 +11,7 @@ url: https://github.com/lsy2246/newechoes
 ## 项目地址 & 使用教程
 
 **GitHub**：[lsy2246/newechoes](https://github.com/lsy2246/newechoes)  
-**使用教程**：[点击查看](https://blog.lsy22.com/articles/技术日志/web/echoes博客使用说明)
+**使用教程**：[点击查看](https://blog.lsy22.com/articles/echoes博客使用说明)
 
 ---
 

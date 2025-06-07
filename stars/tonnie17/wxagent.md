@@ -1,6 +1,6 @@
 ---
 project: wxagent
-stars: 52
+stars: 53
 description: |-
     支持工具调用的公众号聊天机器人
 url: https://github.com/tonnie17/wxagent

@@ -1,6 +1,6 @@
 ---
 project: lyric_xx
-stars: 18
+stars: 19
 description: |-
     lyric(.lrc) encode/decode. lrc 歌词解析、编码
 url: https://github.com/coolight7/lyric_xx

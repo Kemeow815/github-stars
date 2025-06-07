@@ -1,6 +1,6 @@
 ---
 project: chatgpt-vercel
-stars: 558
+stars: 560
 description: |-
     Create a private chatgpt website via vercel
 url: https://github.com/GPTGenius/chatgpt-vercel

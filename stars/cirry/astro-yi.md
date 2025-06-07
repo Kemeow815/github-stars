@@ -1,6 +1,6 @@
 ---
 project: astro-yi
-stars: 117
+stars: 119
 description: |-
     Astro Theme YI. A simple and lightweight blog theme for Astro.
 url: https://github.com/cirry/astro-yi

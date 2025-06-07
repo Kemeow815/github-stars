@@ -1,6 +1,6 @@
 ---
 project: vmail
-stars: 972
+stars: 979
 description: |-
     📫 An open source temporary email tool. 只需一个域名部署临时邮箱，支持多域名后缀，密码找回。
 url: https://github.com/oiov/vmail
@@ -92,3 +92,4 @@ GNU General Public License v3.0
 
 [![Star History Chart](https://api.star-history.com/svg?repos=oiov/vmail&type=Date)](https://star-history.com/#oiov/vmail&Date)
 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")

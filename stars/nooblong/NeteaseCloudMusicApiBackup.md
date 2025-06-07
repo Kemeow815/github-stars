@@ -1,6 +1,6 @@
 ---
 project: NeteaseCloudMusicApiBackup
-stars: 245
+stars: 249
 description: |-
     null
 url: https://github.com/nooblong/NeteaseCloudMusicApiBackup

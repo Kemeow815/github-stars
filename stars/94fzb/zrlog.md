@@ -1,6 +1,6 @@
 ---
 project: zrlog
-stars: 377
+stars: 379
 description: |-
     ZrLog是使用 Java 开发的博客/CMS程序，具有简约，易用，组件化，内存占用低等特点。自带 Markdown 编辑器，让更多的精力放在写作上，而不是花费大量时间在学习程序的使用上。
 url: https://github.com/94fzb/zrlog
@@ -66,7 +66,7 @@ ZrLog是使用 Java 开发的博客/CMS程序，具有简约，易用，组件�
     * MySQL >= 5.7
 
 * 数据初始化
-    * 下载 [最新 zip](https://dl.zrlog.com/release/zrlog.zip) 解压，运行 bin/start.sh 或者是 bin/start.bat
+    * 下载 [最新 zip](https://www.zrlog.com/download) 解压，运行 bin/start.sh 或者是 bin/start.bat
     * 访问 http://host:port/install
     * 填写数据库，管理员信息，完成安装
 

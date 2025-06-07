@@ -1,6 +1,6 @@
 ---
 project: jetlab
-stars: 15
+stars: 17
 description: |-
     My personal website.
 url: https://github.com/inannan423/jetlab

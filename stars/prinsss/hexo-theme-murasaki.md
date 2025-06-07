@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-murasaki
-stars: 63
+stars: 64
 description: |-
     Yet another minimalist theme for Hexo. (EARLY DEV STAGE)
 url: https://github.com/prinsss/hexo-theme-murasaki

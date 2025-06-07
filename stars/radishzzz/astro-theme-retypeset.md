@@ -1,28 +1,17 @@
 ---
 project: astro-theme-retypeset
-stars: 318
+stars: 329
 description: |-
     Revive the beauty of typography.
 url: https://github.com/radishzzz/astro-theme-retypeset
 ---
 
-<img alt="Cover Image" src="images/retypeset-en-desktop.webp"/>
-<img alt="Cover Image" src="images/retypeset-en-mobile.webp"/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-            srcset="https://img.shields.io/badge/-English-4593F8?style=for-the-badge" />
-    <source media="(prefers-color-scheme: light)"
-            srcset="https://img.shields.io/badge/-English-0A69DA?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/-English-0A69DA?style=for-the-badge" alt="English">
-  </picture>
-  <a title="zh" href="README.zh.md">
-    <img src="https://img.shields.io/badge/-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-545759?style=for-the-badge" alt="简体中文">
-  </a>
-</div>
-
 # Retypeset
+
+<img alt="Cover Image" src="assets/images/retypeset-en-desktop.webp"/>
+<img alt="Cover Image" src="assets/images/retypeset-en-mobile.webp"/>
+
+[简体中文](assets/docs/README.zh.md)｜[繁体中文](assets/docs/README.zh-tw.md)｜[日本語](assets/docs/README.ja.md)｜[Español](assets/docs/README.es.md)｜[Français](assets/docs/README.fr.md)｜[Русский](assets/docs/README.ru.md)
 
 Retypeset is a static blog theme based on the [Astro](https://astro.build/) framework. Inspired by [Typography](https://astro-theme-typography.vercel.app/), Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.
 
@@ -52,7 +41,7 @@ Retypeset is a static blog theme based on the [Astro](https://astro.build/) fram
 <br>
 <p align="center">
   <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fretypeset.radishzz.cc%2Fen%2F&form_factor=desktop">
-    <img width="710" alt="Retypeset Lighthouse Score" src="images/retypeset-lighthouse-score.svg">
+    <img width="710" alt="Retypeset Lighthouse Score" src="assets/images/retypeset-lighthouse-score.svg">
   <a>
 </p>
 
@@ -81,7 +70,7 @@ Retypeset is a static blog theme based on the [Astro](https://astro.build/) fram
 3. Refer to the [Theme Guide](https://retypeset.radishzz.cc/en/posts/theme-guide/) to customize your blog and create new articles.
 4. Refer to the [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) to deploy your blog to Netlify, Vercel, or other platforms.
 
-&emsp;[![Deploy to Netlify](images/deploy-netlify.svg)](https://app.netlify.com/start) [![Deploy to Vercel](images/deploy-vercel.svg)](https://vercel.com/new)
+&emsp;[![Deploy to Netlify](assets/images/deploy-netlify.svg)](https://app.netlify.com/start) [![Deploy to Vercel](assets/images/deploy-vercel.svg)](https://vercel.com/new)
 
 ## Updates
 

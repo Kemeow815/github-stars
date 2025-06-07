@@ -1,6 +1,6 @@
 ---
 project: eallion.com
-stars: 54
+stars: 55
 description: |-
     📝 A Hugo blog about Charles Chin.
 url: https://github.com/eallion/eallion.com

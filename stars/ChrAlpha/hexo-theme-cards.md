@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-cards
-stars: 445
+stars: 447
 description: |-
     Another Simple & Swift theme for Hexo
 url: https://github.com/ChrAlpha/hexo-theme-cards

@@ -1,6 +1,6 @@
 ---
 project: tinymind
-stars: 742
+stars: 749
 description: |-
     Tinymind - Write and sync your blog & thoughts with GitHub
 url: https://github.com/mazzzystar/tinymind
