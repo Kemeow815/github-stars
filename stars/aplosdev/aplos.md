@@ -1,6 +1,6 @@
 ---
 project: aplos
-stars: 7
+stars: 8
 description: |-
     A sleek, contemporary, and purposefully designed VitePress theme
 url: https://github.com/aplosdev/aplos

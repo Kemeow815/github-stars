@@ -1,6 +1,6 @@
 ---
 project: ThriveX-Blog
-stars: 611
+stars: 612
 description: |-
     🎉 ThriveX 是一个年轻、高颜值、全开源、永不收费的现代化博客管理系统。它采用前后端分离开发模式，是一个 NextJS + Spring Boot 的产物
 url: https://github.com/LiuYuYang01/ThriveX-Blog

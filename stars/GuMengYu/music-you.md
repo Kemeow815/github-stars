@@ -1,6 +1,6 @@
 ---
 project: music-you
-stars: 612
+stars: 614
 description: |-
     🪗 一个美观简约的Material Design 3 (Material You) 风格pc音乐播放器
 url: https://github.com/GuMengYu/music-you

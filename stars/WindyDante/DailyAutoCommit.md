@@ -1,6 +1,6 @@
 ---
 project: DailyAutoCommit
-stars: 15
+stars: 14
 description: |-
     DailyAutoCommit - 智能仓库活跃守护者  🔥 每日自动提交 | 🛡️ 防止仓库休眠 | 🚀 零配置部署  通过 GitHub Actions 实现全自动定时提交，智能解决代码冲突，支持私有仓库与多时段配置，新手友好型设计，3 分钟完成配置，让您的仓库永远保持活跃状态！
 url: https://github.com/WindyDante/DailyAutoCommit

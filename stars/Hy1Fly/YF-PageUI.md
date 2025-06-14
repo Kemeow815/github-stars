@@ -1,6 +1,6 @@
 ---
 project: YF-PageUI
-stars: 4
+stars: 8
 description: |-
     用于GithubPages服务的UI
 url: https://github.com/Hy1Fly/YF-PageUI

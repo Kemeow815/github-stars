@@ -3,7 +3,7 @@ project: Imitate-GitHub
 stars: 3
 description: |-
     一个仿制github的个人主页（仅供学习交流个人使用禁止商用）
-url: https://github.com/Sasariki/Imitate-GitHub
+url: https://github.com/yuazhi/Imitate-GitHub
 ---
 
 # GitHub Profile Portfolio

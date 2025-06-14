@@ -1,6 +1,6 @@
 ---
 project: Sakurairo
-stars: 3523
+stars: 3532
 description: |-
     A WordPress theme that is built with AI-assisted reading features, colorful, user-friendly, well-rounded, and rich in functionalities. Support Chinese, English, Japanese, Français (soutien de base) languages. Based on Theme Sakura.  一款具有 AI 辅助阅读功能的 WordPress 主题，多彩、友好、功能全面、体验完善。 支持中、英、日、法（基础适配）多语言。基于 Sakura 主题。
 url: https://github.com/mirai-mamori/Sakurairo

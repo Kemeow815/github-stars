@@ -1,6 +1,6 @@
 ---
 project: sorollaportfolio
-stars: 51
+stars: 52
 description: |-
     This project showcases a potential design for a personal portfolio, featuring block sections with markdown entries.
 url: https://github.com/jramma/sorollaportfolio

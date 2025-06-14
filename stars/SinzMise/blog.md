@@ -10,8 +10,6 @@ url: https://github.com/SinzMise/blog
 
 ## Preview | 预览
 
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/SinzMise/blog/gh-pages.yml?branch=source&label=Pages&logo=GitHub&style=flat-square)
-
 框架：[VitePress](https://vitepress.dev/)
 
 主题：[Curve](https://github.com/imsyy/vitepress-theme-curve)

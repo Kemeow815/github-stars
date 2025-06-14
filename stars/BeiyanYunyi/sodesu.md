@@ -1,6 +1,6 @@
 ---
 project: sodesu
-stars: 20
+stars: 21
 description: |-
     Waline compatible comment system, made with Solid.js and UnoCSS.
 url: https://github.com/BeiyanYunyi/sodesu

@@ -1,6 +1,6 @@
 ---
 project: TimePlus
-stars: 226
+stars: 229
 description: |-
     洪墨时光。由Heo维护的Time主题版本，基于Typecho
 url: https://github.com/zhheo/TimePlus
@@ -10,7 +10,7 @@ url: https://github.com/zhheo/TimePlus
 
 [English README](README_EN.md)
 
-![](/info/timeplus.webp)
+![洪墨时光](https://github.com/user-attachments/assets/09d44b6d-5d75-45fb-9a47-1a9ff6e43d6f)
 
 本主题基于原作者已倒闭的[Time主题](https://github.com/wclk/time)改进。
 
@@ -53,3 +53,4 @@ Demo: [立即查看](https://plog.zhheo.com/)
 - wclk
 - HTML UP
 - [ZigaoWang](https://github.com/ZigaoWang)
+

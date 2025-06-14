@@ -8,9 +8,9 @@ url: https://github.com/immccn123/immccn123
 
 ## 👋 Hi, Imken here!
 
-zh-CN (Native) / en-unknown
+zh-CN (Native) / en-unknown / x-cat
 
-现役高二学生，目前可能在全面开摆中。
+现役即将高三学生，目前可能在全面开摆中。
 
 [我很可爱，请给我钱](https://sponsor.imken.moe/)
 

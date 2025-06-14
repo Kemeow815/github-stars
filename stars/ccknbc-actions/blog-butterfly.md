@@ -1,6 +1,6 @@
 ---
 project: blog-butterfly
-stars: 46
+stars: 47
 description: |-
     CC的Butterfly主题部落格源码
 url: https://github.com/ccknbc-actions/blog-butterfly

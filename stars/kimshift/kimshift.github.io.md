@@ -1,6 +1,6 @@
 ---
 project: kimshift.github.io
-stars: 2
+stars: 3
 description: |-
     个人博客集成自定义主题-vitepress
 url: https://github.com/kimshift/kimshift.github.io

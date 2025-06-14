@@ -1,8 +1,8 @@
 ---
 project: Catime
-stars: 2278
+stars: 2329
 description: |-
-    A very useful timer (Pomodoro Clock).[一款非常好用的计时器(🍅番茄时钟)]
+    A very useful timer (🍅Pomodoro Clock)
 url: https://github.com/vladelaina/Catime
 ---
 
@@ -98,8 +98,14 @@ url: https://github.com/vladelaina/Catime
 
 <!-- 演示视频 -->
 <div align="center" style="margin-bottom: 30px;">
-  <video src="https://github.com/user-attachments/assets/2f733378-8ddd-468f-b971-7e98ea4824c2" autoplay loop style="border-radius: 8px; max-width: 800px;"></video>
+  <video src="https://github.com/user-attachments/assets/99793950-3a07-452b-85ee-c26711d2d9a1" autoplay loop style="border-radius: 8px; max-width: 800px;"></video>
 </div>
+
+
+
+
+
+
 
 <!-- 社区链接 -->
 <div align="center" style="margin-bottom: 30px;">
@@ -173,18 +179,18 @@ cd Catime
 ### 2. Tools (MinGW, xmake)
 
 
-#### 🐧Linux
+#### <img src="Images/linux.svg"  height="25" />Linux
 
-- Ubuntu
+- <img src="Images/ubuntu.svg"  height="25" />Ubuntu
    ```bash
    sudo apt update && sudo apt install -y mingw-w64 && curl -fsSL https://xmake.io/shget.text | bash
    ```
-- Arch
+- <img src="Images/archlinux.svg"  height="25" />Arch
   ```bash
   sudo pacman -Syu --noconfirm mingw-w64 xmake
   ```
 
-#### 🪟Windows
+#### <img src="Images/windows.svg"  height="25" />Windows
   
   1. Prepare tools
 

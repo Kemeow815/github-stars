@@ -1,6 +1,6 @@
 ---
 project: AdBlock_Rule_For_Clash
-stars: 149
+stars: 155
 description: |-
     适用于Clash（premium核心与mihomo核心）的广告域名拦截RULE-SET规则集，每20分钟更新一次
 url: https://github.com/REIJI007/AdBlock_Rule_For_Clash

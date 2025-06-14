@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-vivia
-stars: 425
+stars: 426
 description: |-
     A clean and minimalist theme for Hexo.
 url: https://github.com/saicaca/hexo-theme-vivia

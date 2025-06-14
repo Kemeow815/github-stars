@@ -1,6 +1,6 @@
 ---
 project: cloud-mail
-stars: 187
+stars: 240
 description: |-
     cloudflare email 邮箱  临时邮箱 邮件发送 mail
 url: https://github.com/LaziestRen/cloud-mail

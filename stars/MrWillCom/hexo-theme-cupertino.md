@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-cupertino
-stars: 223
+stars: 227
 description: |-
     The Hexo Blog Theme Cupertino.
 url: https://github.com/MrWillCom/hexo-theme-cupertino

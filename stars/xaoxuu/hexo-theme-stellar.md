@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-stellar
-stars: 1578
+stars: 1586
 description: |-
     内置文档系统的简约商务风Hexo主题，支持大量的标签组件和动态数据组件。
 url: https://github.com/xaoxuu/hexo-theme-stellar

@@ -1,6 +1,6 @@
 ---
 project: Kratos-Rebirth
-stars: 720
+stars: 718
 description: |-
     一个可爱而现代的 Hexo 主题
 url: https://github.com/Candinya/Kratos-Rebirth
