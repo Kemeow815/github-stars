@@ -1,25 +1,16 @@
 ---
-project: rime_wanxiang_pro
-stars: 693
+project: rime_wanxiang
+stars: 742
 description: |-
-    Rime万象拼音输入方案：双拼辅助码增强版,词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。支持8种双拼，8种辅助码，并且可以扩展更多，支持中英混输，内置超级注释lua，带调全拼输入码显示lua，快符与重复上屏lua，手动排序，tips等功能扩展，大大增强使用体验。　　Q群：11033572
-url: https://github.com/amzxyz/rime_wanxiang_pro
+    Rime万象拼音输入方案：标准版与增强版可选，词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。支持8种双拼，7种辅助码，并且可以扩展更多，支持中英混输，内置超级注释、带调全拼输入码显示、快符与重复上屏、手动排序、tips等功能扩展，大大增强使用体验。　　Q群：11033572
+url: https://github.com/amzxyz/rime_wanxiang
 ---
 
 ---
-_自6.0起，请不要克隆和下载仓库，仓库涵盖8种辅助码，除非你知道自己在做什么。我在release做了分包处理，你可以在最新的版本号下载到正式的方案库，可以在每夜词库更新获得最新的词库和模型更新，小幅度微调我也会直接在最新的release update
-区别是辅助码无需配置了而是通过选择下载来确认词库携带的辅助码，体积更小！_
----
 
-
-
-# 万象系列方案——双拼辅助码增强版(全拼用户移步标准版) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/amzxyz/rime_wanxiang_pro)
-
-本方案为万象双拼辅助码增强版   [>>万象标准版,支持同文9、14、18键](https://github.com/amzxyz/rime_wanxiang)  
+# 万象系列方案 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/amzxyz/rime_wanxiang_pro)
 
 ---------------------
-
-[为什么默认关闭调频的说明](https://github.com/amzxyz/RIME-LMDG/wiki/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%85%B3%E9%97%AD%E8%B0%83%E9%A2%91%E4%BB%A5%E5%8F%8A%E4%B8%8E%E4%B9%8B%E5%85%B3%E8%81%94%E7%9A%84%E6%8E%AA%E6%96%BD%E6%9C%89%E5%93%AA%E4%BA%9B)   ```enable_user_dict: false # 是否开启自动调频，true为开启```
 
 ## 万象拼音——基于深度优化的词库和语言模型
 
@@ -37,6 +28,8 @@ _自6.0起，请不要克隆和下载仓库，仓库涵盖8种辅助码，除非
 #### 为什么词库这么大，我见过只有单字携带辅助码的方案，词库可以缩小吗？
 
 在这里我借助wiki深入阐述一下这个问题并解答这些问题：[万象词库PRO的设计理念](https://github.com/amzxyz/RIME-LMDG/wiki/%E4%B8%87%E8%B1%A1%E8%AF%8D%E5%BA%93PRO%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%90%86%E5%BF%B5)
+
+[为什么PRO版本默认关闭调频的说明](https://github.com/amzxyz/RIME-LMDG/wiki/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%85%B3%E9%97%AD%E8%B0%83%E9%A2%91%E4%BB%A5%E5%8F%8A%E4%B8%8E%E4%B9%8B%E5%85%B3%E8%81%94%E7%9A%84%E6%8E%AA%E6%96%BD%E6%9C%89%E5%93%AA%E4%BA%9B)   ```enable_user_dict: false # 是否开启自动调频，true为开启```
 
 总而言之，**万象词库中的带声调拼音标注+词组构成+词频是整个万象项目的核心，是使用体验的基石，方案的其它功能皆可自定义，我希望使用者可以基于词库+转写的方式获得输入体验** [万象词库问题收集反馈表](https://docs.qq.com/smartsheet/DWHZsdnZZaGh5bWJI?viewId=vUQPXH&tab=BB08J2)
 
@@ -376,8 +369,4 @@ __patch:
 如果觉得项目好用，可以请AMZ喝咖啡
 
 <img alt="pay" src="./.github/赞赏.jpeg" height="312" width="446">
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=amzxyz/RIME-LMDG,amzxyz/rime_wanxiang,amzxyz/rime_wanxiang_pro&type=Date)
 

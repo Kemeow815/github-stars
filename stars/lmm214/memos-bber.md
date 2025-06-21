@@ -1,6 +1,6 @@
 ---
 project: memos-bber
-stars: 272
+stars: 273
 description: |-
     Memos 的 Chrome 扩展
 url: https://github.com/lmm214/memos-bber

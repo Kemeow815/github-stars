@@ -1,6 +1,6 @@
 ---
 project: LibreTV
-stars: 5621
+stars: 6438
 description: |-
     一分钟搭建影视站，支持Vercel/Docker等部署方式
 url: https://github.com/LibreSpark/LibreTV
@@ -16,7 +16,7 @@ url: https://github.com/LibreSpark/LibreTV
 
 ## 📺 项目简介
 
-LibreTV 是一个轻量级、免费的在线视频搜索与观看平台，提供来自多个视频源的内容搜索与播放服务。无需注册，即开即用，支持多种设备访问。项目结合了前端技术和后端代理功能，可部署在支持服务端功能的各类网站托管服务上。
+LibreTV 是一个轻量级、免费的在线视频搜索与观看平台，提供来自多个视频源的内容搜索与播放服务。无需注册，即开即用，支持多种设备访问。项目结合了前端技术和后端代理功能，可部署在支持服务端功能的各类网站托管服务上。**项目门户**： [libretv.is-an.org](https://libretv.is-an.org)
 
 本项目基于 [bestK/tv](https://github.com/bestK/tv) 进行重构与增强。
 
@@ -206,6 +206,10 @@ LibreTV 支持标准的苹果 CMS V10 API 格式。添加自定义 API 时需遵
 LibreTV 仅作为视频搜索工具，不存储、上传或分发任何视频内容。所有视频均来自第三方 API 接口提供的搜索结果。如有侵权内容，请联系相应的内容提供方。
 
 本项目开发者不对使用本项目产生的任何后果负责。使用本项目时，您必须遵守当地的法律法规。
+
+## 🎉 贡献者福利
+
+活跃贡献者可以在 [Issue #268](https://github.com/LibreSpark/LibreTV/issues/268) 中留言，申请免费上车 1Password Team，享受团队协作工具的便利！
 
 ## 💝 支持项目
 

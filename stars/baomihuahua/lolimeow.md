@@ -1,6 +1,6 @@
 ---
 project: lolimeow
-stars: 737
+stars: 741
 description: |-
     wordpress主题-lolimeow 
 url: https://github.com/baomihuahua/lolimeow

@@ -1,6 +1,6 @@
 ---
 project: vitepress-carbon
-stars: 77
+stars: 76
 description: |-
     Streamlined Theme for VitePress
 url: https://github.com/brenoepics/vitepress-carbon

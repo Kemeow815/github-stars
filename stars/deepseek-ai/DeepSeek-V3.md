@@ -1,6 +1,6 @@
 ---
 project: DeepSeek-V3
-stars: 97614
+stars: 97762
 description: |-
     null
 url: https://github.com/deepseek-ai/DeepSeek-V3
@@ -243,7 +243,7 @@ DeepSeek-V3 can be deployed locally using the following hardware and open-source
 5. **vLLM**: Support DeepSeek-V3 model with FP8 and BF16 modes for tensor parallelism and pipeline parallelism.
 6. **LightLLM**: Supports efficient single-node or multi-node deployment for FP8 and BF16.
 7. **AMD GPU**: Enables running the DeepSeek-V3 model on AMD GPUs via SGLang in both BF16 and FP8 modes.
-8. **Huawei Ascend NPU**: Supports running DeepSeek-V3 on Huawei Ascend devices.
+8. **Huawei Ascend NPU**: Supports running DeepSeek-V3 on Huawei Ascend devices in both INT8 and BF16.
 
 Since FP8 training is natively adopted in our framework, we only provide FP8 weights. If you require BF16 weights for experimentation, you can use the provided conversion script to perform the transformation.
 

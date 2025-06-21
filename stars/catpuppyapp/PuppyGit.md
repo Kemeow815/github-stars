@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 343
+stars: 352
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit
@@ -14,7 +14,6 @@ url: https://github.com/catpuppyapp/PuppyGit
 # PuppyGit
 PuppyGit is A Git Client for Android, Open Source and No Ads and Free to use
 
-### PuppyGit is the first android git client which support graph view of commits history
 
 ## Author
 PuppyGit made by Bandeapart1964 of catpuppyapp

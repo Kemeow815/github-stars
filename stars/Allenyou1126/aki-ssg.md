@@ -139,6 +139,7 @@ The file should be like:
 id: 1
 title: "Hello, World!"
 description: 这是一篇测试文章
+created_at: "2024-10-04"
 modified_at: "2024-10-04"
 draft: false
 ---
@@ -152,6 +153,7 @@ And attributes in the front matter should be like:
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | id                    | A unique integer, be used to identify this article. The URL of this article would be `/posts/:id`                                     |
 | title                 | Describes the title of this article.                                                                                                  |
+| created_at            | Describes the date and time of the last time this article be created.                                                                 |
 | modified_at           | Describes the date and time of the last time this article be modified.                                                                |
 | description(Optional) | Describes the abstract description of this article. If is left blank, "没有描述" will be used by default.                             |
 | draft(Optional)       | A boolean value, describes whether this article is an draft. Drafts will be visiable only in `dev` preview. Default value is `false`. |

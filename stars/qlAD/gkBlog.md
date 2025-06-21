@@ -1,6 +1,6 @@
 ---
 project: gkBlog
-stars: 41
+stars: 54
 description: |-
     gkBlog 是一个使用 Turborepo + pnpm 构建的个人博客网站 📚
 url: https://github.com/qlAD/gkBlog
@@ -130,10 +130,10 @@ flowchart TB
    cd ./gkBlog
    ```
 
-2. **准备好对 `env.local` 文件进行配置**：
+2. **准备好对 `.env.local` 文件进行配置**：
 
    ```bash
-   cp ./apps/gkBlog/env.example ./apps/gkBlog/env.local
+   cp ./apps/gkBlog/.env.example ./apps/gkBlog/.env.local
    ```
 
    ```yaml
@@ -141,6 +141,8 @@ flowchart TB
    SALT_IP_ADDRESS = super-secret
    NEXT_PUBLIC_BAIDU_TONGJI = xxxxxxxxxxxxxx
    NEXT_PUBLIC_GOOGLE_ID = xxxxxxxxxxxxxx
+   NEXT_PUBLIC_CLARITY_TAG_ID = xxxxxxxxxxxxxx
+   NEXT_PUBLIC_TWIKOO_ENVID = xxxxxxxxxxxxxx
    ```
 
    > 📝 对于 `DATABASE_URL`，请使用您的数据库连接字符串。我个人使用的是免费版的 [MongoDB](https://www.mongodb.com/)，你也可以在免费版中创建数据库，并在 `env.local` 中添加连接字符串。它看起来应该如下所示：

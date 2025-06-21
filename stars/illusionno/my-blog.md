@@ -1,6 +1,6 @@
 ---
 project: my-blog
-stars: 6
+stars: 7
 description: |-
     a blog built by vuepress-theme-reco@2.x
 url: https://github.com/illusionno/my-blog

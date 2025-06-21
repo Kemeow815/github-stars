@@ -1,6 +1,6 @@
 ---
 project: home
-stars: 364
+stars: 365
 description: |-
     好看的个人主页，个人主页源码，博客主页模板
 url: https://github.com/wexuo/home

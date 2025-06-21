@@ -1,6 +1,6 @@
 ---
 project: vite-plugin-mock-dev-server
-stars: 211
+stars: 214
 description: |-
     🚀mock-dev-server is injected into the vite development environment to simulate requests and data responses.在vite 开发环境中注入 mock-dev-server, 模拟请求和数据响应
 url: https://github.com/pengzhanbo/vite-plugin-mock-dev-server
@@ -56,7 +56,7 @@ url: https://github.com/pengzhanbo/vite-plugin-mock-dev-server
 
 ## Documentation
 
-See the [documentation](https://vite-plugin-mock-dev-server.netlify.app/en/) for more details.
+See the [documentation](https://vite-plugin-mock-dev-server.netlify.app/) for more details.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9ccda610-2c6a-4cd0-aeaa-a8932f2b477c/deploy-status)](https://app.netlify.com/sites/vite-plugin-mock-dev-server/deploys)
 

@@ -1,6 +1,6 @@
 ---
 project: island
-stars: 105
+stars: 106
 description: |-
     null
 url: https://github.com/hexianWeb/island

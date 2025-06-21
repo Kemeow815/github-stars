@@ -1,6 +1,6 @@
 ---
 project: rspress
-stars: 1771
+stars: 1781
 description: |-
     🦀 A fast Rsbuild-based static site generator.
 url: https://github.com/web-infra-dev/rspress
@@ -41,7 +41,7 @@ Rstack is a unified JavaScript toolchain built around Rspack, with high performa
 | Name                                                  | Description              |
 | ----------------------------------------------------- | ------------------------ |
 | [Rspack](https://github.com/web-infra-dev/rspack)     | Bundler                  |
-| [Rsbuild](https://github.com/web-infra-dev/rspress)   | Build tool               |
+| [Rsbuild](https://github.com/web-infra-dev/rsbuild)   | Build tool               |
 | [Rslib](https://github.com/web-infra-dev/rslib)       | Library development tool |
 | [Rspress](https://github.com/web-infra-dev/rspress)   | Static site generator    |
 | [Rsdoctor](https://github.com/web-infra-dev/rsdoctor) | Build analyzer           |

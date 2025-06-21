@@ -8,11 +8,11 @@ url: https://github.com/Wcowin/Mkdocs-Wcowin
 
 # Wcowin for MkDocs主题
 
-**- 基于Material for MkDocs美化**  
-**- 简洁美观，功能多元化**  
-**- 可自定义样式，中文教程详细**  
-**- 简单易上手，小白配置**  
-**- 𝕙𝕒𝕧𝕖 𝕒 𝕘𝕠𝕠𝕕 𝕥𝕚𝕞𝕖 !**
+- **基于Material for MkDocs美化**  
+- **简洁美观，功能多元化**  
+- **可自定义样式，中文教程详细**  
+- **简单易上手，小白配置**  
+- **𝕙𝕒𝕧𝕖 𝕒 𝕘𝕠𝕠𝕕 𝕥𝕚𝕞𝕖 !**
 
 ## 目录
 - [Wcowin for MkDocs主题](#wcowin-for-mkdocs主题)

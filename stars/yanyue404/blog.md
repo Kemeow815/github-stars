@@ -10,6 +10,9 @@ url: https://github.com/yanyue404/blog
 
 基督徒 | F2E
 
+
+> 欢迎 RSS 订阅我的博客！通过 GitHub Issues 管理的所有新文章都会自动更新：https://openrss.org/github.com/yanyue404/blog/issues
+
 ## 目录
 
 <details><summary>Update time: 2024-08-17 01:00:49 by <a href="https://github.com/yanyue404/issues2md">issues2md</a> :sunflower:</summary>
@@ -95,6 +98,7 @@ url: https://github.com/yanyue404/blog
 - [为官之道（转贴）](https://github.com/yanyue404/blog/issues/172)
 - [深水洞潜历险记](https://github.com/yanyue404/blog/issues/164)
 - [一个老程序员的 30 年生涯回顾（译文）](https://github.com/yanyue404/blog/issues/119)
+- [书评（多篇）](https://github.com/yanyue404/blog/issues/260)
 
 ### 前端体系
 
@@ -204,10 +208,6 @@ url: https://github.com/yanyue404/blog
 - [jstraining - 全栈工程师培训材料（转载）](https://github.com/yanyue404/blog/issues/102)
 - [前端模拟 api 数据的两种方式](https://github.com/yanyue404/blog/issues/25)
 - [npm&yarn](https://github.com/yanyue404/blog/issues/7)
-
-### undefined
-
-- [书评（多篇）](https://github.com/yanyue404/blog/issues/260)
 
 ### 杂物间
 

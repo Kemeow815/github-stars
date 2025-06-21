@@ -1,36 +1,47 @@
 ---
 project: SaveAny-Bot
-stars: 960
+stars: 980
 description: |-
-    Save Telegram files to multiple storage 📂 (Alist, disk, Webdav, Minio...) . Support restrict saving content.
+    Save Telegram files to multiple storage 📂 (Alist, Disk, Webdav, S3...) . Support restrict saving content.
 url: https://github.com/krau/SaveAny-Bot
 ---
 
 <div align="center">
 
-# <img src="docs/logo.jpg" width="45" align="center"> Save Any Bot
+# <img src="docs/static/logo.png" width="45" align="center"> Save Any Bot
 
-**简体中文** | [English](README_EN.md)
+**简体中文** | [English](https://sabot.unv.app/en/)
 
-把 Telegram 的文件保存到各类存储端.
-
-> _就像 PikPak Bot 一样_
+把 Telegram 上的文件转存到多种存储端.
 
 </div>
 
-## [部署](https://sabot.unv.app/deploy/)
+## 部署
 
-## [参与开发](https://sabot.unv.app/contribute/)
+请参考 [部署文档](https://sabot.unv.app/deployment/installation/)
 
----
+## Features
 
-## 赞助
+- 支持文档/视频/图片/贴纸… 甚至还有 Telegraph
+- 破解禁止保存的文件
+- 批量下载
+- 流式传输
+- 多用户
+- 基于存储规则的自动整理
+- 支持多种存储端:
+  - Alist
+  - Minio (S3 兼容)
+  - WebDAV
+  - Telegram (重传回指定聊天)
+  - 本地磁盘
+
+## Sponsors
 
 本项目受到 [YxVM](https://yxvm.com/) 与 [NodeSupport](https://github.com/NodeSeekDev/NodeSupport) 的支持.
 
 如果这个项目对你有帮助, 你可以考虑通过以下方式赞助我:
 
-- [爱发电](https://afdian.com/a/acherkrau)
+- [爱发电](https://afdian.com/a/unvapp)
 
 ## Contributors
 
@@ -76,5 +87,6 @@ url: https://github.com/krau/SaveAny-Bot
 - [gotd](https://github.com/gotd/td)
 - [TG-FileStreamBot](https://github.com/EverythingSuckz/TG-FileStreamBot)
 - [gotgproto](https://github.com/celestix/gotgproto)
+- [tdl](https://github.com/iyear/tdl)
 - All the dependencies
 

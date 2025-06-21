@@ -1,6 +1,6 @@
 ---
 project: YF-Cloud
-stars: 8
+stars: 10
 description: |-
     My Github Cloud
 url: https://github.com/Hy1Fly/YF-Cloud

@@ -1,46 +1,63 @@
 ---
 project: note-gen
-stars: 4603
+stars: 4808
 description: |-
     A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 url: https://github.com/codexu/note-gen
 ---
 
-![](https://s2.loli.net/2025/06/13/UbVGPrhFl3etnQz.png)
-
 # NoteGen
 
 ![](https://img.shields.io/badge/free-pricing?logo=free&color=%20%23155EEF&label=pricing&labelColor=%20%23528bff)
-![](https://img.shields.io/badge/version-beta-orange)
 ![](https://github.com/codexu/note-gen/actions/workflows/release.yml/badge.svg?branch=release)
 ![](https://img.shields.io/github/v/release/codexu/note-gen)
 ![](https://img.shields.io/github/downloads/codexu/note-gen/total)
 ![](https://img.shields.io/github/commit-activity/m/codexu/note-gen)
+![](https://img.shields.io/github/issues-closed/codexu/note-gen)
 
 <div>
   <a href="https://trendshift.io/repositories/12784" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12784" alt="codexu%2Fnote-gen | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   <a href="https://www.producthunt.com/products/notegen-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-notegen&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=956348&theme=light&t=1749194675492" alt="NoteGen - A&#0032;cross&#0045;platform&#0032;Markdown&#0032;note&#0045;taking&#0032;application | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </div>
 
-English | [简体中文](.github/README.zh.md) | [日本語](.github/README.ja.md)
-
 ## Guide
 
-NoteGen is a cross-platform `Markdown` note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
+English | [简体中文](.github/README.zh.md) | [日本語](.github/README.ja.md)
 
 🖥️ Official Document: [https://notegen.top](https://notegen.top)
 
-💬 Join [WeChat/QQ Group](https://github.com/codexu/note-gen/discussions/110) | [Discord](https://discord.gg/SXyVZGpbpk) | [Telegram](https://t.me/notegen)
+💬 Join [WeChat/QQ Group](https://github.com/codexu/note-gen/discussions/110), [Discord](https://discord.gg/SXyVZGpbpk), [Telegram](https://t.me/notegen)
+
+NoteGen is a cross-platform `Markdown` note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
+
+![](https://s2.loli.net/2025/06/13/UbVGPrhFl3etnQz.png)
 
 ## Why Choose NoteGen?
 
 - Lightweight: [Installation package](https://github.com/codexu/note-gen/releases) is **only 20MB**, free with no ads or bundled software.
-- Cross-platform: Supports Mac, Windows, Linux, and thanks to `Tauri2`'s cross-platform capabilities, IOS and Android are currently under development.
+- Cross-platform capabilities of `Tauri2`, it supports Windows, MacOS, Linux, iOS, and Android, and it supports free multi-device data synchronization.
 - Supports multiple recording methods including `screenshots`, `text`, `illustrations`, `files`, `links`, etc., meeting fragmented recording needs across various scenarios.
 - Native `Markdown(.md)` as storage format, no modifications, easy to migrate.
 - Native offline usage, supporting real-time synchronization to `GitHub, Gitee private repositories` with history rollback, and WebDAV synchronization.
 - AI-enhanced: Configurable with ChatGPT, Gemini, Ollama, LM Studio, Grok, and other models, with support for custom third-party model configuration.
 - RAG: Your notes are your knowledge base. Support embedding models and reranking models.
+
+## How to Use?
+
+### Download
+
+Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform capabilities, it will support iOS and Android in the future.
+
+| Windows | MacOS | Linux | Android | iOS |
+| --- | --- | --- | --- | --- |
+| ✅ beta | ✅ beta | ✅ beta | 🛠️ alpha | 🛠️ alpha |
+| [Download 17 MB](https://notegen.top/en/download.html) | [Download 20.7 MB](https://notegen.top/en/download.html) | [Download 21.7 MB](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) |
+
+> Provided by [UpgradeLink](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
+
+### Enhancement
+
+The note-taking application can be used directly without configuration. If you want a better experience, please open the settings page to configure AI and synchronization.
 
 ## From Recording to Writing
 
@@ -87,20 +104,6 @@ The writing section is divided into two parts: **File Manager** and **Markdown E
 - Image hosting management for convenient management of image repository content.
 - Themes and appearance with support for dark themes and appearance settings for Markdown, code, etc.
 - Internationalization support, currently available in Chinese and English.
-
-## How to Use?
-
-### Download
-
-Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform capabilities, it will support iOS and Android in the future.
-
-[Download NoteGen (alpha)](https://github.com/codexu/note-gen/releases)
-
-Provided by [UpgradeLink](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
-
-### Enhancement
-
-The note-taking application can be used directly without configuration. If you want a better experience, please open the settings page to configure AI and synchronization.
 
 ## Contribute
 

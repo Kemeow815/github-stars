@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-3-hexo
-stars: 723
+stars: 724
 description: |-
     hexo主题：三段式设计、极简、方便  Hexo theme: three-stage design
 url: https://github.com/yelog/hexo-theme-3-hexo

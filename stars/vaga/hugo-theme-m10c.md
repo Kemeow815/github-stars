@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-m10c
-stars: 506
+stars: 508
 description: |-
     A minimalistic (m10c) blog theme for Hugo
 url: https://github.com/vaga/hugo-theme-m10c

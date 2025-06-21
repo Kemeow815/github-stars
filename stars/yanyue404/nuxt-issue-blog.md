@@ -1,6 +1,6 @@
 ---
 project: nuxt-issue-blog
-stars: 8
+stars: 9
 description: |-
     🚀 基于 GitHub Issues 和 Nuxt.js 的静态博客生成器
 url: https://github.com/yanyue404/nuxt-issue-blog

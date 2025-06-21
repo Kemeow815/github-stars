@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-terminal
-stars: 2349
+stars: 2353
 description: |-
     A simple, retro theme for Hugo
 url: https://github.com/panr/hugo-theme-terminal

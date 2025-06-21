@@ -1,8 +1,8 @@
 ---
 project: CloudFlare-ImgBed
-stars: 2246
+stars: 2307
 description: |-
-    Open-source file hosting solution based on CloudFlare Pages (Image hosting/File storage/Cloud drive) / 基于 CloudFlare Pages 的开源文件托管解决方案（图床/文件床/网盘）
+    Open-source file hosting solution based on CloudFlare  (Image hosting/File storage/Cloud drive) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）
 url: https://github.com/MarSeventh/CloudFlare-ImgBed
 ---
 
@@ -10,7 +10,7 @@ url: https://github.com/MarSeventh/CloudFlare-ImgBed
     <a href="https://github.com/MarSeventh/CloudFlare-ImgBed"><img width="80%" alt="logo" src="static/readme/banner.png"/></a>
     <p><em>🗂️开源文件托管解决方案，基于 Cloudflare Pages，支持 Telegram Bot 、 Cloudflare R2 、S3 等多种存储渠道</em></p>
     <p>
-        <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README.md">简体中文</a>|<a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README_en.md">English</a>|<a href="https://cfbed.sanyue.de">官方网站</a>
+        <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README.md">简体中文</a> | <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README_en.md">English</a> | <a href="https://cfbed.sanyue.de">官方网站</a>
     </p>
     <div>
         <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/LICENSE">
@@ -36,6 +36,7 @@ url: https://github.com/MarSeventh/CloudFlare-ImgBed
         </a>
     </div>
 </div>
+
 
 
 
@@ -83,12 +84,7 @@ url: https://github.com/MarSeventh/CloudFlare-ImgBed
 
 </details>
 
-## 最近更新（[更新日志](https://cfbed.sanyue.de/guide/update-log.html)）：
 
-Add Features:
-
-- 美化报错图片
-- 上传页面支持预览ico等更多格式文件
 
 
 # 1.Introduction
@@ -99,7 +95,9 @@ Add Features:
 
 # 2.[Document](https://cfbed.sanyue.de)
 
-提供详细的部署文档、功能文档、开发计划、常见问题解答等，帮助您快速上手。
+提供详细的部署文档、功能文档、开发计划、更新日志、常见问题解答等，帮助您快速上手。
+
+[![更新日志](https://recent-update.cfbed.sanyue.de/cn)](https://cfbed.sanyue.de/guide/update-log.html)
 
 # 3.Demo
 
@@ -125,7 +123,7 @@ Add Features:
 
 # 4.Tips
 
-- 前端开源，参见[MarSeventh/Sanyue-ImgHub](https://github.com/MarSeventh/Sanyue-ImgHub)项目。
+- **前端开源**：参见[MarSeventh/Sanyue-ImgHub](https://github.com/MarSeventh/Sanyue-ImgHub)项目。
 
 - **生态建设**：欢迎社区参与生态建设，欢迎提交 PR 或者 Issue，优质内容参见[官网生态建设页面](https://cfbed.sanyue.de/about/ecosystem.html)。
 
@@ -135,16 +133,7 @@ Add Features:
   
 - **Sponsors**：感谢以下赞助者对本项目的支持！
 
-  <a href="https://afdian.com/a/nothin">
-        <img src="https://pic1.afdiancdn.com/user/e8af1436138e11ed945852540025c377/avatar/59db0533d82e4198f59e63df63a1917f_w640_h640_s114.jpeg?imageView2/1/w/240/h/240" width="80"/>
-      </a> <a href="https://afdian.com/u/1acef0be02d911ee90695254001e7c00">
-        <img src="https://pic1.afdiancdn.com/default/avatar/avatar-orange.png?imageView2/1/w/240/h/240" width="80"/></a><a href="https://afdian.com/u/412189a0284911eca59f52540025c377">
-        <img src="https://pic1.afdiancdn.com/default/avatar/avatar-orange.png?imageView2/1/w/120/h/120" width="80"/></a><a href="https://afdian.com/u/5e52ece217bc11f0ae3352540025c377">
-        <img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/" width="80"/></a><a href="https://afdian.com/u/42e1c47e16a411f0baff52540025c377">
-        <img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/" width="80"/></a><a href="https://afdian.com/a/yono233">
-        <img src="https://pic1.afdiancdn.com/user/73b45190c98711eeaa425254001e7c00/avatar/26afa95554d4bbcd748e6432ab56f824_w580_h580_s145.jpeg?imageView2/1/w/240/h/240" width="80"/></a><a href="https://afdian.com/a/XinToolKit">
-        <img src="https://pic1.afdiancdn.com/user/a1c1cb08695c11edb9e352540025c377/avatar/83d5cc8895f5357e627e86aabd9f848e_w1080_h1028_s317.jpg?imageView2/1/w/240/h/240" width="80"/></a><a href="https://www.yunsen2025.top">
-        <img src="https://pic1.afdiancdn.com/user/b9aa4780aa1c11edab6c52540025c377/avatar/0c75630cfa3ac6a921acd8cc2a55505a_w1024_h1024_s42.jpeg?imageView2/1/w/120/h/120" width="80"/></a>
+  [![赞助者](https://afdian-sponsors.sanyue.de/image)](https://afdian.com/a/marseventh)
   
 - **Contributors**：感谢以下贡献者对本项目的无私贡献！
 
@@ -159,6 +148,8 @@ Add Features:
 # 6.Special Sponsors
 
 - **[亚洲云](https://www.asiayun.com/)**：提供云计算服务资源支持（高防服务器|福州高防|广东电信|香港服务器|美国服务器|海外服务器）
+
+- **[双翼鸟数据](https://www.synidc.cn/)**：提供云计算服务资源支持（国内外高防CDN|海内外云服务器|国内物理机）
 
 - **DartNode**：提供云计算服务资源支持
 

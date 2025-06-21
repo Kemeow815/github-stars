@@ -1,6 +1,6 @@
 ---
 project: Afilmory
-stars: 165
+stars: 410
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/Afilmory
@@ -115,6 +115,7 @@ S3_ENDPOINT=https://s3.amazonaws.com
 S3_BUCKET_NAME=your_bucket_name
 S3_PREFIX=photos/
 S3_CUSTOM_DOMAIN=your_custom_domain.com
+S3_EXCLUDE_REGEX=
 ```
 
 ### 4. Site Configuration
@@ -181,7 +182,7 @@ Create `builder.config.json` file for advanced configuration:
     "bucket": "my-photos",
     "region": "us-east-1",
     "prefix": "photos/",
-    "customDomain": "cdn.example.com"
+    "customDomain": "https://cdn.example.com"
   },
   "options": {
     "defaultConcurrency": 8,
@@ -215,6 +216,7 @@ Create `builder.config.json` file for advanced configuration:
 - `endpoint`: S3 endpoint (optional)
 - `prefix`: File prefix
 - `customDomain`: Custom domain
+- `excludeRegex`: Regular expression to exclude files (optional)
 
 #### Build Options (`options`)
 

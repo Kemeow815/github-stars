@@ -1,6 +1,6 @@
 ---
 project: nova-admin
-stars: 1060
+stars: 1063
 description: |-
     A simple and flexible admin template based on Vue3, Vite, TypeScript, NaiveUI
 url: https://github.com/chansee97/nova-admin
@@ -88,7 +88,7 @@ docker compose -f docker-compose.product.yml up --build -d
 
 ## Related projects
 
-- [Nova-admin-nest](https://github.com/chansee97/nove-admin-nest) (under development) Nova-Admin supporting background project based on TS, NestJs, typeorm
+- [Nova-admin-nest](https://github.com/chansee97/nova-admin-nest) (under development) Nova-Admin supporting background project based on TS, NestJs, typeorm
 
 ## Learn to communicate
 

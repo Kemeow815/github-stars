@@ -1,6 +1,6 @@
 ---
 project: BroadcastChannel
-stars: 1754
+stars: 1773
 description: |-
     Turn your Telegram Channel into a MicroBlog.
 url: https://github.com/ccbikai/BroadcastChannel

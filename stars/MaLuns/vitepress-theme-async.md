@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-async
-stars: 45
+stars: 47
 description: |-
     一个简单而轻量级的 Vitepress 主题。 |   A simple, lightweight Vitepress  theme.
 url: https://github.com/MaLuns/vitepress-theme-async
@@ -62,7 +62,7 @@ npm install --save vitepress-theme-async
 or
 
 ```bash
-yarn add --save vitepress-theme-async
+yarn add vitepress-theme-async
 ```
 
 ## Upgrade
