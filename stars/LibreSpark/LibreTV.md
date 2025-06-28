@@ -1,6 +1,6 @@
 ---
 project: LibreTV
-stars: 6438
+stars: 6808
 description: |-
     一分钟搭建影视站，支持Vercel/Docker等部署方式
 url: https://github.com/LibreSpark/LibreTV
@@ -95,6 +95,17 @@ Pull Bot 会反复触发无效的 PR 和垃圾邮件，严重干扰项目维护�
 5. **可选：在"Settings" > "Environment Variables"中添加 `ADMINPASSWORD` 变量**
 6. 点击"Deploy"
 7. 可选：在"Settings" > "Environment Variables"中配置密码保护和设置按钮密码保护
+
+### Render
+
+1. Fork 或克隆本仓库到您的 GitHub 账户
+2. 登录 [Render](https://render.com/)，点击 "New Web Service"
+3. 选择您的仓库，Render 会自动检测到 `render.yaml` 配置文件
+4. 保持默认设置（无需设置环境变量，默认不启用密码保护）
+5. 点击 "Create Web Service"，等待部署完成
+6. 部署成功后即可访问您的 LibreTV 实例
+
+> 如需启用密码保护，可在 Render 控制台的环境变量中手动添加 `PASSWORD` 和/或 `ADMINPASSWORD`。
 
 ### Docker
 ```

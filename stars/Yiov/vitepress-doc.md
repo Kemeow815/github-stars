@@ -1,6 +1,6 @@
 ---
 project: vitepress-doc
-stars: 164
+stars: 169
 description: |-
     VitePress教程文档
 url: https://github.com/Yiov/vitepress-doc
@@ -10,7 +10,7 @@ url: https://github.com/Yiov/vitepress-doc
 
 有着vuepress的搭建经验，上手还算OK
 
-官方文档目前还没有中文，于是自己尝试搭建了一下
+本文档希望能零基础的友友，提供一些上手经验，让你爱上VitePress
 
 
 ## 访问

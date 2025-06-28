@@ -1,12 +1,12 @@
 ---
 project: Catime
-stars: 2423
+stars: 2492
 description: |-
     A very useful timer (🍅Pomodoro Clock)
 url: https://github.com/vladelaina/Catime
 ---
 
-<!-- 项目标题 + Logo -->
+<!-- Project Title + Logo -->
 <div align="center">
   <a href="https://vladelaina.github.io/Catime" target="_blank">
     <img src="Images/catime_resize.png" alt="Catime" width="240">
@@ -14,7 +14,7 @@ url: https://github.com/vladelaina/Catime
   <h1 style="margin-top: 10px; font-size: 42px; font-weight: 700;">Catime</h1>
 </div>
 
-<!-- 项目描述 + 火箭图标 -->
+<!-- Project Description + Rocket Icon -->
 <p align="center" style="font-size: 18px; margin-bottom: 30px;">
   🎉 No installation or setup required — just double-click to get started.<br/>
   🌸 Clean, elegant interface with smooth operation.<br/>
@@ -28,17 +28,16 @@ url: https://github.com/vladelaina/Catime
   elegantly helping you manage time on Windows.
 </p>
 
+<p align="center"><a href="https://vladelaina.github.io/Catime/">Official Site</a> · <a href="https://vladelaina.github.io/Catime/guide.html">Guide</a> · <a href="https://vladelaina.github.io/Catime/about.html">About</a> · <a href="https://github.com/users/vladelaina/projects/2/views/1">Project Board</a> · <a href="https://github.com/vladelaina/Catime/issues">Feedback</a></p>
+<p align="center"><a href="https://github.com/vladelaina/Catime">English</a> · <a href="./i18n/README_zh-CN.md">简体中文</a> · <a href="./i18n/README_zh-Hant.md">繁體中文</a> · <a href="./i18n/README_ja.md">日本語</a> · <a href="./i18n/README_es.md">Español</a> · <a href="./i18n/README_fr.md">Français</a> · <a href="./i18n/README_de.md">Deutsch</a> · <a href="./i18n/README_ru.md">Русский</a> · <a href="./i18n/README_pt.md">Português</a> · <a href="./i18n/README_ko.md">한국어</a></p>
 
-<p align="center"><strong>English</strong> · <a href="./README-zh.md">简体中文</a> · <a href="https://vladelaina.github.io/Catime/">Official Site</a> · <a href="https://vladelaina.github.io/Catime/guide.html">Guide</a> · <a href="https://vladelaina.github.io/Catime/about.html">About</a> · <a href="https://github.com/users/vladelaina/projects/2/views/1">Project Board</a> · <a href="https://github.com/vladelaina/Catime/issues">Feedback</a></p>
 
 <div align="center">
-  
-
 
 [![GitHub Release](https://img.shields.io/github/v/release/vladelaina/Catime?color=369eff&labelColor=black&logo=github&style=flat-square)](https://github.com/vladelaina/Catime/releases)
 ![C](https://img.shields.io/badge/language-C-blue?logo=c&logoColor=white&labelColor=black&style=flat-square)
-[![EXE Size](https://img.shields.io/badge/EXE%20Size-889KB-blue?style=flat-square&labelColor=black)](https://github.com/vladelaina/Catime/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/vladelaina/Catime?label=last%20commit&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/commits)<br/>
+[![EXE Size](https://img.shields.io/badge/EXE%20Size-978KB-blue?style=flat-square&labelColor=black)](https://github.com/vladelaina/Catime/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/vladelaina/Catime?label=release%20date&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/releases)<br/>
 [![Downloads](https://img.shields.io/github/downloads/vladelaina/Catime/total?color=blue&label=downloads&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/releases)
 [![Forks](https://img.shields.io/github/forks/vladelaina/Catime?color=8ae8ff&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/network/members)
 [![Stars](https://img.shields.io/github/stars/vladelaina/Catime?color=ffcb47&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/stargazers)
@@ -47,10 +46,7 @@ url: https://github.com/vladelaina/Catime
 [![Support Catime](https://img.shields.io/badge/Support%20Catime-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://vladelaina.github.io/Catime/support.html)
 </div>
 
-
-
-
-<!-- GitHub Trending 区域 -->
+<!-- GitHub Trending Area -->
 <div align="center">
   <a href="https://hellogithub.com/repository/00a7a32b7bc647e1a62747530bc16115" target="_blank">
     <div style="background-color: #f5f5f5; border-radius: 12px; padding: 15px; display: inline-block; margin-top: 20px; border: 1px solid #e1e4e8;">
@@ -61,31 +57,18 @@ url: https://github.com/vladelaina/Catime
   </a>
 </div>
 
-
-
-
-
-
-<!-- 演示视频 -->
+<!-- Demo Video -->
 <div align="center" style="margin-bottom: 30px;">
   <video src="https://github.com/user-attachments/assets/99793950-3a07-452b-85ee-c26711d2d9a1" autoplay loop style="border-radius: 8px; max-width: 800px;"></video>
 </div>
 
-
-
-
-
-
-
-<!-- 社区链接 -->
+<!-- Community Links -->
 <div align="center" style="margin-bottom: 30px;">
   👋 Join us on 
   <a href="https://discord.com/invite/W3tW2gtp6g" target="_blank" style="text-decoration: none; font-weight: bold; color: #5865F2;">Discord</a> 
   and 
   <a href="https://qm.qq.com/q/LgscIMw9i0" target="_blank" style="text-decoration: none; font-weight: bold; color: #12B7F5;">QQ Group</a>
 </div>
-
-
 
 ## [🌟Features](https://vladelaina.github.io/Catime/#core-features)
 
@@ -144,8 +127,6 @@ git clone git@github.com:vladelaina/Catime.git
 cd Catime
 ```
 
-
-
 ### 2. Tools (MinGW, xmake)
 
 
@@ -199,7 +180,7 @@ cd Catime
      gcc --version
      ```
 
-     If version number displays successfully, MinGW installation is complete ✅
+     If version number displays successfully, the MinGW installation is complete ✅
 
   #### 📦 2.2 Install [xmake](https://github.com/xmake-io/xmake/releases/latest)
 
@@ -243,10 +224,6 @@ xmake run     # Compile and run the project
 xmake clean   # Clean build artifacts
 ```
 
-
-
-
-
 ## ⭐Star History
 
 <a href="https://www.star-history.com/#vladelaina/Catime&Date">
@@ -257,10 +234,9 @@ xmake clean   # Clean build artifacts
  </picture>
 </a>
 
-
 ## [✨Acknowledgements](https://vladelaina.github.io/Catime/#thanks) 
 
-Special thanks to the following contributors:
+Special thanks to the following contributors(chronological order):
 <table>
   <tbody>
     <tr>
@@ -381,6 +357,12 @@ Special thanks to the following contributors:
     <tr>
       <td align="center" valign="top" width="14.28%">
         <a href="https://github.com/LuSrackhall"><img src="https://avatars.githubusercontent.com/u/142690689?v=4" width="100px;" alt="LuSrackhall"/><br /><sub><b>LuSrackhall</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/sakuraxy2004"><img src="https://avatars.githubusercontent.com/u/107749059?v=4" width="100px;" alt="是玄夜不是玄月"/><br /><sub><b>是玄夜不是玄月</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/YangCangShu"><img src="https://avatars.githubusercontent.com/u/117985990?v=4" width="100px;" alt="YangCangShu"/><br /><sub><b>YangCangShu</b></sub></a><br />
       </td>
     </tr>
   </tbody>

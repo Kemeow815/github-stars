@@ -1,13 +1,13 @@
 ---
-project: Afilmory
-stars: 410
+project: afilmory
+stars: 497
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
-url: https://github.com/Afilmory/Afilmory
+url: https://github.com/Afilmory/afilmory
 ---
 
 <p align="center">
-  <img src="https://github.com/Afilmory/assets/blob/main/512-mac.png?raw=true" alt="Afilmory" width="256px" />
+  <img src="https://github.com/Afilmory/assets/blob/main/afilmory-readme.webp?raw=true" alt="Afilmory" width="100%" />
 </p>
 
 # <p align="center">Afilmory</p>
@@ -18,9 +18,10 @@ A modern photo gallery website built with React + TypeScript, supporting automat
 
 Live Photo Galleries:
 
-- https://gallery.innei.in
+- https://afilmory.innei.in
 - https://gallery.mxte.cc
 - https://photography.pseudoyu.com
+- https://afilmory.magren.cc
 
 ## 🌟 Features
 
@@ -31,7 +32,7 @@ Live Photo Galleries:
 - 🎨 **Modern UI Design** - Built with Tailwind CSS and Radix UI component library
 - ⚡ **Incremental Sync** - Smart change detection, processes only new or modified photos
 - 🌐 **i18n** - Multi-language support
-- 🌐 **OpenGraph** - OpenGraph metadata for social media sharing
+- 🔗 **OpenGraph** - OpenGraph metadata for social media sharing
 
 ### Image Processing
 
@@ -45,7 +46,7 @@ Live Photo Galleries:
 
 - 🎛️ **Fujifilm Simulation** - Read and display Fujifilm camera film simulation settings
 - 🔍 **Fullscreen Viewer** - Image viewer with gesture support
-- 🏷️ **Smart Tags** - Auto-generated tags based on EXIF data
+- 🏷️ **File System Tags** - Auto-generated tags based on file system
 - ⚡ **Concurrent Processing** - Multi-process/multi-thread concurrent processing support
 - 🗂️ **Multi-Storage Support** - S3, GitHub, and other storage backends
 
@@ -102,20 +103,29 @@ cd photo-gallery-site
 pnpm install
 ```
 
-### 3. Environment Configuration
+### 3. Configuration
 
 Create `.env` file:
 
 ```env
-# S3 Storage Configuration
-S3_REGION=us-east-1
+# S3 Storage Keys
 S3_ACCESS_KEY_ID=your_access_key_id
 S3_SECRET_ACCESS_KEY=your_secret_access_key
-S3_ENDPOINT=https://s3.amazonaws.com
-S3_BUCKET_NAME=your_bucket_name
-S3_PREFIX=photos/
-S3_CUSTOM_DOMAIN=your_custom_domain.com
-S3_EXCLUDE_REGEX=
+```
+
+Create `builder.config.json` file for storage configuration and other options:
+
+```json
+{
+  "storage": {
+    "provider": "s3",
+    "bucket": "my-photos",
+    "region": "us-east-1",
+    "prefix": "photos/",
+    "customDomain": "https://cdn.example.com",
+    "endpoint": "https://s3.amazonaws.com"
+  }
+}
 ```
 
 ### 4. Site Configuration
@@ -137,11 +147,20 @@ Edit `config.json`:
   "accentColor": "#007bff", // Optional, set theme color
   "author": {
     "name": "Your Name", // Required, set author name
-    "url": "https://example.com", // Optional, set author homepage
-    "avatar": "https://example.com/avatar.png" // Optional, set author avatar
+    "url": "https://example.com", // Required, set author homepage
+    "avatar": "https://example.com/avatar.png" // Required, set author avatar
   },
   "social": {
-    "twitter": "@yourusername" // Optional, set social accounts
+    // Optional, set social accounts
+    "twitter": "@yourusername"
+  },
+  "feed": {
+    "folo": { // Optional, set Folo RSS claim
+      "challenge": {
+        "feedId": "155982289762921472",
+        "userId": "41312624216137728"
+      }
+    }
   }
 }
 ```
@@ -167,46 +186,22 @@ pnpm dev
 
 ## ⚙️ Configuration Options
 
-### Builder Configuration
+#### Remote Repository Configuration (`repo`)
 
-Create `builder.config.json` file for advanced configuration:
+To achieve incremental builds in CI, it is necessary to configure a cache repository, which will pull the cache before each build and upload the build results after the build.
 
 ```json
 {
   "repo": {
-    "enable": false,
+    "enable": true,
     "url": "https://github.com/username/gallery-assets"
-  },
-  "storage": {
-    "provider": "s3",
-    "bucket": "my-photos",
-    "region": "us-east-1",
-    "prefix": "photos/",
-    "customDomain": "https://cdn.example.com"
-  },
-  "options": {
-    "defaultConcurrency": 8,
-    "enableLivePhotoDetection": true,
-    "showProgress": true,
-    "showDetailedStats": true
-  },
-  "logging": {
-    "verbose": true,
-    "level": "info",
-    "outputToFile": false
-  },
-  "performance": {
-    "worker": {
-      "workerCount": 8,
-      "timeout": 30000,
-      "useClusterMode": true,
-      "workerConcurrency": 2
-    }
   }
 }
 ```
 
-### Configuration Options Description
+This will automatically pull resources from the remote repository, avoiding rebuilds each time.
+
+**In order to achieve uploading to the git repository, you need to provide a `GIT_TOKEN` and write it in the `.env` file.**
 
 #### Storage Configuration (`storage`)
 
@@ -237,20 +232,6 @@ Create `builder.config.json` file for advanced configuration:
 - `level`: Log level (`info` | `warn` | `error` | `debug`)
 - `outputToFile`: Output to file
 
-### Remote Repository Configuration
-
-If you have a separate asset repository for storing thumbnails and manifests:
-
-```json
-{
-  "repo": {
-    "enable": true,
-    "url": "https://github.com/username/gallery-assets"
-  }
-}
-```
-
-This will automatically pull resources from the remote repository, avoiding rebuilds each time.
 
 ## 📋 CLI Commands
 

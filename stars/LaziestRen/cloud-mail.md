@@ -1,6 +1,6 @@
 ---
 project: cloud-mail
-stars: 270
+stars: 329
 description: |-
     cloudflare email 邮箱  临时邮箱 邮件发送 mail
 url: https://github.com/LaziestRen/cloud-mail
@@ -52,6 +52,8 @@ url: https://github.com/LaziestRen/cloud-mail
 - **🔀多号模式**：开启后一个用户可以添加多个邮箱，默认一用户一邮箱，类似各大邮箱平台
 
 - **📦附件收发**：支持收发附件，使用R2对象存储保存和下载文件
+
+- **🔔邮件推送**：接收邮件后可以转发到TG机器人或其他服务商邮箱
 
 - **📈数据可视化**：使用echarts对系统数据详情，用户邮件增长可视化显示
 
@@ -194,6 +196,7 @@ cloud-mail
 │   │   ├── entity			#数据库实体层
 │   │   ├── error			#自定义异常
 │   │   ├── hono			#web框架配置 拦截器等
+│   │   ├── init			#数据库缓存初始化
 │   │   ├── model			#响应体数据封装
 │   │   ├── security			#身份认证层
 │   │   ├── service			#服务层

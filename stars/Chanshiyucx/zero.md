@@ -3,7 +3,7 @@ project: zero
 stars: 85
 description: |-
     🏡 My corner of internet, Personal Homepage.
-url: https://github.com/chanshiyucx/zero
+url: https://github.com/Chanshiyucx/zero
 ---
 
 # Zero - A Personal Blog & Portfolio
@@ -165,7 +165,7 @@ Contributions are always welcome! Please feel free to open an issue or create a 
 
 This project is [MIT](./LICENSE) licensed.
 
-Copyright © 2024 [Reverie (蝉時雨)](https://github.com/chanshiyucx)
+Copyright © 2024 [Chanshiyu(蝉時雨)](https://github.com/chanshiyucx)
 
 ## Star History
 
@@ -177,5 +177,5 @@ Copyright © 2024 [Reverie (蝉時雨)](https://github.com/chanshiyucx)
 
 ---
 
-<p align="center">Made with ❤️ by Reverie</p>
+<p align="center">Made with ❤️ by Chanshiyu</p>
 

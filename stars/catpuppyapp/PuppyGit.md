@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 352
+stars: 362
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit
@@ -124,7 +124,7 @@ I recommend every user set a master password, it will used to encrypt password/p
 ### if your language added
 1. find the `strings.xml` in the `res/values-your_language_code`
 2. update it
-3. send pr 
+3. send pr
 
 ### if your language not added
 1. Download <a href="https://github.com/catpuppyapp/PuppyGit/blob/main/app/src/main/res/values/strings.xml">strings.xml</a>
@@ -133,8 +133,19 @@ I recommend every user set a master password, it will used to encrypt password/p
 
 Then I'll add your language into PuppyGit in further version, after added, if have new strings need translate, you can simple update existed `res/vlaues-your_language_code/strings.xml` in the PuppyGit project then send a pr to update it.
 
-### NOTE
-The string in strings.xml like "ph_a3f241dc_NUMBER" are place holders, the last NUMBER is order, e.g. a string resource ```<str1>name: ph_a3f241dc_1, age: ph_a3f241dc_2</str1>```, will replaced when running, it maybe will show as: ```"name: abc, age: 123"```, if you have mistake with the order number, e.g.```<str1>name: ph_a3f241dc_2, age: ph_a3f241dc_1</str1>```, it may cause app show wrong text like ```"name: 123, age: abc"```
+### The placeholder
+I haven't use the default placeholder, because if it missed in the xml file, may cause app crashed, in my `strings.xml`, The strings like "ph_a3f241dc_NUMBER" are the placeholders, the last NUMBER is order, e.g. a string resource ```<str1>name: ph_a3f241dc_1, age: ph_a3f241dc_2</str1>```, will replaced when running, it maybe will show as: ```"name: abc, age: 123"```, if you have mistake with the order number, e.g.```<str1>name: ph_a3f241dc_2, age: ph_a3f241dc_1</str1>```, it may cause app show wrong text like ```"name: 123, age: abc"```
+
+### I recommend
+1. use "…" as ellipsis sign, rather than "...", because the former actually is shorter, only 1 char
+2. don't delete the strings which need not translate, if you deleted, the origin english strings.xml will got a lot of err on the ide, so keep the english elements in your strings.xml even you don't need translate them.
+
+### How I update existed languages
+If I need add some simple words, I'll use AI translate to existed languages, if you found anything words wrong, you can fork my repo and update it, then send a pr.
+If I need add some complex and long sentence, I'll create a issue and notice the translators, then the translators can fork my repo and update the strings.xml of them language, then send a pr to me.
+
+#### Contributors will display in the About screen of PuppyGit, if you don't want to your name appear in the list, you can send email to me or create a issue to tell me. btw. you can find my email by click "Contact Author" in the About Screen of PuppyGit
+
 
 
 ## Comments in code

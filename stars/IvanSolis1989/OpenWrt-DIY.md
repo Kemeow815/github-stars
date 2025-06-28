@@ -1,6 +1,6 @@
 ---
 project: OpenWrt-DIY
-stars: 1360
+stars: 1361
 description: |-
            多设备 OpenWrt Aciton 固件云编译——X86、竞斗云、极路由 B70、K2T、K2P、K3、N1、红米 AC2100、Newifi D2、树莓派、小娱 C5、R2S、R4S、小米 R3G、小米 R3P、小米 Mini、网件 R7800、星际宝盒 CM520、Amlogic S905X3、OrangePi Zero Plus、网件 3800、Linksys Wrt1900acs、Linksys Wrt3200acm、Linksys Wrt32x——（QQ群：1130190364）
 url: https://github.com/IvanSolis1989/OpenWrt-DIY

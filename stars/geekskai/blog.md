@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 76
+stars: 78
 description: |-
     🚀 2025 Most Popular FREE Blog Template! Next.js 14, Zero Code - Just Write & Deploy | 2025最火免费博客模板！支持Markdown，一键部署，极致性能！⚡️ ✨ Write in Markdown, get your professional blog in minutes. Custom domain & comments ready! | 写Markdown即可，快速部署，支持自定义域名和评论，无需代码！geekskai.com/
 url: https://github.com/geekskai/blog
@@ -133,11 +133,11 @@ Create engaging blog posts with rich features:
 
 ```mdx
 ---
-title: 'Building a Modern Blog'
-date: '2024-02-11'
-tags: ['next-js', 'tailwind', 'guide']
+title: "Building a Modern Blog"
+date: "2024-02-11"
+tags: ["next-js", "tailwind", "guide"]
 draft: false
-summary: 'A comprehensive guide to building a modern blog'
+summary: "A comprehensive guide to building a modern blog"
 ---
 
 ## Introduction
@@ -157,8 +157,8 @@ Your content here with support for:
    ```js
    // data/siteMetadata.js
    const siteMetadata = {
-     title: 'Your Blog',
-     author: 'Your Name',
+     title: "Your Blog",
+     author: "Your Name",
      // ...more options
    }
    ```

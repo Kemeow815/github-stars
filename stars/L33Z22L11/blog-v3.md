@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 93
+stars: 94
 description: |-
     My blog, powered by Nuxt Content v2.
 url: https://github.com/L33Z22L11/blog-v3

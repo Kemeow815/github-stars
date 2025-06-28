@@ -1,6 +1,6 @@
 ---
 project: charles7c.github.io
-stars: 325
+stars: 326
 description: |-
     （保持最新版 VitePress）基于 VitePress 构建的个人知识库/博客。扩展 VitePress 默认主题：增加ICP备案号、公安备案号显示，增加文章元数据信息（原创标识、作者、发布时间、分类、标签）显示，增加文末版权声明，增加 Gitalk 评论功能，主页美化、自动生成侧边栏、文章内支持 Mermaid 流程图、MD公式、MD脚注、增加我的标签、我的归档等独立页面，以及浏览器滚条等细节优化。查尔斯的个人技术知识库，记录 & 分享个人碎片化、结构化、体系化的技术知识内容。
 url: https://github.com/Charles7c/charles7c.github.io
@@ -8,7 +8,7 @@ url: https://github.com/Charles7c/charles7c.github.io
 
 [English](./README.en.md) | 中文
 
-# 查尔斯的知识库
+# 查尔斯的知识库(已存档！不再更新！后续会开源新模板！)
 
 <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
     <img src="https://img.shields.io/badge/文章%20License-CC%204.0%20BY--SA-blue.svg">
@@ -149,3 +149,4 @@ pnpm build
 - 文章遵循[ CC 4.0 BY-SA ](http://creativecommons.org/licenses/by-sa/4.0/)版权协议，转载请附上原文出处链接和声明
 - 源码遵循 [MIT](https://github.com/Charles7c/charles7c.github.io/blob/main/LICENSE) 许可协议
 - Copyright © 2019-2022 Charles7c
+

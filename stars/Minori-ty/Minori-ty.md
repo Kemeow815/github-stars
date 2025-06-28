@@ -1,6 +1,6 @@
 ---
 project: Minori-ty
-stars: 19
+stars: 20
 description: |-
     null
 url: https://github.com/Minori-ty/Minori-ty

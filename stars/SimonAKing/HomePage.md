@@ -1,6 +1,6 @@
 ---
 project: HomePage
-stars: 985
+stars: 1018
 description: |-
     A modern and elegant personal homepage with fluid animation background, responsive design and smooth page transitions
 url: https://github.com/SimonAKing/HomePage

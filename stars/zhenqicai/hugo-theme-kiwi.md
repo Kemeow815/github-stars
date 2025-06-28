@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-kiwi
-stars: 5
+stars: 6
 description: |-
     An exquisite personal blog theme powered by Hugo, allowing you to quickly build a blog website of your own.
 url: https://github.com/zhenqicai/hugo-theme-kiwi

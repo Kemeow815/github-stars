@@ -1,13 +1,13 @@
 ---
 project: alist
-stars: 48929
+stars: 48728
 description: |-
     🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 url: https://github.com/AlistGo/alist
 ---
 
 <div align="center">
-  <a href="https://alist.nn.ci"><img width="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
+  <a href="https://alistgo.com"><img width="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
   <p><em>🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.</em></p>
 <div>
   <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
@@ -39,7 +39,7 @@ url: https://github.com/AlistGo/alist
   <a href="https://hub.docker.com/r/xhofe/alist">
     <img src="https://img.shields.io/docker/pulls/xhofe/alist?color=%2348BB78&logo=docker&label=pulls" alt="Downloads" />
   </a>
-  <a href="https://alist.nn.ci/guide/sponsor.html">
+  <a href="https://alistgo.com/guide/sponsor.html">
     <img src="https://img.shields.io/badge/%24-sponsor-F87171.svg" alt="sponsor" />
   </a>
 </div>
@@ -96,7 +96,7 @@ English | [中文](./README_cn.md) | [日本語](./README_ja.md) | [Contributing
 - [x] Dark mode
 - [x] I18n
 - [x] Protected routes (password protection and authentication)
-- [x] WebDav (see https://alist.nn.ci/guide/webdav.html for details)
+- [x] WebDav (see https://alistgo.com/guide/webdav.html for details)
 - [x] [Docker Deploy](https://hub.docker.com/r/xhofe/alist)
 - [x] Cloudflare Workers proxy
 - [x] File/Folder package download
@@ -120,7 +120,7 @@ Please go to our [discussion forum](https://github.com/alist-org/alist/discussio
 ## Sponsor
 
 AList is an open-source software, if you happen to like this project and want me to keep going, please consider sponsoring me or providing a single donation! Thanks for all the love and support:
-https://alist.nn.ci/guide/sponsor.html
+https://alistgo.com/guide/sponsor.html
 
 ### Special sponsors
 

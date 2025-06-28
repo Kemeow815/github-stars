@@ -1,6 +1,6 @@
 ---
 project: github-chinese
-stars: 12893
+stars: 13164
 description: |-
     GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 url: https://github.com/maboloshi/github-chinese
@@ -43,7 +43,7 @@ url: https://github.com/maboloshi/github-chinese
 - [🤝 参与贡献](#-参与贡献)
 - [🖼️ 效果预览](#-效果预览)
 - [🙏 特别鸣谢](#-特别鸣谢)
-- [📈 星标历史](#-星标历史)
+- [📈 项目统计](#-项目统计)
 - [🎁 欢迎打赏](#-欢迎打赏)
 
 ## 🌟 功能特性
@@ -67,12 +67,13 @@ Via（Android）       | 内置管理器
 
 1. 安装用户脚本管理器：
     - 推荐：[Tampermonkey][Tampermonkey]
-1. 开启浏览器 “扩展程序” 管理中的 “开发者模式”[^1]
+1. **开启浏览器 “扩展程序” 管理中的 “开发者模式”[^1]**
 1. 选择安装源：
     - [GitHub 源【开发版】][main.user.js]
     - [GitCode 镜像【开发版】][main(gitcode).user.js]【国内】
     - [GreasyFork 源【稳定版】][main(greasyfork).user.js]
 1. 刷新页面后，插件即可生效
+1. 必要时，重启浏览器
 
 [^1]: [Chrome 切换到 Manifest V3后，使用问题](https://github.com/maboloshi/github-chinese/issues/234)
 
@@ -109,7 +110,7 @@ Via（Android）       | 内置管理器
 
 ### 最新版本
 
-##### v1.9.3 (2024-08-18)
+#### v1.9.3 (2024-08-18)
 
 1. 新增功能：通过设置中文环境，自动本地化时间元素，仅保留`on`开头的时间正则，并停用时间元素监视
 1. 优化突变翻译处理：
@@ -362,7 +363,7 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 </div>
 
 
-## 📈 星标历史
+## 📈 项目统计
 
 <a href="https://star-history.com/#maboloshi/github-chinese&Timeline">
   <picture>
@@ -372,19 +373,20 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
   </picture>
 </a>
 
+![Alt](https://repobeats.axiom.co/api/embed/ae4c378f0e6ec317654ec5c4e8b01218c734cd53.svg "Repobeats analytics image")
+
 <div align="right">
 
 [![][back-to-top]](#readme-top)
 
 </div>
 
+## 🎁 欢迎打赏
+[赞赏列表](https://github.com/maboloshi/maboloshi/issues/1)
+|                                        微信赞赏                                        |                                       支付宝赞赏                                       |
+| :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+| <img src="https://cdn.jsdelivr.net/gh/maboloshi/maboloshi/img/wechat.png?raw=true" alt="WeChat QRcode" width=200> <br><small>☕喝点咖啡继续干☕</small> | <img src="https://cdn.jsdelivr.net/gh/maboloshi/maboloshi/img/alipay-1.jpg?raw=true" alt="AliPay QRcode" width=200> <br><small>🌶️来包辣条吧~🍪</small> |
 
-<details>
-  <summary><h2>🎁 欢迎打赏</h2></summary>
-
-  <img src="https://cdn.jsdelivr.net/gh/maboloshi/maboloshi/img/weixin.jpg" alt="微信赞赏" width="30%">  <img src="https://cdn.jsdelivr.net/gh/maboloshi/maboloshi/img/alipay.jpg" alt="支付宝赞赏" width="30%">
-  
-</details>
 
 <!-- LINK GROUP -->
 

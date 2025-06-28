@@ -1,6 +1,6 @@
 ---
 project: musicxx
-stars: 858
+stars: 1146
 description: |-
     拟声 音视频播放器
 url: https://github.com/coolight7/musicxx

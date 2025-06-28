@@ -1,6 +1,6 @@
 ---
 project: llxlife-2022
-stars: 17
+stars: 16
 description: |-
     个人主页『陆陆侠的生活』2022版
 url: https://github.com/luluxia/llxlife-2022
