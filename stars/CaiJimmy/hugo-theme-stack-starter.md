@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-stack-starter
-stars: 481
+stars: 483
 description: |-
     A quickstart template to create a Hugo blog using hugo-theme-stack
 url: https://github.com/CaiJimmy/hugo-theme-stack-starter

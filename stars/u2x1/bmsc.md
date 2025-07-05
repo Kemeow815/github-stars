@@ -1,6 +1,6 @@
 ---
 project: bmsc
-stars: 67
+stars: 69
 description: |-
     Bilibili, but audio
 url: https://github.com/u2x1/bmsc

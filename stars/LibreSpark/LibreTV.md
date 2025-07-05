@@ -1,6 +1,6 @@
 ---
 project: LibreTV
-stars: 6808
+stars: 7813
 description: |-
     一分钟搭建影视站，支持Vercel/Docker等部署方式
 url: https://github.com/LibreSpark/LibreTV
@@ -36,7 +36,8 @@ LibreTV 是一个轻量级、免费的在线视频搜索与观看平台，提供
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLibreSpark%2FLibreTV)  
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LibreSpark/LibreTV)  
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LibreSpark/LibreTV) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LibreSpark/LibreTV)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/LibreSpark/LibreTV)
 
 ## ⚠️ 安全与隐私提醒
 

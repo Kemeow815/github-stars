@@ -1,6 +1,6 @@
 ---
 project: afilmory
-stars: 497
+stars: 889
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/afilmory
@@ -37,6 +37,7 @@ Live Photo Galleries:
 ### Image Processing
 
 - 🔄 **HEIC/HEIF Format Support** - Automatic conversion of Apple device HEIC format
+- 📷 **TIFF Format Support** - Automatic conversion of TIFF format
 - 🖼️ **Smart Thumbnail Generation** - Multi-size thumbnails for optimized loading performance
 - 📊 **EXIF Information Display** - Complete shooting parameters including camera model, focal length, aperture, etc.
 - 🌈 **Blurhash Placeholders** - Elegant image loading experience
@@ -44,11 +45,12 @@ Live Photo Galleries:
 
 ### Advanced Features
 
-- 🎛️ **Fujifilm Simulation** - Read and display Fujifilm camera film simulation settings
+- 🎛️ **Fujifilm Recipe** - Read and display Fujifilm camera film simulation settings
 - 🔍 **Fullscreen Viewer** - Image viewer with gesture support
 - 🏷️ **File System Tags** - Auto-generated tags based on file system
 - ⚡ **Concurrent Processing** - Multi-process/multi-thread concurrent processing support
 - 🗂️ **Multi-Storage Support** - S3, GitHub, and other storage backends
+- 📷 **Share Image** - Share image to social media or embed iframe to your website
 
 ## 🏗️ Technical Architecture
 
@@ -84,105 +86,6 @@ Designed with adapter pattern, supporting multiple storage backends:
 ### Docker Deployment
 
 [Docker Deployment](https://github.com/Afilmory/docker)
-
-### Requirements
-
-- Node.js 18+
-- At least 4GB RAM (for image processing)
-
-### 1. Clone the Project
-
-```bash
-git clone https://github.com/Afilmory/Afilmory.git
-cd photo-gallery-site
-```
-
-### 2. Install Dependencies
-
-```bash
-pnpm install
-```
-
-### 3. Configuration
-
-Create `.env` file:
-
-```env
-# S3 Storage Keys
-S3_ACCESS_KEY_ID=your_access_key_id
-S3_SECRET_ACCESS_KEY=your_secret_access_key
-```
-
-Create `builder.config.json` file for storage configuration and other options:
-
-```json
-{
-  "storage": {
-    "provider": "s3",
-    "bucket": "my-photos",
-    "region": "us-east-1",
-    "prefix": "photos/",
-    "customDomain": "https://cdn.example.com",
-    "endpoint": "https://s3.amazonaws.com"
-  }
-}
-```
-
-### 4. Site Configuration
-
-Copy and edit the configuration file:
-
-```bash
-cp config.example.json config.json
-```
-
-Edit `config.json`:
-
-```json
-{
-  "name": "My Afilmory",
-  "title": "My Afilmory",
-  "description": "Capturing beautiful moments in life",
-  "url": "https://afilmory.example.com",
-  "accentColor": "#007bff", // Optional, set theme color
-  "author": {
-    "name": "Your Name", // Required, set author name
-    "url": "https://example.com", // Required, set author homepage
-    "avatar": "https://example.com/avatar.png" // Required, set author avatar
-  },
-  "social": {
-    // Optional, set social accounts
-    "twitter": "@yourusername"
-  },
-  "feed": {
-    "folo": { // Optional, set Folo RSS claim
-      "challenge": {
-        "feedId": "155982289762921472",
-        "userId": "41312624216137728"
-      }
-    }
-  }
-}
-```
-
-### 5. Build Photo Manifest
-
-```bash
-# Initial build
-pnpm run build:manifest
-
-# Incremental update
-pnpm run build:manifest
-
-# Force full update
-pnpm run build:manifest -- --force
-```
-
-### 6. Start Development Server
-
-```bash
-pnpm dev
-```
 
 ## ⚙️ Configuration Options
 
@@ -231,7 +134,6 @@ This will automatically pull resources from the remote repository, avoiding rebu
 - `verbose`: Verbose logging
 - `level`: Log level (`info` | `warn` | `error` | `debug`)
 - `outputToFile`: Output to file
-
 
 ## 📋 CLI Commands
 

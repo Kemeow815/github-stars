@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-plume
-stars: 271
+stars: 275
 description: |-
     A vuepress theme.  Simple, feature-rich,  document & blog
 url: https://github.com/pengzhanbo/vuepress-theme-plume
@@ -83,6 +83,8 @@ QQ 交流群：[792882761](https://qm.qq.com/q/O3HNy4rxYc)
 [![contributors](https://contrib.rocks/image?repo=pengzhanbo/vuepress-theme-plume)](https://github.com/pengzhanbo/vuepress-theme-plume/graphs/contributors)
 
 ![Repo beats](https://repobeats.axiom.co/api/embed/b3e16e8802010e72e933f64864a8047e3163e927.svg "Repo Beats analytics image")
+
+![Star History Chart](https://api.star-history.com/svg?repos=pengzhanbo/vuepress-theme-plume&type=Date)
 
 ## License
 

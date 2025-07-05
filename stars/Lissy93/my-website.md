@@ -1,6 +1,6 @@
 ---
 project: my-website
-stars: 133
+stars: 134
 description: |-
     ✨ My personal homepage. A developer portfolio site that aggregates all your projects, blog posts, and stats in one place
 url: https://github.com/Lissy93/my-website
@@ -366,7 +366,7 @@ To get started, fork the repo, make your changes, add, commit and push the code,
     </td>
     <td align="center">
         <a href="https://github.com/gl0bal01">
-            <img src="https://avatars.githubusercontent.com/u/173822055?v=4" width="80;" alt="gl0bal01"/>
+            <img src="https://avatars.githubusercontent.com/u/173822055?u=4d323807f120b34da9b156bfd168b46a22844764&v=4" width="80;" alt="gl0bal01"/>
             <br />
             <sub><b>Gl0bal01 💖 龴ↀ◡ↀ龴</b></sub>
         </a>

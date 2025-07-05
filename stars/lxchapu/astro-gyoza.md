@@ -1,6 +1,6 @@
 ---
 project: astro-gyoza
-stars: 174
+stars: 177
 description: |-
     A simple and cute static blog template built with Astro and React.🥟🥟🥟
 url: https://github.com/lxchapu/astro-gyoza

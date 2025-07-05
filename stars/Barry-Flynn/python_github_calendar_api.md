@@ -1,6 +1,6 @@
 ---
 project: python_github_calendar_api
-stars: 11
+stars: 12
 description: |-
     基于Python的GitHub贡献图API后端接口
 url: https://github.com/Barry-Flynn/python_github_calendar_api

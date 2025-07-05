@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-xlog
-stars: 18
+stars: 17
 description: |-
     A Hugo theme based on minima
 url: https://github.com/lin-snow/hugo-theme-xlog

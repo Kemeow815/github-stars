@@ -1,6 +1,6 @@
 ---
 project: clashmi
-stars: 1122
+stars: 1198
 description: |-
     Clash Mihomo for iOS/Android
 url: https://github.com/KaringX/clashmi
@@ -25,7 +25,7 @@ url: https://github.com/KaringX/clashmi
     - 支持metacubex的推荐配置, 内核基于yaml配置运行. 小白用户使用机场订阅即可使用.
 - 自带[zashboard面板](https://github.com/Zephyruso/zashboard)
     - web面板 或许你更加熟悉.
-- 用户手册: [clashmi.app](https://clashmi.app)
+- 官网/用户手册: [clashmi.app](https://clashmi.app)
 
 ##### 注意: ClashMi或KaringX未在任何视频平台开设过任何频道
 

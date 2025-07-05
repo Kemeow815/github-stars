@@ -1,6 +1,6 @@
 ---
 project: Paper
-stars: 85
+stars: 90
 description: |-
     Paper - 纯前端 | 单 html 文件执行 | 轻量级 Markdown 微信公众号编辑器。定制属于每个人自己的微信公众号样式！
 url: https://github.com/xiaolinbaba/Paper
@@ -111,6 +111,12 @@ Paper Markdown 编辑器的设计灵感参考了两个项目[jackywine](https://
 
 ## 更新记录
 
+### 20250702
+- 优化三级标题的显示样式
+- 更新Markdown语法查询链接
+- 编辑区和预览区时间显示修订
+
 ### 20250608
 - 增加了两个卡片样式，浅橙色卡片和浅蓝色卡片，通过 `:::orange`、`:::blue` 来引用
 - bug 修复，冗余代码删除
+

@@ -1,6 +1,6 @@
 ---
 project: gridea-theme-porky
-stars: 17
+stars: 18
 description: |-
     A blog theme made for Gridea by chiperman for personal use.
 url: https://github.com/chiperman/gridea-theme-porky

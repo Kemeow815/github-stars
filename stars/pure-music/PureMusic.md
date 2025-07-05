@@ -1,6 +1,6 @@
 ---
 project: PureMusic
-stars: 296
+stars: 299
 description: |-
     本地、百度网盘、阿里云盘、WebDAV、GoogleDrive、OneDrive、Dropbox、Plex、Emby、Jelly、Subsonic音乐播放器，支持Android、Windows、Mac、Linux平台
 url: https://github.com/pure-music/PureMusic

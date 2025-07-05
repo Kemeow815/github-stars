@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 362
+stars: 368
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit
@@ -97,6 +97,16 @@ see:<br>
 - call pull/push/sync by tasker or other automation tools via http service
 
 
+## Editor
+Due to PuppyGit's Editor very basic and I have no plan to implement a complex editor for now. so I recommend some editors I was tried:
+
+`Squircle CE` code editor: https://github.com/massivemadness/Squircle-CE
+    
+`Markor`, markdown editor: https://github.com/gsantner/markor
+
+After installed, you can use PuppyGit's "Open As" feature to launch them in PuppyGit.
+
+
 ## About ssh
 when first time connect to an unknown host, PuppyGit will ask you allow/reject as default, its more safety, also, if you want, you can allow unknown hosts by default, just checkout the Settings page.
 #### note: PuppyGit only require private key and passphrase for connect to remote repo by ssh, it doesn't support generate ssh keys, if you want to generate ssh keys on android, try another app of mine: <a href=https://github.com/catpuppyapp/PuppySshKeyMan/releases>Ssh Key Man</a>
@@ -142,14 +152,14 @@ I haven't use the default placeholder, because if it missed in the xml file, may
 
 ### How I update existed languages
 If I need add some simple words, I'll use AI translate to existed languages, if you found anything words wrong, you can fork my repo and update it, then send a pr.
-If I need add some complex and long sentence, I'll create a issue and notice the translators, then the translators can fork my repo and update the strings.xml of them language, then send a pr to me.
+If I need add some complex and long sentence, I'll create an issue and notice the translators, then the translators can fork my repo and update the strings.xml of their language, then send a pr to me.
 
-#### Contributors will display in the About screen of PuppyGit, if you don't want to your name appear in the list, you can send email to me or create a issue to tell me. btw. you can find my email by click "Contact Author" in the About Screen of PuppyGit
+#### Contributors username will display in the About screen of PuppyGit, if you don't want to your name presence in the list, you can send an email to me or create an issue to tell me. btw. you can find my email by click "Contact Author" in the About screen of PuppyGit
 
 
 
 ## Comments in code
-this project has many chinese comments, and some comments are out-of-date or nonsense, I have no plan clean them, but if you read the codes, and you wonder know some comments meaning, try translator or ask me is ok
+this project has many chinese comments, and some comments are out-of-date or nonsense, I have no plan to clean them, but if you read the codes, and you wonder know some comments meaning, try translator or ask me is ok
 
 
 ## Credits

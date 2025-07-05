@@ -3,7 +3,7 @@ project: Vercel-Typecho
 stars: 152
 description: |-
     Vercel 免费部署 Typecho 博客 | Vercel Free Deploy Typecho Blog
-url: https://github.com/Lete114/Vercel-Typecho
+url: https://github.com/lete114/Vercel-Typecho
 ---
 
 # Vercel-Typecho

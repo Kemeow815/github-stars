@@ -1,6 +1,6 @@
 ---
 project: astro-theme-cactus
-stars: 1248
+stars: 1256
 description: |-
     A simple Astro theme. Use it to create your blog or website.
 url: https://github.com/chrismwilliams/astro-theme-cactus
@@ -42,7 +42,7 @@ Astro Cactus is a simple opinionated starter built with [Astro](https://astro.bu
 - Responsive & SEO-friendly
 - Dark & Light mode
 - MD & [MDX](https://docs.astro.build/en/guides/markdown-content/#mdx-only-features) posts & notes
-  - Includes [Admonitions](https://astro-cactus.chriswilliams.dev/posts/markdown-elements/admonistions/)
+  - Includes [Admonitions](https://astro-cactus.chriswilliams.dev/posts/markdown-elements/admonitions/)
 - [Satori](https://github.com/vercel/satori) for creating open graph png images
 - [Automatic RSS feeds](https://docs.astro.build/en/guides/rss)
 - [Webmentions](https://webmention.io/)

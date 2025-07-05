@@ -1,6 +1,6 @@
 ---
 project: github-chinese
-stars: 13164
+stars: 13419
 description: |-
     GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 url: https://github.com/maboloshi/github-chinese
@@ -8,17 +8,19 @@ url: https://github.com/maboloshi/github-chinese
 
 <div align="center"><a name="readme-top"></a>
 
-# [GitHub 中文化插件][project-url]
+# [GitHub 中文化插件][github-project-link]
 
 > 让 GitHub 界面全面中文化 | 源自 [52cik/github-hans](https://github.com/52cik/github-hans)
 
-**简体中文** · [繁體中文](./README_zh-TW.md)
+**简体中文** · [繁體中文](./README_zh-TW.md) · [反馈问题][github-issues-link]
 
-[![GitHub issues][issues-image]][issues-url]
-[![GitHub stars][stars-image]][stars-url]
-[![GitHub forks][forks-image]][forks-url]
-[![license GPL-3.0][license-image]][license-url]
-[![GreasyFork installs][greasyFork-image]][greasyFork-url]
+<!-- SHIELD GROUP -->
+
+[![GitHub issues][github-issues-shield]][github-issues-link]
+[![GitHub stars][github-stars-shield]][github-stars-link]
+[![GitHub forks][github-forks-shield]][github-forks-link]
+[![license GPL-3.0][github-license-shield]][github-license-link]
+[![GreasyFork installs][greasyFork-shield]][greasyFork-link]
 
 <a href="https://hellogithub.com/repository/738d0abae49543f18d887a7e29ec9e90" target="_blank">
   <picture>
@@ -33,7 +35,10 @@ url: https://github.com/maboloshi/github-chinese
 > [!warning]
 > 本项目从未发布至 GitCode，如您发现请截图并保留证据
 
-## 目录
+<details>
+<summary><kbd>目录树</kbd></summary>
+
+#### TOC
 - [🌟 功能特性](#-功能特性)
 - [🌐 兼容环境](#-兼容环境)
 - [💻 安装指南](#-安装指南)
@@ -45,14 +50,15 @@ url: https://github.com/maboloshi/github-chinese
 - [🙏 特别鸣谢](#-特别鸣谢)
 - [📈 项目统计](#-项目统计)
 - [🎁 欢迎打赏](#-欢迎打赏)
+</details>
 
 ## 🌟 功能特性
 
-- 全面中文化 GitHub 界面元素（菜单栏、标题、按钮等）
-- 智能正则匹配功能
-- 支持项目描述的人机翻译
-- 自动本地化时间元素
-- 持续更新词库
+- [x] 全面中文化 GitHub 界面元素（菜单栏、标题、按钮等）
+- [x] 智能正则匹配功能
+- [x] 支持项目描述的人机翻译
+- [x] 自动本地化时间元素
+- [x] 持续更新词库
 
 ## 🌐 兼容环境
 
@@ -122,8 +128,7 @@ Via（Android）       | 内置管理器
 1. 优化：梳理、优化脚本
 1. 调整：调整词库语言代码为`zh-CN`, 与环境语言设置一致
 
-<details>
-  <summary><h3>查看历史版本</h3></summary>
+<details><summary><kbd>查看更多历史版本</kbd></summary>
 
 #### v1.9.2 (2024-06-14)
 
@@ -253,6 +258,7 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 1. 提交议题报告，参与话题讨论
 1. 改进代码逻辑
 
+[![][pr-welcome-shield]][pr-welcome-link]
 
 ### 翻译参考资源:
 
@@ -391,17 +397,19 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[project-url]: https://github.com/maboloshi/github-chinese "GitHub 中文化插件"
-[issues-url]: https://github.com/maboloshi/github-chinese/issues "议题"
-[issues-image]: https://img.shields.io/github/issues/maboloshi/github-chinese?style=flat-square&logo=github&label=Issue
-[stars-url]: https://github.com/maboloshi/github-chinese/stargazers "星标"
-[stars-image]: https://img.shields.io/github/stars/maboloshi/github-chinese?style=flat-square&logo=github&label=Star
-[forks-url]: https://github.com/maboloshi/github-chinese/network "复刻"
-[forks-image]: https://img.shields.io/github/forks/maboloshi/github-chinese?style=flat-square&logo=github&label=Fork
-[license-url]: https://opensource.org/licenses/GPL-3.0  "许可证"
-[license-image]: https://img.shields.io/github/license/maboloshi/github-chinese?style=flat-square&logo=github&label=License
-[greasyFork-url]: https://greasyfork.org/scripts/435208  "GreasyFork 源 - GitHub 中文化插件"
-[greasyFork-image]: https://img.shields.io/badge/dynamic/json?style=flat-square&label=GreasyFork&query=total_installs&suffix=%20installs&url=https://greasyfork.org/scripts/435208.json
+[github-project-link]: https://github.com/maboloshi/github-chinese "GitHub 中文化插件"
+[github-issues-link]: https://github.com/maboloshi/github-chinese/issues "议题"
+[github-issues-shield]: https://img.shields.io/github/issues/maboloshi/github-chinese?style=flat-square&logo=github&label=Issue
+[github-stars-link]: https://github.com/maboloshi/github-chinese/stargazers "星标"
+[github-stars-shield]: https://img.shields.io/github/stars/maboloshi/github-chinese?style=flat-square&logo=github&label=Star
+[github-forks-link]: https://github.com/maboloshi/github-chinese/network "复刻"
+[github-forks-shield]: https://img.shields.io/github/forks/maboloshi/github-chinese?style=flat-square&logo=github&label=Fork
+[github-license-link]: https://opensource.org/licenses/GPL-3.0  "许可证"
+[github-license-shield]: https://img.shields.io/github/license/maboloshi/github-chinese?style=flat-square&logo=github&label=License
+[greasyFork-link]: https://greasyfork.org/scripts/435208  "GreasyFork 源 - GitHub 中文化插件"
+[greasyFork-shield]: https://img.shields.io/badge/dynamic/json?style=flat-square&logo=GreasyFork&label=GreasyFork&query=total_installs&suffix=%20installs&url=https://greasyfork.org/scripts/435208.json
+[pr-welcome-link]: https://github.com/maboloshi/github-chinese/pulls
+[pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge "欢迎提交 PR"
 [Tampermonkey]: http://tampermonkey.net/ "篡改猴"
 [Violentmonkey]: https://violentmonkey.github.io/ "暴力猴"
 [Macaque]: https://macaque.app/ "猕猴"

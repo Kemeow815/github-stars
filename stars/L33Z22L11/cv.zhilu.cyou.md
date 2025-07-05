@@ -2,7 +2,7 @@
 project: cv.zhilu.cyou
 stars: 4
 description: |-
-    My resume.
+    我的前端开发个人简历，可在线部署/导出PDF。
 url: https://github.com/L33Z22L11/cv.zhilu.cyou
 ---
 

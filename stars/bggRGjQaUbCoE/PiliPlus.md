@@ -1,6 +1,6 @@
 ---
 project: PiliPlus
-stars: 3163
+stars: 3430
 description: |-
     PiliPlus
 url: https://github.com/bggRGjQaUbCoE/PiliPlus
@@ -55,7 +55,8 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 
 ## feat
 
-- [x] 动态/评论@用户
+- [x] 发起投票
+- [x] 发布动态/评论支持`富文本编辑`/`表情显示`/`@用户`
 - [x] 修改消息设置
 - [x] 修改聊天设置
 - [x] 展示折叠消息

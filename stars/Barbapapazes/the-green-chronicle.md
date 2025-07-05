@@ -1,6 +1,6 @@
 ---
 project: the-green-chronicle
-stars: 90
+stars: 91
 description: |-
     Blog - A Nuxt Studio theme powered by Nuxt UI Pro, Nuxt Content and ready for Nuxt Studio
 url: https://github.com/Barbapapazes/the-green-chronicle

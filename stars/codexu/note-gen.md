@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 5040
+stars: 5732
 description: |-
     A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 url: https://github.com/codexu/note-gen
@@ -17,6 +17,7 @@ url: https://github.com/codexu/note-gen
 
 <div>
   <a href="https://trendshift.io/repositories/12784" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12784" alt="codexu%2Fnote-gen | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <a href="https://hellogithub.com/repository/0163cb946dca44cc8905dbe34c2c987b" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=0163cb946dca44cc8905dbe34c2c987b&claim_uid=YJ39kIMBz1TGAvc" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
   <a href="https://www.producthunt.com/products/notegen-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-notegen&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=956348&theme=light&t=1749194675492" alt="NoteGen - A&#0032;cross&#0045;platform&#0032;Markdown&#0032;note&#0045;taking&#0032;application | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </div>
 
@@ -53,7 +54,7 @@ Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform ca
 | ✅ beta | ✅ beta | ✅ beta | 🛠️ alpha | 🛠️ alpha |
 | [Download 17 MB](https://notegen.top/en/download.html) | [Download 20.7 MB](https://notegen.top/en/download.html) | [Download 21.7 MB](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) |
 
-> Provided by [UpgradeLink](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
+> [UpgradeLink offers application upgrade and download services](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
 
 ### Enhancement
 
@@ -121,7 +122,7 @@ The writing section is divided into two parts: **File Manager** and **Markdown E
 ## Sponsors
 
 <div>
-  <a href="https://docs.siliconflow.cn/cn/usercases/use-siliconcloud-in-NoteGen?utm_source=NoteGen" target="_blank">
+  <a href="https://cloud.siliconflow.cn/i/O2ciJeZw" target="_blank">
     <img src="https://s2.loli.net/2025/06/11/65TLRh813e2YFzr.png" />
   </a>
   <a href="https://www.qiniu.com/products/ai-token-api?utm_source=NoteGen" target="_blank">
@@ -129,6 +130,9 @@ The writing section is divided into two parts: **File Manager** and **Markdown E
   </a>
   <a href="http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html" target="_blank">
     <img src="https://s2.loli.net/2025/06/11/r2dqNIWVXp4RaFe.png" />
+  </a>
+  <a href="https://share.302.ai/jfFrIP" target="_blank">
+    <img src="https://s2.loli.net/2025/07/01/dPlkU1tejnDyV4S.png" />
   </a>
 </div>
 

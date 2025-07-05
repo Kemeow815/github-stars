@@ -1,6 +1,6 @@
 ---
 project: blog-web
-stars: 35
+stars: 36
 description: |-
     null
 url: https://github.com/dxdyt/blog-web

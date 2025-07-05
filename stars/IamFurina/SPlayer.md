@@ -1,17 +1,12 @@
 ---
 project: SPlayer
-stars: 113
+stars: 115
 description: |-
     🎉 一个简约的在线音乐播放器，具有音乐搜索、播放、每日推荐、私人FM、歌词显示、歌曲评论、网易云登录与云盘等功能; 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer
 ---
 
 # SPlayer
-
-> [!WARNING]
-> 近期我发现有部分用户在`.env`文件中填入了我的网易云API, 可能会有人不懂, `Vercel`是有**500GB**流量限制的
-> 这种现象导致了我的演示站点一直超出限制导致站点无法访问, 所以呼吁大家不要把我的API填入自己的`配置文件`内
-> 要是还发现有人在肆无忌惮的使用我的`API`, 我将会**封禁你的IP**并且把你的`网易云Cookie`**公开**到当前仓库中
 
 #### 一个简约的音乐播放器
 
@@ -84,42 +79,35 @@ url: https://github.com/IamFurina/SPlayer
 <details>
 <summary>主页面</summary>
 
-![主页面](/screenshots/SPlayer%20-%20主页面.jpg)
+![主页面](/screenshots/SPlayer%20-%20主页面.png)
 
 </details>
 
 <details>
 <summary>播放页面</summary>
 
-![播放页面](/screenshots/SPlayer%20-%20播放页面.jpg)
+![播放页面](/screenshots/SPlayer%20-%20播放页面.png)
 
 </details>
 
 <details>
 <summary>发现页面</summary>
 
-![发现页面](/screenshots/SPlayer%20-%20发现页面.jpg)
+![发现页面](/screenshots/SPlayer%20-%20发现页面.png)
 
 </details>
 
 <details>
 <summary>歌单页面</summary>
 
-![发现页面](/screenshots/SPlayer%20-%20歌单页面.jpg)
+![发现页面](/screenshots/SPlayer%20-%20歌单页面.png)
 
 </details>
 
 <details>
 <summary>评论页面</summary>
 
-![发现页面](/screenshots/SPlayer%20-%20评论页面.jpg)
-
-</details>
-
-<details>
-<summary>本地音乐</summary>
-
-![发现页面](/screenshots/SPlayer%20-%20本地音乐.jpg)
+![发现页面](/screenshots/SPlayer%20-%20评论页面.png)
 
 </details>
 
@@ -146,6 +134,12 @@ url: https://github.com/IamFurina/SPlayer
 #### 以下是TTML歌词API的部署 (可选)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https%3A%2F%2Fgithub.com%2FIamFurina%2FLyric-Atlas-API)
 ### 🔧 开始部署本体
+#### EdgeOne Page 一键部署
+> 不是我恰饭, 虽然`Edgeone`没有足够成熟, 但是访问和构建速度是可以与`Vercel`堪比的, 推荐大陆地区的人们都试一下👍
+
+[![Use EdgeOne Pages to deploy](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/IamFurina/SPlayer)   
+进入后选择框架为`Vue`, 随后把输出目录设置为`out/renderer`, 设置方式同下
+#### 通过Fork仓库部署
 2. 点击本仓库右上角的 `Fork`，复制本仓库到你的 `GitHub` 账号
 3. 复制 `/.env.example` 文件并重命名为 `/.env`
 4. 将 `.env` 文件中的 `RENDERER_VITE_SERVER_URL` 和 `VITE_UNM_API` 改为第一步得到的 API 地址
@@ -188,7 +182,7 @@ url: https://github.com/IamFurina/SPlayer
 
 6. 将 `Build and Output Settings` 中的 `Output Directory` 改为 `out/renderer`
 
-   ![build](/screenshots/build.jpg)
+   ![build](/screenshots/build.png)
 
 7. 点击 `Deploy`，即可成功部署
 

@@ -1,6 +1,6 @@
 ---
 project: magma-ink
-stars: 3
+stars: 4
 description: |-
     我的博客站点「熔岩墨迹 Magma Ink」的源码
 url: https://github.com/MagmaBlock/magma-ink

@@ -1,6 +1,6 @@
 ---
 project: WebStack-Demo
-stars: 94
+stars: 96
 description: |-
     Bio & IT 网址导航
 url: https://github.com/shenweiyan/WebStack-Demo

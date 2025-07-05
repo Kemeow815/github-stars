@@ -1,6 +1,6 @@
 ---
 project: hexo-generator-feed
-stars: 589
+stars: 590
 description: |-
     Feed generator for Hexo.
 url: https://github.com/hexojs/hexo-generator-feed

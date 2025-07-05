@@ -1,6 +1,6 @@
 ---
 project: littlelink
-stars: 2282
+stars: 2292
 description: |-
     A lightweight DIY Linktree alternative.
 url: https://github.com/sethcottle/littlelink
@@ -9,7 +9,7 @@ url: https://github.com/sethcottle/littlelink
 ![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 # LittleLink
-The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). 
+The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended).
 
 ---
 ### 🆕 LittleLink Button Builder

@@ -61,7 +61,7 @@ url: https://github.com/Kemeow815/Kemeow815
 ---
 [个人主页](https://kemiao.online) | [博客站点](https://blog-v3.kemeow.top)
 
-大家好！这里是克喵爱吃卤面的github主页。致力于分享资源、生活日记和踩坑教程，代码水准一般，自动化专业大二学生，现于南京就读，普通的大学牛马。
+大家好！这里是克喵爱吃卤面的github主页。致力于分享资源、生活日记和踩坑教程，代码水准一般，自动化专业大三学生，现于南京就读，普通的大学牛马。
 
 <img align='right' src="./static/kemiao.jpg" width="150" alt="person">
 
@@ -74,7 +74,7 @@ url: https://github.com/Kemeow815/Kemeow815
 - 🖥 **个人信息:**
     - 🧑 **姓名:** mcy
     - 🏫 **学校:** 南京工业职业技术大学，[官方网站](https://www.niit.edu.cn/)
-    - 🏛️ **年级:** 大二
+    - 🏛️ **年级:** 大三
     - 👷 **职业:** 学生
 - 🖥 **兴趣:** 计算机，单机游戏，电子产品，数码产品，资源分享
 - 🖥 **梦想:** 咸鱼算不算？
@@ -85,10 +85,14 @@ url: https://github.com/Kemeow815/Kemeow815
 |--------------|------------------|----------------------------------------------------|
 | 🏠 Home      | 个人主页         | [https://kemiao.online/](https://kemiao.online/)  |
 | 🪄 Blog      | 个人博客         | [https://blog-v3.kemeow.top/](https://blog-v3.kemeow.top/) |
-| 🚀 Speak    | 说说         | [https://memos.kemiaosw.top/](https://memos.kemiaosw.top/) |
-| 🔥 Hot List  | 今日热榜         | [https://dailyhot.kemeow.cn/](https://dailyhot.kemeow.cn/) |
+| 🚀 Memos Speak    | Memos 说说         | [https://moment.kemiaosw.top/](https://moments.kemiaosw.top/) |
+| TG Speak | TG 说说 | [https://music.kemiao.online](https://music.kemiao.online) |
+| Moment | Moment 朋友圈 | [https://moment.050815.xyz](https://moment.050815.xyz) |
+| Ech0 | Echo 说说 | [https://pyq.050815.xyz](https://pyq.050815.xyz) |
+| IceFox | IceFox朋友圈 | [https://pyq.kemiao.online](https://pyq.kemiao.online) |
+| 相册 | TimePlus | [https://photos.050815.xyz](https://photos.050815.xyz) |
+| 🔥 Hot List  | 今日热榜         | [https://news.kemiao.online/](https://news.kemiao.online/) |
 | 💾 Resources | 资源分享         | [https://github.com/Kemeow815/kemiaofx](https://github,com/Kemeow815/kemiaofx) |
-| 🎨 Design    | 封面设计         | [https://cover.qyliu.top/](https://cover.qyliu.top/) |
 | 🖥️ Detection | 站点检测         | [https://montor.kemeow.cn/](https://montor.kemeow.cn/) |
 | 🎦 Video | 影视网站 | [https://tv.kemeow.top](https://tv.kemeow.top) |
 | 🎵 Music | 音乐 | [https://music.kemiao.online ](https://music.kemiao.online)|

@@ -1,6 +1,6 @@
 ---
 project: nextjs-nextra-starter
-stars: 179
+stars: 185
 description: |-
     ⚡️  一个 Next.js (v15) 快速启动模板, 集成 Tailwind CSS (v4) + React (v19) + Nextra (v4) + TypeScript + Shadcn UI + Radix UI + Aceternity UI + ESLint(v9) + Sass, 支持 Iconify 图标集, i18n 多语言国际化 - 响应式、暗黑模式落地页、适合开发个人博客 Blog Starter Template, 含示例代码, Deployed on Netlify and Vercel.
 url: https://github.com/pdsuwwz/nextjs-nextra-starter
@@ -24,7 +24,33 @@ url: https://github.com/pdsuwwz/nextjs-nextra-starter
 ⚡️ 快速模板 Starter Template - React v19 + Next.js + Nextra (v4) + TypeScript + TailwindCSS (v4) + Shadcn UI
 
 - [🚀 Live Demo 在线体验](https://nextjs-nextra.netlify.app/zh)
-- [✨ 备用地址](https://nextjs-nextra-starter-green.vercel.app/zh)
+- [✨ 备用地址1](https://nextjs-nextra-starter-green.vercel.app/zh)
+- [✨ 备用地址2](https://nextra.likemashang.com/zh)
+
+## 🛠️ 项目维护承诺
+
+<div align="center">
+
+<table>
+  <tr>
+    <td><strong>🔄 持续更新</strong><br/>不定期更新依赖和功能</td>
+    <td><strong>🐛 快速响应</strong><br/>平均 2 小时内回复 Issue</td>
+  </tr>
+  <tr>
+    <td><strong>💎 精心打磨</strong><br/>花费 100+ 小时完善模板细节</td>
+    <td><strong>🛡️ 稳定可靠</strong><br/>确保每个功能都充分测试</td>
+  </tr>
+</table>
+
+</div>
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/a5viI92PAF89q/giphy.gif" width="400"/>
+
+💝 **如果你感受到了这份用心，请用 Star ⭐ 给予支持**
+
+</div>
 
 ## 🚀 更新说明
 
@@ -76,6 +102,10 @@ pnpm dev
 ```
 
 接着用浏览器打开 http://localhost:8000 即可访问服务
+
+🎉 **成功运行了？** 如果你喜欢这个模板的简洁配置，别忘了鼓励一下：
+
+[![Star this repo](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=flat&logo=github)](https://github.com/pdsuwwz/nextjs-nextra-starter)
 
 ## 使用 Shadcn UI 组件
 
@@ -130,17 +160,33 @@ export default function Home() {
 
 > 注意：在大多数情况下，`Shadcn UI` 提供的默认样式已经足够满足需求，无需进行额外修改
 
-## 🌹 支持
+## 🐱 说句心里话
 
-如果你喜欢这个项目或发现有用，可以点右上角 [`Star`](https://github.com/pdsuwwz/nextjs-nextra-starter) 支持一下，你的支持是我们不断改进的动力，感谢！ ^\_^
+<div align="center">
+
+如果你看到这里还没有点 Star, 那我只能说...
+
+<img src="https://media.giphy.com/media/l0HlKrB02QY0f1mbm/giphy.gif" width="500"/>
+
+**求求了，给个 Star 吧！** 🥺👉👈
+
+我的 Star 数量还不如我的 Bug 数量多 😭
+
+<a href="https://github.com/pdsuwwz/nextjs-nextra-starter">
+<img src="https://img.shields.io/badge/%E8%89%AF%E5%BF%83%E5%8F%91%E7%8E%B0-%E8%B5%8F%E4%B8%AAStar%20%E2%AD%90%EF%B8%8F%EF%B8%8F-orange?style=for-the-badge&logo=github&logoColor=white" alt="给个Star"/>
+</a>
+
+</div>
 
 ## 🌟 相关项目
 
 以下是一些开发者和团队正在使用、参考或受本项目启发的项目：
 
-| 项目名                                  | 简介                                                           |
-| --------------------------------------- | -------------------------------------------------------------- |
-| [面试宝典](https://www.codecrack.cn/zh) | 一个免费且深入的八股文网站，帮助开发者提升技术能力并应对面试。 |
+| 项目名                                                              | 简介                                                                                           |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [EdgeOne Saas 模板](https://github.com/TencentEdgeOne/saas-starter) | [腾讯云官方模板：助你快速构建并部署下一款 SaaS 应用](https://saas-starter-docs.edgeone.app/zh) |
+| [Talking Web3](https://talkingweb3.io/zh)                           | 一个 Web3 项目出圈加速器，致力于打造卓越的Web3项目。                                           |
+| [面试宝典](https://www.codecrack.cn/zh)                             | 一个免费且深入的八股文网站，帮助开发者提升技术能力并应对面试。                                 |
 
 ### 📢 社区贡献
 

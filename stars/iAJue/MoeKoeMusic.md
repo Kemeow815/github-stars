@@ -1,8 +1,8 @@
 ---
 project: MoeKoeMusic
-stars: 2608
+stars: 2634
 description: |-
-    一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux :electron:
+    一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:
 url: https://github.com/iAJue/MoeKoeMusic
 ---
 
@@ -72,51 +72,56 @@ url: https://github.com/iAJue/MoeKoeMusic
 
 ## 📦️ 安装
 
-### 客户端安装
+### 1. 客户端安装
 
 访问本项目的 [Releases](https://github.com/iAJue/MoeKoeMusic/releases) 页面下载安装包。
 
-### WEB端安装（docker）
+### 2. WEB端安装（docker）
 
 * 注意：部署后请开放服务器对应端口才可使用，或者使用反向代理实现域名访问。
 
-> 方式一：快速启动（推荐）
+    1. 方式一：快速启动（推荐）
 
-```
-git clone https://github.com/iAJue/MoeKoeMusic.git
-cd MoeKoeMusic
-docker compose up -d &
-```
+    ```
+    git clone https://github.com/iAJue/MoeKoeMusic.git
+    cd MoeKoeMusic
+    docker compose up -d &
+    ```
 
-> ~~方式二：使用docker-compose一键安装 （镜像暂未上传官方）~~
+    2. ~~方式二：使用docker-compose一键安装 （镜像暂未上传官方）~~
+    
+    ```
+    docker run -d --name MoeKoeMusic -p 8080:8080 iajue/moekoe-music:latest
+    ```
 
-```
-docker run -d --name MoeKoeMusic -p 8080:8080 iajue/moekoe-music:latest
-```
+    3. 方式三：宝塔容器编排
 
-> 方式三：宝塔容器编排
+    * 远程镜像，版本可能会落后于官方
+    
+    ```
+    version: '3.3'
+    
+    services:
+      moekoe-music:
+        # 镜像地址
+        image: registry.cn-wulanchabu.aliyuncs.com/youngxj/moekoe-music:latest
+        container_name: moekoe-music # 容器名
+        restart: unless-stopped # 自动重启
+        build:
+          context: .
+          dockerfile: Dockerfile
+        ports: # 端口映射
+          - "8080:8080"  # 前端服务
+          - "6521:6521"  # 接口服务
+    
+    ```
+    
+    复制内容上面的内容，粘贴到宝塔面板的容器编排里面，编排名称为MoeKoeMusic，点击部署即可。
 
-远程镜像，版本可能会落后于官方
+### 3. 一键部署
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=https://github.com/iAJue/moekoemusic&install-command=npm%20install&output-directory=dist&root-directory=.%2F&build-command=npm%20run%20build&env=VITE_APP_API_URL)
 
-```
-version: '3.3'
-
-services:
-  moekoe-music:
-    # 镜像地址
-    image: registry.cn-wulanchabu.aliyuncs.com/youngxj/moekoe-music:latest
-    container_name: moekoe-music # 容器名
-    restart: unless-stopped # 自动重启
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports: # 端口映射
-      - "8080:8080"  # 前端服务
-      - "6521:6521"  # 接口服务
-
-```
-
-复制内容上面的内容，粘贴到宝塔面板的容器编排里面，编排名称为MoeKoeMusic，点击部署即可。
+需在环境变量(VITE_APP_API_URL)中填写自己的API地址
 
 ## ⚙️ 开发
 
@@ -295,3 +300,4 @@ API 源代码来自 [MakcRe/KuGouMusicApi](https://github.com/MakcRe/KuGouMusicA
 ## 🗓️ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=iAJue/MoeKoeMusic&type=Date)](https://www.star-history.com/#iAJue/MoeKoeMusic&Date)
+

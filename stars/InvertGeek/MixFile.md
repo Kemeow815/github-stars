@@ -1,6 +1,6 @@
 ---
 project: MixFile
-stars: 241
+stars: 254
 description: |-
     使用图床储存任意文件
 url: https://github.com/InvertGeek/MixFile

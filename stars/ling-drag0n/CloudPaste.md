@@ -1,8 +1,8 @@
 ---
 project: CloudPaste
-stars: 959
+stars: 978
 description: |-
-    基于Cloudflare的在线文本/大文件分享平台，支持多种语法 Markdown 渲染、阅后即焚、S3聚合存储、密码保护等功能，可作为WebDav挂载，支持Docker部署。
+    A Cloudflare-based online text/large file sharing platform that supports multiple syntax Markdown rendering, self-destructing messages, S3 aggregated storage, password protection, and more. It can be mounted as WebDAV and supports Docker deployment.
 url: https://github.com/ling-drag0n/CloudPaste
 ---
 
@@ -10,7 +10,10 @@ url: https://github.com/ling-drag0n/CloudPaste
 
 <div align="center">
     <p>
-    <a href="README_CN.md">中文</a> | <a href="README.md">English</a>
+    <a href="README_CN.md">中文</a> | <a href="README.md">English</a> |
+    <a href="https://www.readme-i18n.com/ling-drag0n/CloudPaste?lang=es">Español</a> | 
+    <a href="https://www.readme-i18n.com/ling-drag0n/CloudPaste?lang=fr">français</a> | 
+    <a href="https://www.readme-i18n.com/ling-drag0n/CloudPaste?lang=ja">日本語</a> 
     </p>
     <img width="100" height="100" src="https://img.icons8.com/dusk/100/paste.png" alt="paste"/>
     <h3>Cloudflare-based online clipboard and file sharing service with Markdown editing and file upload support</h3>
@@ -1053,6 +1056,13 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
   <a href="https://afdian.com/a/drag0n"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
 
+- **Sponsors**: A huge thank you to the following sponsors for their support of this project!
+
+  [![Sponsors](https://afdian.730888.xyz/image)](https://afdian.com/a/drag0n)
+
+- **Contributors**: Thank you to the following contributors for their selfless contributions to this project!
+
+  [![Contributors](https://contrib.rocks/image?repo=ling-drag0n/CloudPaste)](https://github.com/ling-drag0n/CloudPaste/graphs/contributors)
 
 ## Star History
 
