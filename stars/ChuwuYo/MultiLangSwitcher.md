@@ -1,6 +1,6 @@
 ---
 project: MultiLangSwitcher
-stars: 68
+stars: 71
 description: |-
     MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速切换浏览器发送的 Accept-Language HTTP
 url: https://github.com/ChuwuYo/MultiLangSwitcher
@@ -8,7 +8,7 @@ url: https://github.com/ChuwuYo/MultiLangSwitcher
 
 <div align="center">
     <img src="images/icon128.png" alt="MultiLangSwitcher Icon" width="150" height="150"> <h1>MultiLangSwitcher</h1>
-    <a href="../README.md">简体中文</a> | <a href="docs/README_EN.md">English</a> </div>
+    <a href="README.md">简体中文</a> | <a href="docs/README/README_EN.md">English</a> </div>
 
 ---
 
@@ -25,6 +25,8 @@ MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速�
 
 扩展利用 `chrome.declarativeNetRequest` API 来修改请求头，确保性能和隐私。
 
+### 注意：本拓展不适用于通过检测IP地址来确定语言的网站。
+
 页面样式采用Bootstrap框架。
 
 如果拓展自带的请求头检测报错或不返回结果，可以自行跳转到 [浏览器检测](https://webcha.cn/) 、 [BrowserScan](https://www.browserscan.net/zh) 、 [header-echo](https://header-echo.addr.tools/) 进行查看。
@@ -32,15 +34,22 @@ MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速�
 如果需要切换浏览器UA可以看一下这个项目：[User-Agent Switcher and Manager](https://github.com/ray-lothian/UserAgent-Switcher)
 
 
-<div align="center">
-    <img src="https://github.com/user-attachments/assets/e44b6d72-b66c-4be5-a80d-a2de07fb86c6" alt="MultiLangSwitcher Home">
-
-
-</div>
+<center>
+    <table>
+        <tr>
+            <td>
+                <img src="https://github.com/user-attachments/assets/e1ec3c75-d149-420d-a43c-adc48d1111fb" alt="CN_Light">
+            </td>
+            <td>
+                <img src="https://github.com/user-attachments/assets/0e4a355d-5157-4873-b7f7-11173e1a79f7" alt="EN_Dark">
+            </td>
+        </tr>
+    </table>
+</center>
 
 ---
 
-建议同时在浏览器语言设置中进行相应配置，这样可以混淆一些简单的 `navigator.languages` 检测。
+同时可以在浏览器语言设置中进行相应配置，这样可以混淆一些简单的 `navigator.languages` 检测。(但是也会提高您的浏览器指纹唯一性)
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/c056e5ee-6c65-4786-98d4-ee33f4beef47" alt="Suggestion">
@@ -60,7 +69,7 @@ MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速�
 
 ***
 
-* **语言切换**: 弹出界面选择语言，修改 `Accept-Language` 请求头
+* **语言请求头切换**: 弹出界面选择语言，修改 `Accept-Language` 请求头
 * **域名自动切换**: 根据访问域名自动应用对应语言设置
   - 支持顶级域名（如 `.cn`、`.jp`）和二级域名（如 `com.cn`、`co.jp`）
   - 内置域名规则覆盖主要国家和地区

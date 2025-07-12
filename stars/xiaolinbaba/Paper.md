@@ -1,6 +1,6 @@
 ---
 project: Paper
-stars: 90
+stars: 96
 description: |-
     Paper - 纯前端 | 单 html 文件执行 | 轻量级 Markdown 微信公众号编辑器。定制属于每个人自己的微信公众号样式！
 url: https://github.com/xiaolinbaba/Paper

@@ -1,6 +1,6 @@
 ---
 project: yeyu-blog
-stars: 15
+stars: 14
 description: |-
     个人博客网站
 url: https://github.com/NeilYeTAT/yeyu-blog

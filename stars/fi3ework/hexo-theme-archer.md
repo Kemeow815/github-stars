@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-archer
-stars: 1571
+stars: 1572
 description: |-
     🎯 A smart and modern theme for Hexo.
 url: https://github.com/fi3ework/hexo-theme-archer

@@ -1,6 +1,6 @@
 ---
 project: mastodon-embed-timeline
-stars: 20
+stars: 21
 description: |-
     🚧🚧🚧🚧🚧Mirror🚧🚧🚧🚧🚧 Mirror of mastodon-embed-timeline. Source: https://gitlab.com/idotj/mastodon-embed-timeline
 url: https://github.com/eallion/mastodon-embed-timeline

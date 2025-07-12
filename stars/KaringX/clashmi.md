@@ -1,6 +1,6 @@
 ---
 project: clashmi
-stars: 1198
+stars: 1340
 description: |-
     Clash Mihomo for iOS/Android
 url: https://github.com/KaringX/clashmi
@@ -71,7 +71,6 @@ url: https://github.com/KaringX/clashmi
 
 - IOS >= 15
 - MacOS >= 12
-- TvOS >= 17
 - Android >= 8  (arm64-v8a, armeabi-v7a)
 - Windows >= 10 （仅支持64位）
 

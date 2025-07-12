@@ -1,6 +1,6 @@
 ---
 project: memos
-stars: 42337
+stars: 42733
 description: |-
     A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.
 url: https://github.com/usememos/memos
@@ -156,9 +156,9 @@ For detailed installation instructions, refer to the [comprehensive installation
 
 ### Prerequisites
 
-- Go 1.24 or later
-- Node.js 22+ and pnpm
-- Git for version control
+- [Go 1.24](https://go.dev/) or later
+- [Node.js 22+](https://nodejs.org/en) and [pnpm](https://pnpm.io/)
+- [Git](https://git-scm.com/) for version control
 
 ### Backend Development
 

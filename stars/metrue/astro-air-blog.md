@@ -1,6 +1,6 @@
 ---
 project: astro-air-blog
-stars: 24
+stars: 25
 description: |-
     A minimalist, beautiful, responsive blogging program written in Astro.一个简约、漂亮并且支持响应式的博客程序，基于 Astro 构建。
 url: https://github.com/metrue/astro-air-blog

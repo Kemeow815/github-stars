@@ -1,6 +1,6 @@
 ---
 project: DeepSeek-V3
-stars: 98037
+stars: 98194
 description: |-
     null
 url: https://github.com/deepseek-ai/DeepSeek-V3

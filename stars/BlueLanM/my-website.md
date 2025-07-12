@@ -1,6 +1,6 @@
 ---
 project: my-website
-stars: 4
+stars: 5
 description: |-
     LanM's blog
 url: https://github.com/BlueLanM/my-website

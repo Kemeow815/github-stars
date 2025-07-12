@@ -1,6 +1,6 @@
 ---
 project: SPlayer
-stars: 115
+stars: 120
 description: |-
     🎉 一个简约的在线音乐播放器，具有音乐搜索、播放、每日推荐、私人FM、歌词显示、歌曲评论、网易云登录与云盘等功能; 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer
@@ -15,12 +15,6 @@ url: https://github.com/IamFurina/SPlayer
 ## 说明
 
 > [!IMPORTANT]
->
-> # Q&A
->
-> ### 你为什么要维护这个已经过时的版本
->
-> 那是因为在imsyy的dev分支将会向本地播放器发展, 且把在线版本进入基本维护模式而导致有些功能将不会在网页端生效, 该版本是最后一个支持移动端和网页部署的版本, 我将会尽量把功能与dev分支同步, 以便能使用到与dev分支相同的功能.
 >
 > ### 严肃警告
 >
@@ -39,9 +33,10 @@ url: https://github.com/IamFurina/SPlayer
 - 欢迎各位大佬 `Star` 😍
 
 ## 👀 Demo
-
-- [SPlayer](https://player.focalors.ltd/)
-  > 该版本为dev分支
+- [SPlayer](https://player.focalors.ltd/)   
+**本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助**
+   
+![edgeone](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)
 
 ## 🎉 功能
 
@@ -126,19 +121,14 @@ url: https://github.com/IamFurina/SPlayer
 
 ### 🔧 部署相应依赖
 
-1. 本程序依赖 [NeteaseCloudMusicApi](https://github.com/IamFurina/NeteaseCloudMusicApi) 运行以及[UNM-Server](https://act.focalors.ltd/unm-server)，并按照步骤部署, 请确保您已成功部署该项目，并成功取得在线访问地址
+1. 本程序依赖 [NeteaseCloudMusicApi](https://github.com/neteasecloudmusicapireborn/api) 运行以及[UNM-Server](https://act.focalors.ltd/unm-server)，并按照步骤部署, 请确保您已成功部署该项目，并成功取得在线访问地址
 #### 以下是网易云API的部署
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https://github.com/IamFurina/NeteaseCloudMusicAPI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https://github.com/neteasecloudmusicapireborn/api)
 #### 以下是UNM-Server的部署
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https://github.com/IamFurina/Unm-server)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https://github.com/neteasecloudmusicapireborn/Unm)
 #### 以下是TTML歌词API的部署 (可选)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https%3A%2F%2Fgithub.com%2FIamFurina%2FLyric-Atlas-API)
 ### 🔧 开始部署本体
-#### EdgeOne Page 一键部署
-> 不是我恰饭, 虽然`Edgeone`没有足够成熟, 但是访问和构建速度是可以与`Vercel`堪比的, 推荐大陆地区的人们都试一下👍
-
-[![Use EdgeOne Pages to deploy](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/IamFurina/SPlayer)   
-进入后选择框架为`Vue`, 随后把输出目录设置为`out/renderer`, 设置方式同下
 #### 通过Fork仓库部署
 2. 点击本仓库右上角的 `Fork`，复制本仓库到你的 `GitHub` 账号
 3. 复制 `/.env.example` 文件并重命名为 `/.env`

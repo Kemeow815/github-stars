@@ -1,6 +1,6 @@
 ---
 project: gridea-theme-fog
-stars: 185
+stars: 186
 description: |-
     gridea静态博客主题，不适合追求简洁的博主使用
 url: https://github.com/850552586/gridea-theme-fog

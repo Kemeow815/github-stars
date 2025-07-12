@@ -1,6 +1,6 @@
 ---
 project: NodeCrypt
-stars: 230
+stars: 247
 description: |-
     🔒True end-to-end encrypted (E2EE) chat system in web. 🔒真正的网页端到端加密聊天系统
 url: https://github.com/shuaiplus/NodeCrypt
@@ -16,11 +16,19 @@ url: https://github.com/shuaiplus/NodeCrypt
 
 点击下方按钮即可一键部署到 Cloudflare Workers：
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?projectName=NodeCrypt)](https://deploy.workers.cloudflare.com/?url=https://github.com/shuaiplus/NodeCrypt)
-> 注意：此方式会基于主仓库创建新项目，后续主仓库更新不会自动同步。
+
+- 构建命令：npm run build
+- 部署命令：npm run deploy
+
+> 注意：此方式会基于主仓库创建新项目，后续主仓库更新不会自动同步（项目已成型，很少更新，可以直接使用方法一）。
 
 ### 方法二：自动同步 fork 并部署（推荐长期维护）
 1. 先 fork 本项目到你自己的 GitHub 账号。
 2. 打开 Cloudflare Workers 控制台，选择“从 GitHub 导入”，并选择你 fork 的仓库进行部署。
+
+- 构建命令：npm run build
+- 部署命令：npm run deploy
+
 > 本项目已内置自动同步 workflow，fork 后无需任何操作，主仓库的更新会自动同步到你的 fork 仓库，Cloudflare 也会自动重新部署，无需手动维护。
 
 ### 方法三：Docker 一键部署（推荐自托管）

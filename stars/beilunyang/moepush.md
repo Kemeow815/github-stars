@@ -1,6 +1,6 @@
 ---
 project: moepush
-stars: 1091
+stars: 1098
 description: |-
     一个基于 NextJS + Cloudflare 技术栈构建的可爱消息推送服务, 支持多种消息推送渠道✨
 url: https://github.com/beilunyang/moepush

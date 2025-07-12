@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-anzhiyu
-stars: 2095
+stars: 2112
 description: |-
     安知鱼主题，这是一个简洁美丽的hexo主题。
 url: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
@@ -139,6 +139,11 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 主题设计：[@张洪 Heo](https://github.com/zhheo)
 
 文档编写：[@xiaoran](https://github.com/xiaoran)
+
+[本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助](https://edgeone.ai/zh?from=github)
+
+![image](https://github.com/user-attachments/assets/1f3c8f9b-d509-4e64-b8f5-11c318d672a7)
+
 
 ## 仓库统计
 

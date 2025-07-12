@@ -1,6 +1,6 @@
 ---
 project: Mini-Cover
-stars: 453
+stars: 456
 description: |-
     Mini-Cover：简洁的在线生成封面网站，专为博客、短视频、社交媒体等生成个性化封面
 url: https://github.com/JLinMr/Mini-Cover
@@ -21,6 +21,9 @@ url: https://github.com/JLinMr/Mini-Cover
 <p align="center">
   <a href="https://vercel.com/new/clone?repository-url=https://github.com/JLinMr/Mini-Cover">
     <img src="https://vercel.com/button" alt="Deploy with Vercel" />
+  </a>
+  <a href="https://edgeone.ai/pages/new?repository-url=https://github.com/JLinMr/Mini-Cover">
+    <img src="https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg" alt="EdgeOne Pages to deploy" />
   </a>
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/JLinMr/Mini-Cover">
     <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
@@ -104,6 +107,14 @@ npm run build
 ```
 
 构建产物在 `dist` 目录下，可以直接部署到任何静态资源服务器上。
+
+## CDN赞助
+
+本项目的 CDN 加速和安全保护由腾讯 EdgeOne 赞助
+<a href="https://edgeone.ai/?from=github" target="_blank">
+    最佳亚洲 CDN、Edge 和安全解决方案 - 腾讯 EdgeOne
+<img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" width="500" height="100">
+</a>
 
 ## 📝 开源协议
 

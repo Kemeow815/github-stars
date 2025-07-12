@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-solitude
-stars: 926
+stars: 955
 description: |-
     一款设计师风格的 Hexo 主题，支持懒加载、PWA、Latex以及多种评论系统。
 url: https://github.com/everfu/hexo-theme-solitude
@@ -28,6 +28,12 @@ url: https://github.com/everfu/hexo-theme-solitude
 ![page view](https://komarev.com/ghpvc/?username=hexo-theme-solitude&color=blue)
 ![jsdelivr](https://img.shields.io/jsdelivr/npm/hd/hexo-theme-solitude)
 ![npm publish](https://img.shields.io/github/actions/workflow/status/everfu/hexo-theme-solitude/npm-publish.yml)
+
+[本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助](https://edgeone.ai/zh?from=github)
+
+<a href="https://edgeone.ai/zh?from=github">
+   <img src="./.github/edgeone.avif" width="250">
+</a>
 
 </div>
 

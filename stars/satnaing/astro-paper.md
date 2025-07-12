@@ -1,6 +1,6 @@
 ---
 project: astro-paper
-stars: 3461
+stars: 3485
 description: |-
     A minimal, accessible and SEO-friendly Astro blog theme
 url: https://github.com/satnaing/astro-paper
@@ -116,6 +116,9 @@ npm create astro@latest -- --template satnaing/astro-paper
 
 # yarn
 yarn create astro --template satnaing/astro-paper
+
+# bun
+bun create astro@latest -- --template satnaing/astro-paper
 ```
 
 Then start the project by running the following commands:

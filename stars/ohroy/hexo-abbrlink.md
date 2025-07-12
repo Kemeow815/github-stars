@@ -1,6 +1,6 @@
 ---
 project: hexo-abbrlink
-stars: 392
+stars: 393
 description: |-
     create one and only link for every post for hexo
 url: https://github.com/ohroy/hexo-abbrlink

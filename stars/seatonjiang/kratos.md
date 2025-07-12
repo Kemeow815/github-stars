@@ -1,6 +1,6 @@
 ---
 project: kratos
-stars: 3258
+stars: 3259
 description: |-
     WordPress theme that focus on reading experience
 url: https://github.com/seatonjiang/kratos

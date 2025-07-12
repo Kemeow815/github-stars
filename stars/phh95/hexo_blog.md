@@ -1,6 +1,6 @@
 ---
 project: hexo_blog
-stars: 20
+stars: 21
 description: |-
     基于 Hexo 搭建的个人博客
 url: https://github.com/phh95/hexo_blog

@@ -1,6 +1,6 @@
 ---
 project: api
-stars: 38
+stars: 41
 description: |-
     🔍为停更的NeteaseCloudMusicAPI（网易云音乐API）提供持续活跃的维护, 并且新增一些有趣的功能！
 url: https://github.com/NeteaseCloudMusicApiReborn/api

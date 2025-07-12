@@ -1,6 +1,6 @@
 ---
 project: ast-grep.github.io
-stars: 46
+stars: 47
 description: |-
     Website for ast-grep!
 url: https://github.com/ast-grep/ast-grep.github.io

@@ -1,6 +1,6 @@
 ---
 project: Astro-theme-Cactus-zh_CN
-stars: 59
+stars: 65
 description: |-
     null
 url: https://github.com/zouzonghao/Astro-theme-Cactus-zh_CN
@@ -13,7 +13,7 @@ url: https://github.com/zouzonghao/Astro-theme-Cactus-zh_CN
   Astro 仙人掌
 </h1>
 
-Astro 仙人掌 是一个基于 Astro 框架的博客主题，使用 Astro 和 TailwindCSS。是 Astro Cactus 主题项目的中文汉化版。同时集成 **decap cms**，实现在线编辑、发布。
+Astro 仙人掌 是一个基于 Astro 框架的博客主题，使用 Astro 和 TailwindCSS。是 Astro Cactus 主题项目的中文汉化版。同时在原项目的基础上，集成 **decap cms**，实现 web 在线编辑、发布。
 
 原主题地址: https://github.com/chrismwilliams/astro-theme-cactus
 

@@ -1,6 +1,6 @@
 ---
 project: Joe
-stars: 1603
+stars: 1604
 description: |-
     A Theme of Typecho
 url: https://github.com/HaoOuBa/Joe

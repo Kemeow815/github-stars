@@ -1,12 +1,12 @@
 ---
 project: build-your-own-x
-stars: 395292
+stars: 399407
 description: |-
     Master programming by recreating your favorite technologies from scratch.
 url: https://github.com/codecrafters-io/build-your-own-x
 ---
 
-[![Banner](https://codecrafters.io/images/byox-banner.gif)](https://codecrafters.io/github-banner)
+[![Banner](https://codecrafters.io/images/updated-byox-banner.gif)](https://codecrafters.io/github-banner)
 
 ## Build your own &lt;insert-technology-here&gt;
 

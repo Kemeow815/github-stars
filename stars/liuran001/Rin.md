@@ -1,6 +1,6 @@
 ---
 project: Rin
-stars: 6
+stars: 7
 description: |-
     我的博客
 url: https://github.com/liuran001/Rin

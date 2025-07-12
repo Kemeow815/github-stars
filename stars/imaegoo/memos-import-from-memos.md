@@ -1,6 +1,6 @@
 ---
 project: memos-import-from-memos
-stars: 11
+stars: 12
 description: |-
     Memos import/export as JSON
 url: https://github.com/imaegoo/memos-import-from-memos

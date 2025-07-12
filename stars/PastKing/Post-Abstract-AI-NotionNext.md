@@ -1,6 +1,6 @@
 ---
 project: Post-Abstract-AI-NotionNext
-stars: 5
+stars: 6
 description: |-
     本项目适用于NotionNext实现Ai文章摘要
 url: https://github.com/PastKing/Post-Abstract-AI-NotionNext

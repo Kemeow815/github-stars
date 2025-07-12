@@ -1,9 +1,9 @@
 ---
-project: blog-v2
-stars: 2
+project: blog
+stars: 3
 description: |-
     null
-url: https://github.com/shenlye/blog-v2
+url: https://github.com/shenlye/blog
 ---
 
 # Nuxt-Blog

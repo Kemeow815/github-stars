@@ -1,6 +1,6 @@
 ---
 project: medicnex-file2md
-stars: 94
+stars: 96
 description: |-
     A Micro File Parser Service. Friendly to LLM.
 url: https://github.com/MedicNex/medicnex-file2md
@@ -36,6 +36,18 @@ MedicNex File2Markdown is a FastAPI-based microservice that converts **123 file 
 - 🎯 **Concurrent Image Processing**: Multiple images in documents are processed simultaneously with PaddleOCR and AI vision recognition, improving processing speed by 2-10x. The limit can be configured via **`MAX_IMAGES_PER_DOC`** (`-1` for no limit).
 - 🐳 **Containerized Deployment**: Provides Docker and Docker Compose support
 - 📊 **Unified Output Format**: All file types output in unified code block format
+
+## WebUI (Beta)
+
+- 🖥️ **Built-in WebUI**: Out-of-the-box web interface for file upload, API Key management, document conversion, and OCR recognition.
+- 🌐 **Language Switch**: Supports both English and 中文 interface.
+- 📦 **No extra deployment**: Access at http://localhost:8999/webui after backend is started.
+
+**Demo:**
+
+![WebUI Demo](webui/webui.png)
+
+---
 
 ## 📑 Table of Contents
 
@@ -120,11 +132,62 @@ All file conversion results use a unified code block format for easy LLM underst
 
 ## 🚀 Quick Start
 
-We provide three deployment options to choose from:
+We provide four deployment options to choose from:
 
-### 🐳 Using Docker Compose (Recommended)
+### 🐳 Docker Image One-Click Deployment (Recommanded)
 
-The simplest deployment method with one-click automated deployment:
+#### Download the latesr image `medicnex-file2md.tar` from the GitHub Releases, configure `.env` in the same directory, then run the following command:
+
+```bash
+#!/bin/bash
+
+# Check if image exists
+if ! docker images | grep -q "medicnex-file2md:latest"; then
+    echo "Importing image..."
+    docker load -i medicnex-file2md.tar
+fi
+
+# Stop and remove old container (if exists)
+docker stop medicnex-file2md 2>/dev/null || true
+docker rm medicnex-file2md 2>/dev/null || true
+
+# Start new container
+docker run -d --name medicnex-file2md -p 8999:8999 \
+  -v $(pwd)/.env:/app/.env \
+  medicnex-file2md:latest
+
+echo "Service started, visit http://localhost:8999/docs"
+```
+or
+```bash
+chmod +x docker_image_deploy.sh
+./docker_image_deploy.sh
+```
+This will deploy and start Docker with one click.
+
+#### Check Health Status
+```bash
+curl http://localhost:8999/v1/health
+```
+
+#### View Real-time Logs
+```bash
+docker logs -f medicnex-file2md
+```
+
+#### Stop Docker
+```bash
+docker stop medicnex-file2md
+```
+
+#### Restart Docker
+```bash
+docker restart medicnex-file2md
+```
+
+### 🐳 Using Docker Compose
+
+A simple deployment method with one-click automated deployment:
 
 1. **Clone the project**:
 ```bash
@@ -213,6 +276,8 @@ sudo ./deploy.sh
 
 ### 💻 Local Development Environment
 
+#### Standard Method
+
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -254,7 +319,93 @@ export VISION_API_KEY="your-vision-api-key"  # optional
 
 4. Start the service:
 ```bash
-python -m uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8999 --reload
+```
+
+#### macOS Quick Deployment (Without Docker)
+
+If you're experiencing slow Docker deployment on macOS, you can use these steps for direct local deployment:
+
+1. **Create virtual environment**:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+2. **Install dependencies**:
+```bash
+# First install base tools
+pip install --upgrade pip setuptools wheel
+
+# Install core dependencies individually (to avoid version conflicts)
+pip install fastapi uvicorn pydantic python-multipart starlette
+pip install loguru python-dotenv
+
+# Install specific versions of PaddleOCR and PaddlePaddle (to resolve compatibility issues)
+pip install paddlepaddle==2.5.2
+pip install paddleocr==2.7.0
+
+# Then install other dependencies
+pip install -r requirements.txt --no-deps
+```
+
+3. **Install system dependencies**:
+```bash
+# SVG vision recognition support (choose one)
+brew install freetype imagemagick  # ImageMagick support
+# or
+brew install cairo pkg-config  # Cairo support
+
+# Audio processing support
+brew install ffmpeg  # Audio format conversion and processing
+
+# Note: PaddleOCR will automatically download required models on first use
+# On macOS, PaddleOCR is a pure Python implementation with no additional system dependencies
+# However, it will download approximately 1GB of model files on first run, ensure good network connection
+```
+
+4. **Configure environment variables**:
+Create a `.env` file in the project root directory with necessary configurations:
+```
+DEBUG=true
+PORT=8999
+MAX_CONCURRENT=5
+LOG_LEVEL=INFO
+REDIS_CACHE_ENABLED=false  # Set to false if Redis cache is not needed
+API_KEY=your_api_key_here  # If API key authentication is required
+# If you need vision API functionality, add the following configuration
+# VISION_API_KEY=your_vision_api_key
+```
+
+5. **Start the service**:
+```bash
+python -m app.main
+```
+Or start directly with uvicorn:
+```bash
+uvicorn app.main:app --host 0.0.0.0 --port 8999 --reload
+```
+
+On first startup, PaddleOCR will automatically download and cache required model files (approximately 1GB), which may take some time depending on your network speed. Subsequent starts will be faster once the models are cached.
+
+**Note**: If you encounter an `Unknown argument: use_gpu` error during startup, this is due to PaddleOCR version compatibility issues. Use these specific versions to resolve:
+```bash
+pip uninstall -y paddleocr paddlepaddle
+pip install paddlepaddle==2.5.2
+pip install paddleocr==2.7.0
+```
+
+6. **Optional: Redis cache**:
+If you need Redis cache functionality, install Redis using Homebrew:
+```bash
+brew install redis
+brew services start redis
+```
+Then enable Redis in your `.env` file:
+```
+REDIS_CACHE_ENABLED=true
+REDIS_HOST=localhost
+REDIS_PORT=6379
 ```
 
 ## 🎵 Audio and Video Processing Features
@@ -416,11 +567,58 @@ Response example (SVG file):
 }
 ```
 
+### 🔍 Image OCR Recognition (OCR Only)
+
+```bash
+curl -X POST "https://your-domain/v1/ocr" \
+  -H "Authorization: Bearer your-api-key" \
+  -F "file=@document.png"
+```
+
+**Description:**  
+Recognize text in uploaded images using OCR only (PaddleOCR), without calling Vision API.
+
+**Supported formats:** JPG, JPEG, PNG, BMP, TIFF, TIF, GIF, WEBP
+
+**Request parameters:**
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| file | File | Yes      | Image file to recognize |
+
+**Response example:**
+```json
+{
+  "filename": "document.png",
+  "size": 204800,
+  "content_type": "image/png",
+  "ocr_text": "This is the recognized text from the image\nSupports multiple lines\nSupports English and Chinese",
+  "duration_ms": 1200,
+  "from_cache": false
+}
+```
+
+**Response fields:**
+- `filename`: Original file name
+- `size`: File size (bytes)
+- `content_type`: MIME type
+- `ocr_text`: Recognized text content
+- `duration_ms`: Processing time (ms)
+- `from_cache`: Whether the result is from cache
+
+**Error example:**
+```json
+{
+  "code": "UNSUPPORTED_TYPE",
+  "message": "Unsupported file type: .pdf, only image formats are supported: .jpg, .jpeg, .png, .bmp, .tiff, .tif, .gif, .webp"
+}
+```
+
 ## 🔗 API Endpoints Overview
 
 | Endpoint | Method | Description |
 |------|------|------|
 | `/v1/convert` | POST | Single file synchronous conversion |
+| `/v1/ocr` | POST | Image OCR recognition (OCR only) |
 | `/v1/convert-batch` | POST | Batch file asynchronous submission |
 | `/v1/task/{task_id}` | GET | Query task status |
 | `/v1/queue/info` | GET | Query queue status |
@@ -447,7 +645,7 @@ curl -X GET "https://your-domain/v1/health"
 | `ASR_API_KEY` | ASR speech recognition API key | - | Required for audio features |
 | `ASR_API_BASE` | ASR API base URL | `https://api.openai.com/v1` | No |
 | `ASR_MODEL` | ASR model name | `whisper-1` | No |
-| `PORT` | Service port | `8080` | No |
+| `PORT` | Service port | `8999` | No |
 | `LOG_LEVEL` | Log level | `INFO` | No |
 | `MAX_IMAGES_PER_DOC` | Max images processed per document (`-1` = unlimited) | `5` | No |
 

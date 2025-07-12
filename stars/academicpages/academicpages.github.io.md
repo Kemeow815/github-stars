@@ -1,6 +1,6 @@
 ---
 project: academicpages.github.io
-stars: 14654
+stars: 14743
 description: |-
     Github Pages template based upon HTML and Markdown for personal, portfolio-based websites.
 url: https://github.com/academicpages/academicpages.github.io

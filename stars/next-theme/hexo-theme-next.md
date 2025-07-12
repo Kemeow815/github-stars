@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-next
-stars: 2631
+stars: 2632
 description: |-
     🎉 Elegant and powerful theme for Hexo.
 url: https://github.com/next-theme/hexo-theme-next
@@ -183,10 +183,6 @@ NexT send special thanks to these great services that sponsor our core infrastru
 </a>
 
 > Thanks CDNJS for providing public CDN service.
-
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnext-theme%2Fhexo-theme-next.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnext-theme%2Fhexo-theme-next?ref=badge_large)
 
 [docs-installation-url]: https://theme-next.js.org/docs/getting-started/installation.html
 [docs-configuration-url]: https://theme-next.js.org/docs/getting-started/configuration.html

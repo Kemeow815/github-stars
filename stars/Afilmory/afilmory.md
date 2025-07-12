@@ -1,6 +1,6 @@
 ---
 project: afilmory
-stars: 889
+stars: 1063
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/afilmory
@@ -42,6 +42,7 @@ Live Photo Galleries:
 - 📊 **EXIF Information Display** - Complete shooting parameters including camera model, focal length, aperture, etc.
 - 🌈 **Blurhash Placeholders** - Elegant image loading experience
 - 📱 **Live Photo Support** - Detection and display of iPhone Live Photos
+- ☀️ **HDR Image Support** - Display HDR images
 
 ### Advanced Features
 
@@ -51,6 +52,7 @@ Live Photo Galleries:
 - ⚡ **Concurrent Processing** - Multi-process/multi-thread concurrent processing support
 - 🗂️ **Multi-Storage Support** - S3, GitHub, and other storage backends
 - 📷 **Share Image** - Share image to social media or embed iframe to your website
+- 🗺️ **Interactive Map Explorer** - Geographic visualization of photos with GPS coordinates from EXIF data using MapLibre
 
 ## 🏗️ Technical Architecture
 
