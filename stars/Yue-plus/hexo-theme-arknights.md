@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-arknights
-stars: 790
+stars: 792
 description: |-
     明日方舟罗德岛阵营的 Hexo 主题，支持数学公式、Valine&Gitalk&Waline评论系统、Mermaid图表
 url: https://github.com/Yue-plus/hexo-theme-arknights
@@ -28,7 +28,7 @@ url: https://github.com/Yue-plus/hexo-theme-arknights
 - **Dr.Laplacian: <https://rhinelab.kr>**
 - **Dr.Chen: <https://light-of-hers.github.io>**
 - **Dr.Linyee <https://linyee.world/>**
-- **Dr.Flacier <https://fldicoahkiin.github.io>**
+- **Dr.Flacier <https://flacier.us.kg/>**
 - **Dr.LZW <https://lzwnb.github.io/blog/>** 
 - **Dr.GrandpaFox <https://grandpafox.online/>** 
 - **Dr.未雨屏 <https://weiyuping.top/>**
@@ -391,11 +391,11 @@ post:
 
 ## 浏览量统计
 
-使用 [不蒜子](http://busuanzi.ibruce.info/) 进行浏览量统计。
+使用 [Vercount](https://vercount.one/) 进行浏览量统计。由于原不蒜子服务不稳定，已替换为更可靠的 Vercount 服务。
 修改 **Hexo 目录** 下的 `_config.arknights.yml` 文件启用该功能：
 
 ```yaml
-busuanzi:
+vercount:
   enable: false
   sitePV: true # 站点总访问量
   siteUV: true # 站点访客数
@@ -467,7 +467,7 @@ post-time: true/false
 post-count: true/false
 
 # 文章不蒜子统计
-busuanzi: true/false
+vercount: true/false
 
 # 开启/关闭以上全部
 post-info: true/false

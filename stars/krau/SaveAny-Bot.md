@@ -1,6 +1,6 @@
 ---
 project: SaveAny-Bot
-stars: 1037
+stars: 1049
 description: |-
     Save Telegram files to multiple storage 📂 (Alist, Disk, Webdav, S3...) . Support restrict saving content.
 url: https://github.com/krau/SaveAny-Bot

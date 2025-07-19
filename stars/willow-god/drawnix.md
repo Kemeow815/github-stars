@@ -1,6 +1,6 @@
 ---
 project: drawnix
-stars: 1
+stars: 2
 description: |-
     开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.
 url: https://github.com/willow-god/drawnix

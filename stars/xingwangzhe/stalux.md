@@ -1,6 +1,6 @@
 ---
 project: stalux
-stars: 10
+stars: 11
 description: |-
     Stalux - 高效、美观、灵活的 Astro 博客
 url: https://github.com/xingwangzhe/stalux

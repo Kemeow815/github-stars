@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-icarus
-stars: 6544
+stars: 6550
 description: |-
     A simple, delicate, and modern theme for the static site generator Hexo.
 url: https://github.com/ppoffice/hexo-theme-icarus

@@ -1,6 +1,6 @@
 ---
 project: hexo-github-calendar
-stars: 11
+stars: 12
 description: |-
     在Hexo中显示GitHub贡献度热力图的插件
 url: https://github.com/Barry-Flynn/hexo-github-calendar

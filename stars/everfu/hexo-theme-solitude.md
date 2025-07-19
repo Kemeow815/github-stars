@@ -1,12 +1,12 @@
 ---
 project: hexo-theme-solitude
-stars: 955
+stars: 970
 description: |-
     一款设计师风格的 Hexo 主题，支持懒加载、PWA、Latex以及多种评论系统。
 url: https://github.com/everfu/hexo-theme-solitude
 ---
 
-[English](README_en-US.md)丨简体中文丨[繁体中文](README_zh-Hant.md)
+[English](README_en-US.md)丨简体中文丨[繁体中文](README_zh-Hant.md) 丨 [Español](README_es-ES.md)
 
 <div align="center">
 

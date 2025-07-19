@@ -1,6 +1,6 @@
 ---
 project: speak-biubiu
-stars: 5
+stars: 4
 description: |-
     null
 url: https://github.com/kkfive/speak-biubiu

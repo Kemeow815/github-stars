@@ -1,6 +1,6 @@
 ---
 project: hexo-steam-games
-stars: 51
+stars: 50
 description: |-
     为Hexo添加Steam游戏库页面
 url: https://github.com/HCLonely/hexo-steam-games

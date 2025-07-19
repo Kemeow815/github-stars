@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-farallon
-stars: 55
+stars: 54
 description: |-
     ✒️ single column hugo theme
 url: https://github.com/bigfa/hugo-theme-farallon
@@ -23,6 +23,10 @@ echo "theme = 'farallon'" >> hugo.toml
 [Full demo site](https://github.com/bigfa/bigfa.github.io)
 
 ## Release Notes
+
+### 0.5.0
+
+-   Compatible with v0.146.0
 
 ### 0.4.9
 

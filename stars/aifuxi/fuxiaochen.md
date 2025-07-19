@@ -1,6 +1,6 @@
 ---
 project: fuxiaochen
-stars: 421
+stars: 423
 description: |-
     🌈 一个简单的个人站，使用 Next.js 构建 
 url: https://github.com/aifuxi/fuxiaochen

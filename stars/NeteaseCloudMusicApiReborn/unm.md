@@ -2,10 +2,11 @@
 project: unm
 stars: 20
 description: |-
-    网易云解灰API服务，支持解锁vip和灰色歌曲，可使用vercel部署
+    （由于API拥有与当前仓库一样的功能，故项目归档停更）网易云解灰API服务，支持解锁vip和灰色歌曲，可使用vercel部署
 url: https://github.com/NeteaseCloudMusicApiReborn/unm
 ---
 
+# 由于API拥有与当前仓库一样的功能，故项目归档停更
 <!-- Thanks to https://zhconvert.org's Chinese (China) converter ! -->
 
 <img src="./public/favicon.png" alt="logo" width="140" height="140" align="right">

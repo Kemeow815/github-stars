@@ -1,6 +1,6 @@
 ---
 project: clashmi
-stars: 1340
+stars: 1426
 description: |-
     Clash Mihomo for iOS/Android
 url: https://github.com/KaringX/clashmi
@@ -57,9 +57,9 @@ url: https://github.com/KaringX/clashmi
 
 
 ## 安装
-- **IOS/MacOS/TvOS AppStore**: （搜索关键词：clash mi）
+- **IOS/MacOS AppStore**: （搜索关键词：clash mi）
   - https://apps.apple.com/us/app/clash-mi/id6744321968
-- **IOS/MacOS/TvOS TestFlight**:
+- **IOS/MacOS TestFlight**:
   - https://testflight.apple.com/join/bjHXktB3
 - **Android**:
   - https://github.com/KaringX/clashmi/releases/latest

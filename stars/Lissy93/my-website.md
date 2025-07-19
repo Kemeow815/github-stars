@@ -1,6 +1,6 @@
 ---
 project: my-website
-stars: 134
+stars: 135
 description: |-
     ✨ My personal homepage. A developer portfolio site that aggregates all your projects, blog posts, and stats in one place
 url: https://github.com/Lissy93/my-website

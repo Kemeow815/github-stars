@@ -1,6 +1,6 @@
 ---
 project: Moment
-stars: 41
+stars: 43
 description: |-
     Modern photo album blog that supports self-hosting, developed based on Vue and Naive UI and FastAPI.支持自托管的现代化相册博客，基于Vue、Naive UI和FastAPI开发。
 url: https://github.com/Robert-Stackflow/Moment
@@ -24,7 +24,7 @@ url: https://github.com/Robert-Stackflow/Moment
   ```yaml
   services:
     moment:
-      image: ruida/moment:2.0
+      image: ruida/moment:latest
       container_name: moment
       volumes:
         - .moment:/app/data
@@ -66,6 +66,7 @@ image字段已删除
 
 - 使用`<服务器IP地址>:9999`或`域名`访问相册
 - 使用`<服务器IP地址>:9999/admin/workbench`或`<域名>/admin/workbench`访问后台管理
+- 默认管理员账号：`admin`，密码：`123456`，请登录后及时修改用户名和密码
 - 其他指南见[Wiki](https://github.com/Robert-Stackflow/Moment/wiki)
 
 ## 演示

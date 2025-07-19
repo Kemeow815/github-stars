@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-reimu
-stars: 326
+stars: 329
 description: |-
     一款博丽灵梦风格的Hexo主题 | A Hakurei Reimu style Hexo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hexo-theme-reimu
@@ -544,7 +544,7 @@ rss: atom.xml
 
 ### i18n
 
-本主题默认提供 `en`、`zh-CN`、`zh-TW` 和 `ja` 四种语言，可以在外层 `_config.yml` 中修改 `language` 来切换语言
+本主题默认提供 `en`、`zh-CN`、`zh-TW`、`ja` 和 `pt-BR` 五种语言，可以在外层 `_config.yml` 中修改 `language` 来切换语言
 
 ```yaml
 language: zh-CN

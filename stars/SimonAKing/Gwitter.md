@@ -1,6 +1,6 @@
 ---
 project: Gwitter
-stars: 247
+stars: 293
 description: |-
     Turn GitHub Issues into your personal microblog platform
 url: https://github.com/SimonAKing/Gwitter
@@ -71,8 +71,6 @@ Gwitter is a lightweight microblogging application built on GitHub Issues. It re
 
 Gwitter supports automatically syncing newly published Issues to Telegram and GitHub Gist via GitHub Actions.
 
-#### Setting up Sync Features
-
 1. **Create Sync Script**
    - Refer to [sync.js](https://github.com/SimonAKing/weibo/blob/master/sync.js) implementation
    - Create `.github/workflows/sync.yml` in the repository
@@ -96,27 +94,187 @@ Gwitter supports automatically syncing newly published Issues to Telegram and Gi
 - **Internationalization**: i18next
 - **Code Standards**: ESLint + Prettier
 
-## 📦 Quick Start
-
-### Requirements
-
-- Node.js >= 16
-- pnpm >= 8 (recommended)
-
-### 1. Clone the Project
-
-```bash
-git clone https://github.com/SimonAKing/Gwitter.git
-cd Gwitter
+```
+Gwitter/
+├── src/                  # Main source code
+│   ├── components/       # React components
+│   │   ├── common/      # Shared UI components
+│   │   ├── About.tsx    # About page component
+│   │   ├── CommentInput.tsx # Comment input component
+│   │   └── ...
+│   ├── hooks/           # Custom React hooks
+│   │   └── useAuth.tsx  # Authentication hook
+│   ├── utils/           # Utility functions
+│   │   ├── cache.ts     # Caching utilities
+│   │   ├── request.ts   # API request utilities
+│   │   └── index.ts     # Common utilities
+│   ├── config/          # Configuration files
+│   │   └── index.ts     # Main configuration
+│   ├── i18n/            # Internationalization
+│   │   ├── index.ts     # i18n setup
+│   │   └── locales/     # Language files
+│   ├── types/           # TypeScript type definitions
+│   │   └── global.d.ts  # Global types
+│   └── lib/             # External libraries
+│       └── collapse.js  # UI collapse functionality
+├── demo/                # Demo examples
+│   ├── npm-demo/        # NPM/React demo
+│   │   ├── src/         # React source files
+│   │   │   ├── App.tsx  # Main demo component
+│   │   │   ├── config/  # Demo configuration
+│   │   │   └── ...
+│   │   ├── package.json # Dependencies
+│   │   └── vite.config.ts # Build config
+│   ├── umd-demo/        # UMD/Browser demo
+│   │   └── index.html   # Complete HTML demo
+│   └── README.md        # Demo documentation
+├── docs/                # Documentation assets
+│   └── *.png           # Setup screenshots
+└── dist/               # Built files for distribution
+    ├── gwitter.min.js  # UMD bundle
+    └── gwitter.min.css # Styles
 ```
 
-### 2. Install Dependencies
+## 📦 Installation & Usage
+
+> 🎯 **Quick Start**: Check out our [live demos](./demo/) to see Gwitter in action!
+
+### 📖 Demo Examples
+
+Two demo examples to get you started:
+
+#### 🔧 [NPM Demo](./demo/npm-demo/) - React Development
+For modern React applications with build tools.
 
 ```bash
-pnpm install
+cd demo/npm-demo
+npm install
+npm run dev
 ```
 
-### 3. Configure GitHub
+#### 🌐 [UMD Demo](./demo/umd-demo/) - Browser Integration
+For existing websites without build tools.
+
+```html
+<!-- Just open index.html in your browser -->
+<script src="https://unpkg.com/gwitter/dist/gwitter.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/gwitter/dist/gwitter.min.css">
+```
+
+#### 📋 Setup Requirements
+
+Both demos need GitHub configuration:
+1. Create a GitHub repository for your content
+2. Generate a Personal Access Token with `repo` and `read:user` permissions
+3. Create a GitHub OAuth Application
+4. Update demo config files with your details
+
+See [Configuration Setup](#3-configuration-setup) for detailed instructions.
+
+### Method 1: NPM Installation (Recommended)
+
+For modern JavaScript projects using module bundlers:
+
+#### Requirements
+- **React**: ^18.0.0 or higher
+- **React DOM**: ^18.0.0 or higher
+
+#### Installation
+
+```bash
+npm install gwitter react react-dom
+# or
+yarn add gwitter react react-dom
+```
+
+#### Usage
+
+```javascript
+import gwitter from 'gwitter';
+import 'gwitter/dist/gwitter.min.css';
+
+gwitter({
+  container: document.getElementById('comments'),
+  config: {
+    request: {
+      // GitHub Personal Access Token
+      token: ['your_token_part1', 'your_token_part2'],
+
+      // OAuth configuration
+      clientID: 'your_github_oauth_client_id',
+      clientSecret: 'your_github_oauth_client_secret',
+
+      // GitHub repository configuration
+      owner: 'your_github_username',
+      repo: 'your_repo_name',
+
+      // Pagination configuration
+      pageSize: 6,
+
+      // CORS proxy (optional)
+      autoProxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
+    },
+    app: {
+      // Application feature toggles
+      onlyShowOwner: false,
+      enableRepoSwitcher: false,
+      enableAbout: false,
+      enableEgg: false,
+    },
+  }
+});
+```
+
+### Method 2: UMD (Browser)
+
+For direct browser usage without build tools:
+
+```html
+<!-- Include React and ReactDOM -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+<!-- Include Gwitter -->
+<script src="https://unpkg.com/gwitter/dist/gwitter.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/gwitter/dist/gwitter.min.css">
+
+<script>
+  gwitter({
+    container: document.getElementById('comments'),
+    config: {
+      request: {
+        // GitHub Personal Access Token
+        token: ['your_token_part1', 'your_token_part2'],
+
+        // OAuth configuration
+        clientID: 'your_github_oauth_client_id',
+        clientSecret: 'your_github_oauth_client_secret',
+
+        // GitHub repository configuration
+        owner: 'your_github_username',
+        repo: 'your_repo_name',
+
+        // Pagination configuration
+        pageSize: 6,
+
+        // CORS proxy (optional)
+        autoProxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
+      },
+      app: {
+        // Application feature toggles
+        onlyShowOwner: false,
+        enableRepoSwitcher: false,
+        enableAbout: false,
+        enableEgg: false,
+      },
+    }
+  });
+</script>
+```
+
+### 3. Configuration Setup
+
+Before using Gwitter, you need to set up GitHub configuration:
 
 #### 3.1 Create GitHub Repository
 
@@ -143,182 +301,75 @@ pnpm install
 2. Click "New OAuth App"
 <img src="./docs/oauth.png" alt="OAuth Apps" width="500">
 
-3. Fill in development and production environment application information:
+3. Fill in application information:
    - **Application name**: Gwitter
-   - **Homepage URL**: `http://localhost:3000` (development) or your deployment domain
-   - **Authorization callback URL**: `http://localhost:3000` (development) or your deployment domain
+   - **Homepage URL**: Your deployment domain
+   - **Authorization callback URL**: Your deployment domain
 4. After creation, obtain `Client ID` and `Client Secret`
 
-#### 3.4 Configure Application
+### 4. API Reference
 
-Modify the `src/config/index.ts` file:
+#### `gwitter(options)`
 
-```typescript
-const config = {
-  request: {
-    // GitHub Personal Access Token
-    token: ['your_token_part1', 'your_token_part2'],
+Main function to initialize and render Gwitter.
 
-    // OAuth configuration
-    clientID: isDev ? 'dev_client_id' : 'prod_client_id',
-    clientSecret: isDev ? 'dev_client_secret' : 'prod_client_secret',
+**Parameters:**
 
-    // GitHub repository configuration
-    owner: 'your_github_username',
-    repo: 'your_repo_name',
+- `options` (Object): Configuration options for Gwitter
 
-    // Pagination configuration
-    pageSize: 6,
+**options.container** (HTMLElement | string) - **Required**
+- The DOM element or CSS selector where Gwitter will be rendered
+- Example: `document.getElementById('comments')` or `'#comments'`
 
-    // CORS proxy (optional)
-    autoProxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
-  },
+**options.config** (Object) - **Required**
+- Configuration object containing request and app settings
 
-  app: {
-    // Application feature toggles
-    onlyShowOwner: false,
-    enableRepoSwitcher: false,
-    enableAbout: false,
-    enableEgg: false,
-  },
-};
-```
+**options.config.request** (Object) - **Required**
+- GitHub API and authentication configuration
 
-## ⚙️ Configuration Options
+| Property | Type | Required | Description | Example |
+|----------|------|----------|-------------|---------|
+| `token` | `string[]` | ✅ | GitHub Personal Access Token split into two parts for security | `['ghp_xxxx', 'xxxx']` |
+| `clientID` | `string` | ✅ | GitHub OAuth Application Client ID | `'your_client_id'` |
+| `clientSecret` | `string` | ✅ | GitHub OAuth Application Client Secret | `'your_client_secret'` |
+| `owner` | `string` | ✅ | GitHub repository owner (username) | `'your_username'` |
+| `repo` | `string` | ✅ | GitHub repository name | `'your_repo_name'` |
+| `pageSize` | `number` | ❌ | Number of issues to load per page (default: 6) | `6` |
+| `autoProxy` | `string` | ❌ | CORS proxy URL for OAuth requests | `'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'` |
 
-### Request Configuration (`config.request`)
+**options.config.app** (Object) - **Optional**
+- Application behavior configuration
 
-| Option | Type | Description | Usage Scenario |
-|--------|------|-------------|----------------|
-| `token` | `string[]` | GitHub Personal Access Token split into two parts | **Security**: Split token to avoid exposure in source code. Combine both parts to form complete token |
-| `clientID` | `string` | GitHub OAuth Application Client ID | **Authentication**: Different IDs for development/production environments |
-| `clientSecret` | `string` | GitHub OAuth Application Client Secret | **Authentication**: Different secrets for development/production environments |
-| `owner` | `string` | GitHub repository owner (username) | **Data Source**: Specify which user's repository to use for content |
-| `repo` | `string` | GitHub repository name | **Data Source**: Specify which repository contains the Issues/content |
-| `pageSize` | `number` | Number of issues to load per page | **Performance**: Control loading speed and memory usage. Recommended: 6-12 |
-| `autoProxy` | `string` | CORS proxy URL for OAuth requests | **CORS**: Required for client-side OAuth flow. Use when deploying to static hosting |
+| Property | Type | Default | Description | Example |
+|----------|------|---------|-------------|---------|
+| `onlyShowOwner` | `boolean` | `false` | Show only repository owner's issues | `false` |
+| `enableRepoSwitcher` | `boolean` | `false` | Enable repository switching functionality | `false` |
+| `enableAbout` | `boolean` | `false` | Show About page/section | `false` |
+| `enableEgg` | `boolean` | `false` | Enable easter egg features | `false` |
 
-### Application Configuration (`config.app`)
+**Returns:**
+- `Promise<void>` - Resolves when Gwitter is successfully initialized
 
-| Option | Type | Description | Usage Scenario |
-|--------|------|-------------|----------------|
-| `onlyShowOwner` | `boolean` | Show only repository owner's issues | **Privacy**: Set to `true` for personal blogs, `false` for community discussions |
-| `enableRepoSwitcher` | `boolean` | Enable repository switching functionality | **Multi-repo**: Set to `true` when managing multiple content repositories |
-| `enableAbout` | `boolean` | Show About page/section | **Information**: Display author information and project details |
-| `enableEgg` | `boolean` | Enable easter egg features | **Fun**: Hidden features or interactive elements for user engagement |
-
-### Dynamic Configuration Override
-
-You can override any configuration at runtime by defining `window.GWITTER_CONFIG`:
-
-```html
-<script>
-  window.GWITTER_CONFIG = {
-    app: {
-      enableAbout: true,
-      enableEgg: true,
-    },
+**Example:**
+```javascript
+gwitter({
+  container: '#comments',
+  config: {
     request: {
+      token: ['ghp_xxxx', 'xxxx'],
+      clientID: 'your_client_id',
+      clientSecret: 'your_client_secret',
+      owner: 'your_username',
+      repo: 'your_repo_name',
       pageSize: 10,
+    },
+    app: {
+      onlyShowOwner: true,
+      enableAbout: true,
     }
-  };
-</script>
-```
-
-### Common Configuration Scenarios
-
-1. **Personal Blog Setup**
-   ```typescript
-   app: {
-     onlyShowOwner: true,    // Show only your content
-     enableAbout: true,      // Display your information
-     enableRepoSwitcher: false, // Single repository
-   }
-   ```
-
-2. **Community Discussion Platform**
-   ```typescript
-   app: {
-     onlyShowOwner: false,   // Show all participants
-     enableRepoSwitcher: true, // Multiple topic repositories
-     enableAbout: false,     // Focus on content
-   }
-   ```
-
-3. **Development Environment**
-   ```typescript
-   request: {
-     pageSize: 3,           // Smaller pages for testing
-     // Use development OAuth credentials
-   }
-   ```
-
-### Build Configuration (`rsbuild.config.mjs`)
-
-| Option | Type | Description | Usage Scenario |
-|--------|------|-------------|----------------|
-| `output.assetPrefix` | `string` | Static asset prefix path | **Deployment**: Set CDN URL or subdirectory path. Examples: `'https://cdn.example.com/'`, `'/Gwitter/'` |
-
-**Example Configuration:**
-```javascript
-export default defineConfig({
-  output: {
-    assetPrefix: process.env.NODE_ENV === 'production'
-      ? 'https://your-domain.com/Gwitter/'
-      : '/',
-  },
+  }
 });
 ```
-
-### 4. Start Development Server
-
-```bash
-pnpm dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) to view the application.
-
-### 5. Configure Asset Prefix (Optional)
-
-For deployment to subdirectories or CDN, modify `rsbuild.config.mjs`:
-
-```javascript
-export default defineConfig({
-  // ... other configurations
-  output: {
-    assetPrefix: 'https://your-domain.com/Gwitter/', // or '/Gwitter/' for relative path
-  },
-});
-```
-
-### 6. Build and Deploy
-
-```bash
-# Build for production
-pnpm build
-
-# Preview the build result
-pnpm preview
-```
-
-## 🎨 Customization
-
-### Modify Theme
-
-Edit `src/components/common/IssueLayout.tsx` and related style files to customize the interface style.
-
-### Add Features
-
-The project uses modular design for easy feature addition:
-
-- `src/components/`: UI components
-- `src/hooks/`: Custom Hooks
-- `src/utils/`: Utility functions
-- `src/config/`: Configuration files
-
-### Internationalization
-
-Add new language files in the `src/i18n/locales/` directory and register them in `src/i18n/index.ts`.
 
 ## 🤝 Contributing
 

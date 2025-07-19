@@ -1,6 +1,6 @@
 ---
 project: api
-stars: 41
+stars: 43
 description: |-
     🔍为停更的NeteaseCloudMusicAPI（网易云音乐API）提供持续活跃的维护, 并且新增一些有趣的功能！
 url: https://github.com/NeteaseCloudMusicApiReborn/api
@@ -26,7 +26,7 @@ url: https://github.com/NeteaseCloudMusicApiReborn/api
 ```bash
 git clone https://github.com/NeteaseCloudMusicApiReborn/api.git
 cd api
-pnpm install
+pnpm i
 ```
 
 ### 启动服务
@@ -95,7 +95,7 @@ banner({ type: 0 }).then((res) => console.log(res))
 ## 单元测试
 
 ```bash
-npm test
+pnpm test
 ```
 
 ## 主要功能特性

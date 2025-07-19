@@ -1,6 +1,6 @@
 ---
 project: we-mp-rss
-stars: 788
+stars: 832
 description: |-
     高效订阅微信公众号，微信公众号订阅，更新最新文章，并生成RSS书签，支持Webhook/API接入
 url: https://github.com/rachelos/we-mp-rss
@@ -15,14 +15,14 @@ url: https://github.com/rachelos/we-mp-rss
 
 快速运行
 ```
-docker run -d  --name we-mp-rss  -p 8001:8001   ghcr.io/rachelos/we-mp-rss:latest
+docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  ghcr.io/rachelos/we-mp-rss:latest
 ```
 http://<您的ip>:8001/  即可开启
 
 # 官方镜像和代理镜像
 ```
-docker run -d  --name we-mp-rss  -p 8001:8001   rachelos/we-mp-rss:latest
-docker run -d  --name we-mp-rss  -p 8001:8001   docker.1ms.run/rachelos/we-mp-rss:latest
+docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  rachelos/we-mp-rss:latest
+docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  docker.1ms.run/rachelos/we-mp-rss:latest  docker.1ms.run/rachelos/we-mp-rss:latest
 ```
 
  <br/>
@@ -159,12 +159,19 @@ API服务启动后，访问以下地址查看文档：
 
 | 变量名                   | 说明                                                                          | 默认值                      |
 | ------------------------ | ---------------------------------------------------------------------------- | --------------------------- |
+| `APP_NAME`               | 应用名称                                                                     | we-mp-rss                   |
+| `SERVER_NAME`            | 服务名称                                                                     | we-mp-rss                   |
+| `WEB_NAME`               | 前端显示名称                                                                 | WeRSS微信公众号订阅助手      |
+| `SEND_CODE`              | 过期是否发送授权二维码通知                                                   | True                        |
+| `CODE_TITLE`             | 二维码通知标题                                                              | WeRSS授权二维码              |
 | `DB`                     | **必填** 数据库地址 例如: mysql+pymysql://<用户名>:<密码>@<数据库IP>/<数据库名>  | sqlite:///data/db.db        |
 | `INTERVAL`               | 抓取间隔时间，单位秒                                                           | `10`                        |          
+| `SPAN_INTERVAL`          | 定时任务执行每篇稿件间隔时间(秒)                                             | 10                          |
 | `SECRET_KEY`             | JWT授权加密KEY                                                                | 'we-mp-rss'                 |
 | `DINGDING_WEBHOOK`       | 钉钉机器人Webhook地址                                                          | -                           |
 | `WECHAT_WEBHOOK`         | 微信机器人Webhook地址                                                          | -                           |
 | `FEISHU_WEBHOOK`         | 飞书机器人Webhook地址                                                          | -                           |
+| `CUSTOM_WEBHOOK`         | 自定义Webhook地址                                                          | -                           |
 | `USER_AGENT`             | 用户代理字符串                                                                | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 |
 | `PORT`                   | API服务端口                                                                   | 8001                        |
 | `DEBUG`                  | 调试模式                                                                      | False                       |
@@ -183,10 +190,12 @@ API服务启动后，访问以下地址查看文档：
 | `ARTICLE.TRUE_DELETE`    | 是否真实删除文章(False为逻辑删除)                                              | False                       |
 | `GATHER.CONTENT`         | 是否采集内容                                                                  | True                        |
 | `GATHER.MODEL`           | 采集模式(web模式可采集发布链接，api模式可采集临时链接)                           | web                         |
+| `GATHER.CONTENT_MODE`    | 内容修正模式(web/api)                                                         | web                         |
 | `GATHER.CONTENT_AUTO_CHECK` | 是否自动检查未采集文章内容                                                   | False                       |
 | `GATHER.CONTENT_AUTO_INTERVAL` | 自动检查未采集文章内容的时间间隔(分钟)                                      | 59                          |
 | `WEBHOOK.CONTENT_FORMAT`       | 文章内容的发送格式(默认使用html格式，可选text、markdown)                                                   | html |
 | `SAFE_HIDE_CONFIG`       | 需要隐藏的配置信息(逗号分隔)                                                   | db,secret,token,notice.wechat,notice.feishu,notice.dingding |
+| `SAFE_LIC_KEY`           | 授权加密KEY                                                                   | RACHELOS                    |
 | `LOG_FILE`               | 日志文件路径，默认为空字符串，表示不输出到文件。如果要输出到文件，可以指定一个路径如：/var/log/we-mp-rss.log | -                           |
 | `LOG_LEVEL`              | 日志级别(DEBUG, INFO, WARNING, ERROR, CRITICAL)                              | INFO                        |
 
@@ -288,7 +297,6 @@ npm run dev
 ```bash
 npm run build
 ```
-
 
 
 

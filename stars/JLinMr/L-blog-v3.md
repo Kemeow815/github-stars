@@ -1,6 +1,6 @@
 ---
 project: L-blog-v3
-stars: 1
+stars: 2
 description: |-
     My blog, powered by Nuxt Content v2.
 url: https://github.com/JLinMr/L-blog-v3

@@ -1,6 +1,6 @@
 ---
 project: blog-next-view
-stars: 72
+stars: 73
 description: |-
     Nuxt full-stack blog.
 url: https://github.com/lnbiuc/blog-next-view

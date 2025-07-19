@@ -1,6 +1,6 @@
 ---
 project: bearblog
-stars: 3635
+stars: 3649
 description: |-
     Free, no-nonsense, super fast blogging.
 url: https://github.com/HermanMartinus/bearblog
@@ -12,7 +12,7 @@ url: https://github.com/HermanMartinus/bearblog
 ## Free, no-nonsense, super-fast blogging
 ### No javascript, no stylesheets, no trackers. Just your words.
 
-Please log all bugs as [GitHub issues](https://github.com/HermanMartinus/bearblog/issues) and all feature requests on the [suggestions board](https://bear.nolt.io).
+To request a feature or report a bug, please send an email to [Herman](https://herman.bearblog.dev/contact/).
 
 ## Contributions
 

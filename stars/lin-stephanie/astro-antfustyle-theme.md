@@ -1,8 +1,8 @@
 ---
 project: astro-antfustyle-theme
-stars: 153
+stars: 157
 description: |-
-    A customizable, feature-rich Astro theme for blog and portfolio creation.
+    A flexible and feature-rich Astro theme for developers and creators.
 url: https://github.com/lin-stephanie/astro-antfustyle-theme
 ---
 
@@ -15,7 +15,7 @@ url: https://github.com/lin-stephanie/astro-antfustyle-theme
 
 ![cover image](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/cover_2x.png)
 
-AntfuStyle is a customizable, feature-rich [Astro 5](https://astro.build/) theme for blog and portfolio creation, inspired by the minimalist style of [antfu.me](https://antfu.me/). I like this design and have recreated and expanded its functionality.
+AntfuStyle is a flexible and feature-rich [Astro 5](https://astro.build/) theme for developers and creators, inspired by the minimalist style of [antfu.me](https://antfu.me/). I like this design and have recreated and expanded its functionality.
 
 ## Features
 

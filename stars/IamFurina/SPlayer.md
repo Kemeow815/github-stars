@@ -1,6 +1,6 @@
 ---
 project: SPlayer
-stars: 120
+stars: 123
 description: |-
     🎉 一个简约的在线音乐播放器，具有音乐搜索、播放、每日推荐、私人FM、歌词显示、歌曲评论、网易云登录与云盘等功能; 基于Imsyy二次开发, 加入UnblockNeteaseMusic功能, 让网页端也能使用Unblock播放灰色歌曲以及VIP歌曲
 url: https://github.com/IamFurina/SPlayer
@@ -8,7 +8,7 @@ url: https://github.com/IamFurina/SPlayer
 
 # SPlayer
 
-#### 一个简约的音乐播放器
+#### 一个简约且强大的音乐播放器
 
 ![main](/screenshots/SPlayer.jpg)
 
@@ -19,34 +19,35 @@ url: https://github.com/IamFurina/SPlayer
 > ### 严肃警告
 >
 > - 请务必遵守 [GNU Affero General Public License (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html) 许可协议
-> - 在您的修改、演绎、分发或派生项目中，必须同样采用 **AGPL-3.0** 许可协议，**并在适当的位置包含本项目的许可和版权信息**
+> - 您的修改、演绎、分发或派生项目，必须同样采用 **AGPL-3.0** 许可协议，并在适当位置包含本项目的许可和版权信息
 > - **禁止用于售卖或其他商业用途**，如若发现，作者保留追究法律责任的权利
 > - 若发现未遵守 **AGPL-3.0** 许可协议的行为，**本项目将永久停更**
 > - 感谢您的尊重与理解
 
-- 本项目采用 [Vue 3](https://cn.vuejs.org/) 全家桶和 [Naïve UI](https://www.naiveui.com/) 组件库及 [Electron](https://www.electronjs.org/zh/docs/latest/) 开发
-- 支持网页端与客户端，由于设备有限，目前仅适配 `Win`，其他平台可自行解决兼容性后进行构建
-- 仅对移动端做了基础适配，**不保证功能全部可用**
+- 本项目基于 [Vue 3](https://cn.vuejs.org/) 全家桶、[Naïve UI](https://www.naiveui.com/) 组件库及 [Electron](https://www.electronjs.org/zh/docs/latest/) 开发
+- 支持网页端与客户端，目前仅适配 `Win`，其他平台可自行解决兼容性后进行构建
+- 移动端仅做基础适配，**不保证全部功能可用**
 
   > 请注意，本程序不打算开发移动端，也不会对移动端进行完美适配，仅保证基础可用性
 
 - 欢迎各位大佬 `Star` 😍
 
 ## 👀 Demo
-- [SPlayer](https://player.focalors.ltd/)   
-**本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助**
-   
+
+- [SPlayer](https://player.focalors.ltd/)  
+  **本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助**
+
 ![edgeone](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)
 
 ## 🎉 功能
 
 - ✨ 支持扫码登录
-- 📱 支持手机号登录(由于API问题可能不会登陆成功)
-- 📅 自动进行每日签到及云贝签到
+- 📱 支持手机号登录（部分地区API可能不稳定）
+- 📅 自动每日签到及云贝签到
 - 🎨 封面主题色自适应
 - 🌚 Light / Dark 模式自动切换
-- 📁 本地歌曲管理及分类（建议先使用 [音乐标签](https://www.cnblogs.com/vinlxc/p/11347744.html) 进行匹配后再使用）
-- 🎵 **支持播放部分无版权歌曲（可能会与原曲不匹配）**
+- 📁 本地歌曲管理及分类（建议先用 [音乐标签](https://www.cnblogs.com/vinlxc/p/11347744.html) 匹配后再使用）
+- 🎵 **支持播放部分无版权歌曲（可能与原曲不完全匹配）**
 - ⬇️ 下载歌曲（最高支持 Hi-Res）
 - ➕ 新建歌单及歌单编辑
 - ❤️ 收藏 / 取消收藏歌单或歌手
@@ -57,12 +58,12 @@ url: https://github.com/IamFurina/SPlayer
 - 🔄 云盘内歌曲纠正
 - 🗑️ 云盘歌曲删除
 - 📝 支持逐字歌词
-- 🔄 歌词滚动以及歌词翻译
+- 🔄 歌词滚动及歌词翻译
 - 📹 MV 与视频播放
 - 🎶 音乐频谱显示
 - ⏭️ 音乐渐入渐出
 - 🔄 支持 PWA
-- 💬 支持评论区及评论点赞
+- 💬 评论区及评论点赞
 - 🌓 明暗模式自动 / 手动切换
 - 📱 移动端基础适配
 - ~~🌐 `i18n` 支持~~
@@ -95,14 +96,14 @@ url: https://github.com/IamFurina/SPlayer
 <details>
 <summary>歌单页面</summary>
 
-![发现页面](/screenshots/SPlayer%20-%20歌单页面.png)
+![歌单页面](/screenshots/SPlayer%20-%20歌单页面.png)
 
 </details>
 
 <details>
 <summary>评论页面</summary>
 
-![发现页面](/screenshots/SPlayer%20-%20评论页面.png)
+![评论页面](/screenshots/SPlayer%20-%20评论页面.png)
 
 </details>
 
@@ -110,30 +111,44 @@ url: https://github.com/IamFurina/SPlayer
 
 > [!WARNING]
 >
-> 由于本项目破坏了一些electron的框架, 故本项目不提供安装版, 仅提供可部署的网页版本
-> 请尽量拉取最新分支后使用本地构建方式，在线部署的仓库可能更新不及时
+> 由于本项目对 electron 框架做了部分破坏性修改，故不提供安装版，仅提供可部署的网页版本。
+> 请尽量拉取最新分支后使用本地构建方式，在线部署的仓库可能更新不及时。
 
 ## 🐋 Docker 部署
 
-现版本暂不支持`Docker`部署, 预计将会在版本后期计划
+当前版本暂不支持 `Docker` 部署，预计后期版本会加入相关支持。
 
 ## ⚙️ Vercel 部署
 
-### 🔧 部署相应依赖
+### 🔧 部署依赖
 
-1. 本程序依赖 [NeteaseCloudMusicApi](https://github.com/neteasecloudmusicapireborn/api) 运行以及[UNM-Server](https://act.focalors.ltd/unm-server)，并按照步骤部署, 请确保您已成功部署该项目，并成功取得在线访问地址
-#### 以下是网易云API的部署
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https://github.com/neteasecloudmusicapireborn/api)
-#### 以下是UNM-Server的部署
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https://github.com/neteasecloudmusicapireborn/Unm)
-#### 以下是TTML歌词API的部署 (可选)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https%3A%2F%2Fgithub.com%2FIamFurina%2FLyric-Atlas-API)
-### 🔧 开始部署本体
-#### 通过Fork仓库部署
-2. 点击本仓库右上角的 `Fork`，复制本仓库到你的 `GitHub` 账号
+1. 本程序依赖 [NeteaseCloudMusicApi](https://github.com/neteasecloudmusicapireborn/api) 及 [UNM-Server](https://act.focalors.ltd/unm-server)（可选，已归档），请按步骤部署并确保可在线访问。
+
+#### 网易云API部署（网易云音乐API Reborn）
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/iamhutao-projects/clone?repository-url=https://github.com/neteasecloudmusicapireborn/api)
+
+#### UNM-Server部署（可选，已过时）
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/iamhutao-projects/clone?repository-url=https://github.com/neteasecloudmusicapireborn/Unm)
+
+#### TTML歌词API部署（可选）
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/iamhutao-projects/clone?repository-url=https%3A%2F%2Fgithub.com%2FIamFurina%2FLyric-Atlas-API)
+
+### 🔧 部署本体
+
+#### 通过 Fork 仓库部署
+
+2. 点击本仓库右上角 `Fork`，复制到你的 GitHub 账号
 3. 复制 `/.env.example` 文件并重命名为 `/.env`
 4. 将 `.env` 文件中的 `RENDERER_VITE_SERVER_URL` 和 `VITE_UNM_API` 改为第一步得到的 API 地址
-5. 将 `.env` 文件中的 `RENDERER_VITE_SITE_URL` 改为您的站点地址, 用于解决跨域问题
+
+   > [!IMPORTANT]
+   >
+   > 如果你用的是 [网易云音乐API Reborn](https://github.com/neteasecloudmusicapireborn/api)，只需将 `https://api.example.com/song/url` 填入 `VITE_UNM_API` 配置即可
+
+5. 将 `.env` 文件中的 `RENDERER_VITE_SITE_URL` 改为你的站点地址，用于解决跨域问题
 
    ```dotenv
    RENDERER_VITE_SERVER_URL = "https://api.example.com";
@@ -141,12 +156,9 @@ url: https://github.com/IamFurina/SPlayer
    RENDERER_VITE_SITE_URL = "https://player.example.com";
    ```
 
-   > [!IMPORTANT]
-   >
-   > 同时API也有另一种填入方式, 请在`vercel.json`里面
+   > 另一种API填入方式，请在 `vercel.json` 里配置：
    >
    > ```json
-   >
    > "rewrites": [
    >   {
    >     "source": "/:path",
@@ -163,14 +175,14 @@ url: https://github.com/IamFurina/SPlayer
    > ]
    > ```
    >
-   > 随后在`.env`里面填写
+   > 随后在 `.env` 里填写：
    >
    > ```dotenv
    > ## 使用同级域名API
    > RENDERER_VITE_SITE_ROOT = true
    > ```
 
-6. 将 `Build and Output Settings` 中的 `Output Directory` 改为 `out/renderer`
+6. 将 `Build and Output Settings` 的 `Output Directory` 改为 `out/renderer`
 
    ![build](/screenshots/build.png)
 
@@ -181,7 +193,7 @@ url: https://github.com/IamFurina/SPlayer
 1. 重复 `⚙️ Vercel 部署` 中的 1 - 4 步骤
 2. 克隆仓库
 
-   > 将链接中的 example/repository.git 替换为你要克隆的实际仓库的地址
+   > 将链接中的 example/repository.git 替换为你要克隆的实际仓库地址
 
    ```bash
    git clone https://github.com/example/repository.git
@@ -191,9 +203,9 @@ url: https://github.com/IamFurina/SPlayer
 
    ```bash
    pnpm install
-   # 或者
+   # 或
    yarn install
-   # 或者
+   # 或
    npm install
    ```
 
@@ -201,17 +213,17 @@ url: https://github.com/IamFurina/SPlayer
 
    ```bash
    pnpm build
-   # 或者
+   # 或
    yarn build
-   # 或者
+   # 或
    npm build
    ```
 
-5. 将站点运行目录设置为 `out/renderer` 目录
+5. 将站点运行目录设置为 `out/renderer`
 
 ## ⚙️ 本地部署
 
-1. 本地部署需要用到 `Node.js`。可前往 [Node.js 官网](https://nodejs.org/zh-cn/) 下载安装包，请下载最新稳定版
+1. 本地部署需安装 [Node.js](https://nodejs.org/zh-cn/)。请下载最新稳定版。
 2. 安装 pnpm
 
    ```bash
@@ -219,9 +231,9 @@ url: https://github.com/IamFurina/SPlayer
    ```
 
 3. 克隆仓库并拉取至本地，此处不再赘述
-4. 使用 `pnpm install` 安装项目依赖（若安装过程中遇到网络错误，请使用国内镜像源替代，此处不再赘述）
+4. 使用 `pnpm install` 安装依赖（如遇网络错误可用国内镜像源）
 5. 复制 `/.env.example` 文件并重命名为 `/.env` 并修改配置
-6. 打包客户端，请依据你的系统类型来选择，打包成功后，会输出安装包或可执行文件在 `/dist` 目录中，可自行安装
+6. 打包客户端，请根据你的系统类型选择，打包成功后会输出安装包或可执行文件在 `/dist` 目录，可自行安装
 
    | 命令               | 系统类型 |
    | ------------------ | -------- |
@@ -231,7 +243,7 @@ url: https://github.com/IamFurina/SPlayer
 
 ## 😘 鸣谢
 
-特此感谢为本项目提供支持与灵感的项目
+特别感谢以下项目为本项目提供支持与灵感：
 
 - [原版SPlayer](https://github.com/imsyy/splayer)
 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
@@ -243,13 +255,13 @@ url: https://github.com/IamFurina/SPlayer
 
 ## 📢 免责声明
 
-本项目部分功能使用了网易云音乐的第三方 API 服务，**仅供个人学习研究使用，禁止用于商业及非法用途**
+本项目部分功能使用了网易云音乐的第三方 API 服务，**仅供个人学习研究使用，禁止用于商业及非法用途**。
 
-同时，本项目开发者承诺 **严格遵守相关法律法规和网易云音乐 API 使用协议，不会利用本项目进行任何违法活动。** 如因使用本项目而引起的任何纠纷或责任，均由使用者自行承担。**本项目开发者不承担任何因使用本项目而导致的任何直接或间接责任，并保留追究使用者违法行为的权利**
+本项目开发者承诺 **严格遵守相关法律法规和网易云音乐 API 使用协议，不会利用本项目进行任何违法活动。** 如因使用本项目而引起的任何纠纷或责任，均由使用者自行承担。**本项目开发者不承担任何因使用本项目而导致的任何直接或间接责任，并保留追究使用者违法行为的权利**。
 
-请使用者在使用本项目时遵守相关法律法规，**不要将本项目用于任何商业及非法用途。如有违反，一切后果由使用者自负。** 同时，使用者应该自行承担因使用本项目而带来的风险和责任。本项目开发者不对本项目所提供的服务和内容做出任何保证
+请使用者在使用本项目时遵守相关法律法规，**不要将本项目用于任何商业及非法用途。如有违反，一切后果由使用者自负。** 同时，使用者应该自行承担因使用本项目而带来的风险和责任。本项目开发者不对本项目所提供的服务和内容做出任何保证。
 
-感谢您的理解
+感谢您的理解。
 
 ## 📜 开源许可
 

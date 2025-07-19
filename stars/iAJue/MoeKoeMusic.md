@@ -1,6 +1,6 @@
 ---
 project: MoeKoeMusic
-stars: 2688
+stars: 2757
 description: |-
     一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:
 url: https://github.com/iAJue/MoeKoeMusic
@@ -58,7 +58,7 @@ url: https://github.com/iAJue/MoeKoeMusic
 ## 📢 Todo List
 - [ ] 📺 支持 MV 播放
 - [x] 🌚 Light/Dark Mode 自动切换
-- [ ] 👆 支持 Touch Bar
+- [x] 👆 支持 Touch Bar
 - [x] 🖥️ 支持 PWA，可在 Chrome/Edge 里点击地址栏右边的 ➕ 安装到电脑
 - [ ] 🟥 支持 Last.fm Scrobble
 - [ ] 🎧 支持 Mpris
@@ -223,6 +223,7 @@ npm run build
    ```
 #### 3. 打包 Linux 平台
    - 默认 AppImage 格式（适用于大多数 Linux 发行版）：
+
    ```
    npm run electron:build -- --linux
    ```
@@ -237,6 +238,11 @@ npm run build
    - rpm（适用于 Red Hat/Fedora 系列）：
    ```
    npm run electron:build -- --linux --target rpm
+   ```
+   - ARM64架构(ARM v8+): 
+   ```
+   npm run build:api:linux-aarch64 //编译API
+   npm run electron:build:linux-aarch64 //编译主程序
    ```
 
 #### 4. 打包所有平台

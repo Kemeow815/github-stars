@@ -2,7 +2,7 @@
 project: medicnex-file2md
 stars: 96
 description: |-
-    A Micro File Parser Service. Friendly to LLM.
+    MedicNex File2MD: A Micro File Parser Service. Friendly to LLM.
 url: https://github.com/MedicNex/medicnex-file2md
 ---
 

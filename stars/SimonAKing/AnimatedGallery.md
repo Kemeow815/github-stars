@@ -1,6 +1,6 @@
 ---
 project: AnimatedGallery
-stars: 157
+stars: 159
 description: |-
     null
 url: https://github.com/SimonAKing/AnimatedGallery

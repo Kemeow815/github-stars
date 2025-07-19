@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 6256
+stars: 6635
 description: |-
     A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
 url: https://github.com/codexu/note-gen
@@ -52,7 +52,7 @@ Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform ca
 | Windows | MacOS | Linux | Android | iOS |
 | --- | --- | --- | --- | --- |
 | ✅ beta | ✅ beta | ✅ beta | 🛠️ alpha | 🛠️ alpha |
-| [Download](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) | [Download](https://notegen.top/en/download.html) |
+| [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) |
 
 > [UpgradeLink offers application upgrade and download services](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
 

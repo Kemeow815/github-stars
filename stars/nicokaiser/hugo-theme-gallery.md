@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-gallery
-stars: 568
+stars: 569
 description: |-
     Gallery Theme for Hugo
 url: https://github.com/nicokaiser/hugo-theme-gallery

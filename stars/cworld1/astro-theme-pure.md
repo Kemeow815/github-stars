@@ -1,8 +1,8 @@
 ---
 project: astro-theme-pure
-stars: 297
+stars: 309
 description: |-
-    ⭐ A simple, fast and powerful blog theme built by Astro
+    ⭐ A simple, fast and powerful blog & document theme built by Astro
 url: https://github.com/cworld1/astro-theme-pure
 ---
 
