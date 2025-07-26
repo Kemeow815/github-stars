@@ -19,6 +19,14 @@ url: https://github.com/willow-god/Friend-Circle-Lite
 
 ## 开发进度
 
+### 2026-07-23
+
+* 添加缓存文件，防止由于缓存导致多次请求
+* 添加feed.php后缀的适配
+* 完善action，将临时文件统一缓存，包括缓存文件，和最新文章文件，缓存时间缩短为三十天
+
+> 注意，本次更新由于变动了订阅文章地址，可能导致给所有邮件订阅用户发送五个最新文章邮件，如果想要避免，可以先将SMTP发件信息修改成错误的信息，防止成功发送邮件，等更新完成，成功执行一次获得最新文章，并缓存后再修改成正确的相关信息即可。
+
 ### 2024-10-29
 
 * 完善github数据获取，从环境变量中直接获取，配置文件仅用于自部署
@@ -30,14 +38,14 @@ url: https://github.com/willow-god/Friend-Circle-Lite
 * 添加随机文章刷新按钮
 * 完善邮件通知模板自定义程度
 
-### 2024-09-28
+<details>
+<summary>查看更多</summary>
+
+<h3>2024-10-07</h3>
 
 * 更新自部署的api地址，统一为all.json，提高js兼容性
 * 美化展示页面UI(@JLinMr)，添加背景图片
 * 优化作者卡片弹窗动效(@JLinMr)
-
-<details>
-<summary>查看更多</summary>
 
 <h3>2024-09-22</h3>
 
@@ -372,6 +380,10 @@ url: https://github.com/willow-god/Friend-Circle-Lite
 
 确保你的服务器有定时任务 `crontab` 功能包，一般是linux自带，如果你没有宝塔等可以管理定时任务的面板工具，可能需要你自行了解定时工具并导入，本教程提供了简单的介绍。
 
+### 宿主机环境
+
+> 适用于宝塔面板等宿主机直接有Python环境的场景下
+
 首先克隆仓库并进入对应路径：
 
 ```bash
@@ -388,7 +400,7 @@ pip install -r ./requirements.txt
 pip install -r ./server/requirements-server.txt
 ```
 
-### 部署API服务
+#### 部署API服务
 
 如果环境配置完毕，你可以进入目录路径后直接运行`deploy.sh`脚本启动API服务：
 
@@ -410,7 +422,35 @@ ps aux | grep python
 kill -9 [这里填写上面查询结果中对应的进程号]
 ```
 
-### 合并github数据
+### Docker环境
+
+> 目前Docker部署方式和1Panel强相关，如果有其他需要docker环境部署的，可以参考，但是可能需要自行摸索
+
+由于主包也用上了1Panel，所以捣鼓了一下，得益于1Panel可以方便的创建运行环境，所以可以基本做到无占用的API，因为除了执行action的时候，其他时间完全是纯静态的。
+
+首先创建一个完全静态的网站，比如fc.example.com，如下：
+
+![](./static/1panel-website.png)
+
+打开网站目录，将fclite项目代码放置在以网站命名的文件夹下，注意看示例：
+
+![](./static/1panel-dir.png)
+
+注意看上面的文件结构，不要搞错啦！其中默认的`index`等所有文件夹一定要保留，不要删掉！
+
+然后再在左侧菜单，1Panel，运行环境，创建Python环境，配置如下所示：
+
+![](./static/1panel-python.png)
+
+其中运行目录为刚才看到的以网站命名的文件夹，其中名称可以按照自己的要求随意修改，仅为Docker名称，执行命令如下：
+
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && pip install -r requirements.txt && python run.py && mv -f all.json errors.json index/
+```
+
+点击运行，如果正常，应该会执行一个docker实现抓取，并且在抓取完成后，docker关闭，而你的网站下的index文件夹内，应该就是最新的爬取的内容，直接静态部署即可，后面只需要定时启动docker，会自动执行抓取命令，抓取完成后也会自动关闭。
+
+#### 合并github数据
 
 你是不是以为github数据没用了？并不是！因为有很多站长是使用的GitHub page等服务部署的，这种服务可能无法被你的服务器抓取，此时你就需要合并两个的爬取数据。修改第一个配置中的以下部分：
 
@@ -422,6 +462,10 @@ merge_result:
 其中地址项不要添加最后的斜杠，这样就会在本地爬取结束后合并远程的数据，以做到更高的准确率！
 
 ### 定时抓取文章
+
+#### 宿主机环境
+
+> 宿主机环境只需要直接执行python ./run.py即可执行抓取
 
 由于原生的crontab可能较为复杂，如果有兴趣可以查看./deploy.sh文件中，屏蔽掉的部分，这里我不会细讲，这里我主要讲解宝塔面板添加定时任务，这样可以最大程度减少内存占用，其他面板服务类似：
 
@@ -435,6 +479,14 @@ python3 run.py
 ```
 
 具体地址可以按照自己的需要进行修改，这样我们就可以做到定时修改文件内容了！然后请求api就是从本地文件中返回所有内容的过程，和爬取是分开的，所以并不影响！
+
+#### 容器环境
+
+如果是容器环境，只需要定时启动容器即可执行抓取，抓取完成后，容器自动停止，零占用内存，命令如下示例，主要就是容器名称：
+
+```bash
+docker restart Friend-Circle-Lite
+```
 
 ## 问题与贡献
 

@@ -1,6 +1,6 @@
 ---
 project: MBRjun-Blog
-stars: 14
+stars: 15
 description: |-
     MBRjun-Blog 的源码仓库（Hexo 版） • 我们生活在大地上，但我们的梦想超越天空
 url: https://github.com/MBRjun/MBRjun-Blog

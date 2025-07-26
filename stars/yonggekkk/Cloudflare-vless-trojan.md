@@ -1,6 +1,6 @@
 ---
 project: Cloudflare-vless-trojan
-stars: 9717
+stars: 9992
 description: |-
     CF-workers/pages代理脚本【Vless与Trojan】：支持nat64自动生成proxyip，一键自建proxyip与CF反代IP，CF优选官方IP三地区应用脚本，自动输出美、亚、欧最佳优选IP
 url: https://github.com/yonggekkk/Cloudflare-vless-trojan
@@ -27,9 +27,9 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 
 ### 推荐新手用户请先看以下两个入门视频教程：
 
-[CF vless/trojan免费节点混淆时代来临：workers/pages代码混淆后详细设置的更新说明；1101报错总结；福利计划：甬哥自建多个ProxyIP让大家使用](https://youtu.be/QSFaP5EVI04)
-
 [永久免费的cf vless workers原生域名节点 | 无需自定义域名 | 无需优选IP订阅 | 无需面版控制台 | 只需保存两个参数 | 自建无限不死节点！](https://youtu.be/PpPKzOYLZQg)
+
+[永久免费的cf vless pages原生域名节点 | NAT64生成ProxyIP的重要说明 | CF节点为何有些网站上不了？](https://youtu.be/yR-JpVV6SHs)
 
 ---------------------------------------------
 
@@ -251,14 +251,14 @@ CF官方优选443系端口：443、2053、2083、2087、2096、8443
 
 小白优选IP应用推荐：[CF优选IP解放小白最终方案：一键自动生成美国、香港、欧洲三区优选官方IP，电脑WIN、安卓android、苹果ios多平台一键通用](https://youtu.be/6kKIzObEZ2c)
 
-最新推荐：[CF vless/trojan免费节点混淆时代来临：workers/pages代码混淆后详细设置的更新说明；1101报错总结；福利计划：甬哥自建多个ProxyIP让大家使用](https://youtu.be/QSFaP5EVI04)
+[CF vless/trojan免费节点混淆时代来临：workers/pages代码混淆后详细设置的更新说明；1101报错总结](https://youtu.be/QSFaP5EVI04)
 
 
 ---------------------------------
 ---------------------------------
 ---------------------------------
 ---------------------------------
-## 优选域名、优选官方IP+反代IP一键脚本（在本地网络环境下利用termux或者ish运行）：
+## 优选域名、优选官方IP一键脚本（在本地网络环境下利用termux或者ish运行）：
 
 1、安卓请使用termux官方项目下载客户端（谷歌商店下载的不可用！）：https://github.com/termux/termux-app/releases/tag/v0.118.1
 
@@ -280,7 +280,7 @@ curl -sSL https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/ma
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.sh && chmod +x CFcdnym.sh && bash CFcdnym.sh
 ```
 ------------------------------------------------------------------------
-### 脚本3：CF-优选官方IP+反代IP二合一脚本（带测速），苹果安卓手机平板专用：
+### 脚本3：CF-优选官方IP脚本（带测速），苹果安卓手机平板专用：
 ```
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/cfip.sh -o cfip.sh && chmod +x cfip.sh && bash cfip.sh
 ```

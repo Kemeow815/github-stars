@@ -1,6 +1,6 @@
 ---
 project: starter-kit
-stars: 594
+stars: 595
 description: |-
     A blog starter kit to use Hashnode as a Headless CMS using GraphQL APIs.
 url: https://github.com/Hashnode/starter-kit

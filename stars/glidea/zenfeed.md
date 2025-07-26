@@ -1,6 +1,6 @@
 ---
 project: zenfeed
-stars: 1387
+stars: 1426
 description: |-
     Make RSS 📰 great again with AI 🧠✨!!
 url: https://github.com/glidea/zenfeed
@@ -146,7 +146,7 @@ RSS（简易信息聚合）诞生于 Web 1.0 时代，旨在解决信息分散�
 
 > [!IMPORTANT]
 > zenfeed 默认使用 [硅基流动](https://cloud.siliconflow.cn/) 提供的模型服务。
-> *   模型: `Qwen/Qwen3-8B` (免费) 和 `Pro/BAAI/bge-m3`。
+> *   模型: `Qwen/Qwen3-8B` (免费) 和 `Qwen/Qwen3-Embedding-4B`。
 > *   **!!!如果你愿意赞助本项目，将获赠一定额度的 Gemini 2.5 Pro/Flash!!! (见下方)**
 > *   如果你还没有硅基账号，使用 [**邀请链接**](https://cloud.siliconflow.cn/i/U2VS0Q5A) 可获得 **14 元** 赠送额度。
 > *   如果需要使用其他厂商或模型，或进行更详细的自定义部署，请参考 [配置文档](https://github.com/glidea/zenfeed/blob/main/docs/config-zh.md) 来编辑 `docker-compose.yml`。

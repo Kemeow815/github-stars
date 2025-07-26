@@ -1,8 +1,8 @@
 ---
 project: hexo-theme-arknights
-stars: 792
+stars: 793
 description: |-
-    明日方舟罗德岛阵营的 Hexo 主题，支持数学公式、Valine&Gitalk&Waline评论系统、Mermaid图表
+    明日方舟罗德岛阵营的 Hexo 主题，支持数学公式、Mermaid图表、多种评论系统（Valine、Gitalk、Waline、Utterances）
 url: https://github.com/Yue-plus/hexo-theme-arknights
 ---
 
@@ -212,6 +212,24 @@ artalk:
   server: https://artalk.server.instance/ # 你的 Artalk 服务地址
   site_name: My Blog # 站点名称，用于区分多个站点（可选）
 ```
+
+### Utterances
+
+本主题支持 [Utterances](https://utteranc.es/) 。
+请参考 Utterances 官方文档修改 Hexo 目录下的 `_config.arknights.yml` 文件：
+
+```yaml
+utterances:
+  enable: false
+  repo: # Github 仓库所有者和名称，格式：owner/repo
+  issue_term: pathname # 可选值: pathname | url | title | og:title
+  theme: github-light # 可选值: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
+```
+
+> 使用前需要：
+> 1. 确保 GitHub 仓库是公开的
+> 2. 在仓库中安装 [utterances app](https://github.com/apps/utterances)
+> 3. 确保仓库启用了 Issues 功能
 
 ## 数学公式
 

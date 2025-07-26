@@ -1,6 +1,6 @@
 ---
 project: github-chinese
-stars: 14008
+stars: 14308
 description: |-
     GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 url: https://github.com/maboloshi/github-chinese
@@ -65,7 +65,7 @@ url: https://github.com/maboloshi/github-chinese
 浏览器类型           | 支持的脚本管理器
 :------------------: | :---------------:
 Chrome / Chromium 内核 | [Tampermonkey][Tampermonkey], [Violentmonkey][Violentmonkey]
-Safari（全平台）     | [Macaque][Macaque], [Stay][Stay]
+Safari（全平台）     | [Tampermonkey][Tampermonkey], [Macaque][Macaque], [Stay][Stay]
 Firefox / Gecko 内核   | [Tampermonkey][Tampermonkey], [Violentmonkey][Violentmonkey]
 Via（Android）       | 内置管理器
 
@@ -312,6 +312,9 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 <a href="https://github.com/pylover7" title="大叶子">
   <img src="https://avatars.githubusercontent.com/u/56282729?v=4" width="42;" alt="大叶子"/>
 </a>
+<a href="https://github.com/tangyuan0821" title="Tangyuan">
+  <img src="https://avatars.githubusercontent.com/u/195516213?v=4" width="42;" alt="Tangyuan"/>
+</a>
 <a href="https://github.com/cat-kun" title="cat-kun">
   <img src="https://avatars.githubusercontent.com/u/8529528?v=4" width="42;" alt="cat-kun"/>
 </a>
@@ -320,6 +323,9 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 </a>
 <a href="https://github.com/buiawpkgew1" title="菾凴">
   <img src="https://avatars.githubusercontent.com/u/71136405?v=4" width="42;" alt="菾凴"/>
+</a>
+<a href="https://github.com/pecasha" title="Pecasha">
+  <img src="https://avatars.githubusercontent.com/u/9607128?v=4" width="42;" alt="Pecasha"/>
 </a>
 <a href="https://github.com/yrljroli" title="𠭞">
   <img src="https://avatars.githubusercontent.com/u/169890386?v=4" width="42;" alt="𠭞"/>
@@ -344,6 +350,9 @@ GitHub 的 ajax 载入方式逐步从 [defunkt/jquery-pjax](https://github.com/d
 </a>
 <a href="https://github.com/heicks" title="create new ██████╗  ██╔══██╗ ██████╔╝ ██╔══██╗ ██████╔╝ ╚═════╝  　　██╗ 　  ██╗ 　　██║ 　  ██║ 　　██║  　 ██║ 　　██║  　 ██║ 　　╚█████╔╝  　　╚═════╝  ███████╗ ██╔════╝　 ██║████═╗　 ██║　   ██　║ ╚██████╔╝　 　╚══════╝">
   <img src="https://avatars.githubusercontent.com/u/12287943?v=4" width="42;" alt="create new ██████╗  ██╔══██╗ ██████╔╝ ██╔══██╗ ██████╔╝ ╚═════╝  　　██╗ 　  ██╗ 　　██║ 　  ██║ 　　██║  　 ██║ 　　██║  　 ██║ 　　╚█████╔╝  　　╚═════╝  ███████╗ ██╔════╝　 ██║████═╗　 ██║　   ██　║ ╚██████╔╝　 　╚══════╝"/>
+</a>
+<a href="https://github.com/NyA1K0" title="NyA!K0">
+  <img src="https://avatars.githubusercontent.com/u/177237971?v=4" width="42;" alt="NyA!K0"/>
 </a>
 <a href="https://github.com/KS-OTO" title="KS-OTO">
   <img src="https://avatars.githubusercontent.com/u/6616413?v=4" width="42;" alt="KS-OTO"/>

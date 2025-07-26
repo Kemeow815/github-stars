@@ -1,13 +1,13 @@
 ---
 project: MultiLangSwitcher
-stars: 70
+stars: 74
 description: |-
-    MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速切换浏览器发送的 Accept-Language HTTP
+    MultiLangSwitcher - a Chromium-based extension. It helps users quickly switch the Accept-Language HTTP header.  —— 一个 Chromium 内核浏览器扩展，帮助用户快速切换 HTTP Accept-Language 。
 url: https://github.com/ChuwuYo/MultiLangSwitcher
 ---
 
 <div align="center">
-    <img src="images/icon128.png" alt="MultiLangSwitcher Icon" width="150" height="150"> <h1>MultiLangSwitcher</h1>
+    <img src="images/icon256.png" alt="MultiLangSwitcher Icon" width="150" height="150"> <h1>MultiLangSwitcher</h1>
     <a href="README.md">简体中文</a> | <a href="docs/README/README_EN.md">English</a> </div>
 
 ---
@@ -38,10 +38,10 @@ MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速�
     <table>
         <tr>
             <td>
-                <img src="https://github.com/user-attachments/assets/e1ec3c75-d149-420d-a43c-adc48d1111fb" alt="CN_Light">
+                <img src="https://github.com/user-attachments/assets/b5f35aef-ef5a-4f9b-bcaa-d6e05ae3ccd3" alt="CN_Light">
             </td>
             <td>
-                <img src="https://github.com/user-attachments/assets/0e4a355d-5157-4873-b7f7-11173e1a79f7" alt="EN_Dark">
+                <img src="https://github.com/user-attachments/assets/acea080d-cf67-47ca-9989-144a334a602c" alt="EN_Dark">
             </td>
         </tr>
     </table>
@@ -78,7 +78,9 @@ MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速�
 * **高效请求头修改**: 使用 `declarativeNetRequest` API，性能优于 WebRequest API
 * **后台自动应用**: 扩展启动时自动加载设置，支持错误重试机制
 * **主题切换**: 支持明暗主题切换
-* **检测页面**: `test-headers.html` 用于验证请求头修改效果，检测：
+* **更新检查**: 自动检查GitHub Release获取最新版本信息
+* **重置功能**: 一键重置Accept-Language请求头
+* **检测页面**: `detect.html` 用于验证请求头修改效果，检测：
   - `Accept-Language` 请求头
   - JavaScript 语言偏好（`navigator.language`、`navigator.languages`）
   - 国际化 API (Intl) 信息
@@ -92,6 +94,7 @@ MultiLangSwitcher 是一个 Chromium 内核浏览器扩展，帮助用户快速�
   - 规则优先级修复、规则重建等问题修复
   - 扩展诊断信息（版本、权限、配置、存储状态）
   - 域名语言映射规则查看
+  - 重置Accept-Language请求头
 
 ***
 

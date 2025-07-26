@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-minimalism
-stars: 56
+stars: 57
 description: |-
     A Minimalist VitePress Blog Theme | 一个极简的 VitePress 博客主题
 url: https://github.com/izhichao/vitepress-theme-minimalism

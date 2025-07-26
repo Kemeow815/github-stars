@@ -1,6 +1,6 @@
 ---
 project: blogroll
-stars: 72
+stars: 73
 description: |-
     南京大学 Linux Users Group 收集同学和校友们的 Blog
 url: https://github.com/nju-lug/blogroll

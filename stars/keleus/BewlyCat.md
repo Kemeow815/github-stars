@@ -1,6 +1,6 @@
 ---
 project: BewlyCat
-stars: 440
+stars: 474
 description: |-
     BewlyCat——基于BewlyBewly开发的Bilibili拓展
 url: https://github.com/keleus/BewlyCat

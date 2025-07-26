@@ -1,6 +1,6 @@
 ---
 project: homepage-for-vue3
-stars: 44
+stars: 45
 description: |-
     基于Vue3的主页
 url: https://github.com/QNquenan/homepage-for-vue3

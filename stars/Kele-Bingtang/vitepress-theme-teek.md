@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-teek
-stars: 76
+stars: 79
 description: |-
     ✨一个轻量、简洁高效、灵活配置、易于扩展的 VitePress 主题
 url: https://github.com/Kele-Bingtang/vitepress-theme-teek

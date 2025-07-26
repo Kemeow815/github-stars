@@ -1,6 +1,6 @@
 ---
 project: nuxt-ssr-demo
-stars: 1222
+stars: 1224
 description: |-
     :sparkles:  高仿掘金，整合 vue + nuxt + axios + vuex + vue-router (nuxt 自带 vuex 和 vue-router)，一个基于 Nuxt 的服务器端渲染 Demo
 url: https://github.com/xuqiang521/nuxt-ssr-demo

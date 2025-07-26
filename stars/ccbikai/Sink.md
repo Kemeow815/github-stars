@@ -1,6 +1,6 @@
 ---
 project: Sink
-stars: 4885
+stars: 4940
 description: |-
     ⚡ A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.
 url: https://github.com/ccbikai/Sink
@@ -51,7 +51,7 @@ url: https://github.com/ccbikai/Sink
 
 ![Hero](./public/image.png)
 
-----
+---
 
 ## ✨ Features
 
@@ -90,14 +90,10 @@ Site Token: SinkCool
 
 We welcome your contributions and PRs.
 
-- [x] Browser Extension
-      - [Sink Tool](https://github.com/zhuzhuyule/sink-extension)
-- [x] Raycast Extension
-      - [Raycast-Sink](https://github.com/foru17/raycast-sink)
-- [x] Apple Shortcuts
-      - [Sink Shortcuts](https://s.search1api.com/sink001)
-- [x] iOS App
-      - [Sink](https://apps.apple.com/app/id6745417598)
+- [x] Browser Extension - [Sink Tool](https://github.com/zhuzhuyule/sink-extension)
+- [x] Raycast Extension - [Raycast-Sink](https://github.com/foru17/raycast-sink)
+- [x] Apple Shortcuts - [Sink Shortcuts](https://s.search1api.com/sink001)
+- [x] iOS App - [Sink](https://apps.apple.com/app/id6745417598)
 - [ ] Enhanced Link Management (with Cloudflare D1)
 - [ ] Analytics Enhancements (Support for merging filter conditions)
 - [ ] Dashboard Performance Optimization (Infinite loading)

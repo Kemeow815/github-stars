@@ -1,6 +1,6 @@
 ---
 project: nextjs-blog-template
-stars: 97
+stars: 100
 description: |-
     Next.js Blog Template for ladder theme
 url: https://github.com/guangzhengli/nextjs-blog-template
@@ -219,4 +219,16 @@ npm run generate-rss
 ```bash
 npm run generate-sitemap
 ```
+
+
+## 支持一下
+
+本仓库是开源的，欢迎大家 star 和 fork，如果你觉得这个仓库对你有帮助，可以通过以下方式支持我：
+
+
+<h2 align=center><a href="https://guangzhengli.com/blog/zh/build-nextjs-template">支持一下最好的 Next.js 独立开发者启动模板</a></h2>
+
+<h3 align=center><a href="https://nextdevkit.com">NextDevKit</a></h3>
+
+![nextdevkit](/public/blog/nextdevkit-template.png)
 

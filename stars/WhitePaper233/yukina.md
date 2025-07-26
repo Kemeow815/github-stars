@@ -1,6 +1,6 @@
 ---
 project: yukina
-stars: 155
+stars: 159
 description: |-
     Simple and Elegant Astro Blog Template.
 url: https://github.com/WhitePaper233/yukina

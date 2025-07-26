@@ -2,7 +2,7 @@
 project: fuwari
 stars: 2
 description: |-
-    我的个人博客，使用Fuwari主题
+    我的个人博客，使用Fuwari主题（因为隐私原因，作为公开仓库已归档；博客主体现存于私密仓库）
 url: https://github.com/Lapis0x0/fuwari
 ---
 

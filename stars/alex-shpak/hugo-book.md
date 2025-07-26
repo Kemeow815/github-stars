@@ -1,6 +1,6 @@
 ---
 project: hugo-book
-stars: 3748
+stars: 3763
 description: |-
     Hugo documentation theme as simple as plain book
 url: https://github.com/alex-shpak/hugo-book
@@ -148,6 +148,10 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   # (Optional, default none) Set the path to a logo for the book. If the logo is
   # /static/logo.png then the path would be 'logo.png'
   BookLogo = 'logo.png'
+
+  # (Optional, default 'favicon.png') Set the path to a favicon for the site.
+  # If the favicon is in /static/custom.svg, then the path would be 'custom.svg'.
+  BookFavicon = 'favicon.png'
 
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to "*" to render all sections to menu

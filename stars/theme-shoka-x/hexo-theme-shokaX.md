@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-shokaX
-stars: 413
+stars: 412
 description: |-
     a hexo theme based on shoka
 url: https://github.com/theme-shoka-x/hexo-theme-shokaX
@@ -49,6 +49,12 @@ AGPL许可证主要目的是限制修改后的分发行为，避免未经许可�
 请查看[使用限制](./UsageRestrictions.md)，使用ShokaX则默认您已知晓此文件内容
 
 # 写在最后
+## 赞助支持
+
+**本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助**
+
+[![](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)](https://edgeone.ai/zh?from=github)
+
 ## 致谢名单
 
 __本部分由 zkz098 编写，所有的“我”均指代本人。__

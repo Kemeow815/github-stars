@@ -1,6 +1,6 @@
 ---
 project: Homepage
-stars: 66
+stars: 67
 description: |-
     📪 idealclover 的新个人主页，基于 Astro 和 Tailwind CSS 构建。灵感来自于 bento.me
 url: https://github.com/idealclover/Homepage

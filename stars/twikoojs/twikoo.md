@@ -1,6 +1,6 @@
 ---
 project: twikoo
-stars: 1871
+stars: 1879
 description: |-
     💬 一个简洁、安全、免费的静态网站评论系统 | A simple, safe, free comment system.
 url: https://github.com/twikoojs/twikoo
@@ -14,6 +14,7 @@ url: https://github.com/twikoojs/twikoo
 [![](https://img.shields.io/bundlephobia/minzip/twikoo)](https://bundlephobia.com/result?p=twikoo)
 [![](https://img.shields.io/npm/dt/twikoo)](https://www.npmjs.com/package/twikoo)
 [![](https://data.jsdelivr.com/v1/package/npm/twikoo/badge)](https://www.jsdelivr.com/package/npm/twikoo)
+[![](https://app.cloudback.it/badge/twikoojs/twikoo)](https://cloudback.it)
 [![](https://img.shields.io/npm/l/twikoo)](./LICENSE)
 
 一个**简洁**、**安全**、**免费**的静态网站评论系统。<br>

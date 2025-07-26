@@ -1,6 +1,6 @@
 ---
 project: widgets
-stars: 528
+stars: 534
 description: |-
     Desktop widgets for windows. built with vue3
 url: https://github.com/widget-js/widgets
@@ -83,9 +83,11 @@ pnpm serve
 
 ## 监控组件包
 
-|                                                     监控组件包                                                      |                                                                                                 
-|:--------------------------------------------------------------------------------------------------------------:|
-| ![监控面板](https://github.com/rtugeek/monitor/blob/master/public/image/preview_base_panel.png?raw=true) <br/>监控面板 |
+|                                                       监控组件包                                                        |                                                                                                 
+|:------------------------------------------------------------------------------------------------------------------:|
+|   ![监控面板](https://github.com/rtugeek/monitor/blob/master/public/image/preview_base_panel.png?raw=true) <br/>监控面板   |
+| ![监控面板](https://github.com/rtugeek/monitor/blob/master/public/image/preview_energy_label.png?raw=true) <br/>打工能耗标签 |
+|   ![监控面板](https://github.com/rtugeek/monitor/blob/master/public/image/preview_server.png?raw=true) <br/>服务器监控面板    |
 
 ## 默认组件包
 
@@ -103,6 +105,12 @@ https://github.com/rtugeek/ai
 ## 一键呼出AI DeepSeek/ChatGPT/Gemini
 
 ![png](https://raw.githubusercontent.com/rtugeek/ai/master/screenshot.png)
+
+## 文件夹
+
+https://github.com/rtugeek/grid
+
+![png](https://raw.githubusercontent.com/rtugeek/grid/refs/heads/master/public/preview_grid.png)
 
 ## iTime组件包
 

@@ -8,18 +8,24 @@ url: https://github.com/L33Z22L11/blog-v3
 
 # 纸鹿摸鱼处
 
-![框架](https://img.shields.io/badge/框架-Nuxt-00DC82?logo=Nuxt.js)
-![CMS](https://img.shields.io/badge/CMS-Nuxt%20Content-00DC82?logo=Nuxt.js)
-![部署平台](https://img.shields.io/badge/部署平台-Vercel-000000?logo=Vercel)
-![访问统计](https://img.shields.io/badge/访问统计-Umami-000000?logo=Umami)
-![代码风格](https://img.shields.io/badge/代码风格-ESLint-4B32C3?logo=ESLint)
-![代码风格](https://img.shields.io/badge/代码风格-Stylelint-263238?logo=Stylelint)
+[![框架](https://img.shields.io/badge/框架-Nuxt-00DC82?logo=Nuxt.js)](https://nuxt.com/)
+[![CMS](https://img.shields.io/badge/CMS-Nuxt%20Content-00DC82?logo=Nuxt.js)](https://content.nuxt.com/)
+[![部署平台](https://img.shields.io/badge/部署平台-Vercel-000000?logo=Vercel)](https://vercel.com/)
+[![访问统计](https://img.shields.io/badge/访问统计-Umami-000000?logo=Umami)](https://github.com/umami-software/umami)
+[![代码风格](https://img.shields.io/badge/代码风格-ESLint-4B32C3?logo=ESLint)](https://eslint.org/)
+[![代码风格](https://img.shields.io/badge/代码风格-Stylelint-263238?logo=Stylelint)](https://stylelint.io/)
+
+> [!WARNING]
+> 2025 年 7-8 月，项目正在迁移至 Nuxt 4 和 Nuxt Content 3，可能存在功能问题且代码变更频繁，请谨慎合并更新。
 
 我的第三代个人博客，于 2024 年 8 月 11 日上线。
 
+> [!TIP]
+> 使用需要具备一定的前端**项目基础**。如果你不确定代码是否有问题，可以加入 QQ 群 `169994096` 讨论（也欢迎闲聊），我很乐意在空闲时解答问题。
+
 ## 使用本主题的博客
 
-- [纸鹿摸鱼处 @L33Z22L11](https://blog.zhilu.cyou/) · [开发经历](https://blog.zhilu.cyou/2024/blog-using-nuxt)
+- [纸鹿摸鱼处 @L33Z22L11](https://blog.zhilu.site/) · [开发经历](https://blog.zhilu.site/2024/blog-using-nuxt)
 - [希乐博客 @Xlenco](https://blog.xlenco.top/)
 - [SteinsNote @Labmem-00](https://blog.labmem.chat/) · [迁移经历](https://blog.labmem.chat/2024/beforeeverything)
 - [月空人 @Whbbit1999](https://whbbit.cn/) · [迁移评价](https://whbbit.cn/posts/2025/why-migrate-to-nuxt)
@@ -27,11 +33,13 @@ url: https://github.com/L33Z22L11/blog-v3
 - [喵落阁 @Kemeow815](https://blog-v3.kemeow.top/)
 - [梦爱吃鱼 @JLinmr](https://blog.ruom.top/)
 - [Mikuの极光星 @PaloMiku](https://blog.sotkg.com/)
-- [BiuXin-s Blog](https://zhilu.biuxin.com/)
+- [BiuXin-s Blog @damizai](https://zhilu.biuxin.com/)
+<!-- - [液泡部落格 @VacuolePaoo](https://blog.vacuole.top/) -->
+- [ChinyuanTai @Kindle-deep](https://blog.knlde.top/)
 
 ## 特性
 
-[主题特性](https://blog.zhilu.cyou/theme) · [组件示例](https://blog.zhilu.cyou/previews/example)
+[主题特性](https://blog.zhilu.site/theme) · [组件示例](https://blog.zhilu.site/previews/example)
 
 ## 目录结构
 
@@ -103,10 +111,12 @@ pnpm dev
 
 为避免误会，应当更改一些配置信息以和我的博客网站区分：
 
-- 删除原有文章：`content/` 目录下仅保留 `link.md`，`app.config.ts` 中将 `footer.nav[2].items[1].url` 由 `/theme` 改为 `https://blog.zhilu.cyou/theme`（确保通过链接检测）。
+- 删除原有文章：`content/` 目录下仅保留 `link.md`，`app.config.ts` 中将 `footer.nav[2].items[1].url` 由 `/theme` 改为 `https://blog.zhilu.site/theme`（确保通过链接检测）。
 - 更换服务配置：`blog.config.ts` 中的 Umami 站点统计、Cloudflare Insights 统计、Twikoo 评论服务源需要注释或更换。
 - 个人信息：`blog.config.ts` 中的站点信息、`app.config.ts` 中的页脚导航、出生年份等。
 - 其他应当被善意认为有必要修改的文件和配置字段（参阅“目录结构”一节）。
+
+为保证开发体验，需要安装 ESLint、Stylelint 等 VS Code 扩展。如果你不喜欢此项目的格式化风格，可以在 `./eslint.config.mjs` 和 `./.vscode/settings.json` 中调整或者不安装 VS Code 扩展。
 
 ### 创建文章
 
@@ -134,15 +144,11 @@ pnpm preview
 #### 疑难解答
 
 - Vercel 先前创建的项目需要 [手动指定 pnpm 10](https://vercel.com/docs/builds/configure-a-build#corepack)。
-- Cloudflare Pages 部署项目需要配置 `NODE_VERSION` 环境变量为较新的版本，如 `22.14.0`。
+- 部署项目时 Node.js 版本最好高于 `22.15.0`。
 
 ## 贡献
 
 欢迎参与项目：如果有具体问题或功能建议，可以发起 Issue；如果愿意在已确定的方向上增加功能或修复问题，可以提交 Pull Request。
-
-### 使用答疑
-
-使用需要具备一定的前端**项目基础**。如果你不确定代码是否有问题，可以加入 QQ 群 `169994096` 讨论（也欢迎闲聊），我很乐意在空闲时解答问题。
 
 ## 许可证
 

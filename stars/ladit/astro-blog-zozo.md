@@ -1,6 +1,6 @@
 ---
 project: astro-blog-zozo
-stars: 79
+stars: 80
 description: |-
     An opinionated and neat blog template built with Astro.
 url: https://github.com/ladit/astro-blog-zozo

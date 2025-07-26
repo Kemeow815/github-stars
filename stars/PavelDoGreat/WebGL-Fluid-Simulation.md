@@ -1,6 +1,6 @@
 ---
 project: WebGL-Fluid-Simulation
-stars: 15608
+stars: 15635
 description: |-
     Play with fluids in your browser (works even on mobile)
 url: https://github.com/PavelDoGreat/WebGL-Fluid-Simulation

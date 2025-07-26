@@ -1,6 +1,6 @@
 ---
 project: memos
-stars: 42957
+stars: 43131
 description: |-
     A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.
 url: https://github.com/usememos/memos
@@ -143,7 +143,7 @@ Memos supports multiple installation approaches to accommodate different deploym
 
 ### Binary Installation
 
-- **Pre-compiled Binaries**: Available for Linux, macOS, and Windows on the releases page
+- **Pre-compiled Binaries**: Available for Linux, macOS, and Windows on the [releases page](https://github.com/usememos/memos/releases)
 
 ### Source Installation
 

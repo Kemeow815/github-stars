@@ -1,14 +1,14 @@
 ---
-project: medicnex-file2md
+project: file2md
 stars: 96
 description: |-
-    MedicNex File2MD: A Micro File Parser Service. Friendly to LLM.
-url: https://github.com/MedicNex/medicnex-file2md
+    File2MD: A Micro File Parser Service. Friendly to LLM.
+url: https://github.com/MedicNex/file2md
 ---
 
 <div align="center">
 
-# MedicNex File2Markdown
+# File2MD
 
 [English](README.md) | [中文](README_zh.md)
 
@@ -23,7 +23,7 @@ url: https://github.com/MedicNex/medicnex-file2md
 
 </div>
 
-MedicNex File2Markdown is a FastAPI-based microservice that converts **123 file formats** (Word, PDF, PowerPoint, Excel, CSV, images, audio, video, Apple iWork suite, 82 programming languages, etc.) into unified Markdown code block format, which is LLM-friendly.
+File2MD is a FastAPI-based microservice that converts **123 file formats** (Word, PDF, PowerPoint, Excel, CSV, images, audio, video, Apple iWork suite, 82 programming languages, etc.) into unified Markdown code block format, which is LLM-friendly.
 
 ## Features
 
@@ -136,7 +136,7 @@ We provide four deployment options to choose from:
 
 ### 🐳 Docker Image One-Click Deployment (Recommanded)
 
-#### Download the latesr image `medicnex-file2md.tar` from the GitHub Releases, configure `.env` in the same directory, then run the following command:
+#### Download the latest docker image `medicnex-file2md.tar` from the GitHub Releases, configure `.env` in the same directory, then run the following command:
 
 ```bash
 #!/bin/bash
@@ -191,8 +191,8 @@ A simple deployment method with one-click automated deployment:
 
 1. **Clone the project**:
 ```bash
-git clone https://github.com/MedicNex/medicnex-file2md.git
-cd medicnex-file2md
+git clone https://github.com/MedicNex/file2md.git
+cd file2md
 ```
 
 2. **One-click deployment**:
@@ -842,7 +842,7 @@ We warmly welcome community contributions! Here's how you can participate:
 
 For more detailed information, please refer to [Contributing Guide](CONTRIBUTING.md).
 
-Thank you for your attention and contribution to the MedicNex File2Markdown project! 🙏
+Thank you for your attention and contribution to the File2MD project! 🙏
 
 ### 🎉Contributers
 
@@ -915,13 +915,13 @@ Thank you for your attention and contribution to the MedicNex File2Markdown proj
 
 <div align="center">
 
-**🚀 MedicNex File2Markdown**
+**🚀 File2MD**
 
-<a href="https://www.star-history.com/#MedicNex/medicnex-file2md&Date">
+<a href="https://www.star-history.com/#MedicNex/file2md&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=MedicNex/medicnex-file2md&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=MedicNex/medicnex-file2md&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=MedicNex/medicnex-file2md&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=MedicNex/file2md&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=MedicNex/file2md&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=MedicNex/file2md&type=Date" />
  </picture>
 </a>
 

@@ -1,6 +1,6 @@
 ---
 project: FlClash
-stars: 19299
+stars: 19546
 description: |-
     A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
 url: https://github.com/chen08209/FlClash

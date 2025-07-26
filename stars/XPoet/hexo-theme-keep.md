@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-keep
-stars: 1413
+stars: 1415
 description: |-
     :rainbow: A simple and light theme for Hexo. It makes you more focused on writing.
 url: https://github.com/XPoet/hexo-theme-keep
