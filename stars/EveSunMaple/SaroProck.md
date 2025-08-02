@@ -1,12 +1,14 @@
 ---
 project: SaroProck
-stars: 10
+stars: 34
 description: |-
     我的个人博客！使用 Astro + React
 url: https://github.com/EveSunMaple/SaroProck
 ---
 
 # SaroProck | 我的个人博客
+
+简单的部署教程 -> [点我！](https://saro.pub/build-saroprock)
 
 ---
 
@@ -76,6 +78,45 @@ url: https://github.com/EveSunMaple/SaroProck
 #### 管理页面
 
 ![](/docs/img/admin-page.webp)
+
+---
+
+### 🔧 环境变量
+
+```dotenv
+# LeanCloud 应用凭证 (国际版或国内版)
+# 请前往 LeanCloud 控制台 > 设置 > 应用凭证 获取
+LEANCLOUD_APP_ID=<你的 LeanCloud App ID>
+LEANCLOUD_APP_KEY=<你的 LeanCloud App Key>
+LEANCLOUD_MASTER_KEY=<你的 LeanCloud Master Key>
+LEANCLOUD_SERVER_URL=<你的 LeanCloud 服务器 URL>
+
+# JSON Web Token (JWT) 密钥
+# 用于用户认证和 API 安全，请使用一个长且随机的字符串
+JWT_SECRET=<你的 JWT 密钥>
+
+# 自定义频道或标识符
+CHANNEL=your_channel_name
+
+# HTTP 代理 (可选)
+# 如果你的网络环境需要代理才能访问外部服务，请取消注释并设置
+# HTTP_PROXY=http://127.0.0.1:7897
+
+TELEGRAM_HOST=t.me
+
+# GitHub Personal Access Token
+# 用于访问 GitHub API，请在 GitHub > Settings > Developer settings > Personal access tokens 中生成
+GITHUB_TOKEN=<你的 GitHub Personal Access Token>
+
+# 后台管理员密码
+# 用于访问受保护的管理功能
+SECRET_ADMIN_PASSWORD=<设置一个强的管理员密码>
+
+# 数据接收服务 (Sink) 配置
+# 如果你使用自定义的数据统计或链接缩短服务，请配置以下选项
+SINK_PUBLIC_URL=<你的 Sink 服务公开访问 URL>
+SINK_API_KEY=<你的 Sink 服务 API 密钥>
+```
 
 ---
 

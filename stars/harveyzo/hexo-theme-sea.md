@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-sea
-stars: 152
+stars: 153
 description: |-
     🐳 Hexo Theme | 博客主题
 url: https://github.com/harveyzo/hexo-theme-sea

@@ -1,6 +1,6 @@
 ---
 project: typecho-theme-farallon
-stars: 37
+stars: 38
 description: |-
     移植自Hugo主题farallon 演示地址https://blog.imsun.org
 url: https://github.com/jkjoy/typecho-theme-farallon

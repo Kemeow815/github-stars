@@ -1,6 +1,6 @@
 ---
 project: hugo-book
-stars: 3763
+stars: 3770
 description: |-
     Hugo documentation theme as simple as plain book
 url: https://github.com/alex-shpak/hugo-book

@@ -1,6 +1,6 @@
 ---
 project: hugo-bearblog
-stars: 1170
+stars: 1176
 description: |-
     🧸 A Hugo theme based on »Bear Blog«. Free, no-nonsense, super-fast blogging. This theme now includes a dark color scheme to support dark mode 🦉 ⬛️!
 url: https://github.com/janraasch/hugo-bearblog

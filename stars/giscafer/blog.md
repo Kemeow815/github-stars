@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 287
+stars: 288
 description: |-
     Next.js + Issues 博客解决方案 https://www.giscafer.com
 url: https://github.com/giscafer/blog

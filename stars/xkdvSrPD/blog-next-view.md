@@ -3,7 +3,7 @@ project: blog-next-view
 stars: 73
 description: |-
     Nuxt full-stack blog.
-url: https://github.com/lnbiuc/blog-next-view
+url: https://github.com/xkdvSrPD/blog-next-view
 ---
 
 ## 预览

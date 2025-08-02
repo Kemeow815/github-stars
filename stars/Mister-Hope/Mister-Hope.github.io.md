@@ -1,6 +1,6 @@
 ---
 project: Mister-Hope.github.io
-stars: 82
+stars: 83
 description: |-
     Personal blog build with vuepress-theme-hope
 url: https://github.com/Mister-Hope/Mister-Hope.github.io

@@ -1,6 +1,6 @@
 ---
 project: CloudPaste
-stars: 1070
+stars: 1110
 description: |-
     A Cloudflare-based online text/large file sharing platform that supports multiple syntax Markdown rendering, self-destructing messages, S3 aggregated storage, password protection, and more. It can be mounted as WebDAV and supports Docker deployment.
 url: https://github.com/ling-drag0n/CloudPaste
@@ -140,6 +140,9 @@ Before starting deployment, please ensure you have prepared the following:
    - `S3_SECRET_ACCESS_KEY`
    - `S3_BUCKET_NAME`
    - `S3_ENDPOINT`
+
+**The following tutorial may be outdated. For specific details, refer to: [Cloudpaste Online Deployment Documentation](https://doc.cloudpaste.qzz.io)**
+
 
 <details>
 <summary><b>👉 View Complete Deployment Guide</b></summary>

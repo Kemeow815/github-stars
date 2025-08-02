@@ -1,6 +1,6 @@
 ---
 project: moemail
-stars: 1450
+stars: 1482
 description: |-
     一个基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务🎉
 url: https://github.com/beilunyang/moemail

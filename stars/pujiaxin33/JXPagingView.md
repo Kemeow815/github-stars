@@ -1,6 +1,6 @@
 ---
 project: JXPagingView
-stars: 3001
+stars: 3003
 description: |-
     类似微博主页、简书主页等效果。多页面嵌套，既可以上下滑动，也可以左右滑动切换页面。支持HeaderView悬浮、支持下拉刷新、上拉加载更多。
 url: https://github.com/pujiaxin33/JXPagingView

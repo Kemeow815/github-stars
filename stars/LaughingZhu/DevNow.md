@@ -1,6 +1,6 @@
 ---
 project: DevNow
-stars: 145
+stars: 147
 description: |-
     📚 DevNow is an open source technology blog project. It currently hosts weekly news  （about  technology, development and product）, which is published every Monday morning. / DevNow 是一个精简的开源技术博客项目模版，支持 Vercel 一键部署，支持评论、搜索等功能，欢迎大家体验。
 url: https://github.com/LaughingZhu/DevNow

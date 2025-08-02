@@ -3,7 +3,7 @@ project: start-page
 stars: 1
 description: |-
     null
-url: https://github.com/lnbiuc/start-page
+url: https://github.com/xkdvSrPD/start-page
 ---
 
 # Nuxt Minimal Starter

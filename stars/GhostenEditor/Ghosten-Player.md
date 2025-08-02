@@ -1,6 +1,6 @@
 ---
 project: Ghosten-Player
-stars: 1579
+stars: 1600
 description: |-
     一个视频播放器，支持网盘直连、元数据刮削、IPTV、文件管理等 /   A video player that supports direct connection to network disk, metadata scraping, IPTV, file management, etc.
 url: https://github.com/GhostenEditor/Ghosten-Player

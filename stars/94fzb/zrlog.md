@@ -77,7 +77,7 @@ ZrLog是使用 Java 开发的博客/CMS程序，具有简约，易用，组件�
 ### 示例网站
 
 * 网址 [https://demo.zrlog.com](https://demo.zrlog.com)
-* 管理地址 [admin/login](http://demo.zrlog.com/admin/login)
+* 管理地址 [admin/login](https://demo.zrlog.com/admin/login)
 * 用户名 admin
 * 密码 123456
 

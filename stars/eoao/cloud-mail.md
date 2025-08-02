@@ -1,6 +1,6 @@
 ---
 project: cloud-mail
-stars: 1414
+stars: 1559
 description: |-
     cloudflare email 邮箱  临时邮箱 邮件发送 mail
 url: https://github.com/eoao/cloud-mail
@@ -190,9 +190,10 @@ jwt_secret = ""			#登录身份令牌的密钥,随便填一串字符串
 
 ## 赞助
 
-**请我喝一杯奶茶**
 
-<a href="https://afdian.com/a/eoao_"><img width="150" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
+<a href="https://support.skymail.ink" >
+<img width="170px" src="./doc/images/support.png" alt="">
+</a><br><br>
 
 
 **特别赞助商**

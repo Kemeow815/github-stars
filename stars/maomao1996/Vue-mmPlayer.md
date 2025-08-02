@@ -1,6 +1,6 @@
 ---
 project: Vue-mmPlayer
-stars: 2670
+stars: 2672
 description: |-
     🎵 基于 Vue 的在线音乐播放器 Online music player
 url: https://github.com/maomao1996/Vue-mmPlayer

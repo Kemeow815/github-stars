@@ -1,6 +1,6 @@
 ---
 project: FlyingCarpet
-stars: 4072
+stars: 4085
 description: |-
     Cross-platform AirDrop. File transfer between Android, iOS, Linux, macOS, and Windows over ad hoc WiFi. No network infrastructure required, just two devices with WiFi chips (and optionally Bluetooth) in close range.
 url: https://github.com/spieglt/FlyingCarpet

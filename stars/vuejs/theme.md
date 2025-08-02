@@ -1,6 +1,6 @@
 ---
 project: theme
-stars: 270
+stars: 271
 description: |-
     VitePress theme for vuejs.org.
 url: https://github.com/vuejs/theme

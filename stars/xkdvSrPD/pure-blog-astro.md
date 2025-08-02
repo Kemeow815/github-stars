@@ -3,7 +3,7 @@ project: pure-blog-astro
 stars: 1
 description: |-
     null
-url: https://github.com/lnbiuc/pure-blog-astro
+url: https://github.com/xkdvSrPD/pure-blog-astro
 ---
 
 # Astro Theme Pure

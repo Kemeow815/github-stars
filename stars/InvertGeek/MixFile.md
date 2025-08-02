@@ -1,6 +1,6 @@
 ---
 project: MixFile
-stars: 277
+stars: 294
 description: |-
     使用图床储存任意文件
 url: https://github.com/InvertGeek/MixFile
@@ -30,37 +30,46 @@ MixFile是一款可以上传加密文件并分享的安卓APP \
 使用帮助: https://invertgeek.github.io/mixfile-doc/help.html \
 TG群: https://t.me/mixfilefx
 
-## 命令行版本
-https://github.com/InvertGeek/mixfilecli
+### 功能
+支持加密上传下载，批量分享文件 \
+支持WebDav协议,使用Alist,Raildrive等软件挂载为硬盘 \
+支持加密视频在线播放，支持切换进度条,直接获取加密文件流
 
-## 详细原理
-将文件切割为1MB的分片,然后加密隐藏到空白图片中 \
-非伪装,图片都是真实有效可被解析,然后上传所有分片,最后聚合分片索引信息 \
-再将信息压缩隐写到一张索引图片中,最后上传索引图片 \
-下载时优先解析索引,再根据索引信息获取到所有分片链接进行逆操作即可还原文件 \
-视频上传后可直接在线播放,已实现range请求,可切换进度条,智能实时解析进度对应的图片信息 \
-基于kotlin协程优化并发,上传下载均可达到数十Mb每秒,和普通文件直链基本无区别
+### 安全性:
+使用AES-256算法加密，绝对安全，即使是量子计算机也无法破解 \
+文件是在本地加密后进行上传，除了你本人，即使是服务端也不知道文件内容 
 
-## 安全性
-文件是在本地加密后上传的,不泄漏分享码任何人无法解密 \
-MixFile采用256位的AES-GCM算法进行加密,所有的文件分片,以及包含所有分片地址的索引文件都是加密储存的 \
-256位的密钥即使是量子计算机采用grover算法,也具有经典计算机下128位的安全性,破解时间远超已知宇宙年龄
+### 防篡改:
+每个文件分片都会使用sha256哈希校验,即使是使用相同算法相同秘钥二次加密不同内容也可检测出 \
+检测到篡改立刻中断流量,即使是视频播放，切换到中间进度，任何一个字节被修改都会导致播放中断  \
+保证同一个分享码，不可能下载到不同的文件,只要分享码内容相同,无论以什么手段修改云端的返回的内容都是无法通过校验的
 
-## WebDAV
-原生支持WebDav,可挂载到Alist中 \
-Alist中新建储存,选择webdav驱动,地址填写http://127.0.0.1:4719/api/webdav即可 \
-上传.mix_list 列表文件，会将解析其中所有文件并添加到当前文件夹 \
-上传.mix_dav存档文件到目录中,会解析其中存档的数据结构，添加到当前文件夹 \
-每个不为空的文件夹中会显示一个"当前目录存档.mix_dav"文件,包含当前文件夹以及其子文件夹的webdav数据 \
-注意: 当前目录存档.mix_dav 文件在存档中并不存在，只是显示效果，每次下载时动态生成内容,无法移动,复制,删除 \
-使用Alist挂载后,点击下载,即可下载当前目录以及其子文件夹所有数据作为webdav存档 \
-在Alist等没有文件名长度限制的系统中挂载,如果新建文件夹,名称直接填写文件分享码(需要去掉mf://),则会自动将分享码解析并导入到当前文件夹
+### 可拓展:
+支持js自定义线路,编写脚本即可将任何图床站点变为储存服务端
 
-### 防篡改
-SHA256校验在分享码泄露的情况下,也可确保文件不会被篡改,每个分片都会在下载时进行校验,即使是视频从中间播放也可确保百分百是原文件  \
-单一分享码对应单一文件,同一个分享码即使是上传到自己的储存服务,也没有任何办法进行数据篡改(包括二次利用mixfile原理使用相同的密钥加密不同数据),下载解析或播放时检测到篡改会自动中断数据流 \
-也就是可以保证同一个分享码，不可能下载到不同的文件,只要分享码内容相同,无论以什么手段修改云端的返回的内容都是无法通过校验的 \
-原理: 索引文件结构中会储存所有URL以及其SHA256原内容哈希值,分享码中包含索引文件地址以及其SHA256哈希值,
+### 相关项目:
+mixfile-core(MixFile核心模块实现): https://github.com/InvertGeek/mixfile-core 
+
+mixfile-scripts(js自定义线路脚本): https://github.com/InvertGeek/mixfile-scripts 
+
+mixfile-cli(mixfile命令行端): https://github.com/InvertGeek/mixfilecli
+
+mixfile-front(mixfile网页端源码): https://github.com/InvertGeek/mixfilefront
+
+MixMessage(在QQ微信等软件使用加密聊天,发送文件由mixfile-core实现): https://github.com/InvertGeek/MixMessage
+
+mixfile-http线路例子(现在推荐使用js自定义线路): https://github.com/InvertGeek/mixfileexamplejs
+
+mixfile-alist(使用Alist作为线路(http)): https://github.com/muxinxy/mixfile-alist
+
+### 注意事项
+安卓端默认使用的是短分享码，其中填充了大量不可见的字符 \
+在tg github中发出会被过滤，所以issue反馈问题请使用长分享码 \
+测试qq 微信等软件不会屏蔽 \
+WebDAV数据和收藏的文件是分开储存的，格式不同 \
+如果要在WebDAV中导入收藏数据 \
+导出收藏文件然后通过WebDAV安卓端界面或上传mix_list文件到WebDAV中导入即可
+
 
 
 ## 免责声明

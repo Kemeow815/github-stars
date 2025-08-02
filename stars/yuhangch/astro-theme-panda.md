@@ -1,6 +1,6 @@
 ---
 project: astro-theme-panda
-stars: 40
+stars: 41
 description: |-
     A tiny blog theme for astro.
 url: https://github.com/yuhangch/astro-theme-panda

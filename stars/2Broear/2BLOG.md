@@ -1,6 +1,6 @@
 ---
 project: 2BLOG
-stars: 71
+stars: 72
 description: |-
     A simplized blog theme design & developed by 2Broear open source in 2022.
 url: https://github.com/2Broear/2BLOG

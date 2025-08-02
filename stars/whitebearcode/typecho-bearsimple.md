@@ -1,6 +1,6 @@
 ---
 project: typecho-bearsimple
-stars: 292
+stars: 293
 description: |-
     一款简洁大方的Typecho主题
 url: https://github.com/whitebearcode/typecho-bearsimple
@@ -13,7 +13,7 @@ QQ交流群:561848356<br>
 <a>若主题目录名为typecho-bearsimple-v2.x，则需改为bearsimple，配套插件目录中的BsCore需放入/usr/plugins中，否则无法正常使用。</a><br>
 <a>特别声明:本主题仅适用于单纯的博客日志，请勿用于违法站点，在遵守国家法律法规的前提下合理使用，谢谢~</a><br>
 <a href = "https://www.bearnotion.ru/typecho-bearsimple.html">使用说明</a>
-<a href = "https://github.com/whitebearcode/typecho-bearsimple/releases/download/v2.9.5/Bearsimple_v2.9.5.release.zip">最新版本[v2.9.5]下载</a>
+<a href = "https://github.com/whitebearcode/typecho-bearsimple/releases/download/v2.9.8/Bearsimple_v2.9.8.release.zip">最新版本[v2.9.8]下载</a>
 <a href = "https://docs.whitebear.dev/">文档中心</a>
 <a href = "https://bearsimple.typecho.ru/">演示站</a>
 <a href = "https://www.bearnotion.ru/">我的博客</a><br>

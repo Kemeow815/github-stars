@@ -1,6 +1,6 @@
 ---
 project: EasyNotes
-stars: 738
+stars: 744
 description: |-
     EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization.
 url: https://github.com/Kin69/EasyNotes
@@ -87,4 +87,6 @@ Lightweight android notes app with Material You.
     The above copyright notice, this permission notice, and its license shall be included in all copies or substantial portions of the Software.
     
     You can find a copy of the GNU General Public License v3 [here](https://www.gnu.org/licenses/)</p>
+
+This project is tested with BrowserStack
 

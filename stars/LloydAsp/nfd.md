@@ -1,6 +1,6 @@
 ---
 project: nfd
-stars: 783
+stars: 787
 description: |-
     No Fraud / Node Forward Bot
 url: https://github.com/LloydAsp/nfd

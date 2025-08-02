@@ -1,6 +1,6 @@
 ---
 project: nova-admin
-stars: 1080
+stars: 1077
 description: |-
     A simple and flexible admin template based on Vue3, Vite, TypeScript, NaiveUI
 url: https://github.com/chansee97/nova-admin
@@ -39,7 +39,7 @@ url: https://github.com/chansee97/nova-admin
 - Secondary encapsulation of commonly used components to meet basic work requirements.
 - Dark theme adaptation, maintaining the Naive style for interface aesthetics.
 - Only performs eslint validation during submission without excessive restrictions for simpler development.
-- Flexible and configurable interface style layout.
+- Flexible and configurable interface layout based on [pro-naive-ui](https://github.com/Zheng-Changfu/pro-naive-ui)
 - Multilanguage (i18n) support.
 
 ## Project preview

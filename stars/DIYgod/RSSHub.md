@@ -1,6 +1,6 @@
 ---
 project: RSSHub
-stars: 37914
+stars: 38090
 description: |-
     🧡 Everything is RSSible
 url: https://github.com/DIYgod/RSSHub

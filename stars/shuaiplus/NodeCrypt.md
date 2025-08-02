@@ -1,6 +1,6 @@
 ---
 project: NodeCrypt
-stars: 271
+stars: 298
 description: |-
     🔒True end-to-end encrypted (E2EE) chat system in web. 🔒真正的网页端到端加密聊天系统
 url: https://github.com/shuaiplus/NodeCrypt
@@ -37,8 +37,7 @@ url: https://github.com/shuaiplus/NodeCrypt
 docker run -d --name nodecrypt -p 80:80 ghcr.io/shuaiplus/nodecrypt
 ```
 
-
-访问 http://localhost:80
+！ 必须开启HTTPS，不然传输密钥会失败，导致无法进入房间。
 
 ### 方法四：本地开发部署
 克隆项目并安装依赖后，使用 `npm run dev` 启动开发服务器。

@@ -1,6 +1,6 @@
 ---
 project: neurapress
-stars: 1477
+stars: 1478
 description: |-
     NeuraPress
 url: https://github.com/tianyaxiang/neurapress
