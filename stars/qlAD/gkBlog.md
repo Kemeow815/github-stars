@@ -1,6 +1,6 @@
 ---
 project: gkBlog
-stars: 67
+stars: 69
 description: |-
     gkBlog 是一个使用 Turborepo + pnpm 构建的个人博客网站 📚
 url: https://github.com/qlAD/gkBlog

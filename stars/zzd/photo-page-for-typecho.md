@@ -1,6 +1,6 @@
 ---
 project: photo-page-for-typecho
-stars: 170
+stars: 172
 description: |-
     typecho相册单页模板，单页模板非主题，可嵌入任何主题。Typecho photo album page template.
 url: https://github.com/zzd/photo-page-for-typecho

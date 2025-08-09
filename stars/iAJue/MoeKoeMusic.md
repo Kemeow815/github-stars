@@ -1,6 +1,6 @@
 ---
 project: MoeKoeMusic
-stars: 2860
+stars: 3047
 description: |-
     一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:
 url: https://github.com/iAJue/MoeKoeMusic

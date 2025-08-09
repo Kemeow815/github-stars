@@ -9,7 +9,7 @@ url: https://github.com/Chanshiyucx/zero
 # Zero - A Personal Blog & Portfolio
 
 <p align="center">
-  <img src="./public/apple-touch-icon.png" alt="Zero Logo" width="80" />
+  <img src="./app/icon.svg" alt="Zero Logo" width="80" />
 </p>
 
 <p align="center">

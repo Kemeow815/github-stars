@@ -1,6 +1,6 @@
 ---
 project: we-mp-rss
-stars: 925
+stars: 961
 description: |-
     高效订阅微信公众号，微信公众号订阅，更新最新文章，并生成RSS书签，支持Webhook/API接入
 url: https://github.com/rachelos/we-mp-rss
@@ -19,11 +19,21 @@ docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  ghcr.io/rache
 ```
 http://<您的ip>:8001/  即可开启
 
-# 官方镜像和代理镜像
+# 官方镜像
 ```
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  rachelos/we-mp-rss:latest
+```
+# 代理镜像加速访问（国内访问速度更快）
+```
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  docker.1ms.run/rachelos/we-mp-rss:latest  docker.1ms.run/rachelos/we-mp-rss:latest
 ```
+
+# 感谢伙伴(排名不分先后)
+ cyChaos、 子健MeLift、 晨阳、 童总、 胜宇、 军亮、 余光、 一路向北、 水煮土豆丝、 人可、 须臾、 澄明
+、五梭
+
+
+
 
  <br/>
  <img src="https://github.com/user-attachments/assets/cbe924f2-d8b0-48b0-814e-7c06ccb1911c" height="60" />
@@ -118,6 +128,8 @@ copy config.example.yaml config.yaml
 | `SEND_CODE` | `True` | 是否发送授权二维码通知 |
 | `CODE_TITLE` | `WeRSS授权二维码` | 二维码通知标题 |
 | `ENABLE_JOB` | `True` | 是否启用定时任务 |
+| `AUTO_RELOAD` | `False` | 代码修改自动重启服务 |
+| `THREADS` | `2` | 最大线程数 |
 | `DB` | `sqlite:///data/db.db` | 数据库连接字符串 |
 | `DINGDING_WEBHOOK` | 空 | 钉钉通知Webhook地址 |
 | `WECHAT_WEBHOOK` | 空 | 微信通知Webhook地址 |
@@ -128,6 +140,7 @@ copy config.example.yaml config.yaml
 | `SPAN_INTERVAL` | `10` | 定时任务执行间隔（秒） |
 | `WEBHOOK.CONTENT_FORMAT` | `html` | 文章内容发送格式 |
 | `PORT` | `8001` | API服务端口 |
+| `DEBUG` | `False` | 调试模式 |
 | `MAX_PAGE` | `5` | 最大采集页数 |
 | `RSS_BASE_URL` | 空 | RSS域名地址 |
 | `RSS_LOCAL` | `False` | 是否为本地RSS链接 |
@@ -138,7 +151,7 @@ copy config.example.yaml config.yaml
 | `RSS_ADD_COVER` | `True` | 是否添加封面图片 |
 | `RSS_CDATA` | `False` | 是否启用CDATA |
 | `RSS_PAGE_SIZE` | `30` | RSS分页大小 |
-| `TOKEN_EXPIRE_MINUTES` | `60` | 登录会话有效时长（分钟） |
+| `TOKEN_EXPIRE_MINUTES` | `4320` | 登录会话有效时长（分钟） |
 | `CACHE.DIR` | `./data/cache` | 缓存目录 |
 | `ARTICLE.TRUE_DELETE` | `False` | 是否真实删除文章 |
 | `GATHER.CONTENT` | `True` | 是否采集内容 |
@@ -150,6 +163,10 @@ copy config.example.yaml config.yaml
 | `SAFE_LIC_KEY` | `RACHELOS` | 授权加密KEY |
 | `LOG_FILE` | 空 | 日志文件路径 |
 | `LOG_LEVEL` | `INFO` | 日志级别 |
+| `EXPORT_PDF` | `False` | 是否启用PDF导出功能 |
+| `EXPORT_PDF_DIR` | `./data/pdf` | PDF导出目录 |
+| `EXPORT_MARKDOWN` | `False` | 是否启用markdown导出功能 |
+| `EXPORT_MARKDOWN_DIR` | `./data/markdown` | markdown导出目录 |
 
 ## 使用说明
 
@@ -168,8 +185,10 @@ copy config.example.yaml config.yaml
 - **如何调整定时任务间隔？**
   修改 `config.yaml` 中的 `interval` 或通过环境变量 `SPAN_INTERVAL` 设置。
 
-## 后续计划
+- **如何开启定时任务？**
+  1、修改 `config.yaml` 中的 `ENABLE_JOB` 或通过环境变量 `ENABLE_JOB` 设置 为True。
+  2、在UI界面的消息任务中，添加定时任务。
+  
+- **如何修改文章内容发送格式？**
+  修改 `config.yaml` 中的 `WEBHOOK.CONTENT_FORMAT` 或通过环境变量 `WEBHOOK.CONTENT_FORMAT` 设置。
 
-- 支持更多通知方式（如邮件、短信）。
-- 优化RSS生成逻辑。
-- 增加多语言支持。

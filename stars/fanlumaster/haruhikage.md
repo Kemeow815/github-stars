@@ -1,6 +1,6 @@
 ---
 project: haruhikage
-stars: 13
+stars: 15
 description: |-
     春日影 (MyGO!!!!! Ver.)
 url: https://github.com/fanlumaster/haruhikage

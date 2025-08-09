@@ -1,6 +1,6 @@
 ---
 project: vscodium
-stars: 28107
+stars: 28170
 description: |-
     binary releases of VS Code without MS branding/telemetry/licensing
 url: https://github.com/VSCodium/vscodium
@@ -66,8 +66,6 @@ brew install --cask vscodium
 # insiders
 brew install --cask vscodium@insiders
 ```
-
-*Note for macOS users: if you can't open the App, please read [the following troubleshooting](https://github.com/VSCodium/vscodium/blob/master/docs/troubleshooting.md#macos).*
 
 #### <a id="install-with-winget"></a>Install with Windows Package Manager (WinGet)
 

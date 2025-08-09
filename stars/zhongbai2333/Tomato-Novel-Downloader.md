@@ -1,6 +1,6 @@
 ---
 project: Tomato-Novel-Downloader
-stars: 454
+stars: 461
 description: |-
     番茄小说下载器不精简版
 url: https://github.com/zhongbai2333/Tomato-Novel-Downloader
@@ -20,7 +20,7 @@ url: https://github.com/zhongbai2333/Tomato-Novel-Downloader
 
  > 输入 s -> 设置面板 -> 关闭 官方API 模式
 
-为方便听障人士使用，我保留了老的CLI界面，接下来是启用方法：
+为方便视障人士使用，我保留了老的CLI界面，接下来是启用方法：
 
 在第一次打开程序时 按三下 `o` 并回车 或者 按一下下方向键并按三下 `o` 都可以启用老版本CLI界面
 

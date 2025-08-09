@@ -1,6 +1,6 @@
 ---
 project: wordpress-dear
-stars: 86
+stars: 87
 description: |-
     Dear 是一款 WordPress & Typecho 纯文本极极简主题，样式复刻于 Bear Blog 示例主题。主题支持自定义背景、自定义菜单、自定义首页内容，支持黑暗模式和自适应；内置文章归档和搜索模板；已作中文字体优化，内置3种字体方案可选。力求极简，对程序自带功能进行禁用及优化，主题无 JS、图片文件引用。
 url: https://github.com/imjeff/wordpress-dear

@@ -1,6 +1,6 @@
 ---
 project: ericdit.com-refactor
-stars: 40
+stars: 42
 description: |-
     由 Nuxt 4 和 Directus 构建的个人博客、内容发布平台，支持评论、点赞、收藏、用户在线或离线状态、更新提示、实时订阅等功能。
 url: https://github.com/supebase/ericdit.com-refactor

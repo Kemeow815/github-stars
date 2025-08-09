@@ -1,6 +1,6 @@
 ---
 project: release-page
-stars: 1
+stars: 2
 description: |-
     一款简约的地址发布页
 url: https://github.com/Shiguang-coding/release-page

@@ -24,6 +24,30 @@ echo "theme = 'farallon'" >> hugo.toml
 
 ## Release Notes
 
+### 0.6.3
+
+-   fixed search result issues
+-   style enhancement
+
+### 0.6.2
+
+-   style enhancement
+
+### 0.6.1
+
+-   fixed term header style issues
+
+### 0.6.0
+
+> [!IMPORTANT]
+> scss class name has breaking changes
+
+-   style enhancement
+
+### 0.5.1
+
+-   update theme config
+
 ### 0.5.0
 
 -   Compatible with v0.146.0

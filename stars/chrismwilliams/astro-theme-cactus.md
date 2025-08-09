@@ -1,6 +1,6 @@
 ---
 project: astro-theme-cactus
-stars: 1286
+stars: 1298
 description: |-
     A simple Astro theme. Use it to create your blog or website.
 url: https://github.com/chrismwilliams/astro-theme-cactus

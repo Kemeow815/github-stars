@@ -1,8 +1,8 @@
 ---
 project: github-release-monitor
-stars: 186
+stars: 189
 description: |-
-    A powerful, self-hostable application to automatically monitor GitHub repository releases and receive instant email or Apprise notifications, including Telegram, Discord, Slack and many more.
+    A powerful, self-hostable application to automatically monitor GitHub repository releases and receive instant email and Apprise notifications, including Telegram, Discord, Slack and many more.
 url: https://github.com/iamspido/github-release-monitor
 ---
 

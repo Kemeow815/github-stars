@@ -1,6 +1,6 @@
 ---
 project: free
-stars: 185
+stars: 194
 description: |-
     周润发公益免费v2ray节点订阅、翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子、v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费v2ray/clash/singbox节点
 url: https://github.com/shaoyouvip/free

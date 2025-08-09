@@ -1,6 +1,6 @@
 ---
 project: phanpy
-stars: 1296
+stars: 1302
 description: |-
     A minimalistic opinionated Mastodon web client
 url: https://github.com/cheeaun/phanpy
@@ -290,6 +290,8 @@ Available variables:
   - API key for [GIPHY](https://developers.giphy.com/). See [API docs](https://developers.giphy.com/docs/api/).
   - If provided, a setting will appear for users to enable the GIF picker in the composer. Disabled by default.
   - This is not self-hosted.
+- `PHANPY_DISALLOW_ROBOTS` (optional, default: not set):
+  - Set to any value (`true`, `1`, etc) to override the robots.txt file and disallow all web crawlers from indexing the site
 
 ### Static site hosting
 

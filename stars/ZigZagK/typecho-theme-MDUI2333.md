@@ -1,6 +1,6 @@
 ---
 project: typecho-theme-MDUI2333
-stars: 110
+stars: 112
 description: |-
     基于MDUI制作的typecho主题
 url: https://github.com/ZigZagK/typecho-theme-MDUI2333

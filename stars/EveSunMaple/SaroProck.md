@@ -1,6 +1,6 @@
 ---
 project: SaroProck
-stars: 34
+stars: 38
 description: |-
     我的个人博客！使用 Astro + React
 url: https://github.com/EveSunMaple/SaroProck
@@ -18,12 +18,18 @@ url: https://github.com/EveSunMaple/SaroProck
 
 - **用 Telegram 写动态**
   我即没有后台管理页面，也没有静态文件存贮，动态完全通过 Telegram 频道完成。每当我发送一条消息，Vercel 就会自动抓取并发布为动态文章。快速、顺手，几乎没有操作成本。
-
 - **自建评论与点赞系统**
   不依赖任何第三方插件，评论和点赞都基于 LeanCloud 搭建。
-
 - **免维护，全球加速**
   博客部署在 Vercel 上，完全免费，不需要服务器。
+
+当然还有……
+
+- ✅ 自动的 **白天 / 黑夜** 模式
+- ✅ 自建的博文搜索模块
+- ✅ 使用 XSL 美化的 RSS
+- ✅ 多样的自定义 MDX 组件
+- ✅ 博文目录侧边栏
 
 ---
 
@@ -37,13 +43,29 @@ url: https://github.com/EveSunMaple/SaroProck
 
 ---
 
-### 🛠️ 技术流程
+### 🛠️ 关于部署
 
-- **内容发布**:
-  `Telegram` → `Astro 后端函数` → `获取并构建页面`
+强烈推荐使用 Vercel 部署！
 
-- **互动逻辑**:
-  `前端点赞/评论组件` → `LeanCloud 数据读写` → `Vercel 函数校验管理员身份`
+如果您一定想要使用 Cloudflare 部署，请在 `astro.config.mjs` 对应地方添加修改：
+
+```js
+export default defineConfig({
+  adapter: cloudflare(),
+  vite: {
+    resolve: {
+      // Use react-dom/server.edge instead of react-dom/server.browser for React 19.
+      // Without this, MessageChannel from node:worker_threads needs to be polyfilled.
+      alias: import.meta.env.PROD && {
+        "react-dom/server": "react-dom/server.edge",
+      },
+    },
+    plugins: [tailwindcss()],
+  },
+});
+```
+
+当然，这很可能于事无补，详见：https://www.saroprock.com/post/297
 
 ---
 

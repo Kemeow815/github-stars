@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-redefine
-stars: 1769
+stars: 1779
 description: |-
     Fast, Pure, Elegant. Hexo, Redefined.
 url: https://github.com/EvanNotFound/hexo-theme-redefine

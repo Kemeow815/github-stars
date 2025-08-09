@@ -1,6 +1,6 @@
 ---
 project: rime_wanxiang
-stars: 904
+stars: 933
 description: |-
     Rime万象拼音输入方案：标准版与增强版可选，词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。PRO版本支持10种双拼，7种辅助码，并且可以扩展更多，支持中英混输，内置超级注释、带调全拼输入码显示、快符与重复上屏、手动排序、tips等功能扩展，大大增强使用体验。　　Q群：11033572
 url: https://github.com/amzxyz/rime_wanxiang
@@ -74,6 +74,7 @@ url: https://github.com/amzxyz/rime_wanxiang
 /gbpy     → 国标双拼
 /lxsq     → 乱序17
 /pinyin   → 全拼
+/gongcun  → 创建现有方案+全拼的共存方案，多适用于共用电脑或者全拼到双拼的学习阶段
 ```
 
 #### ②进阶custom patch法（已经尽量为你简化）强烈推荐，适用于长期稳定使用：
@@ -180,7 +181,7 @@ schema,default,weasel,squirrel
 
 **错音错字提示：**  例如：输入`gei yu给予`，获得`jǐ yǔ`提示，此功能与全拼、双拼类型无关全部支持；
 
-**快符Lua：** 例如 ```;q``` 通过分号键引导的26字母快速符号自动上屏，双击;;重复上屏候选词，此功能会占用分号不能直接上屏，但带来的收益也是显而易见的；
+**快符Lua：** 例如 ```;q``` 通过分号键引导的26字母+10个数字，快速符号自动上屏，双击分号上屏中文状态下分号本身，分号+单引号;'重复上屏候选词，此功能会占用分号不能直接上屏而变成双击，但带来的收益也是显而易见的；
 
 **超级tips：** 支持将表情、化学式、翻译、简码 提示等等你能想到得数据获得提示显示并将通过一个自定义按键直接上屏，默认为“.” 避免了占用候选框，通过Control+t 进行开关。⚠️仓输入法、超越输入法设置按键交由rime去处理，没有特殊需求应该一律交给rime；
 
@@ -223,7 +224,7 @@ schema,default,weasel,squirrel
 
 **自定义词库：** 自定义词库首先要利用[LMDG](https://github.com/amzxyz/RIME-LMDG)中的脚本将你自己的词库刷成与万象同类型的声调、或者声调+辅助码的形态，因为主词库要参与转写。对于custom_phrase则需要手动编辑编码为实际输入的编码
 
-![思维导图](https://github.com/amzxyz/rime_wanxiang_pro/blob/wanxiang/.github/%E4%B8%87%E8%B1%A1%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88.png)
+<img alt="pay" src="./custom/万象输入方案.png" height="2800" width="1000">
 
 ## 鸣谢
 
@@ -233,5 +234,5 @@ schema,default,weasel,squirrel
 
 如果觉得项目好用，可以请AMZ喝咖啡
 
-<img alt="pay" src="./.github/赞赏.jpeg" height="312" width="446">
+<img alt="pay" src="./custom/赞赏.jpg" height="312" width="446">
 

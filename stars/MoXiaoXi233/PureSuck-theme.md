@@ -1,6 +1,6 @@
 ---
 project: PureSuck-theme
-stars: 140
+stars: 148
 description: |-
     A Pure Typecho Theme For You
 url: https://github.com/MoXiaoXi233/PureSuck-theme
@@ -133,7 +133,7 @@ MoxToast({
     backgroundColor: "var(--card2-color)",
     textColor: "var(--text-color)",
     borderColor: "var(--border-color)", // 使用CSS变量或默认值
-};
+});
 ```
 开发中····
 ## 引用库

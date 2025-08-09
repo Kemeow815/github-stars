@@ -1,6 +1,6 @@
 ---
 project: CloudPaste
-stars: 1110
+stars: 1120
 description: |-
     A Cloudflare-based online text/large file sharing platform that supports multiple syntax Markdown rendering, self-destructing messages, S3 aggregated storage, password protection, and more. It can be mounted as WebDAV and supports Docker deployment.
 url: https://github.com/ling-drag0n/CloudPaste
@@ -882,11 +882,8 @@ location /dav {
 
 3. **⚠️⚠️ WebDAV Upload Issues**:
 
-   - In presigned upload mode, attention needs to be paid to the cross-origin configuration of the corresponding S3 storage
-   - In WebDAV's automatic recommendation mode, files smaller than 10MB use direct upload mode, files between 10-50MB use multipart upload mode, and files larger than 50MB use presigned upload mode
-   - Regarding Cloudflare Worker upload limitations, it is recommended to use presigned or direct upload mode, and avoid using multipart uploads
+   - For Worker deployment, it is recommended to use direct transfer mode (theoretical maximum of 5GB per transfer) and avoid using fragmentation (limited by CPU).
    - For Docker deployments, just pay attention to the nginx proxy configuration, any upload mode is acceptable
-   - Windows, Raidrive and other clients do not yet support drag-and-drop uploads, everything else works
 
 </details>
 

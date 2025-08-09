@@ -1,6 +1,6 @@
 ---
 project: Farallon
-stars: 242
+stars: 241
 description: |-
     📓 single column wordpress theme
 url: https://github.com/bigfa/Farallon
@@ -14,11 +14,37 @@ Farallon is a simple single column wordpress theme with perfect performace and e
 
 [中文说明](https://github.com/bigfa/Farallon/blob/develop/README_CN.md)
 
-latest version : `0.8.8`
+latest version : `0.9.3`
 
 [Simple User Guide(Chinese)](https://fatesinger.com/101971)
 
 ## Changelog
+
+### 0.9.3
+
+- add Japanese support
+- style enhancement
+- update translation
+- remove default logo image
+
+### 0.9.2
+
+- style enhancement
+
+### 0.9.1
+
+- update translation
+- style enhancement
+
+### 0.9.0
+
+> [!IMPORTANT]
+> scss class name has breaking changes
+
+- update translation
+- style enhancement
+- add some filters
+- fixed loading error in search result page
 
 ### 0.8.8
 

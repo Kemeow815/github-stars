@@ -1,6 +1,6 @@
 ---
 project: G
-stars: 401
+stars: 398
 description: |-
     a graceful typecho theme
 url: https://github.com/youranreus/G
