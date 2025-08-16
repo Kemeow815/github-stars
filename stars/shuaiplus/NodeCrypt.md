@@ -1,6 +1,6 @@
 ---
 project: NodeCrypt
-stars: 332
+stars: 342
 description: |-
     🔒True end-to-end encrypted (E2EE) chat system in web. 🔒真正的网页端到端加密聊天系统
 url: https://github.com/shuaiplus/NodeCrypt
@@ -31,7 +31,7 @@ url: https://github.com/shuaiplus/NodeCrypt
 
 > 本项目已内置自动同步 workflow，fork 后无需任何操作，主仓库的更新会自动同步到你的 fork 仓库，Cloudflare 也会自动重新部署，无需手动维护。
 
-### 方法三：Docker 一键部署（推荐自托管）
+### 方法三：Docker 一键部署（不稳定，不建议）
 
 ```bash
 docker run -d --name nodecrypt -p 80:80 ghcr.io/shuaiplus/nodecrypt

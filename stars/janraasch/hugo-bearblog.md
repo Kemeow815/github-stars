@@ -1,6 +1,6 @@
 ---
 project: hugo-bearblog
-stars: 1184
+stars: 1190
 description: |-
     🧸 A Hugo theme based on »Bear Blog«. Free, no-nonsense, super-fast blogging. This theme now includes a dark color scheme to support dark mode 🦉 ⬛️!
 url: https://github.com/janraasch/hugo-bearblog
@@ -97,6 +97,20 @@ Run the `exampleSite` locally via
 
 ```bash
 hugo server --source ./exampleSite --themesDir ../..
+```
+
+In case you want to test functionalities and use hugo commands, in the root directory, you'll have to append `--source ./exampleSite --themesDir ../..` to them.
+
+For example:
+
+```bash
+hugo new blog/post.md --source ./exampleSite --themesDir ../..
+```
+
+Same thing for pages:
+
+```bash
+hugo new page.md  --source ./exampleSite --themesDir ../..
 ```
 
 ## Special Thanks 🎁

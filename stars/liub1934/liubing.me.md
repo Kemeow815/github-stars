@@ -1,6 +1,6 @@
 ---
 project: liubing.me
-stars: 19
+stars: 21
 description: |-
     基于VuePress的个人博客，记录日常开发问题。
 url: https://github.com/liub1934/liubing.me

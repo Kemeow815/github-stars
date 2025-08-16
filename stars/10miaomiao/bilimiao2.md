@@ -1,6 +1,6 @@
 ---
 project: bilimiao2
-stars: 2366
+stars: 2386
 description: |-
     bilimiao 2.x
 url: https://github.com/10miaomiao/bilimiao2

@@ -2,7 +2,7 @@
 project: dmy-link
 stars: 22
 description: |-
-    null
+    大绵羊外链跳转插件是专为 WordPress 站点开发的外部链接管理插件。插件的主要功能是拦截文章中的外部链接，在跳转前提醒用户即将离开本站，提升用户安全意识并优化用户体验。
 url: https://github.com/dmmyblog/dmy-link
 ---
 

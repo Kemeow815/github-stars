@@ -1,6 +1,6 @@
 ---
 project: isyangs.cn
-stars: 3
+stars: 4
 description: |-
     My personal website
 url: https://github.com/isYangs/isyangs.cn

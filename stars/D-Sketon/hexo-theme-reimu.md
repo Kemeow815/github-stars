@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-reimu
-stars: 343
+stars: 345
 description: |-
     一款博丽灵梦风格的Hexo主题 | A Hakurei Reimu style Hexo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hexo-theme-reimu

@@ -1,6 +1,6 @@
 ---
 project: yazi
-stars: 27326
+stars: 27544
 description: |-
     💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 url: https://github.com/sxyazi/yazi
@@ -73,7 +73,7 @@ Yazi is currently in heavy development, expect breaking changes.
 | [Warp](https://www.warp.dev) (macOS/Linux only)                              | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [Tabby](https://github.com/Eugeny/tabby)                                     | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [VSCode](https://github.com/microsoft/vscode)                                | [Inline images protocol][iip]          | ✅ Built-in                                           |
-| [Rio](https://github.com/raphamorim/rio)                                     | [Inline images protocol][iip]          | ❌ Rio doesn't correctly clear images [#709][rio-bug] |
+| [Rio](https://github.com/raphamorim/rio)                                     | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [Black Box](https://gitlab.gnome.org/raggesilver/blackbox)                   | [Sixel graphics format][sixel]         | ✅ Built-in                                           |
 | [Hyper](https://github.com/vercel/hyper)                                     | [Inline images protocol][iip]          | ✅ Built-in                                           |
 | [Bobcat](https://github.com/ismail-yilmaz/Bobcat)                            | [Inline images protocol][iip]          | ✅ Built-in                                           |
@@ -94,10 +94,6 @@ See https://yazi-rs.github.io/docs/image-preview for details.
 
 [ueberzug]: https://github.com/jstkdng/ueberzugpp
 [chafa]: https://hpjansson.org/chafa/
-
-<!-- Rio bug -->
-
-[rio-bug]: https://github.com/raphamorim/rio/issues/709
 
 ## License
 

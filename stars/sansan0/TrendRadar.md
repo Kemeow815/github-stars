@@ -1,8 +1,8 @@
 ---
 project: TrendRadar
-stars: 1968
+stars: 2126
 description: |-
-    🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，一键监控今日头条、百度热搜、微博、抖音、知乎、B站等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram推送，1分钟部署完毕， 支持 docker 部署。⭐ 让算法为你服务，而非被算法绑架
+    🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，一键监控今日头条、百度热搜、微博、抖音、知乎、B站等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram推送，30秒网页部署，1分钟手机通知，无需编程基础。也支持docker私人部署⭐ 让算法为你服务，而非被算法绑架
 url: https://github.com/sansan0/TrendRadar
 ---
 
@@ -10,7 +10,7 @@ url: https://github.com/sansan0/TrendRadar
 
 # 🎯TrendRadar
 
-<strong>🚀 最快一分钟部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯</strong>
+🚀 最快<strong>30秒</strong>部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯
 
 [![GitHub Stars](https://img.shields.io/github/stars/sansan0/TrendRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/TrendRadar/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/sansan0/TrendRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/TrendRadar/network/members)
@@ -35,8 +35,7 @@ url: https://github.com/sansan0/TrendRadar
 > **Fork** 的同时，如果觉得有帮助，请顺手点个 ⭐️ **Star**，感谢支持
 
 <details>
-<summary><strong>👉 点击查看致谢名单</strong></summary>
-<br>
+<summary>👉 点击查看<strong>致谢名单 (当前 12 个)</strong></summary>
 
 ### 数据支持
 
@@ -44,12 +43,11 @@ url: https://github.com/sansan0/TrendRadar
 
 ### 推广助力
 
-> 感谢以下平台和个人的推荐，让更多用户发现这个工具
+> 感谢以下平台和个人的推荐(按时间排列)，以及各微信群，qq群等给到这个项目帮助的人
 
-- [小众软件](https://mp.weixin.qq.com/s/fvutkJ_NPUelSW9OGK39aA) - 软件推荐平台的精准用户推送
-- [阮一峰周刊](https://github.com/ruanyf/weekly) - 技术圈影响力周刊的收录推荐
-- [LinuxDo 社区](https://linux.do/) - 技术爱好者的试用与反馈
-- 各微信群、QQ群 - 用户间的分享和传播
+- [小众软件](https://mp.weixin.qq.com/s/fvutkJ_NPUelSW9OGK39aA) - 开源软件推荐平台
+- [LinuxDo 社区](https://linux.do/) - 技术爱好者的聚集地
+- [阮一峰周刊](https://github.com/ruanyf/weekly) - 技术圈有影响力的周刊
 
 ### 观众支持
 
@@ -57,6 +55,8 @@ url: https://github.com/sansan0/TrendRadar
 
 |           点赞人            |  金额  |  日期  |             备注             |
 | :-------------------------: | :----: | :----: | :-----------------------: |
+|           2*D            |  88  | 2025.8.13 下午 |           |
+|           2*D            |  1  | 2025.8.13 上午 |           |
 |           S*o            |  1  | 2025.8.05 |   支持一下        |
 |           *侠            |  10  | 2025.8.04 |           |
 |           x*x            |  2  | 2025.8.03 |  trendRadar 好项目 点赞          |
@@ -117,7 +117,11 @@ url: https://github.com/sansan0/TrendRadar
 
 GitHub 一键 Fork 即可使用，无需编程基础。
 
-> 如果要手机接收通知， 要达到 1 分钟部署完毕的效果，请选择**企业微信**
+> 30秒部署： GitHub Pages（网页浏览）
+>
+> 1分钟部署： 企业微信（手机通知）
+
+**💡 提示：** 想要**实时更新**的网页版？fork 后，进入你的仓库 Settings → Pages，启用 GitHub Pages。[效果预览](https://sansan0.github.io/TrendRadar/)。
 
 ### **减少 APP 依赖**
 
@@ -126,9 +130,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 **适合人群：** 投资者、自媒体人、企业公关、关心时事的普通用户
 
 **典型场景：** 股市投资监控、品牌舆情追踪、行业动态关注、生活资讯获取
-
-**💡 提示：** 想要**实时更新**的网页版？进入你的仓库 Settings → Pages，启用 GitHub Pages。比如我这里[TrendRadar](https://sansan0.github.io/TrendRadar/)。
-
 
 | Github Pages效果 | 飞书推送效果 |
 |:---:|:---:|

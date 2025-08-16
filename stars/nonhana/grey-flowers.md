@@ -2,7 +2,7 @@
 project: grey-flowers
 stars: 7
 description: |-
-    Personal blog by Nuxt3.
+    Personal blog by Nuxt.
 url: https://github.com/nonhana/grey-flowers
 ---
 

@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-A4
-stars: 562
+stars: 565
 description: |-
     A hexo theme that looks like an A4 paper.（一个类A4纸张质感的hexo博客主题。）
 url: https://github.com/HiNinoJay/hexo-theme-A4

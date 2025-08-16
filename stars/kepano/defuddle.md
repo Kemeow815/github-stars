@@ -1,6 +1,6 @@
 ---
 project: defuddle
-stars: 2683
+stars: 2724
 description: |-
     Extract the main content from web pages.
 url: https://github.com/kepano/defuddle
@@ -116,14 +116,15 @@ The core bundle is recommended for most use cases. It still handles math content
 
 ## Options
 
-| Option                   | Type    | Description                                                                     |
-|--------------------------|---------|---------------------------------------------------------------------------------|
-| `debug`                  | boolean | Enable debug logging                                                            |
-| `url`                    | string  | URL of the page being parsed                                                    |
-| `markdown`               | boolean | Convert `content` to Markdown                                                   |
-| `separateMarkdown`       | boolean | Keep `content` as HTML and return `contentMarkdown` as Markdown                 |
-| `removeExactSelectors`   | boolean | Whether to remove elements matching exact selectors like ads, social buttons, etc. Defaults to true. |
-| `removePartialSelectors` | boolean | Whether to remove elements matching partial selectors like ads, social buttons, etc. Defaults to true. |
+| Option                   | Type    | Default | Description                                                               |
+| ------------------------ | ------- | ------- | ------------------------------------------------------------------------- |
+| `debug`                  | boolean | false   | Enable debug logging                                                      |
+| `url`                    | string  |         | URL of the page being parsed                                              |
+| `markdown`               | boolean | false   | Convert `content` to Markdown                                             |
+| `separateMarkdown`       | boolean | false   | Keep `content` as HTML and return `contentMarkdown` as Markdown           |
+| `removeExactSelectors`   | boolean | true    | Remove elements matching exact selectors like ads, social buttons, etc.   |
+| `removePartialSelectors` | boolean | true    | Remove elements matching partial selectors like ads, social buttons, etc. |
+| `removeImages`           | boolean | false   | Remove images.                                                            |
 
 ### Debug mode
 

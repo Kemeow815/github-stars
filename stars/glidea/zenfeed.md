@@ -1,6 +1,6 @@
 ---
 project: zenfeed
-stars: 1449
+stars: 1460
 description: |-
     Make RSS 📰 great again with AI 🧠✨!!
 url: https://github.com/glidea/zenfeed

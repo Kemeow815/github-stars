@@ -1,6 +1,6 @@
 ---
 project: PicHoro
-stars: 901
+stars: 906
 description: |-
     一款手机端云存储平台/图床管理和文件上传/下载工具，支持直接管理Webdav，Alist，SSH/SFTP，云服务器，兼容S3 API的平台，腾讯COS，阿里OSS，七牛云，又拍云，兰空图床，Imgur，SM.MS和github
 url: https://github.com/Kuingsmile/PicHoro

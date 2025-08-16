@@ -1,6 +1,6 @@
 ---
 project: we-mp-rss
-stars: 961
+stars: 990
 description: |-
     高效订阅微信公众号，微信公众号订阅，更新最新文章，并生成RSS书签，支持Webhook/API接入
 url: https://github.com/rachelos/we-mp-rss

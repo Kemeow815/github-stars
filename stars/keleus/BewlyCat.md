@@ -1,6 +1,6 @@
 ---
 project: BewlyCat
-stars: 520
+stars: 546
 description: |-
     BewlyCat——基于BewlyBewly开发的Bilibili拓展
 url: https://github.com/keleus/BewlyCat
@@ -32,6 +32,10 @@ url: https://github.com/keleus/BewlyCat
 > 本项目由MIT许可在原项目基础上开发，并亦与原作者联系取得了授权，包括上架Chrome应用商店等权利。
 
 > [!CAUTION]
+> 为了本项目能够在Github中直接被搜索到，项目将脱离BewlyBewly的Fork网络，成为一个独立的项目。
+>
+> 但项目基于BewlyBewly是不变的～项目不会移除历史贡献者和原项目信息。
+>
 > B站于2025年5月调整了分区，请更新至`1.0.2`版本以适配新的排行榜和分区。
 
 ## 主要功能异同

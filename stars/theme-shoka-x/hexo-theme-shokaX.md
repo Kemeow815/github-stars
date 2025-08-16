@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-shokaX
-stars: 411
+stars: 414
 description: |-
     a hexo theme based on shoka
 url: https://github.com/theme-shoka-x/hexo-theme-shokaX

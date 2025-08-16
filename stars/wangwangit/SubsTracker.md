@@ -1,6 +1,6 @@
 ---
 project: SubsTracker
-stars: 1029
+stars: 1103
 description: |-
     基于Cloudflare Workers的轻量级订阅管理系统，帮助您轻松跟踪各类订阅服务的到期时间，并通过Telegram发送及时提醒。
 url: https://github.com/wangwangit/SubsTracker

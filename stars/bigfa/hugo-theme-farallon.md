@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-farallon
-stars: 55
+stars: 56
 description: |-
     ✒️ single column hugo theme
 url: https://github.com/bigfa/hugo-theme-farallon
@@ -24,10 +24,32 @@ echo "theme = 'farallon'" >> hugo.toml
 
 ## Release Notes
 
+### 0.7.2
+
+-   make adjcent link under same section
+-   local image resize support
+-   hide year when in the same year
+-   style enhancement
+-   update translation
+-   add term views when term file exists
+-   remote default logo
+
+> [!NOTE]
+> if you want to custom your logo,put `logo.jpg` under your`assets/images/` folder
+
+### 0.7.1
+
+-   style enhancement
+
+### 0.7.0
+
+-   style enhancement
+
 ### 0.6.3
 
--   fixed search result issues
+-   make post archives a page template
 -   style enhancement
+-   fixed search result issues
 
 ### 0.6.2
 

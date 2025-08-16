@@ -1,6 +1,6 @@
 ---
 project: Tomato-Novel-Downloader
-stars: 461
+stars: 473
 description: |-
     番茄小说下载器不精简版
 url: https://github.com/zhongbai2333/Tomato-Novel-Downloader
@@ -55,7 +55,7 @@ url: https://github.com/zhongbai2333/Tomato-Novel-Downloader
     国内用户可使用：
 
     ```sh
-    bash <(curl -sL https://github.moeyy.xyz/https://raw.githubusercontent.com/zhongbai2333/Tomato-Novel-Downloader/main/installer.sh)
+    RAW_URL="https://raw.githubusercontent.com/zhongbai2333/Tomato-Novel-Downloader/main/installer.sh"; API="https://api.cenguigui.cn/api/github/?type=json&url=$RAW_URL"; DL_URL="$(curl -fsSL "$API" | sed -n 's/.*\"downUrl\":\"\([^\"]*\)\".*/\1/p')"; DL_URL="${DL_URL//\\//}"; [ -z "$DL_URL" ] && DL_URL="$RAW_URL"; bash <(curl -fsSL "$DL_URL")
     ```
 
 3. 电脑端该如何运行？
@@ -71,7 +71,7 @@ url: https://github.com/zhongbai2333/Tomato-Novel-Downloader
     国内用户可使用：
 
     ```sh
-    bash <(curl -sL https://github.moeyy.xyz/https://raw.githubusercontent.com/zhongbai2333/Tomato-Novel-Downloader/main/installer.sh)
+    RAW_URL="https://raw.githubusercontent.com/zhongbai2333/Tomato-Novel-Downloader/main/installer.sh"; API="https://api.cenguigui.cn/api/github/?type=json&url=$RAW_URL"; DL_URL="$(curl -fsSL "$API" | sed -n 's/.*\"downUrl\":\"\([^\"]*\)\".*/\1/p')"; DL_URL="${DL_URL//\\//}"; [ -z "$DL_URL" ] && DL_URL="$RAW_URL"; bash <(curl -fsSL "$DL_URL")
     ```
 
 4. 小说id是什么？在哪里获取？

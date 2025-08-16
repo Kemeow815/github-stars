@@ -1,6 +1,6 @@
 ---
 project: nextjs-nextra-starter
-stars: 206
+stars: 208
 description: |-
     ⚡️  一个 Next.js (v15) 快速启动模板, 集成 Tailwind CSS (v4) + React (v19) + Nextra (v4) + TypeScript + Shadcn UI + Radix UI + Aceternity UI + ESLint(v9) + Sass, 支持 Iconify 图标集, i18n 多语言国际化 - 响应式、暗黑模式落地页、适合开发个人博客 Blog Starter Template, 含示例代码, Deployed on Netlify and Vercel.
 url: https://github.com/pdsuwwz/nextjs-nextra-starter

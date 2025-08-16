@@ -1,6 +1,6 @@
 ---
 project: MultiLangSwitcher
-stars: 74
+stars: 75
 description: |-
     MultiLangSwitcher - a Chromium-based extension. It helps users quickly switch the Accept-Language HTTP header.  —— 一个 Chromium 内核浏览器扩展，帮助用户快速切换 HTTP Accept-Language 。
 url: https://github.com/ChuwuYo/MultiLangSwitcher

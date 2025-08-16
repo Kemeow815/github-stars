@@ -1,6 +1,6 @@
 ---
 project: picprose
-stars: 711
+stars: 713
 description: |-
     Better cover image generator tool for Medium, Blog, Youtube, BiliBili and many others
 url: https://github.com/jaaronkot/picprose

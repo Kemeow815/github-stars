@@ -3,7 +3,7 @@ project: vitepress-theme-sakurairo
 stars: 13
 description: |-
     一个基于WordPress Sakurairo主题样式的 vitepress 主题
-url: https://github.com/wuyifan0203/vitepress-theme-sakurairo
+url: https://github.com/Avan0203/vitepress-theme-sakurairo
 ---
 
 # Vitepress-Theme-Sakurairo

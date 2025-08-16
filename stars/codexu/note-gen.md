@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 7447
+stars: 7632
 description: |-
     A cross-platform Markdown AI note-taking software.
 url: https://github.com/codexu/note-gen
@@ -24,7 +24,7 @@ url: https://github.com/codexu/note-gen
 
 ## Guide
 
-🖥️ Official Document: [English](https://notegen.top/en/) | [简体中文](https://notegen.top/zh/)
+🖥️ Official Document: [English](https://notegen.top/en/) | [简体中文](https://notegen.top/cn/)
 
 💬 Join [WeChat/QQ Group](https://github.com/codexu/note-gen/discussions/110), [Discord](https://discord.gg/SXyVZGpbpk), [Telegram](https://t.me/notegen)
 
@@ -51,7 +51,7 @@ Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform ca
 | Windows | MacOS | Linux | Android | iOS |
 | --- | --- | --- | --- | --- |
 | ✅ beta | ✅ beta | ✅ beta | 🛠️ alpha | 🛠️ alpha |
-| [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) | [Download](https://notegen.top/en/guide/download.html) |
+| [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#android) | Self-compiled |
 
 > [UpgradeLink offers application upgrade and download services](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
 
@@ -109,7 +109,7 @@ The writing section is divided into two parts: **File Manager** and **Markdown E
 
 ## Contribute
 
-- [Read contribution guide](https://notegen.top/en/CONTRIBUTING.html)
+- [Read contribution guide](https://notegen.top/en/docs/contributing)
 - [Update plans](https://github.com/codexu/note-gen/issues/46)
 - [Submit bugs or improvement suggestions](https://github.com/codexu/note-gen/issues)
 - [Discussions](https://github.com/codexu/note-gen/discussions)

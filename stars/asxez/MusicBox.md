@@ -1,8 +1,8 @@
 ---
 project: MusicBox
-stars: 47
+stars: 69
 description: |-
-    一款高颜值的本地音乐播放器
+    一款高颜值、插件化的本地音乐播放器
 url: https://github.com/asxez/MusicBox
 ---
 
@@ -15,9 +15,10 @@ url: https://github.com/asxez/MusicBox
     <br />
     <br />
     <!-- <a href="#-特性"><strong>✨ 查看特性</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp; -->
-    <a href="#-安装"><strong>📦 下载安装</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-开发"><strong>🛠️ 开发指南</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-相关截图"><strong>📌 相关截图</strong></a>
+    <a href="#-安装"><strong>📦下载安装</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-开发"><strong>🛠️开发指南</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-插件开发"><strong>🔧为MusicBox开发（安装）插件</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-相关截图"><strong>📌相关截图</strong></a>
     <br />
   </p>
 </p>
@@ -37,6 +38,7 @@ url: https://github.com/asxez/MusicBox
 ## ✨ 特性
 - 💻️ 支持 Windows / macOS / Linux
 - ✅ 支持flac, mp3, wav, ogg, m4a, aac, wma等多种音乐格式
+- 🔧 强大的插件系统（允许在插件中实现任何功能，高权限）
 - 📔 支持在线获取歌曲封面和歌词
 - ⌨️ 支持自定义局内/全局快捷键
 - 🎈 浅色/深色主题切换
@@ -46,6 +48,7 @@ url: https://github.com/asxez/MusicBox
 - 👁️ 支持自由的页面显示开关
 - 💾 支持挂载 SMB/WebDAV 等网络磁盘
 - 🖋️ 支持编辑歌曲元数据
+- ▶️ 支持无间隙播放，为连续的专辑歌曲提供更好的播放体验
 - 🛠️ 更多特性开发中
 
 ## 📔 TODOS
@@ -59,16 +62,18 @@ url: https://github.com/asxez/MusicBox
 - ✅ 修复音乐文件元数据识别乱码
 - ✅ 窗口管理
 - ✅ 歌曲列表添加封面显示
-- ❌ 歌词逐字
-- ❌ MusicBox 实时状态接口
 - ✅ SMB/WebDAV 等网络磁盘的挂载
-- ❌ 更多快捷键支持（快进回退...）
-- ❌ 修复播放列表存在的问题
-- ❌ 歌词样式调整
 - ✅ 桌面歌词显示
 - ✅ 内嵌歌词识别
 - ✅ 自定义音乐库歌曲信息
-- ✅ 自定义歌单
+- ✅ 自定义歌单 
+- ✅ 无间隙播放
+- ✅ 插件系统
+- ❌ 歌词逐字
+- ❌ MusicBox 实时状态接口
+- ❌ 更多快捷键支持（快进回退...）
+- ❌ 修复播放列表存在的问题
+- ❌ 歌词样式调整
 - 🔄 更多其他特性
 
 
@@ -95,9 +100,10 @@ cd MusicBox
 # 安装主项目依赖
 npm install
 
-# 安装渲染进程依赖
+# 安装渲染进程依赖并构建
 cd src/renderer
 npm install
+npm run build
 cd ../..
 ```
 
@@ -112,9 +118,6 @@ npm run dev:main
 ```bash
 # 构建当前平台版本
 npm run build
-
-# 构建所有平台版本
-npm run build:all
 ```
 
 ## 🛠️ 开发
@@ -188,14 +191,27 @@ cd ../..
 ```bash
 # 运行 electron
 npm run dev:main
-
-# 仅启动渲染进程服务器
-npm run dev:renderer
 ```
+
+## 🔧 插件开发
+
+可在 **issue** 中提交你开发的插件，我会在此链接你的仓库😋
+
+[MusicBox 插件开发文档](src/renderer/src/js/plugin-system/docs)
+
+
+### 可用插件列表
+
+Q: 如何使用插件？
+
+A：设置中打开插件管理，导入插件即可，目前只支持单个的 JS 文件。
+
+[主题切换器-示例插件](src/renderer/src/js/plugin-system/examples/ThemeSwitcherPlugin.js)
+
 
 ## 🤝 贡献
 
-我们欢迎所有形式的贡献！无论是报告 bug、提出功能建议，还是提交代码改进。
+我们欢迎所有形式的贡献！无论是报告 bug、提出功能建议、提交代码改进，或者说提交你开发的插件！
 
 ## 📄 许可证
 
@@ -213,7 +229,7 @@ npm run dev:renderer
 
 ![MusicBox 应用截图](docs/images/5.png)
 ![MusicBox 应用截图](docs/images/6.png)
-![MusicBox 应用截图](docs/images/1.png)
+![MusicBox 应用截图](docs/images/7.png)
 ![MusicBox 应用截图](docs/images/2.png)
 ![MusicBox 应用截图](docs/images/3.png)
 ![MusicBox 应用截图](docs/images/4.png)

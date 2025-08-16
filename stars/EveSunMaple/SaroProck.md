@@ -1,6 +1,6 @@
 ---
 project: SaroProck
-stars: 38
+stars: 41
 description: |-
     我的个人博客！使用 Astro + React
 url: https://github.com/EveSunMaple/SaroProck
@@ -29,6 +29,7 @@ url: https://github.com/EveSunMaple/SaroProck
 - ✅ 自建的博文搜索模块
 - ✅ 使用 XSL 美化的 RSS
 - ✅ 多样的自定义 MDX 组件
+- ✅ 自动生成社交媒体图片
 - ✅ 博文目录侧边栏
 
 ---

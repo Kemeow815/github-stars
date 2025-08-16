@@ -1,6 +1,6 @@
 ---
 project: Jasmine
-stars: 780
+stars: 781
 description: |-
     Jasmine，一款精致的Typecho博客主题
 url: https://github.com/liaocp666/Jasmine

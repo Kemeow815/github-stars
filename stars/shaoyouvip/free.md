@@ -1,6 +1,6 @@
 ---
 project: free
-stars: 194
+stars: 201
 description: |-
     周润发公益免费v2ray节点订阅、翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子、v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费v2ray/clash/singbox节点
 url: https://github.com/shaoyouvip/free
@@ -29,8 +29,8 @@ url: https://github.com/shaoyouvip/free
 
 > base64格式的订阅需要使用这样的方法进行使用！
 > 
-> CTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标，左键点击从剪贴板批量导入URL，即可一键导入所有v2ray节点
-
+> CTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标，左键点击从剪贴板批量导入URL，即可一键导入所有v2ray节点，如出现base64格式的订阅.从剪切版导入不正确，那可以在复制的时候把最后方的时间戳删掉，不要复制到时间戳。
+> <img width="1284" height="445" alt="QQ20250812-034749" src="https://github.com/user-attachments/assets/597da486-3e14-4342-bf50-f6f2c27b3462" />
 
 # 无需代理更新节点订阅
 

@@ -1,6 +1,6 @@
 ---
 project: docsy
-stars: 2791
+stars: 2795
 description: |-
     Hugo theme for open source documentation
 url: https://github.com/google/docsy

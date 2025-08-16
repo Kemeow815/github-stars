@@ -1,6 +1,6 @@
 ---
 project: Typecho-theme-Rinvay
-stars: 39
+stars: 40
 description: |-
     Rinvay.H 主题预览
 url: https://github.com/uouuou/Typecho-theme-Rinvay
