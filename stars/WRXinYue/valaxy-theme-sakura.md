@@ -1,6 +1,6 @@
 ---
 project: valaxy-theme-sakura
-stars: 35
+stars: 37
 description: |-
     A simple, personalized, and cute anime-style blog theme.
 url: https://github.com/WRXinYue/valaxy-theme-sakura
@@ -77,7 +77,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
         'https://wrxinyue-images.s3.bitiful.net/wallpaper/Genshin Impact - Yae Miko (4) Cybust PC.mp4',
         'https://wrxinyue-images.s3.bitiful.net/pc-wallpaper/wallhaven-yxwy7k.jpg'
       ],
-      style: 'filter-dot',
+      style: 'scanline',
     },
   },
 })

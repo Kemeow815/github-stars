@@ -1,6 +1,6 @@
 ---
 project: tmail
-stars: 103
+stars: 104
 description: |-
     临时邮箱 - 匿名的一次性邮箱（无需登录，打开即用）
 url: https://github.com/sunls24/tmail

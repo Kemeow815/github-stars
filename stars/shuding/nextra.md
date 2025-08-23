@@ -1,6 +1,6 @@
 ---
 project: nextra
-stars: 13061
+stars: 13093
 description: |-
     Simple, powerful and flexible site generation framework with everything you love from Next.js.
 url: https://github.com/shuding/nextra

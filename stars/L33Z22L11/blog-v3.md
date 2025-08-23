@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 105
+stars: 110
 description: |-
     My blog, powered by Nuxt Content v3.
 url: https://github.com/L33Z22L11/blog-v3
@@ -37,6 +37,7 @@ url: https://github.com/L33Z22L11/blog-v3
 - [液泡部落格 @VacuolePaoo](https://blog.vacu.top/)
 - [ChinyuanTai @Kindle-deep](https://blog.knlde.top/)
 - [莫言小栈 @661111](https://www.myxz.top/)
+- [落憾 @LuoH-AN](https://blog.enltlh.me/)
 
 ## 特性
 

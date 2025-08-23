@@ -1,6 +1,6 @@
 ---
 project: vitepress-blog-pure
-stars: 250
+stars: 251
 description: |-
     a vitepress theme for blog, demo ↓
 url: https://github.com/airene/vitepress-blog-pure
@@ -65,7 +65,7 @@ vitepress 足够轻量，系统干净，博客主题这块又是空白，所以�
     "type": "module",
     "license": "ISC",
     "devDependencies": {
-        "vitepress": "^1.6.3",
+        "vitepress": "^1.6.4",
         "globby": "^14.1.0",
         "gray-matter": "^4.0.3",
         "fs-extra": "^11.3.0",

@@ -1,6 +1,6 @@
 ---
 project: OneBlog
-stars: 1080
+stars: 1082
 description: |-
     :alien: OneBlog，一个简洁美观、功能强大并且自适应的Java博客 
 url: https://github.com/zhangyd-c/OneBlog

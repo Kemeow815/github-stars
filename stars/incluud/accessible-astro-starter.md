@@ -1,6 +1,6 @@
 ---
 project: accessible-astro-starter
-stars: 988
+stars: 993
 description: |-
     An Accessible Starter Theme for Astro 5+ including accessibility features such as landmarks, better focus-outline and skip-links navigation. Ships with Tailwind 4, Prettier and ESLint support.
 url: https://github.com/incluud/accessible-astro-starter

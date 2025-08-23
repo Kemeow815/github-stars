@@ -1,6 +1,6 @@
 ---
 project: LibreTV-App
-stars: 330
+stars: 360
 description: |-
     LibreTV 跨平台客户端（Android, Windows, Linux, MacOS等），直装免部署
 url: https://github.com/KeyRotate/LibreTV-App

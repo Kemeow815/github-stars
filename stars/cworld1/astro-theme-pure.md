@@ -1,6 +1,6 @@
 ---
 project: astro-theme-pure
-stars: 396
+stars: 420
 description: |-
     ⭐ A simple, fast and powerful blog & document theme built by Astro
 url: https://github.com/cworld1/astro-theme-pure
@@ -8,9 +8,9 @@ url: https://github.com/cworld1/astro-theme-pure
 
 # Astro Theme Pure
 
-[English](./README.md) | [简体中文](./README-zh-CN.md)
+English | [简体中文](./README-zh-CN.md)
 
-A simple, fast and powerful blog theme built by Astro.
+A simple, fast and powerful blog & document theme built by Astro.
 
 [![GitHub deployments](https://img.shields.io/github/deployments/cworld1/astro-theme-pure/production?style=flat&logo=vercel&label=vercel)](https://astro-pure.js.org/)
 [![NPM Version](https://img.shields.io/npm/v/astro-pure?logo=npm&style=flat)](https://www.npmjs.com/package/astro-pure)
@@ -20,10 +20,8 @@ A simple, fast and powerful blog theme built by Astro.
 ![image](./.github/assets/header.webp)
 ![image](./.github/assets/body.webp)
 
-> [!WARNING]
-> Theme template v4.0.2^ CSS engine changed to UnoCSS. Stabler version is [v4.0.1-beta](https://github.com/cworld1/astro-theme-pure/tree/v4.0.1-beta). Known issues:
->
-> 1. Header & customize options is still under development (template exposed still)
+> [!NOTE]
+> Known issues: 1. Header & customize options is still under development (template exposed still). 2. Theme template v4.0.5^ UnoCSS preset changed to PresetMini. If there's any problem, please report as issue.
 
 ## Introduction
 
@@ -45,7 +43,7 @@ Checkout [Demo Site →](https://astro-pure.js.org/)
 
 Theme includes a lot of components, which can not only be used in the theme, but also in other astro projects.
 
-> For other astro projects, UnoCSS is required.
+> For other astro projects, UnoCSS is required. See [Package README](https://github.com/cworld1/astro-theme-pure/blob/main/packages/pure/README.md#use-with-common-astro-project) for more details.
 
 - Basic components: `Aside`, `Tabs`, `Timeline`, `Steps`, `Spoiler`...
 - Advanced components: `GithubCard`, `LinkPreview`, `Quote`, `QRCode`...
@@ -103,6 +101,8 @@ To spend more time coding and less time fiddling with whitespace, this project u
 - [Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus)
 - [Astro Resume](https://github.com/srleom/astro-theme-resume)
 - [Starlight](https://github.com/withastro/starlight)
+
+Other third party references are on [Docs#Contributions](https://astro-pure.js.org/docs/advanced/thanks). Appreciate for all open source libraries.
 
 ## License
 

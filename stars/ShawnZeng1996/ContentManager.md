@@ -1,6 +1,6 @@
 ---
 project: ContentManager
-stars: 19
+stars: 20
 description: |-
     Typecho内容扩展插件，支持🎬电影、📚书籍、🛍️我的好物的管理。电影、书籍支持从豆瓣导入信息，本地化存储。
 url: https://github.com/ShawnZeng1996/ContentManager

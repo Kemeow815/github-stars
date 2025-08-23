@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-reimu
-stars: 139
+stars: 141
 description: |-
     一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hugo-theme-reimu
@@ -79,7 +79,7 @@ A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://githu
 
 ### 导航与结构
 
-- 📑 目录导航（TOC）
+- 📑 目录导航
 - 🔄 PJAX 支持
 - 🔧 ServiceWorker 实现
 - 📰 RSS 订阅
@@ -88,7 +88,7 @@ A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://githu
 
 - 🎨 图标支持：
   - Iconfont
-  - FontAwesome
+  - FontAwesome7
 - 🔗 自定义短代码：
   - 内部链接
   - 外部链接
@@ -264,6 +264,44 @@ banner: "images/banner.webp"
 #### Favicon
 
 favicon 保存于 `themes/hugo-theme-reimu/static/favicon.ico`，可自行覆盖替换
+
+</details>
+<details>
+<summary>页脚</summary>
+
+### 页脚
+
+#### 基础信息
+
+页脚部分允许您配置基本显示信息和统计数据
+
+```yaml
+footer:
+  since: 2020 # 在版权信息中显示的起始年份（例如：2020-当前年份）
+  powered: true # 是否显示版权信息
+  count: true # 是否显示字数统计和阅读时间信息
+  busuanzi: true # 是否启用不蒜子访客统计功能
+```
+
+#### ICP 备案
+
+对于托管在中国大陆的网站，可以根据法规要求显示ICP备案信息
+
+```yml
+icp:
+  icpnumber: # ICP备案号
+  beian: # 网安备案号
+  recordcode: # 网安备案链接中的recordcode参数
+```
+
+#### 萌国 ICP 备案 (v0.12.1+)
+
+[萌国 ICP 备案](https://icp.gov.moe/)
+
+```yml
+moe_icp:
+  icpnumber: # 萌国ICP备案号
+```
 
 </details>
 <details>
@@ -733,6 +771,15 @@ sponsor: true # 是否展示赞助二维码？
 
 使用Aplayer + Meting（可选）默认关闭
 
+##### 音乐播放器位置（v0.12.1+）
+
+默认在 sidebar 之后
+
+```yml
+player:
+  position: before_sidebar # before_sidebar / after_sidebar / after_widget
+```
+
 ##### 纯Aplayer
 
 将 `player.aplayer.enable` 设置为 `true`，并在 `player.aplayer.options` 中参考 [Aplayer Docs](https://aplayer.js.org/#/home?id=options) 进行配置
@@ -783,15 +830,6 @@ player:
       auto:
 ```
 
-#### Pangu 自动分割
-
-默认关闭，自动替你在文章中所有的中文字和半形的英文、数字、符号之间插入空白。
-
-```yml
-pangu:
-  enable: false
-```
-
 #### 分享链接/卡片（v0.5.0+）
 
 默认关闭，目前支持 `facebook`、`twitter`、`linkedin`、`reddit`、`weibo`、`qq`、`weixin`。
@@ -821,6 +859,29 @@ home_categories:
       cover: # 卡片封面，不填则使用随机封面
     - categories:
       cover:
+```
+
+#### 注入器（v0.6.3+）
+
+用于注入自定义代码，其效果和 [Hexo#Injector](https://hexo.io/api/injector) 类似，支持 `head`、 `body` 和 `sidebar` 注入
+
+```yaml
+injector:
+  head_begin: # 在 <head> 标签后注入代码
+  head_end: # 在 </head> 标签前注入代码
+  body_begin: # 在 <body> 标签后注入代码
+  body_end: # 在 </body> 标签前注入代码
+  sidebar_begin: # 在 <aside> 标签后注入代码
+  sidebar_end: # 在 </aside> 标签前注入代码
+```
+
+#### Pangu 自动分割 （v0.7.0+）
+
+默认关闭，自动替你在文章中所有的中文字和半形的英文、数字、符号之间插入空白。
+
+```yml
+pangu:
+  enable: false
 ```
 
 </details>
@@ -854,7 +915,7 @@ home_categories:
 
 其中第一个参数为文章的标题；第二个参数为文章的外部链接，第三个参数（可选）为卡片展示的封面，如果设置为 `auto` 则自动使用缺省封面
 
-#### heatMapCard 文章热力图 (v0.8.0+ 实验性功能)
+#### heatMapCard 文章热力图 (v0.8.0+)
 
 ```yaml
 {{< heatMapCard levelStandard="?" >}}
@@ -862,7 +923,7 @@ home_categories:
 
 其中第一个参数为热力图的等级标准（按照文章字数分级），默认为 `"1000,5000,10000"`
 
-#### tagRoulette 标签轮盘 (v0.12.0+ 实验性功能)
+#### tagRoulette 标签轮盘 (v0.12.0+)
 
 ```yaml
 {{< tagRoulette tags="?" icon="?" >}}

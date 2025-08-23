@@ -1,6 +1,6 @@
 ---
 project: yuque-vitepress
-stars: 43
+stars: 44
 description: |-
     语雀 + Elog + VitePress + GitHub Actions + Vercel 文档站点解决方案
 url: https://github.com/elog-x/yuque-vitepress

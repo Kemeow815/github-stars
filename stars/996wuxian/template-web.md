@@ -1,6 +1,6 @@
 ---
 project: template-web
-stars: 46
+stars: 56
 description: |-
     个人网站模板，使用Nextjs(React)开发
 url: https://github.com/996wuxian/template-web
@@ -128,11 +128,11 @@ pnpm 版本: 8.8.0
 
 1. 创建一个 vercel 账号(vercel 官网:https://vercel.com/)
 2. 连接你的 github 仓库
-3. 配置环境变量
-4. 部署
-5. 创建一个 neon 数据库(neon 官网:https://neon.com/)
+3. vercel 创建一个 neon 数据库(neon 官网:https://neon.com/)
+4. neon 数据库和项目连接
+5. 部署
 6. 配置数据库连接字符串到 vercel 的环境变量中(一般将数据库跟项目进行连接后，重新部署就可以有环境变量了)
-7. 将 DIRECT_URL 也补充到环境变量中
+7. 将 DIRECT_URL(即 neon 数据库的连接字符串) 也补充到环境变量中
 8. 配置域名说明文档:https://vercel.com/docs/domains/working-with-domains/add-a-domain#ip-diff-alerts
 
 ## Prisma 连接说明

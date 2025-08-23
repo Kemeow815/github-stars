@@ -1,6 +1,6 @@
 ---
 project: pastebin-ui
-stars: 7
+stars: 8
 description: |-
     💼内容中转站，仅仅依靠CF worker以及KV即可运行，无需R2存储桶，轻量级
 url: https://github.com/willow-god/pastebin-ui

@@ -1,6 +1,6 @@
 ---
 project: afilmory
-stars: 1245
+stars: 1262
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/afilmory

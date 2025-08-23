@@ -1,6 +1,6 @@
 ---
 project: TrendRadar
-stars: 2126
+stars: 2194
 description: |-
     🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，一键监控今日头条、百度热搜、微博、抖音、知乎、B站等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram推送，30秒网页部署，1分钟手机通知，无需编程基础。也支持docker私人部署⭐ 让算法为你服务，而非被算法绑架
 url: https://github.com/sansan0/TrendRadar

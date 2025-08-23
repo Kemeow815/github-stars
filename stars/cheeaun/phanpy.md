@@ -1,6 +1,6 @@
 ---
 project: phanpy
-stars: 1305
+stars: 1308
 description: |-
     A minimalistic opinionated Mastodon web client
 url: https://github.com/cheeaun/phanpy
@@ -134,6 +134,7 @@ Prerequisites: Node.js 20+
 - `npm run fetch-instances` - Fetch instances list from [joinmastodon.org/servers](https://joinmastodon.org/servers), save it to `src/data/instances.json`
 - `npm run sourcemap` - Run `source-map-explorer` on the production build
 - `npm run messages:extract` - Extract messages from source files and update the locale message catalogs
+- `npm run git:po-filter` - Configure `git` to use `po-filter` for diffing `.po` files
 
 ## Tech stack
 

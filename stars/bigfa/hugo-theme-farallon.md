@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-farallon
-stars: 56
+stars: 55
 description: |-
     ✒️ single column hugo theme
 url: https://github.com/bigfa/hugo-theme-farallon
@@ -23,6 +23,28 @@ echo "theme = 'farallon'" >> hugo.toml
 [Full demo site](https://github.com/bigfa/bigfa.github.io)
 
 ## Release Notes
+
+### 0.7.6
+
+-   add custom pagination
+
+### 0.7.5
+
+-   fixed category archive cover link error
+-   add link shortcode
+
+### 0.7.4
+
+-   style enhancement
+-   fixed pagination error
+-   fixed permalink error
+
+### 0.7.3
+
+-   fixed avatar logo error in memo post
+-   change summary longth
+-   style enhancement
+-   make remote term cover url compatible
 
 ### 0.7.2
 

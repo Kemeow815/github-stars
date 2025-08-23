@@ -67,7 +67,7 @@ ZrLog是使用 Java 开发的博客/CMS程序，具有简约，易用，组件�
 
 * 数据初始化
     * 下载 [最新 zip](https://www.zrlog.com/download) 解压，运行 bin/start.sh 或者是 bin/start.bat
-    * 访问 http://host:port/install
+    * 访问 `http://host:port/install`
     * 填写数据库，管理员信息，完成安装
 
 ### 变更日志

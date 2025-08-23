@@ -1,6 +1,6 @@
 ---
 project: Moment
-stars: 45
+stars: 44
 description: |-
     Modern photo album blog that supports self-hosting, developed based on Vue and Naive UI and FastAPI.支持自托管的现代化相册博客，基于Vue、Naive UI和FastAPI开发。
 url: https://github.com/Robert-Stackflow/Moment

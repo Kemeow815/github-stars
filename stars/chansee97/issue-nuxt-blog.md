@@ -1,6 +1,6 @@
 ---
 project: issue-nuxt-blog
-stars: 12
+stars: 11
 description: |-
     null
 url: https://github.com/chansee97/issue-nuxt-blog

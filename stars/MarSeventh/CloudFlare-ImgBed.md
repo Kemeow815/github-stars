@@ -1,6 +1,6 @@
 ---
 project: CloudFlare-ImgBed
-stars: 2810
+stars: 2859
 description: |-
     Open-source file hosting solution based on CloudFlare  (Image hosting/File storage/Cloud drive) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）
 url: https://github.com/MarSeventh/CloudFlare-ImgBed

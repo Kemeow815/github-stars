@@ -1,6 +1,6 @@
 ---
 project: MusicBox
-stars: 69
+stars: 104
 description: |-
     一款高颜值、插件化的本地音乐播放器
 url: https://github.com/asxez/MusicBox
@@ -17,12 +17,13 @@ url: https://github.com/asxez/MusicBox
     <!-- <a href="#-特性"><strong>✨ 查看特性</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp; -->
     <a href="#-安装"><strong>📦下载安装</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-开发"><strong>🛠️开发指南</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-插件开发"><strong>🔧为MusicBox开发（安装）插件</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-插件开发"><strong>🔧为MusicBox安装（开发）插件</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-相关截图"><strong>📌相关截图</strong></a>
     <br />
   </p>
 </p>
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/asxez/MusicBox)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](#-安装)
 [![Electron](https://img.shields.io/badge/Electron-31.0.0-47848f.svg)](https://electronjs.org/)
@@ -36,6 +37,7 @@ url: https://github.com/asxez/MusicBox
 - 项目灵感来源于 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 的设计美学。
 
 ## ✨ 特性
+
 - 💻️ 支持 Windows / macOS / Linux
 - ✅ 支持flac, mp3, wav, ogg, m4a, aac, wma等多种音乐格式
 - 🔧 强大的插件系统（允许在插件中实现任何功能，高权限）
@@ -52,6 +54,7 @@ url: https://github.com/asxez/MusicBox
 - 🛠️ 更多特性开发中
 
 ## 📔 TODOS
+
 ✅已完成，❌未完成，🔄部分完成，❓待定
 
 - ✅ 局内/全局快捷键
@@ -68,10 +71,9 @@ url: https://github.com/asxez/MusicBox
 - ✅ 自定义音乐库歌曲信息
 - ✅ 自定义歌单 
 - ✅ 无间隙播放
-- ✅ 插件系统
+- ✅ 插件系统 
+- ✅ MusicBox 实时状态接口
 - ❌ 歌词逐字
-- ❌ MusicBox 实时状态接口
-- ❌ 更多快捷键支持（快进回退...）
 - ❌ 修复播放列表存在的问题
 - ❌ 歌词样式调整
 - 🔄 更多其他特性
@@ -206,8 +208,9 @@ Q: 如何使用插件？
 
 A：设置中打开插件管理，导入插件即可，目前只支持单个的 JS 文件。
 
-[主题切换器-示例插件](src/renderer/src/js/plugin-system/examples/ThemeSwitcherPlugin.js)
-
+- [主题切换器-示例插件](src/renderer/src/js/plugin-system/examples/ThemeSwitcherPlugin.js) 描述：提供多种预设主题，支持实时切换
+- [MusicBox实时状态接口](src/renderer/src/js/plugin-system/examples/RealtimeStatusAPIPlugin.js) 描述：提供 HTTP 接口获取 MusicBox 实时状态信息
+- [背景图修改器](src/renderer/src/js/plugin-system/examples/BackgroundModifyPlugin.js) 描述：可修改应用的背景图片，支持单张图片和文件夹
 
 ## 🤝 贡献
 

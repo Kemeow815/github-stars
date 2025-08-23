@@ -1,6 +1,6 @@
 ---
 project: BiliTools
-stars: 3278
+stars: 3341
 description: |-
     A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源
 url: https://github.com/btjawa/BiliTools
@@ -11,145 +11,110 @@ url: https://github.com/btjawa/BiliTools
 
 <h1>BiliTools - 哔哩哔哩工具箱</h1>
 
-<div>
-<a href="https://github.com/btjawa/BiliTools/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/btjawa/BiliTools" />
-</a>
-<a href="https://github.com/btjawa/BiliTools/forks" target="_blank">
-    <img src="https://img.shields.io/github/forks/btjawa/BiliTools" />
-</a>
-<img src="https://img.shields.io/github/last-commit/btjawa/BiliTools" />
-<a href="https://github.com/btjawa/BiliTools/blob/master/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/btjawa/BiliTools" />
-</a>
-<a href="https://github.com/btjawa/BiliTools/releases/latest" target="_blank">
-    <img src="https://img.shields.io/github/v/release/btjawa/BiliTools" />
-</a>
-</div>
-
 <a href="https://trendshift.io/repositories/13286" target="_blank">
-    <img src="https://trendshift.io/api/badge/repositories/13286" alt="btjawa%2FBiliTools | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/13286" alt="btjawa%2FBiliTools | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
 </a>
+
+<div>
+<a href="https://github.com/btjawa/BiliTools/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/btjawa/BiliTools" /></a>
+<a href="https://github.com/btjawa/BiliTools/forks" target="_blank"><img src="https://img.shields.io/github/forks/btjawa/BiliTools" /></a>
+<a href="https://github.com/btjawa/BiliTools/actions/workflows/release.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/btjawa/BiliTools/release.yml" /></a>
+<a href="https://github.com/btjawa/BiliTools/releases/latest" target="_blank"><img src="https://img.shields.io/github/v/release/btjawa/BiliTools" /></a>
+<a href="https://github.com/btjawa/BiliTools/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/btjawa/BiliTools" /></a>
+</div>
 
 简体中文 | [English](./README_EN.md) | [日本語](./README_JA.md) | [ChangeLog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 </div>
 
 <hr />
 
-💡 基于 [Tauri v2](https://github.com/tauri-apps/tauri) 构建，支持下载解析哔哩哔哩各类资源，将会陆续支持 [更多功能](https://github.com/users/btjawa/projects/4)
+💡 一个简约、轻量的哔哩哔哩工具箱，基于 [Tauri](https://github.com/tauri-apps/tauri) 构建。
 
-📖 文档 / 其他信息：[https://www.btjawa.top/bilitools](https://www.btjawa.top/bilitools) 
+- 📖 使用文档：[https://docs.btjawa.top](https://docs.btjawa.top) 
 
-> [!IMPORTANT] 
-> 本项目的所有 [声明](#声明)，仅适用于发布在 [Release](https://github.com/btjawa/BiliTools/releases/latest) 页的官方版本<br>
-> 不建议使用 **在任何第三方平台下载的版本**，我们对此所造成的任何后果概不负责<br>
-> **大会员 / 付费** 内容解析仅支持已开通对应服务的账号，普通账号无法解析此类内容<br>
+- 🧾 其他信息：[https://btjawa.top/bilitools](https://btjawa.top/bilitools)
 
-## 💾 安装指南
+- 🚀 下载页：[Releases](https://github.com/btjawa/BiliTools/releases)
 
-要求 Windows 版本 >= **8.1**，macOS 版本 >= **11.0**
+安装说明、使用向导与常见问题等，请参见文档
 
-对于低于上述版本的系统环境，不会提供任何支持
+| 暗色 | 亮色 |
+| -------------------------- | ---------------------------- |
+| ![Dark](./assets/dark.png) | ![Light](./assets/light.png) |
 
-### Windows
+> [!IMPORTANT]
+> 本项目基于用户账号解析资源，因此你需要订阅大会员、或是购买对应内容后才能解析对应资源
 
-下载 `BiliTools_xxx_x64-setup.exe` 并进行安装
 
-若卡在安装 `WebView2`，可前往 [Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2) 手动安装
- 
-### macOS
+## 🧪 支持功能
 
-下载 `BiliTools_xxx_universal.dmg` 并进行安装
-
-**一般**不建议单独下载对应架构的镜像，参考 [#26](https://github.com/btjawa/BiliTools/issues/26#issuecomment-2785410137)
-
-## 🚀 参与贡献
-
-> [!TIP]
-> ### 目前该项目缺少维护者。为支持项目稳步前进，我们需要你的力量！
-> 本项目当前由 [我](https://github.com/btjawa) 一人维护：
->
-> - **我本人是初中生，时间并不多**
-> - 个人能力有限，我也清楚有很多漏洞尚未修复
-
-欢迎各位为本项目做出贡献，让本项目变得更好！
-
-请参考 [Contributing](./CONTRIBUTING.md) 进行贡献~
-
-如果你是使用者：
-- 参考 [Contributing](./CONTRIBUTING.md) 中的 *Issue 与 Discussion* 部分进行提交
-- **注意区分 Issues 与 Discussions 的用途**
-- **尊重他人的劳动成果**
-
-## 🧪 功能
-
-### 资源解析
-
-| 功能    | 状态    | 备注                      |
+| 资源解析 | 状态    | 备注                      |
 |---------|---------|---------------------------|
 | 视频    | ✅ 已完成 | <ul><li>支持合集 / 分P / 互动、番剧 / 课程 / 电影</li><li>支持 DASH、MP4、FLV</li><li>支持 4K、8K、HDR、杜比视界</li></ul> |
-| 音频    | ✅ 已完成 | <ul><li>支持 AVC、HEVC、AV1</li><li>支持 杜比、Hi-Res</li></ul> |
-| 音乐    | ✅ 已完成 | <ul><li>支持无损 FLAC、320Kbps 音乐 / 歌单</li></ul> |
-| 历史弹幕 | ✅ 已完成 | <ul><li>ASS 字幕格式</li><li>ProtoBuf 解析方式</li></ul> |
-| 实时弹幕 | ✅ 已完成 | <ul><li>ASS 字幕格式</li><li>XML、ProtoBuf 解析方式</li></ul> |
-| 封面    | ✅ 已完成 | 支持番剧 / 电影海报等等 |
+| 音频    | ✅ 已完成 | <ul><li>支持 AVC、HEVC、AV1</li><li>支持 杜比全景声、Hi-Res</li></ul> |
+| 命名格式 | ✅ 已完成 | <ul><li>支持自定义顶层文件夹、子文件夹、文件名格式</li><li>支持自定义时间格式</li></ul> |
+| 实时弹幕 | ✅ 已完成 | <ul><li>ASS / XML 格式</li><li>可解析弹幕池中几乎所有弹幕</li></ul> |
+| 历史弹幕 | ✅ 已完成 | ASS / XML 格式 |
+| 音乐    | ✅ 已完成 | 支持无损 FLAC、320Kbps 音乐 / 歌单 |
+| 封面    | ✅ 已完成 | 支持番剧 / 电影海报 / 合集封面 / 课程预览等等 |
 | 字幕    | ✅ 已完成 | SRT 格式 |
-| AI总结  | ✅ 已完成 | Markdown格式，**来自哔哩哔哩 `AI 小助手`**<br>*由Shanghai-Bilibili index-20231207大模型提供技术支持* |
 | 收藏夹  | ✅ 已完成 | FID 号解析 |
-| 元数据  | ✅ 已完成 | 封面、标题、简介、UP主、上传时间、TAGS |
-| NFO    | ⚠️ 进行中 | 优先适配 `Emby` |
+| NFO刮削 | ✅ 已完成 | 合集/剧集刮削、单集刮削 |
+| 元数据  | ✅ 已完成 | 音频文件支持写入基本元数据 |
+| AI总结  | ✅ 已完成 | Markdown格式，来自哔哩哔哩 `AI 小助手` |
 
-### 登录 & 验证相关
+| 登录 & 验证    | 状态       | 杂项      | 状态      |
+|----------------|-----------|-----------|-----------|
+| 扫码登录        | ✅ 已完成 | 监听剪切板 | ⚠️ 开发中 |
+| 密码登录        | ✅ 已完成 | 历史记录   | ⚠️ 开发中 |
+| 短信登录        | ✅ 已完成 | 明暗主题   | ✅ 已完成 |
+| 自动刷新登录状态 | ✅ 已完成 | HTTP 代理  | ✅ 已完成 |
+| 参数签名        | ✅ 已完成 | 过滤 PCDN  | ✅ 已完成 |
+| 风控验证        | ✅ 已完成 | 音频转 MP3 | ✅ 已完成 |
+| 指纹验证        | ✅ 已完成 | 并发处理   | ✅ 已完成 |
 
-| 功能           | 状态       |
-|----------------|------------|
-| 扫码登录        | ✅ 已完成 |
-| 密码登录        | ✅ 已完成 |
-| 短信登录        | ✅ 已完成 |
-| 自动刷新登录状态 | ✅ 已完成 |
-| 参数签名        | ✅ 已完成 |
-| 风控验证        | ✅ 已完成 |
-| 指纹验证        | ✅ 已完成 |
+## 🛠️ 参与贡献
 
-## 🌎 I18N - 国际化
+> [!TIP]
+> 本项目将于 `v1.4.0` 正式版发布后进入稳定状态，暂缓更新。
 
-**简体中文 (zh-CN)** 是最主要维护的语言，同时作为其他语言的翻译源。
+欢迎各位为本项目做出贡献，让本项目变得更好！请参考 [Contributing](./CONTRIBUTING.md) 进行贡献~
+
+在提交 Issue 时，请提供足够的信息，以便于维护者分析并解决你的问题
+
+## 🌎 多语言支持
+
+我们主要维护 **简体中文 (zh-CN)**，同时该语言将作为其他语言的翻译源
 
 | 代码           | 状态       |
 |----------------|-----------|
 | zh-CN          | ✅ 已完成 |
 | zh-HK          | ✅ 已完成 |
-| ja-JP          | ✅ 已完成 |
-| en-US          | ✅ 已完成 |
+| en-US          | ⚠️ ~90% |
+| ja-JP          | ⚠️ ~70% |
 
 ## ⚡ 赞助
 
-项目已达到 2k Stars，希望大家多多支持！
+如果你喜欢，并想助力这个项目，请考虑到 [爱发电](https://afdian.com/a/BTJ_Shiroi) 请我喝杯咖啡~
 
-目前正在开发 `v1.3.8` ~ `v1.4.0`，届时会有大量更新
-
-如果你喜欢，并想助力这个项目，可以考虑请我喝杯咖啡~
-
-- [爱发电](https://afdian.com/a/BTJ_Shiroi)
-
-你的支持将是我持续维护的一大动力！
+你的支持将是 [我](https://github.com/btjawa) 持续维护的一大动力！
 
 ## 💫 鸣谢
 
 <a href="https://github.com/btjawa/BiliTools/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=btjawa/BiliTools" />
+  <img src="https://contrib.rocks/image?repo=btjawa/BiliTools&max=100" />
 </a>
 
 <br />
 
-- [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 部分接口请求规范参考
+- [tauri](https://github.com/tauri-apps/tauri) Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
 
-- [aria2](https://github.com/aria2/aria2) 用于多线程高效下载数据
+- [aria2](https://github.com/aria2/aria2) aria2 is a lightweight multi-protocol & multi-source, cross platform download utility.
+- [FFmpeg](https://git.ffmpeg.org/ffmpeg.git) FFmpeg is a collection of libraries and tools to process multimedia content.
+- [DanmakuFactory](https://github.com/hihkm/DanmakuFactory) 支持特殊弹幕的xml转ass格式转换工具
+- [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 哔哩哔哩-API收集整理
 
-- [ffmpeg](https://git.ffmpeg.org/ffmpeg.git) 用于混流与其他媒体处理
-
-- [DanmakuFactory](https://github.com/hihkm/DanmakuFactory) 用于将 XML 转换为 ASS 字幕
-
+- [Vercel](https://github.com/vercel/vercel) Develop. Preview. Ship.
 
 <a href="https://www.star-history.com/#btjawa/BiliTools&Date" alt="Star History Chart">
 <picture>
@@ -170,15 +135,27 @@ url: https://github.com/btjawa/BiliTools
 
 ## 声明
 
-- 本项目遵守 [GPL-3.0-or-later](/LICENSE) 开源协议，免费开源，任何形式的二次分发必须 **继续开源、遵守相同协议、保留原作者及版权信息**。
-- 本项目因其特殊性，使用者需 **自行承担相关风险**，项目作者对任何因 **不当使用、滥用等** 所造成的任何后果 **概不负责**。
+> [!IMPORTANT]
+> 本项目遵守 [GPL-3.0-or-later](/LICENSE) 开源协议，免费开源：<br>
+> **任何形式的二次分发必须继续开源、遵守相同协议、保留原作者及版权信息**
 
-- 本项目旨在学习与研究技术，**使用需遵守相关法律法规，切勿滥用**。
-- 本项目仅请求已获访问权限的在线资源，无绕过校验、破解付费资源等等行为。
+<hr />
+
+本项目旨在学习技术与测试代码，**使用者需自行承担风险，切勿滥用！**
+
+- 任何个体将本项目用于 **任何违法、侵权或恶意用途，或滥用及造成不良影响** 的：
+  - **一切责任与后果与 [本人](https://github.com/btjawa) 无关，概不负责**
+- 本项目 **开源免费**，本人未从中获得经济收益
+- 本项目不会绕过身份验证机制、破解付费资源或实施其他非法行为
 - 本项目产生与获取的所有数据将使用 `SQLite` 格式明文存储于用户本地：
 
 > Windows: `%AppData%\com.btjawa.bilitools`<br>
 > macOS: `$HOME/Library/Application Support/com.btjawa.bilitools`<br>
 > Linux: `$HOME/.local/share/com.btjawa.bilitools`
 
-- 如有侵权，可随时 [联系](mailto:2407356083@qq.com) 处理。
+- “哔哩哔哩” 及 “Bilibili”名称、LOGO及相关图形是上海宽娱数码科技有限公司的注册商标或商标。
+- 本项目与哔哩哔哩及其关联公司无任何隶属、合作或授权关系。
+- 使用本项目获取的内容，其版权归原权利人所有，请遵守相关法律法规及平台服务协议。
+- 本项目中引用的哔哩哔哩相关名称及标识仅用于功能说明与识别目的，不构成对该商标或品牌的背书或授权。
+- 如有侵权，可随时 [联系](mailto:btj2407@gmail.com) 处理。
+

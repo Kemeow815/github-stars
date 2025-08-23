@@ -1,6 +1,6 @@
 ---
 project: vercount
-stars: 201
+stars: 202
 description: |-
     Busuanzi Compatible Website Counter Powered by Vercel + Redis
 url: https://github.com/EvanNotFound/vercount

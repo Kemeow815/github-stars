@@ -1,6 +1,6 @@
 ---
 project: FlareDrive-R2
-stars: 57
+stars: 60
 description: |-
     😁基于cloudflare-r2实现的网盘，可以实现文件分享功能
 url: https://github.com/willow-god/FlareDrive-R2

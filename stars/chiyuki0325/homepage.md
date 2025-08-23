@@ -1,6 +1,6 @@
 ---
 project: homepage
-stars: 4
+stars: 3
 description: |-
     🌟 My homepage!
 url: https://github.com/chiyuki0325/homepage

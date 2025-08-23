@@ -1,6 +1,6 @@
 ---
 project: pansou-web
-stars: 1
+stars: 2
 description: |-
     😃清羽飞扬盘搜前端仓库，后端基于Fish2018/Pansou后端
 url: https://github.com/willow-god/pansou-web
@@ -10,14 +10,14 @@ url: https://github.com/willow-god/pansou-web
 
 🚀 镜像集成Pansou前后端，开箱即用。
 
-[![Multi-Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-blue)](https://github.com/fish2018/pansou-web)
+[![Multi-Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-blue)](https://github.com/willow-god/pansou-web)
 
 ## 快速开始
 
 ### 一键启动
 
 ```bash
-docker run -d --name pansou -p 80:80 ghcr.io/fish2018/pansou-web
+docker run -d --name pansou -p 80:80 willowgod/pansou-web
 ```
 
 访问：http://localhost
@@ -26,7 +26,7 @@ docker run -d --name pansou -p 80:80 ghcr.io/fish2018/pansou-web
 
 ```bash
 # 下载配置文件
-curl -o docker-compose.yml https://raw.githubusercontent.com/fish2018/pansou-web/main/docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/willowgod/pansou-web/main/docker-compose.yml
 
 # 启动服务
 docker-compose up -d
@@ -91,7 +91,7 @@ docker run -d \
   -p 80:80 \
   -e DOMAIN=yourdomain.com \
   -v pansou-data:/app/data \
-  ghcr.io/fish2018/pansou-web
+  willowgod/pansou-web
 ```
 
 #### 完整配置（代理+自定义）
@@ -103,7 +103,7 @@ docker run -d \
   -e SOCKS5_PROXY=socks5://127.0.0.1:1080 \
   -e CHANNELS=tgsearchers2,yunpanxunlei,BaiduCloudDisk \
   -v pansou-data:/app/data \
-  ghcr.io/fish2018/pansou-web
+  willowgod/pansou-web
 ```
 
 > 🚀 **开箱即用**: 镜像已内置69个频道和性能配置，仅需配置代理即可访问受限地区的Telegram站点。
@@ -149,6 +149,6 @@ docker restart pansou
 docker stop pansou
 
 # 更新镜像
-docker pull ghcr.io/fish2018/pansou-web && docker restart pansou
+docker pull willowgod/pansou-web && docker restart pansou
 ```
 

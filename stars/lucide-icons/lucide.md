@@ -1,6 +1,6 @@
 ---
 project: lucide
-stars: 18578
+stars: 18673
 description: |-
     Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
 url: https://github.com/lucide-icons/lucide
@@ -64,6 +64,12 @@ Visit [Figma community page](https://www.figma.com/community/plugin/939567362549
 For more info on how to contribute please see the [contribution guidelines](https://github.com/lucide-icons/lucide/blob/main/CONTRIBUTING.md).
 
 Caught a mistake or want to contribute to the documentation? [Edit this page on Github](https://github.com/lucide-icons/lucide/blob/main/README.md)
+
+## About brand logos
+
+Lucide **does not accept** brand logos, and we do not plan to add them in the future. This is due to a combination of **legal restrictions**, **design consistency concerns**, and **practical maintenance reasons**.
+
+[Click here to read our official statement about brand logos in Lucide.](./BRAND_LOGOS_STATEMENT.md)
 
 ## Community
 

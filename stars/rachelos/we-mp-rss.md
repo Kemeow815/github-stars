@@ -1,8 +1,8 @@
 ---
 project: we-mp-rss
-stars: 990
+stars: 1042
 description: |-
-    高效订阅微信公众号，微信公众号订阅，更新最新文章，并生成RSS书签，支持Webhook/API接入
+    ✨符合阅读习惯的微信公众号助手、微信公众号转MarkDown、微信公众号转PDF、定时更新订阅公众号文章、生成微信公众号RSS订阅源、导出微信公众号订阅源、支持微信公众号Webhook/微信公众号API/AI Agent接入微信公众号微信公众号、订阅微信公众号、微信公众号助手 、微信公众号阅读、微信公众号接口、微信公众号爬虫、微信公众号监测、标签订阅微信公众号、微信公众号源、微信公众号读书、微信公众号文章、微信公众号框架、微信公众号管理、微信公众号源、微信公众号平台、微信公众号代码、微信公众号系统、微信公众号源码
 url: https://github.com/rachelos/we-mp-rss
 ---
 
@@ -96,6 +96,10 @@ docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  docker.1ms.ru
 
 ## 安装指南
 
+# 二次开发
+## 环境需求
+- Python>=3.13.1
+- Node>=20.18.3
 ### 后端服务
 
 1. 克隆项目
@@ -115,8 +119,28 @@ pip install -r requirements.txt
 cp config.example.yaml config.yaml
 copy config.example.yaml config.yaml
 ```
+3. 启动服务
+```bash
+python main.py -job True -init True
+```
 
-### 环境变量配置
+## 前端开发
+1. 安装前端依赖
+```bash
+cd we-mp-rss/web_ui
+yarn install
+```
+
+2. 启动前端服务
+```bash
+yarn dev
+```
+3. 访问前端页面
+```
+http://localhost:3000
+```
+
+# 环境变量配置
 
 以下是 `config.yaml` 中支持的环境变量配置：
 
@@ -168,13 +192,13 @@ copy config.example.yaml config.yaml
 | `EXPORT_MARKDOWN` | `False` | 是否启用markdown导出功能 |
 | `EXPORT_MARKDOWN_DIR` | `./data/markdown` | markdown导出目录 |
 
-## 使用说明
+# 使用说明
 
 1. 启动服务后，访问 `http://<您的IP>:8001` 进入管理界面。
 2. 使用微信扫码授权后，即可添加和管理订阅。
 3. 定时任务会自动更新内容，并生成RSS订阅链接。
 
-## 常见问题
+# 常见问题
 
 - **如何修改数据库连接？**
   在 `config.yaml` 中修改 `db` 配置项，或通过环境变量 `DB` 覆盖。

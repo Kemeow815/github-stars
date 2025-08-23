@@ -1,6 +1,6 @@
 ---
 project: afnizarnur.com
-stars: 10
+stars: 9
 description: |-
     My personal site handcrafted with Astro and hosted in Netlify. 
 url: https://github.com/afnizarnur/afnizarnur.com
