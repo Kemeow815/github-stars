@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 82
+stars: 83
 description: |-
     🚀 2025 Most Popular FREE Blog Template! Next.js 14, Zero Code - Just Write & Deploy | 2025最火免费博客模板！支持Markdown，一键部署，极致性能！⚡️ ✨ Write in Markdown, get your professional blog in minutes. Custom domain & comments ready! | 写Markdown即可，快速部署，支持自定义域名和评论，无需代码！geekskai.com/
 url: https://github.com/geekskai/blog
@@ -248,6 +248,8 @@ EMAILOCTOPUS_LIST_ID=
 # Create Beehive API key at https://developers.beehiiv.com/docs/v2/bktd9a7mxo67n-create-an-api-key
 BEEHIVE_API_KEY=
 BEEHIVE_PUBLICATION_ID=
+
+NEXT_PUBLIC_OPENWEATHER_API_KEY=
 ```
 
 - Netlify: [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/geekskai/blog)

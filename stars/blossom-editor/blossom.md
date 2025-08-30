@@ -1,6 +1,6 @@
 ---
 project: blossom
-stars: 3595
+stars: 3603
 description: |-
     A markdown editor that you can deploy on your own servers to achieve cloud storage and device synchronization（支持私有部署的云端存储双链笔记软件）
 url: https://github.com/blossom-editor/blossom
@@ -60,6 +60,12 @@ Blossom 拥有丰富的功能，不仅仅是知识管理，更是一个可以供
 ```
 docker compose -f docker/compose/blossom-mysql8.yaml up -d
 ```
+
+<br/><br/>
+
+# 🛠️ 拓展工具
+
+[为知笔记迁移Blossom工具](https://github.com/kidultff/wiz2blossom)
 
 <br/><br/>
 

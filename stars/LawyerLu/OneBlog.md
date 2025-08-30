@@ -1,6 +1,6 @@
 ---
 project: OneBlog
-stars: 223
+stars: 224
 description: |-
     【免费开源】Typecho文字博客主题：OneBlog 一款简约清新文艺的写作记录类单栏主题
 url: https://github.com/LawyerLu/OneBlog
@@ -16,7 +16,7 @@ OneBlog，一个博客，再无其他。本主题基于Typecho，设计初衷是
 
 **官网**：[oneblog.net](https://oneblog.net/)
 
-**最新版本：V3.6.2**
+**最新版本：V3.6.3**
 
 ### 主题特性
 
@@ -78,6 +78,10 @@ OneBlog，一个博客，再无其他。本主题基于Typecho，设计初衷是
 ### 版本更新记录
 
 ```
+v3.6.3版本更新
+1.新增js首次加载完成前的动画效果，避免js未完全加载导致的页面显示异常的问题。
+2.部分细节优化。
+
 V3.6.2版本更新
 1.移除右键菜单，从模拟右键优化为原生菜单，解决安卓端长按出现右键菜单的bug；
 2.优化懒加载逻辑，结合IntersectionObserver和串行加载，避免图片过多时主进程堵塞；

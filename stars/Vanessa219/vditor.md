@@ -1,6 +1,6 @@
 ---
 project: vditor
-stars: 9945
+stars: 9974
 description: |-
     ♏  一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.
 url: https://github.com/Vanessa219/vditor
@@ -209,7 +209,7 @@ Markdown 输出的 HTML 所展现的外观。内置 ant-design, light，dark，w
 | minHeight | 编辑区域最小高度 | - |
 | width | 编辑器总宽度，支持 % | 'auto' |
 | placeholder | 输入区域为空时的提示 | '' |
-| lang | 语言种类：de_DE, en_US, fr_FR, pt_BR, ja_JP, ko_KR, ru_RU, sv_SE, zh_CN, zh_TW | 'zh_CN' |
+| lang | 语言种类：de_DE, en_US, es_ES, fr_FR, ja_JP, ko_KR, pt_BR, ru_RU, sv_SE, vi_VN, zh_CN, zh_TW | 'zh_CN' |
 | input(value: string) | 输入后触发  | - |
 | focus(value: string) | 聚焦后触发 | - |
 | blur(value: string) | 失焦后触发 | - |
@@ -227,6 +227,7 @@ Markdown 输出的 HTML 所展现的外观。内置 ant-design, light，dark，w
 | theme | 主题：classic, dark | 'classic' |
 | icon | 图标风格：ant, material | 'ant' |
 | customRenders: {language: string, render: (element: HTMLElement, vditor: IVditor) => void}[] | 自定义渲染器 | [] |
+| customWysiwygToolbar(type: TWYSISYGToolbar, element: HTMLElement): void | 对 wysiwyg 模式下的工具栏进行自定义 | - |
 
 #### options.toolbar
 

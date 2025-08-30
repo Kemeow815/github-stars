@@ -1,6 +1,6 @@
 ---
 project: galleriesdeluxe
-stars: 56
+stars: 55
 description: |-
     Multi gallery Hugo theme.
 url: https://github.com/bep/galleriesdeluxe

@@ -1,6 +1,6 @@
 ---
 project: Folo
-stars: 31878
+stars: 33113
 description: |-
     🧡 Follow everything in one place
 url: https://github.com/RSSNext/Folo
@@ -103,12 +103,6 @@ A smarter and more efficient browsing with AI-powered features like translation,
 Because we know content is more than just text. From articles to videos, images to audio — Folo gets it all covered.
 
 ![](https://github.com/user-attachments/assets/d1379fd6-8767-476e-b0dc-d61753715e26)
-
-### $POWER An Ownership Economy
-
-Tip creators across instantly with $POWER, support content you love, and unlock value in your own work. Your content, your power.
-
-![](https://github.com/user-attachments/assets/23bbcd63-45ca-40c8-83ef-96bd1100b701)
 
 ### More Than Just An App
 

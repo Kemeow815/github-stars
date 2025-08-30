@@ -1,6 +1,6 @@
 ---
 project: daily-image
-stars: 13
+stars: 14
 description: |-
     😏利用python，抓取每日bing图片，并处理为webp，保存在另一分支，用action定时进行处理，使用page生成页面，实现类似于每日一图的api接口
 url: https://github.com/willow-god/daily-image
@@ -12,7 +12,9 @@ url: https://github.com/willow-god/daily-image
   <img src="https://raw.githubusercontent.com/willow-god/daily-image/refs/heads/page/daily.webp" alt="Daily Bing Wallpaper" width="600" />
 </p>
 
-这是一个基于 GitHub Actions 自动获取并展示 Bing 每日高清壁纸的项目。每天早上 6 点（中国时间）自动抓取最新壁纸，生成 WebP/JPEG 格式图片，维护最近 30 天的壁纸，并发布至 `page` 分支，用于 GitHub Pages 页面展示。
+这是一个基于 GitHub Actions 自动获取并展示 Bing 每日高清壁纸的项目。每天早上 6 点（中国时间）自动抓取最新壁纸，生成 WebP/JPEG 格式图片，维护最近 30 天的壁纸，并发布至 `page` 分支，用于 Pages 服务部署并展示。
+
+**推荐使用 EO Pages 服务部署，目前已支持随机图 API 功能。**
 
 ---
 
@@ -21,7 +23,7 @@ url: https://github.com/willow-god/daily-image
 - 📅 **每日自动更新**：每天定时从 Bing 官方源抓取高清壁纸（2560x1600 或 1920x1080）。
 - 🖼️ **多格式保存**：保存为 `webp`, `jpeg` 等格式，兼顾网页加载与高清查看。
 - 📂 **历史记录管理**：维护 30 天的壁纸及信息索引 `index.json`。
-- 🌐 **网页展示支持**：与 GitHub Pages 搭配，展示壁纸和版权信息。
+- 🌐 **网页展示支持**：与 EO Pages 搭配，展示壁纸和版权信息。
 
 ---
 
@@ -62,6 +64,18 @@ url: https://github.com/willow-god/daily-image
 - 🔗 **EO Pages 页面**：[https://bing.liushen.fun/](https://bing.liushen.fun/)
 
 ---
+
+## 🛺 使用方式
+
+1. **随机图 API**：
+   - 访问 `https://bing.liushen.fun/api/random` 获取随机壁纸。
+   - 可在网页中直接使用，如：`<img src="https://bing.liushen.fun/api/random" alt="随机壁纸" />`。
+
+2. **每日一图 API**：
+   - 访问 `https://bing.liushen.fun/api/daily` 或者 `https://bing.liushen.fun/daily.webp` 获取今日壁纸。
+   - 可在网页中直接使用，如：`<img src="https://bing.liushen.fun/api/daily" alt="今日壁纸" />`。
+
+更多参数欢迎访问地址：[https://bing.liushen.fun/api](https://bing.liushen.fun/api) 进行查询。
 
 ## 📜 License
 

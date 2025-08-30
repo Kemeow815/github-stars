@@ -1,6 +1,6 @@
 ---
 project: rime_wanxiang
-stars: 1012
+stars: 1051
 description: |-
     Rime万象拼音输入方案：标准版与增强版可选，词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。PRO版本支持10种双拼，6种辅助码，并且可以扩展更多，支持中英混输，内置超级注释、带调全拼输入码显示、快符与重复上屏、候选手动排序、tips等功能扩展，大大增强使用体验。　　Q群：11033572
 url: https://github.com/amzxyz/rime_wanxiang
@@ -76,6 +76,8 @@ url: https://github.com/amzxyz/rime_wanxiang
 /gbpy     → 国标双拼
 /lxsq     → 乱序17
 /pinyin   → 全拼
+/zrlong   → 自然龙(反查是全拼)
+/hxlong   → 汉心龙(反查是全拼)
 ```
 
 #### ②进阶custom patch法（已经尽量为你简化）强烈推荐，适用于长期稳定使用：
@@ -96,7 +98,7 @@ schema,default,weasel,squirrel
 
 **③脚本更新：**
 
-脚本的下载地址 [万象方案更新脚本](https://github.com/expoli/rime-wanxiang-update-tools)。这里以win版本的小狼毫为例，如果你是**中文系统**请下载更新脚本的 powershell **非utf-8版本**，具体文件名：`rime-wanxiang-update-windows.ps1` 。在使用万象之前，请安装小狼毫，安装小狼毫的过程中，请一切保持默认即可，等你熟悉之后可以自定义。本入门最终会带你一步步设置使用**小鹤双拼+墨奇辅助码**的方案。
+脚本的下载地址 [万象方案更新脚本](https://github.com/rimeinn/rime-wanxiang-update-tools)。这里以win版本的小狼毫为例，如果你是**中文系统**请下载更新脚本的 powershell **非utf-8版本**，具体文件名：`rime-wanxiang-update-windows.ps1` 。在使用万象之前，请安装小狼毫，安装小狼毫的过程中，请一切保持默认即可，等你熟悉之后可以自定义。本入门最终会带你一步步设置使用**小鹤双拼+墨奇辅助码**的方案。
 
 1. 下载更新脚本：直接点击上面地址首页右边最新 release 链接，然后下载对应的 `rime-wanxiang-update-windows.ps1` 文件即可。下载完成后，直接双击运行刚刚下载的ps1脚本。如果杀毒报错，请将你下载的文件恢复后，添加到信任文件。如果执行一闪而过、或者遇到乱码再尝试下载 utf-8 版本，具体文件名：`rime-wanxiang-update-windows-utf-8.ps1`。如果提示权限不足，可以在 powershell 终端中执行 `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser` 再尝试运行下载的 ps1 脚本。
 2. 脚本执行后，需要你确认你使用的是全拼还是双拼用户，如果你是全拼用户，请根据提示输入 0 后回车。如果你双拼用户，需要你确认你使用的辅助码类型，默认的万象方案支持汉心、简单鹤、墨奇、虎码、五笔、自然码共计6种辅助码类型。如果没有你想要的辅助码类型，也不要着急，可在熟悉万象之后自定义。根据提示输入你使用的辅助码类型的数字后回车即可。这里我按墨奇辅助码输入。更不要着急怎么选择双拼方案，后面会告诉你的。
@@ -230,7 +232,7 @@ schema,default,weasel,squirrel
 
 **自定义词库：** 自定义词库首先要利用[LMDG](https://github.com/amzxyz/RIME-LMDG)中的脚本将你自己的词库刷成与万象同类型的声调、或者声调+辅助码的形态，因为主词库要参与转写。对于custom_phrase则需要手动编辑编码为实际输入的编码
 
-<img alt="pay" src="./custom/万象输入方案.png" height="2800" width="1000">
+<img alt="pay" src="./custom/万象输入方案.png" height="3000" width="1000">
 
 ## 鸣谢
 

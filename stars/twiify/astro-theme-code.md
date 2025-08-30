@@ -1,6 +1,6 @@
 ---
 project: astro-theme-code
-stars: 9
+stars: 8
 description: |-
     一个简单的 Astro 博客主题。
 url: https://github.com/twiify/astro-theme-code

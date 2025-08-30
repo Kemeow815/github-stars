@@ -1,6 +1,6 @@
 ---
 project: slickpress
-stars: 6
+stars: 7
 description: |-
     A headless wordpress starter with Astro 
 url: https://github.com/devaradise/slickpress

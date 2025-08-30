@@ -1,6 +1,6 @@
 ---
 project: docusaurus
-stars: 61424
+stars: 61528
 description: |-
     Easy to maintain open source documentation websites.
 url: https://github.com/facebook/docusaurus
@@ -128,5 +128,5 @@ The Docusaurus documentation (e.g., `.md` files in the `/docs` folder) is [Creat
 
 [![Rocket Validator logo](./admin/img/rocketvalidator-logo.png)](https://rocketvalidator.com/)
 
-[Rocket Validator](https://rocketvalidator.com/) helps us find HTML markup or accessibility issues.
+[Rocket Validator](https://rocketvalidator.com/) helps us find [HTML markup and accessibility issues](https://rocketvalidator.com/stats/docusaurus.io).
 

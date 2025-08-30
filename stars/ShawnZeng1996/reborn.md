@@ -1,6 +1,6 @@
 ---
 project: reborn
-stars: 37
+stars: 38
 description: |-
     Typecho仿微信主题reborn
 url: https://github.com/ShawnZeng1996/reborn

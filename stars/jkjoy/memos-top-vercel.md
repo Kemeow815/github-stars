@@ -1,6 +1,6 @@
 ---
 project: memos-top-vercel
-stars: 7
+stars: 8
 description: |-
     部署memos.top
 url: https://github.com/jkjoy/memos-top-vercel

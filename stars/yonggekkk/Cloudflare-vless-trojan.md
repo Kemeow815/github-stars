@@ -1,6 +1,6 @@
 ---
 project: Cloudflare-vless-trojan
-stars: 10724
+stars: 10879
 description: |-
     CF-workers/pages代理脚本【Vless与Trojan】：支持nat64自动生成proxyip，一键自建proxyip与CF反代IP，CF优选官方IP三地区应用脚本，自动输出美、亚、欧最佳优选IP
 url: https://github.com/yonggekkk/Cloudflare-vless-trojan
@@ -24,7 +24,7 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 ### 交流平台：[甬哥博客地址](https://ygkkk.blogspot.com)、[甬哥YouTube频道](https://www.youtube.com/@ygkkk)、[甬哥TG电报群组](https://t.me/+jZHc6-A-1QQ5ZGVl)、[甬哥TG电报频道](https://t.me/+DkC9ZZUgEFQzMTZl)
 --------------------------------
 
-### 推荐新手用户请先看以下两个入门视频教程（建议使用非混淆代码）：
+### 推荐新手用户请先看以下两个入门视频教程：
 
 [永久免费的cf vless workers原生域名节点 | 无需自定义域名 | 无需优选IP订阅 | 无需面版控制台 | 只需保存两个参数 | 自建无限不死节点！](https://youtu.be/PpPKzOYLZQg)
 
@@ -52,8 +52,6 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 | 4、订阅节点：优选IP对应端口 | pt1到pt13，共13个 |CF13个标准端口、反代IP对应任意端口| CF13个标准端口|可选|
 
 #### 订阅节点中IP与端口的变量（3与4）特别注意 【新手小白可无视变量（3与4），使用默认即可】
-
-0、由于现在只能用混淆代码，无法在文件上直接修改了，只能使用变量
 
 1、切记：当你非要用订阅类的客户端，且要改优选IP时，才需要设置ip1到ip13，pt1到pt13的变量
 
@@ -250,8 +248,6 @@ CF官方优选443系端口：443、2053、2083、2087、2096、8443
 
 小白优选IP应用推荐：[CF优选IP解放小白最终方案：一键自动生成美国、香港、欧洲三区优选官方IP，电脑WIN、安卓android、苹果ios多平台一键通用](https://youtu.be/6kKIzObEZ2c)
 
-[CF vless/trojan免费节点混淆时代来临：workers/pages代码混淆后详细设置的更新说明；1101报错总结](https://youtu.be/QSFaP5EVI04)
-
 
 ---------------------------------
 ---------------------------------
@@ -295,6 +291,4 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/cfip.sh -o cfip.sh && 
 ------------------------------------------------------------------------
 ### 代码来源：[ca110us](https://github.com/ca110us/epeius)、[emn178](https://github.com/emn178/js-sha256/blob/master/src/sha256.js)、[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest)、[XIU2](https://github.com/XIU2/CloudflareSpeedTest)
 ### 声明：所有代码来源于Github社区，并通过ChatGPT进行整合
-
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 

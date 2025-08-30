@@ -1,6 +1,6 @@
 ---
 project: astro-blog-template
-stars: 453
+stars: 455
 description: |-
     Personal Blog Template Powered by Astro
 url: https://github.com/Charca/astro-blog-template

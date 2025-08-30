@@ -1,6 +1,6 @@
 ---
 project: MusicBox
-stars: 104
+stars: 140
 description: |-
     一款高颜值、插件化的本地音乐播放器
 url: https://github.com/asxez/MusicBox
@@ -26,8 +26,8 @@ url: https://github.com/asxez/MusicBox
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/asxez/MusicBox)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](#-安装)
-[![Electron](https://img.shields.io/badge/Electron-31.0.0-47848f.svg)](https://electronjs.org/)
-[![Node](https://img.shields.io/badge/Node-%3E%3D20.0.0-green.svg)](https://nodejs.org/)
+[![Electron](https://img.shields.io/badge/Electron-37.3.1-47848f.svg)](https://electronjs.org/)
+[![Node](https://img.shields.io/badge/Node-%3E%3D22.18.0-green.svg)](https://nodejs.org/)
 
 ---
 
@@ -61,7 +61,6 @@ url: https://github.com/asxez/MusicBox
 - 🔄 侧边导航栏页面
 - ✅ 音乐变速不变调  （此功能在speed-feat分支中已实现，但是由于内存占用问题暂不合并到主分支）
 - ✅ 均衡器
-- 🔄 进一步完善设置功能
 - ✅ 修复音乐文件元数据识别乱码
 - ✅ 窗口管理
 - ✅ 歌曲列表添加封面显示
@@ -87,6 +86,11 @@ url: https://github.com/asxez/MusicBox
 
 ### 从源码构建
 
+#### 环境要求
+
+- Node.js >= 22.18.0
+- python >= 3.8
+
 从源码构建 MusicBox，请按照以下步骤操作：
 
 #### 1. 克隆仓库
@@ -99,7 +103,7 @@ cd MusicBox
 #### 2. 安装依赖
 
 ```bash
-# 安装主项目依赖
+# 安装主进程依赖
 npm install
 
 # 安装渲染进程依赖并构建
@@ -130,9 +134,17 @@ npm run build
 MusicBox/
 ├── src/
 │   ├── main/                                   # 主进程代码
+│   │   ├── ipc/                                # IPC
+│   │   ├── security/                           # 安全相关模块
+│   │   ├── utils/                              # 通用工具
+│   │   ├── drive-registry.js                   # 全局驱动器注册表
+│   │   ├── library-cache-manager.js            # 音乐库缓存管理
 │   │   ├── main.js                             # 主进程入口
-│   │   ├── preload.js                          # 预加载脚本
-│   │   └── library-cache-manager.js            # 音乐库缓存管理
+│   │   ├── metadata-handler.js                 # 音频元数据处理器
+│   │   ├── metadata_editor.py                  # 音频元数据编辑器
+│   │   ├── network-drive-manager.js            # 网络磁盘管理
+│   │   ├── network-file-adapter.js             # 网络文件系统适配器
+│   │   └── preload.js                          # 预加载脚本
 │   └── renderer/                               # 渲染进程代码
 │       ├── src/                                # 源代码
 │       │   ├── js/                             # JavaScript 源码
@@ -141,13 +153,16 @@ MusicBox/
 │       │   │   ├── api.js                      # API 接口层
 │       │   │   ├── app.js                      # 应用主类
 │       │   │   ├── cache-manager.js            # localStorage缓存管理
+│       │   │   ├── cover-update-manager.js     # 封面更新管理
 │       │   │   ├── desktop-lyrics.js           # 桌面歌词管理
+│       │   │   ├── embedded-cover-manager.js   # 内嵌封面管理
 │       │   │   ├── embedded-lyrics-manager.js  # 内嵌歌词管理
 │       │   │   ├── local-cover-manager.js      # 本地封面文件管理
 │       │   │   ├── local-lyrics-manager.js     # 本地歌词文件管理
 │       │   │   ├── md5.js                      # md5
 │       │   │   ├── shortcut-config.js          # 快捷键配置
 │       │   │   ├── shortcut-recorder.js        # 快捷键录制器
+│       │   │   ├── url-validator.js            # URL有效性检查
 │       │   │   ├── utils.js                    # 工具方法
 │       │   │   └── web-audio-engine.js         # 音频引擎
 │       │   ├── styles/                         # SCSS 样式源码
@@ -162,38 +177,6 @@ MusicBox/
 └── README.md                                   # 项目说明
 ```
 
-### 开发环境设置
-
-#### 1. 环境要求
-
-- Node.js >= 20.0.0
-- python >= 3.8
-
-#### 2. 克隆项目
-
-```bash
-git clone https://github.com/asxez/MusicBox.git
-cd MusicBox
-```
-
-#### 3. 安装依赖
-
-```bash
-# 安装主项目依赖
-npm install
-
-# 安装渲染进程依赖并构建渲染进程
-cd src/renderer
-npm install
-npm run build
-cd ../..
-```
-
-#### 4. 开发模式
-```bash
-# 运行 electron
-npm run dev:main
-```
 
 ## 🔧 插件开发
 
@@ -208,6 +191,7 @@ Q: 如何使用插件？
 
 A：设置中打开插件管理，导入插件即可，目前只支持单个的 JS 文件。
 
+**注意：插件间可能存在不兼容问题**
 - [主题切换器-示例插件](src/renderer/src/js/plugin-system/examples/ThemeSwitcherPlugin.js) 描述：提供多种预设主题，支持实时切换
 - [MusicBox实时状态接口](src/renderer/src/js/plugin-system/examples/RealtimeStatusAPIPlugin.js) 描述：提供 HTTP 接口获取 MusicBox 实时状态信息
 - [背景图修改器](src/renderer/src/js/plugin-system/examples/BackgroundModifyPlugin.js) 描述：可修改应用的背景图片，支持单张图片和文件夹

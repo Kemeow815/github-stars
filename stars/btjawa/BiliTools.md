@@ -1,6 +1,6 @@
 ---
 project: BiliTools
-stars: 3341
+stars: 3455
 description: |-
     A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源
 url: https://github.com/btjawa/BiliTools

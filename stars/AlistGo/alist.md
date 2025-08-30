@@ -1,6 +1,6 @@
 ---
 project: alist
-stars: 48290
+stars: 48324
 description: |-
     🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 url: https://github.com/AlistGo/alist
@@ -129,8 +129,6 @@ https://alistgo.com/guide/sponsor.html
 ### Special sponsors
 
 - [VidHub](https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=alist&mt=8) - An elegant cloud video player within the Apple ecosystem. Support for iPhone, iPad, Mac, and Apple TV.
-- [亚洲云](https://www.asiayun.com/aff/QQCOOQKZ) - 高防服务器|服务器租用|福州高防|广东电信|香港服务器|美国服务器|海外服务器 - 国内靠谱的企业级云计算服务提供商 (sponsored Chinese API server)
-- [找资源](http://zhaoziyuan2.cc/) - 阿里云盘资源搜索引擎
 
 ## Contributors
 

@@ -1,6 +1,6 @@
 ---
 project: Telegraph-Image
-stars: 4119
+stars: 4133
 description: |-
     Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.
 url: https://github.com/cf-pages/Telegraph-Image

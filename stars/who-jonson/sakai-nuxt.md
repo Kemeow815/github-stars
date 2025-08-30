@@ -1,6 +1,6 @@
 ---
 project: sakai-nuxt
-stars: 298
+stars: 297
 description: |-
     Starter Admin Template based on Nuxt 3 and PrimeVue 3
 url: https://github.com/who-jonson/sakai-nuxt

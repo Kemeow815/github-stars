@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-reimu
-stars: 141
+stars: 148
 description: |-
     一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hugo-theme-reimu
@@ -95,6 +95,7 @@ A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://githu
   - 友情链接
   - 热力图
   - 标签轮盘
+  - Alert块引用
 - 🎨 动态适配主题色
 - ©️ 文章版权声明
 - 🌐 自定义 CDN 源 / 本地配置
@@ -933,6 +934,19 @@ tagRoulette 是一个互动元素，提供随机标签展示功能，点击按�
 
 - tags：可选参数，指定标签池，多个标签用英文逗号(,)分隔；未提供时默认使用几个示例标签，例如：tags="记忆衰退,表达欲丧失,更加怠惰,无感,好想睡觉"  
 - icon：可选参数，自定义触发按钮的图标，默认使用：🕹️（游戏手柄emoji），可替换为任何emoji或文字，如 🎲、🎯、🔄 等
+
+#### alertBlockquote 块引用 (v0.12.1+)
+
+```yaml
+{{< alertBlockquote type="?" >}}
+Your content here
+{{</alertBlockquote>}}
+```
+
+适用于 Hugo v0.132.0 以下版本不能使用 Hugo Blockquote render hooks 的场景。
+
+其中第一个参数为块引用的类型，可选参数为：`note`、`tip`、`important`、`warning`、`danger`
+
 </details>
 
 <details>

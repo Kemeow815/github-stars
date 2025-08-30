@@ -6,12 +6,19 @@ description: |-
 url: https://github.com/lin-snow/Soopy
 ---
 
-usage:
-```shell
-bun install
+# Soopy
 
-bun run dev
+This is a `Simple & Lightweight` homepage.
 
-bun run build
+![](./screenshot/1.png)
 
-```
+
+
+Demo: https://lin-snow.github.io/Soopy
+
+# Usage
+1. download the source code from the release .
+2. custom the essential files . eg: index.html...
+3. deploy to the server.
+
+

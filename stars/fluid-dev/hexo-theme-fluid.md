@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-fluid
-stars: 7876
+stars: 7894
 description: |-
     :ocean: 一款 Material Design 风格的 Hexo 主题 / An elegant Material-Design theme for Hexo
 url: https://github.com/fluid-dev/hexo-theme-fluid

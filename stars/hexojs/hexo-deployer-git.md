@@ -1,6 +1,6 @@
 ---
 project: hexo-deployer-git
-stars: 588
+stars: 589
 description: |-
     Git deployer plugin for Hexo.
 url: https://github.com/hexojs/hexo-deployer-git

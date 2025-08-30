@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-project-trans
-stars: 24
+stars: 25
 description: |-
     这是一个由 Project Trans 开发的 VitePress 主题。
 url: https://github.com/project-trans/vitepress-theme-project-trans

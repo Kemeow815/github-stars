@@ -22,9 +22,11 @@ PureSuck，干净，纯洁，淡雅朴素的 Hexo 主题。
 
 **遇到问题欢迎提 Issue。**
 
-**遇到问题一定要欢迎提 Issue。**
+**遇到问题一定要提 Issue。**
 
-**一定要！！！**
+## 演示
+
+https://puresuck-demo.ksable.top/
 
 ### 安装与设置
 
@@ -42,6 +44,12 @@ npm i hexo-theme-puresuck
 theme: puresuck
 ```
 
+复制主题配置文件，运行下列代码
+
+```bash
+hexo copy_theme_config
+```
+
 关闭 Hexo 自带的代码高亮
 
 `hexo >= 7.0.0`
@@ -56,13 +64,6 @@ syntax_highlighter: # 留空
 highlight:
   enable: false
 ```
-
-复制主题配置文件到博客根目录并命名为 `_config.puresuck.yml`，主题自定义配置详见主题配置文件注释。
-
->使用「`npm i hexo-theme-puresuck`」方式安装的主题，主题配置文件在「`blog/node_modules/hexo-theme-puresuck/_config.yml`」
->使用传统方式安装的主题，主题配置文件在「`blog/themes/puresuck/_config.yml`」
-
-
 
 ### 页面
 
@@ -87,6 +88,8 @@ description: 我是摘要
 ```
 
 #### 归档页面
+
+hexo 默认会在 `/archive` 下生成归档页面，你也可以在其他地方建立归档页面。
 
 新建页面 `archive/index.md`
 
@@ -182,6 +185,6 @@ MoxToast({
 
 ## License
 
-使用 GPL-3.0 协议开源，欢迎更多人参与/二次开发！
+使用 GPL-3.0 协议开源，欢迎更多人参与二次开发！
 感谢，每一个使用本主题的朋友们！
 

@@ -1,6 +1,6 @@
 ---
 project: Merger-Plus
-stars: 92
+stars: 93
 description: |-
     💸一键从电脑/手机跳转至支付宝/微信支付的能力，帮助个人开发者完成打赏功能实现。
 url: https://github.com/idealclover/Merger-Plus

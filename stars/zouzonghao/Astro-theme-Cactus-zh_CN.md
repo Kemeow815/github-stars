@@ -1,6 +1,6 @@
 ---
 project: Astro-theme-Cactus-zh_CN
-stars: 83
+stars: 85
 description: |-
     null
 url: https://github.com/zouzonghao/Astro-theme-Cactus-zh_CN

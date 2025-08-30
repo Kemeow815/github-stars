@@ -1,6 +1,6 @@
 ---
 project: Coding
-stars: 8
+stars: 9
 description: |-
     ZkeqのCoding日志
 url: https://github.com/zkeq/Coding

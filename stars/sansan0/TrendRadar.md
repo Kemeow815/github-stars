@@ -1,6 +1,6 @@
 ---
 project: TrendRadar
-stars: 2194
+stars: 2450
 description: |-
     🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，一键监控今日头条、百度热搜、微博、抖音、知乎、B站等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram推送，30秒网页部署，1分钟手机通知，无需编程基础。也支持docker私人部署⭐ 让算法为你服务，而非被算法绑架
 url: https://github.com/sansan0/TrendRadar
@@ -15,7 +15,7 @@ url: https://github.com/sansan0/TrendRadar
 [![GitHub Stars](https://img.shields.io/github/stars/sansan0/TrendRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/TrendRadar/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/sansan0/TrendRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/TrendRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v2.0.3-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
+[![Version](https://img.shields.io/badge/version-v2.1.0-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
 
 [![企业微信通知](https://img.shields.io/badge/企业微信-通知支持-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![Telegram通知](https://img.shields.io/badge/Telegram-通知支持-00D4AA?style=flat-square)](https://telegram.org/)
@@ -31,11 +31,9 @@ url: https://github.com/sansan0/TrendRadar
 > 本项目以轻量，易部署为目标，主要处理 issues
 >
 > 遇到问题提 issues，或【硅基茶水间】公众号留言
->
-> **Fork** 的同时，如果觉得有帮助，请顺手点个 ⭐️ **Star**，感谢支持
 
 <details>
-<summary>👉 点击查看<strong>致谢名单 (当前 12 个)</strong></summary>
+<summary>👉 点击查看致谢名单 (当前 <strong>13</strong> 个)</summary>
 
 ### 数据支持
 
@@ -55,6 +53,7 @@ url: https://github.com/sansan0/TrendRadar
 
 |           点赞人            |  金额  |  日期  |             备注             |
 | :-------------------------: | :----: | :----: | :-----------------------: |
+|           *下            |  1  | 2025.8.30  |           |
 |           2*D            |  88  | 2025.8.13 下午 |           |
 |           2*D            |  1  | 2025.8.13 上午 |           |
 |           S*o            |  1  | 2025.8.05 |   支持一下        |
@@ -66,10 +65,11 @@ url: https://github.com/sansan0/TrendRadar
 |           **龙            |  10  | 2025.7.29 |      支持一下      |
 
 <details>
-<summary><strong>👉 "手机推送通知系列" 挖坑</strong></summary>
+<summary><strong>👉 "手机推送通知系列" 挖坑(暂时鸽)</strong></summary>
 <br>
 
 截图中只支持一个渠道，大家有什么好的建议和想法可以公众号留言，完善好后开源
+这个暂时没有人来和我讨论，我先鸽为敬嘿嘿
 
 <img src="_image/next.jpg" width="300" title="github"/>
 
@@ -99,11 +99,21 @@ url: https://github.com/sansan0/TrendRadar
 
 ### **智能推送策略**
 
-三种推送模式：
+**三种推送模式**：
 
 - **📈 投资者/交易员** → 选择 `incremental`，及时获取新增资讯
 - **📰 自媒体人/内容创作者** → 选择 `current`，掌握实时热点趋势  
 - **📋 企业管理者/普通用户** → 选择 `daily`，定时获取完整日报
+
+
+**静默推送模式**：
+
+支持时间窗口控制，避免非工作时间的消息打扰：
+
+- **时间范围控制**：设定推送时间窗口（如 9:00-18:00），仅在指定时间内推送
+- **适用场景**：
+  - 时间内每次执行都推送
+  - 时间范围内只推送一次
 
 ### **精准内容筛选**
 
@@ -189,15 +199,45 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 </details>
 
 >**升级说明：** 
+- **注意**：请通过以下方式更新项目，不要通过 Sync fork 等方式更新
 - **小版本更新**：直接在 GitHub 网页编辑器中，用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件 
 - **大版本升级**：从 v1.x 升级到 v2.0 建议删除现有 fork 后重新 fork，这样更省力且避免配置冲突
+- **或者**：根据更新日志的特别说明升级
+
+### 2025/08/30 - v2.1.0
+
+> 感谢各位朋友的支持与厚爱，特别感谢：
+> 
+> **fork 并为项目点 star** 的观众们，你们的认可是我前进的动力
+> 
+> **关注公众号并积极互动** 的读者们，你们的留言和点赞让内容更有温度
+> 
+> **给予资金点赞支持** 的朋友们，你们的慷慨让项目得以持续发展
+> 
+> 下一次**新功能**，大概会是 ai 分析功能(大概(●'◡'●)
+
+**核心改进**：
+- **推送逻辑优化**：从"每次执行都推送"改为"时间窗口内可控推送"
+- **时间窗口控制**：可设定推送时间范围，避免非工作时间打扰
+- **推送频率可选**：时间段内支持单次推送或多次推送
+
+**更新提示**：
+- 本功能默认关闭，需手动开启
+- 同时更新 main.py 和 config.yaml
+
+<details>
+<summary><strong>👉 历史更新</strong></summary>
+
+### 2025/08/27 - v2.0.4
+
+- 本次版本不是功能修复，而是重要提醒
+- 请务必妥善保管好 webhooks，不要公开，不要公开，不要公开
+- 如果你以 fork 的方式将本项目部署在 GitHub 上，请将 webhooks 填入 GitHub Secret，而非 config.yaml
+- 如果你已经暴露了 webhooks 或将其填入了 config.yaml，建议删除后重新生成
 
 ### 2025/08/06 - v2.0.3
 
 - 优化 github page 的网页版效果，方便移动端使用
-
-<details>
-<summary><strong>👉 历史更新</strong></summary>
 
 ### 2025/07/28 - v2.0.2
 
@@ -615,7 +655,8 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    - 运行结果将自动保存在仓库的`output`目录中
    - 同时通过配置的机器人发送通知到你的群组
 
-
+<details>
+<summary><strong>👉 自定义监控平台</strong></summary>
 
 ### 🔧 自定义监控平台
 
@@ -633,6 +674,7 @@ platforms:
     name: "华尔街见闻"
   # 添加更多平台...
 ```
+</details>
 
 <details>
 <summary><strong>👉 Docker 部署</strong></summary>

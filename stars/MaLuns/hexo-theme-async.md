@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-async
-stars: 387
+stars: 390
 description: |-
     一个简单而轻量级的 Hexo 主题。 |     A simple, lightweight Hexo theme.
 url: https://github.com/MaLuns/hexo-theme-async

@@ -1,6 +1,6 @@
 ---
 project: Wcowin.github.io
-stars: 43
+stars: 44
 description: |-
     Wcowin's personal website | based on Material for MkDocs
 url: https://github.com/Wcowin/Wcowin.github.io

@@ -1,6 +1,6 @@
 ---
 project: CloudPaste
-stars: 1165
+stars: 1190
 description: |-
     A Cloudflare-based online text/large file sharing platform that supports multiple syntax Markdown rendering, self-destructing messages, S3 aggregated storage, password protection, and more. It can be mounted as WebDAV and supports Docker deployment.
 url: https://github.com/ling-drag0n/CloudPaste
@@ -136,13 +136,12 @@ Before starting deployment, please ensure you have prepared the following:
 - [ ] If using R2: Activate **Cloudflare R2** service and create a bucket (requires payment method)
 - [ ] If using Vercel: Register for a [Vercel](https://vercel.com) account
 - [ ] Configuration information for other S3 storage services:
-   - `S3_ACCESS_KEY_ID`
-   - `S3_SECRET_ACCESS_KEY`
-   - `S3_BUCKET_NAME`
-   - `S3_ENDPOINT`
+    - `S3_ACCESS_KEY_ID`
+    - `S3_SECRET_ACCESS_KEY`
+    - `S3_BUCKET_NAME`
+    - `S3_ENDPOINT`
 
 **The following tutorial may be outdated. For specific details, refer to: [Cloudpaste Online Deployment Documentation](https://doc.cloudpaste.qzz.io)**
-
 
 <details>
 <summary><b>👉 View Complete Deployment Guide</b></summary>
@@ -150,11 +149,11 @@ Before starting deployment, please ensure you have prepared the following:
 ### 📑 Table of Contents
 
 - [Action Automated Deployment](#Action-Automated-Deployment)
-   - [Backend Automated Deployment](#Backend-Automated-Deployment)
-   - [Frontend Automated Deployment](#Frontend-Automated-Deployment)
+    - [Backend Automated Deployment](#Backend-Automated-Deployment)
+    - [Frontend Automated Deployment](#Frontend-Automated-Deployment)
 - [Manual Deployment](#Manual-Deployment)
-   - [Backend Manual Deployment](#Backend-Manual-Deployment)
-   - [Frontend Manual Deployment](#Frontend-Manual-Deployment)
+    - [Backend Manual Deployment](#Backend-Manual-Deployment)
+    - [Frontend Manual Deployment](#Frontend-Manual-Deployment)
 - [ClawCloud CloudPaste Deployment Tutorial](#ClawCloud-CloudPaste-Deployment-Tutorial)
 
 ---
@@ -209,10 +208,10 @@ Deployment is automatically triggered whenever files in the `frontend` directory
 3. Click "Settings" → "Environment variables"
 4. Add environment variable:
 
-   - Name: `VITE_BACKEND_URL`
-   - Value: Your backend Worker URL (e.g., `https://cloudpaste-backend.your-username.workers.dev`) without trailing "/". It is recommended to use a custom worker backend domain.
+    - Name: `VITE_BACKEND_URL`
+    - Value: Your backend Worker URL (e.g., `https://cloudpaste-backend.your-username.workers.dev`) without trailing "/". It is recommended to use a custom worker backend domain.
 
-   - **<span style="color:red">Make sure to enter the complete backend domain name in "https://xxxx.com" format</span>**
+    - **<span style="color:red">Make sure to enter the complete backend domain name in "https://xxxx.com" format</span>**
 
 5. Important step: Then run the frontend workflow again to complete loading the backend domain!!!
 
@@ -336,12 +335,12 @@ cd CloudPaste/backend
 
    **Method 2**: Via Cloudflare Dashboard
 
-   1. Log in to [Cloudflare Dashboard](https://dash.cloudflare.com/)
-   2. Select "Pages"
-   3. Click "Create a project" → "Direct Upload"
-   4. Upload files from the `dist` directory
-   5. Set project name (e.g., "cloudpaste-frontend")
-   6. Click "Save and Deploy"
+    1. Log in to [Cloudflare Dashboard](https://dash.cloudflare.com/)
+    2. Select "Pages"
+    3. Click "Create a project" → "Direct Upload"
+    4. Upload files from the `dist` directory
+    5. Set project name (e.g., "cloudpaste-frontend")
+    6. Click "Save and Deploy"
 
 #### Vercel
 
@@ -408,8 +407,8 @@ Then the frontend, as shown in the figure (for reference only):
 ### 📑 Table of Contents
 
 - [Docker Command Line Deployment](#Docker-Command-Line-Deployment)
-   - [Backend Docker Deployment](#Backend-Docker-Deployment)
-   - [Frontend Docker Deployment](#Frontend-Docker-Deployment)
+    - [Backend Docker Deployment](#Backend-Docker-Deployment)
+    - [Frontend Docker Deployment](#Frontend-Docker-Deployment)
 - [Docker Compose One-Click Deployment](#Docker-Compose-One-Click-Deployment)
 
 ---
@@ -770,27 +769,27 @@ Replace <bucketName> with your bucket name. For allowedOrigins in the cross-orig
 
 5. **Configure MinIO in CloudPaste**
 
-   - Log in to CloudPaste admin panel
-   - Go to "S3 Storage Settings" → "Add Storage Configuration"
-   - Select "Other S3-compatible service" as provider
-   - Enter details:
-      - Name: Custom name
-      - Endpoint URL: MinIO service URL (e.g., `https://minio.example.com`)
-      - Bucket Name: Pre-created bucket
-      - Access Key ID: Your Access Key
-      - Secret Key: Your Secret Key
-      - Region: Leave empty
-      - Path-Style Access: MUST ENABLE!
-   - Click "Test Connection" to verify
-   - Save settings
+    - Log in to CloudPaste admin panel
+    - Go to "S3 Storage Settings" → "Add Storage Configuration"
+    - Select "Other S3-compatible service" as provider
+    - Enter details:
+        - Name: Custom name
+        - Endpoint URL: MinIO service URL (e.g., `https://minio.example.com`)
+        - Bucket Name: Pre-created bucket
+        - Access Key ID: Your Access Key
+        - Secret Key: Your Secret Key
+        - Region: Leave empty
+        - Path-Style Access: MUST ENABLE!
+    - Click "Test Connection" to verify
+    - Save settings
 
 6. **Troubleshooting**
 
-   - **Note**: If using Cloudflare's CDN, you may need to add `proxy_set_header Accept-Encoding "identity"`, and there are caching issues to consider. It is recommended to use only DNS resolution.
-   - **403 Error**: Ensure reverse proxy includes `proxy_cache off` & `proxy_buffering off`
-   - **Preview Issues**: Verify `MINIO_SERVER_URL` & `MINIO_BROWSER_REDIRECT_URL` are correctly set
-   - **Upload Failures**: Check CORS settings; allowed origins must include frontend domain
-   - **Console Unreachable**: Verify WebSocket config, especially `Connection "upgrade"`
+    - **Note**: If using Cloudflare's CDN, you may need to add `proxy_set_header Accept-Encoding "identity"`, and there are caching issues to consider. It is recommended to use only DNS resolution.
+    - **403 Error**: Ensure reverse proxy includes `proxy_cache off` & `proxy_buffering off`
+    - **Preview Issues**: Verify `MINIO_SERVER_URL` & `MINIO_BROWSER_REDIRECT_URL` are correctly set
+    - **Upload Failures**: Check CORS settings; allowed origins must include frontend domain
+    - **Console Unreachable**: Verify WebSocket config, especially `Connection "upgrade"`
 
 ## More S3-related configurations to come......
 
@@ -807,10 +806,10 @@ CloudPaste provides simple WebDAV protocol support, allowing you to mount storag
 
 - **WebDAV Base URL**: `https://your-backend-domain/dav`
 - **Supported Authentication Methods**:
-   - Basic Authentication (username+password)
+    - Basic Authentication (username+password)
 - **Supported Permission Types**:
-   - Administrator accounts - Full operation permissions
-   - API keys - Requires enabled mount permission (mount_permission)
+    - Administrator accounts - Full operation permissions
+    - API keys - Requires enabled mount permission (mount_permission)
 
 ### Permission Configuration
 
@@ -829,8 +828,8 @@ For a more secure access method, it is recommended to create a dedicated API key
 2. Navigate to "API Key Management"
 3. Create a new API key, **ensure "Mount Permission" is enabled**
 4. Usage method:
-   - **Username**: API key value
-   - **Password**: The same API key value as the username
+    - **Username**: API key value
+    - **Password**: The same API key value as the username
 
 ### NGINX Reverse Proxy Configuration
 
@@ -870,20 +869,20 @@ location /dav {
 
 1. **Connection Problems**:
 
-   - Confirm the WebDAV URL format is correct
-   - Verify that authentication credentials are valid
-   - Check if the API key has mount permission
+    - Confirm the WebDAV URL format is correct
+    - Verify that authentication credentials are valid
+    - Check if the API key has mount permission
 
 2. **Permission Errors**:
 
-   - Confirm the account has the required permissions
-   - Administrator accounts should have full permissions
-   - API keys need to have mount permission specifically enabled
+    - Confirm the account has the required permissions
+    - Administrator accounts should have full permissions
+    - API keys need to have mount permission specifically enabled
 
 3. **⚠️⚠️ WebDAV Upload Issues**:
 
-   - For Worker deployment, it is recommended to use direct transfer mode (theoretical maximum of 5GB per transfer) and avoid using fragmentation (limited by CPU).
-   - For Docker deployments, just pay attention to the nginx proxy configuration, any upload mode is acceptable
+    - The upload size for webdav deployed by Workers may be limited by CF's CDN restrictions to around 100MB, resulting in a 413 error.
+    - For Docker deployments, just pay attention to the nginx proxy configuration, any upload mode is acceptable
 
 </details>
 
@@ -941,8 +940,8 @@ location /dav {
 
 4. **Configure environment variables**
 
-   - In the `backend` directory, create a `wrangler.toml` file to set development environment variables
-   - In the `frontend` directory, configure the `.env.development` file to set frontend environment variables
+    - In the `backend` directory, create a `wrangler.toml` file to set development environment variables
+    - In the `frontend` directory, configure the `.env.development` file to set frontend environment variables
 
 5. **Start development servers**
 
@@ -960,18 +959,37 @@ location /dav {
 
 ```
 CloudPaste/
-├── frontend/                # Frontend Vue.js application
-│   ├── src/                 # Source code
-│   │   ├── components/      # Vue components
-│   │   ├── api/             # API clients and services
-│   │   ├── i18n/            # Internationalization resource files
-│   │   ├── utils/           # Utility functions
-│   │   └── assets/          # Static assets
-│   └── ...
-└── backend/                 # Cloudflare Workers backend
-    ├── worker.js            # Main Worker file
-    ├── schema.sql           # D1 database schema
-    └── ...
+├── frontend/                    # Frontend Vue.js application
+│   ├── src/
+│   │   ├── api/                 # API clients and service layer
+│   │   ├── components/          # Vue components
+│   │   ├── composables/         # Vue 3 Composition API
+│   │   ├── stores/              # Pinia state management
+│   │   ├── views/               # Page views
+│   │   ├── router/              # Vue Router configuration
+│   │   ├── i18n/                # Internationalization resource files
+│   │   ├── utils/               # Utility functions
+│   │   └── assets/              # Static assets
+│   └── package.json
+├── backend/                     # Cloudflare Workers backend
+│   ├── src/
+│   │   ├── routes/              # API routing layer
+│   │   ├── services/            # Business logic layer
+│   │   ├── storage/             # Storage abstraction layer (S3 drivers, mount management)
+│   │   ├── middlewares/         # Middleware layer
+│   │   ├── webdav/              # WebDAV protocol implementation
+│   │   ├── repositories/        # Data access layer
+│   │   ├── cache/               # Cache management system
+│   │   ├── constants/           # Constants definition
+│   │   └── utils/               # Utility functions
+│   ├── workers.js                # Cloudflare Workers entry file
+│   ├── schema.sql               # D1 database schema definition
+│   ├── wrangler.toml            # Cloudflare Workers configuration
+│   └── package.json
+├── docker/                      # Docker deployment configuration
+├── Api-doc.md                   # Complete API documentation
+├── Api-s3_direct.md             # S3 direct upload API documentation
+└── README.md                    # Project documentation
 ```
 
 ### Custom Docker Build
@@ -1052,21 +1070,19 @@ Apache License 2.0
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## ❤️ Contribution
-- **Sponsorship**: Maintaining a project is not easy. If you like this project, consider giving the author a little encouragement. Every bit of your support is my motivation to keep going~
+- **Sponsorship**: Maintaining the project is not easy. If you like this project, you can give the author a little encouragement. Every bit of your support is the motivation for me to move forward~
+
+  ![image.png](./images/PayQrcode.png)
 
   <a href="https://afdian.com/a/drag0n"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
 
-- **Sponsors**: A huge thank you to the following sponsors for their support of this project!
+   - **Sponsors**: A huge thank you to the following sponsors for their support of this project!!
 
-  [![Sponsors](https://afdian.730888.xyz/image)](https://afdian.com/a/drag0n)
+     [![Sponsors](https://afdian.730888.xyz/image)](https://afdian.com/a/drag0n)
 
-- **Contributors**: Thank you to the following contributors for their selfless contributions to this project!
+- **Contributors**: Thanks to the following contributors for their selfless contributions to this project!
 
   [![Contributors](https://contrib.rocks/image?repo=ling-drag0n/CloudPaste)](https://github.com/ling-drag0n/CloudPaste/graphs/contributors)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ling-drag0n/CloudPaste&type=Date)](https://star-history.com/#ling-drag0n/CloudPaste&Date)
 
 **If you think the project is good I hope you can give a free star✨✨, Thank you very much!**
 

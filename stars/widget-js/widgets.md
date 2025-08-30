@@ -1,6 +1,6 @@
 ---
 project: widgets
-stars: 538
+stars: 540
 description: |-
     Desktop widgets for windows. built with vue3
 url: https://github.com/widget-js/widgets

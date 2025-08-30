@@ -1,6 +1,6 @@
 ---
 project: astro-air
-stars: 54
+stars: 56
 description: |-
     minimalism, personal blog theme for Astro
 url: https://github.com/sun0225SUN/astro-air

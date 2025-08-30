@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 2706
+stars: 2729
 description: |-
     A very useful timer (🍅Pomodoro Clock)
 url: https://github.com/vladelaina/Catime

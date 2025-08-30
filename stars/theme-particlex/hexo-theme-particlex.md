@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-particlex
-stars: 511
+stars: 510
 description: |-
     A concise Hexo theme, based on Particle.
 url: https://github.com/theme-particlex/hexo-theme-particlex

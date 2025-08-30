@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-arknights
-stars: 795
+stars: 797
 description: |-
     明日方舟罗德岛阵营的 Hexo 主题，支持数学公式、Mermaid图表、多种评论系统（Valine、Gitalk、Waline、Artalk、Utterances、Giscus）
 url: https://github.com/Yue-plus/hexo-theme-arknights
@@ -339,7 +339,7 @@ giscusManager.addMessageHandler((data) => {
 })
 
 // 更新配置
-giscusManager.setConfig({ theme: 'dark' })
+giscusManager.sendMessage({ setConfig: { theme: 'dark' } })
 
 // 同步主题
 giscusManager.syncTheme()
@@ -592,6 +592,14 @@ search:
   enable: false
 ```
 
+## 构建时间显示
+
+可选择在边栏添加构建时间显示，默认关闭，若要开启，可以在 `Hexo/_config.arknights.yml` 文件中：
+
+```yaml
+build_time: true
+```
+
 ## Front-matter
 
 除了 [Hexo 支持的 Front-matter](https://hexo.io/zh-cn/docs/front-matter) 还支持：
@@ -603,7 +611,7 @@ post-time: true/false
 # 文章阅读时间/词数统计
 post-count: true/false
 
-# 文章不蒜子统计
+# 文章 Vercount 统计
 vercount: true/false
 
 # 开启/关闭以上全部
@@ -654,6 +662,65 @@ Title2:
 ```
 
 可生成一组友链，标题（title）、与链接（src）为必选项。样式（style）遵循 CSS 格式。
+
+### Monaco Editor
+
+除了 Hexo 自带的 [代码块](https://hexo.io/zh-cn/docs/tag-plugins#%E4%BB%A3%E7%A0%81%E5%9D%97) 外，本主题还支持 VS Code 风格的 [Monaco Editor](https://github.com/microsoft/monaco-editor)。
+
+```text
+{% editor javascript %}
+/* global hexo */
+
+'use strict';
+
+function render(data) {
+    return hexo.render.renderSync({ text: data, engine: 'markdown' });
+}
+
+hexo.extend.tag.register('hide', (args) => {
+    let content = ''
+    args.forEach((item) => {
+        content += ' ' + item
+    });
+    return `<span class="hide"><object>${render(content.slice(1)).trim()}</object></span>`;
+})
+{% endeditor %}
+```
+
+`editor` 标签支持以下参数：
+
+```text
+[language, [theme, [readOnly, [height]]], [...extras(key:value)]]
+```
+
++ `language` 默认为 `plaintext`；
++ `theme` 默认为 `vs-dark`；
++ `readOnly` 默认为 `true`；
++ `height` 默认为 `300px`。
+
+较少使用的参数可通过 `extras` 项传入。例如，下面示例在超过 40 列时启用折行：
+
+```
+{% editor javascript hc-black wordWrap:`wordWrapColumn` wordWrapColumn:40 wrappingIndent:`indent` %}
+/* global hexo */
+
+'use strict';
+
+function render(data) {
+    return hexo.render.renderSync({ text: data, engine: 'markdown' });
+}
+
+hexo.extend.tag.register('hide', (args) => {
+    let content = ''
+    args.forEach((item) => {
+        content += ' ' + item
+    });
+    return `<span class="hide"><object>${render(content.slice(1)).trim()}</object></span>`;
+})
+{% endeditor %}
+```
+
+更多扩展参数请参阅 [Monaco Editor 文档](https://microsoft.github.io/monaco-editor/typedoc/interfaces/editor.IStandaloneEditorConstructionOptions.html)；具体样式效果见 [PR #215](https://github.com/Yue-plus/hexo-theme-arknights/pull/215)。
 
 ## 引入自定义 CSS/JS 文件
 

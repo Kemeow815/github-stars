@@ -1,6 +1,6 @@
 ---
 project: NodeCrypt
-stars: 358
+stars: 370
 description: |-
     🔒True end-to-end encrypted (E2EE) chat system in web. 🔒真正的网页端到端加密聊天系统
 url: https://github.com/shuaiplus/NodeCrypt

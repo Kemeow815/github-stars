@@ -1,6 +1,6 @@
 ---
 project: website
-stars: 41
+stars: 40
 description: |-
     EGOIST's homepage.
 url: https://github.com/egoist/website

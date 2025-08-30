@@ -1,6 +1,6 @@
 ---
 project: Cuckoo
-stars: 572
+stars: 571
 description: |-
     🍭 一款MD风格的双栏 Typecho 主题
 url: https://github.com/bhaoo/Cuckoo
