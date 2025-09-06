@@ -1,6 +1,6 @@
 ---
 project: uiineed-todo-list
-stars: 228
+stars: 229
 description: |-
     Todo List Online - Minimalist, No-Login Required Web Todo App
 url: https://github.com/ricocc/uiineed-todo-list

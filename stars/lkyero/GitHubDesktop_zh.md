@@ -1,6 +1,6 @@
 ---
 project: GitHubDesktop_zh
-stars: 1608
+stars: 1612
 description: |-
     【GitHub Desktop】客户端中文汉化（简体）；【GitHub Desktop】 Simplified Chinese interface；（GitHub桌面版 中文汉化，非网页插件）
 url: https://github.com/lkyero/GitHubDesktop_zh

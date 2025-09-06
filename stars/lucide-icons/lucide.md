@@ -1,6 +1,6 @@
 ---
 project: lucide
-stars: 18775
+stars: 18895
 description: |-
     Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
 url: https://github.com/lucide-icons/lucide
@@ -98,6 +98,6 @@ Thank you to all the people who contributed to Lucide!
 
 ### Awesome backers 🍺
 
-<a href="https://www.scipress.io?utm_source=lucide"><img src="docs/public/sponsors/scipress.svg" width="180" alt="Scipress sponsor badge" /></a>
 <a href="https://github.com/pdfme/pdfme"><img src="docs/public/sponsors/pdfme.svg" width="180" alt="pdfme sponsor badge" /></a>
+<a href="https://www.fina.money/"><img src="docs/public/sponsors/fina-money.png" width="180" alt="Fina Money sponsor badge" /></a>
 

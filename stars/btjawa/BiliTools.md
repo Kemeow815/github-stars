@@ -1,13 +1,13 @@
 ---
 project: BiliTools
-stars: 3455
+stars: 3527
 description: |-
     A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源
 url: https://github.com/btjawa/BiliTools
 ---
 
 <div align="center">
-<img src="./assets/logo.svg" width=500 />
+<img src=".github/logo.svg" width=500 />
 
 <h1>BiliTools - 哔哩哔哩工具箱</h1>
 
@@ -30,7 +30,7 @@ url: https://github.com/btjawa/BiliTools
 
 💡 一个简约、轻量的哔哩哔哩工具箱，基于 [Tauri](https://github.com/tauri-apps/tauri) 构建。
 
-- 📖 使用文档：[https://docs.btjawa.top](https://docs.btjawa.top) 
+- 📖 使用文档：[https://bilitools.btjawa.top](https://bilitools.btjawa.top) 
 
 - 🧾 其他信息：[https://btjawa.top/bilitools](https://btjawa.top/bilitools)
 
@@ -40,7 +40,7 @@ url: https://github.com/btjawa/BiliTools
 
 | 暗色 | 亮色 |
 | -------------------------- | ---------------------------- |
-| ![Dark](./assets/dark.png) | ![Light](./assets/light.png) |
+| ![Dark](.github/dark.png) | ![Light](.github/light.png) |
 
 > [!IMPORTANT]
 > 本项目基于用户账号解析资源，因此你需要订阅大会员、或是购买对应内容后才能解析对应资源
@@ -52,7 +52,6 @@ url: https://github.com/btjawa/BiliTools
 |---------|---------|---------------------------|
 | 视频    | ✅ 已完成 | <ul><li>支持合集 / 分P / 互动、番剧 / 课程 / 电影</li><li>支持 DASH、MP4、FLV</li><li>支持 4K、8K、HDR、杜比视界</li></ul> |
 | 音频    | ✅ 已完成 | <ul><li>支持 AVC、HEVC、AV1</li><li>支持 杜比全景声、Hi-Res</li></ul> |
-| 命名格式 | ✅ 已完成 | <ul><li>支持自定义顶层文件夹、子文件夹、文件名格式</li><li>支持自定义时间格式</li></ul> |
 | 实时弹幕 | ✅ 已完成 | <ul><li>ASS / XML 格式</li><li>可解析弹幕池中几乎所有弹幕</li></ul> |
 | 历史弹幕 | ✅ 已完成 | ASS / XML 格式 |
 | 音乐    | ✅ 已完成 | 支持无损 FLAC、320Kbps 音乐 / 歌单 |
@@ -65,13 +64,13 @@ url: https://github.com/btjawa/BiliTools
 
 | 登录 & 验证    | 状态       | 杂项      | 状态      |
 |----------------|-----------|-----------|-----------|
-| 扫码登录        | ✅ 已完成 | 监听剪切板 | ⚠️ 开发中 |
-| 密码登录        | ✅ 已完成 | 历史记录   | ⚠️ 开发中 |
-| 短信登录        | ✅ 已完成 | 明暗主题   | ✅ 已完成 |
-| 自动刷新登录状态 | ✅ 已完成 | HTTP 代理  | ✅ 已完成 |
-| 参数签名        | ✅ 已完成 | 过滤 PCDN  | ✅ 已完成 |
-| 风控验证        | ✅ 已完成 | 音频转 MP3 | ✅ 已完成 |
-| 指纹验证        | ✅ 已完成 | 并发处理   | ✅ 已完成 |
+| 扫码登录        | ✅ 已完成 | 明暗主题   | ✅ 已完成 |
+| 密码登录        | ✅ 已完成 | 监听剪切板 | ✅ 已完成 |
+| 短信登录        | ✅ 已完成 | HTTP 代理  | ✅ 已完成 |
+| 自动刷新登录状态 | ✅ 已完成 | 过滤 PCDN  | ✅ 已完成 |
+| 参数签名        | ✅ 已完成 | 音频转 MP3 | ✅ 已完成 |
+| 风控验证        | ✅ 已完成 | 命名格式   | ✅ 已完成 |
+| 指纹验证        | ✅ 已完成 | 历史记录   | ⚠️ 开发中 |
 
 ## 🛠️ 参与贡献
 
@@ -86,12 +85,12 @@ url: https://github.com/btjawa/BiliTools
 
 我们主要维护 **简体中文 (zh-CN)**，同时该语言将作为其他语言的翻译源
 
-| 代码           | 状态       |
+| 代码           | 状态      |
 |----------------|-----------|
 | zh-CN          | ✅ 已完成 |
 | zh-HK          | ✅ 已完成 |
-| en-US          | ⚠️ ~90% |
-| ja-JP          | ⚠️ ~70% |
+| en-US          | ✅ 已完成 |
+| ja-JP          | ✅ 已完成 |
 
 ## ⚡ 赞助
 

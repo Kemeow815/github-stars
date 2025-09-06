@@ -1,14 +1,19 @@
 ---
 project: fumadocs
-stars: 7876
+stars: 7961
 description: |-
-    The beautiful docs framework with Next.js and any React.js framework.
+    The beautiful & flexible React.js docs framework.
 url: https://github.com/fuma-nama/fumadocs
 ---
 
 ![banner](./apps/docs/public/banner.png)
 
-The framework for building documentation websites in Next.js or other React.js frameworks.
+The framework for building documentation websites in any React.js frameworks.
+
+**Officially Supported:**
+
+- Next.js
+- Vite: Tanstack Start, Waku, React Router
 
 📘 Learn More: [Documentation](https://fumadocs.vercel.app).
 

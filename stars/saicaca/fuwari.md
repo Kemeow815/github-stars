@@ -1,6 +1,6 @@
 ---
 project: fuwari
-stars: 3042
+stars: 3088
 description: |-
     ✨A static blog template built with Astro. 
 url: https://github.com/saicaca/fuwari

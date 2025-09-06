@@ -1,6 +1,6 @@
 ---
 project: generate-albums
-stars: 2
+stars: 3
 description: |-
     自动化生成相册Automatically generate photo albums
 url: https://github.com/jkjoy/generate-albums

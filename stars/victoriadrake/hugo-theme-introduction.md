@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-introduction
-stars: 702
+stars: 703
 description: |-
     Minimal, single page, smooth-scrolling theme for Hugo static site generator.
 url: https://github.com/victoriadrake/hugo-theme-introduction

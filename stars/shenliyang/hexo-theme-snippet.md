@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-snippet
-stars: 1101
+stars: 1103
 description: |-
     Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题
 url: https://github.com/shenliyang/hexo-theme-snippet

@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-white
-stars: 194
+stars: 193
 description: |-
     A Pure Theme For Hexo 
 url: https://github.com/FuShaoLei/hexo-theme-white

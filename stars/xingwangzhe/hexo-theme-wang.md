@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-wang
-stars: 6
+stars: 7
 description: |-
     一个简约的hexo主题
 url: https://github.com/xingwangzhe/hexo-theme-wang

@@ -1,6 +1,6 @@
 ---
 project: FeedMe
-stars: 645
+stars: 650
 description: |-
     AI-powered RSS reader, deployable to GitHub Pages or with Docker | 用 AI 重新定义你的 RSS 阅读体验，轻松部署到 GitHub Pages / Docker
 url: https://github.com/Seanium/FeedMe

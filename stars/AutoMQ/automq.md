@@ -1,8 +1,8 @@
 ---
 project: automq
-stars: 6959
+stars: 7010
 description: |-
-    AutoMQ is a diskless Kafka on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.
+    AutoMQ is a diskless Kafka® on S3. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency. Multi-AZ Availability.
 url: https://github.com/AutoMQ/automq
 ---
 
@@ -32,8 +32,7 @@ url: https://github.com/AutoMQ/automq
 
 <div align="center">
     
-<img width="97%" alt="automq-solgan" src="https://github.com/user-attachments/assets/19d9d686-c681-494e-bc27-937371e15760" />
-
+<img width="97%" alt="automq-solgan" src="https://github.com/user-attachments/assets/97fcde87-19ef-42a9-9835-01b63516d497" />
 
 <a href="https://www.youtube.com/watch?v=IB8sh639Rsg" target="_blank">
     <img alt="Grab" src="https://github.com/user-attachments/assets/01668da4-3916-4f49-97af-18f91b25f8c1" width="19%" />

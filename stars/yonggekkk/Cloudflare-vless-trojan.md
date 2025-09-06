@@ -1,12 +1,14 @@
 ---
 project: Cloudflare-vless-trojan
-stars: 10879
+stars: 11120
 description: |-
     CF-workers/pages代理脚本【Vless与Trojan】：支持nat64自动生成proxyip，一键自建proxyip与CF反代IP，CF优选官方IP三地区应用脚本，自动输出美、亚、欧最佳优选IP
 url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 ---
 
 # Cloudflare-workers/pages代理脚本【目前版本：25.5.4】
+------------------------------------------------
+------------------------------------------------
 ### 1、本项目仅支持本地化部署
 ### 2、本项目配置都为本地化编辑，不使用订阅器、订阅转换等第三方外链引用
 ### 3、无需担心节点订阅信息被订阅器作者或者订阅转换作者后台查看
@@ -29,6 +31,8 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 [永久免费的cf vless workers原生域名节点 | 无需自定义域名 | 无需优选IP订阅 | 无需面版控制台 | 只需保存两个参数 | 自建无限不死节点！](https://youtu.be/PpPKzOYLZQg)
 
 [永久免费的cf vless pages原生域名节点 | NAT64生成ProxyIP的重要说明 | CF节点为何有些网站上不了？](https://youtu.be/yR-JpVV6SHs)
+
+[CF vless/trojan免费节点混淆时代来临：workers/pages代码混淆后详细设置的更新说明；1101报错总结](https://youtu.be/QSFaP5EVI04)
 
 ---------------------------------------------
 
@@ -247,6 +251,8 @@ CF官方优选443系端口：443、2053、2083、2087、2096、8443
 [ClouDNS永久免费域名最终教程：CF pages vless自定义域名直接部署](https://youtu.be/PN0BLANXh4I)
 
 小白优选IP应用推荐：[CF优选IP解放小白最终方案：一键自动生成美国、香港、欧洲三区优选官方IP，电脑WIN、安卓android、苹果ios多平台一键通用](https://youtu.be/6kKIzObEZ2c)
+
+[CF vless/trojan免费节点混淆时代来临：workers/pages代码混淆后详细设置的更新说明；1101报错总结](https://youtu.be/QSFaP5EVI04)
 
 
 ---------------------------------

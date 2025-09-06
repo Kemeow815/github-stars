@@ -1,6 +1,6 @@
 ---
 project: MyPaperMod
-stars: 10
+stars: 11
 description: |-
     null
 url: https://github.com/sherlcok314159/MyPaperMod

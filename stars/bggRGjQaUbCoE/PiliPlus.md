@@ -1,6 +1,6 @@
 ---
 project: PiliPlus
-stars: 5227
+stars: 5361
 description: |-
     PiliPlus
 url: https://github.com/bggRGjQaUbCoE/PiliPlus
@@ -55,6 +55,7 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 
 ## feat
 
+- [x] SuperChat
 - [x] 播放课堂视频
 - [x] 发起投票
 - [x] 发布动态/评论支持`富文本编辑`/`表情显示`/`@用户`
@@ -247,4 +248,14 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 <br/>
 <br/>
 <br/>
+
+## Star History
+
+<a href="https://www.star-history.com/#bggRGjQaUbCoE/PiliPlus&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=bggRGjQaUbCoE/PiliPlus&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=bggRGjQaUbCoE/PiliPlus&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=bggRGjQaUbCoE/PiliPlus&type=Date" />
+ </picture>
+</a>
 

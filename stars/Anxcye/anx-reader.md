@@ -1,6 +1,6 @@
 ---
 project: anx-reader
-stars: 5733
+stars: 5765
 description: |-
     Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. 
 url: https://github.com/Anxcye/anx-reader
@@ -171,11 +171,6 @@ QQ Group：1042905699
 | ![](./docs/images/mobile4.png) | ![](./docs/images/mobile5.png) | ![](./docs/images/mobile6.png) |
 | ![](./docs/images/mobile7.png) | ![](./docs/images/mobile8.png) | ![](./docs/images/mobile9.png) |
 
-## Donations
-If you like Anx Reader, please consider supporting the project by donating. Your donation will help me maintain and improve the project.
-
-❤️ [Donate](https://anxcye.com/home/7)
-// ...existing code...
 ## Donations
 If you like Anx Reader, please consider supporting the project by donating. Your donation will help me maintain and improve the project.
 

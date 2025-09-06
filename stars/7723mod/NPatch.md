@@ -1,6 +1,6 @@
 ---
 project: NPatch
-stars: 77
+stars: 101
 description: |-
     NPatch是一个复刻自LSPatch，以LSPosed为基础的免root的Xposed框架
 url: https://github.com/7723mod/NPatch
@@ -19,7 +19,7 @@ We sincerely invite you to join our [Telegram](t.me/NPatch) group to get more in
 ## Supported Versions
 
 - Min: Android 8.1
-- Max: In theory, same with [LSPosed](https://github.com/JingMatrix/LSPosed#supported-versions)
+- Max: In theory, same with [JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed#supported-versions)
 
 ## Download
 

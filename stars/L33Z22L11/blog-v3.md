@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 116
+stars: 118
 description: |-
     My blog, powered by Nuxt Content v3.
 url: https://github.com/L33Z22L11/blog-v3
@@ -25,24 +25,27 @@ url: https://github.com/L33Z22L11/blog-v3
 
 ## 使用本主题的博客
 
+> 主题吸收了 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 的设计风格，命名为 **Clarity**，寓意清楚的阅读体验和清晰的观点表达。
+>
 > v3.3 (不含) 之前使用 Nuxt 3 + Nuxt Content 2，更新依赖/删除 lcok 文件可能导致项目无法启动。
 
 | 博客名称                                    | 作者          | 对应上游版本 | 下游特色功能                   |
 | ------------------------------------------- | ------------- | ------------ | ------------------------------ |
-| **[纸鹿摸鱼处](https://blog.zhilu.site/)**  | **L33Z22L11** | **v3.4.2**   | (我是上游)                     |
+| **[纸鹿摸鱼处](https://blog.zhilu.site/)**  | **L33Z22L11** | **v3.4.5**   | (我是上游)                     |
 | [希乐博客](https://blog.xlenco.top/)        | Xlenco        | v3.4.0       | 最新评论                       |
 | [SteinsNote](https://blog.labmem.chat/)     | Labmem-00     | v3.1-241112  | 专栏                           |
 | [月空人](https://whbbit.cn/)                | Whbbit1999    | v3.3-250521  | 项目/博客/Snippets页           |
-| [地球驿站](https://blog.mugzx.top/)         | mugzx         | v3.4.0       | 设计风格统一                   |
+| [地球驿站](https://blog.mugzx.top/)         | mugzx         | v3.4.2       | 设计风格统一                   |
 | [喵落阁](https://blog-v3.kemeow.top/)       | Kemeow815     | v3.2-250521  | 即刻+友圈+最新评论+游戏/番剧页 |
 | [梦爱吃鱼](https://blog.ruom.top/)          | JLinmr        | v3.2-250304  | 即刻+友圈+最新评论             |
-| [Mikuの极光星](https://blog.sotkg.com/)     | PaloMiku      | v3.4.0       | 设计风格统一                   |
-| [Shenley的存档点](https://blog.ykrazy.top/) | shenlye       | v3.4.0       | 游戏/番剧页                    |
+| [Mikuの极光星](https://blog.sotkg.com/)     | PaloMiku      | v3.4.2       | 设计风格统一                   |
+| [Shenley的存档点](https://blog.ykrazy.top/) | shenlye       | v3.4.1       | 游戏/番剧页                    |
 | [BiuXin-s Blog](https://zhilu.biuxin.com/)  | damizai       | v3.2-250304  | 即刻+友圈+最新评论             |
-| [液泡部落格](https://blog.vacu.top/)        | VacuolePaoo   | v3.4.0       | 一言                           |
-| [莫言小栈](https://www.myxz.top/)           | 661111        | v3.4.0       | 即刻+友圈+Heo友链轮播/Profile  |
-| [落憾](https://blog.enltlh.me/)             | LuoH-AN       | v3.4.0       | 即刻+标签tags                  |
-| [落尘up](https://www.luochen.chat/)         | luochenup     | v3.3.4       | 随机友链                       |
+| [液泡部落格](https://blog.vacu.top/)        | VacuolePaoo   | v3.4.0       | 一言+标签tags+页脚随机友链     |
+| [柒渊阁](https://www.myxz.top/)             | 661111        | v3.4.0       | 即刻+友圈+Heo友链轮播/Profile  |
+| [落憾](https://blog.enltlh.me/)             | LuoH-AN       | v3.4.0       | 即刻+一言+卡片Profile          |
+| [落尘up](https://www.luochen.chat/)         | luochenup     | v3.3.4       | 侧栏时间轴                     |
+| [硅基漫游指南](https://blog.helong.online/) | HeLongaa      | v3.4.0       | 即刻+友圈                      |
 
 ## 特性
 
@@ -84,16 +87,20 @@ url: https://github.com/L33Z22L11/blog-v3
 │   └── theme.md # 主题介绍
 ├── patches # npm 包补丁
 ├── public # 静态资源，生成在站点根目录
+│   ├── assets # 订阅源 XSL 模板
 │   └── fonts # 字体
+├── scripts # npm 脚本
 ├── server # 服务端
 │   ├── api # 接口
 │   │   └── stats.get.ts # 博客静态统计
 │   ├── plugins # Nitro 插件
 │   │   └── anti-mirror.ts # 恶意反代跳转
-│   └── routes # 路由
+│   └── routes # 根路由
 │       ├── atom.xml.get.ts # Atom 订阅源
 │       └── zhilu.opml.get.ts # OPML 订阅源聚合
 ├── blog.config.ts # 博客静态公共配置★
+├── content.config.ts # Nuxt Content 配置
+├── edgeone.json # EdgeOne 配置
 ├── nuxt.config.ts # Nuxt 配置
 └── redirects.json # 旧站点重定向配置
 ```
@@ -129,10 +136,10 @@ pnpm dev
 
 ### 创建文章
 
-启用 `blog.config.ts` 中的 `contentPath.randomPathAtNew`，即可在创建文章时随机生成 URL。
+启用 `blog.config.ts` 中的 `article.useRandomPremalink`，即可在创建文章时随机生成 URL。
 
 ```sh
-pnpm new 你好，世界！
+pnpm new
 ```
 
 ### 构建生产环境
@@ -144,13 +151,13 @@ pnpm preview
 
 ### 部署指南
 
-推荐使用 Vercel 进行部署，同时也支持 Netlify、Cloudflare Pages、EdgeOne 等平台。建议采用静态（SSG）部署方式，我的部署配置如下：
+支持 Vercel、Netlify、Cloudflare Pages、EdgeOne 等平台部署。建议采用静态（SSG）部署方式：
 
-- 构建命令: `pnpm generate`/`nuxt generate`
-- 输出目录: `dist`（与Nuxt预设相同）
-- 安装命令: `pnpm i`（一般会自动检测）
+- 构建命令: `pnpm generate`
+- 输出目录: `dist`
+- 安装命令: `pnpm i`
 
-如果直接使用平台提供的“Nuxt”预设部署，那么会变成 SSR 模式，需要调整部署命令，请参阅 Nuxt 官方文档的 [部署](https://nuxt.com/docs/getting-started/deployment) 部分。
+如果直接使用平台提供的“Nuxt”预设部署，则会变成 SSR 模式，此模式每次访问都会等待服务端重新渲染。请参阅 [Nuxt 文档](https://nuxt.com/docs/getting-started/deployment) 和 [Nuxt Content 文档](https://content.nuxt.com/docs/deploy/static) 的“部署”一节。
 
 #### 疑难解答
 

@@ -1,6 +1,6 @@
 ---
 project: Mosaict
-stars: 28
+stars: 29
 description: |-
     Mosaict是使用flutter开发的第三方bilibili客户端
 url: https://github.com/666666g/Mosaict

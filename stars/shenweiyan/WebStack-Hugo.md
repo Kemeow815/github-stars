@@ -1,6 +1,6 @@
 ---
 project: WebStack-Hugo
-stars: 1302
+stars: 1306
 description: |-
     WebStack 网址导航 Hugo 主题，无需服务器，支持导航一键配置的纯静态网址导航网站。
 url: https://github.com/shenweiyan/WebStack-Hugo
@@ -103,3 +103,13 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 [![Star History Chart](https://api.star-history.com/svg?repos=shenweiyan/WebStack-Hugo&type=Date)](https://star-history.com/#shenweiyan/WebStack-Hugo&Date)
 
 
+
+<!-- Security scan triggered at 2025-09-02 14:25:13 -->
+
+<!-- Security scan triggered at 2025-09-02 15:27:05 -->
+
+<!-- Security scan triggered at 2025-09-02 15:27:20 -->
+
+<!-- Security scan triggered at 2025-09-02 15:27:59 -->
+
+<!-- Security scan triggered at 2025-09-02 15:28:24 -->

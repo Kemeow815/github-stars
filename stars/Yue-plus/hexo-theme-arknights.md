@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-arknights
-stars: 797
+stars: 800
 description: |-
     明日方舟罗德岛阵营的 Hexo 主题，支持数学公式、Mermaid图表、多种评论系统（Valine、Gitalk、Waline、Artalk、Utterances、Giscus）
 url: https://github.com/Yue-plus/hexo-theme-arknights

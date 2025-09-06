@@ -1,6 +1,6 @@
 ---
 project: MoeKoeMusic
-stars: 3454
+stars: 3547
 description: |-
     一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:
 url: https://github.com/iAJue/MoeKoeMusic
@@ -30,7 +30,7 @@ url: https://github.com/iAJue/MoeKoeMusic
   </p>
 </p>
 
-![images](https://github.com/iAJue/MoeKoeMusic/raw/main/images/5.png)
+![images](https://github.com/iAJue/MoeKoeMusic/raw/main/images/1.png)
 
 ## ❤️ 前言
 
@@ -295,12 +295,13 @@ API 源代码来自 [MakcRe/KuGouMusicApi](https://github.com/MakcRe/KuGouMusicA
 
 ## 🖼️ 截图
 
-![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/1.png)
 ![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/2.png)
 ![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/3.png)
 ![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/4.png)
 ![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/5.png)
 ![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/6.png)
+![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/7.png)
+![image](https://github.com/iAJue/MoeKoeMusic/raw/main/images/8.png)
 
 
 ## 🗓️ Star History

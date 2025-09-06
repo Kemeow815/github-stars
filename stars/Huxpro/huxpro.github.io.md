@@ -1,6 +1,6 @@
 ---
 project: huxpro.github.io
-stars: 7454
+stars: 7464
 description: |-
     My Blog / Jekyll Themes / PWA
 url: https://github.com/Huxpro/huxpro.github.io

@@ -1,69 +1,181 @@
 ---
 project: fuwari
-stars: 67
+stars: 70
 description: |-
     魔改版Fuwari，自用博客
 url: https://github.com/afoim/fuwari
 ---
 
-# 🍥Fuwari
+# Fuwari
 
-A static blog template built with [Astro](https://astro.build).
+一个基于 Astro 构建的现代化个人博客主题，专注于技术分享与实践。
 
-[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**📦 Old Hexo Version**](https://github.com/saicaca/hexo-theme-vivia)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+## ✨ 特性
 
+- 🚀 基于 Astro 4.0+ 构建，性能卓越
+- 📱 完全响应式设计，支持移动端
+- 🌙 支持深色/浅色主题切换
+- 📝 支持 Markdown 和 MDX 格式
+- 🔍 内置搜索功能
+- 📊 文章阅读时间统计
+- 🏷️ 标签和分类系统
+- 📈 SEO 优化
+- 🎨 可自定义配置
+- 💬 评论系统支持
+- 📡 RSS 订阅支持
 
-> README version: `2024-09-10`
+## 🛠️ 技术栈
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+- **框架**: Astro
+- **样式**: Tailwind CSS + Stylus
+- **交互**: Svelte
+- **构建工具**: Vite
+- **包管理**: pnpm
+- **代码规范**: Biome
 
-## ✨ Features
+## 🚀 快速开始
 
-- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
-- [x] Smooth animations and page transitions
-- [x] Light / dark mode
-- [x] Customizable theme colors & banner
-- [x] Responsive design
-- [ ] Comments
-- [x] Search
-- [ ] TOC
+### 环境要求
 
-## 🚀 How to Use
+- Node.js 18+
+- pnpm
 
-1. [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
-2. To edit your blog locally, clone your repository, run `pnpm install` AND `pnpm add sharp` to install dependencies.
-   - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
-3. Edit the config file `src/config.ts` to customize your blog.
-4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
-5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
+### 安装依赖
 
-## ⚙️ Frontmatter of Posts
-
-```yaml
----
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
-draft: false
-lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
----
+```bash
+pnpm install
 ```
 
-## 🧞 Commands
+### 开发模式
 
-All commands are run from the root of the project, from a terminal:
+```bash
+pnpm dev
+```
 
-| Command                             | Action                                           |
-|:------------------------------------|:-------------------------------------------------|
-| `pnpm install` AND `pnpm add sharp` | Installs dependencies                            |
-| `pnpm dev`                          | Starts local dev server at `localhost:4321`      |
-| `pnpm build`                        | Build your production site to `./dist/`          |
-| `pnpm preview`                      | Preview your build locally, before deploying     |
-| `pnpm new-post <filename>`          | Create a new post                                |
-| `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro --help`                 | Get help using the Astro CLI                     |
+### 构建生产版本
 
+```bash
+pnpm build
+```
+
+### 预览构建结果
+
+```bash
+pnpm preview
+```
+
+## 📝 使用指南
+
+### 创建新文章
+
+使用内置脚本快速创建新文章：
+
+```bash
+pnpm new-post helloword
+```
+
+### 清理未使用的图片
+
+清理 `src/content/assets` 目录下未被引用的图片文件：
+
+```bash
+pnpm clean
+```
+
+### 配置博客
+
+编辑 `src/config.ts` 文件来自定义博客配置：
+
+```typescript
+export const siteConfig: SiteConfig = {
+  title: "Fuwari",
+  subtitle: "技术分享与实践",
+  lang: "zh_CN",
+  themeColor: {
+    hue: 250,
+    fixed: false,
+  },
+  banner: {
+    enable: false,
+    src: "assets/images/demo-banner.png",
+    position: "center",
+  },
+  favicon: [
+    {
+      src: "/favicon/icon.png",
+    }
+  ]
+}
+```
+
+### 文章格式
+
+文章使用 Markdown 格式，支持 frontmatter：
+
+```markdown
+---
+title: 文章标题
+published: 2024-01-01
+description: 文章描述
+image: ./cover.jpg
+tags: [标签1, 标签2]
+category: 分类
+draft: false
+---
+
+# 文章内容
+
+这里是文章正文...
+```
+
+## 📁 项目结构
+
+```
+├── public/                 # 静态资源
+├── src/
+│   ├── components/         # 组件
+│   ├── content/           # 内容
+│   │   ├── posts/         # 博客文章
+│   │   └── assets/        # 资源文件
+│   ├── layouts/           # 布局
+│   ├── pages/             # 页面
+│   ├── styles/            # 样式
+│   └── config.ts          # 配置文件
+├── scripts/               # 脚本工具
+└── package.json
+```
+
+## 🎨 自定义
+
+### 主题颜色
+
+在 `src/config.ts` 中修改 `themeColor` 配置：
+
+```typescript
+themeColor: {
+  hue: 250,        // 主色调 (0-360)
+  fixed: false,    // 是否固定颜色
+}
+```
+
+### 样式定制
+
+- 全局样式：`src/styles/main.css`
+- Markdown 样式：`src/styles/markdown.css`
+- 变量定义：`src/styles/variables.styl`
+
+## 📦 部署
+
+构建后的静态文件位于 `dist/` 目录，可部署到任何静态托管平台。
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+## 📄 许可证
+
+[MIT License](LICENSE)
+
+## 🙏 致谢
+
+感谢所有为这个项目做出贡献的开发者们！尤其感谢[上游仓库](https://github.com/saicaca/fuwari)
