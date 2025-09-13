@@ -1,6 +1,6 @@
 ---
 project: gkBlog
-stars: 73
+stars: 74
 description: |-
     gkBlog 是一个使用 Turborepo + pnpm 构建的个人博客网站 📚
 url: https://github.com/qlAD/gkBlog
@@ -257,7 +257,7 @@ lang: zh
 tags:
   - nextjs
   - 环境配置
-category: 技术
+category: 技术笔记
 cover: images/20250422153424876.png
 ---
 ```

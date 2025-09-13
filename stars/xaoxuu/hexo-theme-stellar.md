@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-stellar
-stars: 1690
+stars: 1702
 description: |-
     综合型hexo主题：博客+知识库+专栏+笔记，内置海量的标签组件和动态数据组件。
 url: https://github.com/xaoxuu/hexo-theme-stellar

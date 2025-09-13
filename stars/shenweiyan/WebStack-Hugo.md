@@ -1,6 +1,6 @@
 ---
 project: WebStack-Hugo
-stars: 1306
+stars: 1316
 description: |-
     WebStack 网址导航 Hugo 主题，无需服务器，支持导航一键配置的纯静态网址导航网站。
 url: https://github.com/shenweiyan/WebStack-Hugo
@@ -10,21 +10,19 @@ url: https://github.com/shenweiyan/WebStack-Hugo
 > **2025年05月17日：更多新功能，请参考：<https://github.com/PagesX> 项目！**
 
 
-# 一个基于 Hugo 的静态响应式网址导航主题 
+## 一个基于 Hugo 的静态响应式网址导航主题 
 
 本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，是一个基于 Hugo 的静态响应式网址导航主题。<br/>
 
-## 主题开源地址
+### 主题开源地址
 
 [**GitHub**](https://github.com/shenweiyan/WebStack-Hugo) | [**Gitee**](https://gitee.com/shenweiyan/WebStack-Hugo) | [**GitCode**](https://gitcode.com/shenweiyan/WebStack-Hugo)
 
-## 主题演示地址
+### 主题演示地址
 
-- 站点：<https://shenweiyan.github.io/WebStack-Demo/>
-- 源码：<https://github.com/shenweiyan/WebStack-Demo>
+<https://webstack-demo.weiyan.cc/>
 
-
-## 特色功能
+### 特色功能
 
 这是 Hugo 版 WebStack 主题。可以借助下面的平台直接托管部署，无需服务器。
 - [Webify](https://webify.cloudbase.net/) | [Netlify](https://app.netlify.com/) | [Cloudflare Pages](https://pages.cloudflare.com) | [Vercel](https://vercel.com) | [Github Pages](https://pages.github.com/)
@@ -63,23 +61,20 @@ url: https://github.com/shenweiyan/WebStack-Hugo
 - 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
 - 增加了一言、和风天气的 API。
 
-## 使用说明
+### 使用说明
 
 这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
 
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 [issue](https://github.com/shenweiyan/WebStack-Hugo/issues) 分享一下！
+WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎在本项目留下你的 [分享](https://github.com/shenweiyan/WebStack-Hugo/issues/10)！
 
 
-## 安装说明
+### 安装说明
 
-关于 Windows/Linux 下详细的安装与使用说明，请参考文档。
+关于 Windows/Linux 下详细的安装与使用说明，请参考文档《WebStack-Hugo | 一个静态响应式导航主题》。
 
-📗 **《WebStack-Hugo | 一个静态响应式导航主题》** 
-- [链接1 - GitHub Discussions](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)
-- [链接2 - 维燕的知识花园](https://weiyan.cc/kg-discussions-10)
+- [链接1](https://weiyan.cc/tech/discussions-10/) | [链接2](https://github.com/shenweiyan/Digital-Garden/discussions/10)
 
-
-## 感谢
+### 感谢
 
 本主题的部分代码参考了以下几个开源项目，特此感谢。
 
@@ -92,24 +87,13 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 - [@yanbeiyinhanghang](https://github.com/yinhanghang)     
 - [@jetsung](https://github.com/jetsung)
 
-## 赞赏
+### 赞赏
 
 如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
 
-![donate-wecaht-aliapy](https://user-images.githubusercontent.com/26101369/212630361-aa393be8-581e-4a97-bfe2-256e883791fb.jpg)
+![donate-wecaht-aliapy](https://kg.weiyan.cc/0000/img/donate.webp)
 
-## Star History
+### Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=shenweiyan/WebStack-Hugo&type=Date)](https://star-history.com/#shenweiyan/WebStack-Hugo&Date)
 
-
-
-<!-- Security scan triggered at 2025-09-02 14:25:13 -->
-
-<!-- Security scan triggered at 2025-09-02 15:27:05 -->
-
-<!-- Security scan triggered at 2025-09-02 15:27:20 -->
-
-<!-- Security scan triggered at 2025-09-02 15:27:59 -->
-
-<!-- Security scan triggered at 2025-09-02 15:28:24 -->

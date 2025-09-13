@@ -1,6 +1,6 @@
 ---
 project: astro-book
-stars: 11
+stars: 12
 description: |-
     null
 url: https://github.com/rebron1900/astro-book

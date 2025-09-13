@@ -1,6 +1,6 @@
 ---
 project: MeowNocode
-stars: 217
+stars: 224
 description: |-
     memos类开源高颜值便签应用
 url: https://github.com/y-shi23/MeowNocode
@@ -156,6 +156,9 @@ ALTER TABLE user_settings ADD COLUMN canvas_config TEXT;
 -- 如缺少双链数据
 ALTER TABLE memos ADD COLUMN backlinks TEXT DEFAULT '[]';
 
+-- 如需新增录音数据（audio_clips）
+ALTER TABLE memos ADD COLUMN audio_clips TEXT DEFAULT '[]';
+
 -- 如缺少 memos.created_at 索引
 CREATE INDEX IF NOT EXISTS idx_memos_created_at ON memos(created_at);
 ```
@@ -171,6 +174,9 @@ ALTER TABLE user_settings ADD COLUMN IF NOT EXISTS canvas_config JSONB;
 
 -- 如缺少双链数据
 ALTER TABLE memos ADD COLUMN IF NOT EXISTS backlinks JSONB DEFAULT '[]'::jsonb;
+
+-- 如需新增录音数据（audio_clips）
+ALTER TABLE memos ADD COLUMN IF NOT EXISTS audio_clips JSONB DEFAULT '[]'::jsonb;
 
 -- 如缺少 memos.created_at 索引
 CREATE INDEX IF NOT EXISTS idx_memos_created_at ON memos(created_at);

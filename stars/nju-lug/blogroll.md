@@ -1,6 +1,6 @@
 ---
 project: blogroll
-stars: 74
+stars: 75
 description: |-
     南京大学 Linux Users Group 收集同学和校友们的 Blog
 url: https://github.com/nju-lug/blogroll
@@ -75,6 +75,7 @@ https://t.me/NJULUG_Blogroll
 | Yukino's Blog | https://02hyc.github.io/Blog/index.xml | https://02hyc.github.io/Blog/ |
 | The 0x26A1 Bay | https://igns.top/index.xml | https://igns.top/ |
 | jjl9807's blog | https://blog.jjl9807.com/feed/ | https://blog.jjl9807.com/ |
+| LoveApple's Blog | https://loveapple.icu/atom.xml | https://loveapple.icu/ |
 
 
 ## OPML

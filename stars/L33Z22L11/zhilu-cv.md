@@ -1,6 +1,6 @@
 ---
 project: zhilu-cv
-stars: 9
+stars: 12
 description: |-
     我的前端开发个人简历，可在线部署/导出PDF。
 url: https://github.com/L33Z22L11/zhilu-cv
@@ -43,10 +43,10 @@ cv.zhilu.cyou
 
 ```bash
 # 安装依赖
-pnpm install
+pnpm i
 
 # 开发模式
-pnpm run dev
+pnpm dev
 ```
 
 ### 添加图标

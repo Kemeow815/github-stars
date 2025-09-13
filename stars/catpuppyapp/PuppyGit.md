@@ -1,6 +1,6 @@
 ---
 project: PuppyGit
-stars: 475
+stars: 482
 description: |-
     An android git client
 url: https://github.com/catpuppyapp/PuppyGit
@@ -178,6 +178,6 @@ The Editor of PuppyGit is modified from kaleidot725's <a href=https://github.com
 The Log class `MyLog` changed from: <a href=https://www.cnblogs.com/changyiqiang/p/11225350.html>changyiqiang's blog</a><br>
 The `MIMEType` related util classes copied from ZhangHai's <a href=https://github.com/zhanghai/MaterialFiles>Material Files</a>(<a href=https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE>LICENSE</a>)<br>
 The `PermissionUtils` copied from <a href=https://github.com/NeoApplications/Neo-Backup/blob/main/src/main/java/com/machiav3lli/backup/utils/PermissionUtils.kt>Neo-Backup PermissionUtils class</a>(<a href=https://github.com/NeoApplications/Neo-Backup/blob/main/LICENSE.md>LICENSE</a>)<br>
-The syntax feature related files are picked from <a href=https://github.com/Rosemoe/sora-editor>Sora Editor</a>(<a href=https://github.com/Rosemoe/sora-editor/blob/main/LICENSE>LICENSE</a>)
+The files about syntax highlighting feature are picked from <a href=https://github.com/Rosemoe/sora-editor>Sora Editor</a>(<a href=https://github.com/Rosemoe/sora-editor/blob/main/LICENSE>LICENSE</a>)
 
 

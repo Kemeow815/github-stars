@@ -1,6 +1,6 @@
 ---
 project: typecho-bearsimple
-stars: 297
+stars: 298
 description: |-
     一款简洁大方的Typecho主题
 url: https://github.com/whitebearcode/typecho-bearsimple

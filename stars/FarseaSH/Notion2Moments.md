@@ -1,6 +1,6 @@
 ---
 project: Notion2Moments
-stars: 1
+stars: 2
 description: |-
     null
 url: https://github.com/FarseaSH/Notion2Moments

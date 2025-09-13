@@ -1,6 +1,6 @@
 ---
 project: podcast2
-stars: 167
+stars: 169
 description: |-
     将视频网站转换成播客订阅   Convert a video website into a podcast subscription 支持 哔哩哔哩、YouTube、干净世界和girigirilove 图形化界面
 url: https://github.com/yajuhua/podcast2
@@ -86,7 +86,7 @@ firewall-cmd --reload
 
 4. 扫描二维码添加到播客APP（如：AntennaPod）
 
-<img width="500" src="https://raw.githubusercontent.com/yajuhua/podcast2/v2/images/AntennaPod-1.jpg" alt="链接地址" style="zoom:25%;" /><img width="500" src="./images/AntennaPod-2.jpg" alt="AntennaPod-2" style="zoom:25%;" />
+<img width="500" src="https://raw.githubusercontent.com/yajuhua/podcast2/v2/images/AntennaPod-1.jpg" alt="链接地址" style="zoom:25%;" /><img width="500" src="https://raw.githubusercontent.com/yajuhua/podcast2/v2/images/AntennaPod-2.jpg" alt="AntennaPod-2" style="zoom:25%;" />
 
 #### 播客APP
 

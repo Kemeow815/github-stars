@@ -3,7 +3,7 @@ project: zero
 stars: 88
 description: |-
     🏡 My corner of internet, Personal Homepage.
-url: https://github.com/Chanshiyucx/zero
+url: https://github.com/chanshiyucx/zero
 ---
 
 # Zero - A Personal Blog & Portfolio

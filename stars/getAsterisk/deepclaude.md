@@ -1,6 +1,6 @@
 ---
 project: deepclaude
-stars: 5308
+stars: 5316
 description: |-
     A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.
 url: https://github.com/getAsterisk/deepclaude

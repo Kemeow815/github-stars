@@ -1,6 +1,6 @@
 ---
 project: theme-vcard4
-stars: 22
+stars: 23
 description: |-
     vCard4 是一个响应式的个人作品集主题，可适配所有设备。
 url: https://github.com/Anyexyz/theme-vcard4

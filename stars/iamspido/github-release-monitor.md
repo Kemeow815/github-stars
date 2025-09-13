@@ -1,6 +1,6 @@
 ---
 project: github-release-monitor
-stars: 208
+stars: 215
 description: |-
     A powerful, self-hostable application to automatically monitor GitHub repository releases and receive instant email and Apprise notifications, including Telegram, Discord, Slack and many more.
 url: https://github.com/iamspido/github-release-monitor
@@ -99,6 +99,21 @@ Navigate to the `example/` directory. You will need to configure the environment
    # Your GitHub Personal Access Token to increase the API rate limit from 60 to 5000 requests/hour.
    # Create a token with no scopes (public repo access) for better security.
    GITHUB_ACCESS_TOKEN=your_github_pat_here
+   ```
+
+   **Localization**
+   Set the timezone for date and log formatting.
+   ```env
+   # The timezone for the container (e.g., `Europe/Berlin`).
+   TZ=Europe/Berlin
+   ```
+
+   **Logging**
+   Control the verbosity of server-side logs. Timestamps always use the server timezone (`TZ`).
+   ```env
+   # One of: error, warn, info, debug, silent
+   # Defaults: development=debug, production=warn (if unset)
+   LOG_LEVEL=info
    ```
 
    **Email (SMTP) Configuration**
@@ -315,6 +330,13 @@ To avoid being rate-limited by the GitHub API, it is highly recommended to creat
 GITHUB_ACCESS_TOKEN=your_github_pat_here
 ```
 
+#### **Localization**
+Set the timezone for date and log formatting.
+```env
+# The timezone for the container (e.g., `Europe/Berlin`). Affects log timestamps and date formatting.
+TZ=Europe/Berlin
+```
+
 #### **Email (SMTP) Configuration (Optional)**
 
 These variables are required if you want to receive email notifications.
@@ -380,22 +402,24 @@ The application will be available at `http://localhost:3000`. Log in with the `A
 
 Here is a complete list of all environment variables used by the application.
 
-| Variable              | Description                                                                                             | Required?             | Default                    |
-|-----------------------|---------------------------------------------------------------------------------------------------------|-----------------------|----------------------------|
-| `AUTH_SECRET`         | A secret key (at least 32 characters) for encrypting user sessions.                                     | **Yes**               | -                          |
-| `AUTH_USERNAME`       | The username for logging into the application.                                                          | **Yes**               | -                          |
-| `AUTH_PASSWORD`       | The password for logging into the application.                                                          | **Yes**               | -                          |
-| `HTTPS`               | Set to `false` to run in HTTP mode. Defaults to `true` for secure operation.                            | No                    | `true`                     |
-| `GITHUB_ACCESS_TOKEN` | A GitHub Personal Access Token to increase the API rate limit. A token with no scopes is sufficient.      | No (but recommended)  | -                          |
-| `MAIL_HOST`           | The hostname or IP address of your SMTP server.                                                         | Yes, for email        | -                          |
-| `MAIL_PORT`           | The port for your SMTP server (e.g., 587 or 465).                                                       | Yes, for email        | -                          |
-| `MAIL_USERNAME`       | The username for SMTP authentication.                                                                   | No (depends on server) | -                          |
-| `MAIL_PASSWORD`       | The password or app token for SMTP authentication.                                                      | No (depends on server) | -                          |
-| `MAIL_FROM_ADDRESS`   | The email address that notifications will be sent from.                                                 | Yes, for email        | -                          |
-| `MAIL_FROM_NAME`      | The display name for the "from" address.                                                                | No                    | `GitHub Release Monitor`   |
-| `MAIL_TO_ADDRESS`     | The email address that will receive the notifications.                                                  | Yes, for email        | -                          |
-| `APPRISE_URL`         | URL of your Apprise service's notification endpoint (e.g., http://host/notify or http://host/notify/key). | No                    | -                          |
-| `TZ`                  | The timezone for the container (e.g., `Europe/Berlin`). Affects log timestamps and date formatting.     | No                    | System default             |
+| Variable              | Description                                                                                               | Required?              | Default                    |
+|-----------------------|-----------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
+| `ALLOWED_DEV_ORIGINS` | Comma-separated list of allowed origins in development; blocks others in middleware.                      | No (dev only)          | -                          |
+| `APPRISE_URL`         | URL of your Apprise service's notification endpoint (e.g., http://host/notify or http://host/notify/key). | No                     | -                          |
+| `AUTH_PASSWORD`       | The password for logging into the application.                                                            | **Yes**                | -                          |
+| `AUTH_SECRET`         | A secret key (at least 32 characters) for encrypting user sessions.                                       | **Yes**                | -                          |
+| `AUTH_USERNAME`       | The username for logging into the application.                                                            | **Yes**                | -                          |
+| `GITHUB_ACCESS_TOKEN` | A GitHub Personal Access Token to increase the API rate limit. A token with no scopes is sufficient.      | No (but recommended)   | -                          |
+| `HTTPS`               | Set to `false` to run in HTTP mode. Defaults to `true` for secure operation.                              | No                     | `true`                     |
+| `LOG_LEVEL`           | Controls server log verbosity: `error`, `warn`, `info`, `debug`, `silent`.                                | No                     | `warn` (prod), `debug` (dev) |
+| `MAIL_FROM_ADDRESS`   | The email address that notifications will be sent from.                                                   | Yes, for email         | -                          |
+| `MAIL_FROM_NAME`      | The display name for the "from" address.                                                                  | No                     | `GitHub Release Monitor`   |
+| `MAIL_HOST`           | The hostname or IP address of your SMTP server.                                                           | Yes, for email         | -                          |
+| `MAIL_PASSWORD`       | The password or app token for SMTP authentication.                                                        | No (depends on server) | -                          |
+| `MAIL_PORT`           | The port for your SMTP server (e.g., 587 or 465).                                                         | Yes, for email         | -                          |
+| `MAIL_TO_ADDRESS`     | The email address that will receive the notifications.                                                    | Yes, for email         | -                          |
+| `MAIL_USERNAME`       | The username for SMTP authentication.                                                                     | No (depends on server) | -                          |
+| `TZ`                  | The timezone for the container (e.g., `Europe/Berlin`). Affects log timestamps and date formatting.       | No                     | System default             |
 
 ## Star History
 
@@ -406,3 +430,4 @@ Here is a complete list of all environment variables used by the application.
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=iamspido/github-release-monitor&type=Date" />
  </picture>
 </a>
+

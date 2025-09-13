@@ -1,6 +1,6 @@
 ---
 project: CloudFlare-ImgBed
-stars: 3011
+stars: 3046
 description: |-
     Open-source file hosting solution based on CloudFlare  (Image hosting/File storage/Cloud drive) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）
 url: https://github.com/MarSeventh/CloudFlare-ImgBed
@@ -151,8 +151,6 @@ url: https://github.com/MarSeventh/CloudFlare-ImgBed
 
   <a href="https://www.cloudflare.com"><img src="static/readme/cloudflare-logo.png" alt="Cloudflare Logo" height="25"></a> <a href="https://edgeone.ai/?from=github"><img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Tencent Logo" height="25"></a>
 
-- **[亚洲云](https://www.asiayun.com/aff/WUDVIIUD) & [DartNode](https://dartnode.com)**：提供云计算服务资源支持
-
-  [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+- **[亚洲云](https://www.asiayun.com/aff/WUDVIIUD)**：提供云计算服务资源支持
 
 

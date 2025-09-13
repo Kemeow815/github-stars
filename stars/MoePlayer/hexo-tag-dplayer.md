@@ -1,6 +1,6 @@
 ---
 project: hexo-tag-dplayer
-stars: 213
+stars: 212
 description: |-
     Embed dplayer in Hexo posts/pages
 url: https://github.com/MoePlayer/hexo-tag-dplayer

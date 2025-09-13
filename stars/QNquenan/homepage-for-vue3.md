@@ -1,14 +1,16 @@
 ---
 project: homepage-for-vue3
-stars: 46
+stars: 48
 description: |-
     基于Vue3的主页
 url: https://github.com/QNquenan/homepage-for-vue3
 ---
 
-# 基于 Vue3 写的个人主页
+<img src="https://socialify.git.ci/QNquenan/homepage-for-vue3/image?custom_description=%E5%9F%BA%E4%BA%8EVue3%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E7%AC%AC%E4%B8%80%E7%89%88&description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Brick+Wall&pulls=1&stargazers=1&theme=Light" alt="homepage-for-vue3" />
 
-# 开源协议（MIT）使用项目需要保留原仓库地址🥲🥲
+# 基于 Vue3 写的个人主页
+## 仓库已归档，停止维护，新版请看 [Simple-Homepage](https://github.com/QNquenan/Simple-Homepage)
+## 开源协议（MIT）使用项目需要保留原仓库地址🥲🥲
 
 ## 更新日志
 

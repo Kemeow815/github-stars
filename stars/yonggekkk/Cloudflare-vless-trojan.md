@@ -1,6 +1,6 @@
 ---
 project: Cloudflare-vless-trojan
-stars: 11120
+stars: 11430
 description: |-
     CF-workers/pages代理脚本【Vless与Trojan】：支持nat64自动生成proxyip，一键自建proxyip与CF反代IP，CF优选官方IP三地区应用脚本，自动输出美、亚、欧最佳优选IP
 url: https://github.com/yonggekkk/Cloudflare-vless-trojan
@@ -26,7 +26,9 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 ### 交流平台：[甬哥博客地址](https://ygkkk.blogspot.com)、[甬哥YouTube频道](https://www.youtube.com/@ygkkk)、[甬哥TG电报群组](https://t.me/+jZHc6-A-1QQ5ZGVl)、[甬哥TG电报频道](https://t.me/+DkC9ZZUgEFQzMTZl)
 --------------------------------
 
-### 推荐新手用户请先看以下两个入门视频教程：
+### 推荐新手用户请先看以下四个入门视频教程：
+
+[2025.9.8更新：半混淆文件使用说明；解决你对优选IP的长期困惑；本轮1101报错的未来警示](https://youtu.be/rUpCuXTQqmQ)
 
 [永久免费的cf vless workers原生域名节点 | 无需自定义域名 | 无需优选IP订阅 | 无需面版控制台 | 只需保存两个参数 | 自建无限不死节点！](https://youtu.be/PpPKzOYLZQg)
 

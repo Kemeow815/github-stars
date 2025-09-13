@@ -1,6 +1,6 @@
 ---
 project: rspress
-stars: 1896
+stars: 1904
 description: |-
     🦀 A fast Rsbuild-based static site generator.
 url: https://github.com/web-infra-dev/rspress

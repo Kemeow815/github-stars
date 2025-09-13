@@ -1,6 +1,6 @@
 ---
 project: vditor
-stars: 10009
+stars: 10026
 description: |-
     ♏  一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.
 url: https://github.com/Vanessa219/vditor
@@ -27,6 +27,10 @@ url: https://github.com/Vanessa219/vditor
 <p align="center">
 <a href="https://github.com/Vanessa219/vditor/blob/master/README_en_US.md">English</a> &nbsp;|&nbsp; <a href="https://b3log.org/vditor/demo/index.html">Demo</a>
 </p>
+
+<p align="center">
+🔥 欢迎观摩我们的另一个开源项目 <a href="https://github.com/siyuan-note/siyuan">思源笔记</a>
+<p>
 
 ## 💡 简介
 
@@ -338,6 +342,8 @@ new Vditor('vditor', {
 | linkBase | 链接相对路径前缀 | '' |
 | linkPrefix | 链接强制前缀 | '' |
 | mark | 启用 mark 标记 | false |
+| sup | 上标 | false |
+| sub | 下标 | false |
 
 #### options.preview.theme
 

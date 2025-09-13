@@ -1,6 +1,6 @@
 ---
 project: memos.top
-stars: 273
+stars: 274
 description: |-
     ✍ A static page rendered with the Memos API.
 url: https://github.com/eallion/memos.top

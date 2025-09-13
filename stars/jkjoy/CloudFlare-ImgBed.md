@@ -8,7 +8,7 @@ url: https://github.com/jkjoy/CloudFlare-ImgBed
 
 <div align="center">
     <a href="https://github.com/MarSeventh/CloudFlare-ImgBed"><img width="80%" alt="logo" src="static/readme/banner.png"/></a>
-    <p><em>🗂️开源文件托管解决方案，支持 Docker 和无服务器部署，支持 Telegram Bot 、 Cloudflare R2 、S3 等多种存储渠道</em></p>
+    <p><em>🗂️开源文件托管解决方案，支持 Docker 和无服务器部署，支持 Telegram Bot 、 Cloudflare R2 、S3 等多种存储渠道，支持 WebDAV 协议和多种 RESTful API</em></p>
     <p>
         <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README.md">简体中文</a> | <a href="https://github.com/MarSeventh/CloudFlare-ImgBed/blob/main/README_en.md">English</a> | <a href="https://cfbed.sanyue.de">官方网站</a>
     </p>
@@ -119,10 +119,7 @@ url: https://github.com/jkjoy/CloudFlare-ImgBed
 
 ![image-20250313204325002](static/readme/202503132043265.png)
 
-
-
 </details>
-
 
 # 4. Tips
 
@@ -154,8 +151,6 @@ url: https://github.com/jkjoy/CloudFlare-ImgBed
 
   <a href="https://www.cloudflare.com"><img src="static/readme/cloudflare-logo.png" alt="Cloudflare Logo" height="25"></a> <a href="https://edgeone.ai/?from=github"><img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Tencent Logo" height="25"></a>
 
-- **[亚洲云](https://www.asiayun.com) & [DartNode](https://dartnode.com)**：提供云计算服务资源支持
-
-  [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+- **[亚洲云](https://www.asiayun.com/aff/WUDVIIUD)**：提供云计算服务资源支持
 
 

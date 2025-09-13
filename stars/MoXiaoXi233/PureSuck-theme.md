@@ -1,6 +1,6 @@
 ---
 project: PureSuck-theme
-stars: 153
+stars: 156
 description: |-
     A Pure Typecho Theme For You
 url: https://github.com/MoXiaoXi233/PureSuck-theme

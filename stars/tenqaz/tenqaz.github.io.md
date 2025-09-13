@@ -1,6 +1,6 @@
 ---
 project: tenqaz.github.io
-stars: 2
+stars: 3
 description: |-
     我的个人博客
 url: https://github.com/tenqaz/tenqaz.github.io

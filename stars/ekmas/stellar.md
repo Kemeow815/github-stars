@@ -1,6 +1,6 @@
 ---
 project: stellar
-stars: 43
+stars: 44
 description: |-
     Modern type-safe documentation theme for Astro.
 url: https://github.com/ekmas/stellar

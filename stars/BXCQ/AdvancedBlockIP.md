@@ -1,6 +1,6 @@
 ---
 project: AdvancedBlockIP
-stars: 8
+stars: 9
 description: |-
     一款功能强大的Typecho插件，提供基于IP的黑名单、白名单和智能威胁检测功能，保护您的网站免受恶意访问和攻击。
 url: https://github.com/BXCQ/AdvancedBlockIP

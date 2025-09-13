@@ -1,6 +1,6 @@
 ---
 project: hexo-safego
-stars: 25
+stars: 26
 description: |-
     👻基于hexo-external-link二次开发的改进版外链跳转插件，使用Cheerio在生成时即进行替换，减少页面响应时间
 url: https://github.com/willow-god/hexo-safego

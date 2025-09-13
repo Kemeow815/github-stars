@@ -1,6 +1,6 @@
 ---
 project: lucide
-stars: 18895
+stars: 18997
 description: |-
     Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
 url: https://github.com/lucide-icons/lucide

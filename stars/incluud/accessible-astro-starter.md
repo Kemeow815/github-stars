@@ -1,8 +1,8 @@
 ---
 project: accessible-astro-starter
-stars: 1007
+stars: 1015
 description: |-
-    An Accessible Starter Theme for Astro 5+ including accessibility features such as landmarks, better focus-outline and skip-links navigation. Ships with Tailwind 4, Prettier and ESLint support.
+    An Accessible, WCAG compliant Starter Theme for Astro 5+ including several accessibility features such as, better focus-outline, landmarks, semantics, interactive components and skip-link navigation. Ships with Tailwind 4, Prettier and ESLint support.
 url: https://github.com/incluud/accessible-astro-starter
 ---
 
@@ -10,9 +10,9 @@ url: https://github.com/incluud/accessible-astro-starter
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-![accessible-astro-starter](https://github.com/user-attachments/assets/01630a5b-10bb-4765-a291-74725fedc04f)
+<img width="1200" height="627" alt="social-preview" src="https://github.com/user-attachments/assets/fa1a8b50-3aab-4bd3-8f50-1d43586fbd84" />
 
-A ready-to-use, SEO and accessibility-focused Astro starter template. Built with modern web standards and WCAG guidelines in mind, it provides a solid foundation for creating inclusive websites. Features Tailwind CSS 4 integration, comprehensive component library, color contrast checker, and typography with Atkinson Hyperlegible font for improved readability. Includes dynamic blog/portfolio pages with social sharing, and full MDX support.
+A ready-to-use, SEO and accessibility-focused Astro starter template. Built with modern web standards, WCAG 2.2 AA guidelines, and European Accessibility Act (EAA) compliance in mind, it provides a solid foundation for creating inclusive websites. Features Tailwind CSS 4 integration, comprehensive component library with enhanced form validation, color contrast checker, and typography with Atkinson Hyperlegible font for improved readability. Includes dynamic blog/portfolio pages with social sharing, contact forms, and full MDX support.
 
 [![LIVE DEMO](https://img.shields.io/badge/LIVE_DEMO-4ECCA3?style=for-the-badge&logo=astro&logoColor=black)](https://accessible-astro-starter.incluud.dev/) &nbsp;
 [![DOCUMENTATION](https://img.shields.io/badge/DOCUMENTATION-A682FF?style=for-the-badge&logo=astro&logoColor=black)](https://accessible-astro.incluud.dev/) &nbsp;
@@ -24,15 +24,16 @@ A ready-to-use, SEO and accessibility-focused Astro starter template. Built with
 
 ## (Accessibility) Features
 
-- Astro 5.7.5+
-- Tailwind CSS 4 support
-- TypeScript integration with path aliases for easier imports
+- Astro 5.13.0+
+- Tailwind CSS 4.1+ support
+- TypeScript integration with path aliases for easier imports and content collections support
 - Prettier integration with `prettier-plugin-astro` and `prettier-plugin-tailwind`
 - ESLint integration with strict accessibility settings for `eslint-plugin-jsx-a11y`
 - Markdown and MDX support with comprehensive examples and components
 - Modern OKLCH color system with automatic palette generation from primary/secondary colors
 - Atkinson Hyperlegible font for improved readability and accessibility
 - Lucide icon set via `astro-icon` for consistent, friendly icons
+- Semantic HTML structure with `Button`, `Link` and `Heading` components
 - Excellent Lighthouse/PageSpeed scores
 - Accessible landmarks such as `header`, `main`, `footer`, `section` and `nav`
 - Outline focus indicator which works on dark and light backgrounds
@@ -48,10 +49,16 @@ A ready-to-use, SEO and accessibility-focused Astro starter template. Built with
 - `SiteMeta.astro` SEO component for setting custom meta data on different pages
 - `.sr-only` utility class for screen reader only text content (hides text visually)
 - `prefers-reduced-motion` disables animations for users that have this preference turned on
-- Components including `ColorContrast.astro`, `BlockQuote.astro`, `BreakoutImage.astro`, `ExternalLink.astro`, `Logo.astro`, `SocialShares.astro`, and `PageHeader.astro`
+- Components including `ColorContrast.astro`, `BlockQuote.astro`, `BreakoutImage.astro`, `Logo.astro`, `SocialShares.astro`, `PageHeader.astro`, `FeaturedPosts.astro`, and `FeaturedProjects.astro`
+- Enhanced form components with comprehensive validation: `Form`, `Input`, `Textarea`, `Checkbox`, `Radio`, and `Fieldset` with WCAG 2.2 compliance
+- Automatic form validation with custom patterns, error handling, and screen reader support
 - Blog and portfolio pages with featured images, author details, social sharing, and breakout images
+- Contact page with comprehensive form validation showcase and accessibility demonstrations
+- Thank-you page for form submissions with interactive feedback
 - Accessibility Statement template page
 - Color Contrast Checker interactive page
+- Comprehensive sitemap page with organized navigation and automatic XML sitemap generation via `@astrojs/sitemap`
+- Enhanced accessible-components showcase page with expanded component demonstrations
 - Smooth micro-interactions and animations on hover, open and close states (respecting reduced motion preferences)
 - Comprehensive SCSS utility classes
 - CSS with logical properties and custom properties
@@ -100,6 +107,7 @@ We want to express our heartfelt gratitude to everyone who contributes to making
 
 - **The Astro team** for creating an amazing static site generator and the wonderful Starlight theme
 - **Our contributors** who dedicate their time and expertise to improve these tools
+- [**Niek Derksen**](https://niekderksen.nl) for conducting comprehensive accessibility audits to ensure WCAG compliance
 - **Our sponsors** who help make this project sustainable
 - **The web community** for embracing and promoting web accessibility
 - **You, the developer** for choosing to make your projects more accessible

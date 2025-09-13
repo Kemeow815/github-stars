@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-hera
-stars: 14
+stars: 13
 description: |-
     ✒️ hugo theme for blogger
 url: https://github.com/bigfa/hugo-theme-hera
@@ -19,6 +19,10 @@ echo "theme = 'hera'" >> config.toml
 ```
 
 ## Release Note
+
+### 0.2.7
+
+-   local search assets
 
 ### 0.2.6
 
