@@ -1,50 +1,48 @@
 ---
 project: Catime
-stars: 2789
+stars: 2820
 description: |-
     A very useful timer (🍅Pomodoro Clock)
 url: https://github.com/vladelaina/Catime
 ---
+
+
+<div align="center">
+
+# v1.2.0 is out! 🎉 [Download Now](https://github.com/vladelaina/Catime/releases/latest) - Only 744KB!
+
+<h3>Special thanks to our sponsors:</h3>
+</a>
+  
+<a href="https://skywork.ai/p/xfncS3" target="_blank">
+  <img width="1960" height="240" alt="skywork" 
+       src="https://github.com/user-attachments/assets/57506de0-128d-4653-9a14-ee2f416d6831" />
+</a>
+</div>
+
+# 
 
 <!-- Project Title + Logo -->
 <div align="center">
   <a href="https://vladelaina.github.io/Catime" target="_blank">
     <img src="Images/catime_resize.png" alt="Catime" width="240">
   </a>
-  <h1 style="margin-top: 10px; font-size: 42px; font-weight: 700;">Catime</h1>
+  <h1>Catime</h1>
 </div>
 
 <!-- Project Description + Rocket Icon -->
-<p align="center" style="font-size: 18px; margin-bottom: 30px;">
-  🎉 No installation or setup required — just double-click to get started.<br/>
-  🌸 Clean, elegant interface with smooth operation.<br/>
-  🚀 Powerful keyboard shortcuts for lightning-fast productivity.
+<p align="center"> 
+  An ultra-lightweight Windows countdown and Pomodoro tool written in <b>pure C</b> with a clean transparent interface,<br/>
+  rich customization, powerful shortcuts, and almost no resource usage.
+  
 </p>
 
-<p align="center" style="font-size: 16px; color: #666; margin-bottom: 20px;">
-  An ultra-lightweight Windows countdown tool with Pomodoro functionality,<br/>
-  featuring a transparent interface and rich customization options,<br/>
-  using only a few MB of memory and almost no CPU resources,<br/>
-  elegantly helping you manage time on Windows.
+
+<p align="center"
+  
+**https://vladelaina.github.io/Catime**
 </p>
 
-<p align="center"><a href="https://vladelaina.github.io/Catime/">Official Site</a> · <a href="https://vladelaina.github.io/Catime/guide.html">Guide</a> · <a href="https://vladelaina.github.io/Catime/about.html">About</a> · <a href="https://github.com/users/vladelaina/projects/2/views/1">Project Board</a> · <a href="https://github.com/vladelaina/Catime/issues">Feedback</a></p>
-<p align="center"><a href="https://github.com/vladelaina/Catime">English</a> · <a href="./i18n/README_zh-CN.md">简体中文</a> · <a href="./i18n/README_zh-Hant.md">繁體中文</a> · <a href="./i18n/README_ja.md">日本語</a> · <a href="./i18n/README_es.md">Español</a> · <a href="./i18n/README_fr.md">Français</a> · <a href="./i18n/README_de.md">Deutsch</a> · <a href="./i18n/README_ru.md">Русский</a> · <a href="./i18n/README_pt.md">Português</a> · <a href="./i18n/README_ko.md">한국어</a></p>
-
-
-<div align="center">
-
-[![GitHub Release](https://img.shields.io/github/v/release/vladelaina/Catime?color=369eff&labelColor=black&logo=github&style=flat-square)](https://github.com/vladelaina/Catime/releases)
-![C](https://img.shields.io/badge/language-C-blue?logo=c&logoColor=white&labelColor=black&style=flat-square)
-[![EXE Size](https://img.shields.io/badge/EXE%20Size-744KB-blue?style=flat-square&labelColor=black)](https://github.com/vladelaina/Catime/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/vladelaina/Catime?label=release%20date&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/releases)<br/>
-[![Downloads](https://img.shields.io/github/downloads/vladelaina/Catime/total?color=blue&label=downloads&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/releases)
-[![Forks](https://img.shields.io/github/forks/vladelaina/Catime?color=8ae8ff&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/network/members)
-[![Stars](https://img.shields.io/github/stars/vladelaina/Catime?color=ffcb47&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/stargazers)
-[![Issues](https://img.shields.io/github/issues/vladelaina/Catime?color=ff80eb&labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/issues)
-[![License](https://img.shields.io/badge/license-apache%202.0-white?labelColor=black&style=flat-square)](https://github.com/vladelaina/Catime/blob/main/LICENSE)<br>
-[![Support Catime](https://img.shields.io/badge/Support%20Catime-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://vladelaina.github.io/Catime/support.html)
-</div>
 
 <!-- GitHub Trending Area -->
 <div align="center">
@@ -67,25 +65,28 @@ url: https://github.com/vladelaina/Catime
   👋 Join us on 
   <a href="https://discord.com/invite/W3tW2gtp6g" target="_blank" style="text-decoration: none; font-weight: bold; color: #5865F2;">Discord</a> 
   and 
-  <a href="https://qm.qq.com/q/LgscIMw9i0" target="_blank" style="text-decoration: none; font-weight: bold; color: #12B7F5;">QQ Group</a>
+  <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=jLajcI6fmsK8MYh9Sx8s0IArOuR5k7mnn8upVJK%2BgJkeXrEop9EBsAD8tP%2BLhPDs&busi_data=eyJncm91cENvZGUiOiIxMDI3MzI3OTEyIiwidG9rZW4iOiI0UlNlc1RzV0QyUlZKNzBMK3RWczRZOUt0K0xIRHRvVVZSQnR3OFo3bUxBMFAzcG9jUjRZa2dwUGZEaCs0ZEhuIiwidWluIjoiMjM3NzY0MDY5OSJ9&data=6Ce8O75Fxrd5GoBAByGHSoQNA3cK7t4WyU1WyoI9FB3LK0mmPbgtK3PlGKQrt4vQvQsrlV4QkdQ7lQKt8TDkEg&svctype=4&tempid=h5_group_info" target="_blank" style="text-decoration: none; font-weight: bold; color: #12B7F5;">QQ Group</a>
 </div>
+
+## ❤️‍🔥Staying tuned with us
+>  **Star us** and witness how this pure C-crafted minimalist time tool continues to evolve - don't miss any exciting updates!
+<a href="https://github.com/vladelaina/Catime" target="_blank">
+    <img  src="https://github.com/user-attachments/assets/50cfc9d4-3d3f-4370-b233-89d76f78977e" />
+</a>
 
 
 ## 📥 Download
 
-- Microsoft Store
-  
-  [<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="104">](https://apps.microsoft.com/detail/9n3mzdf1z34v?referrer=appbadge&launch=true&mode=full)
+- GitHub Releases
+
+  Download the latest release from [GitHub Releases](https://github.com/vladelaina/Catime/releases/latest).
+
 
 -  Winget
 
     ```
     winget install --id VladElaina.Catime
     ```
-
-- GitHub Releases
-
-  Download the latest release from [GitHub Releases](https://github.com/vladelaina/Catime/releases/latest).
 
 
 ## [📑User Guide](https://vladelaina.github.io/Catime/guide)
@@ -95,6 +96,14 @@ url: https://github.com/vladelaina/Catime
 - **Edit mode**: Drag to adjust position, scroll wheel to resize, 🖱️ right-click to exit edit mode
 
 > Configuration file saved at `%LOCALAPPDATA%\Catime\config.ini`
+
+## ⚡[Font Optimization](https://vladelaina.github.io/Catime/tools/font-tool/)
+
+Reduce custom font file size by **90%+** with the official [Font Simplification Tool](https://vladelaina.github.io/Catime/tools/font-tool).
+
+> Since Catime only displays numbers and symbols (`0-9`, `:`, `.`), most font characters are unnecessary.
+>
+> **Recommendation**: Keep your original font files as backups. Future software updates may require additional characters beyond the current set.
 
 
 ## 🛠️ Development
@@ -156,6 +165,17 @@ chmod +x build.sh && ./build.sh   # Linux
 build.bat                         # Windows
 ```
 
+# 🎁 [Support](https://vladelaina.github.io/Catime/support.html)
+<div align="center" style="margin: 20px 0;">
+  <a href="https://vladelaina.github.io/Catime/support.html">
+    <img src="https://img.shields.io/badge/Support_Catime-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" 
+         alt="Support Catime" 
+         width="2500" 
+         height="1250">
+  </a>
+</div>
+
+
 ## Project Status
 ![Catime](https://repobeats.axiom.co/api/embed/f56dabe2c1b84ded2408ffb7d800f5c23bddb708.svg "Repobeats analytics image")
 
@@ -172,7 +192,9 @@ build.bat                         # Windows
 
 ## [✨Acknowledgements](https://vladelaina.github.io/Catime/#thanks) 
 
-Special thanks to the following contributors(chronological order):
+With special appreciation to [猫屋敷梨梨Official](https://space.bilibili.com/26087398) for the beautiful icon design.
+
+> Special thanks to the following contributors(chronological order):
 <table>
   <tbody>
     <tr>
@@ -306,6 +328,9 @@ Special thanks to the following contributors(chronological order):
       <td align="center" valign="top" width="14.28%">
         <a href="https://meta.appinn.net/u/lxzrjyff/summary"><img src="https://vladelaina.github.io/Catime/assets/Contributors/lxzrjyff.webp" width="100px;" alt="lxzrjyff"/><br /><sub><b>lxzrjyff</b></sub></a><br />
       </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/darkmatter2048"><img src="https://vladelaina.github.io/Catime/assets/Contributors/DaYe.webp" width="100px;" alt="DaYe"/><br /><sub><b>DaYe</b></sub></a><br />
+      </td>
     </tr>
   </tbody>
 </table>
@@ -333,7 +358,7 @@ Font licenses:
 
 Wallpaper:
 - Author: [猫屋敷梨梨Official](https://space.bilibili.com/26087398)
-    - Dynamic wallpaper link: [Wallpaper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=3171487185)
+    - Dynamic wallpaper link: [猫屋敷梨梨「星之所在」曲绘夜晚版](https://steamcommunity.com/sharedfiles/filedetails/?id=3171487185) & [猫屋敷梨梨-「星之所在」曲绘黄昏版](https://steamcommunity.com/sharedfiles/filedetails/?id=3171483657)
 ---
 
 <div align="center">

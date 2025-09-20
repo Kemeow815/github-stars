@@ -1,6 +1,6 @@
 ---
 project: BewlyCat
-stars: 898
+stars: 930
 description: |-
     BewlyCat——基于BewlyBewly开发的Bilibili拓展
 url: https://github.com/keleus/BewlyCat
@@ -123,4 +123,8 @@ url: https://github.com/keleus/BewlyCat
 [bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) - 获取访问密钥的参考来源
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 部分功能实现
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=keleus/BewlyCat&type=Date)](https://www.star-history.com/#keleus/BewlyCat&Date)
 

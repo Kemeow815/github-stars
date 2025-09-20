@@ -1,6 +1,6 @@
 ---
 project: S3UploadForTypecho
-stars: 6
+stars: 7
 description: |-
     使用兼容S3储存的Typecho插件
 url: https://github.com/jkjoy/S3UploadForTypecho

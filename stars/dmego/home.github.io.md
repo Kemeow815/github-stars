@@ -1,6 +1,6 @@
 ---
 project: home.github.io
-stars: 876
+stars: 879
 description: |-
     个人主页
 url: https://github.com/dmego/home.github.io
@@ -61,7 +61,7 @@ url: https://github.com/dmego/home.github.io
   - 移除 Jquery 依赖，使用原生 JS
 - 2023-08-28
   - 将壁纸地址换成 cn.bing.com
-- 2024-09-11
+- 2025-09-11
   - 添加公众号二维码、压缩图片
 
 ### Star History

@@ -1,6 +1,6 @@
 ---
 project: koi
-stars: 114
+stars: 118
 description: |-
     为我不存在的女儿制作的 Astro 静态博客模板
 url: https://github.com/tcdw/koi

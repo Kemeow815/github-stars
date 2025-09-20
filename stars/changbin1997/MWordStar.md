@@ -1,6 +1,6 @@
 ---
 project: MWordStar
-stars: 234
+stars: 235
 description: |-
     响应式双栏 Typecho 博客主题
 url: https://github.com/changbin1997/MWordStar

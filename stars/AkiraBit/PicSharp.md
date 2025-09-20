@@ -1,6 +1,6 @@
 ---
 project: PicSharp
-stars: 623
+stars: 680
 description: |-
     A modern, full-featured, high-performance, cross-platform image compression application  具有现代化UI、功能齐全、高性能、跨平台的图像压缩工具
 url: https://github.com/AkiraBit/PicSharp

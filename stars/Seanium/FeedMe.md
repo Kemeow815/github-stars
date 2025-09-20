@@ -1,6 +1,6 @@
 ---
 project: FeedMe
-stars: 654
+stars: 658
 description: |-
     AI-powered RSS reader, deployable to GitHub Pages or with Docker | 用 AI 重新定义你的 RSS 阅读体验，轻松部署到 GitHub Pages / Docker
 url: https://github.com/Seanium/FeedMe
@@ -96,7 +96,7 @@ url: https://github.com/Seanium/FeedMe
   - 构建静态网站
   - 根据仓库变量设置决定部署目标:
     - 总是部署到 GitHub Pages
-    - 如果 `ENABLE_VERCEL_DEPLOYMENT` 为 `true` 则部署到Vercel
+    - 如果 `ENABLE_VERCEL_DEPLOYMENT` 为 `true` 则部署到 Vercel
 
 #### 自定义部署配置
 

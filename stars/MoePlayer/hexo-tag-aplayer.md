@@ -1,6 +1,6 @@
 ---
 project: hexo-tag-aplayer
-stars: 755
+stars: 754
 description: |-
     Embed aplayer in Hexo posts/pages
 url: https://github.com/MoePlayer/hexo-tag-aplayer

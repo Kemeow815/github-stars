@@ -1,6 +1,6 @@
 ---
 project: github-readme-stats
-stars: 75875
+stars: 76045
 description: |-
     :zap: Dynamically generated stats for your github readmes
 url: https://github.com/anuraghazra/github-readme-stats
@@ -60,6 +60,7 @@ url: https://github.com/anuraghazra/github-readme-stats
     - [Hiding individual stats](#hiding-individual-stats)
     - [Showing additional individual stats](#showing-additional-individual-stats)
     - [Showing icons](#showing-icons)
+    - [Showing commits count for specified year](#showing-commits-count-for-specified-year)
     - [Themes](#themes)
     - [Customization](#customization)
 - [GitHub Extra Pins](#github-extra-pins)
@@ -82,6 +83,7 @@ url: https://github.com/anuraghazra/github-readme-stats
     - [Donut Vertical Chart Language Card Layout](#donut-vertical-chart-language-card-layout)
     - [Pie Chart Language Card Layout](#pie-chart-language-card-layout)
     - [Hide Progress Bars](#hide-progress-bars)
+    - [Change format of language's stats](#change-format-of-languages-stats)
     - [Demo](#demo-2)
 - [WakaTime Stats Card](#wakatime-stats-card)
     - [Options](#options-3)
@@ -91,10 +93,13 @@ url: https://github.com/anuraghazra/github-readme-stats
     - [Stats and top languages cards](#stats-and-top-languages-cards)
     - [Pinning repositories](#pinning-repositories)
 - [Deploy on your own](#deploy-on-your-own)
+  - [First step: get your Personal Access Token (PAT)](#first-step-get-your-personal-access-token-pat)
+    - [Classic token](#classic-token)
+    - [Fine-grained token](#fine-grained-token)
   - [On Vercel](#on-vercel)
     - [:film\_projector: Check Out Step By Step Video Tutorial By @codeSTACKr](#film_projector-check-out-step-by-step-video-tutorial-by-codestackr)
   - [On other platforms](#on-other-platforms)
-  - [Disable rate limit protections](#disable-rate-limit-protections)
+  - [Available environment variables](#available-environment-variables)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
 - [:sparkling\_heart: Support the project](#sparkling_heart-support-the-project)
 </details>
@@ -151,6 +156,14 @@ To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
+```
+
+### Showing commits count for specified year
+
+You can specify a year and fetch only the commits that were made in that year by passing `&commits_year=YYYY` to the parameter.
+
+```md
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&commits_year=2020)
 ```
 
 ### Themes
@@ -297,46 +310,53 @@ Here is a list of all available locales:
 
 | Code | Locale |
 | --- | --- |
+| `ar` | Arabic |
+| `az` | Azerbaijani |
+| `bn` | Bengali |
+| `my` | Burmese |
 | `cn` | Chinese |
 | `zh-tw` | Chinese (Taiwan) |
-| `ar` | Arabic |
 | `cs` | Czech |
-| `de` | German |
+| `nl` | Dutch |
 | `en` | English |
-| `bn` | Bengali |
-| `es` | Spanish |
+| `fi` | Finnish |
 | `fr` | French |
-| `hu` | Hungarian |
+| `de` | German |
+| `el` | Greek |
 
 </td><td>
 
 | Code | Locale |
 | --- | --- |
+| `hi` | Hindi |
+| `hu` | Hungarian |
+| `id` | Indonesian |
 | `it` | Italian |
 | `ja` | Japanese |
 | `kr` | Korean |
-| `nl` | Dutch |
-| `pt-pt` | Portuguese (Portugal) |
-| `pt-br` | Portuguese (Brazil) |
+| `ml` | Malayalam |
 | `np` | Nepali |
-| `el` | Greek |
-| `ru` | Russian |
-| `uk-ua` | Ukrainian |
+| `no` | Norwegian |
+| `fa` | Persian (Farsi) |
+| `pl` | Polish |
+| `pt-br` | Portuguese (Brazil) |
 
 </td><td>
 
 | Code | Locale |
 | --- | --- |
-| `id` | Indonesian |
-| `ml` | Malayalam |
-| `my` | Burmese |
+| `pt-pt` | Portuguese (Portugal) |
+| `ro` | Romanian |
+| `ru` | Russian |
+| `sr` | Serbian |
 | `sk` | Slovak |
+| `es` | Spanish |
+| `se` | Swedish |
+| `th` | Thai |
 | `tr` | Turkish |
-| `pl` | Polish |
+| `uk-ua` | Ukrainian |
 | `uz` | Uzbek |
 | `vi` | Vietnamese |
-| `se` | Swedish |
-| `az` | Azerbaijani |
 
 </td></tr>
 </table>
@@ -362,6 +382,7 @@ If we don't support your language, please consider contributing! You can find mo
 | `ring_color` | Color of the rank circle. | string (hex color) | `2f80ed` |
 | `number_format` | Switches between two available formats for displaying the card values `short` (i.e. `6.6k`) and `long` (i.e. `6626`). | enum | `short` |
 | `show` | Shows [additional items](#showing-additional-individual-stats) on stats card (i.e. `reviews`, `discussions_started`, `discussions_answered`, `prs_merged` or `prs_merged_percentage`). | string (comma-separated values) | `null` |
+| `commits_year` | Filters and counts only commits made in the specified year | integer _(YYYY)_ | `<current year> (one year to date)`.
 
 > [!NOTE]\
 > When hide\_rank=`true`, the minimum card width is 270 px + the title length and padding.
@@ -474,6 +495,7 @@ You can customize the appearance and behavior of the top languages card using th
 | `hide_progress` | Uses the compact layout option, hides percentages, and removes the bars. | boolean | `false` |
 | `size_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `1` |
 | `count_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `0` |
+| `stats_format` | Switches between two available formats for language's stats `percentages` and `bytes`. | enum | `percentages` |
 
 > [!WARNING]\
 > Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
@@ -562,6 +584,15 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true)
 ```
 
+### Change format of language's stats
+
+You can use the `&stats_format=bytes` option to display the stats in bytes instead of percentage.
+
+```md
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&stats_format=bytes)
+```
+
+
 ### Demo
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)
@@ -585,6 +616,11 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 *   Hidden progress bars
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&hide_progress=true)
+
+
+*  Display bytes instead of percentage
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&stats_format=bytes)
 
 # WakaTime Stats Card
 
@@ -752,6 +788,38 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 # Deploy on your own
 
+## First step: get your Personal Access Token (PAT)
+
+Selecting the right scopes for your token is important in case you want to display private contributions on your stats card. 
+
+### Classic token
+
+Steps:
+  - Go to [Account -> Settings -> Developer Settings -> Personal access tokens -> Tokens (classic)](https://github.com/settings/tokens).
+  - Click on `Generate new token -> Generate new token (classic)`.
+  - Scopes to select:
+    - repo
+    - read:user
+  - Click on `Generate token` and copy it.
+
+### Fine-grained token
+
+> [!WARNING]\
+> This limits the number of issues to the number of issues on your repositories only and only takes public commits into account.
+
+Steps:
+  - Go to [Account -> Settings -> Developer Settings -> Personal access tokens -> Fine-grained tokens](https://github.com/settings/tokens).
+  - Click on `Generate new token -> Generate new token`.
+  - Select an expiration date
+  - Select `All repositories`
+  - Scopes to select in `Repository permission`:
+    - Commit statuses: read-only
+    - Contents: read-only
+    - Issues: read-only
+    - Metadata: read-only
+    - Pull requests: read-only
+  - Click on `Generate token` and copy it.
+
 ## On Vercel
 
 ### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
@@ -781,7 +849,7 @@ Since the GitHub API only allows 5k requests per hour, my `https://github-readme
     ![](https://files.catbox.moe/3n76fh.png)
 8.  Click the `Continue with GitHub` button, search for the required Git Repository and import it by clicking the `Import` button. Alternatively, you can import a Third-Party Git Repository using the `Import Third-Party Git Repository ->` link at the bottom of the page.
     ![](https://files.catbox.moe/mg5p04.png)
-9.  Create a personal access token (PAT) [here](https://github.com/settings/tokens/new) and enable the `repo` and `user` permissions (this allows access to see private repo and user stats).
+9.  Create a Personal Access Token (PAT) as described in the [previous section](#first-step-get-your-personal-access-token-pat).
 10. Add the PAT as an environment variable named `PAT_1` (as shown).
     ![](https://files.catbox.moe/0yclio.png)
 11. Click deploy, and you're good to go. See your domains to use the API!
@@ -805,11 +873,13 @@ Since the GitHub API only allows 5k requests per hour, my `https://github-readme
 5.  You're done 🎉
     </details>
 
-## Disable rate limit protections
+## Available environment variables
 
-GitHub Readme Stats contains several Vercel environment variables that can be used to remove the rate limit protections:
+GitHub Readme Stats provides several environment variables that can be used to customize the behavior of your self-hosted instance. These include:
 
-*   `CACHE_SECONDS`: This environment variable takes precedence over our cache minimum and maximum values and can circumvent these values for self-hosted Vercel instances.
+*   `CACHE_SECONDS`: This takes precedence over our cache minimum and maximum values and can circumvent these values for self-hosted instances.
+*   `WHITELIST`: A comma-separated list of GitHub usernames that are allowed to access your instance. If this variable is not set, all usernames are allowed.
+*   `GIST_WHITELIST`: A comma-separated list of GitHub gist IDs that are allowed to be accessed on your instance. If this variable is not set, all gist IDs are allowed.
 
 See [the Vercel documentation](https://vercel.com/docs/concepts/projects/environment-variables) on adding these environment variables to your Vercel instance.
 

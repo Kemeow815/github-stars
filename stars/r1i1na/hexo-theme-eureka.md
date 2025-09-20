@@ -2,7 +2,7 @@
 project: hexo-theme-eureka
 stars: 11
 description: |-
-    自用 Hexo 主题，基于 Solitude v2.1.7 魔改。
+    自用 Hexo 主题，基于 Solitude v2.1.7 魔改。（好久没和上游同步了hhh）
 url: https://github.com/r1i1na/hexo-theme-eureka
 ---
 

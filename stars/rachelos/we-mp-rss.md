@@ -1,6 +1,6 @@
 ---
 project: we-mp-rss
-stars: 1185
+stars: 1228
 description: |-
     ✨符合阅读习惯的微信公众号助手、微信公众号转MarkDown、微信公众号转PDF、定时更新订阅公众号文章、生成微信公众号RSS订阅源、导出微信公众号订阅源、支持微信公众号Webhook/微信公众号API/AI Agent接入微信公众号微信公众号、订阅微信公众号、微信公众号助手 、微信公众号阅读、微信公众号接口、微信公众号爬虫、微信公众号监测、标签订阅微信公众号、微信公众号源、微信公众号读书、微信公众号文章、微信公众号框架、微信公众号管理、微信公众号源、微信公众号平台、微信公众号代码、微信公众号系统、微信公众号源码
 url: https://github.com/rachelos/we-mp-rss
@@ -18,6 +18,16 @@ url: https://github.com/rachelos/we-mp-rss
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  ghcr.io/rachelos/we-mp-rss:latest
 ```
 http://<您的ip>:8001/  即可开启
+
+# 快速升级 
+
+```
+docker stop we-mp-rss
+docker rm we-mp-rss
+docker pull ghcr.io/rachelos/we-mp-rss:latest
+# 如果添加了其它参数，请自行修改
+docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  ghcr.io/rachelos/we-mp-rss:latest
+```
 
 # 官方镜像
 ```
@@ -216,3 +226,8 @@ http://localhost:3000
 - **如何修改文章内容发送格式？**
   修改 `config.yaml` 中的 `WEBHOOK.CONTENT_FORMAT` 或通过环境变量 `WEBHOOK.CONTENT_FORMAT` 设置。
 
+- **默认帐号、密码是多少？**
+  - 默认帐号：admin
+  - 默认密码：admin@123
+
+[Star History Chart]: https://api.star-history.com/svg?repos=rachelos/we-mp-rss&type=Timeline

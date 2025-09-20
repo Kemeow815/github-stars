@@ -1,6 +1,6 @@
 ---
 project: website
-stars: 173
+stars: 175
 description: |-
     My personal website.
 url: https://github.com/haydenbleasel/website

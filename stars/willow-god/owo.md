@@ -1,6 +1,6 @@
 ---
 project: owo
-stars: 6
+stars: 7
 description: |-
     表情包收集整理
 url: https://github.com/willow-god/owo

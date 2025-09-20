@@ -1,10 +1,12 @@
 ---
 project: note-gen
-stars: 9294
+stars: 9438
 description: |-
     A cross-platform Markdown AI note-taking software.
 url: https://github.com/codexu/note-gen
 ---
+
+[![](https://s2.loli.net/2025/09/16/efymQrKu8obaswx.png)](https://skywork.ai/p/bY47ky)
 
 # NoteGen
 
@@ -146,6 +148,18 @@ We also thank other partners for their service support
   </a>
   <a href="https://share.302.ai/jfFrIP" target="_blank">
     <img src="https://s2.loli.net/2025/07/01/dPlkU1tejnDyV4S.png" />
+  </a>
+  <a href="https://www.shengsuanyun.com/?from=CH_KAFLGC9O" target="_blank">
+    <img src="https://s2.loli.net/2025/09/15/CcVRbTUBtf7ZvNl.png" />
+  </a>
+  <a href="https://ai.gitee.com/" target="_blank">
+    <img src="https://s2.loli.net/2025/09/15/wmnBWfyACMz9pVc.png" />
+  </a>
+  <a href="https://www.netlify.com" target="_blank">
+    <img src="https://s2.loli.net/2025/09/16/yJ64xIlrhdABt9o.png" />
+  </a>
+  <a href="https://skywork.ai/p/bY47ky" target="_blank">
+    <img src="https://s2.loli.net/2025/09/16/mTzMCQ8tZLfJNk5.png" />
   </a>
 </div>
 

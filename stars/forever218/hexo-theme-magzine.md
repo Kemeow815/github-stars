@@ -1,8 +1,8 @@
 ---
 project: hexo-theme-magzine
-stars: 1
+stars: 2
 description: |-
-    null
+    杂志设计样式的hexo主题，大气简约，高阅读性
 url: https://github.com/forever218/hexo-theme-magzine
 ---
 

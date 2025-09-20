@@ -1,6 +1,6 @@
 ---
 project: VideoAdGuard
-stars: 628
+stars: 639
 description: |-
     哔哩哔哩浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过视频中的植入/口播广告。
 url: https://github.com/Warma10032/VideoAdGuard
@@ -90,28 +90,41 @@ VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具
 
 ### 大语言模型API（必需）
 
+测试不同大模型的该项目上的效果，可选择 302.AI，立即[注册](https://share.302.ai/ckUgCA)获取$1赠金
+
+- **API地址**：`https://api.302.ai/v1/chat/completions`
+- **模型名称**：[模型列表](https://302.ai/product/list?cate=api&tag=%E8%AF%AD%E8%A8%80%E5%A4%A7%E6%A8%A1%E5%9E%8B)
+- **API密钥**：需要在[302.AI](https://302.ai/apis/list)注册并获取（输入邀请码 `ckUgCA`  获取$1赠金）
+
 免费体验可选择 智谱AI glm-4.5-flash 模型
 
-- **API地址**：`https://open.bigmodel.cn/api/paas/v4/chat/completions`（智谱AI）
-- **模型名称**：`glm-4.5-flash`（智谱AI免费模型）
+- **API地址**：`https://open.bigmodel.cn/api/paas/v4/chat/completions`
+- **模型名称**：`glm-4.5-flash`
 - **API密钥**：需要在[智谱AI平台](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)注册并获取
 
 插件兼容几乎所有大语言模型。目前我们已经测试了部分模型，但还需要更多用户的测试反馈。如果您使用了下表中的模型，请通过GitHub Issues告诉我们您的使用体验，帮助我们完善兼容性列表。
 
-| 模型名称              | 测试结果 | API地址填写示例                                                          | API密钥官网                                                                               |
-| --------------------- | -------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| 智谱AI (GLM系列)      | ✅       | https://open.bigmodel.cn/api/paas/v4/chat/completions                    | [智谱AI](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)                                   |
-| DeepSeek              | ✅       | https://api.deepseek.com/chat/completions                                | [DeepSeek](https://platform.deepseek.com/api_keys)                                           |
-| 硅基流动              | ✅       | https://api.siliconflow.com/v1/chat/completions                          | [硅基流动](https://cloud.siliconflow.cn/i/VWOdVvvM)                                          |
-| OpenAI (GPT系列)      | ✅       | https://api.openai.com/v1/chat/completions                               | [OpenAI](https://openai.com/api/) / [国内直连镜像站](https://app.requesty.ai/join?ref=d9bb6cf2) |
-| 阿里云 (通义千问系列) | ✅       | https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions       | [通义千问](https://bailian.console.aliyun.com/)                                              |
-| Google Gemini         | ✅       | https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [Gemini](https://ai.google.dev/) / [国内直连镜像站](https://app.requesty.ai/join?ref=d9bb6cf2)  |
-| Grok                  | ✅       | https://api.x.ai/v1/chat/completions                                     | [Grok](https://console.x.ai/)                                                                |
-| 本地Ollama            | ✅       | http://localhost:11434/api/chat                                          | 因为跨域请求，需要设置环境变量 OLLAMA_ORIGINS = *                                         |
-| 云雾API               | ✅       | https://yunwu.ai/v1/chat/completions                                     | [yunwu](https://yunwu.ai/register?aff=btu9)                                                  |
-| Anthropic Claude      | ❓       |                                                                          | [Claude](https://console.anthropic.com/)                                                     |
-| MiniMax               | ❓       |                                                                          | [MiniMax](https://api.minimax.chat/)                                                         |
-| 字节跳动 (豆包系列)   | ❓       |                                                                          | [豆包](https://www.volcengine.com/)                                                          |
+| API集成平台 | 测试结果 | API密钥官网                                      |
+| ----------- | -------- | ------------------------------------------------ |
+| 302.AI      | ✅       | [302.AI](https://share.302.ai/ckUgCA)               |
+| 硅基流动    | ✅       | [硅基流动](https://cloud.siliconflow.cn/i/VWOdVvvM) |
+| 云雾API     | ✅       | [云雾API](https://yunwu.ai/register?aff=btu9)       |
+
+| 模型名称         | 测试结果 | API密钥官网                                             |
+| ---------------- | -------- | ------------------------------------------------------- |
+| GLM              | ✅       | [智谱AI](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) |
+| DeepSeek         | ✅       | [DeepSeek](https://platform.deepseek.com/api_keys)         |
+| OpenAI           | ✅       | [OpenAI](https://openai.com/api/)                          |
+| 通义千问         | ✅       | [阿里云](https://bailian.console.aliyun.com/)              |
+| Gemini           | ✅       | [Gemini](https://ai.google.dev/)                           |
+| Grok             | ✅       | [Grok](https://console.x.ai/)                              |
+| Anthropic Claude | ❓       | [Claude](https://console.anthropic.com/)                   |
+| MiniMax          | ❓       | [MiniMax](https://api.minimax.chat/)                       |
+| 豆包             | ❓       | [火山引擎](https://www.volcengine.com/)                    |
+
+| 本地服务 | 测试结果 | 注意事项                                          |
+| -------- | -------- | ------------------------------------------------- |
+| Ollama   | ✅       | 因为跨域请求，需要设置环境变量 OLLAMA_ORIGINS = * |
 
 ### 音频识别API（可选）
 
@@ -143,14 +156,14 @@ VideoAdGuard通过以下步骤检测视频中的植入广告
 5. 缓存检测结果到本地存储
 6. 在界面上显示跳过按钮
 
-### 音频识别模式（v1.2.3）
+### 音频识别模式
 
 1. 当视频无字幕时，自动下载视频音频流
 2. 使用Groq Whisper API进行语音识别
 3. 将识别结果转换为文本格式
 4. 后续流程与字幕检测模式相同
 
-### 智能缓存机制（v1.2.3）
+### 智能缓存机制
 
 - 本地缓存检测结果，避免重复分析
 - 缓存有效期为24小时，自动清理过期数据

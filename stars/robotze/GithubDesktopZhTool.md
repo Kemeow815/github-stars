@@ -1,6 +1,6 @@
 ---
 project: GithubDesktopZhTool
-stars: 2899
+stars: 2914
 description: |-
     Github Desktop 汉化工具 支持 Windows Mac Linux
 url: https://github.com/robotze/GithubDesktopZhTool

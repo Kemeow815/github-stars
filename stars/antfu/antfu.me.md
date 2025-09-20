@@ -1,6 +1,6 @@
 ---
 project: antfu.me
-stars: 945
+stars: 949
 description: |-
     My personal website
 url: https://github.com/antfu/antfu.me

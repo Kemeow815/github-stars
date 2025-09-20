@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 84
+stars: 87
 description: |-
     🚀 2025 Most Popular FREE Blog Template! Next.js 14, Zero Code - Just Write & Deploy | 2025最火免费博客模板！支持Markdown，一键部署，极致性能！⚡️ ✨ Write in Markdown, get your professional blog in minutes. Custom domain & comments ready! | 写Markdown即可，快速部署，支持自定义域名和评论，无需代码！geekskai.com/
 url: https://github.com/geekskai/blog
@@ -294,9 +294,35 @@ If this template helps you build your blog faster, please consider:
 - [Linkedin](https://www.linkedin.com/in/geekskai)
 - [Email](geeks.kai@gmail.com)
 
+## 🔧 Tools & Utilities
+
+This blog template includes several built-in tools and utilities:
+
+### Job Worth Calculator
+
+A comprehensive tool to evaluate job satisfaction and compensation value. This tool is based on the excellent open-source project by [Zippland](https://github.com/Zippland/worth-calculator) and has been enhanced with:
+
+- **Multi-language support** (Chinese, English, Japanese)
+- **Step-by-step guided interface**
+- **Advanced calculation algorithms**
+- **History management and sharing**
+- **Modern responsive design**
+
+**Attribution**: Original concept and implementation by [Zippland](https://github.com/Zippland/worth-calculator) under MIT License. Enhanced and localized by GeeksKai Team.
+
+For detailed attribution information, see: [`app/tools/job-worth-calculator/ATTRIBUTION.md`](app/tools/job-worth-calculator/ATTRIBUTION.md)
+
 ## 📄 License
 
 [MIT](https://github.com/geekskai/blog/blob/main/LICENSE) © [geeks kai](https://geekskai.com)
+
+### Third-Party Licenses
+
+This project includes components based on third-party open-source projects:
+
+- **Job Worth Calculator**: Based on [worth-calculator](https://github.com/Zippland/worth-calculator) by Zippland (MIT License)
+
+All original copyright notices and license terms are preserved in accordance with their respective licenses.
 
 ---
 

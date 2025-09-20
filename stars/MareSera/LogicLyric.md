@@ -1,6 +1,6 @@
 ---
 project: LogicLyric
-stars: 12
+stars: 13
 description: |-
     一个基于Astro的简洁好看好用的博客模板
 url: https://github.com/MareSera/LogicLyric

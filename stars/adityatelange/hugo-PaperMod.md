@@ -1,6 +1,6 @@
 ---
 project: hugo-PaperMod
-stars: 12252
+stars: 12291
 description: |-
      A fast, clean, responsive Hugo theme.
 url: https://github.com/adityatelange/hugo-PaperMod

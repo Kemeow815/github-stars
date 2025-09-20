@@ -1,6 +1,6 @@
 ---
 project: echo-noise
-stars: 35
+stars: 37
 description: |-
     #说说 高度完善的轻量说说笔记系统及memos的开源替代品，这是对于Ech0的二次开发、魔改及完善，属于个人的自定化使用，类似朋友圈风格及一键数据下载备份和恢复上传，视觉上拥有更现代化的ui设计及毛玻璃背景 Ech0 - Noise 
 url: https://github.com/rcy1314/echo-noise

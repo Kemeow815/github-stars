@@ -1,6 +1,6 @@
 ---
 project: HexoHub
-stars: 40
+stars: 45
 description: |-
     A windows desktop application built for Hexo   一个桌面端hexo集成应用程序
 url: https://github.com/forever218/HexoHub
@@ -10,7 +10,6 @@ url: https://github.com/forever218/HexoHub
 
 [中文文档](https://github.com/forever218/HexoHub/blob/main/README.md)  |  [English](https://github.com/forever218/HexoHub/blob/main/docs/README.en.md)  
 
-# HexoHub
 
 [![GitHub Stars](https://img.shields.io/github/stars/forever218/Hexohub)](https://github.com/forever218/Hexohub/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/forever218/Hexohub)](https://github.com/forever218/Hexohub/network/members)
@@ -26,16 +25,24 @@ url: https://github.com/forever218/HexoHub
   />
 </div>
 
+<div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/10fadb85-4fb7-438f-884d-b80e90886e5e" 
+    alt="image" 
+    width="80%" 
+  />
+</div>
+
 
 一个基于 Electron + Next.js 构建的Hexo博客管理桌面应用程序，提供图形化界面来替代传统的命令行操作  
-> 告别繁琐的传统命令行方式（我已经厌倦了hexo xxxx🫠），以更优雅的方式管理您的hexo博客
+> 告别繁琐的传统命令行方式（我已经厌倦了hexo xxxx🫠），以更优雅的方式管理您的hexo博客。
 
 
-## 📝 文章管理
+## 文章管理
 
 在本应用程序中，您可以可视化的：**创建新文章**，**查看文章列表** ，**编辑文章**，**实时预览**，**启动本地预览**，**生成并推送静态文件**，**删除文章**
 
-## 🧩 图片拖入
+## 图片拖入
 这或许是本应用程序的一大亮点，当您开启了hexo的资源文件夹后（[这是什么？](https://hexo.io/zh-cn/docs/asset-folders)），您就可以使用`{% asset_img example.jpg %}`标签，将本地的图片在博客中进行引用。  
 但是，频繁的输入`{% asset_img example.jpg %}`显然是不尽如人意的（特别是当图片文件名很复杂的时候），所以在本应用程序中，您只需要将图片放入与文章同名的资源文件夹下（例如`\blog\source\_posts\测试文章`），然后将图片拖入编辑窗口，就能自动填入`{% asset_img example.jpg %}`标签，省去了输入文件名的烦恼    
 
@@ -56,7 +63,7 @@ url: https://github.com/forever218/HexoHub
 </div>
 
 
-## ⚙️ Hexo 操作 
+## Hexo 操作 
 **命令执行**：图形化执行常用 Hexo 命令，包括：  
   - `hexo clean` - 清理缓存文件
   - `hexo generate` - 生成静态文件
@@ -64,13 +71,13 @@ url: https://github.com/forever218/HexoHub
   - `hexo se` - 启动本地预览   
 **实时反馈**：显示命令执行结果和错误信息
 
-## 🔧 配置管理
+## 配置管理
 **基本设置**：网站标题、副标题、作者、语言  
 **高级设置**：URL 配置、永久链接格式  
 **YAML 编辑**：支持直接编辑原始配置文件  
 **导入/导出**：配置文件的备份和恢复，更加方便您主题的迁移
 
-# 🚀 快速开始  
+#  快速开始  
 ## 使用
 
 如果您只需“使用”本应用程序：   
@@ -121,7 +128,7 @@ npm install -g cnpm --registry=http://registry.npm.taobao.org
 > **注意**：本应用程序通过`electron-builder`封装，而不是`electron-forge`，在您修改相关配置文件时，请注意使用`electron-builder`的配置文件格式。[electron-builder](https://www.electron.build/)
 
 
-# 🛠️ 技术栈
+# 技术栈
 
 - **Next.js 15** - React 全栈框架
 - **React** - 用户界面库
@@ -134,10 +141,7 @@ npm install -g cnpm --registry=http://registry.npm.taobao.org
 - [Hexo](https://hexo.io/) - 静态博客生成器
 
 
-
-
-
-# 🤝 贡献指南
+# 贡献指南
 
 欢迎提交 Issue 和 Pull Request！  
 1. Fork 项目

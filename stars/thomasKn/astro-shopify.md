@@ -1,6 +1,6 @@
 ---
 project: astro-shopify
-stars: 430
+stars: 431
 description: |-
     A lightweight and powerful ecommerce starter theme to build headless Shopify storefronts with Astro.
 url: https://github.com/thomasKn/astro-shopify

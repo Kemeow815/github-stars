@@ -1,6 +1,6 @@
 ---
 project: readzn
-stars: 81
+stars: 82
 description: |-
     开源自readzn.com，基于Notion和Next.js构建的知识型网站，打造解决阅读烦恼的一站式平台。自动化同步Notion数据库内容，实现零成本知识库系统。特别适合博客、文档站点和个人知识库的搭建。点个>_Star吧。
 url: https://github.com/ChrisHyperFunc/readzn
@@ -105,15 +105,6 @@ pnpm format  # Prettier formatting
 ## License
 
 MIT License © 2025 [Readzn]
-
-## Support Us
-
-If you find this project helpful, you can support us by buying us a coffee:
-（WeChat）
-<img src="https://gcore.jsdelivr.net/gh/ChrisHyperFunc/readzn@main/zhan-shang.jpg" width="300" alt="Support Readzn">
-
-Contribution History
-[https://readzn.com/donate-support](https://readzn.com/donate-support)
 
 ## Contact Us
 📧 Feedback Email: hyperfunc@protonmail.com

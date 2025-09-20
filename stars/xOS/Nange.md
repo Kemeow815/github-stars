@@ -1,6 +1,6 @@
 ---
 project: Nange
-stars: 189
+stars: 190
 description: |-
     个人主页
 url: https://github.com/xOS/Nange

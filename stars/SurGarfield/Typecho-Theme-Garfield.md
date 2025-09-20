@@ -1,6 +1,6 @@
 ---
 project: Typecho-Theme-Garfield
-stars: 10
+stars: 11
 description: |-
     【免费开源】Typecho文字博客主题：Garfield  一个简约的Typecho文字主题，欢迎下载使用
 url: https://github.com/SurGarfield/Typecho-Theme-Garfield

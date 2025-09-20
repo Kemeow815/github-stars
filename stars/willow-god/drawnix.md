@@ -31,6 +31,17 @@ url: https://github.com/willow-god/drawnix
       </p>
     </figcaption>
   </figure>
+  <a href="https://hellogithub.com/repository/plait-board/drawnix" target="_blank">
+    <picture style="width: 250">
+      <source media="(prefers-color-scheme: light)" srcset="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=4dcea807fab7468a962c153b07ae4e4e&claim_uid=zmFSY5k8EuZri43&theme=neutral" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=4dcea807fab7468a962c153b07ae4e4e&claim_uid=zmFSY5k8EuZri43&theme=dark" />
+      <img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=4dcea807fab7468a962c153b07ae4e4e&claim_uid=zmFSY5k8EuZri43&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54"/>
+    </picture>
+  </a>
+
+  <br />
+
+  <a href="https://trendshift.io/repositories/13979" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13979" alt="plait-board%2Fdrawnix | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 [*English README*](https://github.com/plait-board/drawnix/blob/develop/README_en.md)
@@ -65,7 +76,7 @@ url: https://github.com/willow-god/drawnix
 
 ## 与 Plait 画图框架
 
-*Drawnix* 的定位是一个开箱即用、开源、免费的工具产品，它的底层是 *Plait* 框架，*Plait* 是我司开源的一款画图框架，代表着公司在知识库产品上的重要技术沉淀。
+*Drawnix* 的定位是一个开箱即用、开源、免费的工具产品，它的底层是 *Plait* 框架，*Plait* 是我司开源的一款画图框架，代表着公司在知识库产品([PingCode Wiki](https://pingcode.com/product/wiki?utm_source=drawnix))上的重要技术沉淀。
 
 
 Drawnix 是插件架构，与前面说到开源工具比技术架构更复杂一些，但是插件架构也有优势，比如能够支持多种 UI 框架（*Angular、React*），能够集成不同富文本框架（当前仅支持 *Slate* 框架），在开发上可以很好的实现业务的分层，开发各种细粒度的可复用插件，可以扩展更多的画板的应用场景。
@@ -105,9 +116,15 @@ npm install
 npm run start
 ```
 
+## Docker
+
+```
+docker pull pubuzhixing/drawnix:latest
+```
+
 ## 依赖
 
-- [plait](https://github.com/worktile/plait) - 画图框架
+- [plait](https://github.com/worktile/plait) - 开源画图框架
 - [slate](https://github.com/ianstormtaylor/slate)  - 富文本编辑器框架
 - [floating-ui](https://github.com/floating-ui/floating-ui)  - 一个超级好用的创建弹出层基础库
 
@@ -121,10 +138,15 @@ npm run start
 
 - 贡献代码
 
-## 支持
+## 感谢支持
 
-*欢迎大家 star ⭐️⭐️⭐️ 支持。*
+特别感谢公司对开源项目的大力支持，也感谢为本项目贡献代码、提供建议的朋友。
 
+<p align="left">
+  <a href="https://pingcode.com?utm_source=drawnix" target="_blank">
+      <img src="https://cdn-aliyun.pingcode.com/static/site/img/pingcode-logo.4267e7b.svg" width="120" alt="PingCode" />
+  </a>
+</p>
 
 ## License
 

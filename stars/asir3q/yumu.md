@@ -1,6 +1,6 @@
 ---
 project: yumu
-stars: 79
+stars: 80
 description: |-
     简洁干净又兼顾美观的WordPress单栏博客主题
 url: https://github.com/asir3q/yumu
