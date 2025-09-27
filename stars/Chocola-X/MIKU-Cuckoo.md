@@ -1,6 +1,6 @@
 ---
 project: MIKU-Cuckoo
-stars: 6
+stars: 5
 description: |-
     🍭 一款二次元风格的双栏Typecho主题-初音魔改版
 url: https://github.com/Chocola-X/MIKU-Cuckoo

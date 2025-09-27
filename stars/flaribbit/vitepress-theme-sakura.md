@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-sakura
-stars: 133
+stars: 134
 description: |-
     A lovely blog theme for vitepress. 可爱又轻量的二次元博客主题！大概是隔壁 wordpress sakura 主题的移植吧
 url: https://github.com/flaribbit/vitepress-theme-sakura

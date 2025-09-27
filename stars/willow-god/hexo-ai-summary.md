@@ -1,6 +1,6 @@
 ---
 project: hexo-ai-summary
-stars: 8
+stars: 9
 description: |-
     hexo使用ai为您的文章生成摘要
 url: https://github.com/willow-god/hexo-ai-summary

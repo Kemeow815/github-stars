@@ -1,6 +1,6 @@
 ---
 project: AnimatedGallery
-stars: 164
+stars: 165
 description: |-
     A beautiful and modern photo gallery application
 url: https://github.com/SimonAKing/AnimatedGallery

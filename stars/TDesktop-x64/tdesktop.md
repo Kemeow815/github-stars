@@ -1,6 +1,6 @@
 ---
 project: tdesktop
-stars: 2350
+stars: 2362
 description: |-
     64Gram (unofficial Telegram Desktop)
 url: https://github.com/TDesktop-x64/tdesktop

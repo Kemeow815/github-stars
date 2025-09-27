@@ -1,6 +1,6 @@
 ---
 project: astro-theme-resume
-stars: 239
+stars: 240
 description: |-
     An open-sourced personal resume site template with a blog, built with Astro and Tailwind.
 url: https://github.com/srleom/astro-theme-resume

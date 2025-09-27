@@ -1,6 +1,6 @@
 ---
 project: awesome-deepseek-integration
-stars: 33853
+stars: 33918
 description: |-
     Integrate the DeepSeek API into popular softwares
 url: https://github.com/deepseek-ai/awesome-deepseek-integration
@@ -433,8 +433,9 @@ With these functionalities, the AI assistant can summarize key points within an 
 ​        <td> AlphaBot is an intelligent stock analysis assistant that integrates multi-source data with AI analysis technology to provide technical analysis, predictions, and risk assessment, helping investors make data-driven trading decisions. It supports one-click deployment, easy operation，Support Windows/Linux/MacOS and other platforms</td>
 ​     <tr>
 ​        <td><img src="https://h1.appinn.me/file/1741929316827_21.png" alt="Icon" width="64" height="auto" /></td>
-​        <td><a href="https://github.com/jiqi136/DS-AI">Multi-platform connected DeepSeek</a></td>
-​        <td>Leveraging the three-channel AI engine powered by DeepSeek Official, Alibaba Cloud, and Douyin Volcano, it continuously evolves its         intelligence. Additionally, it employs a hybrid mode combining "online search + deep thinking".</td>
+​        <td><a href="https://github.com/jiqi136/DS-AI">Real-time Web-Access AI Assistant</a></td>
+​        <td>The AI assistant supports direct API access to the strongest Claude Code model via the DeepSeek-V3.1 interface, enabling usage without network relay (costs slashed by 90%). It supports image and PDF file parsing with free image generation capabilities, allows custom integration of other AI models, and enables real-time web searches by connecting to local browsers for vast online content retrieval. Alternatively, free models online content retrieval. Alternatively, free models like R1 are also available.
+</td>
 ​    </tr>
 ​    <tr>
 ​    <td><img src="docs/remio/assets/remio_icon.png" alt="Icon" width="64" height="auto" /></td>
@@ -455,6 +456,11 @@ With these functionalities, the AI assistant can summarize key points within an 
         <td> <img src="docs/NoteGen/NoteGen.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/codexu/note-gen">NoteGen</a> </td>
         <td> NoteGen is a cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note. </td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td> <a href="https://github.com/SamYuan1990/i18n-agent-action">i18n-agent-action</a> </td>
+        <td> The i18n Agent is an AI-powered tool designed to streamline and automate internationalization (i18n) and localization (l10n) workflows. By leveraging advanced natural language processing (NLP) and machine learning, it helps developers, translators, and product teams efficiently manage multilingual content—eliminating manual errors and accelerating global deployments. </td>
     </tr>
 </table>
 
@@ -531,8 +537,8 @@ With these functionalities, the AI assistant can summarize key points within an 
     </tr>
     <tr>
         <td width=80> <img src="https://raw.githubusercontent.com/Tencent/Youtu-agent/924aeeb6c49ee524b8bb4de2642a3dc84b7b86b9/docs/assets/mascot.png" alt="Icon" width="64" height="auto" /> </td>
-        <td> <a href="https://github.com/Tencent/Youtu-agent/"> Youtu-agent </a> </td>
-        <td> <a href="https://github.com/Tencent/Youtu-agent/"> Youtu-agent </a> is a flexible, high-performance framework for building, running, and evaluating autonomous agents. Beyond topping the benchmarks, this framework delivers powerful agent capabilities, e.g. data analysis, file processing, and deep research, all with open-source models. </td>
+        <td> <a href="https://github.com/Tencent/Youtu-agent/"> Youtu-Agent </a> </td>
+        <td> <a href="https://github.com/Tencent/Youtu-agent/"> Youtu-Agent </a> is a flexible, high-performance framework for building, running, and evaluating autonomous agents. Beyond topping the benchmarks, this framework delivers powerful agent capabilities, e.g. data analysis, file processing, and deep research, all with open-source models. </td>
     </tr>
 </table>
 
@@ -575,6 +581,11 @@ The purpose is to build infrastructure in the field of large models, through the
         <td width="80"> <img src="https://raw.githubusercontent.com/OpenSPG/openspg/089188f3e7b0392221f5a8e8f1a3629b6352a6f9/LOGO.png" alt="Icon" width="64" height="auto"/> </td>
         <td> <a href="https://github.com/OpenSPG/KAG/blob/master/README.md"> KAG </a> </td>
         <td> KAG is a logical reasoning and Q&A framework based on the <a href="https://github.com/OpenSPG/openspg">OpenSPG</a> engine and large language models, which is used to build logical reasoning and Q&A solutions for vertical domain knowledge bases. KAG can effectively overcome the ambiguity of traditional RAG vector similarity calculation and the noise problem of GraphRAG introduced by OpenIE. KAG supports logical reasoning and multi-hop fact Q&A, etc.</td>
+    </tr>
+    <tr>
+        <td width="80"> <img src="https://raw.githubusercontent.com/TencentCloudADP/youtu-graphrag/refs/heads/main/assets/logo.png" alt="Youtu-GraphRAG icon" width="64" height="auto"/> </td>
+        <td> <a href="https://github.com/TencentCloudADP/Youtu-GraphRAG"> Youtu-GraphRAG </a> </td>
+        <td>Youtu-GraphRAG proposes a new graph retrieval-augmented generation paradigm which vertically unifies graph construction, indexing and retrieval through schema. It advances GraphRAG towards enterprise-level applications, allowing seamless cross-domain adaptation with minimum human intervention, with (i) a dynamic schema-bounded extraction; (ii) a comprehensive community detection algorithm and (iii) a schema-guided query decomposition for iterative reflection and reasoning.</td>
     </tr>
 </table>
 

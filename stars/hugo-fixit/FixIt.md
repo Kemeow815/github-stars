@@ -1,6 +1,6 @@
 ---
 project: FixIt
-stars: 1033
+stars: 1037
 description: |-
     🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
 url: https://github.com/hugo-fixit/FixIt

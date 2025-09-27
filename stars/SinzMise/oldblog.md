@@ -1,9 +1,9 @@
 ---
-project: blog
+project: oldblog
 stars: 3
 description: |-
     null
-url: https://github.com/SinzMise/blog
+url: https://github.com/SinzMise/oldblog
 ---
 
 # Ceta Storical House | 🏠汐塔故事屋

@@ -1,6 +1,6 @@
 ---
 project: photography-website
-stars: 254
+stars: 259
 description: |-
     An open-source Photograph travel Blog📸 built using Next.js, Drizzle, Neon, Better auth, Shadcn/ui and tRPC.
 url: https://github.com/ECarry/photography-website
@@ -62,7 +62,7 @@ A modern, open-source photography blog platform built with the latest web techno
 
 ### Environment Variables
 
-Create a `.env.local` file in the root directory:
+Create a `.env` file in the root directory:
 
 ```bash
 # Database

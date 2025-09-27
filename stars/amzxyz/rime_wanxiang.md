@@ -1,6 +1,6 @@
 ---
 project: rime_wanxiang
-stars: 1221
+stars: 1347
 description: |-
     Rime万象拼音输入方案：标准版与增强版可选，词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。PRO版本支持10种双拼，6种辅助码，并且可以扩展更多，支持中英混输，内置超级注释、带调全拼输入码显示、快符与重复上屏、候选手动排序、tips等功能扩展，大大增强使用体验。　　Q群：11033572
 url: https://github.com/amzxyz/rime_wanxiang
@@ -86,6 +86,8 @@ url: https://github.com/amzxyz/rime_wanxiang
 
 方案提供了custom文件夹，预设了一些文件与教程，请不要删除相关文件，根据文件夹中内容进行相关修改变更：
 
+**不要在default.custom写东西,任何patch都要对方案文件进行patch，default.custom留给前端操作请务必悉知！**
+
 ```
 wanxiang.custom.yaml是对wanxiang.schema.yaml的补丁以此类推
 可以打补丁的类型：
@@ -101,9 +103,20 @@ schema,default,weasel,squirrel
 脚本的下载地址 [万象方案更新脚本](https://github.com/rimeinn/rime-wanxiang-update-tools)。这里以win版本的小狼毫为例，如果你是**中文系统**请下载更新脚本的 powershell **非utf-8版本**，具体文件名：`rime-wanxiang-update-windows.ps1` 。在使用万象之前，请安装小狼毫，安装小狼毫的过程中，请一切保持默认即可，等你熟悉之后可以自定义。本入门最终会带你一步步设置使用**小鹤双拼+墨奇辅助码**的方案。
 
 1. 下载更新脚本：直接点击上面地址首页右边最新 release 链接，然后下载对应的 `rime-wanxiang-update-windows.ps1` 文件即可。下载完成后，直接双击运行刚刚下载的ps1脚本。如果杀毒报错，请将你下载的文件恢复后，添加到信任文件。如果执行一闪而过、或者遇到乱码再尝试下载 utf-8 版本，具体文件名：`rime-wanxiang-update-windows-utf-8.ps1`。如果提示权限不足，可以在 powershell 终端中执行 `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser` 再尝试运行下载的 ps1 脚本。
+
 2. 脚本执行后，需要你确认你使用的是全拼还是双拼用户，如果你是全拼用户，请根据提示输入 0 后回车。如果你双拼用户，需要你确认你使用的辅助码类型，默认的万象方案支持汉心、简单鹤、墨奇、虎码、五笔、自然码共计6种辅助码类型。如果没有你想要的辅助码类型，也不要着急，可在熟悉万象之后自定义。根据提示输入你使用的辅助码类型的数字后回车即可。这里我按墨奇辅助码输入。更不要着急怎么选择双拼方案，后面会告诉你的。
+
 3. 脚本继续执行，提示选择是否全部更新，不要管，你是新手，直接选全部更新，输入 0 回车。然后就默默的等待脚本执行完后，按任意键退出即可。默认情况下，万象的双拼方案为自然码。
+
 4. 在使用脚本更新之前，务必使用进阶custom patch法维护好你的配置，更新不会覆盖custom.yaml类文件
+
+④**自定义数据获取：**
+
+在线custom目录随有三个数据源提供，按自己需求自行整理取用，这部分数据没有随zip方案包一起供应，需在线下载。
+
+- jm_flypy.txt 用于提供小鹤类型的简码，下载后放置于根目录txt自定义库即可使用；
+- jm_zrm.txt 用于提供自然码类型的简码，下载后放置于根目录txt自定义库即可使用；
+- tips_user.txt tips用到的“翻译”类型的数据，下载后放置于lua/tips里面重新部署。
 
 ### 答疑
 
@@ -142,19 +155,24 @@ schema,default,weasel,squirrel
 
 ![截图_选择区域_20240704121611.png](https://storage.deepin.org/thread/202407041149524870_截图_选择区域_20240704121611.png)
 
+实际上我们同时支持，```两分：你(ni`rfer，ni`re)、多分：莫（mu`ckrida）、笔画：你ni`pspzhpd```
+
 **功能4**  通过 拼音状态下``` ``〔反查：部件|笔画〕``` 来引导拆字模式 举例 ```震```  假设你不认识，你可以通过`雨和辰` 来合并输入，拼音状态输入后，继续输入其它字符字母az会消失如下图，输入 ```yu if``` 即雨 辰，结果出现了我们要的震字，且给出了辅助码 ```y``` 和  ```i```  ，```y```是雨的声母```y```，```i```是辰的声母```ch```，同时兼容通过hspnz代表横竖撇捺折五笔画。功能3是功能4的另一种表现形式,或者叫用法。这个功能依赖wanxiang_reverse.schema.yaml方案,可以通过custom配置成任意全拼双拼以匹配主方案一致的输入方式,因此是不是输入jn=jin需要看你具体的双拼类型。
 
  ![截图_选择区域_20240928112256.png](https://storage.deepin.org/thread/202409280324599355_截图_选择区域_20240928112256.png)
 
 **功能5**  句子中间或者单字输入时需要可以使用更精确的聚拢方式"声调辅助"，7890数字按键代表1234声，轻声归并到4声，在功能4中我们可以在双拼两码后面3个编码的位置任意插入声调与两位辅助码混合使用，就是除了不用斜杠了，我们还顺序自由了，下面由两个图片说明问题,其实在键盘上想要安排四个按键是很难得,不是占用这个按键就是占用另外的,还有得朋友觉得离得远,还有得更是不需要声调,要把候选做成9个。这些都是存在的情况,现在的处理也是妥协后的结果,要想完全不占用按键类似的办法可以改成大写字母来代表,像地球拼音则是使用大于小于号这一片的符号来表示,我们的词库有声调这个基础,一定程度上还是要利用起来：
 
-![截图_选择区域_20250512101814.png](https://storage.deepin.org/thread/202505120222182012_截图_选择区域_20250512101814.png)
+<img src="https://storage.deepin.org/thread/202505120222182012_截图_选择区域_20250512101814.png" height="130" width="520">
 
-![截图_选择区域_20250512101752.png](https://storage.deepin.org/thread/20250512022217432_截图_选择区域_20250512101752.png)
+<img src="https://storage.deepin.org/thread/20250512022217432_截图_选择区域_20250512101752.png" height="130" width="520">
 
-![截图_选择区域_20250512101713.png](https://storage.deepin.org/thread/202505120222163619_截图_选择区域_20250512101713.png)
+<img src="https://storage.deepin.org/thread/202505120222163619_截图_选择区域_20250512101713.png" height="130" width="520">
+
 
 **功能6**  混合输入:字母、汉字、数字、用于连接的特殊符号等组合，以及英文混输，我们统一放在了wanxiang_mixedcode.schema.yaml混合编码方案里，此功能无需引导，直接输入，不参与组句，类似：1000wclips、AD钙奶、PN结、Type-C以及纯英文，同样可以通过custom来定义你所使用的双拼。
+
+![东风5C](https://storage.deepin.org/thread/202509260105536966_混合编码.jpg)
 
 **整合说明** 万象方案整合度很高，我们不希望使用户文件夹变得复杂，功能5中我们将两类习惯的五笔画和多分拆字和两分拆字整合到了一起，可以认为是4个挂接方案；在功能6中，我们将 英文输入、中英混合编码、以及一些其他混合编码整合到了一起，共享方案转写，两个功能都保证了可配置性，都能与你所使用的双拼契合，
 对于词库也都整合到了dicts里面，为了能更好的统一更新和分发，仓库中我们支持基础版本词库、携带pro的辅助码版本词库、英文词库、混合词库4个类别，在release中各自归类，最终做到了根目录15个文件、4个文件夹示人，其中的custom目录还携带了用户自定义的法宝秘籍，能称得上简约而不简单。
@@ -178,36 +196,71 @@ schema,default,weasel,squirrel
 #节日：ojr 或者 /jr
 #问候模板：/day 或者 oday
 ```
+<img src="https://storage.deepin.org/thread/202509260107542641_N20250102.jpg" height="80">
+<img src="https://storage.deepin.org/thread/202509260108069991_N0102.jpg" height="80">
 
 **Unicode：** 大写 U 开头，如 U62fc 得到「拼」。
 
+<img src="https://storage.deepin.org/thread/202509260111366093_U码.jpg" height="80">
+
 **数字、金额大写：**  大写 R 开头，如 R1234 得到「一千二百三十四、壹仟贰佰叁拾肆元整」。
+
+<img src="https://storage.deepin.org/thread/202509260124573417_金额大写.jpg" height="80">
 
  **/引导模式：**  通过输入 /sx 快捷输入关于“数学”的特殊符号，具体能输入什么可以打开 symbols.yaml学习。
 
-**计算器：**  通过输入大写V引导继续输入如：V3+5  候选框就会有8和3+5=8，基础功能 `+ - * / % ^` 还支持 `sin(x) cos(x)` 等众多运算方式 [点击全面学习](https://github.com/gaboolic/rime-shuangpin-fuzhuma/blob/main/md/calc.md)
+<img src="https://storage.deepin.org/thread/202509260126183029_符号数学.jpg" height="80">
+<img src="https://storage.deepin.org/thread/202509260126173818_符号大于.jpg" height="80">
+<img src="https://storage.deepin.org/thread/202509260126167252_符号圆点.jpg" height="80">
+
+**计算器：**  通过输入大写V引导继续输入如：V3+5  候选框就会有8和3+5=8，基础功能 `+ - * / % ^` 还支持 `sin(x) cos(x)` 等众多运算方式，打开super_calculator.lua阅读相关用法。
+
+<img src="https://storage.deepin.org/thread/202509260127113759_计算器1.png" height="80">
+<img src="https://storage.deepin.org/thread/202509260127126065_计算器2.jpg" height="80">
 
 **自动上屏：**  例如：三位、四位简码唯一时，自动上屏如`jjkw岌岌可危` `zmhu怎么回事` 。默认未开启，方案文件中`speller:`字段下取消注释这两句开启 `#  auto_select: true  #  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}`
 
 **错音错字提示：**  例如：输入`gei yu给予`，获得`jǐ yǔ`提示，此功能与全拼、双拼类型无关全部支持；
 
-**快符Lua：** 例如通过 ```a/``` ，快速自动上屏“！”符号或者定义为任意字符，值设置为repeat则意味着按下对应按键，享受26字母的扩展；
+<img src="https://storage.deepin.org/thread/202509260127525844_错音给予.jpg" height="80">      <img src="https://storage.deepin.org/thread/202509260127524705_错音崩溃.jpg" height="80">
 
-**超级tips：** 支持将表情、化学式、翻译、简码 提示等等你能想到得数据获得提示显示并将通过一个自定义按键直接上屏，默认为“.” 避免了占用候选框，通过Control+t 进行开关。⚠️仓输入法、超越输入法设置按键交由rime去处理，没有特殊需求应该一律交给rime；
+**快符Lua：** 例如通过 ```a/``` ，快速自动上屏“！”符号或者定义为任意字符，享受26字母的扩展。其中值设置为`repeat`则意味着按下对应按键能否重复上一次上屏的内容；
+
+**超级tips：** 支持将表情、化学式、翻译、简码 提示等等你能想到得数据获得提示显示并将通过一个自定义按键直接上屏，默认为“.” 也表现为句号，如需句号翻页可以采用其他作为触发。避免了这类内容占用候选框，通过Control+t 进行开关。⚠️仓输入法、超越输入法设置按键交由rime去处理，没有特殊需求应该一律交给rime；
+
+化学式：<img src="https://storage.deepin.org/thread/202509260128462735_tips化学式.jpg" height="80">符号：<img src="https://storage.deepin.org/thread/202509260128454675_tips符号.jpg" height="80">表情：<img src="https://storage.deepin.org/thread/202509260128457494_tips表情.jpg" height="80">
 
 **首选格式化：** 将自定义短语中，诸如\n \s \t 等行中标识符转换为实际的换行、空格、制表符等等，使得类似输入jys可以打出一首带格式的《静夜思》，这将成为类似书名号输入场景的利器。
 
+例：```静夜思\n\s\s李白\n床前明月光\n疑似地上霜\n举头望明月\n低头思故乡	jys```
+
+<img src="https://storage.deepin.org/thread/202509260129305342_格式化.jpg" height="260"> 
+
 **首选加成对符号：** 将输入中的短语通过输入追加\a 这样的末尾编码，触发相对于a这个字母映射的成对符号，例如：``` sj mk lq lh ji\l=《三毛流浪记》```可以通过custom自定义符号和触发方式。
+
+工作逻辑：输入词汇编码 > 按下锁定按钮\  >  按下映射字符\a  >  《候选包裹成对符号》
+
+<img src="https://storage.deepin.org/thread/202509260130219621_首选成对符号1.jpg" height="80"> <img  src="https://storage.deepin.org/thread/202509260130208277_首选成对符号2.jpg" height="80"> <img  src="https://storage.deepin.org/thread/202509260130199763_首选成对符号3.jpg" height="80">
 
 **英文候选格式化：** 输入hello则得到hello，输入首字母大写Hello则得到Hello和一众首字母大写的联想词，输入前两码大写HEllo则得到全为大写的HELLO和一众大写英文。
 
+<img src="https://storage.deepin.org/thread/202509260133175234_首字母大写.jpg" height="80">
+<img src="https://storage.deepin.org/thread/202509260133175362_双字母大写.jpg" height="80">
+
 **辅助码提示（仅PRO）：** 任意长度候选词的辅助码提示能力，默认开启1个字的辅助码，可以在方案文件中定义更长的长度。Ctrl+a可以实时在开启辅助码提示、开启声调全拼提示、关闭注释 三个状态循环，Ctrl+c开启拆分辅助提示，优先级高于普通辅助提示；
+
+<img  src="https://storage.deepin.org/thread/202509260134283927_辅助码提示.jpg" height="80">
+<img  src="https://storage.deepin.org/thread/202509260134278003_声调提示.jpg" height="80">
+<img  src="https://storage.deepin.org/thread/202509260134284782_拆分提示.jpg" height="80">
+
 
 **输入码音调显示：** 通过Ctrl+s可以使得输入码实时动态显示全拼并加音调，这是万象特色功能；
 
 **用户按需造词（仅PRO）：** 默认通过``` `` ```引导的方式进入用户词自造词模式，继续输入则``` `` ```前缀消失，后面打出来的字上屏后完成造词。 pro版本讲究自主可控，由于辅助码的使用在很多时候不熟悉的时候可能会上屏更加异常的词汇或者生僻字，有的用户还不会使用Esc退出输入，而是选择直接敲下空格。按需造词可以有效把控造出的词是有意义的，而且默认靠后，原因简单基本上有意义的高频词万象已经提供，你应该使用辅助码将其前置。**重点**：在此基础上我们还支持“后触发”当你输入编码后发现没有你要的行业词汇，此时在后面双击``` `` ``` 就可以在不删除编码的情况下完成造词。还有一个是次选造词，如果次选是你想要的，并且是词库组合成的，上屏就会记录下来。
 
 总结一下，造词功能由：①``` `` ```起始的主动造词，②``` `` ```在编码后面的主动造词，③次选造词。三个特性构成
+
+**无感造词（仅PRO）：** 在关闭调频的情况下，通过逐步选字选词的方式上屏将为你记录整段，且不会产生小碎片，所造词汇与db用户词是一回事，遵循用户词管理的相关逻辑，其中直接上屏不造词。相比按需造词更加不打断输入。
 
 **用户词删除：** 使用Ctrl+del是rime系统删除用户词,就可以将用户词标记为c<=0，这在rime系统中就表现为不使用，假性删除。
 
@@ -235,14 +288,14 @@ sequence_deepin.txt
 sequence_windows.txt
 sequence_iPhone.txt
 ```
-4. 按「部署」，会进行以下几步：
+3. 按「部署」，会进行以下几步：
 
 ①、自动导出数据到 `sequence_deepin.txt` 文件(假设为当前设备)，因此这个当前设备文件会被覆盖，请不要手动修改避免丢失；
-   
+
 ②、读取列表中列出的文件，按时序以保留最新动作为依据进行去重合并，合并后数据将会回写到 `sequence_deepin.txt` 文件；
-   
+
 ③、将合并后的文件导入db数据库，完成数据合并，注意p=0的重置后的编码不会导入数据库，如数据库原本有对应的词汇，将删除对应的键。
-   
+
 4. 通过云同步将/sync完成同步到windows设备，同步后，编辑 `sequence_device_list.txt`将sequence_windows.txt写入文件，让同步程序再次完成多端同步
 
 此时目录中已经存在如下文件，此时重新部署，稍作等待将会完成`sequence_windows.txt`的输出
@@ -273,7 +326,7 @@ B 重复以上操作完成更多设备的添加和同步
 
 **自定义词库：** 自定义词库首先要利用[LMDG](https://github.com/amzxyz/RIME-LMDG)中的脚本将你自己的词库刷成与万象同类型的声调、或者声调+辅助码的形态，因为主词库要参与转写。对于custom_phrase则需要手动编辑编码为实际输入的编码
 
-<img alt="pay" src="./custom/万象输入方案.png" height="3400" width="1000">
+<img alt="pay" src="./custom/万象输入方案.png">
 
 ## 鸣谢
 

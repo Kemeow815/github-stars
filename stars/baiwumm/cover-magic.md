@@ -1,6 +1,6 @@
 ---
 project: cover-magic
-stars: 11
+stars: 12
 description: |-
     一个专业的封面设计工具，支持实时预览和高质量导出
 url: https://github.com/baiwumm/cover-magic

@@ -1,6 +1,6 @@
 ---
 project: DoIt
-stars: 891
+stars: 893
 description: |-
     A clean, elegant and advanced blog theme for Hugo.
 url: https://github.com/HEIGE-PCloud/DoIt

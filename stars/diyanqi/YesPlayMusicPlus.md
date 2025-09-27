@@ -1,6 +1,6 @@
 ---
 project: YesPlayMusicPlus
-stars: 4
+stars: 5
 description: |-
     YesPlayMusicPlus - Based on YesPlayMusic, with fluent Apple Music styled lyrics.
 url: https://github.com/diyanqi/YesPlayMusicPlus

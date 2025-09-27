@@ -1,6 +1,6 @@
 ---
 project: astro-micro
-stars: 431
+stars: 435
 description: |-
     Blog theme for Astro with search and comments built-in. Zero frameworks.
 url: https://github.com/trevortylerlee/astro-micro

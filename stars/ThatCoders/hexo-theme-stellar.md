@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-stellar
-stars: 5
+stars: 6
 description: |-
     钟意博客自改仓库, 来源作者:[xaoxuu](https://github.com/xaoxuu/hexo-theme-stellar)
 url: https://github.com/ThatCoders/hexo-theme-stellar

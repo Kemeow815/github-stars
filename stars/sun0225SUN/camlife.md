@@ -1,6 +1,6 @@
 ---
 project: camlife
-stars: 70
+stars: 71
 description: |-
     Capture life through the Camera.
 url: https://github.com/sun0225SUN/camlife
@@ -52,6 +52,8 @@ url: https://github.com/sun0225SUN/camlife
 - [photography-website](https://github.com/ECarry/photography-website)
 - [PicImpact](https://github.com/besscroft/PicImpact)
 - [Afilmory](https://github.com/Afilmory/afilmory)
+- [chronoframe](https://github.com/HoshinoSuzumi/chronoframe)
+- [running_page](https://github.com/yihong0618/running_page)
 
 ## 🚀 Getting Started
 

@@ -1,6 +1,6 @@
 ---
 project: congo
-stars: 1505
+stars: 1510
 description: |-
     A powerful, lightweight theme for Hugo built with Tailwind CSS.
 url: https://github.com/jpanther/congo

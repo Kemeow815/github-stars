@@ -1,6 +1,6 @@
 ---
 project: home-page
-stars: 52
+stars: 51
 description: |-
     🏠️ Homepage | 个人主页
 url: https://github.com/harveyzo/home-page

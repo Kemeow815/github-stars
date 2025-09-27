@@ -1,6 +1,6 @@
 ---
 project: hugo-book
-stars: 3802
+stars: 3806
 description: |-
     Hugo documentation theme as simple as plain book
 url: https://github.com/alex-shpak/hugo-book
@@ -230,6 +230,10 @@ bookSearchExclude = false
 
 # (Optional) Set explicit href attribute for this page in a menu.
 bookHref = ''
+
+# /!\ This is an experimental feature, might be removed or changed at any time
+# (Optional) Set an icon for the menu entity of the page, icons are discovered from `assets/icons` folder.
+bookIcon = 'calendar'
 ```
 
 ### Partials

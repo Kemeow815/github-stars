@@ -1,6 +1,6 @@
 ---
 project: VideoAdGuard
-stars: 639
+stars: 643
 description: |-
     哔哩哔哩浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过视频中的植入/口播广告。
 url: https://github.com/Warma10032/VideoAdGuard
@@ -76,10 +76,10 @@ VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具
 
 1. **浏览器插件版**：安装完成后，点击插件图标完成设置
 
-   ![](https://gcore.jsdelivr.net/gh/Warma10032/image@main/blog/VideoAdGuard_popup1.png)
+   ![](https://imgbed.xiaobaozi.cn/file/blog/VideoAdGuard_popup1.webp)
 2. **油猴脚本版**：安装完成后，进入B站视频页面，点击右下角齿轮图标进行设置
 
-   ![](https://gcore.jsdelivr.net/gh/Warma10032/image@main/blog/VideoAdGuard2.png)
+   ![](https://imgbed.xiaobaozi.cn/file/blog/VideoAdGuard2.webp)
 3. 设置API密钥和模型（详见下方API设置说明）
 4. 打开任意带有字幕的B站视频，插件会自动检测广告内容
 5. 当检测到广告时，会在视频播放器右下角显示"跳过广告"按钮
@@ -221,7 +221,7 @@ VideoAdGuard
 - GitHub仓库：[https://github.com/Warma10032/VideoAdGuard](https://github.com/Warma10032/VideoAdGuard)
 - 问题反馈：[GitHub Issues](https://github.com/Warma10032/VideoAdGuard/issues)
 - 如遇任何插件不起作用问题，在提出Issues同时，附上浏览器(F12)控制台的错误日志/截图，以便我们更好地帮助你。
-- ![与后端api通信的请求在这里查看](https://gcore.jsdelivr.net/gh/Warma10032/image@main/blog/插件管理界面.png)
+- ![与后端api通信的请求在这里查看](https://imgbed.xiaobaozi.cn/file/blog/插件管理界面.webp)
 
 ### 贡献者
 

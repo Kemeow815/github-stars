@@ -6,5 +6,5 @@ description: |-
 url: https://github.com/Meekdai/GSSL
 ---
 
-✅ meekdai.com 证书正常，剩余 31 天
+✅ meekdai.com 证书正常，剩余 24 天
 

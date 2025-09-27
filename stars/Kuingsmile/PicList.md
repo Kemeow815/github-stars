@@ -1,6 +1,6 @@
 ---
 project: PicList
-stars: 2954
+stars: 2965
 description: |-
     An image upload and manage tool, base on PicGo
 url: https://github.com/Kuingsmile/PicList
@@ -59,7 +59,6 @@ url: https://github.com/Kuingsmile/PicList
   - [开发模式](#开发模式)
   - [生产构建](#生产构建)
 - [其它相关](#其它相关)
-- [交流群](#交流群)
 - [License](#license)
 - [Star Me](#star-me)
 
@@ -322,14 +321,6 @@ set ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
 - [PicList-Core](https://github.com/Kuingsmile/PicList-Core)：基于PicGo-Core的核心库，用于CLI操作和项目开发
 - [PicHoro](https://github.com/Kuingsmile/PicHoro)：配合PicList使用的手机APP
 - [VS-PicList](https://github.com/Kuingsmile/vs-PicList/)：配合PicList使用的VSCode插件
-
-## 交流群
-
-如有任何问题，欢迎加入TG群进行交流：
-
-[PicList交流群](https://t.me/+rq8y7wsj7Pg5ZTg1)
-
-![TG群二维码](https://pichoro.msq.pub/wechat.png)
 
 ## License
 

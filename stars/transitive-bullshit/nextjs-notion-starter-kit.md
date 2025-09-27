@@ -1,6 +1,6 @@
 ---
 project: nextjs-notion-starter-kit
-stars: 6826
+stars: 6834
 description: |-
     Deploy your own Notion-powered website in minutes with Next.js and Vercel.
 url: https://github.com/transitive-bullshit/nextjs-notion-starter-kit

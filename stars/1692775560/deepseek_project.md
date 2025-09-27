@@ -1,6 +1,6 @@
 ---
 project: deepseek_project
-stars: 1375
+stars: 1373
 description: |-
     Dee-seek_project
 url: https://github.com/1692775560/deepseek_project

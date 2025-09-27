@@ -1,6 +1,6 @@
 ---
 project: skill-icons
-stars: 572
+stars: 580
 description: |-
     "Fork" of official skill-icons repository. Showcase your skills on your Github readme or resumé with ease ✨
 url: https://github.com/LelouchFR/skill-icons

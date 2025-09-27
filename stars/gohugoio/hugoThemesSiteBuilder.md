@@ -1,6 +1,6 @@
 ---
 project: hugoThemesSiteBuilder
-stars: 254
+stars: 256
 description: |-
     The source for https://themes.gohugo.io
 url: https://github.com/gohugoio/hugoThemesSiteBuilder

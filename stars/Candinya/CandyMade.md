@@ -1,6 +1,6 @@
 ---
 project: CandyMade
-stars: 5
+stars: 6
 description: |-
     简单，清晰，干净的项目展示页
 url: https://github.com/Candinya/CandyMade

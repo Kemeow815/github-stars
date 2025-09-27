@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 12
+stars: 13
 description: |-
     Yixuan Wang's personal blog.
 url: https://github.com/Yixuan-Wang/blog

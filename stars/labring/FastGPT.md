@@ -1,6 +1,6 @@
 ---
 project: FastGPT
-stars: 25863
+stars: 25916
 description: |-
     FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
 url: https://github.com/labring/FastGPT
@@ -114,7 +114,7 @@ https://github.com/labring/FastGPT/assets/15308462/7d3a38df-eb0e-4388-9250-2409b
 * [部署 FastGPT](https://doc.fastgpt.io/docs/introduction/development/sealos/)
 * [系统配置文件说明](https://doc.fastgpt.io/docs/introduction/development/configuration/)
 * [多模型配置方案](https://doc.fastgpt.io/docs/introduction/development/modelConfig/one-api/)
-* [版本更新/升级介绍](https://doc.fastgpt.io/docs/introduction/development/upgrading/index)
+* [版本更新/升级介绍](https://doc.fastgpt.io/docs/upgrading)
 * [OpenAPI API 文档](https://doc.fastgpt.io/docs/introduction/development/openapi/)
 * [知识库结构详解](https://doc.fastgpt.io/docs/introduction/guide/knowledge_base/RAG/)
 

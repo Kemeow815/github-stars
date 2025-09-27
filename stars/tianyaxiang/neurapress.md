@@ -1,6 +1,6 @@
 ---
 project: neurapress
-stars: 1513
+stars: 1517
 description: |-
     NeuraPress
 url: https://github.com/tianyaxiang/neurapress
@@ -142,10 +142,7 @@ docker run -p 3000:3000 [your-dockerhub-username]/neurapress:latest
 - Marked
 - shadcn/ui
 
-## 赞助
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
-## 🌐 Community
+## 🌐 联系我们
 
  [Email](mailto:tianyaxiang@qq.com) | [Twitter](https://x.com/tianyaxiang)
 

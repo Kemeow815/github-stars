@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 2820
+stars: 2886
 description: |-
     A very useful timer (🍅Pomodoro Clock)
 url: https://github.com/vladelaina/Catime
@@ -189,6 +189,18 @@ build.bat                         # Windows
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=vladelaina/Catime&type=Date" />
  </picture>
 </a>
+
+## Sponsors
+<table>
+  <tr>
+    <td>
+      <img alt="SignPath" src="https://signpath.org/assets/favicon-50x50.png" />
+    </td>
+    <td>
+    Free code signing on Windows provided by <a href="https://signpath.io">SignPath.io</a>, certficate by <a href="https://signpath.org/">SignPath Foundation</a>
+    </td>
+  </tr> 
+</table>
 
 ## [✨Acknowledgements](https://vladelaina.github.io/Catime/#thanks) 
 

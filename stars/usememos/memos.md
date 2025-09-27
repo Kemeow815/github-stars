@@ -1,6 +1,6 @@
 ---
 project: memos
-stars: 44400
+stars: 44555
 description: |-
     A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.
 url: https://github.com/usememos/memos
@@ -8,7 +8,7 @@ url: https://github.com/usememos/memos
 
 # Memos
 
-<img align="right" height="96px" src="https://www.usememos.com/logo-rounded.png" alt="Memos" />
+<img align="right" height="96px" src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos" />
 
 A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations. Memos provides a lightweight yet powerful solution for capturing, organizing, and sharing thoughts with comprehensive Markdown support and cross-platform accessibility.
 
@@ -25,7 +25,7 @@ A modern, open-source, self-hosted knowledge management and note-taking platform
 
 </div>
 
-![Memos Application Screenshot](https://www.usememos.com/demo.png)
+![Memos Application Screenshot](https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png)
 
 <!-- Premium Sponsors -->
 <!--

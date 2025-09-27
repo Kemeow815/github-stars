@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-butterfly
-stars: 7924
+stars: 7935
 description: |-
      🦋 A Hexo Theme: Butterfly
 url: https://github.com/jerryc127/hexo-theme-butterfly

@@ -1,6 +1,6 @@
 ---
 project: KatelyaTV
-stars: 1829
+stars: 2031
 description: |-
     一个基于MoonTV(LunaTV)二次开发的项目。
 url: https://github.com/katelya77/KatelyaTV

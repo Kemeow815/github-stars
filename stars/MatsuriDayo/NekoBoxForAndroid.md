@@ -1,6 +1,6 @@
 ---
 project: NekoBoxForAndroid
-stars: 16072
+stars: 16290
 description: |-
     NekoBox for Android / sing-box / universal proxy toolchain for Android
 url: https://github.com/MatsuriDayo/NekoBoxForAndroid

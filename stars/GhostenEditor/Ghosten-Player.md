@@ -1,6 +1,6 @@
 ---
 project: Ghosten-Player
-stars: 2176
+stars: 2210
 description: |-
     一个视频播放器，支持网盘直连、元数据刮削、IPTV、文件管理等 /   A video player that supports direct connection to network disk, metadata scraping, IPTV, file management, etc.
 url: https://github.com/GhostenEditor/Ghosten-Player
@@ -28,8 +28,6 @@ Ghosten Player 是一款同时适配 📱**Android Phone** 和 📺**Android TV*
 如果项目对您有帮助，就请给颗🌟Star吧。
 
 项目处于用爱发电阶段，请考虑[赞助](#赞助)支持项目持续维护。您的支持是我维护的最大动力(′･ω･`)
-
-QQ群 1033449405
 
 ## Features
 
@@ -70,6 +68,7 @@ QQ群 1033449405
 - 其他
     - 纯本地运行，无需后端服务支持 [^1]
     - 软件体积小 (≈ 15 MB)
+  - 外接USB设备读取
     - 设备间的数据同步
     - 站内搜索
     - 自动更新
@@ -147,26 +146,27 @@ Demo仅作展示用，部分功能受Web限制，并非完整版。Demo可能更
 ### Wiki目录
 
 - 使用说明
-  - [添加账号](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%B7%BB%E5%8A%A0%E8%B4%A6%E5%8F%B7)
-  - [添加资源](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%B7%BB%E5%8A%A0%E8%B5%84%E6%BA%90)
-  - [TV端操作方式](https://github.com/GhostenEditor/Ghosten-Player/wiki/TV%E7%AB%AF%E6%93%8D%E4%BD%9C%E6%96%B9%E5%BC%8F)
-  - [DLNA投屏](https://github.com/GhostenEditor/Ghosten-Player/wiki/DLNA%E6%8A%95%E5%B1%8F)
-  - [多线程网络加速](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%8A%A0%E9%80%9F)
-  - [数据同步](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5)
-  - [整理文件信息](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%95%B4%E7%90%86%E6%96%87%E4%BB%B6%E4%BF%A1%E6%81%AF)
-  - [文件下载](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD)
-  - [添加直播源](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%B7%BB%E5%8A%A0%E7%9B%B4%E6%92%AD%E6%BA%90)
-  - [跳过片头片尾](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E8%B7%B3%E8%BF%87%E7%89%87%E5%A4%B4%E7%89%87%E5%B0%BE)
+  - [添加账号](https://github.com/GhostenEditor/Ghosten-Player/wiki/添加账号)
+  - [添加资源](https://github.com/GhostenEditor/Ghosten-Player/wiki/添加资源)
+  - [TV端操作方式](https://github.com/GhostenEditor/Ghosten-Player/wiki/TV端操作方式)
+  - [DLNA投屏](https://github.com/GhostenEditor/Ghosten-Player/wiki/DLNA投屏)
+  - [多线程网络加速](https://github.com/GhostenEditor/Ghosten-Player/wiki/多线程网络加速)
+  - [数据同步](https://github.com/GhostenEditor/Ghosten-Player/wiki/数据同步)
+  - [整理文件信息](https://github.com/GhostenEditor/Ghosten-Player/wiki/整理文件信息)
+  - [文件下载](https://github.com/GhostenEditor/Ghosten-Player/wiki/文件下载)
+  - [添加直播源](https://github.com/GhostenEditor/Ghosten-Player/wiki/添加直播源)
+  - [跳过片头片尾](https://github.com/GhostenEditor/Ghosten-Player/wiki/跳过片头片尾)
 - 常见问题
-  - [Webdav报错](https://github.com/GhostenEditor/Ghosten-Player/wiki/Webdav%E6%8A%A5%E9%94%99)
-  - [刮削媒体信息相关问题](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E5%88%AE%E5%89%8A%E5%AA%92%E4%BD%93%E4%BF%A1%E6%81%AF%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98)
-  - [应用闪退](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E5%BA%94%E7%94%A8%E9%97%AA%E9%80%80)
-  - [播放卡顿](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%92%AD%E6%94%BE%E5%8D%A1%E9%A1%BF)
-  - [数据错误](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%95%B0%E6%8D%AE%E9%94%99%E8%AF%AF)
-  - [画面或声音缺失](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E7%94%BB%E9%9D%A2%E6%88%96%E5%A3%B0%E9%9F%B3%E7%BC%BA%E5%A4%B1)
-- [权限说明](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E5%BA%94%E7%94%A8%E6%9D%83%E9%99%90)
-- [数据安全](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8)
-- [格式支持](https://github.com/GhostenEditor/Ghosten-Player/wiki/%E6%A0%BC%E5%BC%8F%E6%94%AF%E6%8C%81)
+  - [Webdav报错](https://github.com/GhostenEditor/Ghosten-Player/wiki/Webdav报错)
+  - [刮削媒体信息相关问题](https://github.com/GhostenEditor/Ghosten-Player/wiki/刮削媒体信息相关问题)
+  - [应用闪退](https://github.com/GhostenEditor/Ghosten-Player/wiki/应用闪退)
+  - [播放卡顿](https://github.com/GhostenEditor/Ghosten-Player/wiki/播放卡顿)
+  - [数据错误](https://github.com/GhostenEditor/Ghosten-Player/wiki/数据错误)
+  - [画面或声音缺失](https://github.com/GhostenEditor/Ghosten-Player/wiki/画面或声音缺失)
+- [应用权限](https://github.com/GhostenEditor/Ghosten-Player/wiki/应用权限)
+- [数据安全](https://github.com/GhostenEditor/Ghosten-Player/wiki/数据安全)
+- [格式支持](https://github.com/GhostenEditor/Ghosten-Player/wiki/格式支持)
+
 
 ## Roadmap
 

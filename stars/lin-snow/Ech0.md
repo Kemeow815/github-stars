@@ -1,6 +1,6 @@
 ---
 project: Ech0
-stars: 581
+stars: 603
 description: |-
     Ech0 - 开源、自托管、专注思想流动的轻量级发布平台
 url: https://github.com/lin-snow/Ech0
@@ -241,7 +241,7 @@ ssh -p 6278 ssh.vaaat.com
 - 打开浏览器访问`http://localhost:6277/swagger/index.html`查看和使用swagger文档  
 
 ## **前端要求:**  
-📌  **NodeJS v24.5.0+, PNPM v10.15.1+**
+📌  **NodeJS v24.5.0+, PNPM v10.17.1+**
 > 注：如需要多个nodejs版本共存可使用[fnm](https://github.com/Schniz/fnm)进行管理  
 
 ---

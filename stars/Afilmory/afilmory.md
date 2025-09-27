@@ -1,6 +1,6 @@
 ---
 project: afilmory
-stars: 1308
+stars: 1335
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/afilmory
@@ -209,7 +209,7 @@ export async function customImageProcessor(buffer: Buffer) {
 
 ## 📄 License
 
-MIT License © 2025 Innei
+MIT License © 2025 Afilmory Team
 
 ## 🔗 Related Links
 
