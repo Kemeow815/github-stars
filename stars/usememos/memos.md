@@ -1,10 +1,21 @@
 ---
 project: memos
-stars: 44555
+stars: 44730
 description: |-
     A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.
 url: https://github.com/usememos/memos
 ---
+
+<!-- Premium Sponsors -->
+<p align="center"><strong>Special thanks to our sponsor:</strong></p>
+<div align="center">
+  <a href="https://go.warp.dev/memos" target="_blank" rel="noopener">
+    <img src="https://raw.githubusercontent.com/warpdotdev/brand-assets/main/Github/Sponsor/Warp-Github-LG-02.png" alt="Warp" height="256" />
+  </a>
+  <p>
+    <a href="https://go.warp.dev/memos" target="_blank" rel="noopener">Warp is built for coding with multiple AI agents</a>
+  </p>
+</div>
 
 # Memos
 

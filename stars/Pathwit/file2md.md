@@ -1,6 +1,6 @@
 ---
 project: file2md
-stars: 100
+stars: 101
 description: |-
     File2MD: A Micro File Parser Service. Friendly to LLM.
 url: https://github.com/Pathwit/file2md

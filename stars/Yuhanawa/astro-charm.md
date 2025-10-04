@@ -155,7 +155,7 @@ export default defineConfig({
 });
 ```
 
-### [Config schema](https://github.com/Yuhanawa/astro-charm/blob/main/package/index.ts#L59-L152)
+### [Config schema](https://github.com/Yuhanawa/astro-charm/blob/main/package/index.ts#L59-L161)
 
 ```ts
 const configSchema = z.object({
@@ -212,6 +212,14 @@ const configSchema = z.object({
     footerStyle: z
       .enum(["default", "only-icon", "only-title"])
       .default("default"),
+    toc: z
+      .object({
+        enabled: z.boolean().optional().default(true),
+        title: z.string().optional().default("Table of contents"),
+        minLength: z.number().min(1).max(3).optional(),
+        maxDepth: z.number().min(1).max(6).optional(),
+      })
+      .default({}),
   }),
   markdown: z
     .object({
@@ -225,6 +233,7 @@ const configSchema = z.object({
           explicitTrigger: z.boolean().default(true), // if true, ```ts twoslash
         })
         .default({}),
+      headingAnchor: z.string().default("#"),
     })
     .default({}),
   giscus: z

@@ -1,6 +1,6 @@
 ---
 project: Folder-Ico
-stars: 2733
+stars: 2750
 description: |-
     Ico repository for Folder11
 url: https://github.com/icon11-community/Folder-Ico

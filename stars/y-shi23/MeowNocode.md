@@ -1,6 +1,6 @@
 ---
 project: MeowNocode
-stars: 300
+stars: 376
 description: |-
     memos类开源高颜值便签应用
 url: https://github.com/y-shi23/MeowNocode
@@ -8,23 +8,24 @@ url: https://github.com/y-shi23/MeowNocode
 
 # Meow App
 ![meow.png](https://pic.oneloved.top/2025-08/meow_1754197450654.png)
-Meow App 是一个简洁的笔记应用，支持本地存储和云端同步。你可以使用Supabase或Cloudflare D1作为云端数据库。
+Meow App 是一个简洁的笔记应用，支持本地存储和云端同步。你可以使用Cloudflare D1作为云端数据库。
+
 ## 功能亮点：
 - 画布模式，便于整理思绪
 - 热力图数据统计，满满成就感
 - 模糊语法，适用于记忆场景
 - 每日回顾，温故而知新
-- AI对话，你问它答
-....
+- AI对话
 
 ## 特别感谢
-- 使用nocode<https://nocode.cn>制作。
-- 部分组件代码源于网络。
+- Meituan Nocode<https://nocode.cn>
+- 各种 AI Coding Application。欢迎 Pull request!
 
 ## demo
-不含D1数据库（麻烦帮我冲一下UV和PV，球球了）：https://flomo.nocode.host/
+
 含D1数据库：https://memo.oneloved.top/
 D1公共实例的登录密钥是：`meow`。请勿上传不良信息和个人信息。
+
 
 ## 本地开发
 ### 安装依赖
@@ -39,27 +40,7 @@ npm run dev
 
 ## 部署
 
-### 1. 静态网页托管+Supabase部署
-
-#### 配置Supabase
-1. 在 [Supabase](https://supabase.com) 创建一个新项目
-2. 获取项目的URL和anon key
-3. 在项目根目录创建`.env`文件，添加以下内容：
-   ```
-   VITE_SUPABASE_URL=你的Supabase项目URL
-   VITE_SUPABASE_ANON_KEY=你的Supabase anon key
-
-   PASSWORD= #配置后，访问前端页面需要密码。可选
-   ```
-
-#### 初始化数据库
-1. 在Supabase控制台的SQL编辑器中运行`supabase-schema.sql`文件
-2. 这将创建所需的表和索引
-
-#### 部署应用
-你可以将应用部署到任何支持静态网站托管的服务，如Vercel、Netlify等。
-
-### 2. 使用Cloudflare Workers/Pages和D1数据库部署
+### 使用Cloudflare Pages和 D1 数据库部署
 
 #### 准备工作
 1. 安装Wrangler CLI：
@@ -129,7 +110,6 @@ npm run dev
   - `components/` - React组件
   - `context/` - React Context
   - `lib/` - 工具库和数据库服务
-- `supabase-schema.sql` - Supabase数据库架构
 - `d1-schema.sql` - D1数据库架构
 - `worker.js` - Cloudflare Worker代码
 - `wrangler.toml` - Cloudflare Workers配置
@@ -137,7 +117,7 @@ npm run dev
 # 其他
 ## 数据库初始化与迁移
 
-本项目支持两套后端存储：Cloudflare D1 与 Supabase。以下指引用于「全新初始化」与「更新既有数据库」。
+本项目支持两套后端存储：Cloudflare D1 。以下指引用于「全新初始化」与「更新既有数据库」。
 
 
 ### 更新既有数据库（迁移）
@@ -182,5 +162,6 @@ ALTER TABLE memos ADD COLUMN IF NOT EXISTS audio_clips JSONB DEFAULT '[]'::jsonb
 CREATE INDEX IF NOT EXISTS idx_memos_created_at ON memos(created_at);
 ```
 
-执行后即可使用设置页面的“同步到云端/从云端恢复”。
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=y-shi23/MeowNocode&type=Date)](https://www.star-history.com/#y-shi23/MeowNocode&Date)

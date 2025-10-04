@@ -1,6 +1,6 @@
 ---
 project: MBRjun-Blog
-stars: 16
+stars: 17
 description: |-
     MBRjun-Blog 的源码仓库（Hexo 版） • 我们生活在大地上，但我们的梦想超越天空
 url: https://github.com/MBRjun/MBRjun-Blog
@@ -20,6 +20,7 @@ See ``source/about`` or [this url](https://www.libmbr.com/about/).
 
 ## Build
 - Install ``make``
-- Install Node.js v18 or v20 LTS
+- Install Node.js v24 or v22 LTS
+  *(note: v18 to v20 deprecated in late 2025)*
 - run ``make hexo``
 

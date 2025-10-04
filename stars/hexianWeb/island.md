@@ -1,6 +1,6 @@
 ---
 project: island
-stars: 139
+stars: 141
 description: |-
     A 2.5D style portfolio build by Threejs. (一个 3D 风格的 Threejs 个人简历)
 url: https://github.com/hexianWeb/island

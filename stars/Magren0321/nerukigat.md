@@ -1,6 +1,6 @@
 ---
 project: nerukigat
-stars: 9
+stars: 8
 description: |-
     🌟 My personal website, build width Nextjs
 url: https://github.com/Magren0321/nerukigat

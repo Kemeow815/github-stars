@@ -1,6 +1,6 @@
 ---
 project: HexoHub
-stars: 47
+stars: 53
 description: |-
     A windows desktop application built for Hexo   一个桌面端hexo集成应用程序
 url: https://github.com/forever218/HexoHub
@@ -8,7 +8,7 @@ url: https://github.com/forever218/HexoHub
 
 # HexoHub
 
-[中文文档](https://github.com/forever218/HexoHub/blob/main/README.md)  |  [English](https://github.com/forever218/HexoHub/blob/main/docs/README.en.md)  
+[中文文档](https://github.com/forever218/HexoHub/blob/main/README.md)  |  [English](https://github.com/forever218/HexoHub/blob/main/docs/README.en.md)  |  [发布指南](https://github.com/forever218/HexoHub/blob/main/docs/RELEASE_GUIDE.md)  
 
 
 [![GitHub Stars](https://img.shields.io/github/stars/forever218/Hexohub)](https://github.com/forever218/Hexohub/stargazers)
@@ -126,6 +126,10 @@ npm install -g cnpm --registry=http://registry.npm.taobao.org
    ```
 
 > **注意**：本应用程序通过`electron-builder`封装，而不是`electron-forge`，在您修改相关配置文件时，请注意使用`electron-builder`的配置文件格式。[electron-builder](https://www.electron.build/)
+
+### 📦 自动化发布流程
+
+项目已配置 GitHub Actions 自动化发布流程。维护者在准备发布新版本时，只需推送版本标签即可自动构建和发布 Windows、Linux 安装包。详细步骤请参考 [📦 发布指南](./docs/RELEASE_GUIDE.md)。
 
 ## Linux 兼容性与故障排查
 当前已经提供 AppImage（内部为 Electron 运行时）。在部分基于 Arch / Manjaro / Wayland 或 Mesa 驱动环境中，可能在终端看到：

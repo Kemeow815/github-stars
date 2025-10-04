@@ -1,6 +1,6 @@
 ---
 project: BiliTools
-stars: 3708
+stars: 3774
 description: |-
     A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源
 url: https://github.com/btjawa/BiliTools
@@ -61,7 +61,7 @@ url: https://github.com/btjawa/BiliTools
 | 稍后再看 | ✅ 已完成 | 支持列表与单项 |
 | 收藏夹   | ✅ 已完成 | 支持任意用户收藏夹 |
 | NFO刮削  | ✅ 已完成 | 合集/剧集刮削、单集刮削 |
-| 元数据   | ✅ 已完成 | 支持 `ID3v2` / `Vorbis Comments` |
+| 元数据   | ✅ 已完成 | 支持 `ID3v2` / `Vorbis Comments` 等 |
 | AI总结   | ✅ 已完成 | Markdown格式，来自哔哩哔哩 `AI 小助手` |
 
 | 账号相关 | 状态       |
@@ -161,7 +161,7 @@ url: https://github.com/btjawa/BiliTools
 - 因使用本项目而产生的任何后果（包括但不限于非法用途、账号风控或其他损失），均由用户个人承担，**与[本人](https://github.com/btjawa)无关，概不负责**
 - 本项目 **开源免费**，作者未从中获得经济收益
 - 本项目不会绕过身份验证机制、破解付费资源或实施其他非法行为
-- 本项目产生与获取的所有数据将使用 `SQLite` 格式明文存储于用户本地：
+- 本项目用于持久化的所有数据将使用 `SQLite` 格式 **明文** 存储于用户本地：
 
 > Windows: `%APPDATA%\com.btjawa.bilitools`<br>
 > macOS: `$HOME/Library/Application Support/com.btjawa.bilitools`<br>

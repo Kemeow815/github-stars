@@ -1,6 +1,6 @@
 ---
 project: VideoAdGuard
-stars: 643
+stars: 652
 description: |-
     哔哩哔哩浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过视频中的植入/口播广告。
 url: https://github.com/Warma10032/VideoAdGuard
@@ -34,6 +34,7 @@ VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具
 
 ## News
 
+- v1.2.8 提供Groq代理服务
 - v1.2.7 适配Firefox浏览器
 - v1.2.6 支持 glm-4.5 系列模型，适配 Chrome浏览器
 - v1.2.5 优化缓存机制；优化av号处理

@@ -1,6 +1,6 @@
 ---
 project: photography-website
-stars: 259
+stars: 260
 description: |-
     An open-source Photograph travel Blog📸 built using Next.js, Drizzle, Neon, Better auth, Shadcn/ui and tRPC.
 url: https://github.com/ECarry/photography-website

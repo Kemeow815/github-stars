@@ -1,6 +1,6 @@
 ---
 project: hexo-bilibili-bangumi
-stars: 523
+stars: 525
 description: |-
     hexo 番剧页面插件，可选数据源：Bilibili, Bangumi
 url: https://github.com/HCLonely/hexo-bilibili-bangumi

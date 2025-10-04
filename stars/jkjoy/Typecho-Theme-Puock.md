@@ -1,6 +1,6 @@
 ---
 project: Typecho-Theme-Puock
-stars: 3
+stars: 4
 description: |-
     移植开源项目 Licoy/wordpress-theme-puock
 url: https://github.com/jkjoy/Typecho-Theme-Puock

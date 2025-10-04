@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-liushen
-stars: 9
+stars: 10
 description: |-
     🫠柳神的主题仓库，目前正在开发中，请谨慎使用，由于学业原因，不提供部署帮助
 url: https://github.com/willow-god/hexo-theme-liushen

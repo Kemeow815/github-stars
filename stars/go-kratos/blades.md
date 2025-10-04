@@ -1,6 +1,6 @@
 ---
 project: blades
-stars: 351
+stars: 487
 description: |-
     Blades is a Go-based multimodal AI Agent framework.
 url: https://github.com/go-kratos/blades
@@ -127,7 +127,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Println(result.AsText())
+	log.Println(result.Text())
 }
 
 ```

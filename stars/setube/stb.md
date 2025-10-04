@@ -1,6 +1,6 @@
 ---
 project: stb
-stars: 270
+stars: 272
 description: |-
     Stb图床 - 现代化图片托管解决方案
 url: https://github.com/setube/stb

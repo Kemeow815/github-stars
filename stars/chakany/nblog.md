@@ -1,6 +1,6 @@
 ---
 project: nblog
-stars: 69
+stars: 68
 description: |-
     self-host nostr ghost blog
 url: https://github.com/chakany/nblog

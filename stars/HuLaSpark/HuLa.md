@@ -1,6 +1,6 @@
 ---
 project: HuLa
-stars: 3731
+stars: 3749
 description: |-
     🍀HuLa is a cross-platform instant messaging desktop application based on Tauri v2+Vue3, compatible with Windows, MacOS, Linux, Android, IOS  （HuLa是一款基于Tauri v2+Vue3的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）
 url: https://github.com/HuLaSpark/HuLa

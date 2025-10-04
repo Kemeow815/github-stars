@@ -1,6 +1,6 @@
 ---
 project: APlayer
-stars: 7567
+stars: 7566
 description: |-
     :lollipop: Wow, such a beautiful HTML5 music player
 url: https://github.com/DIYgod/APlayer

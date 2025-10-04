@@ -1,8 +1,8 @@
 ---
 project: KatelyaTV
-stars: 2031
+stars: 2195
 description: |-
-    一个基于MoonTV(LunaTV)二次开发的项目。
+    一个基于MoonTV(LunaTV)二次开发的项目。新项目：https://github.com/Decohererk/DecoTV
 url: https://github.com/katelya77/KatelyaTV
 ---
 

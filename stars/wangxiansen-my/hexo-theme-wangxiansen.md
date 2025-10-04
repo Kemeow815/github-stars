@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-wangxiansen
-stars: 3
+stars: 2
 description: |-
     null
 url: https://github.com/wangxiansen-my/hexo-theme-wangxiansen

@@ -1,6 +1,6 @@
 ---
 project: Farallon
-stars: 243
+stars: 241
 description: |-
     📓 single column wordpress theme
 url: https://github.com/bigfa/Farallon

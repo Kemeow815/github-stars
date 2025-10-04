@@ -1,6 +1,6 @@
 ---
 project: hexo-ai-summary
-stars: 9
+stars: 10
 description: |-
     hexo使用ai为您的文章生成摘要
 url: https://github.com/willow-god/hexo-ai-summary
@@ -63,6 +63,7 @@ aisummary:
   
   max_token: 5000           # 输入内容最大 token 长度（非输出限制）
   concurrency: 2            # 并发处理数，建议不高于 5
+  sleep_time: 0             # 请求间隔时间（毫秒），用于避免请求超速。默认为 0
 ```
 
 ### 📋 日志等级说明
@@ -138,3 +139,4 @@ summary: 这里是清羽AI，这篇文章介绍了如何为 Hexo 博客自动生
 ---
 
 如需进一步定制 prompt 或支持其他 AI 接口，欢迎提 issue 或提交 PR！
+

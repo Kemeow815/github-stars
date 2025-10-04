@@ -1,6 +1,6 @@
 ---
 project: wordpress-theme-puock
-stars: 2770
+stars: 2771
 description: |-
     :art: 一款基于WordPress开发的高颜值的自适应主题，支持白天与黑夜模式/无刷新加载/第三方登录等众多功能 | A high-value adaptive theme based on WordPress, supports light and dark modes, no refresh loading, etc.
 url: https://github.com/Licoy/wordpress-theme-puock
@@ -119,10 +119,7 @@ url: https://github.com/Licoy/wordpress-theme-puock
 [![Stargazers over time](https://starchart.cc/Licoy/wordpress-theme-puock.svg)](https://starchart.cc/Licoy/wordpress-theme-puock)
 
 ## 鸣谢
-
 - [Jetbrains](https://www.jetbrains.com/?from=wordpress-theme-puock)
-- [Cloudflare](https://www.cloudflare.com/?from=wordpress-theme-puock)
-- <a href="http://idc.daozhiyun.cn"><img src="https://sv.png.pub/imgs/2024/06/26/fd4efab4bfd2bb9e.png" width="100"></a>
 
 ## 开源协议
 

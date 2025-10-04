@@ -1,6 +1,6 @@
 ---
 project: OneBlog
-stars: 233
+stars: 235
 description: |-
     【免费开源】Typecho文字博客主题：OneBlog 一款简约清新文艺的写作记录类单栏主题
 url: https://github.com/LawyerLu/OneBlog

@@ -1,6 +1,6 @@
 ---
 project: XYBotV2
-stars: 772
+stars: 773
 description: |-
     🤖 功能丰富的微信机器人框架 | AI对话、对接Dify、积分系统、游戏互动、每日新闻、天气查询 | 非Hook非Web实现 | 支持 Windows✅ Linux✅ MacOS✅ | 全新架构解决XYBot第一代痛点！
 url: https://github.com/HenryXiaoYang/XYBotV2

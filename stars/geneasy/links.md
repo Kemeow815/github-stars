@@ -1,6 +1,6 @@
 ---
 project: links
-stars: 30
+stars: 31
 description: |-
     友情链接模板 - 这是一个通用的友情链接模板，任何类型的网站都可以拿去使用。此友情链接页面是使用 GenEasy 文档生成工具 + WebStack 模板创建的静态页面，托管在 GitHub Pages 服务器上面。例子: https://discuss-cn.pipecraft.net/links/
 url: https://github.com/geneasy/links

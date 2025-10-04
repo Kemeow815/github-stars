@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 9536
+stars: 9593
 description: |-
     A cross-platform Markdown AI note-taking software.
 url: https://github.com/codexu/note-gen

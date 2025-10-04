@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-mono
-stars: 2
+stars: 3
 description: |-
     A simple and elegant Hugo theme
 url: https://github.com/lin-snow/hugo-theme-mono

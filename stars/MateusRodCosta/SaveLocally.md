@@ -1,6 +1,6 @@
 ---
 project: SaveLocally
-stars: 208
+stars: 205
 description: |-
     Save files locally via the share menu
 url: https://github.com/MateusRodCosta/SaveLocally

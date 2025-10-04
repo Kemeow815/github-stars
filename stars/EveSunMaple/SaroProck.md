@@ -1,6 +1,6 @@
 ---
 project: SaroProck
-stars: 52
+stars: 54
 description: |-
     我的个人博客！使用 Astro + React
 url: https://github.com/EveSunMaple/SaroProck

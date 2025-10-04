@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-icarus
-stars: 91
+stars: 92
 description: |-
     魔改版 Hexo Icarus 主题
 url: https://github.com/imaegoo/hexo-theme-icarus

@@ -1,6 +1,6 @@
 ---
 project: notionic
-stars: 325
+stars: 326
 description: |-
     Notion + Craft.do + Next.js = Notionic
 url: https://github.com/izuolan/notionic

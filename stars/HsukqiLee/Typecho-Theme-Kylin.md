@@ -1,6 +1,6 @@
 ---
 project: Typecho-Theme-Kylin
-stars: 13
+stars: 14
 description: |-
     Typecho 主题 Kylin（麒麟） From Typecho-Theme-Icarus 
 url: https://github.com/HsukqiLee/Typecho-Theme-Kylin

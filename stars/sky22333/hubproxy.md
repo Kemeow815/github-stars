@@ -1,6 +1,6 @@
 ---
 project: hubproxy
-stars: 1587
+stars: 1618
 description: |-
     自托管轻量级、高性能的多功能代理加速服务，提供 Docker 镜像加速、GitHub 加速、下载离线镜像等功能。一个二进制文件实现所有功能，支持仓库审计。流式转发，无缓存。
 url: https://github.com/sky22333/hubproxy

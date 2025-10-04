@@ -1,6 +1,6 @@
 ---
 project: pansou-web
-stars: 2
+stars: 3
 description: |-
     😃清羽飞扬盘搜前端仓库，后端基于Fish2018/Pansou后端
 url: https://github.com/willow-god/pansou-web

@@ -1,6 +1,6 @@
 ---
 project: Mizuki
-stars: 374
+stars: 404
 description: |-
     Material Design 3设计风格的二次元博客主题！使用Astro+Tailwindcss
 url: https://github.com/matsuzaka-yuki/Mizuki
@@ -40,7 +40,7 @@ A modern, feature-rich static blog template built with [Astro](https://astro.bui
 [**日本語**](./docs/README.ja.md) /
 [**中文繁体**](./docs/README.tw.md) /
 
-## 🆕 v4.9 Update
+## 🆕 v5.0 Update
 - **Pio Live2D Integration**: Added Pio Live2D character, providing a cute interactive companion to enhance user engagement.
 - **Highly Configurable**: Supports detailed configuration in `src/config.ts`, including model path, position, size, dialogue content, etc., to meet personalized needs.
 - **Seamless Navigation**: The "Back to Home" feature now uses the theme's built-in Swup for smooth, no-refresh page transitions.
@@ -103,11 +103,7 @@ A modern, feature-rich static blog template built with [Astro](https://astro.bui
 - [x] Reading time estimation
 - [x] Article categorization and tagging system
 
-### 🌐 Internationalization
-- [x] **Multi-language support** with real-time translation
-- [x] **Automatic language detection** based on user preferences
-- [x] **Client-side translation** powered by Edge Translate
-- [x] Support for 10+ languages (Chinese, English, Japanese, Korean, Spanish, etc.)
+
 
 ### 📱 Special Pages
 - [x] **Anime Tracking Page** - Track anime watching progress and ratings
@@ -146,7 +142,7 @@ A modern, feature-rich static blog template built with [Astro](https://astro.bui
 3. **Configure your blog:**
    - Edit `src/config.ts` to customize blog settings
    - Update site information, theme colors, banner images, and social links
-   - Configure translation settings and feature page functionality
+   - Configure feature page functionality
 
 4. **Start the development server:**
    ```bash
@@ -265,11 +261,6 @@ export const siteConfig: SiteConfig = {
     hue: 210, // 0-360, theme hue
     fixed: false, // Hide theme color picker
   },
-  translate: {
-    enable: true, // Enable translation
-    service: "client.edge", // Translation service
-    defaultLanguage: "english",
-  },
   banner: {
     enable: true,
     src: ["assets/banner/1.webp"], // Banner images
@@ -307,13 +298,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Based on the original [Fuwari](https://github.com/saicaca/fuwari) template
 - Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
 - Inspired by [Yukina](https://github.com/WhitePaper233/yukina) - a beautiful and elegant blog template
-- Translation functionality powered by [translate](https://gitee.com/mail_osc/translate) - AI i18n automatic HTML translation solution
 - Icons from [Iconify](https://iconify.design/)
 
 ### Special Thanks
 
 - **[Yukina](https://github.com/WhitePaper233/yukina)** - Thanks for providing design inspiration and creativity that helped shape this project. Yukina is an elegant blog template that demonstrates excellent design principles and user experience.
-- **[translate](https://gitee.com/mail_osc/translate)** - Thanks for providing an innovative AI-driven i18n solution that enables automatic HTML translation with just two lines of JavaScript code. This open-source tool makes multilingual support extremely simple and efficient.
 
 ---
 

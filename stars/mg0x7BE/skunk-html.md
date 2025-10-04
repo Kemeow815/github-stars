@@ -1,6 +1,6 @@
 ---
 project: skunk-html
-stars: 156
+stars: 157
 description: |-
     Markdown Blog with GitHub Pages. Easy setup!
 url: https://github.com/mg0x7BE/skunk-html

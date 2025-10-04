@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-reco
-stars: 655
+stars: 656
 description: |-
     🎨 This is the repo for vuepress-theme-reco 2.
 url: https://github.com/vuepress-reco/vuepress-theme-reco

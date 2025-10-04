@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 338
+stars: 336
 description: |-
     A Blog on Customizing Docusaurus
 url: https://github.com/kuizuo/blog

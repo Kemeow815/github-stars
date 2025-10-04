@@ -1,6 +1,6 @@
 ---
 project: PiliPlus
-stars: 5772
+stars: 6024
 description: |-
     PiliPlus
 url: https://github.com/bggRGjQaUbCoE/PiliPlus
@@ -39,9 +39,9 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 - [x] iOS
 - [x] Pad
 - [x] Windows
+- [x] Linux
 
-
-<br/>
+[![Packaging status](https://repology.org/badge/vertical-allrepos/piliplus.svg)](https://repology.org/project/piliplus/versions)
 
 ## refactor
 
@@ -51,6 +51,8 @@ url: https://github.com/bggRGjQaUbCoE/PiliPlus
 
 ## feat
 
+- [x] Win/Mac 支持极验、短信登录 by [@My-Responsitories](https://github.com/My-Responsitories)
+- [x] 视频截取 GIF by [@My-Responsitories](https://github.com/My-Responsitories)
 - [x] AI 原声翻译
 - [x] SuperChat
 - [x] 播放课堂视频

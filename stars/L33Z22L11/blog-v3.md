@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 134
+stars: 139
 description: |-
     My blog, powered by Nuxt Content v3.
 url: https://github.com/L33Z22L11/blog-v3
@@ -26,16 +26,14 @@ url: https://github.com/L33Z22L11/blog-v3
 ## 使用本主题的博客
 
 > 主题吸收了 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 的设计风格，命名为 **Clarity**，寓意清楚的阅读体验和清晰的观点表达。
->
-> v3.3 (不含) 之前使用 Nuxt 3 + Nuxt Content 2，更新依赖/删除 lcok 文件可能导致项目无法启动。
 
 | 博客名称                                    | 作者          | 对应上游版本 | 下游特色功能                   |
 | ------------------------------------------- | ------------- | ------------ | ------------------------------ |
-| **[纸鹿摸鱼处](https://blog.zhilu.site/)**  | **L33Z22L11** | **v3.4.7**   | (我是上游)                     |
+| **[纸鹿摸鱼处](https://blog.zhilu.site/)**  | **L33Z22L11** | **v3.4.8**   | (我是上游)                     |
 | [希乐博客](https://blog.xlenco.top/)        | Xlenco        | v3.4.0       | 最新评论                       |
 | [SteinsNote](https://blog.labmem.chat/)     | Labmem-00     | v3.1-241112  | 专栏                           |
-| [月空人](https://whbbit.cn/)                | Whbbit1999    | v3.4.7       | 项目/博客/Snippets页           |
-| [地球驿站](https://blog.mugzx.top/)         | mugzx         | v3.4.7       | 设计风格统一                   |
+| [月空人](https://whbbit.cn/)                | Whbbit1999    | v3.4.8       | 项目/博客/Snippets页           |
+| [地球驿站](https://blog.mugzx.top/)         | mugzx         | v3.4.8       | 设计风格统一                   |
 | [喵落阁](https://blog-v3.kemeow.top/)       | Kemeow815     | v3.4.6       | 即刻+友圈+最新评论+游戏/番剧页 |
 | [梦爱吃鱼](https://blog.ruom.top/)          | JLinmr        | v3.2-250304  | 即刻+友圈+最新评论             |
 | [Mikuの极光星](https://blog.sotkg.com/)     | PaloMiku      | v3.4.5       | 设计风格统一                   |
@@ -43,12 +41,12 @@ url: https://github.com/L33Z22L11/blog-v3
 | [BiuXin-s Blog](https://zhilu.biuxin.com/)  | damizai       | v3.2-250304  | 即刻+友圈+最新评论             |
 | [液泡部落格](https://blog.vacu.top/)        | VacuolePaoo   | v3.4.4       | 一言+标签tags+页脚随机友链     |
 | [柒渊阁](https://www.myxz.top/)             | 661111        | v3.4.7       | 即刻+友圈+Heo友链轮播/Profile  |
-| [落憾](https://blog.enltlh.me/)             | LuoH-AN       | v3.4.5       | 即刻+一言+卡片Profile          |
+| [落憾](https://blog.enltlh.me/)             | LuoH-AN       | v3.4.8       | 即刻+一言+卡片Profile          |
 | [落尘up](https://www.luochen.chat/)         | luochenup     | v3.3.4       | 侧栏时间轴                     |
 | [硅基漫游指南](https://blog.helong.online/) | HeLongaa      | v3.4.0       | 即刻+友圈+Artalk评论           |
 | [ATao-Blog](https://blog.atao.cyou/)        | ataoyan       | v3.4.0       | 即刻+装备页                    |
 | [fishcpy的小破站](https://blog.fis.ink/)    | fishcpy       | v3.4.7       | 友圈+Artalk评论                |
-| [六月墨语](https://blog.june.ink/)          | Akuma-real    | v3.4.7       | 友圈+最新评论                  |
+| [六月墨语](https://blog.june.ink/)          | Akuma-real    | v3.4.8       | 友圈+最新评论                  |
 
 ## 特性
 
@@ -166,7 +164,7 @@ pnpm preview
 
 - Vercel 先前创建的项目需要 [手动指定 pnpm 10](https://vercel.com/docs/builds/configure-a-build#corepack)。
 - 如果修改了 API 路径，使用 EdgeOne 部署需要同步修改 `edgeone.json`。
-- 部署项目时 Node.js 版本最好高于 `22.15.0`。
+- 运行、部署项目时 Node.js 版本需要高于 `22.15.0`。
 
 ## 贡献
 

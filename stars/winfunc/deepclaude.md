@@ -1,6 +1,6 @@
 ---
 project: deepclaude
-stars: 5324
+stars: 5326
 description: |-
     A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.
 url: https://github.com/winfunc/deepclaude
