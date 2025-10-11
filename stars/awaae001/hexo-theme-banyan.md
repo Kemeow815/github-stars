@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-banyan
-stars: 5
+stars: 6
 description: |-
     null
 url: https://github.com/awaae001/hexo-theme-banyan

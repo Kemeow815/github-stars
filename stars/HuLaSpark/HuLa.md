@@ -1,8 +1,8 @@
 ---
 project: HuLa
-stars: 3749
+stars: 3770
 description: |-
-    🍀HuLa is a cross-platform instant messaging desktop application based on Tauri v2+Vue3, compatible with Windows, MacOS, Linux, Android, IOS  （HuLa是一款基于Tauri v2+Vue3的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）
+    🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）
 url: https://github.com/HuLaSpark/HuLa
 ---
 
@@ -337,11 +337,10 @@ sudo xattr -r -d com.apple.quarantine /Applications/应用名称.app
   <h3>🤝 HuLa 社区讨论群</h3>
   <p><em>与开发者和用户一起交流讨论，获取最新资讯和技术支持</em></p>
 
-  <div>
-    <img src="preview/wx.png" width="220" height="260" alt="微信群二维码">
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="preview/wx.png" width="260" height="340" alt="微信群二维码">
+    <img src="preview/qq.jpg" width="260" height="340" alt="QQ群二维码">
   </div>
-
-  <p><strong>📱 扫码加入微信讨论群</strong></p>
 </div>
 
 ## 🙏 感谢赞助者

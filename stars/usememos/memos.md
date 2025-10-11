@@ -1,6 +1,6 @@
 ---
 project: memos
-stars: 44730
+stars: 44875
 description: |-
     A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.
 url: https://github.com/usememos/memos
@@ -118,6 +118,7 @@ Access Memos at `http://localhost:5230` and complete the initial setup.
 
 Memos is made possible by the generous support of our sponsors. Their contributions help ensure the project's continued development, maintenance, and growth.
 
+<a href="https://github.com/warpdev" target="_blank"><img src="https://avatars.githubusercontent.com/u/71840468?s=200&v=4" alt="warp" height="60" /></a>
 <a href="https://github.com/yourselfhosted" target="_blank"><img src="https://avatars.githubusercontent.com/u/140182318?v=4" alt="yourselfhosted" height="60" /></a>
 <a href="https://github.com/fixermark" target="_blank"><img src="https://avatars.githubusercontent.com/u/169982?v=4" alt="fixermark" height="60" /></a>
 <a href="https://github.com/alik-agaev" target="_blank"><img src="https://avatars.githubusercontent.com/u/2662697?v=4" alt="alik-agaev" height="60" /></a>

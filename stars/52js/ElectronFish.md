@@ -1,6 +1,6 @@
 ---
 project: ElectronFish
-stars: 21
+stars: 22
 description: |-
     一个网页版电子木鱼
 url: https://github.com/52js/ElectronFish

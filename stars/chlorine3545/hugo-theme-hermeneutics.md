@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-hermeneutics
-stars: 15
+stars: 16
 description: |-
     MOVED
 url: https://github.com/chlorine3545/hugo-theme-hermeneutics

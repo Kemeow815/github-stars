@@ -1,6 +1,6 @@
 ---
 project: vitepress-doc
-stars: 188
+stars: 191
 description: |-
     VitePress教程文档
 url: https://github.com/Yiov/vitepress-doc

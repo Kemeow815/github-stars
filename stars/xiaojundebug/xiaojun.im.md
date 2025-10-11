@@ -1,6 +1,6 @@
 ---
 project: xiaojun.im
-stars: 107
+stars: 106
 description: |-
     我的个人博客，由 Next.js、TypeScript、MDX 和 TailwindCSS 构建。My blog built with Next.js, TypeScript, MDX, and TailwindCSS.
 url: https://github.com/xiaojundebug/xiaojun.im

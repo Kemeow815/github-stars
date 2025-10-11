@@ -1,6 +1,6 @@
 ---
 project: xLog
-stars: 2654
+stars: 2657
 description: |-
     🪽 An open-source creative community written on the blockchain.
 url: https://github.com/Crossbell-Box/xLog

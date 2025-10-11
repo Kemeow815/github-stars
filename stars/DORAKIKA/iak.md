@@ -1,6 +1,6 @@
 ---
 project: iak
-stars: 39
+stars: 40
 description: |-
     一个简单的Astro博客主题
 url: https://github.com/DORAKIKA/iak

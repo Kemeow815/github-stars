@@ -1,6 +1,6 @@
 ---
 project: homepage-new
-stars: 2
+stars: 3
 description: |-
     My Profile Page / Homepage
 url: https://github.com/hexadecimal233/homepage-new

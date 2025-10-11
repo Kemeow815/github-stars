@@ -1,6 +1,6 @@
 ---
 project: NPatch
-stars: 208
+stars: 249
 description: |-
     NPatch是一个复刻自LSPatch，以LSPosed为基础的免root的Xposed框架
 url: https://github.com/7723mod/NPatch

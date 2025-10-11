@@ -1,6 +1,6 @@
 ---
 project: yuzhouwan
-stars: 48
+stars: 47
 description: |-
     Code Library for My Blog
 url: https://github.com/asdf2014/yuzhouwan

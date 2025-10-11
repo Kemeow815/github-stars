@@ -1,6 +1,6 @@
 ---
 project: OFGB
-stars: 980
+stars: 987
 description: |-
     广告滚蛋 - 删除 Win11 各处广告的小工具 - OFGB Chinese localized fork
 url: https://github.com/zetaloop/OFGB

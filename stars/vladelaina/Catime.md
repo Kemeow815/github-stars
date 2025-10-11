@@ -1,15 +1,14 @@
 ---
 project: Catime
-stars: 2909
+stars: 2932
 description: |-
     A very useful timer (🍅Pomodoro Clock)
 url: https://github.com/vladelaina/Catime
 ---
 
-
 <div align="center">
 
-# v1.2.0 is out! 🎉 [Download Now](https://github.com/vladelaina/Catime/releases/latest) - Only 744KB!
+# v1.2.0 is out! 🎉 [Download Now](https://github.com/vladelaina/Catime/releases/latest) - `Only 744KB!`
 
 <h3>Special thanks to our sponsors:</h3>
 </a>
@@ -33,8 +32,7 @@ url: https://github.com/vladelaina/Catime
 <!-- Project Description + Rocket Icon -->
 <p align="center"> 
   An ultra-lightweight Windows countdown and Pomodoro tool written in <b>pure C</b> with a clean transparent interface,<br/>
-  rich customization, powerful shortcuts, and almost no resource usage.
-  
+  rich customization, powerful shortcuts, and almost no resource usage. 
 </p>
 
 
@@ -81,13 +79,11 @@ url: https://github.com/vladelaina/Catime
 
   Download the latest release from [GitHub Releases](https://github.com/vladelaina/Catime/releases/latest).
 
-
 -  Winget
 
     ```
     winget install --id VladElaina.Catime
     ```
-
 
 ## [📑User Guide](https://vladelaina.github.io/Catime/guide)
 
@@ -104,7 +100,6 @@ Reduce custom font file size by **90%+** with the official [Font Simplification 
 > Since Catime only displays numbers and symbols (`0-9`, `:`, `.`), most font characters are unnecessary.
 >
 > **Recommendation**: Keep your original font files as backups. Future software updates may require additional characters beyond the current set.
-
 
 ## 🛠️ Development
 

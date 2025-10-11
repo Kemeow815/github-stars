@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-ark-demo
-stars: 22
+stars: 23
 description: |-
     null
 url: https://github.com/Akilarlxh/hexo-theme-ark-demo

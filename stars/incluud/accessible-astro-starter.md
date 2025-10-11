@@ -1,6 +1,6 @@
 ---
 project: accessible-astro-starter
-stars: 1031
+stars: 1036
 description: |-
     An Accessible, WCAG compliant Starter Theme for Astro 5+ including several accessibility features such as, better focus-outline, landmarks, semantics, interactive components and skip-link navigation. Ships with Tailwind 4, Prettier and ESLint support.
 url: https://github.com/incluud/accessible-astro-starter
@@ -46,7 +46,7 @@ A ready-to-use, SEO and accessibility-focused Astro starter template. Built with
 - `Navigation.astro` component with keyboard accessible (dropdown) navigation and highlighted menu item option
 - `ResponsiveToggle.astro` component with accessible responsive toggle functionality
 - `DarkMode.astro` component toggle with accessible button and a user system preferred color scheme setting
-- `SiteMeta.astro` SEO component for setting custom meta data on different pages
+- `SiteMeta.astro` SEO component for setting custom metadata on different pages
 - `.sr-only` utility class for screen reader only text content (hides text visually)
 - `prefers-reduced-motion` disables animations for users that have this preference turned on
 - Components including `ColorContrast.astro`, `BlockQuote.astro`, `BreakoutImage.astro`, `Logo.astro`, `SocialShares.astro`, `PageHeader.astro`, `FeaturedPosts.astro`, and `FeaturedProjects.astro`
@@ -79,7 +79,7 @@ Clone this theme locally and run any of the following commands in your terminal:
 ## Accessible Astro projects
 
 - [Accessible Astro Starter](https://github.com/incluud/accessible-astro-starter): Fully accessible starter for kickstarting Astro projects, with Tailwind.
-- [Accessible Astro Components](https://github.com/incluud/accessible-astro-components/): Library of reusable, accessible components build for Astro.
+- [Accessible Astro Components](https://github.com/incluud/accessible-astro-components/): Library of reusable, accessible components built for Astro.
 - [Accessible Astro Dashboard](https://github.com/incluud/accessible-astro-dashboard/): User-friendly dashboard interface with a login screen and widgets.
 - [Accessible Astro Docs](https://github.com/incluud/accessible-astro-docs): Comprehensive documentation for all Accessible Astro projects.
 - [Color Contrast Checker](https://github.com/incluud/color-contrast-checker): WCAG-compliant color contrast checker with design system token generation.

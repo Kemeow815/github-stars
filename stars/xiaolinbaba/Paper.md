@@ -1,6 +1,6 @@
 ---
 project: Paper
-stars: 119
+stars: 120
 description: |-
     Paper - 纯前端 | 单 html 文件执行 | 轻量级 Markdown 微信公众号编辑器。定制属于每个人自己的微信公众号样式！
 url: https://github.com/xiaolinbaba/Paper
@@ -15,7 +15,7 @@ url: https://github.com/xiaolinbaba/Paper
 
 > Paper 是一款轻量级纯前端，单 html 文件可执行的微信公众号 Markdown 编辑器。现代化三栏布局，实时 Markdown 预览，响应式设计，支持多张图片横向滑动查看，支持信息卡片；支持大部分 Markdown 语法 (数学公式和 Mermaid除外,请在发布区进行手工渲染)，支持信息卡片。预览区与微信公众号编辑器等宽，所见即所得。欢迎使用👏！支持cloudflare pagesb部署。**定制属于每个人自己的微信公众号样式！**
 
-![paperview.png](/paper01.png)
+![paperview.png](/paper.png)
 
 
 ## 快速使用
@@ -28,11 +28,11 @@ url: https://github.com/xiaolinbaba/Paper
     ![cf.png](/cf.png)
 
 
-## ✨ 编辑器简介
+## 编辑器简介
 
 [Paper 轻量级微信公众号 Markdown 编辑器 - 微信公众号文章简介](https://mp.weixin.qq.com/s/nbFNsOKvynUzzePMfkw79w)
 
-### 🎯 核心特性
+### 核心特性
 
 **1. 现代化三栏布局**
 - **编辑区**：支持 Markdown 语法编写
@@ -54,7 +54,7 @@ url: https://github.com/xiaolinbaba/Paper
 - ❌ Mermaid 图表（不支持，请使用发布区链接手工渲染）
 
 
-### 🎨 特色功能
+### 特色功能
 
 **1. 信息卡片**
 ```markdown
@@ -72,7 +72,7 @@ url: https://github.com/xiaolinbaba/Paper
 - 自动添加 Mac 样式的三色圆点
 - 支持多种编程语言语法高亮
 
-### 🚀 使用场景
+### 使用场景
 
 这个项目特别适合：
 - 微信公众号内容创作者
@@ -81,6 +81,9 @@ url: https://github.com/xiaolinbaba/Paper
 
 
 ## 更新记录
+
+### 20251011
+- 文件整理，bug 修复
 
 ### 20250906
 - 已知 bug 修复
@@ -97,4 +100,3 @@ url: https://github.com/xiaolinbaba/Paper
 ### 20250608
 - 增加了两个卡片样式，浅橙色卡片和浅蓝色卡片，通过 `:::orange`、`:::blue` 来引用
 - bug 修复，冗余代码删除
-

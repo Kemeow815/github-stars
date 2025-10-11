@@ -1,6 +1,6 @@
 ---
 project: BongoCat
-stars: 10655
+stars: 10889
 description: |-
     🐱 跨平台桌宠 BongoCat，为桌面增添乐趣！
 url: https://github.com/ayangweb/BongoCat

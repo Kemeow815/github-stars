@@ -1,6 +1,6 @@
 ---
 project: blades
-stars: 487
+stars: 522
 description: |-
     Blades is a Go-based multimodal AI Agent framework.
 url: https://github.com/go-kratos/blades

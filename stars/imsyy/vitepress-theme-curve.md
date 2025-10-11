@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-curve
-stars: 364
+stars: 366
 description: |-
     🎉 A Simple VitePress Theme | 一个极简的 VitePress 主题
 url: https://github.com/imsyy/vitepress-theme-curve

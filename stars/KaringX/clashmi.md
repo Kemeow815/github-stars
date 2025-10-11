@@ -1,6 +1,6 @@
 ---
 project: clashmi
-stars: 2547
+stars: 2636
 description: |-
     Clash Mihomo for iOS/Android
 url: https://github.com/KaringX/clashmi

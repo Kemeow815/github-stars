@@ -1,6 +1,6 @@
 ---
 project: astro-charm
-stars: 39
+stars: 40
 description: |-
     Beautiful and easy-to-use blog theme
 url: https://github.com/Yuhanawa/astro-charm
@@ -44,14 +44,7 @@ Note: The image on the right in the `Live Demo` is not part of the Charm theme
 pnpm create astro-theme@latest with-theme astro-charm
 ```
 
-2. Into your project and Install `@iconify-json/simple-icons` and `@iconify-json/solar`.
-
-```bash
-pnpm add @iconify-json/simple-icons
-pnpm add @iconify-json/solar
-```
-
-3. Add `src/content.config.ts` to your project.
+2. Add `src/content.config.ts` to your project.
 
 ```ts
 import { collections as charmCollections } from "astro-charm/content";
@@ -61,7 +54,7 @@ export const collections = {
 };
 ```
 
-4. Modify config and enjoy it!
+3. Modify config and enjoy it!
 
 Note: you need to add `site` to `astro.config.ts` file, because `charm` use it for `sitemap` and `rss`.
 
@@ -70,12 +63,10 @@ To learn more, see: [Config](#config)
 <details>
   <summary>Install to existing project</summary>
 
-1. Install `astro-charm`, `@iconify-json/simple-icons` and `@iconify-json/solar` to your project.
+1. Install `astro-charm` to your project.
 
 ```bash
 pnpm astro add astro-charm
-pnpm add @iconify-json/simple-icons
-pnpm add @iconify-json/solar
 ```
 
 2. Modify `src/content.config.ts` file.

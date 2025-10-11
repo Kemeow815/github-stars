@@ -1,6 +1,6 @@
 ---
 project: we-mp-rss
-stars: 1291
+stars: 1325
 description: |-
     ✨符合阅读习惯的微信公众号助手、微信公众号转MarkDown、微信公众号转PDF、定时更新订阅公众号文章、生成微信公众号RSS订阅源、导出微信公众号订阅源、支持微信公众号Webhook/微信公众号API/AI Agent接入微信公众号微信公众号、订阅微信公众号、微信公众号助手 、微信公众号阅读、微信公众号接口、微信公众号爬虫、微信公众号监测、标签订阅微信公众号、微信公众号源、微信公众号读书、微信公众号文章、微信公众号框架、微信公众号管理、微信公众号源、微信公众号平台、微信公众号代码、微信公众号系统、微信公众号源码
 url: https://github.com/rachelos/we-mp-rss
@@ -229,5 +229,21 @@ http://localhost:3000
 - **默认帐号、密码是多少？**
   - 默认帐号：admin
   - 默认密码：admin@123
+
+- **数据库连接串示例**
+  - 调整环境变量DB为您的数据库连接字符串。
+  - SQLite 连接示例: 
+  ```
+  sqlite:///data/db.db
+  ```
+  - PostgreSQL 连接示例: 
+  ```
+  postgresql://<username>:<password>@<host>/<database>
+  ```
+  - MySQL 连接示例:
+  ```
+  mysql+pymysql://<username>:<password>@<host>/<database>?charset=utf8mb4
+  ```
+
 
 [Star History Chart]: https://api.star-history.com/svg?repos=rachelos/we-mp-rss&type=Timeline

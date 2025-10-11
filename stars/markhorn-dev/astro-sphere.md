@@ -1,6 +1,6 @@
 ---
 project: astro-sphere
-stars: 580
+stars: 581
 description: |-
     Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog.
 url: https://github.com/markhorn-dev/astro-sphere

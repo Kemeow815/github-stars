@@ -1,6 +1,6 @@
 ---
 project: blog-paper
-stars: 8
+stars: 9
 description: |-
     静态的，微博客+博客。 Personal microblog build by Next.js
 url: https://github.com/Sansui233/blog-paper

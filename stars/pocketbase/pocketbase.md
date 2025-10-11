@@ -1,6 +1,6 @@
 ---
 project: pocketbase
-stars: 51396
+stars: 51517
 description: |-
     Open Source realtime backend in 1 file
 url: https://github.com/pocketbase/pocketbase
@@ -118,9 +118,11 @@ linux   386
 linux   amd64
 linux   arm
 linux   arm64
+linux   loong64
 linux   ppc64le
 linux   riscv64
 linux   s390x
+windows 386
 windows amd64
 windows arm64
 ```

@@ -1,6 +1,6 @@
 ---
 project: rime_wanxiang
-stars: 1391
+stars: 1432
 description: |-
     Rime万象拼音输入方案：标准版与增强版可选，词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。PRO版本支持10种双拼，6种辅助码，可扩展。支持混合编码输入，内置超级注释、带调全拼输入码显示、快符、候选手动排序、tips、首选成对符号包裹等功能扩展，大大增强使用体验。　　Q群：11033572
 url: https://github.com/amzxyz/rime_wanxiang
@@ -73,7 +73,7 @@ url: https://github.com/amzxyz/rime_wanxiang
 /mspy     → 微软双拼
 /zrm      → 自然码
 /sogou    → 搜狗双拼
-/abc      → 智能ABC
+/znabc    → 智能ABC
 /ziguang  → 紫光双拼
 /pyjj     → 拼音加加
 /gbpy     → 国标双拼
@@ -128,10 +128,6 @@ schema,default,weasel,squirrel
 - tips_user.txt tips用到的“翻译”类型的数据，下载后放置于lua/tips里面重新部署。
 
 ### 答疑
-
-#### 为什么词库这么大，我见过只有单字携带辅助码的方案，词库可以缩小吗？
-
-在这里我借助wiki深入阐述一下这个问题并解答这些问题：[万象词库PRO的设计理念](https://github.com/amzxyz/RIME-LMDG/wiki/%E4%B8%87%E8%B1%A1%E8%AF%8D%E5%BA%93PRO%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%90%86%E5%BF%B5)
 
 [为什么PRO版本默认关闭调频的说明](https://github.com/amzxyz/RIME-LMDG/wiki/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%85%B3%E9%97%AD%E8%B0%83%E9%A2%91%E4%BB%A5%E5%8F%8A%E4%B8%8E%E4%B9%8B%E5%85%B3%E8%81%94%E7%9A%84%E6%8E%AA%E6%96%BD%E6%9C%89%E5%93%AA%E4%BA%9B)   ```enable_user_dict: false # 是否开启自动调频，true为开启```
 

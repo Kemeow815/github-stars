@@ -1,6 +1,6 @@
 ---
 project: friends
-stars: 13
+stars: 14
 description: |-
     动态友链+友链文章订阅
 url: https://github.com/xaoxuu/friends

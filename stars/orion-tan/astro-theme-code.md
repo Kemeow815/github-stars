@@ -3,7 +3,7 @@ project: astro-theme-code
 stars: 8
 description: |-
     一个简单的 Astro 博客主题。
-url: https://github.com/twiify/astro-theme-code
+url: https://github.com/orion-tan/astro-theme-code
 ---
 
 <a name="readme-top"></a>

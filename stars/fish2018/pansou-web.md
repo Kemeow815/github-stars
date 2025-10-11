@@ -1,6 +1,6 @@
 ---
 project: pansou-web
-stars: 100
+stars: 103
 description: |-
     一个PanSou的简约版页面
 url: https://github.com/fish2018/pansou-web
@@ -85,6 +85,17 @@ Docker会自动选择适合您系统的架构版本。
 
 > ⚡ **性能优化**: 镜像已内置优化配置，通常无需调整。
 
+### 认证配置（可选）
+
+| 变量名 | 默认值 | 说明 |
+|--------|--------|------|
+| `AUTH_ENABLED` | `false` | 是否启用认证功能 |
+| `AUTH_USERS` | - | 用户账号配置，格式：`user1:pass1,user2:pass2` |
+| `AUTH_TOKEN_EXPIRY` | `24` | Token有效期（小时） |
+| `AUTH_JWT_SECRET` | 自动生成 | JWT签名密钥，建议手动设置 |
+
+> 🔐 **安全认证**: 启用后，访问应用需要登录。适合需要访问控制的场景。
+
 ### 自定义配置示例
 
 #### 基础配置
@@ -105,6 +116,20 @@ docker run -d \
   -e DOMAIN=yourdomain.com \
   -e SOCKS5_PROXY=socks5://127.0.0.1:1080 \
   -e CHANNELS=tgsearchers3,yunpanxunlei,BaiduCloudDisk \
+  -e ENABLED_PLUGINS=labi,zhizhen,shandian,duoduo,muou,wanou \
+  -v pansou-data:/app/data \
+  ghcr.io/fish2018/pansou-web
+```
+
+#### 启用认证配置
+```bash
+docker run -d \
+  --name pansou \
+  -p 80:80 \
+  -e DOMAIN=yourdomain.com \
+  -e AUTH_ENABLED=true \
+  -e AUTH_USERS=admin:admin123,user:pass456 \
+  -e AUTH_TOKEN_EXPIRY=24 \
   -e ENABLED_PLUGINS=labi,zhizhen,shandian,duoduo,muou,wanou \
   -v pansou-data:/app/data \
   ghcr.io/fish2018/pansou-web

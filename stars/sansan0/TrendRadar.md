@@ -1,6 +1,6 @@
 ---
 project: TrendRadar
-stars: 3638
+stars: 3760
 description: |-
     🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，趋势分析工具，一键监控抖音、知乎、哔哩哔哩、今日头条、百度热搜、贴吧、微博、华尔街见闻、财联社等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram、邮件、ntfy推送，30秒网页部署，1分钟手机通知，无需编程基础。也支持docker私人部署⭐ 让算法为你服务，而非被算法绑架
 url: https://github.com/sansan0/TrendRadar
@@ -19,7 +19,7 @@ url: https://github.com/sansan0/TrendRadar
 [![GitHub Stars](https://img.shields.io/github/stars/sansan0/TrendRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/TrendRadar/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/sansan0/TrendRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/TrendRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v2.4.0-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
+[![Version](https://img.shields.io/badge/version-v2.4.3-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
 
 [![企业微信通知](https://img.shields.io/badge/企业微信-通知-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![Telegram通知](https://img.shields.io/badge/Telegram-通知-00D4AA?style=flat-square)](https://telegram.org/)
@@ -127,6 +127,8 @@ platforms:
     name: "华尔街见闻"
   # 添加更多平台...
 ```
+如果不会看的话，就直接复制他人整理好的部分[平台配置](https://github.com/sansan0/TrendRadar/issues/95)
+
 </details>
 
 ### **智能推送策略**
@@ -135,16 +137,24 @@ platforms:
 
 | 模式 | 适用人群 | 推送时机 | 显示内容 | 适用场景 |
 |------|----------|----------|----------|----------|
-| **当日汇总**<br/>`daily` | 📋 企业管理者/普通用户 | 按时推送 | 当日所有匹配新闻<br/>+ 新增新闻区域 | 日报总结<br/>全面了解当日热点趋势 |
-| **当前榜单**<br/>`current` | 📰 自媒体人/内容创作者 | 按时推送 | 当前榜单匹配新闻<br/>+ 新增新闻区域 | 实时热点追踪<br/>了解当前最火的内容 |
+| **当日汇总**<br/>`daily` | 📋 企业管理者/普通用户 | 按时推送(默认每小时推送一次) | 当日所有匹配新闻<br/>+ 新增新闻区域 | 日报总结<br/>全面了解当日热点趋势 |
+| **当前榜单**<br/>`current` | 📰 自媒体人/内容创作者 | 按时推送(默认每小时推送一次) | 当前榜单匹配新闻<br/>+ 新增新闻区域 | 实时热点追踪<br/>了解当前最火的内容 |
 | **增量监控**<br/>`incremental` | 📈 投资者/交易员 | 有新增才推送 | 新出现的匹配频率词新闻 | 避免重复信息干扰<br/>高频监控场景 |
 
-**静默推送模式**：
+**附加功能 - 推送时间窗口控制**（可选）：
 
-- **时间范围控制**：设定推送时间窗口（如 9:00-18:00），仅在指定时间内推送
-- **适用场景**：
-  - 时间内每次执行都推送
-  - 时间范围内只推送一次
+此功能独立于上述三种推送模式,可与任意模式搭配使用:
+
+- **时间窗口限制**: 设定推送时间范围（如 9:00-18:00 或 20:00-22:00）,只在指定时间内推送
+- **推送频率控制**:
+  - 窗口内多次推送: 时间窗口内每次执行都推送
+  - 每天仅推送一次: 时间窗口内只推送一次（适合当日汇总或当前榜单模式）
+- **典型场景**:
+  - 工作时间推送: 只在工作日 9:00-18:00 接收消息
+  - 晚间汇总推送: 希望在晚上固定时间（如 20:00-22:00）收到汇总
+  - 避免打扰: 防止非工作时间收到推送通知
+
+> 提示: 此功能默认关闭,需在 `config/config.yaml` 中手动启用 `push_window.enabled`
 
 ### **精准内容筛选**
 
@@ -467,8 +477,36 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 >**升级说明**：
 - **提示**：不要通过 **Sync fork** 更新本项目, 建议查看【历史更新】，明确具体的【升级方式】和【功能内容】
-- **小版本更新**：从 v2.x 升级到 v2.y, 用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件 
+- **小版本更新**：从 v2.x 升级到 v2.y, 用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件
 - **大版本升级**：从 v1.x 升级到 v2.y, 建议删除现有 fork 后重新 fork，这样更省力且避免配置冲突
+
+### 2025/10/10 - v2.4.3
+
+> 感谢 [nidaye996](https://github.com/sansan0/TrendRadar/issues/98) 发现的体验问题
+
+- **更新内容**：
+    - 重构"静默推送模式"命名为"推送时间窗口控制"，提升功能理解度
+    - 明确推送时间窗口作为可选附加功能，可与三种推送模式搭配使用
+    - 改进注释和文档描述，使功能定位更加清晰
+
+- **更新提示**：
+  - 这个仅仅是重构，可以不用升级
+
+
+<details>
+<summary><strong>👉 历史更新</strong></summary>
+
+### 2025/10/8 - v2.4.2
+
+- **更新内容**：
+    - 修复 ntfy 推送编码问题
+    - 修复配置文件缺失问题
+    - 优化 ntfy 推送效果
+    - 增加 github page 图片分段导出功能
+
+- **更新提示**：
+  - 建议使用【大版本更新】
+
 
 ### 2025/10/2 - v2.4.0
 
@@ -486,8 +524,6 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - **更新提示**：
   - 建议使用【大版本更新】
 
-<details>
-<summary><strong>👉 历史更新</strong></summary>
 
 ### 2025/09/26 - v2.3.2
 
@@ -540,7 +576,7 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - **推送频率可选**：时间段内支持单次推送或多次推送
 
 **更新提示**：
-- 本功能默认关闭，需手动在 config.yaml 中开启静默推送模式
+- 本功能默认关闭，需手动在 config.yaml 中开启推送时间窗口控制
 - 升级需同时更新 main.py 和 config.yaml 两个文件
 
 ### 2025/08/27 - v2.0.4
@@ -688,9 +724,9 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
    #### 手机端设置：
    1. 打开企业微信 App → 进入目标内部群聊
-   2. 点击右上角"…"按钮 → 选择"群机器人"
-   3. 点击"添加" → 点击"新建" → 设置机器人昵称
-   4. 复制 Webhook 地址，配置到上方的 GitHub Secret 中
+   2. 点击右上角"…"按钮 → 选择"消息推送"
+   3. 点击"添加" → 名称输入"TrendRadar"
+   4. 复制 Webhook 地址，点击保存，复制的内容配置到上方的 GitHub Secret 中
 
    #### PC 端设置流程类似
    </details>
@@ -702,8 +738,49 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    **GitHub Secret 配置：**
    - 名称：`FEISHU_WEBHOOK_URL`
    - 值：你的飞书机器人 Webhook 地址
+   <br>
 
-   **机器人设置步骤：**
+   有两个方案，**方案一**配置简单，**方案二**配置复杂(老方法)
+
+   其中方案一，由 **ziventian**发现并提供建议，在这里感谢他，默认是个人推送，也可以配置群组推送操作[#97](https://github.com/sansan0/TrendRadar/issues/97) 
+
+   **方案一：**
+
+   1. 电脑浏览器打开 https://botbuilder.feishu.cn/home/my-command
+
+   2. 点击"新建机器人指令" 
+
+   3. 点击"选择触发器"，往下滑动，点击"Webhook 触发"
+
+   4. 此时你会看到"Webhook 地址"，把这个链接先复制到本地记事本暂存，继续接下来的操作
+
+   5. "参数"里面放上下面的内容，然后点击"完成"
+
+   ```json
+   {
+     "message_type": "text",
+     "content": {
+       "total_titles": "{{内容}}",
+       "timestamp": "{{内容}}",
+       "report_type": "{{内容}}",
+       "text": "{{内容}}"
+     }
+   }
+   ```
+
+   6. 点击"选择操作" > "通过官方机器人发消息"
+
+   7. 消息标题填写"TrendRadar 热点监控"
+
+   8. 最关键的部分来了，点击 + 按钮，选择"Webhook 触发"，然后按照下面的图片摆放
+
+   ![飞书机器人配置示例](_image/image.png)
+
+   9. 配置完成后，将第 4 步复制的 Webhook 地址配置到 GitHub Secrets 中的 `FEISHU_WEBHOOK_URL`
+
+   <br>
+
+   **方案二：**
 
    1. 电脑浏览器打开 https://botbuilder.feishu.cn/home/my-app
 
@@ -738,6 +815,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    ![飞书机器人配置示例](_image/image.png)
 
    10. 配置完成后，将第 5 步复制的 Webhook 地址配置到 GitHub Secrets 中的 `FEISHU_WEBHOOK_URL`
+
    </details>
 
    <details>
@@ -1221,7 +1299,7 @@ flowchart TD
     H --> H2[📰 current - 当前榜单<br/>定时推送最新榜单]
     H --> H3[📈 incremental - 增量监控<br/>仅推送新增内容]
     
-    H1 --> I[可选：静默推送设置<br/>⏰ 时间窗口控制]
+    H1 --> I[可选：推送时间窗口控制<br/>⏰ 限制推送时间范围]
     H2 --> I
     H3 --> I
     

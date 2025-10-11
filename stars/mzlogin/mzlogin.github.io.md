@@ -1,6 +1,6 @@
 ---
 project: mzlogin.github.io
-stars: 1649
+stars: 1650
 description: |-
     Jekyll Themes / GitHub Pages 博客模板 / A template repository for Jekyll based blog
 url: https://github.com/mzlogin/mzlogin.github.io

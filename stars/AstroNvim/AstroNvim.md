@@ -1,6 +1,6 @@
 ---
 project: AstroNvim
-stars: 13800
+stars: 13808
 description: |-
     AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins 
 url: https://github.com/AstroNvim/AstroNvim

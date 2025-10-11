@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-butterfly-eurkon
-stars: 59
+stars: 60
 description: |-
     hexo-theme-butterfly魔改
 url: https://github.com/Eurkon/hexo-theme-butterfly-eurkon

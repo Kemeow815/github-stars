@@ -1,6 +1,6 @@
 ---
 project: IdeaMemo
-stars: 990
+stars: 992
 description: |-
     A Beautiful Memo App written with Jetpack Compose.        开源Android闪念笔记App。
 url: https://github.com/ldlywt/IdeaMemo

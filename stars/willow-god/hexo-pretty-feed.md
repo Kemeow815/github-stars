@@ -1,6 +1,6 @@
 ---
 project: hexo-pretty-feed
-stars: 3
+stars: 2
 description: |-
     😛实现更加美观的Feed订阅文件！
 url: https://github.com/willow-god/hexo-pretty-feed

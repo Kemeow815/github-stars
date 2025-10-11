@@ -1,6 +1,6 @@
 ---
 project: monorepo
-stars: 17
+stars: 18
 description: |-
     Monorepo for giuem
 url: https://github.com/giuem/monorepo

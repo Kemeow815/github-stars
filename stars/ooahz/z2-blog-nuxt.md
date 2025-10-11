@@ -1,8 +1,8 @@
 ---
 project: z2-blog-nuxt
-stars: 21
+stars: 22
 description: |-
-    Nuxt3+Vue3+TS——采用前沿技术栈的现代化响应式博客项目
+    高颜值的现代化响应式Nuxt博客
 url: https://github.com/ooahz/z2-blog-nuxt
 ---
 
@@ -32,6 +32,7 @@ Github：（十玖八柒）https://github.com/ooahz
 
 ## 项目预览
 
+![](https://s.ahzoo.cn/img/24/open/ob100101.webp)
 ![](https://s.ahzoo.cn/img/24/open/ob10016.webp)
 ![](https://s.ahzoo.cn/img/24/open/ob10005.webp)
 ![](https://s.ahzoo.cn/img/24/open/ob10008.webp)

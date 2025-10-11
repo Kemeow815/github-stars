@@ -1,6 +1,6 @@
 ---
 project: jekyll-theme-chirpy
-stars: 9271
+stars: 9296
 description: |-
     A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 url: https://github.com/cotes2020/jekyll-theme-chirpy
