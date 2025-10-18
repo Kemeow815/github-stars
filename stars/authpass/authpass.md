@@ -1,6 +1,6 @@
 ---
 project: authpass
-stars: 2473
+stars: 2480
 description: |-
     AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (KDBX 3 and KDBX 4) compatible.
 url: https://github.com/authpass/authpass

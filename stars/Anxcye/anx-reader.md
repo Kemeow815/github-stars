@@ -1,6 +1,6 @@
 ---
 project: anx-reader
-stars: 5967
+stars: 6004
 description: |-
     Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. 
 url: https://github.com/Anxcye/anx-reader
@@ -35,19 +35,17 @@ Anx Reader, a thoughtfully crafted e-book reader for book lovers. Featuring powe
 
 ![](./docs/images/main.jpg)
 
-**Cross-Platform** iOS/macOS/Windows/Android
 
-**Full Sync** Reading Progress/Book Files/Highlighted Notes
-
-**Multiple AI** OpenAI/Claude/Gemini/DeepSeek
-
-**Insightful Data** Detailed and Intuitive Charts - Weekly/Monthly/Yearly/Heatmap
-
-**Notes** Multiple Ways to Filter/Sort - Export as TXT, Markdown, CSV
-
-**Highly Customizable Styles** Line Spacing/Paragraph Spacing/Margins/Fonts/Color Schemes/Page Turning Methods
-
-**Practical Features** Translation/Search/Quick Ask AI/Write Ideas/Text-to-Speech
+| Feature | Details | Status |
+| --- | --- | --- |
+| Format Support | EPUB/MOBI/AZW3/FB2/TXT/PDF fully supported | ✅ |
+| Cross-Platform Sync | Android/iOS/macOS/Windows coverage<br>Sync books, notes, and reading progress via WebDAV | ✅ |
+| AI Assistant | Organizes shelves by progress and tone<br>Generates mind maps for deeper understanding<br>On-demand AI dictionary and translation<br>Delivers perspective analysis and summaries | ✅ |
+| Custom Reading Experience | Tune letter, line, paragraph, and margin spacing<br>Adjust font size, style, and weight<br>Customize themes, backgrounds, alignment, and styles | ✅ |
+| Notes Workspace | Multiple color/style presets<br>Sort by time or chapter with color filters<br>Export to TXT/Markdown/CSV<br>Create shareable, well-designed cards | ✅ |
+| Reading Insights | Track reading time<br>View daily/weekly/monthly/yearly stats<br>Visual heatmap reveals reading habits | ✅ |
+| Advanced Extras | TTS with multi-voice, speed, tone, and sleep timer controls<br>Full-book translation with side-by-side view<br>Store books in the cloud and download on demand<br>One-tap simplified/traditional Chinese conversion | ✅ |
+| OPDS Catalogs | Built-in OPDS support with custom catalog management | 🛠️ In progress |
 
 
 <table border="1">
@@ -88,41 +86,9 @@ Anx Reader, a thoughtfully crafted e-book reader for book lovers. Featuring powe
   </tr>
 </table>
 
-📚 **Rich Format Support**
-- Support for major e-book formats: EPUB, MOBI, AZW3, FB2, TXT
-- Perfect parsing for optimal reading experience
 
-☁️ **Seamless Sync**
-- Cross-device synchronization of reading progress, notes, and books via WebDAV
-- Continue your reading journey anywhere, anytime
 
-🤖 **Smart AI Assistant**
-- Integration with leading AI services: OpenAI, DeepSeek, Claude, Gemini
-- Intelligent content summarization and reading position recall for enhanced efficiency
 
-🎨 **Personalized Reading Experience**
-- Carefully designed theme colors with customization options
-- Switch freely between scrolling and pagination modes
-- Import custom fonts to create your personal reading space
-
-📊 **Professional Reading Analytics**
-- Comprehensive reading statistics
-- Weekly, monthly, and yearly reading reports
-- Intuitive reading heatmap to track every moment of your reading journey
-
-📝 **Powerful Note System**
-- Flexible text annotation features
-- Export options in TXT, CSV, and Markdown formats
-- Easily organize and share your reading insights
-
-🛠️ **Practical Tools**
-- Smart TTS reading to rest your eyes
-- Full-text search for quick content location
-- Instant word translation to enhance reading efficiency
-
-💻 **Cross-Platform Support**
-- Seamless experience on Android / Windows / MacOS / iOS
-- Consistent user interface across devices
 
 
 ## Community Projects
@@ -138,18 +104,7 @@ A Calibre plugin that enables direct management of your ANX Reader ebook library
 A modern web application for managing your ebook library with Calibre integration and WebDAV server functionality for ANX Reader devices.
 
 
-### TODO
-- [X] UI adaptation for tablets
-- [X] Page-turning animation
-- [X] TTS voice reading
-- [X] Reading fonts
-- [X] Translation
-- [ ] Full-text translation
-- [ ] Support for more file types (pdf)
-- [X] Support for WebDAV synchronization
-- [ ] Support for Linux
-
-### I Encountered a Problem, What Should I Do?
+## I Encountered a Problem, What Should I Do?
 Check [Troubleshooting](./docs/troubleshooting.md#English)
 
 Submit an [issue](https://github.com/Anxcye/anx-reader/issues/new/choose), and we will respond as soon as possible.
@@ -212,5 +167,4 @@ After version 1.2.6, the selection and highlight feature has been rewritten, and
 [foliate](https://github.com/johnfactotum/foliate), which is GPL-3.0 licensed, selection and highlight feature is inspired by this project. But since 1.2.6, the selection and highlight feature has been rewritten.
 
 And many [other open source projects](./pubspec.yaml), thanks to all the authors for their contributions.
-
 

@@ -1,6 +1,6 @@
 ---
 project: StrayBirds
-stars: 381
+stars: 382
 description: |-
     Blog templates based on GitHub Pages
 url: https://github.com/minixalpha/StrayBirds

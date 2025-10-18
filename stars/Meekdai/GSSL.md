@@ -1,10 +1,10 @@
 ---
 project: GSSL
-stars: 2
+stars: 3
 description: |-
     通过GitHub Action来监控网站的证书是否过期
 url: https://github.com/Meekdai/GSSL
 ---
 
-✅ meekdai.com 证书正常，剩余 10 天
+✅ meekdai.com 证书正常，剩余 88 天
 

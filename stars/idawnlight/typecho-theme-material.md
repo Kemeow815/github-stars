@@ -1,6 +1,6 @@
 ---
 project: typecho-theme-material
-stars: 399
+stars: 398
 description: |-
     [LTS] Material Design theme for typecho.
 url: https://github.com/idawnlight/typecho-theme-material

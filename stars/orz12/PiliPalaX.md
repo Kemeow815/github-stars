@@ -1,6 +1,6 @@
 ---
 project: PiliPalaX
-stars: 3415
+stars: 3421
 description: |-
     PiliPalaX 是使用Flutter开发的BiliBili第三方客户端，感谢使用，欢迎Star。
 url: https://github.com/orz12/PiliPalaX

@@ -50,8 +50,9 @@ url: https://github.com/eallion/eallion.com
 
 ##### 备份仓库
 
-> <https://eallion@bitbucket.org/eallion/eallion.com>  
-> <https://gitlab.com/eallion/eallion.com>
+> <https://gitlab.com/eallion/eallion.com>  
+> <https://codeberg.org/eallion/eallion.com.git>  
+> <https://git.eallion.com/eallion/eallion.com>
 
 ##### 添加备份仓库 Remote
 
@@ -64,9 +65,9 @@ git remote set-url --add --push origin https://id:token@github.com/eallion/ealli
 $ git remote -v
 origin  https://github.com/eallion/eallion.com (fetch)
 origin  https://github.com/eallion/eallion.com (push)
-origin  https://eallion@bitbucket.org/eallion/eallion.com.git (push)
 origin  https://gitlab.com/eallion/eallion.com.git (push)
-origin  https://git.eallion.com/git/eallion/eallion.com.git (push)
+origin  https://codeberg.org/eallion/eallion.com.git (push)
+origin  https://git.eallion.com/eallion/eallion.com (push)
 ```
 
 ##### 架构备忘
@@ -89,22 +90,21 @@ origin  https://git.eallion.com/git/eallion/eallion.com.git (push)
 此次更新，主题使用 `git submodule` 的方式引入，不破坏原主题任何文件结构，所有自定义样式不再在 Theme 目录下修改。
 
 ```bash
-git submodule add https://github.com/eallion/blowfish.git themes/DoIt
+git submodule add https://github.com/eallion/blowfish.git themes/blowfish
 ```
 
-克隆博客后同时克隆 [主题](https://github.com/eallion/blowfish.git) 和 [mastodon-embed-timeline](https://github.com/eallion/mastodon-embed-timeline.git)：
+克隆博客后同时克隆子模块：
 
 ```bash
-git submodule update --init --recursive
-
-# pnpm run recursive
+pnpm run theme:init
+# git submodule update --init --recursive
 ```
 
-如果上游主题有更新，更新 [主题](https://github.com/eallion/blowfish.git) 和 [mastodon-embed-timeline](https://github.com/eallion/mastodon-embed-timeline.git)：
+如果上游更新，更新项目中的子模块：
 
-```diff
-- git submodule update --remote --merge
-+ pnpm run theme
+```bash
+pnpm run theme:update
+# git submodule update --remote --force themes/blowfish
 ```
 
 Blowfish 编译 TailwindCSS 的 main.css，位于 [assets/css/compiled/main.css](https://github.com/eallion/eallion.com/blob/main/assets/css/compiled/main.css)：
@@ -122,7 +122,7 @@ pnpm run build
 https://github.com/eallion/eallion.com/blob/main/assets/css/compiled/main.css
 ```
 
-- 自定义 CSS 在 `assets/css/` 如：[assets/css/mastodon-timeline-custom.scss](<https://github.com/eallion/eallion.com/blob/main/assets/css/mastodon-timeline-custom.scss>)：
+- 自定义 CSS 在 `assets/css/` 如：[custom.css](<https://github.com/eallion/eallion.com/blob/main/assets/css/custom.css>)：
 
 ```bash
 https://github.com/eallion/eallion.com/blob/main/assets/css/custom.css
@@ -134,13 +134,15 @@ https://github.com/eallion/eallion.com/blob/main/assets/css/custom.css
 https://github.com/eallion/eallion.com/blob/main/assets/js/lazyload.iife.min.js
 ```
 
-- 自定义模板，如嘀咕、豆瓣等页面，在 `layouts/_default` 如：[layouts/_default/mastodon.html](https://github.com/eallion/eallion.com/blob/main/layouts/_default/mastodon.html)：
+- 自定义模板，如嘀咕、书影音等页面，在 `layouts/_default/` 如：[layouts/_default/mastodon.html](https://github.com/eallion/eallion.com/blob/main/layouts/_default/mastodon.html)：
 
 ```bash
 https://github.com/eallion/eallion.com/blob/main/layouts/_default/mastodon.html
 ```
 
-- 页面数据在 `data` 如书影音数据：[assets/data/neodb/movie.json](https://github.com/eallion/eallion.com/blob/main/assets/data/neodb/movie.json)：
+- 页面数据在 `assets/data/` 如书影音数据：[assets/data/neodb/movie.json](https://github.com/eallion/eallion.com/blob/main/assets/data/neodb/movie.json)：
+
+但是现在是通过 Directus API 获取数据，只有在构建时才创建这个目录和对应的文件。
 
 ```bash
 https://github.com/eallion/eallion.com/blob/main/assets/data/neodb/movie.json
@@ -149,11 +151,7 @@ https://github.com/eallion/eallion.com/blob/main/assets/data/neodb/movie.json
 ### 🧑‍💻 pnpm 命令
 
 - `pnpm run build` 构建 Blowfish 的 TailwindCSS `assets/css/compiled/main.css`
-- `pnpm run build-linux` Linux 构建 Blowfish 的 TailwindCSS `assets/css/compiled/main.css`
-- `pnpm run build-windows` Windows 构建 Blowfish 的 TailwindCSS `assets/css/compiled/main.css`
 - `pnpm run dev` 启动 TailwindCSS 监听
-- `pnpm run dev-linux` Linux 启动 TailwindCSS 监听
-- `pnpm run dev-windows` Windows 启动 TailwindCSS 监听
 - `pnpm run directus`: 获取 Directus 数据
 - `pnpm run directus:album`: 获取 Directus 随手拍数据
 - `pnpm run directus:anynow`: 获取 Directus AnyNow 数据
@@ -166,10 +164,10 @@ https://github.com/eallion/eallion.com/blob/main/assets/data/neodb/movie.json
 - `pnpm run new` 创建新文章，直接输入文章标题，生成到 example 目录
 - `pnpm run prepare` Git Commit Husky 勾子，目前用于提交时更新各个平台环境变量的 `HUGO_VERSION`
 - `pnpm run preview` 启动 Hugo 服务器，即预览线上生成环境，会重新获取 Directus 数据
-- `pnpm run recursive` 递归更新 Submodule 子项目，一般第一次克隆本项目时使用
 - `pnpm run server` 启动 Hugo 服务器
 - `pnpm run shiki` 生成 Shiki 语法高亮
-- `pnpm run theme` 更新 Submodule 子项目
+- `pnpm run theme:init` 递归更新 Submodule 子项目，一般第一次克隆本项目时使用
+- `pnpm run theme:update` 更新 Submodule 子项目
 
 ### 🔊 嘀咕页面
 
@@ -180,18 +178,20 @@ https://github.com/eallion/eallion.com/blob/main/assets/data/neodb/movie.json
 
 ### ✏️ 写新文章
 
-**Breaking Change**
+> Breaking Change
 
 现在用 Directus 管理文章，不再用 Hugo 命令生成。
 
 写新文章，直接在 Directus 后台创建文章即可。
 
+在 CI/CD 或本地预览时通过下面命令拉取 Directus 文章数据：
+
 ```bash
 # pnpm install
-# or
-# npm install js-yaml dotenv glob gray-matter axios
 
-pnpm run directus # `node scripts/directus-fetch-articles.js`
+pnpm run directus # node scripts/directus-fetch-articles.js
+
+# pnpm run directus:latest # Fetch latest 10 articles only
 
 pnpm run preview # Preview Server
 
@@ -200,8 +200,32 @@ pnpm run hugo # Build Hugo
 pnpm run build # Build Tailwind CSS main.css
 ```
 
+### 🌐 环境变量
+
+复制 `.env.example` 为 `.env.local`
+
+```bash
+cp .env.example .env.local
+cat .env.local
+```
+
+```txt
+ACCESS_KEY_ID=
+ACCESS_KEY_SECRET=
+CAIYUN_TOKEN=
+DEEPSEEK_API_KEY=sk-
+DIRECTUS_ACCESS_TOKEN=Lcd9-
+DIRECTUS_API_URL=https://directus.example.com/
+DIRECTUS_EMAIL=directus@example.com
+DIRECTUS_PASSWORD=
+DIRECTUS_S3_URL=https://images.example.com/directus/files/
+DIRECTUS_TOKEN=eyJh
+ESA_SITE_ID=
+NEODB_ACCESS_TOKEN=
+```
+
 <details><summary>
-老方式： 👈👈👈
+老方式：<b>DEPRECATED!</b>
 </summary>  
 
 ##### 1. **生成新文章**
@@ -218,13 +242,13 @@ pnpm run build # Build Tailwind CSS main.css
 
 如果需要用上 [彩云小译](https://docs.caiyunapp.com/lingocloud-api/) 自动翻译标题为 slug，需要 Token。
 
-1. 导入 Token
+导入 Token
 
 ```bash
 export CAIYUN_TOKEN=3975l6lr5pcbvidl6jl2
 ```
 
-2. 复制 .env.example 为 .env.local
+或者：复制 .env.example 为 .env.local
 
 ```txt
 CAIYUN_TOKEN=3975l6lr5pcbvidl6jl2
@@ -369,48 +393,34 @@ git push
 
 > 因为 jsDelivr Aug 15,2020 的‘[新政策](https://www.jsdelivr.com/terms/acceptable-use-policy-jsdelivr-net)’，现在没有用 GitHub + jsDelivr 当图床了。
 
-- **方法一**
+#### **文章配图**
 
-手动添加图床。  
-现在写博客添加图片，需要手动添加图片地址。  
-一般本博客会使用腾讯云 COS，图床链接为：`https://images.eallion.com/`
+目前方案是上传到 CDN 图床，文章中引用图片 URL。
 
-- **方法二**
+#### **文章题图 (Feature Image)**
 
-直接把图片丢到 Hugo 仓库的 `static/assets/images` 或者 `assets/images` 目录下即可。  
-对于存放在 `static/assets/images` 目录下 (可按年月分类) 的图片有 2 种方法引用图片 URL：
+- **Method 1：远程图片**
 
-```bash
-/assets/images/1970/01/01.jpg
-https://www.eallion.com/assets/images/1970/01/01.jpg
+> 不通过 Hugo 处理图片，直接用远程图片 URL 作为题图。
+
+`config/params.toml` 中设置：
+
+```toml
+hotlinkFeatureImage = true
 ```
 
-对于存放在 `assets/images` 目录下的图片一般用 `resources.Get` ：
+文章 Frontmatter 里的 `featureImage` 支持远程图片 URL。
 
-```bash
-{{ with resources.Get "images/a.jpg" }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
-{{ end }}
-```
+- **Method 2：本地图片**
 
-- **文章图片**
+> 通过 Hugo 处理图片，生成不同尺寸的图片。
 
-> Blowfish 新增
+把题图放在文章同目录下，命名为 `feature*.png` 或 `feature*.jpg`。
 
-对于文章图片，现在放在 CDN 中引用，OG Image 在 Directus 中上传。
+#### **文章页背景图**
 
-### 📷 相册
-
-现在的相册页面采用 e5n.cc 的图片 ALT 描述中包含 `ealbum` 字符串的图片动态渲染，只是一个示例页面。
-
-- <https://www.eallion.com/album/>
-
-### 📷 LOL 五杀
-
-在 Directus 后台操作，数据按 `assets/data/penta/penta.json` 格式维护即可，五杀截图上传到 Directus 对应的 s3, 社区时会直接引用 CDN。  
-英雄头像腾讯官方 API [https://lol.qq.com/cguide/Guide/PublicResources/Images.html](https://lol.qq.com/cguide/Guide/PublicResources/Images.html#%E8%8B%B1%E9%9B%84%E5%A4%B4%E5%83%8F)
-
-- <https://www.eallion.com/penta/>
+默认引用 `featureImage` 支持远程图片 URL 作为背景图。  
+或者：把背景图放在文章同目录下，命名为 `background*.png` 或 `background*.jpg`。
 
 ### 📄 LICENSE
 
@@ -422,24 +432,25 @@ Theme Blowfish is licensed under [MIT](https://github.com/nunocoracao/blowfish/b
 
 ```license
 GLWT（Good Luck With That，祝你好运）公共许可证
-版权所有© 每个人，除了作者
+            版权所有© 除作者外的所有人
 
-任何人都被允许复制、分发、修改、合并、销售、出版、再授权或
-任何其它操作，但风险自负。
+任何人都被允许复制、分发、修改、合并、销售、出版、再授权
+或任何其它行为，但风险自负。
 
-作者对这个项目中的代码一无所知。
-代码处于可用或不可用状态，没有第三种情况。
+作者对这个项目中的代码的行为一无所知。
+代码处于可用或不可用状态，没有第三种可能
 
 
                 祝你好运公共许可证
             复制、分发和修改的条款和条件
 
-0 ：在不导致作者被指责或承担责任的情况下，你可以做任何你想
-要做的事情。
+  0. 只要你永远不要留下任何可以追踪到原作者的线索，
+你就可以随心所欲地做任何事，因此，不能因此责怪或追究
+原作者的责任。
 
-无论是在合同行为、侵权行为或其它因使用本软件产生的情形，作
-者不对任何索赔、损害承担责任。
+在任何情况下，作者均不对因使用或与本软件有关的合同诉讼、
+侵权或其他方式产生的任何索赔、损害或其他责任负责。
 
-祖宗保佑。
+自求多福吧。
 ```
 

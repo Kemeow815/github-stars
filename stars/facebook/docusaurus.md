@@ -1,6 +1,6 @@
 ---
 project: docusaurus
-stars: 62126
+stars: 62226
 description: |-
     Easy to maintain open source documentation websites.
 url: https://github.com/facebook/docusaurus

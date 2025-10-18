@@ -1,6 +1,6 @@
 ---
 project: hexo-bilibili-card
-stars: 46
+stars: 47
 description: |-
     一个 Hexo 插件，在你的文章中插入 b 站的视频卡片，样式模仿和借鉴自 b 站。A hexo plugin insert a bilibili card into your page or article.
 url: https://github.com/maxchang3/hexo-bilibili-card

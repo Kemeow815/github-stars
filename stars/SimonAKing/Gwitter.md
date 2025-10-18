@@ -1,6 +1,6 @@
 ---
 project: Gwitter
-stars: 315
+stars: 316
 description: |-
     Turn GitHub Issues into your personal microblog platform
 url: https://github.com/SimonAKing/Gwitter

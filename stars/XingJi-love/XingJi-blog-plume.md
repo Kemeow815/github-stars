@@ -1,6 +1,6 @@
 ---
 project: XingJi-blog-plume
-stars: 2
+stars: 3
 description: |-
     一个简约易用的，功能丰富的 vuepress 文档&博客 主题
 url: https://github.com/XingJi-love/XingJi-blog-plume

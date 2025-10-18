@@ -1,6 +1,6 @@
 ---
 project: cover
-stars: 15
+stars: 16
 description: |-
     A free, beautiful cover generator. 一个免费、漂亮的封面生成器
 url: https://github.com/weizwz/cover

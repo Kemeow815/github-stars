@@ -1,6 +1,6 @@
 ---
 project: AstraBay
-stars: 8
+stars: 9
 description: |-
     基于Solitude主题二次开发的主题，存在一点点独特特性
 url: https://github.com/Stars-harbor/AstraBay

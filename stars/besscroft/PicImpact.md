@@ -1,6 +1,6 @@
 ---
 project: PicImpact
-stars: 1167
+stars: 1169
 description: |-
     自部署的摄影作品网站，支持多种功能特性。PicImpact，分享你和世界！
 url: https://github.com/besscroft/PicImpact

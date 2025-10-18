@@ -1,6 +1,6 @@
 ---
 project: docsy
-stars: 2835
+stars: 2845
 description: |-
     Hugo theme for open source documentation
 url: https://github.com/google/docsy
@@ -85,7 +85,7 @@ all the prerequisites listed above:
 
 ```sh
 git clone --depth 1 https://github.com/google/docsy.git
-cd docsy/userguide/
+cd docsy/docsy.dev/
 npm install
 npm run serve
 ```

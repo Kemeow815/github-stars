@@ -1,9 +1,9 @@
 ---
 project: LibreDomains
-stars: 58
+stars: 60
 description: |-
     免费公益二级域名，点点star~
-url: https://github.com/bestZwei/LibreDomains
+url: https://github.com/LibreSpark/LibreDomains
 ---
 
 # LibreDomains - 自由域名分发服务

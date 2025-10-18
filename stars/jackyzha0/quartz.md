@@ -1,6 +1,6 @@
 ---
 project: quartz
-stars: 10237
+stars: 10291
 description: |-
     🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites
 url: https://github.com/jackyzha0/quartz

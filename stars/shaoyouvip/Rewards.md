@@ -1,6 +1,6 @@
 ---
 project: Rewards
-stars: 18
+stars: 19
 description: |-
     这是一个基于 Cloudflare Pages 和 KV 存储构建的、轻量级、高度可定制的赞赏记录展示页面。它允许您轻松地展示收到的赞赏，并通过环境变量进行全方位的个性化配置，无需修改任何代码。
 url: https://github.com/shaoyouvip/Rewards

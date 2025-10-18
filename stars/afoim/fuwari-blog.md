@@ -1,6 +1,6 @@
 ---
 project: fuwari-blog
-stars: 2
+stars: 3
 description: |-
     Fuwari静态博客，深度修改后用于本人博客
 url: https://github.com/afoim/fuwari-blog

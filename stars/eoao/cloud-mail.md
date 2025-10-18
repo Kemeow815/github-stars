@@ -1,6 +1,6 @@
 ---
 project: cloud-mail
-stars: 2648
+stars: 2724
 description: |-
     cloudflare email 邮箱  临时邮箱 邮件发送 mail
 url: https://github.com/eoao/cloud-mail

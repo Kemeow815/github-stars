@@ -1,6 +1,6 @@
 ---
 project: Mizuki
-stars: 439
+stars: 471
 description: |-
     Material Design 3设计风格的二次元博客主题！使用Astro+Tailwindcss
 url: https://github.com/matsuzaka-yuki/Mizuki
@@ -13,7 +13,7 @@ url: https://github.com/matsuzaka-yuki/Mizuki
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Mizuki Preview](./README.png)
+![Mizuki Preview](./README.webp)
 
 <table>
   <tr>

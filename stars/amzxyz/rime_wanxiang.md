@@ -1,6 +1,6 @@
 ---
 project: rime_wanxiang
-stars: 1432
+stars: 1454
 description: |-
     Rime万象拼音输入方案：标准版与增强版可选，词库基于AI筛选和语料辅助筛选精干高效，配合全新语法模型，输入不再纠结。PRO版本支持10种双拼，6种辅助码，可扩展。支持混合编码输入，内置超级注释、带调全拼输入码显示、快符、候选手动排序、tips、首选成对符号包裹等功能扩展，大大增强使用体验。　　Q群：11033572
 url: https://github.com/amzxyz/rime_wanxiang
@@ -12,21 +12,23 @@ url: https://github.com/amzxyz/rime_wanxiang
 
 ---------------------
 
-## 万象拼音——基于深度优化的词库和语言模型
+## 万象拼音——基于深度优化的词库和语法模型
 
-[万象词库与万象语言模型](https://github.com/amzxyz/RIME-LMDG) 是一种带声调的词库，经过AI和大基数语料筛选、加频，结合语言模型获得更准确的整句输出。还结合了中英文混输，一套词库，多种用法，具体可以点击链接了解优势
+[万象词库与万象语言模型](https://github.com/amzxyz/RIME-LMDG) 是一种带声调的词库，经过AI和大基数语料筛选、加频，结合语言模型获得更准确的整句输出。
 
 ### 优势
 
-1. 词库词语全部加音调。
+1. 在这里你能找到最为全面的拼音标注数据库，词库词语全部加音调。可应用于多种带声调输入方案，也可将声调作为注释，输入码位置显示，也可直接上屏，是唯一一个支持整句拼音串上屏的方案；
+   
+2. 长期死磕首选权重最优解、分词片段最优解，大量应用错位构词法，让语句行云流水，结合语法模型，维护词库与维护模型同时进行，形成完美搭配；
 
-    
+3. 在这里你能找到最为全面的反查数据库，现已支持到U17：支持两分、多分、笔画三种打法,在生僻字输入、反查的场景中发挥重要作用；
 
-2. 设计6种辅助码，头部使用全拼编码，可以转化为任何双拼编码
-    - 词库解码顺序为：全拼拼音；墨奇码；鹤形；自然码；虎码首末；五笔前2；汉心码
-    - 因此，万象拼音支持拼音和辅助码任意两两组合
+4. 在这里你能找到最为有趣的Lua扩展功能，如成对符号包裹首选、tips多类型扩展显示与上屏、手动实时排序以及无感造词不调频的新鲜用法；
 
-3. 其他类型辅助码用户可以通过LMDG工具包进行词库辅助码刷新，使用zrm-fuzhu方案包，替换为刷新后的词库即可使用。    
+5. 维护了来自圈内的6种辅助码，头部使用全拼编码，可以转化为任何双拼编码，辅助码有：墨奇码；鹤形；自然码；虎码首末；五笔前2；汉心码，因此，万象拼音支持拼音和辅助码任意两两组合
+
+6. 万象总结下来，从里到外，是一场翻天覆地的巨变，所涉及之处无不要求做到最优、最精。 这是我们持续的追求！
 
 **万象词库中的带声调拼音标注+词组构成+词频是整个万象项目的核心，是使用体验的基石，方案的其它功能皆可自定义，我希望使用者可以基于词库+转写的方式获得输入体验** [万象词库问题收集反馈表](https://docs.qq.com/smartsheet/DWHZsdnZZaGh5bWJI?viewId=vUQPXH&tab=BB08J2)
 
@@ -329,7 +331,87 @@ B 重复以上操作完成更多设备的添加和同步
 
 **字符集过滤：** 默认开启过滤，写在charset.dict.yaml的就是可以通过的字表，默认为8105+𰻞𰻞，如果你想什么字在小字集模式可以通过可以写在这里，配套开关【小字集、大字集】，快捷键Ctrl+g 
 
-**自定义词库：** 自定义词库首先要利用[LMDG](https://github.com/amzxyz/RIME-LMDG)中的脚本将你自己的词库刷成与万象同类型的声调、或者声调+辅助码的形态，因为主词库要参与转写。对于custom_phrase则需要手动编辑编码为实际输入的编码
+**自定义词库：** 自定义词库首先要利用工具将你自己的词库刷成与万象同类型的声调、或者声调+辅助码的形态，因为主词库要参与转写。对于custom_phrase则需要手动编辑编码为实际输入的编码。
+
+要保证每个字编码与chars完全一致，这是基础，不再赘述。
+
+##### 固定词库：
+#packs法，要保证外部名称`userxx.dict.yaml`与里面`name: userxx`一致，
+```
+patch:
+  translator/packs/+:
+    - userxx
+```
+
+#重命名法，重命名用户根目录`wanxiang.dict.yaml`为`wanxianguser.dict.yaml`，避免更新被覆盖
+
+#所有主方案文件中使用了这个固定词库的位置都要变更
+```
+patch:
+  translator/dictionary: wanxianguser
+  radical_reverse_lookup/dictionary: wanxianguser
+  user_dict_set/dictionary: wanxianguser
+  add_user_dict/dictionary: wanxianguser
+```
+##### 用户词库迁移：
+
+一个前置知识：同步是将用户词按时序合并导入导出的本地操作。
+
+⚠️请不要将这个rime文件夹部署到同步软件下面，这将造成数据库被同步锁定无法正常工作，同步的最高级目录为/sync
+
+确认你的同步目录，默认用户目录下面的/sync，如果自定义在installation.yaml文件中写入
+
+linux\mac\android这样写：
+```
+sync_dir: "/home/amz/sync"
+```
+windows这样写：
+```
+sync_dir: "D:\\home\\amz\\sync"  #双引号
+sync_dir: 'D:\home\amz\sync'     #单引号
+```
+
+你还可以将installation_id字段改成一个可辨识的名称如按系统命名
+
+知道了这些以后你可以创建以下文件夹，他们的名称来自installation_id字段
+```
+xxx/sync/windows
+xxx/sync/linux
+xxx/sync/ios
+```
+
+你完全可以在用户目录看到wanxiang.userdb，他就是你实时工作的数据库PRO版本是zc.userdb，当你点击右键菜单，同步用户数据时
+
+系统将会将用户词库以txt方式释放到`xxx/sync/windows/wanxiang.userdb.txt`
+
+每一个wanxiang.userdb.txt表头都有一个表头
+
+```
+# Rime user dictionary
+#@/db_name	zc
+#@/db_type	userdb
+#@/rime_version	1.13.1
+#@/tick	793
+#@/user_id	ff9b2823-8733-44bb-a497-daf382b74ca5
+```
+关注db_name必须与用户词典文件名一致，且不管多个设备不同设备文件夹下面的文件名称都应该一致，看起来都是wanxiang.userdb.txt
+
+关注user_id=windows(设备文件夹名称)=installation_id字段必须保持一致
+
+如果只有一个设备，你完全可以在同步后删除用户目录的`userdb`，手动编辑`xxx/sync/windows/wanxiang.userdb.txt`
+
+注意这里的编辑必须是经过预处理格式与万象编码完全一致的情形下，万象提供的工具就可以完成声调标注和辅助码标注
+
+编辑好文件，确保放入设备目录，点击同步即可导入数据库
+
+你还可以将你迁移的数据txt内部设备名称都修改成linux，并将文件放入xxx/sync/linux
+
+此时点击同步也能将用户词与windows文件夹下面的合并一起导入数据库，模拟多设备同步，这也是未来真正的多设备同步逻辑
+
+- [用于Linux Mac的词库刷拼音辅助码工具](https://github.com/amzxyz/rime_wanxiang/releases/download/tools/wanxiang-dicts-tools-linux-mac)
+
+- [用于Windows的词库刷拼音辅助码工具](https://github.com/amzxyz/rime_wanxiang/releases/download/tools/wanxiang-dicts-tools.exe)
+
 
 <img alt="pay" src="./custom/万象输入方案.png">
 

@@ -1,6 +1,6 @@
 ---
 project: UptimeFlare
-stars: 2879
+stars: 2898
 description: |-
     ✔ Free and serverless uptime monitoring / status page on Cloudflare Workers, with Geo-specific checks
 url: https://github.com/lyc8503/UptimeFlare
@@ -29,6 +29,7 @@ A more advanced, serverless, and free uptime monitoring & status page solution, 
   - Customizable Webhook
 - Status page
   - Interactive ping (response time) chart for all types of monitors
+  - Scheduled maintenances alerts & Incident history page
   - Responsive UI that adapts to your system theme
   - Customizable status page
   - Use your own domain with CNAME
@@ -46,6 +47,10 @@ Some screenshots:
 ## ⚡Quickstart / 📄Documentation
 
 Please refer to [Wiki](https://github.com/lyc8503/UptimeFlare/wiki)
+
+## 🚀Upgrade existing deployments
+
+Get the latest features right away with [simple upgrade process](https://github.com/lyc8503/UptimeFlare/wiki/Synchronize-updates-from-upstream)
 
 ## New features (TODOs)
 
@@ -71,5 +76,9 @@ Please refer to [Wiki](https://github.com/lyc8503/UptimeFlare/wiki)
 - [ ] Cloudflare D1 database
 - [x] Scheduled maintenances (via IIFE)
 - [ ] Simpler config example
-- [ ] Upcoming maintenances
-- [ ] Universal Webhook upgrade
+- [x] Upcoming maintenances
+- [x] Universal Webhook upgrade
+- [ ] i18n...? (maybe)
+- [ ] ICMP via proxy?
+- [ ] Add default UA
+

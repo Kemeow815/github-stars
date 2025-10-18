@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 4
+stars: 5
 description: |-
     📚个人博客
 url: https://github.com/QiYuOr2/blog

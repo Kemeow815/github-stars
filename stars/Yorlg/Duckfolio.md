@@ -1,6 +1,6 @@
 ---
 project: Duckfolio
-stars: 68
+stars: 69
 description: |-
     个人主页
 url: https://github.com/Yorlg/Duckfolio

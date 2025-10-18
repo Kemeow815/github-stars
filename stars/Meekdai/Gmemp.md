@@ -1,6 +1,6 @@
 ---
 project: Gmemp
-stars: 72
+stars: 71
 description: |-
     Gmemp is a music player All in Github
 url: https://github.com/Meekdai/Gmemp

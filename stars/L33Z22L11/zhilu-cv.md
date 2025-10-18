@@ -1,6 +1,6 @@
 ---
 project: zhilu-cv
-stars: 20
+stars: 24
 description: |-
     我的前端开发个人简历，可在线部署/导出PDF。
 url: https://github.com/L33Z22L11/zhilu-cv

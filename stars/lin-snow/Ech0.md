@@ -1,6 +1,6 @@
 ---
 project: Ech0
-stars: 662
+stars: 673
 description: |-
     Ech0 - 面向个人的新一代开源、自托管、专注思想流动的轻量级联邦发布平台
 url: https://github.com/lin-snow/Ech0
@@ -79,6 +79,7 @@ Ech0 是一款专为个人用户设计的新一代开源自托管平台，低成
 🌐 **ActivityPub 联邦** —— 与 Mastodon、Misskey 等平台互联共通，构建去中心化生态  
 🔑 **OAuth2 集成** —— 原生支持 OAuth2 协议，轻松接入第三方登录与 API 授权  
 📝 **内置Todo管理**：轻松记录、管理每日待办事项，帮助你高效规划和追踪任务进度  
+🪶 **高可用 Webhook**：支持与外部系统进行实时扩展与协作，实现事件驱动的自动化工作流  
 🧰 **命令行利器**：内置高可用 CLI 工具，为开发者与高级用户提供极致掌控力与自动化体验  
 📟 **极致 TUI 支持**：面向终端用户打造的友好交互界面，轻松对Ech0进行管理  
 🔗 **Ech0 Connect**：全新多实例互联功能，实现Ech0实例间状态订阅与跟踪  
@@ -242,6 +243,12 @@ ssh -p 6278 ssh.vaaat.com
 
 - 若程序出现 bug，可在 [Issues](https://github.com/lin-snow/Ech0/issues) 中反馈。
 - 针对新增或改进的需求，欢迎前往 [Discussions](https://github.com/lin-snow/Ech0/discussions) 一起交流。
+- 官方 QQ 群号：1065435773
+
+| 官方QQ交流群 | 其它交流群 |
+| ---------- | ---------------- |
+| <img src="./docs/imgs/qq.png" alt="QQ群" style="height:250px;"> | 暂无 |
+
 
 ---
 
@@ -286,7 +293,7 @@ ssh -p 6278 ssh.vaaat.com
 ### 启动前后端联调  
 **第一步： 后端（在 Ech0 根目录下）：**
 ```shell
-go run cmd/ech0/main.go # 编译并启动后端
+go run main.go # 编译并启动后端
 ```
 > 如果依赖注入关系发生了变化先需要在`ech0/internal/di/`下执行`wire`命令生成新的`wire_gen.go`文件
 

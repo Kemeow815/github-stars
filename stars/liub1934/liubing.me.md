@@ -16,7 +16,7 @@ url: https://github.com/liub1934/liubing.me
 
 ## 启动服务
 
-> 本仓库使用的 Node 版本：v18.19.0
+> 本仓库使用的 Node 版本：v22.16.0
 
 ```sh
 pnpm install # 安装依赖

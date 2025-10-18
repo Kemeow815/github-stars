@@ -1,6 +1,6 @@
 ---
 project: Wechat-Official-Account-Web
-stars: 83
+stars: 84
 description: |-
     微信公众号的关注界面
 url: https://github.com/zhheo/Wechat-Official-Account-Web

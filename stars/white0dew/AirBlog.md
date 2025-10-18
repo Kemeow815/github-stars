@@ -1,6 +1,6 @@
 ---
 project: AirBlog
-stars: 27
+stars: 28
 description: |-
     最简单的播客网站！通过语雀一键同步文档，方便耐用。基于Nextjs、Tailwindcss的个人博客网站，
 url: https://github.com/white0dew/AirBlog

@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 4
+stars: 5
 description: |-
     一个基于 Next.js 的个人博客项目，不需要数据库，可以部署Vercel或者个人服务器
 url: https://github.com/Zwanan-github/blog

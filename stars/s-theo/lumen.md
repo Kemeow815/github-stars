@@ -1,6 +1,6 @@
 ---
 project: lumen
-stars: 472
+stars: 474
 description: |-
     ✨ 专为 VitePress 打造的主题美化与 Vue 扩展组件库
 url: https://github.com/s-theo/lumen

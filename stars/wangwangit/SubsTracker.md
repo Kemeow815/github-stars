@@ -1,6 +1,6 @@
 ---
 project: SubsTracker
-stars: 1456
+stars: 1492
 description: |-
     基于Cloudflare Workers的轻量级订阅管理系统，帮助您轻松跟踪各类订阅服务的到期时间，并通过Telegram发送及时提醒。
 url: https://github.com/wangwangit/SubsTracker
@@ -8,7 +8,7 @@ url: https://github.com/wangwangit/SubsTracker
 
 # SubsTracker - 订阅管理与提醒系统
 
-基于Cloudflare Workers的轻量级订阅管理系统，帮助您轻松跟踪各类订阅服务的到期时间，并通过Telegram,企业微信等发送及时提醒。
+基于Cloudflare Workers的轻量级订阅管理系统，帮助您轻松跟踪各类订阅服务的到期时间，并通过 Telegram、Webhook 等多渠道发送及时提醒。
 
 ![image](https://github.com/user-attachments/assets/22ff1592-7836-4f73-aa13-24e9d43d7064)
 
@@ -23,9 +23,10 @@ url: https://github.com/wangwangit/SubsTracker
 ### 📱 多渠道通知
 - **Telegram**：支持 Telegram Bot 通知
 - **NotifyX**：集成 NotifyX 推送服务
-- **企业微信应用通知**：支持企业微信应用推送
+- **Webhook 通知**：支持自定义 Webhook 推送
 - **企业微信机器人**：支持企业微信群机器人通知
 - **邮件通知**：基于 Resend 的专业邮件服务
+- **Bark**：支持 iOS Bark 推送
 - **自定义 Webhook**：支持自定义请求格式和模板
 
 ### 🌙 农历功能
@@ -74,18 +75,35 @@ Fork仓库,然后点击自己仓库里的部署按钮，等待部署完成,**注
 ### NotifyX
 - **API Key**: 从 [NotifyX官网](https://www.notifyx.cn/) 获取
 
-### 邮件通知 (Resend)
-- **API Key**: 从 [Resend官方教程](https://developers.cloudflare.com/workers/tutorials/send-emails-with-resend/) 获取
-- **发件人邮箱**: 必须是已在Resend验证的域名邮箱
-- **收件人邮箱**: 接收通知的邮箱地址
-- 支持HTML格式的美观邮件模板
-
-### 企业微信应用通知
-- **推送 URL**: 从 [企业微信应用通知平台](https://push.996007.icu) 获取
-- 支持自定义请求头和消息模板
-
 ### 企业微信机器人
 - **推送 URL**: 参考[官方文档](https://developer.work.weixin.qq.com/document/path/91770)获取
+
+### Webhook 通知
+- **推送 URL**: 根据所使用的 Webhook 服务或自建接口填写，例如 `https://your-service.com/hooks/notify`
+- 支持自定义请求方法、请求头与消息模板
+- **模板占位符**：`{{title}}`、`{{content}}`、`{{tags}}`（多行形式）、`{{tagsLine}}`、`{{timestamp}}`、`{{formattedMessage}}`
+
+### Bark（iOS 推送）
+- **服务器地址**：默认 `https://api.day.app`，也可使用自建服务器
+- **设备 Key**：在 Bark App 内复制
+- **历史记录**：勾选“保存推送”后可保留推送历史
+
+### 邮件通知 (Resend)
+- **API Key**: 从 [Resend 官方教程](https://developers.cloudflare.com/workers/tutorials/send-emails-with-resend/) 获取
+- **发件人邮箱**: 必须是已在 Resend 验证的域名邮箱
+- **收件人邮箱**: 接收通知的邮箱地址
+- 支持 HTML 格式的美观邮件模板
+
+### 🔔 通知时间与时区说明
+- Cloudflare Workers 的 Cron 表达式使用 **UTC 时区**，例如 `0 8 * * *` 表示 UTC 08:00 触发
+- 若希望在北京时间（UTC+8）早上 8 点提醒，可将 Cron 设置为 `0 0 * * *`
+- 若需要小时级提醒，可将 Cron 调整为 `0 * * * *`（每小时执行一次），并在系统配置中指定允许的通知小时
+- 系统配置中的 “系统时区” 用于计算订阅剩余时间和格式化展示，建议与提醒需求保持一致
+
+### 🔐 第三方 API 安全调用
+- 通过 `POST /api/notify/{token}` 可触发系统通知，请在后台配置“第三方 API 访问令牌”
+- 令牌也可通过 `Authorization: Bearer <token>` 或 `?token=<token>` 传入
+- 未配置或令牌不匹配时接口会直接拒绝请求，建议定期更换随机令牌
 
 
 > 💡 **提示**: 系统默认每天早上8点自动检查即将到期的订阅
@@ -155,5 +173,4 @@ MIT License
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wangwangit/SubsTracker&type=Date)](https://www.star-history.com/#wangwangit/SubsTracker&Date)
-
 

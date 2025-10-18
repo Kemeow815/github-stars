@@ -1,6 +1,6 @@
 ---
 project: nova-admin
-stars: 1128
+stars: 1130
 description: |-
     A simple and flexible admin template based on Vue3, Vite, TypeScript, NaiveUI
 url: https://github.com/chansee97/nova-admin

@@ -1,6 +1,6 @@
 ---
 project: github-stats
-stars: 3250
+stars: 3254
 description: |-
     Better GitHub statistics images for your profile, with stats from private repos too
 url: https://github.com/jstrieb/github-stats

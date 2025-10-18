@@ -2,7 +2,7 @@
 project: z2-blog-nuxt
 stars: 22
 description: |-
-    高颜值的现代化响应式Nuxt博客
+    高颜值的现代化响应式Nuxt博客（Fast&Nice Nuxt3 Blog）
 url: https://github.com/ooahz/z2-blog-nuxt
 ---
 

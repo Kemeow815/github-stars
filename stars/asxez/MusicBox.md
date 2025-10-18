@@ -1,6 +1,6 @@
 ---
 project: MusicBox
-stars: 220
+stars: 229
 description: |-
     一款高颜值、插件化的本地音乐播放器
 url: https://github.com/asxez/MusicBox

@@ -2,7 +2,7 @@
 project: generate-albums
 stars: 3
 description: |-
-    自动化生成相册Automatically generate photo albums
+    使用github Action + github  pages生成相册网页 Automatically generate photo albums
 url: https://github.com/jkjoy/generate-albums
 ---
 
@@ -29,30 +29,34 @@ url: https://github.com/jkjoy/generate-albums
 >[!TIP]
 >使用方法
  
->1. 点击`Use this template`创建一个新的仓库
-<a href="https://github.com/new?template_name=generate-albums&template_owner=jkjoy" target="_blank">点击这里</a>
+- 点击`Use this template`创建一个新的仓库
+   
+   <a href="https://github.com/new?template_name=generate-albums&template_owner=jkjoy" target="_blank">点击这里</a>
 
-在`action`中设置`secret`
-![](https://file.imsun.pw/image/f1427467-b143-4db0-b736-d80872c475e6.png)
+    在`action`中设置`secret`
+    ![](https://file.imsun.pw/image/f1427467-b143-4db0-b736-d80872c475e6.png)
 
-`TOKEN`为你的github token(获取方法https://github.com/settings/tokens 生成一个token)
+    `TOKEN`为你的github token(获取方法https://github.com/settings/tokens 生成一个token)
 
-`REPO`为你想要生成相册的仓库名称 如`username/repo`
+    `REPO`为你想要生成相册的仓库名称 如`username/repo`
 
->2. `template`目录下为模板文件,可自行调整 标题 等
+- `template`目录下为模板文件,可自行调整 标题 等
 
->3. `photos`为图片文件夹,照片上传到此文件夹中,会自动生成相册
+- `photos`为图片文件夹,照片上传到此文件夹中,会自动生成相册
 
-photos 根目录下的照片默认标题为`分享生活`
+    photos 根目录下的照片默认标题为`分享生活`
 
-新建文件夹,文件夹名称为标题
+    新建文件夹,文件夹名称为标题
 
-照片同名txt中的文本为描述说明 最高优先级
+    照片同名txt中的文本为描述说明 最高优先级
 
-如 `1.jpg` `1.txt` 则使用1.txt中的文本为描述说明
+   如 `1.jpg` `1.txt` 则使用1.txt中的文本为描述说明
 
-目录下`描述.txt`为此目录下所有图片的描述说明 第二优先级
+    目录下`描述.txt`为此目录下所有图片的描述说明 第二优先级
 
-如果两者都没有则使用照片文件名为描述说明
+     如果两者都没有则使用照片文件名为描述说明
 
+## 新项目
+使用S3 + vercel 部署相册
+https://github.com/jkjoy/S3-Images-vercel
 

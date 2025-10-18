@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-moments
-stars: 166
+stars: 167
 description: |-
     A Hugo theme designed for micro-blogging. 专为动态发布设计的Hugo主题
 url: https://github.com/FarseaSH/hugo-theme-moments

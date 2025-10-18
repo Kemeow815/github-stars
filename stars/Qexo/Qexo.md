@@ -1,6 +1,6 @@
 ---
 project: Qexo
-stars: 1860
+stars: 1870
 description: |-
     A fast, powerful and beautiful online manager for all static blog frameworks. 
 url: https://github.com/Qexo/Qexo
