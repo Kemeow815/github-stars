@@ -1,6 +1,6 @@
 ---
 project: hugo-shortcode-gallery
-stars: 404
+stars: 405
 description: |-
     A theme component with a gallery shortcode for the static site generator hugo.
 url: https://github.com/mfg92/hugo-shortcode-gallery

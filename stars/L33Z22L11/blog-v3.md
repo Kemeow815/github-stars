@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 146
+stars: 150
 description: |-
     My blog, powered by Nuxt 4 & Nuxt Content v3. 纸鹿摸鱼处，分享技术与生活。
 url: https://github.com/L33Z22L11/blog-v3

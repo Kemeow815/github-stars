@@ -1,6 +1,6 @@
 ---
 project: hugo-universal-theme
-stars: 886
+stars: 888
 description: |-
     Universal theme for Hugo, it stands out with its clean design and elegant typography.
 url: https://github.com/devcows/hugo-universal-theme

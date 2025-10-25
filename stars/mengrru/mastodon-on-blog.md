@@ -1,6 +1,6 @@
 ---
 project: mastodon-on-blog
-stars: 32
+stars: 31
 description: |-
     Put a Mastodon widget on your website or blog 🐘
 url: https://github.com/mengrru/mastodon-on-blog

@@ -14,7 +14,7 @@ url: https://github.com/syhily/yufan.me
 
 # Yufan Personal Blog
 
-[![Deployed on Zeabur](https://img.shields.io/badge/Host-zeabur-blue)](https://zeabur.com/referral?referralCode=syhily&utm_source=syhily) [![Folo](https://badge.folo.is/feed/54772566650461214?color=FF5C00&labelColor=black&style=flat-square)](https://app.folo.is/share/feeds/54772566650461214) ![Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)
+[![Folo](https://badge.folo.is/feed/54772566650461214?color=FF5C00&labelColor=black&style=flat-square)](https://app.folo.is/share/feeds/54772566650461214) ![Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg) [![Deployed on Zeabur](./licenses/zeabur.svg)](https://zeabur.com/referral?referralCode=syhily&utm_source=syhily)
 
 This is the source code for [yufan.me](https://yufan.me).
 
@@ -95,9 +95,6 @@ date: 2013/7/13 20:46:25
 | `toc`       | Display the Table of Contents    | false    | `false`              |
 
 ## Blog Design
-
-Most design assets are contained in [yufan.me.sketch](docs/yufan.me.sketch).
-I primarily use [Sketch](https://www.sketch.com) as my design tool.
 
 The favicon closely resembles the blog logo, with simplified elements for better readability at smaller sizes.
 It retains the main shape from the logo but adjusts the dot color for visibility.

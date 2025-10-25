@@ -1,6 +1,6 @@
 ---
 project: Talking-server
-stars: 3
+stars: 2
 description: |-
     现代化的社交动态管理服务，基于 Cloudflare Workers，支持 Markdown、图片上传、标签管理。
 url: https://github.com/HeLongaa/Talking-server

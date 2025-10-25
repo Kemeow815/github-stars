@@ -1,6 +1,6 @@
 ---
 project: vmail
-stars: 1089
+stars: 1109
 description: |-
     📫 An open source temporary email tool. 只需一个域名部署临时邮箱，支持多域名后缀，密码找回。
 url: https://github.com/oiov/vmail

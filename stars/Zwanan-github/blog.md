@@ -16,9 +16,9 @@ url: https://github.com/Zwanan-github/blog
 
 在开始之前，请确保已经安装以下软件：
 
-*   [Node.js](https://nodejs.org/) 
-*   [pnpm](https://www.npmjs.com/)
-*   [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [pnpm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
 
 ### 安装步骤
 

@@ -1,6 +1,6 @@
 ---
 project: TiebaLite
-stars: 1431
+stars: 1452
 description: |-
     贴吧 Lite
 url: https://github.com/zzc10086/TiebaLite

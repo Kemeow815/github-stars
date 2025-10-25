@@ -1,6 +1,6 @@
 ---
 project: note-gen
-stars: 9713
+stars: 9779
 description: |-
     A cross-platform Markdown AI note-taking software.
 url: https://github.com/codexu/note-gen
@@ -49,7 +49,7 @@ NoteGen is a cross-platform `Markdown` note-taking application dedicated to usin
 | ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white&style=for-the-badge) | ![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white&style=for-the-badge) | ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge) | ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge) | ![iOS](https://img.shields.io/badge/iOS-000000?logo=apple&logoColor=white&style=for-the-badge) |
 | --- | --- | --- | --- | --- |
 | ✅ beta | ✅ beta | ✅ beta | 🛠️ alpha | 🛠️ alpha |
-| [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#android) | Self-compiled |
+| [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#desktop-beta) | [Download](https://notegen.top/en/docs/download#android) | [TestFlight](https://testflight.apple.com/join/8KjFRTCq) |
 
 > [UpgradeLink offers application upgrade and download services](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
 
@@ -115,8 +115,3 @@ We also thank other partners for their service support
     <img src="https://s2.loli.net/2025/09/16/mTzMCQ8tZLfJNk5.png" />
   </a>
 </div>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=codexu/note-gen&type=Date)](https://www.star-history.com/#codexu/note-gen&Date)
-

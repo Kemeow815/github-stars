@@ -1,6 +1,6 @@
 ---
 project: moments
-stars: 1783
+stars: 1793
 description: |-
     极简朋友圈
 url: https://github.com/kingwrcy/moments

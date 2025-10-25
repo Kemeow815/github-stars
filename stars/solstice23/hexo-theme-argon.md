@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-argon
-stars: 317
+stars: 318
 description: |-
     Argon-Theme 的 Hexo 移植版
 url: https://github.com/solstice23/hexo-theme-argon

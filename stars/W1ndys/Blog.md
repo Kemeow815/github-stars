@@ -1,6 +1,6 @@
 ---
 project: Blog
-stars: 43
+stars: 44
 description: |-
     Hexo个人博客
 url: https://github.com/W1ndys/Blog

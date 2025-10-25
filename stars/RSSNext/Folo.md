@@ -1,6 +1,6 @@
 ---
 project: Folo
-stars: 35137
+stars: 35347
 description: |-
     🧡 Follow everything in one place
 url: https://github.com/RSSNext/Folo

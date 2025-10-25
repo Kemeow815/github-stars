@@ -1,6 +1,6 @@
 ---
 project: Friend-Circle-Lite
-stars: 182
+stars: 185
 description: |-
     🐱一个精简版，无后端，且仅利用github action运行的精简版友链朋友圈程序，兼容fc的json格式信息，同时支持推送友圈更新，支持他人订阅个人站点并在更新时发送邮箱推送。
 url: https://github.com/willow-god/Friend-Circle-Lite

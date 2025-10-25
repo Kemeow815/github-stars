@@ -1,6 +1,6 @@
 ---
 project: icefox
-stars: 970
+stars: 972
 description: |-
     Typecho微信朋友圈主题 icefox
 url: https://github.com/xiaopanglian/icefox

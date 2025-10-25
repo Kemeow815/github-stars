@@ -1,14 +1,15 @@
 ---
 project: Catime
-stars: 2948
+stars: 2980
 description: |-
-    A very useful timer (🍅Pomodoro Clock)
+    A tiny (803KB) but mighty timer in pure C. Supports clock, countdown, stopwatch, Pomodoro, and fully customizable tray animations (GIFs, CPU/Mem%).
 url: https://github.com/vladelaina/Catime
 ---
 
 <div align="center">
 
-# v1.2.0 is out! 🎉 [Download Now](https://github.com/vladelaina/Catime/releases/latest) - `Only 744KB!`
+# v1.3.1 is out! 🎉 [Download Now](https://github.com/vladelaina/Catime/releases/latest) - `Only 803KB`
+
 
 <h3>Special thanks to our sponsors:</h3>
 </a>
@@ -63,8 +64,25 @@ url: https://github.com/vladelaina/Catime
   👋 Join us on 
   <a href="https://discord.com/invite/W3tW2gtp6g" target="_blank" style="text-decoration: none; font-weight: bold; color: #5865F2;">Discord</a> 
   and 
-  <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=jLajcI6fmsK8MYh9Sx8s0IArOuR5k7mnn8upVJK%2BgJkeXrEop9EBsAD8tP%2BLhPDs&busi_data=eyJncm91cENvZGUiOiIxMDI3MzI3OTEyIiwidG9rZW4iOiI0UlNlc1RzV0QyUlZKNzBMK3RWczRZOUt0K0xIRHRvVVZSQnR3OFo3bUxBMFAzcG9jUjRZa2dwUGZEaCs0ZEhuIiwidWluIjoiMjM3NzY0MDY5OSJ9&data=6Ce8O75Fxrd5GoBAByGHSoQNA3cK7t4WyU1WyoI9FB3LK0mmPbgtK3PlGKQrt4vQvQsrlV4QkdQ7lQKt8TDkEg&svctype=4&tempid=h5_group_info" target="_blank" style="text-decoration: none; font-weight: bold; color: #12B7F5;">QQ Group</a>
+  <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=jLajcI6fmsK8MYh9Sx8s0IArOuR5k7mnn8upVJK%2BgJkeXrEop9EBsAD8tP%2BLhPDs&busi_data=eyJncm91cENvZGUiOiIxMDI3MzI3OTEyIiwidG9rZW4iOiI0UlNlc1RzV0QyUlZKNzBMK3RWczRZOUt0K0xIRHRvVVZSQnR3OFo3bUxBMFAzcG9jUjRZa2dwUGZEaCs0ZEhuIiwidWluIjoiMjM3NzY0MDY5OSJ9&data=6Ce8O75Fxrd5GoBAByGHSoQNA3cK7t4WyUWyoI9FB3LK0mmPbgtK3PlGKQrt4vQvQsrlV4QkdQ7lQKt8TDkEg&svctype=4&tempid=h5_group_info" target="_blank" style="text-decoration: none; font-weight: bold; color: #12B7F5;">QQ Group</a>
 </div>
+
+
+## 🎨 Powerful Tray Animations
+
+Your tray icon can now come alive! Catime brings powerful custom animation features:
+
+- **Custom Animations**: Use **GIFs**, **WebPs**, and static images like **PNG** & **JPG** as your tray icon.
+- **System Status**: Set it to display real-time **CPU** or **Memory** usage percentages.
+
+> Looking for more fun animations? Check out our companion project, [MemeTray](https://github.com/MemeTray/MemeTray)!
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0354b85b-0f96-4978-98e8-df4c0a7ec740" width="600" height="200" alt="tray_animation" />
+</div>
+
+
 
 ## ❤️‍🔥Staying tuned with us
 >  **Star us** and witness how this pure C-crafted minimalist time tool continues to evolve - don't miss any exciting updates!
@@ -337,6 +355,23 @@ With special appreciation to [猫屋敷梨梨Official](https://space.bilibili.co
       </td>
       <td align="center" valign="top" width="14.28%">
         <a href="https://github.com/darkmatter2048"><img src="https://vladelaina.github.io/Catime/assets/Contributors/DaYe.webp" width="100px;" alt="DaYe"/><br /><sub><b>DaYe</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/zct4257"><img src="https://vladelaina.github.io/Catime/assets/Contributors/zct4257.webp" width="100px;" alt="zct4257"/><br /><sub><b>zct4257</b></sub></a><br />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href=""><img src="https://vladelaina.github.io/Catime/assets/Contributors/%E5%B0%8F%E8%B4%A5%E5%8F%B6.webp" width="100px;" alt="小败叶"/><br /><sub><b>小败叶</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://space.bilibili.com/25249757"><img src="https://vladelaina.github.io/Catime/assets/Contributors/%E9%97%B2%E4%BA%BA%E4%B8%8D%E6%A2%A6%E5%90%9BQ.webp" width="100px;" alt="闲人不梦君Q"/><br /><sub><b>闲人不梦君Q</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://space.bilibili.com/1191321078"><img src="https://vladelaina.github.io/Catime/assets/Contributors/%E6%9D%8E%E8%89%AF.webp" width="100px;" alt="李良"/><br /><sub><b>李良</b></sub></a><br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/imxhe"><img src="https://vladelaina.github.io/Catime/assets/Contributors/iweek.webp" width="100px;" alt="imxhe"/><br /><sub><b>imxhe</b></sub></a><br />
       </td>
     </tr>
   </tbody>

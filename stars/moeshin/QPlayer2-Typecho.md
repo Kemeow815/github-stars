@@ -1,6 +1,6 @@
 ---
 project: QPlayer2-Typecho
-stars: 39
+stars: 38
 description: |-
     一款简洁小巧的 HTML5 底部悬浮音乐播放器
 url: https://github.com/moeshin/QPlayer2-Typecho

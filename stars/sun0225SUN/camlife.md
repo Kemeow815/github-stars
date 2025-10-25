@@ -1,6 +1,6 @@
 ---
 project: camlife
-stars: 90
+stars: 91
 description: |-
     Capture life through the Camera.
 url: https://github.com/sun0225SUN/camlife
@@ -96,6 +96,11 @@ url: https://github.com/sun0225SUN/camlife
 	<tbody>
 </table>
 <!-- readme: collaborators,contributors -end -->
+
+## 🍭 Community
+
+- [Discord](https://discord.com/invite/fxARGMmg)
+- [Telegram](https://t.me/sunguoqi)
 
 ## 💡 Inspired Projects
 
@@ -325,7 +330,7 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 Contributions are welcome! Feel free to open issues and pull requests.
 
-## 💖 Support
+## 💖 Sponsors
 
 If you find this project helpful, please give it a ⭐️ on GitHub!
 

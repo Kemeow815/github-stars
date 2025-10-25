@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 91
+stars: 92
 description: |-
     Just blog and not just blog.
 url: https://github.com/yanyue404/blog

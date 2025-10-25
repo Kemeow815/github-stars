@@ -1,6 +1,6 @@
 ---
 project: CoverView
-stars: 1089
+stars: 1090
 description: |-
     🛠 Create awesome cover images for your blog posts quickly.
 url: https://github.com/rutikwankhade/CoverView

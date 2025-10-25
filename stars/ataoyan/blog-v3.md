@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 2
+stars: 1
 description: |-
     My blog, powered by Nuxt Content v3.
 url: https://github.com/ataoyan/blog-v3

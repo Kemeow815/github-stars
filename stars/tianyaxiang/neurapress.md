@@ -1,6 +1,6 @@
 ---
 project: neurapress
-stars: 1537
+stars: 1539
 description: |-
     NeuraPress
 url: https://github.com/tianyaxiang/neurapress
@@ -145,6 +145,10 @@ docker run -p 3000:3000 [your-dockerhub-username]/neurapress:latest
 ## 🌐 联系我们
 
  [Email](mailto:tianyaxiang@qq.com) | [Twitter](https://x.com/tianyaxiang)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tianyaxiang/neurapress&type=date&legend=top-left)](https://www.star-history.com/#tianyaxiang/neurapress&type=date&legend=top-left)
 
 ## 贡献指南
 

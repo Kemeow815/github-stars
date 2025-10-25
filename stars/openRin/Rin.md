@@ -1,6 +1,6 @@
 ---
 project: Rin
-stars: 2272
+stars: 2287
 description: |-
     ⚡Dynamic blog based on Cloudflare Pages + Workers + D1 + R2
 url: https://github.com/openRin/Rin

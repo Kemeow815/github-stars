@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 30
+stars: 31
 description: |-
     我的 blog
 url: https://github.com/OverflowCat/blog

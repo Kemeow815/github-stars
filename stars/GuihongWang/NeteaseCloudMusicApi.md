@@ -1,6 +1,6 @@
 ---
 project: NeteaseCloudMusicApi
-stars: 24
+stars: 25
 description: |-
     为了自由和权力也为了版权 网易云音乐 Node.js API service
 url: https://github.com/GuihongWang/NeteaseCloudMusicApi

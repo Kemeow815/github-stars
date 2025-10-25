@@ -1,6 +1,6 @@
 ---
 project: tianli0.top
-stars: 7
+stars: 8
 description: |-
     Material You Design Homepage
 url: https://github.com/TIANLI0/tianli0.top

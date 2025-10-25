@@ -1,6 +1,6 @@
 ---
 project: note-to-mp
-stars: 180
+stars: 181
 description: |-
     null
 url: https://github.com/sunbooshi/note-to-mp

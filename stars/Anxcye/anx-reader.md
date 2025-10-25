@@ -1,6 +1,6 @@
 ---
 project: anx-reader
-stars: 6004
+stars: 6063
 description: |-
     Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. 
 url: https://github.com/Anxcye/anx-reader
@@ -81,6 +81,9 @@ Anx Reader, a thoughtfully crafted e-book reader for book lovers. Featuring powe
     <td>
       <a href="https://github.com/Anxcye/anx-reader/releases/latest" target="_blank">
         <img src="https://github.com/user-attachments/assets/cf61e197-d756-4606-a8ad-fb591f79fdfc" alt="GitHub" height="45"/>
+      </a>
+      <a href="https://f-droid.org/packages/com.anxcye.anx_reader" target="_blank">
+        <img src="./docs/get-it-on.png" alt="Get it on F-Droid" height="45" />
       </a>
     </td>
   </tr>

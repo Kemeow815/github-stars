@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 4
+stars: 3
 description: |-
     我的个人博客~
 url: https://github.com/Leetfs/blog

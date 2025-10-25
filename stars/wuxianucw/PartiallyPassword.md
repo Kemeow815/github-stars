@@ -1,6 +1,6 @@
 ---
 project: PartiallyPassword
-stars: 87
+stars: 88
 description: |-
     Typecho 文章部分加密插件（PartiallyPassword）支持对某一篇文章的特定部分创建密码，访客需要正确输入密码才能查看内容。
 url: https://github.com/wuxianucw/PartiallyPassword

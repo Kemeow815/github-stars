@@ -1,6 +1,6 @@
 ---
 project: PicList
-stars: 3005
+stars: 3027
 description: |-
     An image upload and manage tool, base on PicGo
 url: https://github.com/Kuingsmile/PicList
