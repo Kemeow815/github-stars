@@ -1,6 +1,6 @@
 ---
 project: blog-v3
-stars: 150
+stars: 155
 description: |-
     My blog, powered by Nuxt 4 & Nuxt Content v3. 纸鹿摸鱼处，分享技术与生活。
 url: https://github.com/L33Z22L11/blog-v3
@@ -37,7 +37,7 @@ url: https://github.com/L33Z22L11/blog-v3
 | [喵落阁](https://blog-v3.kemeow.top/)        | Kemeow815     | v3.4.7       | 即刻+友圈+最新评论+游戏/番剧页 |
 | [梦爱吃鱼](https://blog.ruom.top/)           | JLinmr        | v3.2-250304  | 即刻+友圈+最新评论             |
 | [Mikuの极光星](https://blog.sotkg.com/)      | PaloMiku      | v3.4.8       | 设计风格统一                   |
-| [Shenley的存档点](https://blog.ykrazy.top/)  | shenlye       | v3.4.4       | 游戏/番剧页，方形卡片          |
+| [Shenley的存档点](https://blog.shenley.cn/)  | shenlye       | v3.4.4       | 游戏/番剧页，方形卡片          |
 | [BiuXin-s Blog](https://zhilu.biuxin.com/)   | damizai       | v3.2-250304  | 即刻+友圈+最新评论             |
 | [液泡部落格](https://blog.vacu.top/)         | VacuolePaoo   | v3.4.4       | 一言+标签tags+页脚随机友链     |
 | [柒渊阁](https://www.myxz.top/)              | 661111        | v3.4.7       | 即刻+友圈+Heo友链轮播/Profile  |
@@ -48,7 +48,7 @@ url: https://github.com/L33Z22L11/blog-v3
 | [fishcpy的小破站](https://blog.fis.ink/)     | fishcpy       | v3.4.7       | 友圈+Artalk评论                |
 | [六月墨语](https://blog.june.ink/)           | Akuma-real    | v3.4.8       | 友圈+最新评论                  |
 | [Cталин博客](https://blog.jiclub.site/)      | StalinDev54   | v3.4.8       | 侧栏时间轴+关于页              |
-| [逻各斯小屋](https://blog.linux-qitong.top/) | Linux-qitong  | v3.4.9       | 即刻+友圈                      |
+| [栖童の小站](https://blog.linux-qitong.top/) | Linux-qitong  | v3.4.9       | 即刻+友圈                      |
 
 ## 特性
 

@@ -1,6 +1,6 @@
 ---
 project: astro-nano
-stars: 713
+stars: 716
 description: |-
     Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog.
 url: https://github.com/markhorn-dev/astro-nano

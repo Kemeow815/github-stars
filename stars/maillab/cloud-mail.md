@@ -1,6 +1,6 @@
 ---
 project: cloud-mail
-stars: 2845
+stars: 2922
 description: |-
     cloudflare email 邮箱  临时邮箱 邮件发送 mail
 url: https://github.com/maillab/cloud-mail

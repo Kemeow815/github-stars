@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-nexmoe
-stars: 1732
+stars: 1731
 description: |-
     🔥 A special Hexo theme focusing on pictures and images. Images tell stories, and Nexmoe makes them more vivid.
 url: https://github.com/theme-nexmoe/hexo-theme-nexmoe

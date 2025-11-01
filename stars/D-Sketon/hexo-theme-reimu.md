@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-reimu
-stars: 392
+stars: 399
 description: |-
     一款博丽灵梦风格的Hexo主题 | A Hakurei Reimu style Hexo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hexo-theme-reimu
@@ -30,17 +30,18 @@ url: https://github.com/D-Sketon/hexo-theme-reimu
 
 本人是车车人，所以制作了这样一款博丽灵梦风格的 Hexo 主题，融合了 [landscape](https://github.com/hexojs/hexo-theme-landscape)、[Tangyuxian](https://github.com/tangyuxian/hexo-theme-tangyuxian) 和 [Shoka](https://github.com/amehime/hexo-theme-shoka) 三个主题
 
-|framework|repository|version|stars|
-|-|-|-|-|
-|[Hexo](https://hexo.io/)|[hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)|<img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">|<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hexo-theme-reimu">|
-|[Hugo](https://gohugo.io)|[hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)|<img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">|<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">|
-|[Astro](https://astro.build)|[astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu)|<img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">|<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu">|
+| framework                    | repository                                                         | version                                                                                                                                                                                     | stars                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hexo-theme-reimu">  |
+| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">  |
+| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu"> |
 
 **欢迎提交 ISSUE 和 PR！**
 
 ## 特性
 
 ### 基础功能
+
 - ✨ 完整的博客功能
 - 🔄 兼容 Hexo6 及以上版本
 - 📱 响应式布局
@@ -48,11 +49,13 @@ url: https://github.com/D-Sketon/hexo-theme-reimu
 - 🅰️ i18n 支持
 
 ### 代码与数学
+
 - 🖥️ 代码高亮与复制
 - ➗ KaTeX / MathJax3 数学公式支持
 - 📊 Mermaid 流程图支持
 
 ### 搜索与评论
+
 - 🔍 Algolia 搜索集成
 - 🔍 本地搜索集成
 - 💬 多评论系统支持：
@@ -63,10 +66,12 @@ url: https://github.com/D-Sketon/hexo-theme-reimu
   - Giscus
 
 ### 统计与分析
+
 - 📊 文章阅读统计（Valine / Waline）
 - 👥 访客统计（不蒜子）
 
 ### 媒体与交互功能
+
 - 🎵 音乐播放器支持：
   - Aplayer
   - Meting
@@ -78,12 +83,14 @@ url: https://github.com/D-Sketon/hexo-theme-reimu
 - 👾 Live2D / Live2D-widgets 集成
 
 ### 导航与结构
+
 - 📑 目录导航
 - 🔄 PJAX 支持
 - 🔧 ServiceWorker 实现
 - 📰 RSS 订阅
 
 ### 设计与自定义
+
 - 🎨 图标支持：
   - Iconfont
   - FontAwesome7
@@ -217,7 +224,100 @@ sticky: true
 ---
 ```
 
+#### 文章总结
+
+默认关闭，可选择在副标题或者文章开头显示文章摘要
+
+```yaml
+summary:
+  enable: false
+  style: 'subtitle' # 'subtitle' | 'blockquote'
+```
+
 </details>
+
+<details>
+<summary>侧边栏</summary>
+
+### 侧边栏
+
+#### 侧边栏位置
+
+默认在右边，可在内层 `_config.yml` 中修改
+
+```yaml
+sidebar: right # left | right
+```
+
+此外，也可以通过文章的 front-matter 控制，其优先级高于全局配置
+
+```yaml
+---
+sidebar: left # left | right
+---
+```
+
+#### TOC
+
+默认开启，可在内层 `_config.yml` 中修改
+
+```yaml
+toc: true # true | false
+```
+
+此外，也可以通过文章的 front-matter 控制，其优先级高于全局配置
+
+```yaml
+---
+toc: true # true | false
+---
+```
+
+你还可以通过如下配置对目录进行行为配置
+
+```yaml
+toc_options:
+  list_number: true # 是否显示编号
+  min_depth: 1 # 最小深度
+  max_depth: 6 # 最大深度
+```
+
+#### 社交链接
+
+可在内层 `_config.yml` 中配置侧边栏中的社交链接
+
+```yaml
+social:
+  # github: https://github.com/yourname
+  # bilibili: https://space.bilibili.com/yourname
+  # ...
+```
+
+#### 侧边栏小部件
+
+可在内层 `_config.yml` 中配置侧边栏小部件
+
+```yaml
+widgets:
+  # - category # 分类
+  # - tag # 标签
+  # - tagcloud # 标签云
+  # - archive # 归档
+  # - recent_posts # 最近文章
+```
+
+此外，可使用如下配置对小部件进行行为配置
+
+```yaml
+archive_type: "monthly" # monthly | yearly
+show_count: false # 是否显示数量
+tag_limits:  # 标签数量限制
+recent_posts_limits: 5 # 最近文章数量限制
+tagcloud_limits:  # 标签云数量限制
+```
+
+</details>
+
 <details>
 <summary>页脚</summary>
 
@@ -237,7 +337,7 @@ footer:
 
 #### ICP 备案
 
-对于托管在中国大陆的网站，可以根据法规要求显示ICP备案信息
+对于托管在中国大陆的网站，可以根据法规要求显示 ICP 备案信息
 
 ```yml
 icp:
@@ -287,12 +387,12 @@ highlight:
 
 ```yaml
 clipboard:
-  success: 
+  success:
     en: Copy successfully (*^▽^*)
     zh-CN: 复制成功 (*^▽^*)
     zh-TW: 複製成功 (*^▽^*)
     ja: コピー成功 (*^▽^*)
-  fail: 
+  fail:
     en: Copy failed (ﾟ⊿ﾟ)ﾂ
     zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
     zh-TW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
@@ -610,7 +710,7 @@ lang: en
 
 对于 page 的多语言支持，可直接在 `source` 文件夹下新建对应语言的文件夹，并将 `index.md` 放入其中，如 `source/en/about/index.md`。这会生成 `/en/about` 的页面
 
-详情请见 [如何为Hexo添加多语言支持](https://d-sketon.github.io/20250223/hexo-theme-reimu-i18n/)
+详情请见 [如何为 Hexo 添加多语言支持](https://d-sketon.github.io/20250223/hexo-theme-reimu-i18n/)
 
 </details>
 
@@ -740,6 +840,7 @@ reimu_cursor:
 #### 响应式头图（v0.2.0+）
 
 默认关闭，打开后并提供对应尺寸的图片和媒体查询可以在一定程度上提高移动端的 LCP
+
 ```yml
 banner_srcset:
 enable: false
@@ -755,6 +856,7 @@ srcset:
 #### 文章版权声明（v0.2.0+）
 
 默认关闭
+
 ```yml
 article_copyright:
   enable: false # 是否展示版权卡片？
@@ -779,6 +881,7 @@ copyright: true # 是否展示版权卡片？
 #### Quicklink（v0.2.3+）
 
 默认关闭，打开后可以在用户停留在页面时预加载链接，提高用户体验
+
 ```yml
 quicklink:
   enable: false
@@ -790,6 +893,7 @@ quicklink:
 #### 文章过期提醒（v0.2.4+）
 
 默认关闭
+
 ```yml
 outdate:
   enable: false
@@ -804,6 +908,7 @@ outdate:
 #### 赞助（v0.3.2+）
 
 默认关闭
+
 ```yml
 sponsor:
   enable: false # 是否展示赞助二维码？
@@ -832,6 +937,7 @@ sponsor: true # 是否展示赞助二维码？
 #### 首页目录卡片（v1.0.0+）
 
 默认关闭，打开后可以在首页展示目录卡片，用于代替 widget 中的目录
+
 ```yaml
 home_categories:
   enable: false # 是否展示首页目录卡片？
@@ -857,7 +963,7 @@ player:
   position: before_sidebar # before_sidebar / after_sidebar / after_widget
 ```
 
-##### 纯Aplayer
+##### 纯 Aplayer
 
 将 `player.aplayer.enable` 设置为 `true`，并在 `player.aplayer.options` 中参考 [Aplayer Docs](https://aplayer.js.org/#/home?id=options) 进行配置
 
@@ -871,7 +977,7 @@ player:
       autoplay:
       loop:
       order:
-      preload: 
+      preload:
       volume:
       mutex:
       listFolded:
@@ -892,7 +998,7 @@ player:
       autoplay:
       loop:
       order:
-      preload: 
+      preload:
       volume:
       mutex:
       listFolded:
@@ -901,9 +1007,9 @@ player:
     enable: true
     meting_api: # custom api
     options:
-      id: 
-      server: 
-      type: 
+      id:
+      server:
+      type:
       auto:
 ```
 
@@ -939,11 +1045,23 @@ injector:
 ```
 
 #### Pangu 自动分割（v1.6.0+）
+
 默认关闭，自动替你在文章中所有的中文字和半形的英文、数字、符号之间插入空白。
 
 ```yml
 pangu:
-  enable: false 
+  enable: false
+```
+
+#### 三角徽标（v1.10.2+）
+
+默认关闭，打开后会在右上角展示三角徽标，支持自定义链接和图标
+
+```yml
+triangle_badge:
+  enable: false
+  icon: github # 与 social 配置里的 icon 相同
+  link: https://github.com/D-Sketon/hexo-theme-reimu
 ```
 
 </details>
@@ -996,8 +1114,8 @@ pangu:
 
 tagRoulette 是一个互动元素，提供随机标签展示功能，点击按钮后会从预定义的标签池中随机抽取并展示一个标签。
 
-- tags：可选参数，指定标签池，多个标签用英文逗号(,)分隔；未提供时默认使用几个示例标签，例如：tags="记忆衰退,表达欲丧失,更加怠惰,无感,好想睡觉"  
-- icon：可选参数，自定义触发按钮的图标，默认使用： 🕹️（游戏手柄emoji），可替换为任何emoji或文字，如 🎲、🎯、🔄 等
+- tags：可选参数，指定标签池，多个标签用英文逗号(,)分隔；未提供时默认使用几个示例标签，例如：tags="记忆衰退,表达欲丧失,更加怠惰,无感,好想睡觉"
+- icon：可选参数，自定义触发按钮的图标，默认使用： 🕹️（游戏手柄 emoji），可替换为任何 emoji 或文字，如 🎲、🎯、🔄 等
 
 </details>
 
@@ -1068,51 +1186,51 @@ v1.8.0 对外暴露了 `internal_theme` 配置用于定制主题颜色 token
 ```yaml
 internal_theme:
   light:
-    --red-0: '#ff0000'
-    --red-1: '#ff5252'
-    --red-2: '#ff7c7c'
-    --red-3: '#ffafaf'
-    --red-4: '#ffd0d0'
-    --red-5: '#ffecec'
-    --red-5-5: '#fff3f3'
-    --red-6: '#fff7f7'
-    --color-red-6-shadow: 'rgba(255, 78, 78, 0.6)'
-    --color-red-3-shadow: 'rgba(255, 78, 78, 0.3)'
+    --red-0: "#ff0000"
+    --red-1: "#ff5252"
+    --red-2: "#ff7c7c"
+    --red-3: "#ffafaf"
+    --red-4: "#ffd0d0"
+    --red-5: "#ffecec"
+    --red-5-5: "#fff3f3"
+    --red-6: "#fff7f7"
+    --color-red-6-shadow: "rgba(255, 78, 78, 0.6)"
+    --color-red-3-shadow: "rgba(255, 78, 78, 0.3)"
 
-    --highlight-nav: '#e6e6e6'
-    --highlight-scrollbar: '#d6d6d6'
-    --highlight-background: '#f7f7f7'
-    --highlight-current-line: '#dadada'
-    --highlight-selection: '#e9e9e9'
-    --highlight-foreground: '#4d4d4d'
-    --highlight-comment: '#7d7d7d'
-    --highlight-red: '#c8362b'
-    --highlight-orange: '#b66014'
-    --highlight-yellow: '#cb911d'
-    --highlight-green: '#2ea52e'
-    --highlight-aqua: '#479d9d'
-    --highlight-blue: '#1973b8'
-    --highlight-purple: '#7135ac'
+    --highlight-nav: "#e6e6e6"
+    --highlight-scrollbar: "#d6d6d6"
+    --highlight-background: "#f7f7f7"
+    --highlight-current-line: "#dadada"
+    --highlight-selection: "#e9e9e9"
+    --highlight-foreground: "#4d4d4d"
+    --highlight-comment: "#7d7d7d"
+    --highlight-red: "#c8362b"
+    --highlight-orange: "#b66014"
+    --highlight-yellow: "#cb911d"
+    --highlight-green: "#2ea52e"
+    --highlight-aqua: "#479d9d"
+    --highlight-blue: "#1973b8"
+    --highlight-purple: "#7135ac"
   dark:
-    --red-4: 'rgba(255, 208, 208, 0.5)'
-    --red-5: 'rgba(255,228,228,0.15)'
-    --red-5-5: 'rgba(255,236,236,0.05)'
-    --red-6: 'rgba(255, 243, 243, 0.2)'
+    --red-4: "rgba(255, 208, 208, 0.5)"
+    --red-5: "rgba(255,228,228,0.15)"
+    --red-5-5: "rgba(255,236,236,0.05)"
+    --red-6: "rgba(255, 243, 243, 0.2)"
 
-    --highlight-nav: '#2e353f'
-    --highlight-scrollbar: '#454d59'
-    --highlight-background: '#22272e'
-    --highlight-current-line: '#393939'
-    --highlight-selection: '#515151'
-    --highlight-foreground: '#cccccc'
-    --highlight-comment: '#999999'
-    --highlight-red: '#f47067'
-    --highlight-orange: '#f69d50'
-    --highlight-yellow: '#ffcc66'
-    --highlight-green: '#99cc99'
-    --highlight-aqua: '#66cccc'
-    --highlight-blue: '#54b6ff'
-    --highlight-purple: '#dcbdfb'
+    --highlight-nav: "#2e353f"
+    --highlight-scrollbar: "#454d59"
+    --highlight-background: "#22272e"
+    --highlight-current-line: "#393939"
+    --highlight-selection: "#515151"
+    --highlight-foreground: "#cccccc"
+    --highlight-comment: "#999999"
+    --highlight-red: "#f47067"
+    --highlight-orange: "#f69d50"
+    --highlight-yellow: "#ffcc66"
+    --highlight-green: "#99cc99"
+    --highlight-aqua: "#66cccc"
+    --highlight-blue: "#54b6ff"
+    --highlight-purple: "#dcbdfb"
 ```
 
 #### 自定义字体
@@ -1270,7 +1388,7 @@ hexo-theme-reimu 的 `vendor` 结构非常灵活，其支持以下几种形式�
   webcache: https://npm.webcache.cn/ # 仅针对npm加速
   ```
   用户可根据网络状况自行切换 CDN 源。
-- `https://` 开头：直接使用绝对链接，如 `https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css` 
+- `https://` 开头：直接使用绝对链接，如 `https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css`
 - `/` 开头：本地资源，你可以把资源放在 `source` 文件夹下和 `_posts` 同级，然后使用诸如 `/katex.min.css` 的路径引用
 
 此外，`vendor` 还支持 SRI 校验，你可以在 `vendor` 中使用 `SHA-384` 用于校验资源的完整性，如：
@@ -1284,6 +1402,7 @@ js:
 ```
 
 以上两种形式均支持，建议对外部 CDN 资源使用 SRI 校验，以确保资源的完整性。
+
 </details>
 
 <details>
@@ -1291,30 +1410,30 @@ js:
 
 ### Front-matter 字段
 
-| meta        | 描述                                            | 类型                                                   | 取值逻辑           | 版本      |
-| ----------- | ----------------------------------------------- | ------------------------------------------------------ | ------------------ | --------- |
-| title       | 标题                                            | `string`                                               | 文章的文件名       | Hexo 内置 |
-| date        | 创建日期                                        | `date`                                                 | 文件的创建日期     | Hexo 内置 |
-| updated     | 更新日期                                        | `date`                                                 | 文件的更新日期     | Hexo 内置 |
-| tags        | 标签                                            | `string[] \| string[][]`                               | -                  | Hexo 内置 |
-| categories  | 分类                                            | `string[] \| string[][]`                               | -                  | Hexo 内置 |
-| permalink   | 覆盖文章的永久链接                              | `string`                                               | -                  | Hexo 内置 |
-| excerpt     | 文章摘要                                        | `string`                                               | -                  | Hexo 内置 |
-| description | 文章描述                                        | `string`                                               | -                  | 0.0.1     |
-| link        | 用于文章直接指向外部链接                        | `string`                                               | -                  | 0.0.1     |
-| sticky      | 是否置顶文章                                    | `boolean`                                              | `false`            | 0.0.1     |
-| photos      | 文章照片墙                                      | `string[]`                                             | -                  | 0.0.1     |
-| mermaid     | 是否开启 mermaid，需配合 `mermaid` 配置一起使用 | `boolean`                                              | `false`                  | 0.2.0     |
-| copyright   | 是否开启文章版权声明                            | `boolean`                                              | 不传默认走全局配置 | 0.3.1     |
-| sponsor     | 是否开启文章赞助                                | `boolean`                                              | 不传默认走全局配置 | 0.3.2     |
-| comments    | 是否开启文章评论                                | `boolean`                                              | 不传默认走全局配置 | 0.3.2     |
+| meta        | 描述                                            | 类型                                               | 取值逻辑           | 版本      |
+| ----------- | ----------------------------------------------- | -------------------------------------------------- | ------------------ | --------- |
+| title       | 标题                                            | `string`                                           | 文章的文件名       | Hexo 内置 |
+| date        | 创建日期                                        | `date`                                             | 文件的创建日期     | Hexo 内置 |
+| updated     | 更新日期                                        | `date`                                             | 文件的更新日期     | Hexo 内置 |
+| tags        | 标签                                            | `string[] \| string[][]`                           | -                  | Hexo 内置 |
+| categories  | 分类                                            | `string[] \| string[][]`                           | -                  | Hexo 内置 |
+| permalink   | 覆盖文章的永久链接                              | `string`                                           | -                  | Hexo 内置 |
+| excerpt     | 文章摘要                                        | `string`                                           | -                  | Hexo 内置 |
+| description | 文章描述                                        | `string`                                           | -                  | 0.0.1     |
+| link        | 用于文章直接指向外部链接                        | `string`                                           | -                  | 0.0.1     |
+| sticky      | 是否置顶文章                                    | `boolean`                                          | `false`            | 0.0.1     |
+| photos      | 文章照片墙                                      | `string[]`                                         | -                  | 0.0.1     |
+| mermaid     | 是否开启 mermaid，需配合 `mermaid` 配置一起使用 | `boolean`                                          | `false`            | 0.2.0     |
+| copyright   | 是否开启文章版权声明                            | `boolean`                                          | 不传默认走全局配置 | 0.3.1     |
+| sponsor     | 是否开启文章赞助                                | `boolean`                                          | 不传默认走全局配置 | 0.3.2     |
+| comments    | 是否开启文章评论                                | `boolean`                                          | 不传默认走全局配置 | 0.3.2     |
 | cover       | 文章封面                                        | `https://example.com \| false \| rgb(255,117,117)` | 不传默认走全局配置 | 0.0.7     |
-| sidebar     | 文章侧边栏位置                                  | `false \| 'left' \| 'right'`                           | 不传默认走全局配置 | 1.3.0     |
-| lang        | 文章语言，需配合 `i18n` 配置一起使用            | `string`                                               | -                  | 1.4.0     |
-| toc         | 是否开启文章目录                                | `boolean`                                              | 不传默认走全局配置 | 1.6.0     |
-| outdated    | 文章是否过期                                    | `boolean`                                              | 不传默认走全局配置 | 1.10.1    |
-| author      | 文章作者，用于文章版权和分享卡片                | `string`                                               | 不传默认走全局配置 | 1.10.2    |
-
+| sidebar     | 文章侧边栏位置                                  | `false \| 'left' \| 'right'`                       | 不传默认走全局配置 | 1.3.0     |
+| lang        | 文章语言，需配合 `i18n` 配置一起使用            | `string`                                           | -                  | 1.4.0     |
+| toc         | 是否开启文章目录                                | `boolean`                                          | 不传默认走全局配置 | 1.6.0     |
+| outdated    | 文章是否过期                                    | `boolean`                                          | 不传默认走全局配置 | 1.10.1    |
+| author      | 文章作者，用于文章版权和分享卡片                | `string`                                           | 不传默认走全局配置 | 1.10.2    |
+| keywords    | 文章关键词                                      | `string[] \| string`                               | 不传默认走全局配置 | 1.10.4    |
 </details>
 
 ## 贡献者
@@ -1324,6 +1443,20 @@ js:
 ## 赞助 💘
 
 [爱发电-afdian](https://afdian.tv/a/dsketon)
+
+## 相关项目
+
+| 包名                                                                                                  | 版本                                                                                 | npm                                                                                     | jsdelivr                                                                                         |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)                                      | ![NPM Version](https://img.shields.io/npm/v/hexo-theme-reimu)                        | ![NPM Downloads](https://img.shields.io/npm/dm/hexo-theme-reimu)                        | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/hexo-theme-reimu)                        |
+| [theme-shokax-pjax](https://github.com/theme-shoka-x/theme-shokax-pjax)                               | ![NPM Version](https://img.shields.io/npm/v/theme-shokax-pjax)                       | ![NPM Downloads](https://img.shields.io/npm/dm/theme-shokax-pjax)                       | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/theme-shokax-pjax)                       |
+| [theme-shokax-anime](https://github.com/theme-shoka-x/theme-shokax-anime)                             | ![NPM Version](https://img.shields.io/npm/v/theme-shokax-anime)                      | ![NPM Downloads](https://img.shields.io/npm/dm/theme-shokax-anime)                      | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/theme-shokax-anime)                      |
+| [mouse-firework](https://github.com/D-Sketon/mouse-firework)                                          | ![NPM Version](https://img.shields.io/npm/v/mouse-firework)                          | ![NPM Downloads](https://img.shields.io/npm/dm/mouse-firework)                          | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/mouse-firework)                          |
+| [@reimujs/aos](https://github.com/D-Sketon/aos.js)                                                    | ![NPM Version](https://img.shields.io/npm/v/@reimujs/aos)                            | ![NPM Downloads](https://img.shields.io/npm/dm/@reimujs/aos)                            | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/@reimujs/aos)                            |
+| [@reimujs/hexo-algoliasearch](https://github.com/D-Sketon/hexo-algoliasearch)                         | ![NPM Version](https://img.shields.io/npm/v/@reimujs/hexo-algoliasearch)             | ![NPM Downloads](https://img.shields.io/npm/dm/@reimujs/hexo-algoliasearch)             | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/@reimujs/hexo-algoliasearch)             |
+| [@reimujs/hexo-renderer-markdown-it-plus](https://github.com/D-Sketon/hexo-renderer-markdown-it-plus) | ![NPM Version](https://img.shields.io/npm/v/@reimujs/hexo-renderer-markdown-it-plus) | ![NPM Downloads](https://img.shields.io/npm/dm/@reimujs/hexo-renderer-markdown-it-plus) | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/@reimujs/hexo-renderer-markdown-it-plus) |
+| [@reimujs/instantsearch.js](https://github.com/D-Sketon/instantsearch)                                | ![NPM Version](https://img.shields.io/npm/v/@reimujs/instantsearch.js)               | ![NPM Downloads](https://img.shields.io/npm/dm/@reimujs/instantsearch.js)               | ![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/@reimujs/instantsearch.js)               |
+| [plugin-live2d](https://github.com/D-Sketon/plugin-live2d)                                            | -                                                                                    | -                                                                                       | ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/D-Sketon/plugin-live2d)          |
 
 ## 许可
 

@@ -1,15 +1,27 @@
 ---
 project: Ech0
-stars: 688
+stars: 884
 description: |-
     Ech0 - 面向个人的新一代开源、自托管、专注思想流动的轻量级联邦发布平台
 url: https://github.com/lin-snow/Ech0
 ---
 
-<div align="right">
-  <a title="en" href="./README.en.md"><img src="https://img.shields.io/badge/-English-545759?style=for-the-badge" alt="English"></a>
+<p align="left">
+  <a href="https://hellogithub.com/repository/lin-snow/Ech0" target="_blank">
+    <img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8f3cafdd6ef3445dbb1c0ed6dd34c8b5&claim_uid=swhbQfnJvKS0t7I&theme=neutral"
+         alt="Featured｜HelloGitHub"
+         width="250"
+         height="54" />
+  </a>
+</p>
+
+<p align="right">
+  <a title="en" href="./README.en.md">
+    <img src="https://img.shields.io/badge/-English-545759?style=for-the-badge" alt="English">
+  </a>
   <img src="https://img.shields.io/badge/-简体中文-F54A00?style=for-the-badge" alt="简体中文">
-</div>
+</p>
+
 
 <div align="center">
   <img alt="Ech0" src="./docs/imgs/logo.svg" width="150">
@@ -21,7 +33,7 @@ url: https://github.com/lin-snow/Ech0
 
 <div align="center">
 
-[![GitHub release](https://img.shields.io/github/v/release/lin-snow/Ech0)](https://github.com/lin-snow/Ech0/releases) ![License](https://img.shields.io/github/license/lin-snow/Ech0) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lin-snow/Ech0)
+[![GitHub release](https://img.shields.io/github/v/release/lin-snow/Ech0)](https://github.com/lin-snow/Ech0/releases) ![License](https://img.shields.io/github/license/lin-snow/Ech0) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lin-snow/Ech0) [![Hello Github](https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8f3cafdd6ef3445dbb1c0ed6dd34c8b5&claim_uid=swhbQfnJvKS0t7I&theme=small)](https://hellogithub.com/repository/lin-snow/Ech0)
 
 </div>
 
@@ -48,8 +60,6 @@ Ech0 是一款专为个人用户设计的新一代开源自托管平台，低成
     - [🔄 Docker](#-docker)
     - [💎 Docker Compose](#-docker-compose-1)
     - [☸️ Kubernetes (Helm)](#️-kubernetes-helm-1)
-  - [访问方式](#访问方式)
-    - [🖥️ TUI 模式](#️-tui-模式)
   - [常见问题](#常见问题)
   - [反馈与社区](#反馈与社区)
   - [项目架构](#项目架构)
@@ -57,9 +67,9 @@ Ech0 是一款专为个人用户设计的新一代开源自托管平台，低成
     - [后端环境要求](#后端环境要求)
     - [前端环境要求](#前端环境要求)
     - [启动前后端联调](#启动前后端联调)
-  - [致谢](#致谢)
-  - [Star 增长曲线](#star-增长曲线)
   - [感谢充电支持！](#感谢充电支持)
+  - [Star 增长曲线](#star-增长曲线)
+  - [致谢](#致谢)
   - [支持项目](#支持项目)
 
 </details>
@@ -104,9 +114,9 @@ Ech0 是一款专为个人用户设计的新一代开源自托管平台，低成
 
 ## 极速部署
 
-<!-- ### 🧙 脚本一键部署（推荐）
+<!-- ### 🧙 脚本一键部署（推荐,请确保网络可以访问GitHub Release）
 ```shell
-curl -fsSL "http://echo.soopy.cn/install.sh" -o install_ech0.sh && bash install_ech0.sh
+curl -fsSL "https://sh.soopy.cn/ech0.sh" -o ech0.sh && bash ech0.sh
 ``` -->
 
 ### 🐳 Docker 部署（推荐）
@@ -219,7 +229,7 @@ docker image prune -f
    helm upgrade my-ech0 ./charts/ech0 --namespace my-namespace
    ```
 
----
+<!-- ---
 
 ## 访问方式
 
@@ -227,7 +237,7 @@ docker image prune -f
 
 ![TUI 模式](./docs/imgs/tui.png)
 
-直接运行对应的二进制文件即可。例如在 Windows 中，双击 `Ech0.exe`。
+直接运行对应的二进制文件即可。例如在 Windows 中，双击 `Ech0.exe`。 -->
 
 <!-- ### 🔐 SSH 模式
 
@@ -291,9 +301,9 @@ ssh -p 6278 ssh.vaaat.com
 - 针对新增或改进的需求，欢迎前往 [Discussions](https://github.com/lin-snow/Ech0/discussions) 一起交流。
 - 官方 QQ 群号：1065435773
 
-| 官方QQ交流群 | 其它交流群 |
-| ---------- | ---------------- |
-| <img src="./docs/imgs/qq.png" alt="QQ群" style="height:250px;"> | 暂无 |
+| 官方QQ交流群                                                    | 其它交流群 |
+| --------------------------------------------------------------- | ---------- |
+| <img src="./docs/imgs/qq.png" alt="QQ群" style="height:250px;"> | 暂无       |
 
 
 ---
@@ -365,14 +375,18 @@ pnpm dev # 启动前端预览
 
 ---
 
-## 致谢
+## 感谢充电支持！
 
-- 感谢 [Gin](https://github.com/gin-gonic/gin) 提供高性能的后端框架支持
-- 感谢 [Md-Editor-V3](https://github.com/imzbf/md-editor-v3) 提供强大易用的 Markdown 编辑器
-- 感谢 [Figma](https://www.figma.com/) 提供便捷的 Logo 设计工具
-- 感谢 [VSCode](https://code.visualstudio.com/) 和 [Jetbrain GoLand](https://www.jetbrains.com/) 提供强大易用的开发工具
-- 感谢异家人群友提供的各种改进建议和问题反馈
-- 感谢所有开源社区的贡献者与支持者
+感谢所有为项目充电的朋友！你们的支持让项目持续发光发热 💡✨
+
+
+|                        ⚙️ 用户                        | 🔋 充电日期 | 💬 留言                 |
+| :--------------------------------------------------: | :--------: | :--------------------- |
+|                     🧑‍💻 匿名小伙伴                     | 2025-5-19  | 笨比程序员买杯糖水喝吧 |
+|        🧑‍💻 [@sseaan](https://github.com/sseaan)        | 2025-7-27  | Ech0是个好东西🥳        |
+| 🧑‍💻 [@QYG2297248353](https://github.com/QYG2297248353) | 2025-10-10 | 无                     |
+|    🧑‍💻 [@continue33](https://github.com/continue33)    | 2025-10-23 | 感谢修复R2             |
+
 
 ---
 
@@ -388,18 +402,14 @@ pnpm dev # 启动前端预览
 
 ---
 
-## 感谢充电支持！
+## 致谢
 
-感谢所有为项目充电的朋友！你们的支持让项目持续发光发热 💡✨
+- 感谢广大用户提供的各种改进建议和问题反馈
+- 感谢所有开源社区的贡献者与支持者
 
+[![Contributors](https://contrib.rocks/image?repo=lin-snow/Ech0)](https://contrib.rocks/image?repo=lin-snow/Ech0)
 
-| ⚙️ 用户 | 🔋 充电日期 | 💬 留言 |
-| :------: | :----------: | :------ |
-| 🧑‍💻 匿名小伙伴 | 2025-5-19 | 笨比程序员买杯糖水喝吧 |
-| 🧑‍💻 [@sseaan](https://github.com/sseaan) | 2025-7-27 | Ech0是个好东西🥳 |
-| 🧑‍💻 [@QYG2297248353](https://github.com/QYG2297248353) | 2025-10-10 | 无 |
-| 🧑‍💻 [@continue33](https://github.com/continue33) | 2025-10-23 | 感谢修复R2 |
-
+![Alt](https://repobeats.axiom.co/api/embed/d69b9177e4a121e31aaed95354ff862c928ca22d.svg "Repobeats analytics image")
 
 ---
 
@@ -411,11 +421,12 @@ pnpm dev # 启动前端预览
 Ech0 完全开源且免费，持续维护和优化离不开大家的支持。如果这个项目对你有所帮助，也欢迎通过赞助支持项目的持续发展。你的每一份鼓励和支持，都是我们前进的动力！
 你可以向打赏二维码付款，然后备注你的github名称，将在首页 `README.md` 页面向所有展示你的贡献
 
-| 支持平台 | 二维码 |
-| :------: | :-------------: |
+|                  支持平台                  |                         二维码                         |
+| :----------------------------------------: | :----------------------------------------------------: |
 | [**爱发电**](https://afdian.com/a/l1nsn0w) | <img src="./docs/imgs/pay.jpeg" alt="Pay" width="200"> |
 
 ---
+
 
 ```cpp
 

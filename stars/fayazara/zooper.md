@@ -1,6 +1,6 @@
 ---
 project: zooper
-stars: 351
+stars: 352
 description: |-
     Zooper - a beautiful and minimal portfolio site made with Nuxt 3, Nuxt content module and tailwindcss
 url: https://github.com/fayazara/zooper

@@ -1,6 +1,6 @@
 ---
 project: mm-notes
-stars: 173
+stars: 172
 description: |-
     茂茂物语: 各种笔记记录（想到啥写啥系列）
 url: https://github.com/maomao1996/mm-notes

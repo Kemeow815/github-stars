@@ -1,6 +1,6 @@
 ---
 project: 163MusicLyrics
-stars: 3436
+stars: 3453
 description: |-
     云音乐歌词获取处理工具【网易云、QQ音乐】
 url: https://github.com/jitwxs/163MusicLyrics

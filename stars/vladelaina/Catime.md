@@ -1,6 +1,6 @@
 ---
 project: Catime
-stars: 2980
+stars: 2998
 description: |-
     A tiny (803KB) but mighty timer in pure C. Supports clock, countdown, stopwatch, Pomodoro, and fully customizable tray animations (GIFs, CPU/Mem%).
 url: https://github.com/vladelaina/Catime

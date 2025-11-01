@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-aurora
-stars: 1542
+stars: 1543
 description: |-
     🏳️‍🌈 Futuristic auroral Hexo theme.
 url: https://github.com/auroral-ui/hexo-theme-aurora

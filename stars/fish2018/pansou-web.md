@@ -1,6 +1,6 @@
 ---
 project: pansou-web
-stars: 112
+stars: 122
 description: |-
     一个PanSou的简约版页面
 url: https://github.com/fish2018/pansou-web
@@ -50,8 +50,6 @@ Docker会自动选择适合您系统的架构版本。
 | 变量名 | 默认值 | 说明 |
 |--------|--------|------|
 | `DOMAIN` | `localhost` | 访问域名 |
-| `PANSOU_PORT` | `8888` | 后端端口 |
-| `PANSOU_HOST` | `127.0.0.1` | 后端地址 |
 | `ENABLED_PLUGINS` | `labi,zhizhen,shandian,duoduo,muou,wanou` | 启用的搜索插件（逗号分隔） |
 
 > 🔌 **重要变更**: 从当前版本开始，必须通过 `ENABLED_PLUGINS` 显式指定要启用的插件，否则不会启用任何插件。
@@ -66,20 +64,29 @@ Docker会自动选择适合您系统的架构版本。
 
 ### 代理配置
 
-| 变量名 | 默认值 | 说明 |
-|--------|--------|------|
-| `SOCKS5_PROXY` | - | SOCKS5代理地址 (如: `socks5://127.0.0.1:1080`) |
-| `HTTP_PROXY` | - | HTTP代理地址 |
-| `HTTPS_PROXY` | - | HTTPS代理地址 |
+| 变量名 | 默认值 | 说明 | 示例 |
+|--------|--------|------|------|
+| `PROXY` | 无 | 代理服务器地址 | `socks5://xxx.xxx.xxx.xxx:7897` |
 
-> 🌐 **代理说明**: 用于访问受限地区的Telegram站点，支持多种代理类型。
+**支持的代理类型：**
+- SOCKS5代理: `socks5://xxx.xxx.xxx.xxx:7897`
+
+**使用场景：**
+- 访问被墙的Telegram频道
+- 加速国外资源访问
+- 企业内网代理
+
+```bash
+# 示例
+-e PROXY=socks5://xxx.xxx.xxx.xxx:7897
+```
 
 ### 性能配置
 
 | 变量名 | 默认值 | 说明 |
 |--------|--------|------|
 | `CACHE_ENABLED` | `true` | 是否启用缓存 |
-| `CACHE_TTL` | `3600` | 缓存过期时间（秒） |
+| `CACHE_TTL` | `60` | 缓存过期时间（分） |
 | `MAX_CONCURRENCY` | `200` | 最大并发数 |
 | `MAX_PAGES` | `30` | 最大搜索页数 |
 
@@ -96,88 +103,108 @@ Docker会自动选择适合您系统的架构版本。
 
 > 🔐 **安全认证**: 启用后，访问应用需要登录。适合需要访问控制的场景。
 
-### 自定义配置示例
+---
 
-#### 基础配置
+## 🎯 常见配置场景
+
+### 场景1：个人使用（最小配置）
+
 ```bash
 docker run -d \
   --name pansou \
   -p 80:80 \
-  -e DOMAIN=yourdomain.com \
   -v pansou-data:/app/data \
-  ghcr.io/fish2018/pansou-web
+  --restart unless-stopped \
+  ghcr.io/fish2018/pansou-web:latest
 ```
 
-#### 完整配置（代理+自定义）
+### 场景2：公网服务（带域名和SSL）
+
 ```bash
+# 1. 准备SSL证书
+mkdir -p /opt/pansou/ssl
+# 将证书放到 /opt/pansou/ssl/fullchain.pem 和 privkey.pem
+
+# 2. 启动容器
 docker run -d \
   --name pansou \
   -p 80:80 \
-  -e DOMAIN=yourdomain.com \
-  -e SOCKS5_PROXY=socks5://127.0.0.1:1080 \
-  -e CHANNELS=tgsearchers3,yunpanxunlei,BaiduCloudDisk \
-  -e ENABLED_PLUGINS=labi,zhizhen,shandian,duoduo,muou,wanou \
+  -p 443:443 \
+  -e DOMAIN=pansou.example.com \
   -v pansou-data:/app/data \
-  ghcr.io/fish2018/pansou-web
+  -v /opt/pansou/ssl:/app/data/ssl:ro \
+  --restart unless-stopped \
+  ghcr.io/fish2018/pansou-web:latest
 ```
 
-#### 启用认证配置
+### 场景3：需要代理访问Telegram
+
 ```bash
 docker run -d \
   --name pansou \
   -p 80:80 \
-  -e DOMAIN=yourdomain.com \
+  -e PROXY=socks5://127.0.0.1:7897 \
+  -v pansou-data:/app/data \
+  --restart unless-stopped \
+  --network host \
+  ghcr.io/fish2018/pansou-web:latest
+```
+
+**注意：**
+- 使用 `--network host` 以访问宿主机代理
+- 或者将代理服务也容器化并使用 docker 网络
+
+### 场景4：启用访问认证
+
+```bash
+docker run -d \
+  --name pansou \
+  -p 80:80 \
   -e AUTH_ENABLED=true \
-  -e AUTH_USERS=admin:admin123,user:pass456 \
-  -e AUTH_TOKEN_EXPIRY=24 \
-  -e ENABLED_PLUGINS=labi,zhizhen,shandian,duoduo,muou,wanou \
+  -e AUTH_USERS=admin:MySecretPass123,viewer:ViewOnly456 \
+  -e AUTH_TOKEN_EXPIRY=168 \
+  -e AUTH_JWT_SECRET=$(openssl rand -base64 32) \
   -v pansou-data:/app/data \
-  ghcr.io/fish2018/pansou-web
+  --restart unless-stopped \
+  ghcr.io/fish2018/pansou-web:latest
 ```
 
-> 🚀 **开箱即用**: 镜像已内置数十个频道和性能配置，仅需配置代理即可访问受限地区的Telegram站点。
+---
 
-## 数据持久化
+## 📁 数据目录说明
 
+### 卷挂载
+
+**推荐：使用命名卷（Docker管理）**
 ```bash
-# 数据目录挂载
--v /path/to/data:/app/data
-
-# 日志目录挂载  
--v /path/to/logs:/app/logs
-
-# SSL证书目录（可选）
--v /path/to/ssl:/app/data/ssl
+-v pansou-data:/app/data
 ```
 
-## HTTPS 配置
-
-将SSL证书放入数据目录的ssl子目录：
-
-```
-/app/data/ssl/
-├── fullchain.pem    # 证书文件
-└── privkey.pem      # 私钥文件
-```
-
-重启容器后自动启用HTTPS。
-
-## 常用命令
-
+**或：使用绑定挂载（指定宿主机路径）**
 ```bash
-# 查看运行状态
-docker ps
-
-# 查看日志
-docker logs pansou
-
-# 重启服务
-docker restart pansou
-
-# 停止服务
-docker stop pansou
-
-# 更新镜像
-docker pull ghcr.io/fish2018/pansou-web && docker restart pansou
+-v /opt/pansou/data:/app/data
 ```
 
+### 目录结构详解
+
+```
+/app/data/
+│
+├── cache/                          # 缓存目录（约100MB-1GB）
+│   ├── disk/                       # 磁盘缓存
+│   │   ├── [hash].cache           # 搜索结果缓存
+│   │   └── metadata.db            # 缓存元数据
+│   └── qqpd_users/                # QQPD插件数据
+│       └── [hash].json            # 用户配置和频道
+│
+├── logs/                           # 日志目录（建议定期清理）
+│   ├── backend/                    # 后端日志
+│   │   └── pansou.log             # 主日志文件
+│   └── nginx/                      # Nginx日志
+│       ├── access.log             # 访问日志
+│       └── error.log              # 错误日志
+│
+└── ssl/                            # SSL证书目录
+    ├── fullchain.pem              # 完整证书链
+    └── privkey.pem                # 私钥
+```

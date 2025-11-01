@@ -1,6 +1,6 @@
 ---
 project: CorePressWPTheme
-stars: 991
+stars: 994
 description: |-
     CorePress 主题，一款高性能，高颜值的WordPress主题
 url: https://github.com/ghboke/CorePressWPTheme

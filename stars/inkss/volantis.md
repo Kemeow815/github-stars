@@ -1,6 +1,6 @@
 ---
 project: volantis
-stars: 26
+stars: 27
 description: |-
     基于 volantis 的个人修改
 url: https://github.com/inkss/volantis

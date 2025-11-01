@@ -1,6 +1,6 @@
 ---
 project: Janus
-stars: 17589
+stars: 17603
 description: |-
     Janus-Series: Unified Multimodal Understanding and Generation Models
 url: https://github.com/deepseek-ai/Janus

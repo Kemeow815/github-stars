@@ -1,6 +1,6 @@
 ---
 project: typecho-bearhoney
-stars: 72
+stars: 71
 description: |-
     一款优雅的Typecho日志型主题
 url: https://github.com/whitebearcode/typecho-bearhoney

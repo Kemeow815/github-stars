@@ -1,6 +1,6 @@
 ---
 project: Cloudflare-Memos
-stars: 1
+stars: 3
 description: |-
     一个简单的基于Cloudflare Workers + D1 +R2 的备忘录多用户功能实现
 url: https://github.com/jkjoy/Cloudflare-Memos

@@ -1,6 +1,6 @@
 ---
 project: attila
-stars: 183
+stars: 184
 description: |-
     Pelican version of ghost theme https://github.com/zutrinken/attila
 url: https://github.com/arulrajnet/attila

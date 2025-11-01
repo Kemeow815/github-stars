@@ -1,6 +1,6 @@
 ---
 project: afilmory
-stars: 1810
+stars: 1871
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/afilmory
@@ -172,7 +172,7 @@ pnpm build
 ### Notes
 
 - Ensure your S3 bucket already contains photo files
-- If using remote repository, configure `builder.config.json` first
+- If using remote repository, configure `builder.config.ts` first
 
 ## 🔧 Advanced Usage
 
@@ -209,7 +209,7 @@ export async function customImageProcessor(buffer: Buffer) {
 
 ## 📄 License
 
-AGPL v3 License © 2025 Afilmory Team
+Attribution Network License (ANL) v1.0 © 2025 Afilmory Team. See [LICENSE](LICENSE) for more details.
 
 ## 🔗 Related Links
 

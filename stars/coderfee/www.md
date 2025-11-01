@@ -1,6 +1,6 @@
 ---
 project: www
-stars: 5
+stars: 6
 description: |-
     coderfee's blog 个人博客，使用 Astro 构建
 url: https://github.com/coderfee/www

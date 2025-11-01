@@ -1,6 +1,6 @@
 ---
 project: remio-home
-stars: 178
+stars: 180
 description: |-
     个人主页/homepage/remio-home
 url: https://github.com/kasuie/remio-home

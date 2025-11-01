@@ -1,6 +1,6 @@
 ---
 project: LunaTV
-stars: 6201
+stars: 6374
 description: |-
     本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源
 url: https://github.com/MoonTechLab/LunaTV
@@ -264,7 +264,7 @@ Zeabur 是一站式云端部署平台，使用预构建的 Docker 镜像可以�
    - 点击需要更新的服务（LunaTV 或 KVRocks）
 
 2. **重启服务**
-   - 点击右上角的 **"Restart"** 按钮
+   - 点击 **"服务状态"** 页面，再点击 **"重启当前版本"** 按钮
    - Zeabur 会自动拉取最新的 `latest` 镜像并重新部署
 
 > 💡 **提示**：

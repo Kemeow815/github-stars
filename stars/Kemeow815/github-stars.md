@@ -1,6 +1,6 @@
 ---
 project: github-stars
-stars: 1
+stars: 2
 description: |-
     获取你所有的星标仓库，并将它们的 README 文件保存为 Markdown 格式。
 url: https://github.com/Kemeow815/github-stars

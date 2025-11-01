@@ -1,6 +1,6 @@
 ---
 project: MeowNocode
-stars: 412
+stars: 420
 description: |-
     memos类开源高颜值便签应用
 url: https://github.com/y-shi23/MeowNocode
@@ -18,6 +18,7 @@ Meow App 是一个简洁的笔记应用，支持本地存储和云端同步。�
 - AI对话
 
 ## 特别感谢
+- CNB cloud native build<https://cnb.cool/>
 - Meituan Nocode<https://nocode.cn>
 - 各种 AI Coding Application。欢迎 Pull request!
 
@@ -88,6 +89,40 @@ npm run dev
 4. 在Pages设置中，添加D1数据库绑定：
    - 变量名：`DB`
    - 数据库：选择你创建的D1数据库
+
+### Docker 自部署（SQLite）
+
+自部署版本复用了同一套前端构建产物，并通过自带的 Express + SQLite 后端提供 `/api` 接口。数据默认持久化在宿主机目录 `/data` 映射的 SQLite 文件中，与网页版依然兼容。
+
+```
+docker run -d \
+   --name meownocode \
+   -p 3000:3000 \
+   -e APP_PASSWORD=your-strong-password \
+   -v ./meownocode-data:/data \
+   docker.cnb.cool/1oved/meownocode
+```
+
+> `./meownocode-data` 会在宿主机创建用于持久化的目录，容器中的 `SQLITE_DB_PATH` 默认为 `/data/meownocode.db`。
+
+
+#### 环境变量说明
+
+- `APP_PASSWORD`：前端登录所需的口令；留空表示关闭鉴权（不推荐）。
+- `PORT`：后端监听端口，默认 `3000`。
+- `SQLITE_DB_PATH`：SQLite 文件绝对路径，默认 `/data/meownocode.db`。
+- `CORS_ALLOW_ORIGIN`：逗号分隔的允许域名，默认 `*`。
+- `INIT_TOKEN`：可选的初始化口令，若配置则 `/api/init` 需要 `Authorization: Bearer <token>`。
+- `SERVE_STATIC`：设为 `false` 时仅提供 API，不托管前端静态资源。
+
+#### 本地一体化运行（无需 Docker）
+
+```
+npm run build
+npm run server
+```
+
+构建产物会存放在 `dist/` 下，后端同样监听 `http://localhost:3000` 并使用 `data/meownocode.db` 作为本地持久化文件。
 
 ## 使用指南
 

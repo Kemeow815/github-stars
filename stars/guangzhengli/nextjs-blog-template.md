@@ -1,6 +1,6 @@
 ---
 project: nextjs-blog-template
-stars: 144
+stars: 147
 description: |-
     Next.js Blog Template for ladder theme
 url: https://github.com/guangzhengli/nextjs-blog-template

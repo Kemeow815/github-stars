@@ -1,6 +1,6 @@
 ---
 project: astro-bento-portfolio
-stars: 313
+stars: 316
 description: |-
     Astro-bento-portfolio is a minimal bento-like (almost) single page portfolio website made in Astro
 url: https://github.com/Ladvace/astro-bento-portfolio

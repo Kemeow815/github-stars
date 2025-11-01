@@ -1,6 +1,6 @@
 ---
 project: chenxu-hugo-blog
-stars: 2
+stars: 3
 description: |-
     采用hugo框架, papermod主题搭建的博客
 url: https://github.com/Guo-Chenxu/chenxu-hugo-blog

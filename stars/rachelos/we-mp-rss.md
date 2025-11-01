@@ -1,6 +1,6 @@
 ---
 project: we-mp-rss
-stars: 1408
+stars: 1480
 description: |-
     ✨符合阅读习惯的微信公众号助手、微信公众号转MarkDown、微信公众号转PDF、定时更新订阅公众号文章、生成微信公众号RSS订阅源、导出微信公众号订阅源、支持微信公众号Webhook/微信公众号API/AI Agent接入微信公众号微信公众号、订阅微信公众号、微信公众号助手 、微信公众号阅读、微信公众号接口、微信公众号爬虫、微信公众号监测、标签订阅微信公众号、微信公众号源、微信公众号读书、微信公众号文章、微信公众号框架、微信公众号管理、微信公众号源、微信公众号平台、微信公众号代码、微信公众号系统、微信公众号源码
 url: https://github.com/rachelos/we-mp-rss
@@ -8,40 +8,40 @@ url: https://github.com/rachelos/we-mp-rss
 
 <div align=center>
 <img src="static/logo.svg" alt="We-MP-RSS Logo" width="20%">
-<h1>WeRSS - 微信公众号订阅助手</h1>
+<h1>WeRSS - WeChat Official Account RSS Subscription Assistant</h1>
 
 [![Python Version](https://img.shields.io/badge/python-3.13.1+-red.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 
-快速运行
+[中文](README.zh-CN.md)|[English](ReadMe.md)
+
+Quick Start
 ```
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  ghcr.io/rachelos/we-mp-rss:latest
 ```
-http://<您的ip>:8001/  即可开启
+Visit http://<your-ip>:8001/ to get started
 
-# 快速升级 
+# Quick Upgrade 
 
 ```
 docker stop we-mp-rss
 docker rm we-mp-rss
 docker pull ghcr.io/rachelos/we-mp-rss:latest
-# 如果添加了其它参数，请自行修改
+# If you added other parameters, please modify accordingly
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  ghcr.io/rachelos/we-mp-rss:latest
 ```
 
-# 官方镜像
+# Official Image
 ```
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  rachelos/we-mp-rss:latest
 ```
-# 代理镜像加速访问（国内访问速度更快）
+# Proxy Mirror for Faster Access (Faster access in China)
 ```
 docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  docker.1ms.run/rachelos/we-mp-rss:latest  
 ```
 
-# 感谢伙伴(排名不分先后)
- cyChaos、 子健MeLift、 晨阳、 童总、 胜宇、 军亮、 余光、 一路向北、 水煮土豆丝、 人可、 须臾、 澄明
-、五梭
-
+# Special Thanks (In no particular order)
+cyChaos, 子健MeLift, 晨阳, 童总, 胜宇, 军亮, 余光, 一路向北, 水煮土豆丝, 人可, 须臾, 澄明, 五梭
 
 
 
@@ -57,7 +57,7 @@ docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  docker.1ms.ru
     <a href="https://x.com/intent/follow?screen_name=folo_is"><img src="https://img.shields.io/badge/Follow-blue?color=1d9bf0&logo=x&labelColor=black&style=flat-square" /></a>
     <a href="https://discord.gg/followapp" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Ffollowapp%3Fwith_counts%3Dtrue&query=approximate_member_count&color=5865F2&label=Discord&labelColor=black&logo=discord&logoColor=white&style=flat-square"/></a>
     <br />
-一个用于订阅和管理微信公众号内容的工具，提供RSS订阅功能。
+A tool for subscribing to and managing WeChat Official Account content, providing RSS subscription functionality.
 </div>
 <p align="center">
   <a href="https://github.com/DIYgod/sponsors">
@@ -65,190 +65,144 @@ docker run -d  --name we-mp-rss  -p 8001:8001 -v ./data:/app/data  docker.1ms.ru
   </a>
 </p>
 
-## 功能特性
+## Features
 
-- 微信公众号内容抓取和解析
-- RSS订阅生成
-- 用户友好的Web管理界面
-- 定时自动更新内容
-- 支持多种数据库（默认SQLite，可选MySQL）
-- 支持多种抓取方式
-- 支持多种RSS客户端
-- 支持授权过期提醒
-- 支持自定义通知渠道
-- 支持自定义RSS标题、描述、封面
-- 支持自定义RSS分页大小
-- 支持导出md/docx/pdf/json格式
-- 支持API接口调用/WebHook调用
+- WeChat Official Account content scraping and parsing
+- RSS feed generation
+- User-friendly web management interface
+- Scheduled automatic content updates
+- Multiple database support (default SQLite, optional MySQL)
+- Multiple scraping methods support
+- Multiple RSS client support
+- Authorization expiration reminders
+- Custom notification channels
+- Custom RSS title, description, and cover
+- Custom RSS pagination size
+- Export to md/docx/pdf/json formats
+- API interface and WebHook support
 
 
-# ❤️ 赞助
-如果觉得 We-MP-RSS 对你有帮助，欢迎给我来一杯啤酒！<br/>
+# ❤️ Sponsorship
+If you find We-MP-RSS helpful, feel free to buy me a beer!<br/>
 <img src="docs/赞赏码.jpg" width=180/>
 [Paypal](https://www.paypal.com/ncp/payment/PUA72WYLAV5KW)
 
-## 界面截图
-- 登录界面  
-<img src="docs/登录.png" alt="登录" width="80%"/><br/>
-- 主界面  
-<img src="docs/主界面.png" alt="主界面" width="80%"/><br/>
-- 扫码授权  
-<img src="docs/扫码授权.png" alt="扫码授权" width="80%"/><br/>
-- 添加订阅  
-<img src="docs/添加订阅.png" alt="添加订阅" width="80%"/><br/>
+## Screenshots
+- Login Interface  
+<img src="docs/登录.png" alt="Login" width="80%"/><br/>
+- Main Interface  
+<img src="docs/主界面.png" alt="Main Interface" width="80%"/><br/>
+- QR Code Authorization  
+<img src="docs/扫码授权.png" alt="QR Code Authorization" width="80%"/><br/>
+- Add Subscription  
+<img src="docs/添加订阅.png" alt="Add Subscription" width="80%"/><br/>
 
-- 客户端应用<br/>
-<img src="docs/folo.webp" alt="FOLO客户端应用" width="80%"/><br/>
+- Client Application<br/>
+<img src="docs/folo.webp" alt="FOLO Client Application" width="80%"/><br/>
 
 
 
-## 系统架构
+## System Architecture
 
-项目采用前后端分离架构：
-- 后端：Python + FastAPI
-- 前端：Vue 3 + Vite
-- 数据库：SQLite (默认)/MySQL
+The project adopts a front-end and back-end separation architecture:
+- Backend: Python + FastAPI
+- Frontend: Vue 3 + Vite
+- Database: SQLite (default)/MySQL
+<img src="docs/架构原理.png" alt="Architecture Diagram" width="80%"/>
 
-## 安装指南
+For more project principles, please refer to the [Project Documentation](https://deepwiki.com/rachelos/we-mp-rss/3.5-notification-system).
 
-# 二次开发
-## 环境需求
+## Installation Guide
+
+# Development
+## Environment Requirements
 - Python>=3.13.1
 - Node>=20.18.3
-### 后端服务
+### Backend Service
 
-1. 克隆项目
+1. Clone the project
 ```bash
 git clone https://github.com/rachelos/we-mp-rss.git
 cd we-mp-rss
 ```
 
-2. 安装Python依赖
+2. Install Python dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 配置数据库
-复制并修改配置文件：
+3. Configure database
+Copy and modify the configuration file:
 ```bash
 cp config.example.yaml config.yaml
 copy config.example.yaml config.yaml
 ```
-3. 启动服务
+3. Start the service
 ```bash
 python main.py -job True -init True
 ```
 
-## 前端开发
-1. 安装前端依赖
+## Frontend Development
+1. Install frontend dependencies
 ```bash
 cd we-mp-rss/web_ui
 yarn install
 ```
 
-2. 启动前端服务
+2. Start frontend service
 ```bash
 yarn dev
 ```
-3. 访问前端页面
+3. Access frontend page
 ```
 http://localhost:3000
 ```
 
-# 环境变量配置
+# Environment Variable Configuration
 
-以下是 `config.yaml` 中支持的环境变量配置：
+The following are the environment variable configurations supported in `config.yaml`:
 
-| 环境变量 | 默认值 | 描述 |
+| Environment Variable | Default Value | Description |
 |----------|--------|------|
-| `APP_NAME` | `we-mp-rss` | 应用名称 |
-| `SERVER_NAME` | `we-mp-rss` | 服务名称 |
-| `WEB_NAME` | `WeRSS微信公众号订阅助手` | 前端显示名称 |
-| `SEND_CODE` | `True` | 是否发送授权二维码通知 |
-| `CODE_TITLE` | `WeRSS授权二维码` | 二维码通知标题 |
-| `ENABLE_JOB` | `True` | 是否启用定时任务 |
-| `AUTO_RELOAD` | `False` | 代码修改自动重启服务 |
-| `THREADS` | `2` | 最大线程数 |
-| `DB` | `sqlite:///data/db.db` | 数据库连接字符串 |
-| `DINGDING_WEBHOOK` | 空 | 钉钉通知Webhook地址 |
-| `WECHAT_WEBHOOK` | 空 | 微信通知Webhook地址 |
-| `FEISHU_WEBHOOK` | 空 | 飞书通知Webhook地址 |
-| `CUSTOM_WEBHOOK` | 空 | 自定义通知Webhook地址 |
-| `SECRET_KEY` | `we-mp-rss` | 密钥 |
-| `USER_AGENT` | `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36/WeRss` | 用户代理 |
-| `SPAN_INTERVAL` | `10` | 定时任务执行间隔（秒） |
-| `WEBHOOK.CONTENT_FORMAT` | `html` | 文章内容发送格式 |
-| `PORT` | `8001` | API服务端口 |
-| `DEBUG` | `False` | 调试模式 |
-| `MAX_PAGE` | `5` | 最大采集页数 |
-| `RSS_BASE_URL` | 空 | RSS域名地址 |
-| `RSS_LOCAL` | `False` | 是否为本地RSS链接 |
-| `RSS_TITLE` | 空 | RSS标题 |
-| `RSS_DESCRIPTION` | 空 | RSS描述 |
-| `RSS_COVER` | 空 | RSS封面 |
-| `RSS_FULL_CONTEXT` | `True` | 是否显示全文 |
-| `RSS_ADD_COVER` | `True` | 是否添加封面图片 |
-| `RSS_CDATA` | `False` | 是否启用CDATA |
-| `RSS_PAGE_SIZE` | `30` | RSS分页大小 |
-| `TOKEN_EXPIRE_MINUTES` | `4320` | 登录会话有效时长（分钟） |
-| `CACHE.DIR` | `./data/cache` | 缓存目录 |
-| `ARTICLE.TRUE_DELETE` | `False` | 是否真实删除文章 |
-| `GATHER.CONTENT` | `True` | 是否采集内容 |
-| `GATHER.MODEL` | `app` | 采集模式 |
-| `GATHER.CONTENT_AUTO_CHECK` | `False` | 是否自动检查未采集文章内容 |
-| `GATHER.CONTENT_AUTO_INTERVAL` | `59` | 自动检查未采集文章内容的时间间隔（分钟） |
-| `GATHER.CONTENT_MODE` | `web` | 内容修正模式 |
-| `SAFE_HIDE_CONFIG` | `db,secret,token,notice.wechat,notice.feishu,notice.dingding` | 需要隐藏的配置信息 |
-| `SAFE_LIC_KEY` | `RACHELOS` | 授权加密KEY |
-| `LOG_FILE` | 空 | 日志文件路径 |
-| `LOG_LEVEL` | `INFO` | 日志级别 |
-| `EXPORT_PDF` | `False` | 是否启用PDF导出功能 |
-| `EXPORT_PDF_DIR` | `./data/pdf` | PDF导出目录 |
-| `EXPORT_MARKDOWN` | `False` | 是否启用markdown导出功能 |
-| `EXPORT_MARKDOWN_DIR` | `./data/markdown` | markdown导出目录 |
-
-# 使用说明
-
-1. 启动服务后，访问 `http://<您的IP>:8001` 进入管理界面。
-2. 使用微信扫码授权后，即可添加和管理订阅。
-3. 定时任务会自动更新内容，并生成RSS订阅链接。
-
-# 常见问题
-
-- **如何修改数据库连接？**
-  在 `config.yaml` 中修改 `db` 配置项，或通过环境变量 `DB` 覆盖。
-
-- **如何启用钉钉通知？**
-  在 `config.yaml` 中填写 `notice.dingding` 或通过环境变量 `DINGDING_WEBHOOK` 设置。
-
-- **如何调整定时任务间隔？**
-  修改 `config.yaml` 中的 `interval` 或通过环境变量 `SPAN_INTERVAL` 设置。
-
-- **如何开启定时任务？**
-  1、修改 `config.yaml` 中的 `ENABLE_JOB` 或通过环境变量 `ENABLE_JOB` 设置 为True。
-  2、在UI界面的消息任务中，添加定时任务。
-  
-- **如何修改文章内容发送格式？**
-  修改 `config.yaml` 中的 `WEBHOOK.CONTENT_FORMAT` 或通过环境变量 `WEBHOOK.CONTENT_FORMAT` 设置。
-
-- **默认帐号、密码是多少？**
-  - 默认帐号：admin
-  - 默认密码：admin@123
-
-- **数据库连接串示例**
-  - 调整环境变量DB为您的数据库连接字符串。
-  - SQLite 连接示例: 
-  ```
-  sqlite:///data/db.db
-  ```
-  - PostgreSQL 连接示例: 
-  ```
-  postgresql://<username>:<password>@<host>/<database>
-  ```
-  - MySQL 连接示例:
-  ```
-  mysql+pymysql://<username>:<password>@<host>/<database>?charset=utf8mb4
-  ```
-
-
-[Star History Chart]: https://api.star-history.com/svg?repos=rachelos/we-mp-rss&type=Timeline
+| `APP_NAME` | `we-mp-rss` | Application name |
+| `SERVER_NAME` | `we-mp-rss` | Server name |
+| `WEB_NAME` | `WeRSS微信公众号订阅助手` | Frontend display name |
+| `SEND_CODE` | `True` | Whether to send authorization QR code notifications |
+| `CODE_TITLE` | `WeRSS授权二维码` | QR code notification title |
+| `ENABLE_JOB` | `True` | Whether to enable scheduled tasks |
+| `AUTO_RELOAD` | `False` | Auto-restart service on code changes |
+| `THREADS` | `2` | Maximum number of threads |
+| `DB` | `sqlite:///data/db.db` | Database connection string |
+| `DINGDING_WEBHOOK` | Empty | DingTalk notification webhook URL |
+| `WECHAT_WEBHOOK` | Empty | WeChat notification webhook URL |
+| `FEISHU_WEBHOOK` | Empty | Feishu notification webhook URL |
+| `CUSTOM_WEBHOOK` | Empty | Custom notification webhook URL |
+| `SECRET_KEY` | `we-mp-rss` | Secret key |
+| `USER_AGENT` | `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36/WeRss` | User agent |
+| `SPAN_INTERVAL` | `10` | Scheduled task execution interval (seconds) |
+| `WEBHOOK.CONTENT_FORMAT` | `html` | Article content sending format |
+| `PORT` | `8001` | API service port |
+| `DEBUG` | `False` | Debug mode |
+| `MAX_PAGE` | `5` | Maximum scraping pages |
+| `RSS_BASE_URL` | Empty | RSS domain address |
+| `RSS_LOCAL` | `False` | Whether to use local RSS links |
+| `RSS_TITLE` | Empty | RSS title |
+| `RSS_DESCRIPTION` | Empty | RSS description |
+| `RSS_COVER` | Empty | RSS cover |
+| `RSS_FULL_CONTEXT` | `True` | Whether to display full text |
+| `RSS_ADD_COVER` | `True` | Whether to add cover images |
+| `RSS_CDATA` | `False` | Whether to enable CDATA |
+| `RSS_PAGE_SIZE` | `30` | RSS pagination size |
+| `TOKEN_EXPIRE_MINUTES` | `4320` | Login session validity duration (minutes) |
+| `CACHE.DIR` | `./data/cache` | Cache directory |
+| `ARTICLE.TRUE_DELETE` | `False` | Whether to truly delete articles |
+| `GATHER.CONTENT` | `True` | Whether to collect content |
+| `GATHER.MODEL` | `app` | Collection mode |
+| `GATHER.CONTENT_AUTO_CHECK` | `False` | Whether to automatically check uncollected article content |
+| `GATHER.CONTENT_AUTO_INTERVAL` | `59` | Time interval for automatically checking uncollected article content (minutes) |
+| `GATHER.CONTENT_MODE` | `web` | Content correction mode |
+| `SAFE_HIDE_CONFIG` | `db,secret,token,notice.wechat,notice.feishu,notice.dingding` | Configuration information to hide |
+| `SAFE_LIC_KEY` | `RACHELOS` | Authorization encryption key |
+| `LOG_FILE` | Empty | Log file path |
+| `LOG_LEVEL` | `INFO` | Log level |
+| `EXPORT_PDF` | `False` | Whether to enable PDF export functionality |

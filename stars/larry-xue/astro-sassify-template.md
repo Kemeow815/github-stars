@@ -1,6 +1,6 @@
 ---
 project: astro-sassify-template
-stars: 81
+stars: 82
 description: |-
     Focus on your business, simplify your start.
 url: https://github.com/larry-xue/astro-sassify-template

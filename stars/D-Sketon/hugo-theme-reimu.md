@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-reimu
-stars: 177
+stars: 180
 description: |-
     一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘
 url: https://github.com/D-Sketon/hugo-theme-reimu
@@ -268,6 +268,87 @@ banner: "images/banner.webp"
 #### Favicon
 
 favicon 保存于 `themes/hugo-theme-reimu/static/favicon.ico`，可自行覆盖替换
+
+#### 文章总结
+
+默认关闭，可选择在副标题或者文章开头显示文章摘要
+
+```yaml
+summary:
+  enable: false
+  style: 'subtitle' # 'subtitle' | 'blockquote'
+```
+
+</details>
+
+<details>
+<summary>侧边栏</summary>
+
+### 侧边栏
+
+#### 侧边栏位置
+
+默认在右边，可在内层 `_config.yml` 中修改
+
+```yaml
+sidebar: right # left | right
+```
+
+此外，也可以通过文章的 front-matter 控制，其优先级高于全局配置
+
+```yaml
+---
+sidebar: left # left | right
+---
+```
+
+#### TOC
+
+默认开启，可在内层 `_config.yml` 中修改
+
+```yaml
+toc: true # true | false
+```
+
+此外，也可以通过文章的 front-matter 控制，其优先级高于全局配置
+
+```yaml
+---
+toc: true # true | false
+---
+```
+
+#### 社交链接
+
+可在内层 `_config.yml` 中配置侧边栏中的社交链接
+
+```yaml
+social:
+  # github: https://github.com/yourname
+  # bilibili: https://space.bilibili.com/yourname
+  # ...
+```
+
+#### 侧边栏小部件
+
+可在内层 `_config.yml` 中配置侧边栏小部件
+
+```yaml
+widgets:
+  - category # 分类
+  - tag # 标签
+  - tagcloud # 标签云
+  - recent_posts # 最近文章
+```
+
+此外，可使用如下配置对小部件进行行为配置
+
+```yaml
+category_limits: 10 # 分类数量限制
+tag_limits: 10 # 标签数量限制
+recent_posts_limits: 5 # 最近文章数量限制
+tagcloud_limits: 20 # 标签云数量限制
+```
 
 </details>
 <details>
@@ -888,6 +969,17 @@ pangu:
   enable: false
 ```
 
+#### 三角徽标（v0.13.2+）
+
+默认关闭，打开后会在右上角展示三角徽标，支持自定义链接和图标
+
+```yml
+triangle_badge:
+  enable: false
+  icon: github # 与 social 配置里的 icon 相同
+  link: https://github.com/D-Sketon/hexo-theme-reimu
+```
+
 </details>
 
 <details>
@@ -1225,6 +1317,7 @@ js:
 | toc         | 是否开启文章目录                                | `boolean`                    | 不传默认走全局配置 | 0.7.0     |
 | outdated    | 文章是否过期                                    | `boolean`                    | 不传默认走全局配置 | 0.13.1    |
 | author      | 文章作者，用于文章版权和分享卡片                | `string`                     | 不传默认走全局配置 | 0.13.2    |
+| keywords    | 文章关键词                                      | `string[] \| string`         | 不传默认走全局配置 | 0.13.4    |
 </details>
 
 ## 贡献者
