@@ -1,6 +1,6 @@
 ---
 project: memos
-stars: 45592
+stars: 45810
 description: |-
     An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
 url: https://github.com/usememos/memos

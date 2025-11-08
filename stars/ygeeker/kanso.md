@@ -1,6 +1,6 @@
 ---
 project: kanso
-stars: 74
+stars: 75
 description: |-
     轻量的静态 Markdown 个人网站系统，可以无缝集成 Notion | Markdown-based personal website system that seamlessly integrates with Notion and Markdown.
 url: https://github.com/ygeeker/kanso

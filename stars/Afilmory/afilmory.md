@@ -1,6 +1,6 @@
 ---
 project: afilmory
-stars: 1871
+stars: 1982
 description: |-
     A personal photography website celebrating the art of capturing moments with a nostalgic, retro vibe. Blending aperture, film, and memory.
 url: https://github.com/Afilmory/afilmory
@@ -82,6 +82,8 @@ Designed with adapter pattern, supporting multiple storage backends:
 
 - **S3-Compatible Storage** - AWS S3, MinIO, Alibaba Cloud OSS, etc.
 - **GitHub Storage** - Using GitHub repository as image storage
+- **Eagle Storage** - Using Eagle app library as image storage
+- **Local File System** - Local storage for development and testing
 
 ## 🚀 Quick Start
 

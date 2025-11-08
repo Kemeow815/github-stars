@@ -1,6 +1,6 @@
 ---
 project: giscus-component
-stars: 409
+stars: 412
 description: |-
     Component library for giscus, a comment system powered by GitHub Discussions.
 url: https://github.com/giscus/giscus-component

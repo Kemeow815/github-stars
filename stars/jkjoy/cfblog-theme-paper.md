@@ -1,8 +1,8 @@
 ---
 project: cfblog-theme-paper
-stars: 1
+stars: 2
 description: |-
-    移植hugo主题Paper到Astro
+    移植的hugo主题Paper到Astro,仅支持部署在Cloudflare Pages
 url: https://github.com/jkjoy/cfblog-theme-paper
 ---
 

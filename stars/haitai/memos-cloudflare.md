@@ -1,6 +1,6 @@
 ---
 project: memos-cloudflare
-stars: 4
+stars: 10
 description: |-
     运行在cloudflare平台上的memos复刻程序
 url: https://github.com/haitai/memos-cloudflare

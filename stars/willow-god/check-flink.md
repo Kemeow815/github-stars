@@ -1,6 +1,6 @@
 ---
 project: check-flink
-stars: 20
+stars: 21
 description: |-
     ⚙️检查友链链接是否可连，可以大幅度减少检查工作量。
 url: https://github.com/willow-god/check-flink

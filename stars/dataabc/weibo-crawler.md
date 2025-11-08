@@ -1,6 +1,6 @@
 ---
 project: weibo-crawler
-stars: 4131
+stars: 4157
 description: |-
     新浪微博爬虫，用python爬取新浪微博数据，并下载微博图片和微博视频
 url: https://github.com/dataabc/weibo-crawler

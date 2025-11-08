@@ -1,6 +1,6 @@
 ---
 project: anx-reader
-stars: 6149
+stars: 6225
 description: |-
     Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. 
 url: https://github.com/Anxcye/anx-reader

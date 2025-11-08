@@ -1,6 +1,6 @@
 ---
 project: hugo-bearneo
-stars: 50
+stars: 51
 description: |-
     A feature-rich Hugo theme ported from Hugo Bear Blog, originally based on ʕ•ᴥ•ʔ Bear Blog, offering upvote buttons, elegant TOC, and UX refinements.
 url: https://github.com/rokcso/hugo-bearneo
@@ -10,7 +10,7 @@ url: https://github.com/rokcso/hugo-bearneo
 
 > Free, no-nonsense, super-fast blogging.
 
-[English](./README.md) | [简体中文](./doc/README_zh.md)
+[English](./README.md) | [简体中文](./docs/README_zh.md)
 
 🧸 A [Hugo](https://gohugo.io/) theme based on [Bear Blog](https://bearblog.dev).
 
@@ -29,7 +29,8 @@ Transplanted from [Hugo Bear Blog][hugo-bearblog], because the original author c
   - [Upvote post](#upvote-post)
   - [Search post](#search-post)
   - [Post list page grouped by year](#post-list-page-grouped-by-year)
-  - [Post page displays table of contents](#post-page-displays-table-of-contents)
+  - [Table of contents](#table-of-contents)
+  - [Image zoom](#image-zoom)
   - [Follow App Claim](#follow-app-claim)
 - [🎁 Acknowledgments](#-acknowledgments)
 - [©️ License](#️-license)
@@ -41,7 +42,8 @@ Based on [Hugo Bear Blog][hugo-bearblog], the following features have been added
 - [x] Upvote post (Highlight feature 👍, Replicated from Bear Blog)
 - [x] Search post
 - [x] Post list page grouped by year
-- [x] Post page displays table of contents
+- [x] Table of contents
+- [x] Image zoom
 - [x] Follow App Claim
 
 There are still some optimization items:
@@ -68,7 +70,7 @@ Then add the following configuration to the Hugo blog configuration file `hugo.t
 ```toml
 [params]
     upvote = true
-    upvoteURL = "The domain name of the Worker that was just deployed/" 
+    upvoteURL = "The domain name of the Worker that was just deployed/"
 ```
 
 Note: The `/` at the end of the URL must be included!
@@ -93,13 +95,22 @@ Add the following configuration to the Hugo blog configuration file `hugo.toml`:
     groupByYear = true
 ```
 
-### Post page displays table of contents
+### Table of contents
 
 Add the following configuration to the Hugo blog configuration file `hugo.toml`:
 
 ```toml
 [params]
     toc = true
+```
+
+### Image zoom
+
+Add the following configuration to the Hugo blog configuration file `hugo.toml`:
+
+```toml
+[params]
+    imageZoom = true
 ```
 
 ### Follow App Claim
@@ -129,3 +140,4 @@ Another special thanks to janraasch, without his [hugo-bearblog][hugo-bearblog],
 [hugo-bearblog]: https://github.com/janraasch/hugo-bearblog
 [hugo-bearneo]: https://github.com/rokcso/hugo-bearneo
 [rokcso-blog]: https://rokcso.com/
+

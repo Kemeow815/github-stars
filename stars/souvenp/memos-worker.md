@@ -1,8 +1,8 @@
 ---
 project: memos-worker
-stars: 17
+stars: 24
 description: |-
-    Memos Worker: A Cloudflare-Powered Notes and Knowledge Base. 由 Cloudflare 驱动的笔记与知识库
+    Memos Worker: A Cloudflare-Powered Notes and Knowledge Base. 由 Cloudflare 驱动的笔记与知识库。Site: https://demo.memos-demo.workers.dev/ username: memos password: memos
 url: https://github.com/souvenp/memos-worker
 ---
 

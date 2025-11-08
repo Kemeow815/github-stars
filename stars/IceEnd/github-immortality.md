@@ -1,6 +1,6 @@
 ---
 project: github-immortality
-stars: 34
+stars: 35
 description: |-
     Dynamically generate stats for your GitHub readme
 url: https://github.com/IceEnd/github-immortality

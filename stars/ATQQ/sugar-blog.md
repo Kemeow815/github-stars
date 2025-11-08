@@ -1,6 +1,6 @@
 ---
 project: sugar-blog
-stars: 528
+stars: 529
 description: |-
     ✍️📚我写博客的地方🤪🤪🤪记录随笔与学习笔记，仓库包含：博客内容，博客主题、博客模板、vitepress离线全文搜索插件、VitePress RSS 支持插件；a blog theme use vitepress
 url: https://github.com/ATQQ/sugar-blog

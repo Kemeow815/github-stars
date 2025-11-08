@@ -1,6 +1,6 @@
 ---
 project: gblog
-stars: 473
+stars: 476
 description: |-
     🎈gblog is an open-source, simple, and beautiful blog built with Astro
 url: https://github.com/godruoyi/gblog

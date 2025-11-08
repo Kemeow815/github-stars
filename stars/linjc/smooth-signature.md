@@ -1,6 +1,6 @@
 ---
 project: smooth-signature
-stars: 993
+stars: 994
 description: |-
     H5带笔锋手写签名，支持PC端和移动端，任何前端框架均可使用
 url: https://github.com/linjc/smooth-signature

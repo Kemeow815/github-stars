@@ -1,150 +1,363 @@
 ---
 project: photography-website
-stars: 271
+stars: 274
 description: |-
-    An open-source Photograph travel Blog📸 built using Next.js, Drizzle, Neon, Better auth, Shadcn/ui and tRPC.
+    A modern photography portfolio website built with Next.js 16, featuring interactive maps, photo management, and a comprehensive dashboard.
 url: https://github.com/ECarry/photography-website
 ---
 
-# Photography Blog 📸
+# Photography Website
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ECarry/photography-website)
+A modern photography portfolio website built with Next.js 16, featuring interactive maps, photo management, and a comprehensive dashboard.
 
-A modern, open-source photography blog platform built with the latest web technologies. Share your photography journey with style and efficiency.
+## 🚀 Features
 
-## ✨ Features
+- **Next.js 16** with React 19 and React Compiler
+- **TanStack Query v5** for advanced data fetching and caching
+- **tRPC v11** for end-to-end type-safe APIs
+- **Interactive Maps** with Mapbox GL JS integration
+- **Photo Management** with EXIF data extraction and iPhone album integration
+- **Real-time Dashboard** with analytics and statistics
+- **Modern UI** built with Tailwind CSS and shadcn/ui components
+- **Authentication** powered by Better Auth
+- **Database** using Drizzle ORM with PostgreSQL
+- **File Storage** via S3-compatible storage
 
-- 📱 Responsive design for all devices
-- 🖼️ Automatic EXIF data extraction from photos
-- 🔐 Secure authentication with Better Auth
-- ☁️ Cloud storage with Cloudflare R2
-- 🎨 Beautiful UI with Shadcn/ui components
-- 🚀 Lightning-fast performance
-- 📍 Location-based photo organization
-- 🌐 SEO optimized
-- 🎯 API powered by tRPC
+## 📋 Prerequisites
 
-## 📸 Screenshots
+Before deploying, ensure you have:
 
-<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/home.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/travel.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/discover.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/about.png?raw=true" alt="page">
-<img src="https://github.com/ECarry/photography-website/blob/main/docs/screen/photograph.png?raw=true" alt="page">
+- **Node.js 18+** or **Bun** runtime
+- **PostgreSQL database** (recommended: Neon, Supabase, or Vercel Postgres)
+- **S3-compatible storage** for image storage (AWS S3, Cloudflare R2, DigitalOcean Spaces, etc.)
+- **Mapbox** account for map features
+- **Vercel** account for deployment (or any Node.js hosting provider)
 
-## 🌈 Support Theme
+## 🛠️ Deployment Guide
 
-- 🌈 Dark
-- 🌈 Light
+### Step 1: Clone and Setup
 
-<img src="https://github.com/ECarry/photography-website/blob/main/screen/theme.png?raw=true" alt="page">
+```bash
+# Clone the repository
+git clone https://github.com/ECarry/photography-website.git
+cd photography-website
 
-## 🛠️ Tech Stack
+# Install dependencies
+bun install
+# or
+npm install
+```
 
-- **Framework:** [Next.js 15](https://nextjs.org/)
-- **Database:** [Neon](https://neon.tech/) (Serverless Postgres)
-- **ORM:** [Drizzle](https://orm.drizzle.team/)
-- **Authentication:** [Better Auth](https://better-auth.com/)
-- **UI Components:** [Shadcn/ui](https://ui.shadcn.com/)
-- **API Layer:** [tRPC](https://trpc.io/)
-- **Storage:** [Cloudflare R2](https://www.cloudflare.com/products/r2/)
-- **Deployment:** [Vercel](https://vercel.com)
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 20+
-- bun (recommended) or npm
-- [Neon Database](https://neon.tech/)
-- [Cloudflare R2 Account](https://www.cloudflare.com/products/r2/)
-- [Mapbox Account](https://console.mapbox.com/)
-
-### Environment Variables
+### Step 2: Environment Configuration
 
 Create a `.env` file in the root directory:
 
 ```bash
-# Database
-DATABASE_URL=your_database_url
-
-# Auth
-# You can generate a random secret using `openssl rand -base64 32`
-BETTER_AUTH_SECRET=
-BETTER_AUTH_URL=http://localhost:3000 #Base URL of your app
-
-NEXT_PUBLIC_APP_URL='http://localhost:3000'
-
-# Cloudflare R2
-CLOUDFLARE_R2_ENDPOINT=
-CLOUDFLARE_R2_ACCESS_KEY_ID=
-CLOUDFLARE_R2_SECRET_ACCESS_KEY=
-CLOUDFLARE_R2_BUCKET_NAME=
-CLOUDFLARE_R2_PUBLIC_URL=
-
-# Mapbox
-NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=
+cp .env.example .env
 ```
 
-Replace `your-domain.com` with your actual domain name. This is required for Cloudflare Image Optimization to work correctly.
+Configure the following environment variables:
 
-### Installation
+#### Database Configuration
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/photography-website.git
-cd photography-website
+```env
+# PostgreSQL connection string
+DATABASE_URL=postgresql://username:password@host:port/database_name?sslmode=require
 ```
 
-2. Install dependencies:
+**For Neon Database:**
+
+1. Create account at [neon.tech](https://neon.tech)
+2. Create a new project
+3. Copy the connection string from dashboard
+
+**For Supabase:**
+
+1. Create project at [supabase.com](https://supabase.com)
+2. Go to Settings > Database
+3. Copy the connection string
+
+#### Authentication Configuration
+
+```env
+# Generate a random secret key (32+ characters)
+BETTER_AUTH_SECRET=your-super-secret-key-here
+
+# Your app's base URL
+BETTER_AUTH_URL=https://your-domain.com
+NEXT_PUBLIC_APP_URL=https://your-domain.com
+```
+
+#### S3-Compatible Storage Configuration
+
+```env
+# S3-compatible storage settings
+S3_ENDPOINT=https://your-s3-endpoint.com
+S3_BUCKET_NAME=your-bucket-name
+S3_PUBLIC_URL=https://your-custom-domain.com
+S3_ACCESS_KEY_ID=your-access-key
+S3_SECRET_ACCESS_KEY=your-secret-key
+NEXT_PUBLIC_S3_PUBLIC_URL=https://your-custom-domain.com
+```
+
+**Supported Storage Providers:**
+
+**Cloudflare R2:**
+
+```env
+S3_ENDPOINT=https://your-account-id.r2.cloudflarestorage.com
+S3_BUCKET_NAME=your-bucket-name
+NEXT_PUBLIC_S3_PUBLIC_URL=https://your-custom-domain.com
+```
+
+**AWS S3:**
+
+```env
+S3_ENDPOINT=https://s3.amazonaws.com
+S3_BUCKET_NAME=your-aws-bucket
+NEXT_PUBLIC_S3_PUBLIC_URL=https://your-bucket.s3.amazonaws.com
+```
+
+**DigitalOcean Spaces:**
+
+```env
+S3_ENDPOINT=https://nyc3.digitaloceanspaces.com
+S3_BUCKET_NAME=your-space-name
+NEXT_PUBLIC_S3_PUBLIC_URL=https://your-space.nyc3.digitaloceanspaces.com
+```
+
+**MinIO (Self-hosted):**
+
+```env
+S3_ENDPOINT=http://localhost:9000
+S3_BUCKET_NAME=your-minio-bucket
+NEXT_PUBLIC_S3_PUBLIC_URL=http://localhost:9000/your-bucket
+```
+
+**Wasabi:**
+
+```env
+S3_ENDPOINT=https://s3.wasabisys.com
+S3_BUCKET_NAME=your-wasabi-bucket
+NEXT_PUBLIC_S3_PUBLIC_URL=https://your-bucket.s3.wasabisys.com
+```
+
+**Setup Instructions:**
+
+1. Choose your preferred S3-compatible storage provider
+2. Create an account and set up a bucket
+3. Generate API credentials (Access Key ID and Secret Access Key)
+4. Configure the endpoint URL for your provider
+5. (Optional) Setup custom domain for public access
+
+#### Mapbox Configuration
+
+```env
+# Mapbox access token
+NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=pk.your-mapbox-token
+```
+
+**Get Mapbox Token:**
+
+1. Create account at [mapbox.com](https://mapbox.com)
+2. Go to Account > Access Tokens
+3. Create a new token with appropriate scopes
+
+#### Admin User Configuration
+
+```env
+# Default admin user for seeding
+SEED_USER_EMAIL=admin@yourdomain.com
+SEED_USER_PASSWORD=your-secure-password
+SEED_USER_NAME=Admin User
+```
+
+### Step 3: Database Setup
 
 ```bash
+# Push database schema
+bun run db:push
+
+# Create admin user
+bun run seed:user
+```
+
+### Step 4: Build and Test Locally
+
+```bash
+# Build the application
+bun run build
+
+# Test the production build locally
+bun run start
+```
+
+Visit `http://localhost:3000` to verify everything works correctly.
+
+### Step 5: Deploy to Vercel
+
+#### Option A: Deploy via Vercel CLI
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login to Vercel
+vercel login
+
+# Deploy
+vercel --prod
+```
+
+#### Option B: Deploy via Git Integration
+
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Connect your repository to Vercel
+3. Configure environment variables in Vercel dashboard
+4. Deploy automatically on push
+
+#### Vercel Environment Variables Setup
+
+In your Vercel dashboard, add all environment variables from your `.env` file:
+
+1. Go to Project Settings > Environment Variables
+2. Add each variable with appropriate values for production
+3. Make sure to update URLs to use your production domain
+
+### Step 6: Post-Deployment Setup
+
+#### Database Migration (if needed)
+
+```bash
+# If you need to run migrations on production
+vercel env pull .env.local
+bun run db:push
+```
+
+#### Create Admin User (Production)
+
+```bash
+# Seed admin user in production
+vercel env pull .env.local
+bun run seed:user
+```
+
+#### Photo URL Cleanup (if migrating)
+
+```bash
+# If migrating from another system, clean photo URLs
+bun run clean:photo-urls
+```
+
+## 🔧 Configuration Options
+
+### Custom Domain Setup
+
+1. **Vercel Custom Domain:**
+
+   - Go to Project Settings > Domains
+   - Add your custom domain
+   - Configure DNS records as instructed
+
+2. **Update Environment Variables:**
+   ```env
+   BETTER_AUTH_URL=https://your-custom-domain.com
+   NEXT_PUBLIC_APP_URL=https://your-custom-domain.com
+   ```
+
+### Performance Optimization
+
+1. **Enable Vercel Analytics:**
+
+   ```bash
+   npm install @vercel/analytics
+   ```
+
+2. **Configure Image Optimization:**
+   - Ensure S3-compatible storage is properly configured
+   - Set up custom domain for your storage bucket
+   - Configure CDN settings (CloudFlare, AWS CloudFront, etc.)
+
+### Security Considerations
+
+1. **Environment Variables:**
+
+   - Never commit `.env` files
+   - Use strong, unique secrets
+   - Rotate keys regularly
+
+2. **Database Security:**
+
+   - Use connection pooling
+   - Enable SSL connections
+   - Restrict database access by IP
+
+3. **File Upload Security:**
+   - Configure proper CORS settings
+   - Implement file type validation
+   - Set upload size limits
+
+## 📱 Mobile Optimization
+
+The application is fully responsive and optimized for mobile devices:
+
+- **Progressive Web App** features
+- **Touch-friendly** interface
+- **Optimized images** with lazy loading
+- **Fast loading** with Next.js optimizations
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+#### Build Errors
+
+```bash
+# Clear Next.js cache
+rm -rf .next
+
+# Reinstall dependencies
+rm -rf node_modules
 bun install
 ```
 
-3. Set up the database:
+#### Database Connection Issues
 
-```bash
-bun db:push
-```
+- Verify `DATABASE_URL` is correct
+- Check database server status
+- Ensure SSL settings match requirements
 
-4. Start the development server:
+#### Image Upload Issues
 
-```bash
-bun run dev
-```
+- Verify S3 storage credentials
+- Check CORS settings on your storage bucket
+- Ensure bucket permissions are correct
+- Verify endpoint URL is correct for your provider
 
-### Initial User Registration
+#### Map Not Loading
 
-When you first deploy the application, you'll need to create an admin user. You can do this by visiting:
+- Verify Mapbox token is valid
+- Check token permissions and scopes
+- Ensure domain is authorized in Mapbox settings
 
-```
-http://localhost:3000/sign-up
-```
+## 📚 Additional Resources
 
-Note: After the first admin user is created, the `/sign-up` route will be disabled for security purposes. Any subsequent attempts to access the sign-up page will automatically redirect to the sign-in page (`/sign-in`).
-
-### Custom Domain Configuration
-
-Before deploying, you need to update the custom domain in `image-loader.ts`:
-
-```typescript
-// image-loader.ts
-return `https://your-domain.com/cdn-cgi/image/${paramsString}/${normalizeSrc(
-  src
-)}`;
-```
-
-Visit `http://localhost:3000` to see your application.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Vercel Deployment Guide](https://vercel.com/docs)
+- [Drizzle ORM Documentation](https://orm.drizzle.team)
+- [Better Auth Documentation](https://better-auth.com)
+- [AWS S3 Documentation](https://docs.aws.amazon.com/s3/)
+- [Cloudflare R2 Documentation](https://developers.cloudflare.com/r2/)
+- [DigitalOcean Spaces Documentation](https://docs.digitalocean.com/products/spaces/)
+- [Mapbox Documentation](https://docs.mapbox.com)
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to open issues and pull requests.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
 ## 💖 Support
 
@@ -154,16 +367,11 @@ If you find this project helpful, please give it a ⭐️ on GitHub!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ECarry/photography-website&type=Date)](https://star-history.com/#ECarry/photography-website&Date)
 
-## 📝 Changelog
+## 📄 License
 
-- 2025-02-13: tRPC instead of Hono.js
-- 2025-01-12: Better Auth instead of Next Auth
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🏃‍♂️ Todo
+---
 
-- [x] Home page with tRPC
-- [x] Discover page with tRPC
-- [x] Dashboard photos & photo id page with tRPC
-- [x] Blog page with tRPC
-- [x] Travel page with tRPC
+**Need help?** Check the troubleshooting section above or open an issue in the repository.
 

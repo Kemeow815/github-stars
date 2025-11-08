@@ -1,6 +1,6 @@
 ---
 project: pansou-web
-stars: 122
+stars: 128
 description: |-
     一个PanSou的简约版页面
 url: https://github.com/fish2018/pansou-web
@@ -143,10 +143,9 @@ docker run -d \
 docker run -d \
   --name pansou \
   -p 80:80 \
-  -e PROXY=socks5://127.0.0.1:7897 \
+  -e PROXY=socks5://xxx.xxx.xxx.xxx:7897 \
   -v pansou-data:/app/data \
   --restart unless-stopped \
-  --network host \
   ghcr.io/fish2018/pansou-web:latest
 ```
 

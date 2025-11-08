@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-akari
-stars: 7
+stars: 8
 description: |-
     null
 url: https://github.com/OasisAkari/vitepress-theme-akari

@@ -1,6 +1,6 @@
 ---
 project: lightbi-hugo
-stars: 134
+stars: 133
 description: |-
     Lightbi is a modern and elegant blog theme designed for Hugo
 url: https://github.com/binokochumolvarghese/lightbi-hugo

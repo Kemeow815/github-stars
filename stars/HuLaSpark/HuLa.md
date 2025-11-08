@@ -1,6 +1,6 @@
 ---
 project: HuLa
-stars: 4415
+stars: 4538
 description: |-
     🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）
 url: https://github.com/HuLaSpark/HuLa
@@ -103,6 +103,7 @@ url: https://github.com/HuLaSpark/HuLa
 | Linux | Ubuntu 22.0+ |
 | iOS/iPadOS | iOS 9.0+, iPadOS 9.0+ |
 | Android | Android 8.0+ |
+| Web | ⚠️暂不支持(需要自定义移除对桌面功能) |
 
 ## 📝 项目介绍
 
@@ -380,6 +381,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/应用名称.app
 | 2025-04-01 | **墨** | `¥88.88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
 | 2025-02-8 | **邓伟** | `¥88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
 | 2025-02-7 | **dennis** | `¥80` | ![Gitee赞赏](https://img.shields.io/badge/Gitee赞赏-C71D23?style=flat&logo=gitee&logoColor=white) |
+| 2025-11-5 | **匿名用户** | `¥66` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
 | 2025-02-6 | **小二** | `¥62` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
 | 2025-05-15 | **孤鸿影** | `¥56` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
 

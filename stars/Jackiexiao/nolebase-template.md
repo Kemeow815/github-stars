@@ -1,6 +1,6 @@
 ---
 project: nolebase-template
-stars: 52
+stars: 53
 description: |-
     A minimal repo for template. Modify from https://github.com/nolebase/nolebase
 url: https://github.com/Jackiexiao/nolebase-template

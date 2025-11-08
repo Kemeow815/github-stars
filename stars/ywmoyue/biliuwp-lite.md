@@ -1,6 +1,6 @@
 ---
 project: biliuwp-lite
-stars: 985
+stars: 989
 description: |-
     哔哩哔哩UWP Lite
 url: https://github.com/ywmoyue/biliuwp-lite

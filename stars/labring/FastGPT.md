@@ -1,6 +1,6 @@
 ---
 project: FastGPT
-stars: 26169
+stars: 26224
 description: |-
     FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
 url: https://github.com/labring/FastGPT
@@ -121,10 +121,6 @@ https://github.com/labring/FastGPT/assets/15308462/7d3a38df-eb0e-4388-9250-2409b
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-7d09f1.svg" alt="#" align="right">
 </a>
-
-## 🏘️ 加入我们
-
-我们正在寻找志同道合的小伙伴，加速 FastGPT 的发展。你可以通过 [FastGPT 2025 招聘](https://fael3z0zfze.feishu.cn/wiki/P7FOwEmPziVcaYkvVaacnVX1nvg)了解 FastGPT 的招聘信息。
 
 ## 💪 相关项目
 

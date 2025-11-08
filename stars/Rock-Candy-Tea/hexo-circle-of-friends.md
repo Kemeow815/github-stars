@@ -1,6 +1,6 @@
 ---
 project: hexo-circle-of-friends
-stars: 298
+stars: 299
 description: |-
     Python gets the friend's articles from hexo's friend-links
 url: https://github.com/Rock-Candy-Tea/hexo-circle-of-friends

@@ -1,8 +1,8 @@
 ---
 project: Mizuki
-stars: 553
+stars: 596
 description: |-
-    Material Design 3设计风格的二次元博客主题！使用Astro+Tailwindcss
+    融合Android原生质感与二次元美学：Material Design 3规范下的Astro博客主题（Tailwind CSS实现）
 url: https://github.com/matsuzaka-yuki/Mizuki
 ---
 

@@ -1,8 +1,8 @@
 ---
 project: TrendRadar
-stars: 4850
+stars: 5095
 description: |-
-    🎯 告别信息过载，AI 助你看懂热点 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、微博等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点
+    🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点
 url: https://github.com/sansan0/TrendRadar
 ---
 
@@ -55,7 +55,7 @@ url: https://github.com/sansan0/TrendRadar
 - 感谢**关注[公众号](#问题答疑与1元点赞)** 的读者们，你们的留言、点赞、分享和推荐等积极互动让内容更有温度😎。  
 
 <details>
-<summary>👉 点击查看<strong>致谢名单</strong> (当前 <strong>🔥43🔥</strong> 位)</summary>
+<summary>👉 点击查看<strong>致谢名单</strong> (当前 <strong>🔥47🔥</strong> 位)</summary>
 
 ### 数据支持
 
@@ -75,6 +75,10 @@ url: https://github.com/sansan0/TrendRadar
 
 |           点赞人            |  金额  |  日期  |             备注             |
 | :-------------------------: | :----: | :----: | :-----------------------: |
+|           *杰          |  5  | 2025.11.08  |        | 
+|           *点          |  8.80  | 2025.11.07  |   开发不易，支持一下。     | 
+|           Q*Q          |  6.66  | 2025.11.07  |   感谢开源！     | 
+|           C*e          |  1  | 2025.11.05  |        | 
 |           Peter Fan          |  20  | 2025.10.29  |        | 
 |           M*n          |  1  | 2025.10.27  |      感谢开源  | 
 |           *许          |  8.88  | 2025.10.23  |      老师 小白一枚，摸了几天了还没整起来，求教  | 
@@ -1684,7 +1688,7 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 2. 检查项目依赖是否安装：
    ```bash
    # 重新运行安装脚本
-   # Windows: setup-windows.bat
+   # Windows: setup-windows.bat 或者 setup-windows-en.bat
    # Mac/Linux: ./setup-mac.sh
    ```
 

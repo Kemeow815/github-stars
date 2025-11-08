@@ -1,6 +1,6 @@
 ---
 project: vitepress-open17
-stars: 41
+stars: 42
 description: |-
     为 VitePress 注入全新的博客体验 | 简洁 · 优雅 · 强大
 url: https://github.com/open17/vitepress-open17

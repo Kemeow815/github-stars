@@ -1,6 +1,6 @@
 ---
 project: TG-RUbot
-stars: 35
+stars: 34
 description: |-
     null
 url: https://github.com/Russellgogogogo/TG-RUbot

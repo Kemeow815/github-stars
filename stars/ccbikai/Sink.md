@@ -1,6 +1,6 @@
 ---
 project: Sink
-stars: 5701
+stars: 5758
 description: |-
     ⚡ A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.
 url: https://github.com/ccbikai/Sink

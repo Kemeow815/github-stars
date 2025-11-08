@@ -1,6 +1,6 @@
 ---
 project: phanpy
-stars: 1332
+stars: 1338
 description: |-
     A minimalistic opinionated Mastodon web client
 url: https://github.com/cheeaun/phanpy

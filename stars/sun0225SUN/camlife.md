@@ -1,6 +1,6 @@
 ---
 project: camlife
-stars: 98
+stars: 102
 description: |-
     Capture life through the Camera.
 url: https://github.com/sun0225SUN/camlife
@@ -99,8 +99,7 @@ url: https://github.com/sun0225SUN/camlife
 
 ## 🍭 Community
 
-- [Discord](https://discord.com/invite/fxARGMmg)
-- [Telegram](https://t.me/sunguoqi)
+- [Telegram](https://t.me/guoqisun)
 
 ## 💡 Inspired Projects
 

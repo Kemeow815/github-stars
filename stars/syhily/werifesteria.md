@@ -1,9 +1,9 @@
 ---
-project: yufan.me
+project: werifesteria
 stars: 55
 description: |-
     My Chinese blog which captures my past memories and thoughts.
-url: https://github.com/syhily/yufan.me
+url: https://github.com/syhily/werifesteria
 ---
 
 <!-- markdownlint-disable MD001 MD033 MD041 -->
@@ -121,21 +121,21 @@ The [content](src/content) of this blog's posts is licensed under the
 
 ### Logo Fonts License
 
-The fonts used in the blog logo include [M+A1](https://booth.pm/ja/items/2347968)([license](licenses/LICENSE.m-plus.txt)),
-[UnGungseo](https://kldp.net/unfonts)([license](licenses/LICENSE.un-fonts.txt)),
-and [Iroha Mochi](https://modi.jpn.org/font_iroha-mochi.php)([license](licenses/LICENSE.iroha-mochi.txt)).
+- [M+A1](https://booth.pm/ja/items/2347968)([license](licenses/LICENSE.m-plus.txt))
+- [UnGungseo](https://kldp.net/unfonts)([license](licenses/LICENSE.un-fonts.txt))
+- [Iroha Mochi](https://modi.jpn.org/font_iroha-mochi.php)([license](licenses/LICENSE.iroha-mochi.txt))
 
 All of these fonts are free for commercial use.
 
 ### Web Font License
 
-[OPPOSans 4.0](https://open.oppomobile.com/new/developmentDoc/info?id=13223)
-is used to render Open Graph images on the blog, with its [license](licenses/LICENSE.opposans.txt)
+- [OPPOSans 4.0](https://open.oppomobile.com/new/developmentDoc/info?id=13223)([license](licenses/LICENSE.opposans.txt))
+- [OPPOSerif](https://open.oppomobile.com/new/developmentDoc/info?id=13223)([license](licenses/LICENSE.opposans.txt))
+- [Hack](https://github.com/source-foundry/Hack)([license](licenses/LICENSE.hack.txt))
 
 ### Open Graph Font License
 
-[NoteSans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)
-is used for rendering Open Graph images, with its [license](licenses/LICENSE.notosans.txt)
+- [NoteSans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)([license](licenses/LICENSE.notosans.txt))
 
 ### Third Party Codes License
 
