@@ -1,6 +1,6 @@
 ---
 project: vitepress
-stars: 63
+stars: 64
 description: |-
     📝 Soothing pastel theme for VitePress
 url: https://github.com/catppuccin/vitepress

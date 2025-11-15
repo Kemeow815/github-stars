@@ -1,6 +1,6 @@
 ---
 project: Cloudflare-vless-trojan
-stars: 12306
+stars: 12382
 description: |-
     CF-workers/pages代理脚本【Vless与Trojan】：支持nat64自动生成proxyip，一键自建proxyip与CF反代IP，CF优选官方IP三地区应用脚本，自动输出美、亚、欧最佳优选IP
 url: https://github.com/yonggekkk/Cloudflare-vless-trojan
@@ -44,7 +44,7 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 | :--- | :--- | :--- | :--- | :--- |
 | 1、必要的uuid | uuid (小写字母) |符合uuid规定格式 |万人骑uuid：86c50e3a-5b87-49dd-bd20-03c7f2735e40|建议|
 | 2、全局节点能上CF类网站 | proxyip (小写字母) |443端口：ipv4地址、[ipv6地址]、域名。非443端口：IPV4地址:端口、[IPV6地址]:端口、域名:端口|proxyip：留空|可选|
-| 3、订阅节点：优选IP | ip1到ip13，共13个 |CF官方IP、CF反代IP、CF优选域名| CF官方不同地区的visa域名|可选|
+| 3、订阅节点：优选IP | ip1到ip13，共13个 |CF官方IP、CF反代IP、CF优选域名| ygkkk的CF官方域名|可选|
 | 4、订阅节点：优选IP对应端口 | pt1到pt13，共13个 |CF13个标准端口、反代IP对应任意端口| CF13个标准端口|可选|
 
 
@@ -54,7 +54,7 @@ url: https://github.com/yonggekkk/Cloudflare-vless-trojan
 | :--- | :--- | :--- | :--- | :--- |
 | 1、必要的密码 | pswd (小写字母) |建议字母数字 |万人骑密码：trojan|建议|
 | 2、全局节点能上CF类网站 | proxyip (小写字母) |443端口：ipv4地址、[ipv6地址]、域名。非443端口：IPV4地址:端口、[IPV6地址]:端口、域名:端口|proxyip：留空|可选|
-| 3、订阅节点：优选IP | ip1到ip13，共13个 |CF官方IP、CF反代IP、CF优选域名| CF官方不同地区的visa域名|可选|
+| 3、订阅节点：优选IP | ip1到ip13，共13个 |CF官方IP、CF反代IP、CF优选域名| ygkkk的CF官方域名|可选|
 | 4、订阅节点：优选IP对应端口 | pt1到pt13，共13个 |CF13个标准端口、反代IP对应任意端口| CF13个标准端口|可选|
 
 #### 订阅节点中IP与端口的变量（3与4）特别注意 【新手小白可无视变量（3与4），使用默认即可】
@@ -209,7 +209,10 @@ CDN优选域名：yg1.ygkkk.dpdns.org (yg1中的1，可换为1-11中任意数字
 
 ## 七：客户端推荐
 
-#### 启用分片(Fragment)功能的好处：无视域名被墙TLS阻断，从而让workers等被墙的域名支持TLS节点
+#### 启用分片(Fragment)功能的好处：无视域名被墙TLS阻断，从而让workers等被墙的域名支持TLS节点。
+
+#### 待验证：目前workers的TLS分片功能可能已失效
+
 #### 提示：未被墙TLS阻断的自定义域名或pages域名无需开启分片就可使用TLS节点
  
 目前支持该功能的平台客户端如下（点击名称即跳转到官方下载地址）

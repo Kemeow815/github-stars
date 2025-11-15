@@ -1,6 +1,6 @@
 ---
 project: YuyanIme
-stars: 2671
+stars: 2699
 description: |-
     语燕输入法-一款基于Rime定制开发的九键、全拼、双拼、手写、火星文等方案、支持悬浮、单手、数字行等键盘模式的中文输入法
 url: https://github.com/gurecn/YuyanIme

@@ -1,6 +1,6 @@
 ---
 project: Cytoid
-stars: 1060
+stars: 1064
 description: |-
     A community-driven touchscreen music game.
 url: https://github.com/Cytoid/Cytoid

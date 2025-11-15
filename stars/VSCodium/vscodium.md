@@ -1,6 +1,6 @@
 ---
 project: vscodium
-stars: 29061
+stars: 29132
 description: |-
     binary releases of VS Code without MS branding/telemetry/licensing
 url: https://github.com/VSCodium/vscodium

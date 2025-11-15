@@ -1,6 +1,6 @@
 ---
 project: hexo-theme-volantis
-stars: 2166
+stars: 2169
 description: |-
     A Wonderful Theme for Hexo.
 url: https://github.com/volantis-x/hexo-theme-volantis

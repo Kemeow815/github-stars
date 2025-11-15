@@ -1,6 +1,6 @@
 ---
 project: LibreTV
-stars: 12337
+stars: 12418
 description: |-
     一分钟搭建影视站，支持Vercel/Docker等部署方式
 url: https://github.com/LibreSpark/LibreTV

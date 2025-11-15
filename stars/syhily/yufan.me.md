@@ -1,9 +1,9 @@
 ---
-project: werifesteria
-stars: 55
+project: yufan.me
+stars: 56
 description: |-
     My Chinese blog which captures my past memories and thoughts.
-url: https://github.com/syhily/werifesteria
+url: https://github.com/syhily/yufan.me
 ---
 
 <!-- markdownlint-disable MD001 MD033 MD041 -->

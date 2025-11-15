@@ -1,6 +1,6 @@
 ---
 project: ned.im
-stars: 154
+stars: 155
 description: |-
     My personal website
 url: https://github.com/needim/ned.im

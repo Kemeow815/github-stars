@@ -1,6 +1,6 @@
 ---
 project: CloudPaste
-stars: 1479
+stars: 1527
 description: |-
     A Cloudflare-based online text/large file sharing platform that supports multiple syntax Markdown rendering, self-destructing messages, S3 aggregated storage, password protection, and more. It can be mounted as WebDAV and supports Docker deployment.
 url: https://github.com/ling-drag0n/CloudPaste
@@ -136,10 +136,10 @@ Before starting deployment, please ensure you have prepared the following:
 - [ ] If using R2: Activate **Cloudflare R2** service and create a bucket (requires payment method)
 - [ ] If using Vercel: Register for a [Vercel](https://vercel.com) account
 - [ ] Configuration information for other S3 storage services:
-    - `S3_ACCESS_KEY_ID`
-    - `S3_SECRET_ACCESS_KEY`
-    - `S3_BUCKET_NAME`
-    - `S3_ENDPOINT`
+   - `S3_ACCESS_KEY_ID`
+   - `S3_SECRET_ACCESS_KEY`
+   - `S3_BUCKET_NAME`
+   - `S3_ENDPOINT`
 
 **The following tutorial may be outdated. For specific details, refer to: [Cloudpaste Online Deployment Documentation](https://doc.cloudpaste.qzz.io)**
 
@@ -149,11 +149,11 @@ Before starting deployment, please ensure you have prepared the following:
 ### 📑 Table of Contents
 
 - [Action Automated Deployment](#Action-Automated-Deployment)
-    - [Backend Automated Deployment](#Backend-Automated-Deployment)
-    - [Frontend Automated Deployment](#Frontend-Automated-Deployment)
+   - [Backend Automated Deployment](#Backend-Automated-Deployment)
+   - [Frontend Automated Deployment](#Frontend-Automated-Deployment)
 - [Manual Deployment](#Manual-Deployment)
-    - [Backend Manual Deployment](#Backend-Manual-Deployment)
-    - [Frontend Manual Deployment](#Frontend-Manual-Deployment)
+   - [Backend Manual Deployment](#Backend-Manual-Deployment)
+   - [Frontend Manual Deployment](#Frontend-Manual-Deployment)
 - [ClawCloud CloudPaste Deployment Tutorial](#ClawCloud-CloudPaste-Deployment-Tutorial)
 
 ---
@@ -208,10 +208,10 @@ Deployment is automatically triggered whenever files in the `frontend` directory
 3. Click "Settings" → "Environment variables"
 4. Add environment variable:
 
-    - Name: `VITE_BACKEND_URL`
-    - Value: Your backend Worker URL (e.g., `https://cloudpaste-backend.your-username.workers.dev`) without trailing "/". It is recommended to use a custom worker backend domain.
+   - Name: `VITE_BACKEND_URL`
+   - Value: Your backend Worker URL (e.g., `https://cloudpaste-backend.your-username.workers.dev`) without trailing "/". It is recommended to use a custom worker backend domain.
 
-    - **<span style="color:red">Make sure to enter the complete backend domain name in "https://xxxx.com" format</span>**
+   - **<span style="color:red">Make sure to enter the complete backend domain name in "https://xxxx.com" format</span>**
 
 5. Important step: Then run the frontend workflow again to complete loading the backend domain!!!
 
@@ -335,12 +335,12 @@ cd CloudPaste/backend
 
    **Method 2**: Via Cloudflare Dashboard
 
-    1. Log in to [Cloudflare Dashboard](https://dash.cloudflare.com/)
-    2. Select "Pages"
-    3. Click "Create a project" → "Direct Upload"
-    4. Upload files from the `dist` directory
-    5. Set project name (e.g., "cloudpaste-frontend")
-    6. Click "Save and Deploy"
+   1. Log in to [Cloudflare Dashboard](https://dash.cloudflare.com/)
+   2. Select "Pages"
+   3. Click "Create a project" → "Direct Upload"
+   4. Upload files from the `dist` directory
+   5. Set project name (e.g., "cloudpaste-frontend")
+   6. Click "Save and Deploy"
 
 #### Vercel
 
@@ -407,8 +407,8 @@ Then the frontend, as shown in the figure (for reference only):
 ### 📑 Table of Contents
 
 - [Docker Command Line Deployment](#Docker-Command-Line-Deployment)
-    - [Backend Docker Deployment](#Backend-Docker-Deployment)
-    - [Frontend Docker Deployment](#Frontend-Docker-Deployment)
+   - [Backend Docker Deployment](#Backend-Docker-Deployment)
+   - [Frontend Docker Deployment](#Frontend-Docker-Deployment)
 - [Docker Compose One-Click Deployment](#Docker-Compose-One-Click-Deployment)
 
 ---
@@ -485,36 +485,36 @@ Using Docker Compose allows you to deploy both frontend and backend services wit
 version: "3.8"
 
 services:
-  frontend:
-    image: dragon730/cloudpaste-frontend:latest
-    environment:
-      - BACKEND_URL=https://xxx.com # Fill in the backend service address
-    ports:
-      - "8080:80" #"127.0.0.1:8080:80"
-    depends_on:
-      - backend # Depends on backend service
-    networks:
-      - cloudpaste-network
-    restart: unless-stopped
+   frontend:
+      image: dragon730/cloudpaste-frontend:latest
+      environment:
+         - BACKEND_URL=https://xxx.com # Fill in the backend service address
+      ports:
+         - "8080:80" #"127.0.0.1:8080:80"
+      depends_on:
+         - backend # Depends on backend service
+      networks:
+         - cloudpaste-network
+      restart: unless-stopped
 
-  backend:
-    image: dragon730/cloudpaste-backend:latest
-    environment:
-      - NODE_ENV=production
-      - RUNTIME_ENV=docker
-      - PORT=8787
-      - ENCRYPTION_SECRET=custom-key # Please modify this to your own security key
-    volumes:
-      - ./sql_data:/data # Data persistence
-    ports:
-      - "8787:8787" #"127.0.0.1:8787:8787"
-    networks:
-      - cloudpaste-network
-    restart: unless-stopped
+   backend:
+      image: dragon730/cloudpaste-backend:latest
+      environment:
+         - NODE_ENV=production
+         - RUNTIME_ENV=docker
+         - PORT=8787
+         - ENCRYPTION_SECRET=custom-key # Please modify this to your own security key
+      volumes:
+         - ./sql_data:/data # Data persistence
+      ports:
+         - "8787:8787" #"127.0.0.1:8787:8787"
+      networks:
+         - cloudpaste-network
+      restart: unless-stopped
 
 networks:
-  cloudpaste-network:
-    driver: bridge
+   cloudpaste-network:
+      driver: bridge
 ```
 
 2. Start the services
@@ -629,13 +629,13 @@ server {
 
 ```json
 [
-  {
-    "AllowedOrigins": ["http://localhost:3000", "https://replace-with-your-frontend-domain"],
-    "AllowedMethods": ["GET", "PUT", "POST", "DELETE", "HEAD"],
-    "AllowedHeaders": ["*"],
-    "ExposeHeaders": ["ETag"],
-    "MaxAgeSeconds": 3600
-  }
+   {
+      "AllowedOrigins": ["http://localhost:3000", "https://replace-with-your-frontend-domain"],
+      "AllowedMethods": ["GET", "PUT", "POST", "DELETE", "HEAD"],
+      "AllowedHeaders": ["*"],
+      "ExposeHeaders": ["ETag"],
+      "MaxAgeSeconds": 3600
+   }
 ]
 ```
 
@@ -769,27 +769,27 @@ Replace <bucketName> with your bucket name. For allowedOrigins in the cross-orig
 
 5. **Configure MinIO in CloudPaste**
 
-    - Log in to CloudPaste admin panel
-    - Go to "S3 Storage Settings" → "Add Storage Configuration"
-    - Select "Other S3-compatible service" as provider
-    - Enter details:
-        - Name: Custom name
-        - Endpoint URL: MinIO service URL (e.g., `https://minio.example.com`)
-        - Bucket Name: Pre-created bucket
-        - Access Key ID: Your Access Key
-        - Secret Key: Your Secret Key
-        - Region: Leave empty
-        - Path-Style Access: MUST ENABLE!
-    - Click "Test Connection" to verify
-    - Save settings
+   - Log in to CloudPaste admin panel
+   - Go to "S3 Storage Settings" → "Add Storage Configuration"
+   - Select "Other S3-compatible service" as provider
+   - Enter details:
+      - Name: Custom name
+      - Endpoint URL: MinIO service URL (e.g., `https://minio.example.com`)
+      - Bucket Name: Pre-created bucket
+      - Access Key ID: Your Access Key
+      - Secret Key: Your Secret Key
+      - Region: Leave empty
+      - Path-Style Access: MUST ENABLE!
+   - Click "Test Connection" to verify
+   - Save settings
 
 6. **Troubleshooting**
 
-    - **Note**: If using Cloudflare's CDN, you may need to add `proxy_set_header Accept-Encoding "identity"`, and there are caching issues to consider. It is recommended to use only DNS resolution.
-    - **403 Error**: Ensure reverse proxy includes `proxy_cache off` & `proxy_buffering off`
-    - **Preview Issues**: Verify `MINIO_SERVER_URL` & `MINIO_BROWSER_REDIRECT_URL` are correctly set
-    - **Upload Failures**: Check CORS settings; allowed origins must include frontend domain
-    - **Console Unreachable**: Verify WebSocket config, especially `Connection "upgrade"`
+   - **Note**: If using Cloudflare's CDN, you may need to add `proxy_set_header Accept-Encoding "identity"`, and there are caching issues to consider. It is recommended to use only DNS resolution.
+   - **403 Error**: Ensure reverse proxy includes `proxy_cache off` & `proxy_buffering off`
+   - **Preview Issues**: Verify `MINIO_SERVER_URL` & `MINIO_BROWSER_REDIRECT_URL` are correctly set
+   - **Upload Failures**: Check CORS settings; allowed origins must include frontend domain
+   - **Console Unreachable**: Verify WebSocket config, especially `Connection "upgrade"`
 
 ## More S3-related configurations to come......
 
@@ -806,10 +806,10 @@ CloudPaste provides simple WebDAV protocol support, allowing you to mount storag
 
 - **WebDAV Base URL**: `https://your-backend-domain/dav`
 - **Supported Authentication Methods**:
-    - Basic Authentication (username+password)
+   - Basic Authentication (username+password)
 - **Supported Permission Types**:
-    - Administrator accounts - Full operation permissions
-    - API keys - Requires enabled mount permission (mount_permission)
+   - Administrator accounts - Full operation permissions
+   - API keys - Requires enabled mount permission (mount_permission)
 
 ### Permission Configuration
 
@@ -828,8 +828,8 @@ For a more secure access method, it is recommended to create a dedicated API key
 2. Navigate to "API Key Management"
 3. Create a new API key, **ensure "Mount Permission" is enabled**
 4. Usage method:
-    - **Username**: API key value
-    - **Password**: The same API key value as the username
+   - **Username**: API key value
+   - **Password**: The same API key value as the username
 
 ### NGINX Reverse Proxy Configuration
 
@@ -869,20 +869,20 @@ location /dav {
 
 1. **Connection Problems**:
 
-    - Confirm the WebDAV URL format is correct
-    - Verify that authentication credentials are valid
-    - Check if the API key has mount permission
+   - Confirm the WebDAV URL format is correct
+   - Verify that authentication credentials are valid
+   - Check if the API key has mount permission
 
 2. **Permission Errors**:
 
-    - Confirm the account has the required permissions
-    - Administrator accounts should have full permissions
-    - API keys need to have mount permission specifically enabled
+   - Confirm the account has the required permissions
+   - Administrator accounts should have full permissions
+   - API keys need to have mount permission specifically enabled
 
 3. **⚠️⚠️ WebDAV Upload Issues**:
 
-    - The upload size for webdav deployed by Workers may be limited by CF's CDN restrictions to around 100MB, resulting in a 413 error.
-    - For Docker deployments, just pay attention to the nginx proxy configuration, any upload mode is acceptable
+   - The upload size for webdav deployed by Workers may be limited by CF's CDN restrictions to around 100MB, resulting in a 413 error.
+   - For Docker deployments, just pay attention to the nginx proxy configuration, any upload mode is acceptable
 
 </details>
 
@@ -940,8 +940,8 @@ location /dav {
 
 4. **Configure environment variables**
 
-    - In the `backend` directory, create a `wrangler.toml` file to set development environment variables
-    - In the `frontend` directory, configure the `.env.development` file to set frontend environment variables
+   - In the `backend` directory, create a `wrangler.toml` file to set development environment variables
+   - In the `frontend` directory, configure the `.env.development` file to set frontend environment variables
 
 5. **Start development servers**
 
@@ -959,37 +959,62 @@ location /dav {
 
 ```
 CloudPaste/
-├── frontend/                    # Frontend Vue.js application
+├── frontend/                         # Frontend Vite + Vue 3 SPA
 │   ├── src/
-│   │   ├── api/                 # API clients and service layer
-│   │   ├── components/          # Vue components
-│   │   ├── composables/         # Vue 3 Composition API
-│   │   ├── stores/              # Pinia state management
-│   │   ├── views/               # Page views
-│   │   ├── router/              # Vue Router configuration
-│   │   ├── i18n/                # Internationalization resource files
-│   │   ├── utils/               # Utility functions
-│   │   └── assets/              # Static assets
+│   │   ├── api/                      # HTTP client & API services (no domain semantics)
+│   │   ├── modules/                  # Domain modules layer (by business area)
+│   │   │   ├── paste/                # Text sharing (editor / public view / admin)
+│   │   │   ├── fileshare/            # File sharing (public page / admin)
+│   │   │   ├── fs/                   # Mounted file system explorer (MountExplorer)
+│   │   │   ├── upload/               # Upload controller & upload views
+│   │   │   ├── storage-core/         # Storage drivers & Uppy wiring (low-level abstraction)
+│   │   │   ├── security/             # Frontend auth bridge & Authorization header helpers
+│   │   │   ├── pwa-offline/          # PWA offline queue & state
+│   │   │   └── admin/                # Admin panel (dashboard / settings / key management, etc.)
+│   │   ├── components/               # Reusable, cross-module UI components (no module imports)
+│   │   ├── composables/              # Shared composition APIs (file-system / preview / upload, etc.)
+│   │   ├── stores/                   # Pinia stores (auth / fileSystem / siteConfig, etc.)
+│   │   ├── router/                   # Vue Router configuration (single entry for all views)
+│   │   ├── pwa/                      # PWA state & installation prompts
+│   │   ├── utils/                    # Utilities (clipboard / time / file icons, etc.)
+│   │   ├── styles/                   # Global styles & Tailwind config entry
+│   │   └── assets/                   # Static assets
+│   ├── eslint.config.cjs             # Frontend ESLint config (including import boundaries)
+│   ├── vite.config.js                # Vite build configuration
 │   └── package.json
-├── backend/                     # Cloudflare Workers backend
+├── backend/                          # Backend (Cloudflare Workers / Docker runtime)
 │   ├── src/
-│   │   ├── routes/              # API routing layer
-│   │   ├── services/            # Business logic layer
-│   │   ├── storage/             # Storage abstraction layer (S3 drivers, mount management)
-│   │   ├── middlewares/         # Middleware layer
-│   │   ├── webdav/              # WebDAV protocol implementation
-│   │   ├── repositories/        # Data access layer
-│   │   ├── cache/               # Cache management system
-│   │   ├── constants/           # Constants definition
-│   │   └── utils/               # Utility functions
-│   ├── workers.js                # Cloudflare Workers entry file
-│   ├── schema.sql               # D1 database schema definition
-│   ├── wrangler.toml            # Cloudflare Workers configuration
+│   │   ├── routes/                   # HTTP routing layer (fs / files / pastes / admin / system, etc.)
+│   │   │   ├── fs/                   # Mount FS APIs (list / read / write / search / share)
+│   │   │   ├── files/                # File sharing APIs (public / protected)
+│   │   │   ├── pastes/               # Text sharing APIs (public / protected)
+│   │   │   ├── adminRoutes.js        # Generic admin routes
+│   │   │   ├── apiKeyRoutes.js       # API key management routes
+│   │   │   ├── mountRoutes.js        # Mount configuration routes
+│   │   │   ├── systemRoutes.js       # System settings & dashboard stats
+│   │   │   └── fsRoutes.js           # Unified FS entry aggregation
+│   │   ├── services/                 # Domain services (pastes / files / system / apiKey, etc.)
+│   │   ├── security/                 # Auth + authorization (AuthService / securityContext / authorize / policies)
+│   │   ├── webdav/                   # WebDAV implementation & path handling
+│   │   ├── storage/                  # Storage abstraction (S3 drivers, mount manager, file system ops)
+│   │   ├── repositories/             # Data access layer (D1 + SQLite repositories)
+│   │   ├── cache/                    # Cache & invalidation (mainly FS)
+│   │   ├── constants/                # Constants (ApiStatus / Permission / DbTables / UserType, etc.)
+│   │   ├── http/                     # Unified error types & response helpers
+│   │   └── utils/                    # Utilities (common / crypto / environment, etc.)
+│   ├── schema.sql                    # D1 / SQLite schema bootstrap
+│   ├── wrangler.toml                 # Cloudflare Workers / D1 configuration
 │   └── package.json
-├── docker/                      # Docker deployment configuration
-├── Api-doc.md                   # Complete API documentation
-├── Api-s3_direct.md             # S3 direct upload API documentation
-└── README.md                    # Project documentation
+├── docs/                             # Architecture & design docs
+│   ├── frontend-architecture-implementation.md    # Frontend layering & modules/* design
+│   ├── frontend-architecture-optimization-plan.md # Frontend optimization plan (Phase 2/3)
+│   ├── auth-permissions-design.md                # Auth & permissions system design
+│   └── backend-error-handling-refactor.md        # Backend error handling refactor design
+├── docker/                           # Docker & Compose deployment configs
+├── images/                           # Screenshots used in README
+├── Api-doc.md                        # API overview
+├── Api-s3_direct.md                  # S3 direct upload API docs
+└── README.md                         # Main project README
 ```
 
 ### Custom Docker Build

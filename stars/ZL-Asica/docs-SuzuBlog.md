@@ -68,7 +68,6 @@ If you use SuzuBlog in your work, please cite it using the metadata from the [CI
   url = {https://github.com/ZL-Asica/SuzuBlog},
   doi = {10.5281/zenodo.15377307},
   license = {AGPL-3.0},
-  note = {ORCID: 0009-0008-7221-2324}
 }
 ```
 

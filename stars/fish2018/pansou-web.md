@@ -1,6 +1,6 @@
 ---
 project: pansou-web
-stars: 128
+stars: 133
 description: |-
     一个PanSou的简约版页面
 url: https://github.com/fish2018/pansou-web

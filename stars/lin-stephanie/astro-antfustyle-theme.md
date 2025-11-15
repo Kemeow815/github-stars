@@ -1,6 +1,6 @@
 ---
 project: astro-antfustyle-theme
-stars: 197
+stars: 198
 description: |-
     A flexible and feature-rich Astro theme for developers and creators.
 url: https://github.com/lin-stephanie/astro-antfustyle-theme

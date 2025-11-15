@@ -1,6 +1,6 @@
 ---
 project: Personal-page
-stars: 192
+stars: 191
 description: |-
     🍊个人简介页面模板，女生自用99新（划掉），带二维码、打赏页、收款页。个人简介、个人介绍网页.
 url: https://github.com/Jiaocz/Personal-page

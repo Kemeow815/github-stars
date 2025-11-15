@@ -1,6 +1,6 @@
 ---
 project: travellings
-stars: 1470
+stars: 1476
 description: |-
     「开往 Travellings」是一个友链接力项目，旨在通过网络跳转的方式将流量引入那些鲜为人知的独立站点。 每当用户访问加入该项目的网页时，点击该网页上的“开往”按钮将随机跳转到另一个加入该项目的网页。
 url: https://github.com/travellings-link/travellings

@@ -1,6 +1,6 @@
 ---
 project: HexoHub
-stars: 78
+stars: 88
 description: |-
     A windows desktop application built for Hexo   一个桌面端hexo集成应用程序
 url: https://github.com/forever218/HexoHub

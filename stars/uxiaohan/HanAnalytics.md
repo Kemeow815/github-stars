@@ -1,6 +1,6 @@
 ---
 project: HanAnalytics
-stars: 250
+stars: 252
 description: |-
     一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行
 url: https://github.com/uxiaohan/HanAnalytics

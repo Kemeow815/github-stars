@@ -1,6 +1,6 @@
 ---
 project: vitepress-blog-pure
-stars: 274
+stars: 273
 description: |-
     a vitepress theme for blog, demo ↓
 url: https://github.com/airene/vitepress-blog-pure

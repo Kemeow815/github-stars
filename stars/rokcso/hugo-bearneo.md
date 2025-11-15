@@ -1,6 +1,6 @@
 ---
 project: hugo-bearneo
-stars: 51
+stars: 52
 description: |-
     A feature-rich Hugo theme ported from Hugo Bear Blog, originally based on ʕ•ᴥ•ʔ Bear Blog, offering upvote buttons, elegant TOC, and UX refinements.
 url: https://github.com/rokcso/hugo-bearneo

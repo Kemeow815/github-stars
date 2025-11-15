@@ -2,7 +2,7 @@
 project: cfblog-theme-akina
 stars: 2
 description: |-
-    null
+    仿 Akina 风格
 url: https://github.com/jkjoy/cfblog-theme-akina
 ---
 

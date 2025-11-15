@@ -1,6 +1,6 @@
 ---
 project: home.github.io
-stars: 893
+stars: 896
 description: |-
     个人主页
 url: https://github.com/dmego/home.github.io

@@ -1,6 +1,6 @@
 ---
 project: Miracle
-stars: 14
+stars: 15
 description: |-
     📄 Miracle Blog Theme (Powered by VitePress) QwQ
 url: https://github.com/silvaire-qwq/Miracle

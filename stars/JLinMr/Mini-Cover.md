@@ -1,6 +1,6 @@
 ---
 project: Mini-Cover
-stars: 496
+stars: 501
 description: |-
     Mini-Cover：简洁的在线生成封面网站，专为博客、短视频、社交媒体等生成个性化封面
 url: https://github.com/JLinMr/Mini-Cover
@@ -30,8 +30,8 @@ url: https://github.com/JLinMr/Mini-Cover
   </a>
 </p>
 <p align="center">🎮 在线演示：
-  <a href="https://cover.ruom.top" target="_blank">
-  https://cover.ruom.top
+  <a href="https://cover.bsgun.cn" target="_blank">
+  https://cover.bsgun.cn
   </a>
 </p>
 

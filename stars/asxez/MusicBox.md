@@ -1,8 +1,8 @@
 ---
 project: MusicBox
-stars: 258
+stars: 267
 description: |-
-    一款高颜值、插件化的本地音乐播放器
+    一款高颜值、插件化的本地音乐播放器，支持Windows、MacOS、Linux系统
 url: https://github.com/asxez/MusicBox
 ---
 
@@ -17,7 +17,7 @@ url: https://github.com/asxez/MusicBox
     <a href="https://asxez.github.io/MusicBox/"><strong>🌐 官方网站</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-安装"><strong>📦下载安装</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-开发"><strong>🛠️开发指南</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-插件开发"><strong>🔧为MusicBox安装（开发）插件</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-插件开发"><strong>🔧为MusicBox开发插件</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-相关截图"><strong>📌相关截图</strong></a>
     <br />
   </p>
@@ -40,7 +40,8 @@ url: https://github.com/asxez/MusicBox
 
 - 💻️ 支持 Windows / macOS / Linux
 - ✅ 支持flac, mp3, wav, ogg, m4a, aac, wma等多种音乐格式
-- 🔧 强大的插件系统（允许在插件中实现任何功能，高权限）
+- 🔧 强大的插件系统
+- 🎶 支持音频独占
 - 📔 支持在线获取歌曲封面和歌词
 - ⌨️ 支持自定义局内/全局快捷键
 - 🎈 浅色/深色主题切换
@@ -59,10 +60,11 @@ url: https://github.com/asxez/MusicBox
 
 - ✅ 硬件加速
 - 🔄 重构插件系统
+- ✅ 修复随机播放不随机的问题
 - ❌ 歌词逐字
-- ❌ 后端构建方案
-- ❌ 修复播放列表存在的问题
-- ❌ 歌词样式调整
+- 🔄 WASAPI 音频独占功能
+- ✅ 修复播放列表存在的问题
+- 🔄 歌词样式调整
 
 
 ## 📦 安装
@@ -76,7 +78,8 @@ url: https://github.com/asxez/MusicBox
 #### 环境要求
 
 - Node.js >= 22.18.0
-- python >= 3.8
+- Python >= 3.8
+- Rust == 1.89.0
 
 从源码构建 MusicBox，请按照以下步骤操作：
 
@@ -90,20 +93,15 @@ cd MusicBox
 #### 2. 安装依赖
 
 ```bash
-# 安装主进程依赖
 npm install
-
-# 安装渲染进程依赖并构建
-cd src/renderer
-npm install
-npm run build
-cd ../..
+npm run install:renderer
+npm run install:rs
 ```
 
 #### 3. 开发模式运行
 
 ```bash
-npm run dev:main
+npm run dev
 ```
 
 #### 4. 构建应用
@@ -122,31 +120,14 @@ npm run build
 
 ## 🔧 插件开发
 
-插件系统正在重构中...
+可在 **issue** 中提交你开发的插件，我会在此链接你的仓库😋
 
-[//]: # (可在 **issue** 中提交你开发的插件，我会在此链接你的仓库😋)
-
-[//]: # ()
-[//]: # ([MusicBox 插件开发文档]&#40;src/renderer/src/js/plugin-system/docs&#41;)
+[MusicBox 插件文档](src/renderer/src/js/extensions/docs)
 
 
 ### 可用插件列表
 
-插件系统正在重构中...
-
-[//]: # (Q: 如何使用插件？)
-
-[//]: # ()
-[//]: # (A：设置中打开插件管理，导入插件即可，目前只支持单个的 JS 文件。)
-
-[//]: # ()
-[//]: # (**注意：插件间可能存在不兼容问题**)
-
-[//]: # (- [主题切换器-示例插件]&#40;src/renderer/src/js/plugin-system/examples/ThemeSwitcherPlugin.js&#41; 描述：提供多种预设主题，支持实时切换)
-
-[//]: # (- [MusicBox实时状态接口]&#40;src/renderer/src/js/plugin-system/examples/RealtimeStatusAPIPlugin.js&#41; 描述：提供 HTTP 接口获取 MusicBox 实时状态信息)
-
-[//]: # (- [背景图修改器]&#40;src/renderer/src/js/plugin-system/examples/BackgroundModifyPlugin.js&#41; 描述：可修改应用的背景图片，支持单张图片和文件夹)
+已内置部分测试插件。
 
 ## 🤝 贡献
 

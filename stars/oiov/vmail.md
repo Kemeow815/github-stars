@@ -1,6 +1,6 @@
 ---
 project: vmail
-stars: 1137
+stars: 1144
 description: |-
     📫 只需一个域名部署临时邮箱到 Cloudflare Worker，使用 D1 保存数据，支持多域名后缀，密码找回。
 url: https://github.com/oiov/vmail

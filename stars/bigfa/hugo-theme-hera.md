@@ -1,6 +1,6 @@
 ---
 project: hugo-theme-hera
-stars: 13
+stars: 14
 description: |-
     ✒️ hugo theme for blogger
 url: https://github.com/bigfa/hugo-theme-hera

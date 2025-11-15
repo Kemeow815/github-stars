@@ -1,6 +1,6 @@
 ---
 project: GithubFasterChina
-stars: 16
+stars: 17
 description: |-
     旨在提高国内的Github和steam访问速度
 url: https://github.com/2489742701/GithubFasterChina

@@ -1,6 +1,6 @@
 ---
 project: astro-blog
-stars: 6
+stars: 7
 description: |-
     🚀-基于Astro搭建的个人博客
 url: https://github.com/yang-xianzhu/astro-blog

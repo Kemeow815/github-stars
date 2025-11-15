@@ -1,6 +1,6 @@
 ---
 project: Folo
-stars: 35689
+stars: 35811
 description: |-
     🧡 Folo is the AI Reader
 url: https://github.com/RSSNext/Folo
@@ -23,7 +23,7 @@ url: https://github.com/RSSNext/Folo
     <a href="https://status.follow.is/" target="_blank"><img src="https://status.follow.is/api/badge/18/uptime?color=%2344CC10&labelColor=black&style=flat-square"/></a>
     <a href="https://github.com/RSSNext/Folo/releases"><img src="https://img.shields.io/github/downloads/RSSNext/Folo/total?color=369eff&labelColor=black&logo=github&style=flat-square&label=Downloads" /></a>
     <a href="https://x.com/intent/follow?screen_name=folo_is"><img src="https://img.shields.io/badge/Follow-blue?color=1d9bf0&logo=x&labelColor=black&style=flat-square" /></a>
-    <a href="https://discord.gg/followapp" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Ffollowapp%3Fwith_counts%3Dtrue&query=approximate_member_count&color=5865F2&label=Discord&labelColor=black&logo=discord&logoColor=white&style=flat-square"/></a>
+    <a href="https://discord.gg/AwWcAQ7euc" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Ffollowapp%3Fwith_counts%3Dtrue&query=approximate_member_count&color=5865F2&label=Discord&labelColor=black&logo=discord&logoColor=white&style=flat-square"/></a>
     <br />
     <a href="https://apps.apple.com/us/app/folo-follow-everything/id6739802604"><img src="https://img.shields.io/itunes/v/6739802604?style=flat-square&logo=apple&label=App%20Store&color=FF5C00&labelColor=black" /></a>
     <a href="https://play.google.com/store/apps/details?id=is.follow" target="_blank"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dis.follow%26gl%3DUS%26hl%3Den%26l%3DAndroid%26m%3D%24version&style=flat-square&logo=google-play&label=Google%20Play&labelColor=black&color=FF5C00"/></a>
@@ -61,14 +61,14 @@ Feel free to try it using the following methods:
 
 You can also install using the following methods maintained by our community:
 
-- If you are using Arch Linux, you can install package [folo-appimage](https://aur.archlinux.org/packages/folo-appimage) that maintained by [timochan](https://github.com/ttimochan) and [grtsinry43](https://github.com/grtsinry43).
-- If you are using Nix, you can install package [follow](https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/fo/follow/package.nix) that maintained by [iosmanthus](https://github.com/iosmanthus).
-- If you are using macOS with [Homebrew](https://brew.sh), you can install cask [folo](https://formulae.brew.sh/cask/folo) that maintained by [realSunyz](https://github.com/realSunyz).
-- If you are using Windows with [Scoop](https://scoop.sh), you can install manifest [folo](https://github.com/cscnk52/cetacea/blob/master/bucket/folo.json) that maintained by [cscnk52](https://github.com/cscnk52).
+- If you are using Arch Linux, you can install the package [folo-appimage](https://aur.archlinux.org/packages/folo-appimage) that is maintained by [timochan](https://github.com/ttimochan) and [grtsinry43](https://github.com/grtsinry43).
+- If you are using Nix, you can install the package [follow](https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/fo/follow/package.nix) that is maintained by [iosmanthus](https://github.com/iosmanthus).
+- If you are using macOS with [Homebrew](https://brew.sh), you can install the cask [folo](https://formulae.brew.sh/cask/folo) that is maintained by [realSunyz](https://github.com/realSunyz).
+- If you are using Windows with [Scoop](https://scoop.sh), you can install the manifest [folo](https://github.com/cscnk52/cetacea/blob/master/bucket/folo.json) that is maintained by [cscnk52](https://github.com/cscnk52).
 
-| [![Discord](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Ffollowapp%3Fwith_counts%3Dtrue&query=approximate_member_count&color=5865F2&label=Discord&labelColor=black&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/followapp) | Join our Discord server to connect with developers, request features, and receive support. |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
-| [![](https://img.shields.io/badge/any_text-Follow-blue?color=2CA5E0&label=_&logo=x&labelColor=black&style=flat-square)](https://x.com/intent/follow?screen_name=folo_is)                                                                                                                       | Follow us on X/Twitter for product updates and to join in on reward activities.            |
+| [![Discord](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Ffollowapp%3Fwith_counts%3Dtrue&query=approximate_member_count&color=5865F2&label=Discord&labelColor=black&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/AwWcAQ7euc) | Join our Discord server to connect with developers, request features, and receive support. |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| [![](https://img.shields.io/badge/any_text-Follow-blue?color=2CA5E0&label=_&logo=x&labelColor=black&style=flat-square)](https://x.com/intent/follow?screen_name=folo_is)                                                                                                                        | Follow us on X/Twitter for product updates and to join in on reward activities.            |
 
 > \[!IMPORTANT]
 >
@@ -115,9 +115,9 @@ You are welcome to join the open source community to build together, please chec
 
 ## 🔏 Code signing policy
 
-Folo for Windows uses free code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).
+Folo for Windows uses free code signing provided by [SignPath.io](https://about.signpath.io/), a certificate by [SignPath Foundation](https://signpath.org/).
 
-Folo for macOS and iOS are signed and notarized by [Apple Developer Program](https://developer.apple.com/programs/).
+Folo for macOS and iOS is signed and notarized by [Apple Developer Program](https://developer.apple.com/programs/).
 
 All released files are verified with [GitHub artifact attestations](https://github.com/RSSNext/Folo/attestations) to ensure their provenance and integrity.
 

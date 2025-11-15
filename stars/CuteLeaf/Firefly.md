@@ -1,8 +1,8 @@
 ---
 project: Firefly
-stars: 121
+stars: 136
 description: |-
-    Firefly 一款清新美观的 Astro 博客主题模板, Firefly is a fresh and visually appealing Astro blog theme template.
+    Firefly 一款清新美观的 Astro 博客主题模板，基于Fuwari二次开发。Firefly is a fresh and visually appealing Astro blog theme template,Secondary development based on Fuwari.
 url: https://github.com/CuteLeaf/Firefly
 ---
 
@@ -32,14 +32,9 @@ url: https://github.com/CuteLeaf/Firefly
 
 🔧 高度可配置: 大部分功能模块均可通过配置文件自定义
 
-<img alt="firefly" src="./docs/images/1.png" />
+<img alt="firefly" src="./docs/images/1.webp" />
 
-<table>
-  <tr>
-    <td valign="top"><img src="./docs/images/2.png"></td>
-    <td valign="top"><img src="./docs/images/3.png"></td>
-  </tr>
- </table>
+**更多布局配置及演示请查看：[https://firefly.cuteleaf.cn/posts/layout/firefly-layout-system/](https://firefly.cuteleaf.cn/posts/firefly-layout-system/)**
 
 ## ✨ 功能特性
 
@@ -134,14 +129,7 @@ url: https://github.com/CuteLeaf/Firefly
 
 4. **配置博客：**
    - 编辑 `src/config/` 目录下的配置文件自定义博客设置
-   - 修改 `astro.config.mjs` 中的 `site` 配置为你的实际部署域名地址，用于生成正确的 sitemap，RSS feed和SEO meta
- 
-   ```javascript
-   export default defineConfig({
-   	site: "https://your-domain.com/",  // 修改为你的实际域名
-   	// ... 其他配置
-   });
-   ```
+
 5. **启动开发服务器：**
    ```bash
    pnpm dev
@@ -211,33 +199,13 @@ lang: zh-CN      # 仅当文章语言与 `siteConfig.ts` 中的网站语言不�
 | `pnpm astro ...`                  | 执行 `astro add`, `astro check` 等指令 |
 | `pnpm astro --help`               | 显示 Astro CLI 帮助                   |
 
-## 💝 赞助
-
-如果 Firefly 对你有帮助，欢迎通过以下方式赞助支持项目的发展：
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>支付宝</strong><br/>
-      <img src="./docs/images/sponsor/alipay.png" width="200" alt="支付宝收款码" />
-    </td>
-    <td align="center">
-      <strong>微信</strong><br/>
-      <img src="./docs/images/sponsor/wechat.png" width="200" alt="微信收款码" />
-    </td>
-    <td align="center">
-      <strong>爱发电</strong><br/>
-      <img src="./docs/images/sponsor/afdian.png" width="200" alt="爱发电" />
-    </td>
-  </tr>
-</table>
-
 ## 🙏 致谢
 
 - 感谢原始 [Fuwari](https://github.com/saicaca/fuwari) 模板
-- 感谢基于Fuwari二次开发的[Mizuki](https://github.com/matsuzaka-yuki/Mizuki) 模板
+- 感谢基于Fuwari二次开发的 [Mizuki](https://github.com/matsuzaka-yuki/Mizuki) 模板
 - 感谢b站up[公公的日常](https://space.bilibili.com/3546750017080050)提供的Q版 流萤 看板娘切片数据模型
 - 使用 [Astro](https://astro.build) 和 [Tailwind CSS](https://tailwindcss.com) 构建
+- 使用 [MetingJS](https://github.com/metowolf/MetingJS) 和 [APlayer](https://github.com/MoePlayer/APlayer) 音乐播放器
 - 图标来自 [Iconify](https://iconify.design/)
 
 ## 🍀 贡献者

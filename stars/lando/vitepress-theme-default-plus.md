@@ -1,6 +1,6 @@
 ---
 project: vitepress-theme-default-plus
-stars: 47
+stars: 48
 description: |-
     The VitePress Default Theme with a little more POWAH
 url: https://github.com/lando/vitepress-theme-default-plus

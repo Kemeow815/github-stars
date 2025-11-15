@@ -1,6 +1,6 @@
 ---
 project: phanpy
-stars: 1338
+stars: 1344
 description: |-
     A minimalistic opinionated Mastodon web client
 url: https://github.com/cheeaun/phanpy
@@ -326,6 +326,7 @@ These are self-hosted by other wonderful folks.
 - [phanpy.tilde.zone](https://phanpy.tilde.zone) by [@ben@tilde.zone](https://tilde.zone/@ben)
 - [phanpy.vmst.io](https://phanpy.vmst.io/) by [@vmstan@vmst.io](https://vmst.io/@vmstan)
 - [phanpy.linuxusers.in](https://phanpy.linuxusers.in) by [@dharmik@linuxusers.in](https://linuxusers.in/dharmik)
+- [phanpy.blablalinux.be](https://phanpy.blablalinux.be) by [@blablalinux@mastodon.blablalinux.be](https://mastodon.blablalinux.be/@blablalinux)
 
 > Note: Add yours by creating a pull request.
 

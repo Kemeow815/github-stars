@@ -1,6 +1,6 @@
 ---
 project: memos
-stars: 45810
+stars: 46030
 description: |-
     An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
 url: https://github.com/usememos/memos
@@ -138,5 +138,7 @@ Memos is open-source software licensed under the [MIT License](LICENSE).
 
 **[Website](https://www.usememos.com)** • **[Documentation](https://www.usememos.com/docs)** • **[Demo](https://demo.usememos.com/)** • **[Discord](https://discord.gg/tfPJa4UmAv)** • **[X/Twitter](https://x.com/usememos)**
 
-Made with ❤️ by the Memos community
+<a href="https://vercel.com/oss">
+  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+</a>
 

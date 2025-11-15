@@ -1,6 +1,6 @@
 ---
 project: Tomato-Novel-Downloader
-stars: 634
+stars: 656
 description: |-
     番茄小说下载器不精简版
 url: https://github.com/zhongbai2333/Tomato-Novel-Downloader

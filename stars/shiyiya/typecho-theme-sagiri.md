@@ -1,6 +1,6 @@
 ---
 project: typecho-theme-sagiri
-stars: 273
+stars: 274
 description: |-
     🍰 As lovely as sagiri
 url: https://github.com/shiyiya/typecho-theme-sagiri

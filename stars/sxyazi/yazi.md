@@ -1,6 +1,6 @@
 ---
 project: yazi
-stars: 29510
+stars: 29650
 description: |-
     💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 url: https://github.com/sxyazi/yazi
